@@ -1,34 +1,24 @@
 {
- "last_run": "2026-09-03T21:58:35+00:00",
+ "last_run": "2026-09-03T23:41:38+00:00",
  "companies_total": 260,
  "companies_scanned": 152,
- "boards_failed": 3,
- "raw_postings": 13383,
- "relevant_jobs": 899,
+ "boards_failed": 1,
+ "raw_postings": 14841,
+ "relevant_jobs": 958,
  "min_score": 10,
- "new_this_run": 43,
+ "new_this_run": 80,
  "by_band": {
   "excellent": 18,
-  "strong": 68,
+  "strong": 70,
   "decent": 26,
-  "stretch": 83,
-  "weak": 704
+  "stretch": 97,
+  "weak": 747
  },
  "top_errors": [
   {
-   "company": "Expleo Ireland",
-   "ats": "joblinks",
-   "error": "no individual job links found on the page"
-  },
-  {
-   "company": "Revolut Ireland",
+   "company": "Global Payments Ireland",
    "ats": "sitemap",
-   "error": "no sitemap found"
-  },
-  {
-   "company": "Udemy Ireland",
-   "ats": "sitemap",
-   "error": "no sitemap found"
+   "error": "sitemap had 27 URLs but none looked like jobs"
   }
  ],
  "quarantined_feeds": [
