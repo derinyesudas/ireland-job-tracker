@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<!-- Tell the browser what this page is allowed to do. If anything hostile ever
+     did reach the page, this is what stops it being useful: code may only come
+     from this site, the page may not send data anywhere else, and it cannot be
+     framed by another site. Inline styles are allowed because the score bars
+     are sized in the markup; inline SCRIPT is not, which is the part that
+     matters. frame-ancestors is deliberately absent: browsers only honour it
+     as a real HTTP header, and GitHub Pages does not let us set one, so
+     including it here would achieve nothing but a console warning. -->
+<meta http-equiv="Content-Security-Policy" content="
+  default-src 'self';
+  script-src 'self';
+  style-src 'self' 'unsafe-inline';
+  img-src 'self' data:;
+  font-src 'self';
+  connect-src 'self';
+  form-action 'none';
+  base-uri 'none';
+  object-src 'none'">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ireland Job Tracker</title>
+<meta name="description" content="Live graduate, internship and junior job feed scraped straight from Irish employers' own career sites, scored for fit and flagged for work-permit sponsorship.">
+<link rel="stylesheet" href="styles.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🍀</text></svg>">
+</head>
+<body>
+
+<header>
+  <div class="wrap head-inner">
+    <div class="brand">
+      <span class="dot"></span>
+      <span class="brand-name">Derin Yesudas</span>
+      <span class="brand-sep">·</span>
+      <span class="brand-what">Job Tracker</span>
+    </div>
+
+    <div class="head-stats">
+      <div class="stat"><b id="s-total">–</b><span>live jobs</span></div>
+      <div class="stat"><b id="s-new">–</b><span>new today</span></div>
+      <div class="stat"><b id="s-applied">–</b><span>applied</span></div>
+      <div class="stat"><b id="s-companies">–</b><span>companies hiring</span></div>
+      <div class="stat"><b id="s-watched">–</b><span>companies watched</span></div>
+      <div class="stat"><b id="s-updated" style="font-size:13px">–</b><span>last check</span></div>
+      <button class="icon-btn" id="sync" title="Keep an Excel workbook in OneDrive up to date automatically">Link Excel file</button>
+      <button class="icon-btn" id="export">Export to Excel</button>
+      <button class="icon-btn" id="theme">Light</button>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+
+    <nav class="tabs" id="tabs" aria-label="Which list to show">
+      <button class="tab on"  data-tab="jobs">Jobs <b id="t-jobs">–</b></button>
+      <button class="tab"     data-tab="applied">Applied <b id="t-applied">–</b></button>
+      <button class="tab"     data-tab="hidden">Hidden <b id="t-hidden">–</b></button>
+    </nav>
+
+  <div class="filters">
+    <div class="filter-row">
+      <input type="search" id="q" placeholder="Search title, company, or anything in the job description…" autocomplete="off">
+      <select id="sort">
+        <option value="score">Best match first</option>
+        <option value="new">Newest first</option>
+        <option value="company">Company A–Z</option>
+        <option value="title">Job title A–Z</option>
+      </select>
+    </div>
+
+    <div id="filters-extra">
+    <div class="filter-row">
+      <button class="chip" data-quick="new">New today</button>
+      <button class="chip" data-quick="grad">Graduate &amp; internships</button>
+      <button class="chip" data-quick="sponsor">Active sponsors</button>
+      <button class="chip" data-quick="closing">Closing soon</button>
+      <button class="chip" data-quick="lang">Hindi / Malayalam edge</button>
+      <button class="chip" data-quick="dublin">Dublin</button>
+      <button class="chip" data-quick="saved">Saved</button>
+    </div>
+
+    <div class="filter-row">
+      <div class="slider-wrap">
+        <label for="minscore">Min score</label>
+        <input type="range" id="minscore" min="0" max="100" step="5" value="0">
+        <b id="minscore-val" style="min-width:26px">0</b>
+      </div>
+      <select id="f-company"><option value="">All companies</option></select>
+      <select id="f-location"><option value="">All locations</option></select>
+      <select id="f-band">
+        <option value="">All fit bands</option>
+        <option value="excellent">Excellent (70+)</option>
+        <option value="strong">Strong (58–69)</option>
+        <option value="decent">Decent (45–57)</option>
+        <option value="stretch">Stretch (32–44)</option>
+        <option value="weak">Weak (under 32)</option>
+      </select>
+      <select id="f-age">
+        <option value="">Any time</option>
+        <option value="1">Last 24 hours</option>
+        <option value="3">Last 3 days</option>
+        <option value="7">Last week</option>
+        <option value="14">Last 2 weeks</option>
+      </select>
+      <button class="chip" id="reset">Reset</button>
+    </div>
+    </div>
+
+    <div class="filter-meta">
+      <span id="count">Loading…</span>
+      <span class="legend">
+        Score is out of 100 — how well the ad matches your CV, your tools, and the roles you want.
+      </span>
+    </div>
+  </div>
+
+  <div class="jobs" id="jobs"></div>
+
+</main>
+
+<footer class="wrap">
+  Jobs read directly from employers' own public career feeds ·
+  Sponsorship flags from the Department of Enterprise employment permit register ·
+  Built by Derin Yesudas ·
+  <a href="https://github.com/derinyesudas/ireland-job-tracker" target="_blank" rel="noopener">Source on GitHub</a>
+</footer>
+
+<!-- SheetJS, kept in the repository rather than loaded from a public CDN.
+     A script fetched from someone else's server runs with full access to this
+     page and everything stored in it, so the page is only as trustworthy as
+     that server on the day you visit. Our own copy removes that dependency
+     entirely - nothing to be tampered with, and it works offline. -->
+<script src="vendor/xlsx.full.min.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

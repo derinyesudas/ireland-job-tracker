@@ -1,0 +1,25 @@
+__pycache__/
+*.pyc
+.venv/
+.env
+.DS_Store
+
+# The site's copy of the data is generated, not authored.
+#
+# data/jobs.json and site/data/jobs.json held byte-identical content and both
+# were committed on every scrape - ninety-six commits a day, three megabytes
+# apiece. Between them they accounted for 105 MB of the repository's history
+# for one board of jobs. The pipeline still writes site/data locally so the
+# site can be served straight from a checkout, but the published copy is now
+# built in the workflow at deploy time instead of being carried in git.
+site/data/
+
+# unlocked research - only the .enc files belong in the repo
+data/ireland_register.json
+data/companies.json
+data/resolution_report.json
+data/site_inspection.json
+data/seed_companies.json
+data/feed_health.json
+profile/derin.json
+.vault-state.json

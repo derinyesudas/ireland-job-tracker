@@ -1,0 +1,3 @@
+# The 15-minute scraper needs nothing but the Python standard library.
+# openpyxl is only used by the weekly company-discovery job.
+openpyxl>=3.1

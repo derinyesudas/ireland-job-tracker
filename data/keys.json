@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "kdf": "PBKDF2-HMAC-SHA256",
+  "cipher": "AES-256-GCM",
+  "holders": {
+    "owner": {
+      "salt": "8fDHec+jB6r1nJcy6gyZzw==",
+      "nonce": "OPmARxXZb/xorxBR",
+      "wrapped": "MexY9PaYRQp/FoU4IggZzuubFhxY0/nWqd5HMgchE5NKl/cEg2q6tlkY1oXnC6n9",
+      "iterations": 600000
+    },
+    "recovery": {
+      "salt": "KIzu77H/dUEAHnsrbX0mqA==",
+      "nonce": "9+JRnGdSFCJtKVPm",
+      "wrapped": "Nw/GcwZUCjPUNaGS3mtCntaZQbZKemAJjQkMAYjByAPuo5htvURLg1ic3oi3zZJK",
+      "iterations": 600000
+    }
+  }
+}

@@ -1,0 +1,140 @@
+name: Resolve careers sites
+
+# Works through the Irish employer register one company at a time: opens each
+# careers page, identifies the recruitment platform behind it, and CALLS the
+# feed to confirm jobs actually come back before adding it to the tracker.
+#
+# Slow (it opens a few hundred websites), so it runs weekly and on demand.
+# Everything it learns lands in data/companies.json; everything it could not
+# work out lands in data/resolution_report.json with the reason why.
+
+on:
+  schedule:
+    - cron: "0 3 * * 1"      # 03:00 UTC Monday, before the company rebuild
+  workflow_dispatch:
+    inputs:
+      only:
+        description: "Only companies whose name contains this (blank = all)"
+        default: ""
+      limit:
+        description: "Stop after this many companies (blank = no limit)"
+        default: ""
+      retry_failed:
+        description: "Only retry the ones that failed last time"
+        type: boolean
+        default: false
+      min_fit:
+        description: "Only inspect sites at or above this fit rank"
+        default: "60"
+      cap:
+        description: "Stop once the tracker holds this many companies"
+        default: "290"
+      unresolved_only:
+        description: "Skip companies that already have a working feed"
+        type: boolean
+        default: true
+
+permissions:
+  contents: write
+
+concurrency:
+  group: resolve
+
+jobs:
+  resolve:
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install the encryption library
+        run: pip install --quiet cryptography
+
+      - name: Unlock the research files
+        env:
+          TRACKER_KEY: ${{ secrets.TRACKER_KEY }}
+        run: python scripts/vault.py open
+
+      - name: Resolve each careers site
+        run: |
+          ARGS="--cap ${{ inputs.cap || '290' }}"
+          [ -n "${{ inputs.only }}" ]  && ARGS="$ARGS --only '${{ inputs.only }}'"
+          [ -n "${{ inputs.limit }}" ] && ARGS="$ARGS --limit ${{ inputs.limit }}"
+          [ "${{ inputs.retry_failed }}" = "true" ] && ARGS="$ARGS --retry-failed"
+          [ "${{ inputs.unresolved_only }}" != "false" ] && ARGS="$ARGS --unresolved-only"
+          eval python scripts/resolve_careers.py $ARGS
+
+      - name: Summarise for the run page
+        if: always()
+        run: |
+          python - <<'PY' >> "$GITHUB_STEP_SUMMARY"
+          import json, pathlib
+          p = pathlib.Path("data/resolution_report.json")
+          if not p.exists():
+              print("No report produced."); raise SystemExit
+          r = json.loads(p.read_text())
+          print(f"## Careers-site resolution\n")
+          print(f"**{r['resolved']} of {r['attempted']} companies resolved to a live job feed.**\n")
+          print("| Platform | Companies |\n|---|---:|")
+          for k, v in sorted(r["by_platform"].items(), key=lambda x: -x[1]):
+              print(f"| {k} | {v} |")
+          print(f"\n### Why the rest did not resolve\n")
+          print("| Reason | Companies |\n|---|---:|")
+          for k, v in sorted(r["failure_reasons"].items(), key=lambda x: -x[1]):
+              print(f"| {k} | {v} |")
+          print(f"\n<details><summary>Unresolved companies</summary>\n")
+          for x in r["results"]:
+              if x["status"] != "resolved":
+                  print(f"- **{x['name']}** — {x['reason']} — {x['careers_url']}")
+          print("\n</details>")
+          PY
+
+      # Anything that did not resolve gets examined, so the custom scraper for
+      # it can be written against evidence rather than guesswork: does the page
+      # publish job structured data, is there a platform hiding behind the
+      # branding, what API endpoints does its own JavaScript call?
+      - name: Investigate the sites that did not resolve
+        if: always()
+        continue-on-error: true
+        run: python scripts/inspect_sites.py --proprietary-only --min-fit ${{ inputs.min_fit || '60' }}
+
+      - name: Summarise for the run page
+        if: always()
+        run: |
+          python - <<'PY' >> "$GITHUB_STEP_SUMMARY"
+          import json, pathlib
+          p = pathlib.Path("data/site_inspection.json")
+          if not p.exists():
+              raise SystemExit
+          rows = json.loads(p.read_text())
+          print("\n## Sites needing a hand-written scraper\n")
+          print("| Fit | Company | What it looks like |\n|---:|---|---|")
+          for r in rows[:60]:
+              print(f"| {r.get('fit_rank',0)} | {r['name']} | {r.get('verdict','')} |")
+          PY
+
+      - name: Lock the research files again
+        if: always()
+        env:
+          TRACKER_KEY: ${{ secrets.TRACKER_KEY }}
+        run: python scripts/vault.py close
+
+      - name: Commit what was resolved
+        if: always()
+        run: |
+          git config user.name  "job-tracker-bot"
+          git config user.email "actions@github.com"
+          git add data/companies.json data/resolution_report.json data/site_inspection.json
+          if git diff --staged --quiet; then
+            echo "Nothing changed."
+          else
+            N=$(python -c "import json;print(len(json.load(open('data/companies.json'))))")
+            git commit -m "companies: resolve careers sites ($N feeds live)"
+            git pull --rebase --autostash origin main
+            git push origin main
+          fi
