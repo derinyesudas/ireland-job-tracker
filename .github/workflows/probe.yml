@@ -63,20 +63,64 @@ jobs:
           if not p.exists():
               print("No results produced."); raise SystemExit
           rs = json.loads(p.read_text())
-          hits = [r for r in rs if r["working"]]
-          print(f"**{len(hits)} of {len(rs)} employers now have a feed that returns real jobs.**\n")
+
+          hits    = [r for r in rs if r["working"]]
+          tenant  = [r for r in rs if not r["working"] and r.get("platforms") and not r["tried"]]
+          reader  = [r for r in rs if not r["working"] and r["tried"]]
+          dead    = [r for r in rs if not r["working"] and not r["tried"]
+                     and not r.get("platforms")]
+
+          print(f"**{len(hits)} of {len(rs)} employers now return real jobs.**\n")
+          print(f"- {len(hits)} ready to add")
+          print(f"- {len(tenant)} name a platform but not the tenant")
+          print(f"- {len(reader)} were readable but no reader could parse them")
+          print(f"- {len(dead)} could not be opened at all\n")
+
           if hits:
-              print("| Employer | Platform | Token | What came back |")
+              print("### Ready to add\n")
+              print("| Employer | Reader | Token | What came back |")
               print("|---|---|---|---|")
               for r in hits:
                   w = r["working"][0]
-                  print(f"| {r['name']} | {w['ats']} | `{w['token']}` | {w['note']} |")
-          print("\n<details><summary>Everything that was tried</summary>\n")
+                  print(f"| {r['name']} | {w['ats']} | `{w['token'][:70]}` | {w['note']} |")
+              print()
+
+          if tenant:
+              print("### Platform seen, tenant hidden\n")
+              print("| Employer | Platform | Best page |")
+              print("|---|---|---|")
+              for r in tenant:
+                  print(f"| {r['name']} | {', '.join(r['platforms'])} | {r.get('best_url','')} |")
+              print()
+
+          if reader:
+              print("### Readable, nothing parsed it\n")
+              print("| Employer | Job links found | Best page | Last thing tried |")
+              print("|---|---|---|---|")
+              for r in reader:
+                  last = r["tried"][-1]
+                  print(f"| {r['name']} | {r.get('links',0)} | {r.get('best_url','')} "
+                        f"| `{last['reader']}` - {last['note'][:60]} |")
+              print()
+
+          if dead:
+              print("### Could not be opened\n")
+              print("| Employer | URL | Why |")
+              print("|---|---|---|")
+              for r in dead:
+                  print(f"| {r['name']} | {r['url']} | {r.get('note','')[:70]} |")
+              print()
+
+          print("<details><summary>Every attempt, in full</summary>\n")
           for r in rs:
-              print(f"\n**{r['name']}**  ")
+              print(f"\n**{r['name']}** - {r.get('links',0)} job links at {r.get('best_url','')}  ")
+              if r.get("platforms"):
+                  print(f"platforms named: {', '.join(r['platforms'])}  ")
               for t in r["tried"]:
                   mark = "OK" if t["ok"] else "no"
                   print(f"- {mark} `{t['reader']}` `{t['token']}` - {t['note']}  ")
+              if not r["tried"]:
+                  print(f"- nothing tried: {r.get('note','no candidate token or list page')}  ")
           print("\n</details>")
           PY
           } >> "$GITHUB_STEP_SUMMARY"

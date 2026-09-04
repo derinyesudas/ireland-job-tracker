@@ -1,17 +1,23 @@
 """
-Works out how the branded careers sites actually serve their jobs.
+Works out how an employer that never resolved actually serves its jobs.
 
-The resolver already spots that a page is "a platform behind branding" - it
-sees myworkdayjobs.com or icims.com referenced in the markup - but it stops
-there, because knowing the platform is not the same as knowing the tenant. This
-finds the tenant: it opens each careers page, pulls every platform URL out of
-the HTML and the scripts it loads, works the token out of those URLs, and then
-CALLS the feed to see whether jobs actually come back.
+Two things are tried for every employer, because the last sweep showed the
+failures are not all the same problem:
 
-Nothing is reported as working unless a real posting was returned.
+  1. A different URL on the same site. Citi is the worked example: the register
+     pointed at a landing page, its search page carries the jobs in the HTML,
+     and the existing joblinks reader handles it once aimed correctly. No new
+     code, just a better address.
 
-    python scripts/probe_platforms.py                 # every unresolved employer
-    python scripts/probe_platforms.py --only Citi     # just one
+  2. The platform behind the branding. A careers page often names its platform
+     without spelling out the tenant, so the platform and the tenant are looked
+     for separately, and an employer that names one without the other is
+     reported as such rather than silently skipped.
+
+Nothing is reported as working unless a reader actually returned a posting.
+
+    python scripts/probe_platforms.py
+    python scripts/probe_platforms.py --only Citi
 """
 
 from __future__ import annotations
@@ -22,7 +28,7 @@ import re
 import sys
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
-from urllib.parse import urlparse
+from urllib.parse import urljoin, urlparse
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
@@ -31,43 +37,35 @@ from scraper.ats_clients import FETCHERS, FetchError, _get_html  # noqa: E402
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
 
-# How a platform's own URLs give away the tenant. Each entry is the host
-# fragment to look for, and how to turn a matching URL into a reader token.
-# Every platform domain worth noticing, and how to turn a URL on that domain
-# into a reader token. The domain match is deliberately loose - a branded page
-# may name its platform in a link, a preconnect hint, a security header or a
-# blob of config, and only some of those carry the tenant. So the domain and
-# the token are found separately: seeing the domain tells us which platform,
-# and the token pattern is then tried against everything on the page.
+# Where a careers site tends to keep its actual list, when the address in the
+# register turns out to be a landing page.
+URL_PATHS = ["/search-jobs", "/jobs", "/search", "/job-search", "/vacancies",
+             "/careers/search", "/en/search-jobs", "/opportunities", "/all-jobs"]
+
+# A link that looks like an individual posting rather than navigation.
+JOB_LINK = re.compile(r'href=["\']([^"\']*(?:/job/|/jobs/|/job-|jobid=|/vacancy/|/position/)[^"\']*)', re.I)
+
+# An anchor that looks like the way in to the list, so the site's own
+# navigation is followed rather than only guessing at paths.
+LIST_LINK = re.compile(
+    r'<a[^>]+href=["\']([^"\']+)["\'][^>]*>((?:(?!</a>).){0,120})</a>', re.I | re.S)
+LIST_WORDS = re.compile(
+    r'(search\s*(?:our\s*)?(?:jobs|roles|openings)|view\s*all\s*(?:jobs|roles)|'
+    r'all\s*(?:jobs|vacancies|openings)|current\s*(?:vacancies|openings|opportunities)|'
+    r'job\s*search|browse\s*jobs|open\s*(?:roles|positions))', re.I)
+
 PLATFORM_DOMAINS = {
-    "myworkdayjobs.com":  "workday",
-    "icims.com":          "icims",
-    "avature.net":        "avature",
-    "eightfold.ai":       "eightfold",
-    "successfactors.eu":  "successfactors",
-    "successfactors.com": "successfactors",
-    "jobs2web.com":       "successfactors",
-    "smartrecruiters.com": "smartrecruiters",
-    "taleo.net":          "taleo",
-    "oraclecloud.com":    "oraclecloud",
-    "csod.com":           "cornerstone",
-    "greenhouse.io":      "greenhouse",
-    "lever.co":           "lever",
-    "workable.com":       "workable",
-    "ashbyhq.com":        "ashby",
-    "recruitee.com":      "recruitee",
-    "personio.de":        "personio",
-    "phenompeople.com":   "phenom",
-    "talentbrew.com":     "talentbrew",
-    "candidatemanager.net": "candidatemanager",
-    "talent-community.com": "talentcommunity",
-    "occupop.com":        "occupop",
-    "hirehive.com":       "hirehive",
-    "pinpointhq.com":     "pinpoint",
+    "myworkdayjobs.com": "workday", "icims.com": "icims", "avature.net": "avature",
+    "eightfold.ai": "eightfold", "successfactors": "successfactors",
+    "jobs2web.com": "successfactors", "smartrecruiters.com": "smartrecruiters",
+    "taleo.net": "taleo", "oraclecloud.com": "oraclecloud", "csod.com": "cornerstone",
+    "greenhouse.io": "greenhouse", "lever.co": "lever", "workable.com": "workable",
+    "ashbyhq.com": "ashby", "recruitee.com": "recruitee", "jobs.personio.de": "personio",
+    "phenompeople.com": "phenom", "talentbrew.com": "talentbrew",
+    "candidatemanager.net": "candidatemanager", "talent-community.com": "talentcommunity",
+    "occupop.com": "occupop", "hirehive.com": "hirehive", "pinpointhq.com": "pinpoint",
 }
 
-# How to lift the tenant out, once we know which platform we are looking at.
-# No scheme required: these run against the whole page, not just hrefs.
 TOKEN_PATTERNS = {
     "workday":        [r"([\w-]+)\.(wd\d+)\.myworkdayjobs\.com/(?:wday/cxs/[\w-]+/)?([\w-]+)",
                        r"([\w-]+)\.(wd\d+)\.myworkdayjobs\.com"],
@@ -75,8 +73,7 @@ TOKEN_PATTERNS = {
     "avature":        [r"([\w-]+)\.avature\.net"],
     "eightfold":      [r"([\w-]+)\.eightfold\.ai"],
     "successfactors": [r"career\d*\.successfactors\.(?:eu|com)/[^\"'\s]*company=([\w-]+)",
-                       r"[?&]company=([\w-]+)",
-                       r"([\w-]+)\.jobs2web\.com"],
+                       r"[?&]company=([\w-]+)", r"([\w-]+)\.jobs2web\.com"],
     "smartrecruiters":[r"smartrecruiters\.com/(?:v1/companies/)?([\w-]+)"],
     "taleo":          [r"([\w-]+)\.taleo\.net"],
     "oraclecloud":    [r"([\w-]+\.oraclecloud\.com)"],
@@ -92,107 +89,158 @@ TOKEN_PATTERNS = {
     "pinpoint":       [r"([\w-]+)\.pinpointhq\.com"],
 }
 
-# Platforms where the careers host itself is the token, so nothing needs lifting.
-HOST_IS_TOKEN = {"phenom", "talentbrew", "candidatemanager", "talentcommunity"}
+# Readers that take a careers URL rather than a tenant, in the order worth trying.
+GENERIC = ["joblinks", "jsonld", "sitemap", "apiprobe"]
 
-SCRIPT_SRC = re.compile(r'<script[^>]+src=["\']([^"\']+)', re.I)
-MAX_SCRIPTS = 6
-
-
-def page_and_scripts(url: str) -> str:
-    """The page, plus the scripts it loads. A branded site usually hides its
-    platform in a bundle rather than in the HTML itself."""
-    blob = _get_html(url)
-    out = [blob]
-    base = f"{urlparse(url).scheme}://{urlparse(url).netloc}"
-    for src in SCRIPT_SRC.findall(blob)[:MAX_SCRIPTS]:
-        full = src if src.startswith("http") else (base + src if src.startswith("/") else None)
-        if not full:
-            continue
-        try:
-            out.append(_get_html(full, limit=400_000))
-        except FetchError:
-            pass
-    return "\n".join(out)
+MIN_JOB_LINKS = 3          # fewer than this and the page is navigation, not a list
+CLEAR_LIST = 8             # this many and it is plainly the list, stop looking
+MAX_FETCHES = 14           # per employer, so one big site cannot eat the run
 
 
-def candidates(name: str, url: str) -> tuple[list[tuple[str, str]], list[str], str]:
-    """Returns (things worth trying, platforms merely seen, note).
+def variants(url: str) -> list[str]:
+    """The registered address first, then the usual places a list hides."""
+    p = urlparse(url)
+    root = f"{p.scheme}://{p.netloc}"
+    out = [url]
+    for path in URL_PATHS:
+        cand = root + path
+        if cand.rstrip("/") != url.rstrip("/"):
+            out.append(cand)
+    return out
 
-    Reporting what was seen but not usable is the point: a page that names
-    myworkdayjobs.com without ever spelling out its tenant is a different
-    problem from a page that names nothing at all, and only the first is worth
-    another go.
-    """
+
+def look(url: str) -> dict:
+    """One cheap fetch: how many postings does this page link to, and does it
+    name a platform?"""
     try:
-        blob = page_and_scripts(url)
+        page = _get_html(url)
     except FetchError as exc:
-        return [], [], str(exc)[:120]
-
-    host = urlparse(url).netloc
-    seen: list[str] = []
+        return {"url": url, "ok": False, "note": str(exc)[:100], "links": 0,
+                "platforms": [], "follow": []}
+    links = {urljoin(url, h) for h in JOB_LINK.findall(page)}
+    plats = []
+    low = page.lower()
     for domain, platform in PLATFORM_DOMAINS.items():
-        if domain in blob.lower() and platform not in seen:
-            seen.append(platform)
-
-    found: list[tuple[str, str]] = []
-
-    def add(reader: str, token: str) -> None:
-        if token and (reader, token) not in found:
-            found.append((reader, token))
-
-    for platform in seen:
-        if platform in HOST_IS_TOKEN:
-            add(platform if platform in FETCHERS else "jsonld", 
-                host if platform in FETCHERS else url)
-            if platform == "phenom":
-                bare = re.sub(r"^(careers|jobs|www)\.", "", host)
-                add("phenom", f"{host}|{bare}")
+        if domain in low and platform not in plats:
+            plats.append(platform)
+    follow = []
+    for href, text in LIST_LINK.findall(page):
+        if not LIST_WORDS.search(re.sub(r"<[^>]+>", " ", text)):
             continue
-        for pattern in TOKEN_PATTERNS.get(platform, []):
-            for m in re.finditer(pattern, blob, re.I):
+        cand = urljoin(url, href.strip())
+        if urlparse(cand).netloc == urlparse(url).netloc and cand not in follow:
+            follow.append(cand)
+    return {"url": url, "ok": True, "note": "", "links": len(links),
+            "platforms": plats, "page": page, "follow": follow[:4]}
+
+
+def tokens_from(page: str, host: str, platforms: list[str]) -> list[tuple[str, str]]:
+    out: list[tuple[str, str]] = []
+
+    def add(reader, token):
+        if token and reader in FETCHERS and (reader, token) not in out:
+            out.append((reader, token))
+
+    for platform in platforms:
+        if platform not in TOKEN_PATTERNS:
+            continue
+        for pattern in TOKEN_PATTERNS[platform]:
+            for m in re.finditer(pattern, page, re.I):
                 if platform == "workday":
                     g = m.groups()
                     add("workday", "|".join(g) if len(g) == 3 else f"{g[0]}|{g[1]}|External")
                 else:
                     add(platform, m.group(1))
-            if found:
+            if out:
                 break
+    return out
 
-    return found, seen, ""
 
-
-def try_feed(reader: str, token: str) -> tuple[bool, str]:
+def try_reader(reader: str, token: str) -> tuple[bool, str]:
     fn = FETCHERS.get(reader)
     if not fn:
-        return False, f"no reader called {reader}"
+        return False, "no such reader"
     try:
         jobs = fn(token)
     except FetchError as exc:
-        return False, str(exc)[:110]
-    except Exception as exc:                       # a reader bug must not stop the sweep
-        return False, f"{type(exc).__name__}: {str(exc)[:90]}"
+        return False, str(exc)[:90]
+    except Exception as exc:
+        return False, f"{type(exc).__name__}: {str(exc)[:70]}"
     if not jobs:
-        return False, "feed answered but returned no jobs"
-    t = (jobs[0].get("title") or "?")[:52]
-    return True, f"{len(jobs)} jobs, first: {t}"
+        return False, "answered, no jobs"
+    return True, f"{len(jobs)} jobs, e.g. {(jobs[0].get('title') or '?')[:44]}"
 
 
 def probe(name: str, url: str) -> dict:
-    tried, seen, note = candidates(name, url)
-    result = {"name": name, "url": url, "seen": seen, "note": note,
-              "tried": [], "working": []}
-    for reader, token in tried:
-        ok, why = try_feed(reader, token)
-        result["tried"].append({"reader": reader, "token": token, "ok": ok, "note": why})
+    r = {"name": name, "url": url, "working": [], "tried": [],
+         "platforms": [], "best_url": "", "note": ""}
+
+    first = look(url)
+    seen = {url.rstrip("/")}
+    looks = [first]
+    # the site's own way in, before any guessing
+    queue = list(first.get("follow", [])) + [v for v in variants(url)[1:]]
+    best = first["links"] if first["ok"] else 0
+    for u in queue:
+        if u.rstrip("/") in seen or best >= CLEAR_LIST or len(looks) >= MAX_FETCHES:
+            continue                      # list page in hand, or budget spent
+        seen.add(u.rstrip("/"))
+        l = look(u)
+        looks.append(l)
+        best = max(best, l["links"])
+        if l["links"]:                    # only worth going deeper from a live trail
+            queue.extend(x for x in l.get("follow", []) if x.rstrip("/") not in seen)
+
+    alive = [l for l in looks if l["ok"]]
+    if not alive:
+        r["note"] = first["note"] or "could not open anything"
+        return r
+
+    for l in alive:
+        for p in l["platforms"]:
+            if p not in r["platforms"]:
+                r["platforms"].append(p)
+
+    # the page that links to the most postings is the one worth reading
+    alive.sort(key=lambda l: -l["links"])
+    r["best_url"] = alive[0]["url"]
+    r["links"] = alive[0]["links"]
+
+    def attempt(reader, token):
+        ok, why = try_reader(reader, token)
+        r["tried"].append({"reader": reader, "token": token[:70], "ok": ok, "note": why})
         if ok:
-            result["working"].append({"ats": reader, "token": token, "note": why})
-    return result
+            r["working"].append({"ats": reader, "token": token, "note": why})
+        return ok
+
+    # 1. a page that already lists postings - no new code needed
+    for l in alive[:2]:
+        if l["links"] >= MIN_JOB_LINKS:
+            for reader in GENERIC:
+                if attempt(reader, l["url"]):
+                    return r
+
+    # 2. the platform behind the branding
+    host = urlparse(url).netloc
+    for l in alive[:2]:
+        for reader, token in tokens_from(l.get("page", ""), host, l["platforms"]):
+            if attempt(reader, token):
+                return r
+        for p in l["platforms"]:
+            if p in ("phenom", "talentbrew") and attempt(p, host):
+                return r
+
+    # 3. last resort on the richest page
+    if not r["tried"]:
+        for reader in ("jsonld", "sitemap"):
+            if attempt(reader, alive[0]["url"]):
+                return r
+    return r
 
 
 def main() -> int:
     ap = argparse.ArgumentParser()
-    ap.add_argument("--only", default="", help="only employers whose name contains this")
+    ap.add_argument("--only", default="")
     ap.add_argument("--workers", type=int, default=6)
     args = ap.parse_args()
 
@@ -201,58 +249,39 @@ def main() -> int:
                for c in json.loads((DATA / "companies.json").read_text())}
 
     todo = []
-    for r in register:
-        nm = r.get("company") or r.get("name") or ""
-        if nm.lower() in tracked:
+    for row in register:
+        nm = row.get("company") or row.get("name") or ""
+        if nm.lower() in tracked or (args.only and args.only.lower() not in nm.lower()):
             continue
-        if args.only and args.only.lower() not in nm.lower():
-            continue
-        u = r.get("careers_url")
-        if u:
-            todo.append((nm, u))
+        if row.get("careers_url"):
+            todo.append((nm, row["careers_url"]))
 
-    print(f"probing {len(todo)} employers that are not yet tracked\n", flush=True)
+    print(f"probing {len(todo)} employers\n", flush=True)
     results = []
     with ThreadPoolExecutor(max_workers=args.workers) as pool:
-        futures = {pool.submit(probe, n, u): n for n, u in todo}
-        for f in as_completed(futures):
+        for f in as_completed({pool.submit(probe, n, u): n for n, u in todo}):
             r = f.result()
             results.append(r)
             if r["working"]:
-                mark, detail = "HIT ", r["working"][0]["ats"]
+                tag = f"HIT  {r['working'][0]['ats']}"
             elif r["tried"]:
-                mark, detail = "    ", f"{len(r['tried'])} tried, none worked"
-            elif r["seen"]:
-                mark, detail = "SEEN", f"{', '.join(r['seen'])} but no tenant in the page"
+                tag = f"     {len(r['tried'])} tried, none worked"
+            elif r["platforms"]:
+                tag = f"SEEN {', '.join(r['platforms'])}, tenant not in the page"
             elif r["note"]:
-                mark, detail = "    ", r["note"][:48]
+                tag = f"     {r['note'][:44]}"
             else:
-                mark, detail = "    ", "no platform named anywhere"
-            print(f"{mark}{r['name'][:40]:<40} {detail}", flush=True)
+                tag = f"     nothing to go on ({r.get('links',0)} job links)"
+            print(f"{r['name'][:38]:<38} {tag}", flush=True)
 
     results.sort(key=lambda r: (not r["working"], r["name"]))
     (DATA / "probe_results.json").write_text(json.dumps(results, indent=1))
 
-    hits    = [r for r in results if r["working"]]
-    tokenless = [r for r in results if not r["working"] and not r["tried"] and r["seen"]]
-    tried_no  = [r for r in results if not r["working"] and r["tried"]]
-    silent    = [r for r in results if not r["working"] and not r["tried"] and not r["seen"] and not r["note"]]
-    errored   = [r for r in results if r["note"]]
-    print(f"\n{'='*70}")
-    print(f"  {len(hits):>3} now have a working feed")
-    print(f"  {len(tokenless):>3} name a platform but never spell out the tenant")
-    print(f"  {len(tried_no):>3} gave a tenant, but the feed came back empty")
-    print(f"  {len(silent):>3} name no platform at all")
-    print(f"  {len(errored):>3} could not be opened")
-    print("="*70)
-    if tokenless:
-        print("\n  platform named, tenant hidden:")
-        for r in tokenless:
-            print(f"    {r['name'][:44]:<44} {', '.join(r['seen'])}")
+    hits = [r for r in results if r["working"]]
+    print(f"\n{'='*72}\n  {len(hits)} of {len(results)} employers now return real jobs\n{'='*72}")
     for r in hits:
         w = r["working"][0]
-        print(f"  {r['name'][:40]:<40} {w['ats']:<16} {w['token'][:40]}")
-        print(f"  {'':<40} {w['note']}")
+        print(f"  {r['name'][:34]:<34} {w['ats']:<12} {w['token'][:44]}")
     return 0
 
 
