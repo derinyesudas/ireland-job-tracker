@@ -1,0 +1,98 @@
+name: Probe branded careers sites
+
+# Finds the tenant behind an employer's own branding. The resolver already
+# notices that a page is "a platform behind branding"; this works out WHICH
+# tenant, by reading the platform URLs out of the page and the scripts it
+# loads, and then calling the feed to confirm real jobs come back.
+#
+# Reports only. It commits nothing, so there is nothing here that can leak the
+# register: the findings go to the run summary and are read from there.
+
+on:
+  workflow_dispatch:
+    inputs:
+      only:
+        description: "Only employers whose name contains this (blank = all untracked)"
+        default: ""
+      workers:
+        description: "How many sites to open at once"
+        default: "6"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: probe
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install the encryption library
+        run: pip install --quiet cryptography
+
+      - name: Unlock the research files
+        env:
+          TRACKER_KEY: ${{ secrets.TRACKER_KEY }}
+        run: python scripts/vault.py open
+
+      - name: Probe
+        id: probe
+        run: |
+          python scripts/probe_platforms.py \
+            --only "${{ inputs.only }}" \
+            --workers ${{ inputs.workers || '6' }} | tee probe.log
+
+      - name: Report
+        if: always()
+        run: |
+          {
+            echo "## Branded careers sites"
+            echo
+            python - <<'PY'
+          import json, pathlib
+          p = pathlib.Path("data/probe_results.json")
+          if not p.exists():
+              print("No results produced."); raise SystemExit
+          rs = json.loads(p.read_text())
+          hits = [r for r in rs if r["working"]]
+          print(f"**{len(hits)} of {len(rs)} employers now have a feed that returns real jobs.**\n")
+          if hits:
+              print("| Employer | Platform | Token | What came back |")
+              print("|---|---|---|---|")
+              for r in hits:
+                  w = r["working"][0]
+                  print(f"| {r['name']} | {w['ats']} | `{w['token']}` | {w['note']} |")
+          print("\n<details><summary>Everything that was tried</summary>\n")
+          for r in rs:
+              print(f"\n**{r['name']}**  ")
+              for t in r["tried"]:
+                  mark = "OK" if t["ok"] else "no"
+                  print(f"- {mark} `{t['reader']}` `{t['token']}` - {t['note']}  ")
+          print("\n</details>")
+          PY
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Lock the research files again
+        if: always()
+        env:
+          TRACKER_KEY: ${{ secrets.TRACKER_KEY }}
+        run: python scripts/vault.py close
+
+      - name: Confirm nothing unlocked was left behind
+        if: always()
+        run: |
+          git status --porcelain
+          if git status --porcelain | grep -E '^\?\?.*(ireland_register|companies|resolution_report|site_inspection|seed_companies|feed_health|derin)\.json$'; then
+            echo "::error::plaintext research left on disk"
+            exit 1
+          fi
+          echo "clean - only encrypted files present"

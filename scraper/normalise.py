@@ -565,7 +565,9 @@ def _make_common(source: str):
 
 
 for _src in ("icims", "taleo", "avature", "cornerstone", "teamtailor", "occupop",
-             "hirehive", "eightfold", "jobvite", "bamboohr", "rippling"):
+             "hirehive", "eightfold", "jobvite", "bamboohr", "rippling",
+    "talentbrew",
+):
     NORMALISERS[_src] = _make_common(_src)
 
 
@@ -588,6 +590,20 @@ def _guard_urls(fn):
     wrapped.__name__ = getattr(fn, "__name__", "normaliser")
     wrapped.__doc__ = fn.__doc__
     return wrapped
+
+
+def from_phenom(raw: dict, company: str) -> dict:
+    """Phenom is the one enterprise reader that hands back a closing date and
+    sometimes a salary, so it does not join the common-shape loop above."""
+    job = from_common(raw, company, "phenom")
+    job["closes_at"] = _iso(raw.get("closes"))
+    pay = raw.get("salary")
+    job["salary"] = (_salary(pay) if isinstance(pay, (dict, int, float))
+                     else str(pay or "").strip())
+    return job
+
+
+NORMALISERS["phenom"] = from_phenom
 
 
 NORMALISERS = {name: _guard_urls(fn) for name, fn in NORMALISERS.items()}
