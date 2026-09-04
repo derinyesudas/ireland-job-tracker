@@ -17,6 +17,9 @@ on:
       only:
         description: "Limit the sweep to employers whose name contains this"
         default: ""
+      drop:
+        description: "Remove these tracked employers by name (comma separated) and do nothing else"
+        default: ""
       dry_run:
         description: "Report what would be adopted, write nothing"
         type: boolean
@@ -56,11 +59,13 @@ jobs:
           # rest of the input would be run as a command.
           ONLY: ${{ inputs.only }}
           EXTRA: ${{ inputs.extra }}
+          DROP: ${{ inputs.drop }}
           DRY: ${{ inputs.dry_run }}
         run: |
           ARGS=()
           [ "$DRY" = "true" ] && ARGS+=(--dry-run)
-          python scripts/adopt.py --only "$ONLY" --extra "$EXTRA" "${ARGS[@]}" | tee adopt.log
+          python scripts/adopt.py --only "$ONLY" --extra "$EXTRA" \
+            --drop "$DROP" "${ARGS[@]}" | tee adopt.log
 
       - name: Report
         if: always()
@@ -93,7 +98,7 @@ jobs:
           if git diff --staged --quiet; then
             echo "Nothing changed."
           else
-            git commit -m "companies: adopt employers the probe can read ($FEEDS feeds live)"
+            git commit -m "companies: update the tracked list ($FEEDS feeds live)"
             git pull --rebase --autostash origin main
             git push origin main
           fi

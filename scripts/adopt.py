@@ -120,7 +120,29 @@ def main() -> int:
     ap.add_argument("--workers", type=int, default=6)
     ap.add_argument("--dry-run", action="store_true",
                     help="say what would be adopted, write nothing")
+    ap.add_argument("--drop", default="",
+                    help="remove tracked employers by name (comma separated) "
+                         "and do nothing else")
     args = ap.parse_args()
+
+    # Removing a feed has to be as easy as adding one. IDA Ireland was adopted
+    # on four sitemap results that turned out to be its own landing pages -
+    # "making-a-difference", "wellbeing", "diversity-inclusion" - because a long
+    # slug is not the same thing as a vacancy. Nothing that gets onto the board
+    # by mistake should need a person to hand-edit an encrypted file.
+    if args.drop.strip():
+        wanted = {n.strip().lower() for n in args.drop.split(",") if n.strip()}
+        current = json.loads(COMPANIES.read_text(encoding="utf-8"))
+        keep = [c for c in current if c.get("name", "").lower() not in wanted]
+        gone = [c["name"] for c in current if c.get("name", "").lower() in wanted]
+        print(f"dropping {len(gone)}: {', '.join(gone) or 'nothing matched'}")
+        for miss in wanted - {g.lower() for g in gone}:
+            print(f"  not tracked: {miss}")
+        if gone and not args.dry_run:
+            COMPANIES.write_text(json.dumps(keep, indent=1, ensure_ascii=False),
+                                 encoding="utf-8")
+            print(f"companies.json now holds {len(keep)} feeds")
+        return 0
 
     register = json.loads(REGISTER.read_text(encoding="utf-8"))
     by_meta = {e["name"]: e for e in register}
