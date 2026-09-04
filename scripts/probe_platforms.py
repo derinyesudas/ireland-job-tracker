@@ -34,6 +34,18 @@ sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
 from scraper.ats_clients import FETCHERS, FetchError, BROWSER_HEADERS  # noqa: E402
 from scraper.ats_extra import _job_candidate_links  # noqa: E402
+import scraper.ats_extra as _ats_extra  # noqa: E402
+
+# The probe is asking one question - does this reader return a real job? - and
+# one job answers it. The live scraper harvests 45 pages per employer because
+# it wants the whole board; paying that here meant a run that could not finish.
+# v5 made it worse in a way that reads as success: once the redirect fix let
+# joblinks find links on fifty more employers, each of those started opening
+# 45 job pages it had previously skipped in a millisecond.
+PROOF_ENOUGH = 5
+_ats_extra.MAX_JOB_PAGES = PROOF_ENOUGH
+_ats_extra.MAX_SITEMAP_JOBS = PROOF_ENOUGH
+_ats_extra.MAX_CHILD_SITEMAPS = 2
 
 import time  # noqa: E402
 import urllib.error  # noqa: E402
