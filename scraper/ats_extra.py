@@ -26,7 +26,7 @@ import re
 import urllib.parse
 import urllib.request
 
-from scraper.ats_clients import FetchError, _get, _get_html
+from scraper.ats_clients import FetchError, _get, _get_html, _get_html_at
 
 _get_text = _get_html
 
@@ -522,8 +522,11 @@ def joblinks(token: str) -> list[dict]:
     a time. That is plenty to catch what a company posted recently, which is
     the whole point of checking every 15 minutes.
     """
-    listing = _get_text(token)
-    links = _job_candidate_links(token, listing)
+    # Resolve against the page we were actually served, not the one we asked
+    # for. eir.ie/jobs redirects to jobs.eir.care, and judging its links by the
+    # eir.ie host threw away all thirty-nine of them.
+    listing, landed = _get_html_at(token)
+    links = _job_candidate_links(landed, listing)
     if not links:
         raise FetchError("no individual job links found on the page")
 

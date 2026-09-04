@@ -23,6 +23,9 @@ permissions:
 
 concurrency:
   group: probe
+  cancel-in-progress: true      # a newer probe supersedes an older one, rather
+                                # than queueing behind it for the best part of
+                                # an hour
 
 jobs:
   probe:

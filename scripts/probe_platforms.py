@@ -59,6 +59,18 @@ NAV_HEADERS = {
 PAGE_TIMEOUT = 25
 PAGE_TRIES = 3
 
+# A hostname that does not resolve does not resolve on any path, so the retry
+# added for flaky DNS must not be paid fourteen times over for one dead host.
+# v4 did exactly that, which is why it ran for the best part of an hour.
+DEAD_HOST_RE = re.compile(
+    r"name or service not known|temporary failure in name resolution|"
+    r"nodename nor servname|getaddrinfo|connection refused|"
+    r"certificate verify failed|handshake", re.I)
+
+
+class HostIsDead(FetchError):
+    """The host itself is unreachable - stop trying paths on it."""
+
 
 def fetch(url: str, limit: int = 3_000_000) -> str:
     """Page fetch that looks like a navigation and survives a transient blip."""
@@ -74,6 +86,8 @@ def fetch(url: str, limit: int = 3_000_000) -> str:
             last = exc
         except Exception as exc:  # noqa: BLE001
             last = exc
+        if DEAD_HOST_RE.search(str(last)):
+            raise HostIsDead(str(last))          # no point sleeping on this one
         if attempt < PAGE_TRIES - 1:
             time.sleep(1.5 * (attempt + 1))
     raise FetchError(str(last))
@@ -160,6 +174,7 @@ def look(url: str) -> dict:
         page = fetch(url)
     except FetchError as exc:
         return {"url": url, "ok": False, "note": str(exc)[:100], "links": 0,
+                "dead_host": isinstance(exc, HostIsDead),
                 "samples": [], "platforms": [], "follow": []}
     links = {urljoin(url, h) for h in JOB_LINK.findall(page)}
     plats = []
@@ -226,11 +241,16 @@ def probe(name: str, url: str) -> dict:
     # the site's own way in, before any guessing
     queue = list(first.get("follow", [])) + [v for v in variants(url)[1:]]
     best = first["links"] if first["ok"] else 0
+    dead_hosts = {urlparse(url).netloc} if first.get("dead_host") else set()
     for u in queue:
         if u.rstrip("/") in seen or best >= CLEAR_LIST or len(looks) >= MAX_FETCHES:
             continue                      # list page in hand, or budget spent
+        if urlparse(u).netloc in dead_hosts:
+            continue                      # this host is already proven gone
         seen.add(u.rstrip("/"))
         l = look(u)
+        if l.get("dead_host"):
+            dead_hosts.add(urlparse(u).netloc)
         looks.append(l)
         best = max(best, l["links"])
         if l["links"]:                    # only worth going deeper from a live trail

@@ -78,10 +78,24 @@ def _get_html(url: str, accept: str = "text/html,application/xhtml+xml,*/*;q=0.8
     different byte caps, which is exactly the kind of drift that leaves one of
     them fixed and the others not.
     """
+    return _get_html_at(url, accept, limit)[0]
+
+
+def _get_html_at(url: str, accept: str = "text/html,application/xhtml+xml,*/*;q=0.8",
+                 limit: int = 6_000_000) -> tuple[str, str]:
+    """
+    GET a page, and say which URL it actually came from.
+
+    A careers page very often redirects to a different host - eir.ie/jobs lands
+    on jobs.eir.care - and a reader that keeps using the address it asked for
+    then treats every link on the page it received as belonging to some other
+    site. This returns both so the caller can resolve links against reality.
+    """
     req = urllib.request.Request(url, headers={**BROWSER_HEADERS, "Accept": accept})
     try:
         with urllib.request.urlopen(req, timeout=TIMEOUT) as resp:
-            return resp.read(limit).decode("utf-8", errors="replace")
+            body = resp.read(limit).decode("utf-8", errors="replace")
+            return body, (resp.geturl() or url)
     except Exception as exc:  # noqa: BLE001
         raise FetchError(str(exc)) from exc
 
