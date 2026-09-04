@@ -1,24 +1,134 @@
 {
- "last_run": "2026-09-04T01:26:27+00:00",
+ "last_run": "2026-09-04T06:10:06+00:00",
  "companies_total": 260,
- "companies_scanned": 152,
- "boards_failed": 1,
- "raw_postings": 14110,
- "relevant_jobs": 970,
+ "companies_scanned": 173,
+ "boards_failed": 23,
+ "raw_postings": 13401,
+ "relevant_jobs": 984,
  "min_score": 10,
- "new_this_run": 36,
+ "new_this_run": 44,
  "by_band": {
   "excellent": 18,
   "strong": 70,
   "decent": 27,
-  "stretch": 99,
-  "weak": 756
+  "stretch": 101,
+  "weak": 768
  },
  "top_errors": [
   {
    "company": "Expleo Ireland",
    "ats": "joblinks",
    "error": "no individual job links found on the page"
+  },
+  {
+   "company": "Crowe Ireland",
+   "ats": "joblinks",
+   "error": "found 1 job links but none were readable"
+  },
+  {
+   "company": "Royal London Ireland",
+   "ats": "sitemap",
+   "error": "34 job URLs in the sitemap, none readable"
+  },
+  {
+   "company": "Revolut Ireland",
+   "ats": "sitemap",
+   "error": "no sitemap found"
+  },
+  {
+   "company": "Wrkit",
+   "ats": "recruitee",
+   "error": "board not found (404)"
+  },
+  {
+   "company": "SoftCo",
+   "ats": "workable",
+   "error": "board not found (404)"
+  },
+  {
+   "company": "Nostra",
+   "ats": "workable",
+   "error": "board not found (404)"
+  },
+  {
+   "company": "Fire Financial Services",
+   "ats": "workable",
+   "error": "board not found (404)"
+  },
+  {
+   "company": "Glofox",
+   "ats": "lever",
+   "error": "board not found (404)"
+  },
+  {
+   "company": "Payslip",
+   "ats": "lever",
+   "error": "board not found (404)"
+  },
+  {
+   "company": "Nearform",
+   "ats": "lever",
+   "error": "board not found (404)"
+  },
+  {
+   "company": "Soapbox Labs",
+   "ats": "lever",
+   "error": "board not found (404)"
+  },
+  {
+   "company": "Cubic Telecom",
+   "ats": "lever",
+   "error": "board not found (404)"
+  },
+  {
+   "company": "Personio",
+   "ats": "greenhouse",
+   "error": "board not found (404)"
+  },
+  {
+   "company": "Deel",
+   "ats": "greenhouse",
+   "error": "board not found (404)"
+  },
+  {
+   "company": "LetsGetChecked",
+   "ats": "greenhouse",
+   "error": "board not found (404)"
+  },
+  {
+   "company": "Revolut",
+   "ats": "greenhouse",
+   "error": "board not found (404)"
+  },
+  {
+   "company": "Wayflyer",
+   "ats": "greenhouse",
+   "error": "board not found (404)"
+  },
+  {
+   "company": "Vertice",
+   "ats": "greenhouse",
+   "error": "board not found (404)"
+  },
+  {
+   "company": "Zalando",
+   "ats": "greenhouse",
+   "error": "board not found (404)"
+  },
+  {
+   "company": "Workhuman",
+   "ats": "greenhouse",
+   "error": "board not found (404)"
+  },
+  {
+   "company": "Tessian",
+   "ats": "ashby",
+   "error": "board not found (404)"
+  },
+  {
+   "company": "Ubiquity",
+   "ats": "ashby",
+   "error": "board not found (404)"
   }
  ],
  "quarantined_feeds": [
