@@ -1,18 +1,18 @@
 {
- "last_run": "2026-09-04T06:10:06+00:00",
+ "last_run": "2026-09-04T11:19:16+00:00",
  "companies_total": 260,
- "companies_scanned": 173,
+ "companies_scanned": 172,
  "boards_failed": 23,
- "raw_postings": 13401,
- "relevant_jobs": 984,
+ "raw_postings": 19187,
+ "relevant_jobs": 1014,
  "min_score": 10,
- "new_this_run": 44,
+ "new_this_run": 63,
  "by_band": {
-  "excellent": 18,
-  "strong": 70,
+  "excellent": 19,
+  "strong": 71,
   "decent": 27,
-  "stretch": 101,
-  "weak": 768
+  "stretch": 105,
+  "weak": 792
  },
  "top_errors": [
   {
@@ -21,9 +21,9 @@
    "error": "no individual job links found on the page"
   },
   {
-   "company": "Crowe Ireland",
+   "company": "Revolut Ireland",
    "ats": "joblinks",
-   "error": "found 1 job links but none were readable"
+   "error": "HTTP Error 403: Forbidden"
   },
   {
    "company": "Royal London Ireland",
@@ -41,17 +41,17 @@
    "error": "board not found (404)"
   },
   {
+   "company": "Fire Financial Services",
+   "ats": "workable",
+   "error": "board not found (404)"
+  },
+  {
    "company": "SoftCo",
    "ats": "workable",
    "error": "board not found (404)"
   },
   {
    "company": "Nostra",
-   "ats": "workable",
-   "error": "board not found (404)"
-  },
-  {
-   "company": "Fire Financial Services",
    "ats": "workable",
    "error": "board not found (404)"
   },
@@ -66,11 +66,6 @@
    "error": "board not found (404)"
   },
   {
-   "company": "Nearform",
-   "ats": "lever",
-   "error": "board not found (404)"
-  },
-  {
    "company": "Soapbox Labs",
    "ats": "lever",
    "error": "board not found (404)"
@@ -81,13 +76,8 @@
    "error": "board not found (404)"
   },
   {
-   "company": "Personio",
-   "ats": "greenhouse",
-   "error": "board not found (404)"
-  },
-  {
-   "company": "Deel",
-   "ats": "greenhouse",
+   "company": "Nearform",
+   "ats": "lever",
    "error": "board not found (404)"
   },
   {
@@ -101,12 +91,22 @@
    "error": "board not found (404)"
   },
   {
-   "company": "Wayflyer",
+   "company": "Personio",
    "ats": "greenhouse",
    "error": "board not found (404)"
   },
   {
    "company": "Vertice",
+   "ats": "greenhouse",
+   "error": "board not found (404)"
+  },
+  {
+   "company": "Deel",
+   "ats": "greenhouse",
+   "error": "board not found (404)"
+  },
+  {
+   "company": "Wayflyer",
    "ats": "greenhouse",
    "error": "board not found (404)"
   },
@@ -121,12 +121,12 @@
    "error": "board not found (404)"
   },
   {
-   "company": "Tessian",
+   "company": "Ubiquity",
    "ats": "ashby",
    "error": "board not found (404)"
   },
   {
-   "company": "Ubiquity",
+   "company": "Tessian",
    "ats": "ashby",
    "error": "board not found (404)"
   }
