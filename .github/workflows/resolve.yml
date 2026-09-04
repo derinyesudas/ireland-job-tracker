@@ -129,7 +129,7 @@ jobs:
         run: |
           git config user.name  "job-tracker-bot"
           git config user.email "actions@github.com"
-          git add data/companies.json data/resolution_report.json data/site_inspection.json
+          git add data/companies.json.enc data/resolution_report.json.enc data/site_inspection.json.enc 2>/dev/null || true
           if git diff --staged --quiet; then
             echo "Nothing changed."
           else
