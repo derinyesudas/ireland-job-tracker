@@ -32,7 +32,51 @@ from urllib.parse import urljoin, urlparse
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
-from scraper.ats_clients import FETCHERS, FetchError, _get_html  # noqa: E402
+from scraper.ats_clients import FETCHERS, FetchError, BROWSER_HEADERS  # noqa: E402
+from scraper.ats_extra import _job_candidate_links  # noqa: E402
+
+import time  # noqa: E402
+import urllib.error  # noqa: E402
+import urllib.request  # noqa: E402
+
+# The shared fetcher already sends a Chrome user agent, so the 403s in the last
+# sweep were not a missing UA. What it does not send is the rest of what a real
+# navigation carries, and it never retries a page fetch, so a single DNS blip
+# reads as a dead site. Both are fixed here rather than in the shared client,
+# because the live scraper is working and is not what we are debugging.
+NAV_HEADERS = {
+    **BROWSER_HEADERS,
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+    "Upgrade-Insecure-Requests": "1",
+    "Sec-Fetch-Site": "none",
+    "Sec-Fetch-Mode": "navigate",
+    "Sec-Fetch-User": "?1",
+    "Sec-Fetch-Dest": "document",
+    "sec-ch-ua": '"Chromium";v="131", "Not_A Brand";v="24"',
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": '"Windows"',
+}
+PAGE_TIMEOUT = 25
+PAGE_TRIES = 3
+
+
+def fetch(url: str, limit: int = 3_000_000) -> str:
+    """Page fetch that looks like a navigation and survives a transient blip."""
+    last = None
+    for attempt in range(PAGE_TRIES):
+        try:
+            req = urllib.request.Request(url, headers=NAV_HEADERS)
+            with urllib.request.urlopen(req, timeout=PAGE_TIMEOUT) as resp:
+                return resp.read(limit).decode("utf-8", errors="replace")
+        except urllib.error.HTTPError as exc:
+            if exc.code in (401, 403, 404, 410):
+                raise FetchError(f"HTTP {exc.code}") from exc   # settled, not flaky
+            last = exc
+        except Exception as exc:  # noqa: BLE001
+            last = exc
+        if attempt < PAGE_TRIES - 1:
+            time.sleep(1.5 * (attempt + 1))
+    raise FetchError(str(last))
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
@@ -113,10 +157,10 @@ def look(url: str) -> dict:
     """One cheap fetch: how many postings does this page link to, and does it
     name a platform?"""
     try:
-        page = _get_html(url)
+        page = fetch(url)
     except FetchError as exc:
         return {"url": url, "ok": False, "note": str(exc)[:100], "links": 0,
-                "platforms": [], "follow": []}
+                "samples": [], "platforms": [], "follow": []}
     links = {urljoin(url, h) for h in JOB_LINK.findall(page)}
     plats = []
     low = page.lower()
@@ -131,7 +175,8 @@ def look(url: str) -> dict:
         if urlparse(cand).netloc == urlparse(url).netloc and cand not in follow:
             follow.append(cand)
     return {"url": url, "ok": True, "note": "", "links": len(links),
-            "platforms": plats, "page": page, "follow": follow[:4]}
+            "samples": sorted(links)[:3], "platforms": plats, "page": page,
+            "follow": follow[:4]}
 
 
 def tokens_from(page: str, host: str, platforms: list[str]) -> list[tuple[str, str]]:
@@ -203,8 +248,18 @@ def probe(name: str, url: str) -> dict:
 
     # the page that links to the most postings is the one worth reading
     alive.sort(key=lambda l: -l["links"])
-    r["best_url"] = alive[0]["url"]
-    r["links"] = alive[0]["links"]
+    best = alive[0]
+    r["best_url"] = best["url"]
+    r["links"] = best["links"]
+    r["samples"] = best.get("samples", [])
+    # The whole point of this pass: how many of those links does the reader's
+    # own filter actually keep? If mine sees 39 and the reader keeps 0, the bug
+    # is the filter, not the site.
+    try:
+        r["reader_links"] = len(_job_candidate_links(best["url"], best.get("page", "")))
+    except Exception as exc:  # noqa: BLE001
+        r["reader_links"] = -1
+        r["note"] = f"link filter raised {type(exc).__name__}"
 
     def attempt(reader, token):
         ok, why = try_reader(reader, token)
@@ -219,6 +274,12 @@ def probe(name: str, url: str) -> dict:
             for reader in GENERIC:
                 if attempt(reader, l["url"]):
                     return r
+
+    # 1b. the register sometimes already gives the tenant, and the page fetch
+    #     failing (Perrigo's 500, QBE's 404) hid that the API is fine.
+    m = re.search(r"([\w-]+)\.(wd\d+)\.myworkdayjobs\.com/(?:[\w-]+/)?([\w-]+)", url, re.I)
+    if m and attempt("workday", "|".join(m.groups())):
+        return r
 
     # 2. the platform behind the branding
     host = urlparse(url).netloc

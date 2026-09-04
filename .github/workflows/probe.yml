@@ -95,13 +95,26 @@ jobs:
 
           if reader:
               print("### Readable, nothing parsed it\n")
-              print("| Employer | Job links found | Best page | Last thing tried |")
-              print("|---|---|---|---|")
-              for r in reader:
+              print("Links seen = what the probe counts. Reader keeps = what the "
+                    "joblinks filter accepts. A wide gap means the filter is the "
+                    "problem, not the site.\n")
+              print("| Employer | Links seen | Reader keeps | Best page | Last thing tried |")
+              print("|---|---|---|---|---|")
+              for r in sorted(reader, key=lambda x: -x.get("links", 0)):
                   last = r["tried"][-1]
-                  print(f"| {r['name']} | {r.get('links',0)} | {r.get('best_url','')} "
-                        f"| `{last['reader']}` - {last['note'][:60]} |")
+                  print(f"| {r['name']} | {r.get('links',0)} | {r.get('reader_links','?')} "
+                        f"| {r.get('best_url','')} "
+                        f"| `{last['reader']}` - {last['note'][:50]} |")
               print()
+              gap = [r for r in reader
+                     if r.get("links", 0) >= 3 and r.get("reader_links", 0) == 0]
+              if gap:
+                  print("#### The links the filter threw away\n")
+                  for r in gap[:20]:
+                      print(f"**{r['name']}** ({r.get('links',0)} seen, 0 kept)  ")
+                      for u in r.get("samples", []):
+                          print(f"- `{u}`  ")
+                      print()
 
           if dead:
               print("### Could not be opened\n")
