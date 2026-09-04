@@ -23,6 +23,7 @@ in as an argument at run time and leave no trace in the repository.
 from __future__ import annotations
 
 import argparse
+import contextlib
 import json
 import sys
 from pathlib import Path
@@ -31,16 +32,55 @@ sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 from scripts.probe_platforms import probe, try_reader  # noqa: E402
+import scraper.ats_extra as _ae  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
 COMPANIES = DATA / "companies.json"
 REGISTER = DATA / "ireland_register.json"
 
-# One job is not evidence. Three is.
-MIN_JOBS_TO_ADOPT = 3
+# A named board is its own evidence. When a reader talks to a real applicant
+# tracking system, that system belongs to the employer and whatever it returns
+# is that employer's vacancies - one job is a real job, and a company with one
+# opening should be on the board.
+#
+# The guessing readers are different. They read whatever HTML a careers page
+# happens to serve, so a single result is far more likely to be a blog post
+# under the careers path than a vacancy: Howden's was "Unlocking opportunities
+# in climate risk". Those still have to show three.
+NAMED_BOARDS = {
+    "ashby", "avature", "bamboohr", "cornerstone", "eightfold", "greenhouse",
+    "hirehive", "icims", "jobvite", "lever", "occupop", "oraclecloud",
+    "personio", "phenom", "pinpoint", "recruitee", "rippling", "smartrecruiters",
+    "successfactors", "talentbrew", "taleo", "teamtailor", "workable", "workday",
+}
+GUESSWORK = {"joblinks", "jsonld", "sitemap", "apiprobe", "rssfeed"}
+
+
+def enough(ats: str, found: int) -> bool:
+    return found >= (3 if ats in GUESSWORK else 1)
+
+
+# The sweep proves a feed cheaply, on five jobs. That number is far too small to
+# decide by: PM Group came back "only 2 jobs" and was dropped, when the truth was
+# that only two of the five links it was allowed to open happened to parse. So a
+# candidate that survives the sweep is read again properly, and it is that second
+# count that decides. Only the handful that pass pay for the full read.
+FULL_READ = 45
 
 CONF_TIER = {"documented": 3, "likely": 2, "unverified": 1}
+
+
+@contextlib.contextmanager
+def full_read():
+    """Lift the probe's five-job ceiling for one call, then put it back."""
+    was = (_ae.MAX_JOB_PAGES, _ae.MAX_SITEMAP_JOBS, _ae.MAX_CHILD_SITEMAPS)
+    _ae.MAX_JOB_PAGES = _ae.MAX_SITEMAP_JOBS = FULL_READ
+    _ae.MAX_CHILD_SITEMAPS = 6
+    try:
+        yield
+    finally:
+        (_ae.MAX_JOB_PAGES, _ae.MAX_SITEMAP_JOBS, _ae.MAX_CHILD_SITEMAPS) = was
 
 
 def jobs_returned(note: str) -> int:
@@ -94,9 +134,10 @@ def main() -> int:
 
     # 1. anything handed in by name, verified before it is believed
     for e in json.loads(args.extra) if args.extra.strip() else []:
-        ok, note = try_reader(e["ats"], e["token"])
+        with full_read():
+            ok, note = try_reader(e["ats"], e["token"])
         found = jobs_returned(note) if ok else 0
-        if not ok or found < MIN_JOBS_TO_ADOPT:
+        if not ok or not enough(e["ats"], found):
             rejected.append((e["name"], note if not ok else f"only {found} jobs"))
             continue
         key = (e["ats"], e["token"])
@@ -121,9 +162,12 @@ def main() -> int:
             if not r["working"]:
                 continue
             w = r["working"][0]
-            found = jobs_returned(w["note"])
-            if found < MIN_JOBS_TO_ADOPT:
-                rejected.append((r["name"], f"only {found} job(s) - not evidence"))
+            with full_read():
+                ok, note = try_reader(w["ats"], w["token"])
+            found = jobs_returned(note) if ok else 0
+            if not ok or not enough(w["ats"], found):
+                rejected.append((r["name"],
+                                 note if not ok else f"only {found} job(s) - not evidence"))
                 continue
             key = (w["ats"], w["token"])
             if key in by_key:
