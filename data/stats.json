@@ -1,34 +1,54 @@
 {
- "last_run": "2026-09-04T18:00:50+00:00",
+ "last_run": "2026-09-04T20:04:29+00:00",
  "companies_total": 260,
  "companies_scanned": 152,
- "boards_failed": 3,
- "raw_postings": 16369,
- "relevant_jobs": 1051,
+ "boards_failed": 7,
+ "raw_postings": 16349,
+ "relevant_jobs": 1055,
  "min_score": 10,
- "new_this_run": 52,
+ "new_this_run": 33,
  "by_band": {
   "excellent": 20,
   "strong": 74,
   "decent": 30,
-  "stretch": 110,
-  "weak": 817
+  "stretch": 111,
+  "weak": 820
  },
  "top_errors": [
   {
-   "company": "Revolut Ireland",
+   "company": "Musgrave Group",
+   "ats": "joblinks",
+   "error": "no individual job links found on the page"
+  },
+  {
+   "company": "Crowe Ireland",
+   "ats": "joblinks",
+   "error": "found 1 job links but none were readable"
+  },
+  {
+   "company": "Three Ireland",
    "ats": "joblinks",
    "error": "HTTP Error 403: Forbidden"
   },
   {
    "company": "Global Payments Ireland",
    "ats": "sitemap",
-   "error": "sitemap had 28 URLs but none looked like jobs"
+   "error": "no sitemap found"
   },
   {
    "company": "Revolut Ireland",
    "ats": "sitemap",
    "error": "no sitemap found"
+  },
+  {
+   "company": "Udemy Ireland",
+   "ats": "sitemap",
+   "error": "1 job URLs in the sitemap, none readable"
+  },
+  {
+   "company": "Musgrave Group",
+   "ats": "rssfeed",
+   "error": "no readable job feed"
   }
  ],
  "quarantined_feeds": [
