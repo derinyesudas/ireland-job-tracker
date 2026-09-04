@@ -1,0 +1,109 @@
+name: Adopt readable employers
+
+# Makes the probe's findings permanent. The probe says which employers can be
+# read; this checks each one again, and writes the ones that answer with real
+# jobs into the tracked list, so a feed found once keeps collecting forever.
+#
+# The research is unlocked, edited and locked again inside the run. Only the
+# encrypted file is committed, and the last step fails the run if any plaintext
+# was left behind.
+
+on:
+  workflow_dispatch:
+    inputs:
+      extra:
+        description: 'Manual additions, JSON: [{"name":"X","ats":"workday","token":"a|wd3|b"}]'
+        default: ""
+      only:
+        description: "Limit the sweep to employers whose name contains this"
+        default: ""
+      dry_run:
+        description: "Report what would be adopted, write nothing"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: adopt
+  cancel-in-progress: true
+
+jobs:
+  adopt:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install --quiet cryptography
+
+      - name: Unlock the research files
+        env:
+          TRACKER_KEY: ${{ secrets.TRACKER_KEY }}
+        run: python scripts/vault.py open
+
+      - name: Adopt
+        env:
+          # Through the environment, not interpolated into the command line -
+          # an employer called O'Brien would otherwise end the quoting and the
+          # rest of the input would be run as a command.
+          ONLY: ${{ inputs.only }}
+          EXTRA: ${{ inputs.extra }}
+          DRY: ${{ inputs.dry_run }}
+        run: |
+          ARGS=()
+          [ "$DRY" = "true" ] && ARGS+=(--dry-run)
+          python scripts/adopt.py --only "$ONLY" --extra "$EXTRA" "${ARGS[@]}" | tee adopt.log
+
+      - name: Report
+        if: always()
+        run: |
+          {
+            echo "## Adopted employers"
+            echo
+            echo '```'
+            sed -n '/^=\{20,\}/,$p' adopt.log || cat adopt.log
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Count the feeds while the file is still readable
+        if: ${{ !inputs.dry_run }}
+        run: |
+          echo "FEEDS=$(python -c "import json;print(len(json.load(open('data/companies.json'))))")" >> "$GITHUB_ENV"
+
+      - name: Lock the research files again
+        if: always()
+        env:
+          TRACKER_KEY: ${{ secrets.TRACKER_KEY }}
+        run: python scripts/vault.py close
+
+      - name: Commit the encrypted list
+        if: ${{ !inputs.dry_run }}
+        run: |
+          git config user.name "job-tracker-bot"
+          git config user.email "job-tracker-bot@users.noreply.github.com"
+          git add data/companies.json.enc
+          if git diff --staged --quiet; then
+            echo "Nothing changed."
+          else
+            git commit -m "companies: adopt employers the probe can read ($FEEDS feeds live)"
+            git pull --rebase --autostash origin main
+            git push origin main
+          fi
+
+      - name: Confirm nothing unlocked was left behind
+        if: always()
+        run: |
+          git status --porcelain
+          if git status --porcelain | grep -E '^\?\?.*(ireland_register|companies|resolution_report|site_inspection|seed_companies|feed_health|derin)\.json$'; then
+            echo "::error::plaintext research left on disk"
+            exit 1
+          fi
+          echo "clean - only encrypted files present"

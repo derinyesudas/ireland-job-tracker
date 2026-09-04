@@ -300,9 +300,13 @@ def probe(name: str, url: str) -> dict:
             r["working"].append({"ats": reader, "token": token, "note": why})
         return ok
 
-    # 1. a page that already lists postings - no new code needed
+    # 1. a page that already lists postings - no new code needed.
+    #    Gated on whichever counter sees more. The reader's filter also accepts
+    #    links to known platforms, which this script's regex does not, so TCS
+    #    showed nothing here while the reader could see four jobs - and was
+    #    never tried.
     for l in alive[:2]:
-        if l["links"] >= MIN_JOB_LINKS:
+        if max(l["links"], len(_job_candidate_links(l["url"], l.get("page", "")))) >= MIN_JOB_LINKS:
             for reader in GENERIC:
                 if attempt(reader, l["url"]):
                     return r

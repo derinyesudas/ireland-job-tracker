@@ -282,6 +282,23 @@ H1_RE = re.compile(r"<h1[^>]*>(.*?)</h1>", re.S | re.I)
 MAX_JOB_PAGES = 45
 
 
+def _same_site(a: str, b: str) -> bool:
+    """Two hostnames belonging to the same organisation.
+
+    Deliberately blunt: the last two labels, or three where the second-last is
+    a public suffix like .co.uk. Good enough to link careers.x.com to www.x.com
+    without linking anything on .com to everything else on .com.
+    """
+    SECOND_LEVEL = {"co", "com", "org", "net", "ac", "gov", "edu"}
+    pa = a.lower().split(":")[0].split(".")
+    pb = b.lower().split(":")[0].split(".")
+    def root(parts):
+        if len(parts) >= 3 and parts[-2] in SECOND_LEVEL:
+            return tuple(parts[-3:])
+        return tuple(parts[-2:])
+    return len(pa) >= 2 and len(pb) >= 2 and root(pa) == root(pb)
+
+
 def _job_candidate_links(base_url: str, html_text: str) -> list[str]:
     host = urlparse(base_url).netloc
     seen: dict[str, None] = {}
@@ -293,8 +310,12 @@ def _job_candidate_links(base_url: str, html_text: str) -> list[str]:
         p = urlparse(full)
         if p.scheme not in ("http", "https"):
             continue
-        # Stay on the careers host, or an obvious recruitment platform.
-        if p.netloc != host and not re.search(
+        # Stay on the careers host, a sibling of it, or an obvious platform.
+        # PM Group lists its jobs on careers.pmgroup-global.com from a page on
+        # www.pmgroup-global.com. Same company, same registrable domain, and
+        # comparing the full hostname threw away every one of them - the same
+        # mistake as judging a redirected page by the address we asked for.
+        if p.netloc != host and not _same_site(p.netloc, host) and not re.search(
             r"(greenhouse|lever|ashby|workable|smartrecruiters|recruitee|"
             r"myworkdayjobs|oraclecloud|successfactors|icims|avature|taleo|"
             r"phenom|jobvite|teamtailor|eightfold|pinpointhq)", p.netloc, re.I
