@@ -33,25 +33,67 @@ DATA = ROOT / "data"
 
 # How a platform's own URLs give away the tenant. Each entry is the host
 # fragment to look for, and how to turn a matching URL into a reader token.
-SIGNATURES = [
-    ("workday",         r"https?://([\w-]+)\.(wd\d+)\.myworkdayjobs\.com/(?:wday/cxs/[\w-]+/)?([\w-]+)",
-                        lambda m: f"{m.group(1)}|{m.group(2)}|{m.group(3)}"),
-    ("icims",           r"https?://(?:careers-)?([\w-]+)\.icims\.com",              lambda m: m.group(1)),
-    ("avature",         r"https?://([\w-]+)\.avature\.net",                          lambda m: m.group(1)),
-    ("eightfold",       r"https?://([\w-]+)\.eightfold\.ai",                         lambda m: m.group(1)),
-    ("successfactors",  r"https?://career(\d*)\.successfactors\.(?:eu|com)/[^\"'\s]*company=([\w-]+)",
-                        lambda m: m.group(2)),
-    ("successfactors",  r"https?://([\w-]+)\.jobs2web\.com",                         lambda m: m.group(1)),
-    ("smartrecruiters", r"https?://(?:api|www|jobs)\.smartrecruiters\.com/(?:v1/companies/)?([\w-]+)",
-                        lambda m: m.group(1)),
-    ("taleo",           r"https?://([\w-]+)\.taleo\.net",                            lambda m: m.group(1)),
-    ("oraclecloud",     r"https?://([\w-]+\.oraclecloud\.com)",                       lambda m: m.group(1)),
-    ("cornerstone",     r"https?://([\w-]+)\.csod\.com",                              lambda m: m.group(1)),
-    ("greenhouse",      r"boards\.greenhouse\.io/([\w-]+)",                           lambda m: m.group(1)),
-    ("lever",           r"jobs\.lever\.co/([\w-]+)",                                  lambda m: m.group(1)),
-    ("phenom",          r"cdn-prod-static\.phenompeople\.com",                        lambda m: None),
-    ("talentbrew",      r"tbcdn\.talentbrew\.com",                                    lambda m: None),
-]
+# Every platform domain worth noticing, and how to turn a URL on that domain
+# into a reader token. The domain match is deliberately loose - a branded page
+# may name its platform in a link, a preconnect hint, a security header or a
+# blob of config, and only some of those carry the tenant. So the domain and
+# the token are found separately: seeing the domain tells us which platform,
+# and the token pattern is then tried against everything on the page.
+PLATFORM_DOMAINS = {
+    "myworkdayjobs.com":  "workday",
+    "icims.com":          "icims",
+    "avature.net":        "avature",
+    "eightfold.ai":       "eightfold",
+    "successfactors.eu":  "successfactors",
+    "successfactors.com": "successfactors",
+    "jobs2web.com":       "successfactors",
+    "smartrecruiters.com": "smartrecruiters",
+    "taleo.net":          "taleo",
+    "oraclecloud.com":    "oraclecloud",
+    "csod.com":           "cornerstone",
+    "greenhouse.io":      "greenhouse",
+    "lever.co":           "lever",
+    "workable.com":       "workable",
+    "ashbyhq.com":        "ashby",
+    "recruitee.com":      "recruitee",
+    "personio.de":        "personio",
+    "phenompeople.com":   "phenom",
+    "talentbrew.com":     "talentbrew",
+    "candidatemanager.net": "candidatemanager",
+    "talent-community.com": "talentcommunity",
+    "occupop.com":        "occupop",
+    "hirehive.com":       "hirehive",
+    "pinpointhq.com":     "pinpoint",
+}
+
+# How to lift the tenant out, once we know which platform we are looking at.
+# No scheme required: these run against the whole page, not just hrefs.
+TOKEN_PATTERNS = {
+    "workday":        [r"([\w-]+)\.(wd\d+)\.myworkdayjobs\.com/(?:wday/cxs/[\w-]+/)?([\w-]+)",
+                       r"([\w-]+)\.(wd\d+)\.myworkdayjobs\.com"],
+    "icims":          [r"(?:careers-)?([\w-]+)\.icims\.com"],
+    "avature":        [r"([\w-]+)\.avature\.net"],
+    "eightfold":      [r"([\w-]+)\.eightfold\.ai"],
+    "successfactors": [r"career\d*\.successfactors\.(?:eu|com)/[^\"'\s]*company=([\w-]+)",
+                       r"[?&]company=([\w-]+)",
+                       r"([\w-]+)\.jobs2web\.com"],
+    "smartrecruiters":[r"smartrecruiters\.com/(?:v1/companies/)?([\w-]+)"],
+    "taleo":          [r"([\w-]+)\.taleo\.net"],
+    "oraclecloud":    [r"([\w-]+\.oraclecloud\.com)"],
+    "cornerstone":    [r"([\w-]+)\.csod\.com"],
+    "greenhouse":     [r"greenhouse\.io/(?:embed/job_board\?for=)?([\w-]+)"],
+    "lever":          [r"lever\.co/([\w-]+)"],
+    "workable":       [r"workable\.com/(?:api/accounts/)?([\w-]+)"],
+    "ashby":          [r"ashbyhq\.com/([\w-]+)"],
+    "recruitee":      [r"([\w-]+)\.recruitee\.com"],
+    "personio":       [r"([\w-]+)\.jobs\.personio\.de"],
+    "occupop":        [r"([\w-]+)\.occupop\.com"],
+    "hirehive":       [r"([\w-]+)\.hirehive\.com"],
+    "pinpoint":       [r"([\w-]+)\.pinpointhq\.com"],
+}
+
+# Platforms where the careers host itself is the token, so nothing needs lifting.
+HOST_IS_TOKEN = {"phenom", "talentbrew", "candidatemanager", "talentcommunity"}
 
 SCRIPT_SRC = re.compile(r'<script[^>]+src=["\']([^"\']+)', re.I)
 MAX_SCRIPTS = 6
@@ -74,31 +116,50 @@ def page_and_scripts(url: str) -> str:
     return "\n".join(out)
 
 
-def candidates(name: str, url: str) -> list[tuple[str, str]]:
-    """Every (reader, token) worth trying for this employer."""
-    found: list[tuple[str, str]] = []
+def candidates(name: str, url: str) -> tuple[list[tuple[str, str]], list[str], str]:
+    """Returns (things worth trying, platforms merely seen, note).
+
+    Reporting what was seen but not usable is the point: a page that names
+    myworkdayjobs.com without ever spelling out its tenant is a different
+    problem from a page that names nothing at all, and only the first is worth
+    another go.
+    """
     try:
         blob = page_and_scripts(url)
     except FetchError as exc:
-        return [("__error__", str(exc)[:120])]
+        return [], [], str(exc)[:120]
 
     host = urlparse(url).netloc
-    for reader, pattern, to_token in SIGNATURES:
-        for m in re.finditer(pattern, blob, re.I):
-            tok = to_token(m)
-            if tok is None:            # host-only tell, so the careers host IS the token
-                tok = host
-            if (reader, tok) not in found:
-                found.append((reader, tok))
+    seen: list[str] = []
+    for domain, platform in PLATFORM_DOMAINS.items():
+        if domain in blob.lower() and platform not in seen:
+            seen.append(platform)
 
-    # phenom keys on a domain that is usually, but not always, the host minus
-    # its careers label - so try both, and the employer's own domain too.
-    if any(r == "phenom" for r, _ in found):
-        bare = re.sub(r"^(careers|jobs|www)\.", "", host)
-        for extra in (f"{host}|{bare}", host):
-            if ("phenom", extra) not in found:
-                found.append(("phenom", extra))
-    return found
+    found: list[tuple[str, str]] = []
+
+    def add(reader: str, token: str) -> None:
+        if token and (reader, token) not in found:
+            found.append((reader, token))
+
+    for platform in seen:
+        if platform in HOST_IS_TOKEN:
+            add(platform if platform in FETCHERS else "jsonld", 
+                host if platform in FETCHERS else url)
+            if platform == "phenom":
+                bare = re.sub(r"^(careers|jobs|www)\.", "", host)
+                add("phenom", f"{host}|{bare}")
+            continue
+        for pattern in TOKEN_PATTERNS.get(platform, []):
+            for m in re.finditer(pattern, blob, re.I):
+                if platform == "workday":
+                    g = m.groups()
+                    add("workday", "|".join(g) if len(g) == 3 else f"{g[0]}|{g[1]}|External")
+                else:
+                    add(platform, m.group(1))
+            if found:
+                break
+
+    return found, seen, ""
 
 
 def try_feed(reader: str, token: str) -> tuple[bool, str]:
@@ -118,15 +179,14 @@ def try_feed(reader: str, token: str) -> tuple[bool, str]:
 
 
 def probe(name: str, url: str) -> dict:
-    result = {"name": name, "url": url, "tried": [], "working": []}
-    for reader, token in candidates(name, url):
-        if reader == "__error__":
-            result["tried"].append({"reader": "-", "token": "-", "ok": False, "note": token})
-            continue
-        ok, note = try_feed(reader, token)
-        result["tried"].append({"reader": reader, "token": token, "ok": ok, "note": note})
+    tried, seen, note = candidates(name, url)
+    result = {"name": name, "url": url, "seen": seen, "note": note,
+              "tried": [], "working": []}
+    for reader, token in tried:
+        ok, why = try_feed(reader, token)
+        result["tried"].append({"reader": reader, "token": token, "ok": ok, "note": why})
         if ok:
-            result["working"].append({"ats": reader, "token": token, "note": note})
+            result["working"].append({"ats": reader, "token": token, "note": why})
     return result
 
 
@@ -158,14 +218,37 @@ def main() -> int:
         for f in as_completed(futures):
             r = f.result()
             results.append(r)
-            mark = "HIT " if r["working"] else "    "
-            print(f"{mark}{r['name'][:44]:<44} {len(r['tried'])} tried", flush=True)
+            if r["working"]:
+                mark, detail = "HIT ", r["working"][0]["ats"]
+            elif r["tried"]:
+                mark, detail = "    ", f"{len(r['tried'])} tried, none worked"
+            elif r["seen"]:
+                mark, detail = "SEEN", f"{', '.join(r['seen'])} but no tenant in the page"
+            elif r["note"]:
+                mark, detail = "    ", r["note"][:48]
+            else:
+                mark, detail = "    ", "no platform named anywhere"
+            print(f"{mark}{r['name'][:40]:<40} {detail}", flush=True)
 
     results.sort(key=lambda r: (not r["working"], r["name"]))
     (DATA / "probe_results.json").write_text(json.dumps(results, indent=1))
 
-    hits = [r for r in results if r["working"]]
-    print(f"\n{'='*70}\n{len(hits)} of {len(results)} employers now have a working feed\n{'='*70}")
+    hits    = [r for r in results if r["working"]]
+    tokenless = [r for r in results if not r["working"] and not r["tried"] and r["seen"]]
+    tried_no  = [r for r in results if not r["working"] and r["tried"]]
+    silent    = [r for r in results if not r["working"] and not r["tried"] and not r["seen"] and not r["note"]]
+    errored   = [r for r in results if r["note"]]
+    print(f"\n{'='*70}")
+    print(f"  {len(hits):>3} now have a working feed")
+    print(f"  {len(tokenless):>3} name a platform but never spell out the tenant")
+    print(f"  {len(tried_no):>3} gave a tenant, but the feed came back empty")
+    print(f"  {len(silent):>3} name no platform at all")
+    print(f"  {len(errored):>3} could not be opened")
+    print("="*70)
+    if tokenless:
+        print("\n  platform named, tenant hidden:")
+        for r in tokenless:
+            print(f"    {r['name'][:44]:<44} {', '.join(r['seen'])}")
     for r in hits:
         w = r["working"][0]
         print(f"  {r['name'][:40]:<40} {w['ats']:<16} {w['token'][:40]}")
