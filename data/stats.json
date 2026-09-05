@@ -1,18 +1,18 @@
 {
- "last_run": "2026-09-05T22:14:22+00:00",
+ "last_run": "2026-09-05T23:59:19+00:00",
  "companies_total": 263,
- "companies_scanned": 174,
- "boards_failed": 11,
- "raw_postings": 16813,
- "relevant_jobs": 1130,
+ "companies_scanned": 164,
+ "boards_failed": 4,
+ "raw_postings": 18396,
+ "relevant_jobs": 1133,
  "min_score": 10,
- "new_this_run": 33,
+ "new_this_run": 32,
  "by_band": {
   "excellent": 24,
   "strong": 75,
   "decent": 33,
   "stretch": 117,
-  "weak": 881
+  "weak": 884
  },
  "top_errors": [
   {
@@ -21,54 +21,19 @@
    "error": "no individual job links found on the page"
   },
   {
-   "company": "Global Payments Ireland",
+   "company": "Crowe Ireland",
+   "ats": "joblinks",
+   "error": "found 1 job links but none were readable"
+  },
+  {
+   "company": "South East Technological University (SETU)",
+   "ats": "joblinks",
+   "error": "HTTP Error 403: Forbidden"
+  },
+  {
+   "company": "Revolut Ireland",
    "ats": "sitemap",
-   "error": "sitemap had 28 URLs but none looked like jobs"
-  },
-  {
-   "company": "Wrkit",
-   "ats": "recruitee",
-   "error": "board not found (404)"
-  },
-  {
-   "company": "Nostra",
-   "ats": "workable",
-   "error": "board not found (404)"
-  },
-  {
-   "company": "Glofox",
-   "ats": "lever",
-   "error": "board not found (404)"
-  },
-  {
-   "company": "Cubic Telecom",
-   "ats": "lever",
-   "error": "board not found (404)"
-  },
-  {
-   "company": "Payslip",
-   "ats": "lever",
-   "error": "board not found (404)"
-  },
-  {
-   "company": "Soapbox Labs",
-   "ats": "lever",
-   "error": "board not found (404)"
-  },
-  {
-   "company": "Revolut",
-   "ats": "greenhouse",
-   "error": "board not found (404)"
-  },
-  {
-   "company": "Tessian",
-   "ats": "ashby",
-   "error": "board not found (404)"
-  },
-  {
-   "company": "Ubiquity",
-   "ats": "ashby",
-   "error": "board not found (404)"
+   "error": "no sitemap found"
   }
  ],
  "quarantined_feeds": [
