@@ -1,18 +1,18 @@
 {
- "last_run": "2026-09-05T13:08:49+00:00",
+ "last_run": "2026-09-05T16:07:47+00:00",
  "companies_total": 263,
  "companies_scanned": 174,
- "boards_failed": 14,
- "raw_postings": 16513,
- "relevant_jobs": 1127,
+ "boards_failed": 11,
+ "raw_postings": 16843,
+ "relevant_jobs": 1129,
  "min_score": 10,
- "new_this_run": 30,
+ "new_this_run": 39,
  "by_band": {
   "excellent": 24,
   "strong": 75,
   "decent": 33,
-  "stretch": 116,
-  "weak": 879
+  "stretch": 117,
+  "weak": 880
  },
  "top_errors": [
   {
@@ -21,24 +21,9 @@
    "error": "no individual job links found on the page"
   },
   {
-   "company": "Crowe Ireland",
-   "ats": "joblinks",
-   "error": "HTTP Error 403: Forbidden"
-  },
-  {
    "company": "Revolut Ireland",
    "ats": "joblinks",
    "error": "HTTP Error 403: Forbidden"
-  },
-  {
-   "company": "Global Payments Ireland",
-   "ats": "sitemap",
-   "error": "no sitemap found"
-  },
-  {
-   "company": "Revolut Ireland",
-   "ats": "sitemap",
-   "error": "no sitemap found"
   },
   {
    "company": "Wrkit",
@@ -56,17 +41,17 @@
    "error": "board not found (404)"
   },
   {
+   "company": "Cubic Telecom",
+   "ats": "lever",
+   "error": "board not found (404)"
+  },
+  {
    "company": "Glofox",
    "ats": "lever",
    "error": "board not found (404)"
   },
   {
    "company": "Soapbox Labs",
-   "ats": "lever",
-   "error": "board not found (404)"
-  },
-  {
-   "company": "Cubic Telecom",
    "ats": "lever",
    "error": "board not found (404)"
   },
