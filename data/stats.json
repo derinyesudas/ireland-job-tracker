@@ -1,12 +1,12 @@
 {
- "last_run": "2026-09-05T06:01:22+00:00",
+ "last_run": "2026-09-05T09:38:42+00:00",
  "companies_total": 263,
  "companies_scanned": 164,
  "boards_failed": 2,
- "raw_postings": 18444,
+ "raw_postings": 16417,
  "relevant_jobs": 1125,
  "min_score": 10,
- "new_this_run": 34,
+ "new_this_run": 33,
  "by_band": {
   "excellent": 24,
   "strong": 75,
@@ -21,9 +21,9 @@
    "error": "no individual job links found on the page"
   },
   {
-   "company": "South East Technological University (SETU)",
-   "ats": "joblinks",
-   "error": "found 1 job links but none were readable"
+   "company": "Revolut Ireland",
+   "ats": "sitemap",
+   "error": "no sitemap found"
   }
  ],
  "quarantined_feeds": [
