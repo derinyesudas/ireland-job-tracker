@@ -1,24 +1,29 @@
 {
- "last_run": "2026-09-05T01:29:07+00:00",
+ "last_run": "2026-09-05T06:01:22+00:00",
  "companies_total": 263,
- "companies_scanned": 165,
- "boards_failed": 1,
- "raw_postings": 16374,
- "relevant_jobs": 1121,
+ "companies_scanned": 164,
+ "boards_failed": 2,
+ "raw_postings": 18444,
+ "relevant_jobs": 1125,
  "min_score": 10,
- "new_this_run": 38,
+ "new_this_run": 34,
  "by_band": {
-  "excellent": 23,
-  "strong": 76,
+  "excellent": 24,
+  "strong": 75,
   "decent": 33,
   "stretch": 116,
-  "weak": 873
+  "weak": 877
  },
  "top_errors": [
   {
-   "company": "Revolut Ireland",
-   "ats": "sitemap",
-   "error": "no sitemap found"
+   "company": "Expleo Ireland",
+   "ats": "joblinks",
+   "error": "no individual job links found on the page"
+  },
+  {
+   "company": "South East Technological University (SETU)",
+   "ats": "joblinks",
+   "error": "found 1 job links but none were readable"
   }
  ],
  "quarantined_feeds": [
