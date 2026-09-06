@@ -1,18 +1,18 @@
 {
- "last_run": "2026-09-06T18:38:26+00:00",
+ "last_run": "2026-09-06T20:54:47+00:00",
  "companies_total": 263,
  "companies_scanned": 165,
- "boards_failed": 4,
- "raw_postings": 16565,
- "relevant_jobs": 1152,
+ "boards_failed": 2,
+ "raw_postings": 16449,
+ "relevant_jobs": 1153,
  "min_score": 10,
- "new_this_run": 30,
+ "new_this_run": 33,
  "by_band": {
   "excellent": 24,
   "strong": 74,
   "decent": 34,
   "stretch": 121,
-  "weak": 899
+  "weak": 900
  },
  "top_errors": [
   {
@@ -21,19 +21,9 @@
    "error": "no individual job links found on the page"
   },
   {
-   "company": "Revolut Ireland",
-   "ats": "joblinks",
-   "error": "HTTP Error 403: Forbidden"
-  },
-  {
-   "company": "Revolut Ireland",
+   "company": "Global Payments Ireland",
    "ats": "sitemap",
-   "error": "no sitemap found"
-  },
-  {
-   "company": "Udemy Ireland",
-   "ats": "sitemap",
-   "error": "no sitemap found"
+   "error": "sitemap had 28 URLs but none looked like jobs"
   }
  ],
  "quarantined_feeds": [
