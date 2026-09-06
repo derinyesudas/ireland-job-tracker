@@ -1,41 +1,20 @@
 {
- "last_run": "2026-09-06T13:56:51+00:00",
+ "last_run": "2026-09-06T16:36:26+00:00",
  "companies_total": 263,
- "companies_scanned": 164,
- "boards_failed": 4,
- "raw_postings": 18377,
- "relevant_jobs": 1151,
+ "companies_scanned": 165,
+ "boards_failed": 0,
+ "raw_postings": 16466,
+ "relevant_jobs": 1152,
  "min_score": 10,
- "new_this_run": 33,
+ "new_this_run": 35,
  "by_band": {
   "excellent": 24,
   "strong": 74,
   "decent": 34,
   "stretch": 121,
-  "weak": 898
+  "weak": 899
  },
- "top_errors": [
-  {
-   "company": "Expleo Ireland",
-   "ats": "joblinks",
-   "error": "no individual job links found on the page"
-  },
-  {
-   "company": "Crowe Ireland",
-   "ats": "joblinks",
-   "error": "found 1 job links but none were readable"
-  },
-  {
-   "company": "South East Technological University (SETU)",
-   "ats": "joblinks",
-   "error": "HTTP Error 403: Forbidden"
-  },
-  {
-   "company": "Global Payments Ireland",
-   "ats": "sitemap",
-   "error": "sitemap had 28 URLs but none looked like jobs"
-  }
- ],
+ "top_errors": [],
  "quarantined_feeds": [
   "Cubic Telecom",
   "Glofox",
