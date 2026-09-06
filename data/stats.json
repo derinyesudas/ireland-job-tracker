@@ -1,18 +1,18 @@
 {
- "last_run": "2026-09-06T01:33:58+00:00",
+ "last_run": "2026-09-06T06:18:28+00:00",
  "companies_total": 263,
- "companies_scanned": 165,
- "boards_failed": 2,
- "raw_postings": 16342,
- "relevant_jobs": 1142,
+ "companies_scanned": 174,
+ "boards_failed": 12,
+ "raw_postings": 16791,
+ "relevant_jobs": 1148,
  "min_score": 10,
- "new_this_run": 32,
+ "new_this_run": 46,
  "by_band": {
   "excellent": 24,
-  "strong": 75,
-  "decent": 33,
-  "stretch": 118,
-  "weak": 892
+  "strong": 74,
+  "decent": 34,
+  "stretch": 119,
+  "weak": 897
  },
  "top_errors": [
   {
@@ -24,6 +24,56 @@
    "company": "Revolut Ireland",
    "ats": "joblinks",
    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+   "company": "Global Payments Ireland",
+   "ats": "sitemap",
+   "error": "no sitemap found"
+  },
+  {
+   "company": "Wrkit",
+   "ats": "recruitee",
+   "error": "board not found (404)"
+  },
+  {
+   "company": "Nostra",
+   "ats": "workable",
+   "error": "board not found (404)"
+  },
+  {
+   "company": "Glofox",
+   "ats": "lever",
+   "error": "board not found (404)"
+  },
+  {
+   "company": "Soapbox Labs",
+   "ats": "lever",
+   "error": "board not found (404)"
+  },
+  {
+   "company": "Payslip",
+   "ats": "lever",
+   "error": "board not found (404)"
+  },
+  {
+   "company": "Cubic Telecom",
+   "ats": "lever",
+   "error": "board not found (404)"
+  },
+  {
+   "company": "Revolut",
+   "ats": "greenhouse",
+   "error": "board not found (404)"
+  },
+  {
+   "company": "Tessian",
+   "ats": "ashby",
+   "error": "board not found (404)"
+  },
+  {
+   "company": "Ubiquity",
+   "ats": "ashby",
+   "error": "board not found (404)"
   }
  ],
  "quarantined_feeds": [
