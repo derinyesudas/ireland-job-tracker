@@ -1,27 +1,22 @@
 {
- "last_run": "2026-09-07T22:07:21+00:00",
+ "last_run": "2026-09-08T00:07:04+00:00",
  "companies_total": 263,
  "companies_scanned": 164,
  "boards_failed": 6,
- "raw_postings": 18526,
- "relevant_jobs": 1212,
+ "raw_postings": 18470,
+ "relevant_jobs": 1214,
  "min_score": 10,
- "new_this_run": 27,
+ "new_this_run": 30,
  "by_band": {
   "excellent": 26,
   "strong": 77,
   "decent": 38,
   "stretch": 127,
-  "weak": 944
+  "weak": 946
  },
  "top_errors": [
   {
-   "company": "Brown Brothers Harriman Dublin",
-   "ats": "joblinks",
-   "error": "no individual job links found on the page"
-  },
-  {
-   "company": "Musgrave Group",
+   "company": "Expleo Ireland",
    "ats": "joblinks",
    "error": "no individual job links found on the page"
   },
@@ -29,6 +24,11 @@
    "company": "Crowe Ireland",
    "ats": "joblinks",
    "error": "found 1 job links but none were readable"
+  },
+  {
+   "company": "Revolut Ireland",
+   "ats": "joblinks",
+   "error": "HTTP Error 403: Forbidden"
   },
   {
    "company": "South East Technological University (SETU)",
@@ -41,9 +41,9 @@
    "error": "sitemap had 500 URLs but none looked like jobs"
   },
   {
-   "company": "Musgrave Group",
-   "ats": "rssfeed",
-   "error": "no readable job feed"
+   "company": "Revolut Ireland",
+   "ats": "sitemap",
+   "error": "no sitemap found"
   }
  ],
  "quarantined_feeds": [
@@ -53,6 +53,7 @@
   "Payslip",
   "Revolut",
   "Soapbox Labs",
+  "South East Technological University (SETU)",
   "Tessian",
   "Ubiquity",
   "Wrkit"
