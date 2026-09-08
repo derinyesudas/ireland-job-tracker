@@ -1,27 +1,27 @@
 {
- "last_run": "2026-09-08T03:07:08+00:00",
+ "last_run": "2026-09-08T07:57:26+00:00",
  "companies_total": 263,
- "companies_scanned": 165,
- "boards_failed": 3,
- "raw_postings": 16400,
- "relevant_jobs": 1216,
+ "companies_scanned": 164,
+ "boards_failed": 4,
+ "raw_postings": 18544,
+ "relevant_jobs": 1227,
  "min_score": 10,
- "new_this_run": 32,
+ "new_this_run": 42,
  "by_band": {
   "excellent": 26,
   "strong": 77,
-  "decent": 38,
-  "stretch": 127,
-  "weak": 948
+  "decent": 39,
+  "stretch": 128,
+  "weak": 957
  },
  "top_errors": [
   {
-   "company": "Expleo Ireland",
+   "company": "Crowe Ireland",
    "ats": "joblinks",
-   "error": "no individual job links found on the page"
+   "error": "found 1 job links but none were readable"
   },
   {
-   "company": "Crowe Ireland",
+   "company": "Revolut Ireland",
    "ats": "joblinks",
    "error": "HTTP Error 403: Forbidden"
   },
@@ -29,11 +29,18 @@
    "company": "LTIMindtree Ireland",
    "ats": "sitemap",
    "error": "sitemap had 500 URLs but none looked like jobs"
+  },
+  {
+   "company": "Revolut Ireland",
+   "ats": "sitemap",
+   "error": "no sitemap found"
   }
  ],
  "quarantined_feeds": [
+  "Crowe Ireland",
   "Cubic Telecom",
   "Glofox",
+  "LTIMindtree Ireland",
   "Nostra",
   "Payslip",
   "Revolut",
