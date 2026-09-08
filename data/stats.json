@@ -1,18 +1,18 @@
 {
- "last_run": "2026-09-08T12:27:08+00:00",
+ "last_run": "2026-09-08T16:51:53+00:00",
  "companies_total": 263,
  "companies_scanned": 163,
- "boards_failed": 3,
- "raw_postings": 16514,
- "relevant_jobs": 1241,
+ "boards_failed": 2,
+ "raw_postings": 16434,
+ "relevant_jobs": 1253,
  "min_score": 10,
- "new_this_run": 46,
+ "new_this_run": 44,
  "by_band": {
   "excellent": 26,
   "strong": 78,
   "decent": 39,
-  "stretch": 128,
-  "weak": 970
+  "stretch": 129,
+  "weak": 981
  },
  "top_errors": [
   {
@@ -24,11 +24,6 @@
    "company": "Revolut Ireland",
    "ats": "sitemap",
    "error": "no sitemap found"
-  },
-  {
-   "company": "Udemy Ireland",
-   "ats": "sitemap",
-   "error": "sitemap had 514 URLs but none looked like jobs"
   }
  ],
  "quarantined_feeds": [
