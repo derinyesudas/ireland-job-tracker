@@ -1,18 +1,18 @@
 {
- "last_run": "2026-09-08T00:07:04+00:00",
+ "last_run": "2026-09-08T03:07:08+00:00",
  "companies_total": 263,
- "companies_scanned": 164,
- "boards_failed": 6,
- "raw_postings": 18470,
- "relevant_jobs": 1214,
+ "companies_scanned": 165,
+ "boards_failed": 3,
+ "raw_postings": 16400,
+ "relevant_jobs": 1216,
  "min_score": 10,
- "new_this_run": 30,
+ "new_this_run": 32,
  "by_band": {
   "excellent": 26,
   "strong": 77,
   "decent": 38,
   "stretch": 127,
-  "weak": 946
+  "weak": 948
  },
  "top_errors": [
   {
@@ -23,27 +23,12 @@
   {
    "company": "Crowe Ireland",
    "ats": "joblinks",
-   "error": "found 1 job links but none were readable"
-  },
-  {
-   "company": "Revolut Ireland",
-   "ats": "joblinks",
-   "error": "HTTP Error 403: Forbidden"
-  },
-  {
-   "company": "South East Technological University (SETU)",
-   "ats": "joblinks",
    "error": "HTTP Error 403: Forbidden"
   },
   {
    "company": "LTIMindtree Ireland",
    "ats": "sitemap",
    "error": "sitemap had 500 URLs but none looked like jobs"
-  },
-  {
-   "company": "Revolut Ireland",
-   "ats": "sitemap",
-   "error": "no sitemap found"
   }
  ],
  "quarantined_feeds": [
