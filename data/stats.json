@@ -1,24 +1,29 @@
 {
- "last_run": "2026-09-08T22:09:03+00:00",
+ "last_run": "2026-09-09T00:17:59+00:00",
  "companies_total": 263,
  "companies_scanned": 174,
- "boards_failed": 13,
- "raw_postings": 16661,
- "relevant_jobs": 1280,
+ "boards_failed": 14,
+ "raw_postings": 16676,
+ "relevant_jobs": 1284,
  "min_score": 10,
- "new_this_run": 47,
+ "new_this_run": 36,
  "by_band": {
   "excellent": 29,
   "strong": 77,
   "decent": 41,
-  "stretch": 134,
-  "weak": 999
+  "stretch": 135,
+  "weak": 1002
  },
  "top_errors": [
   {
-   "company": "Expleo Ireland",
+   "company": "Musgrave Group",
    "ats": "joblinks",
    "error": "no individual job links found on the page"
+  },
+  {
+   "company": "Crowe Ireland",
+   "ats": "joblinks",
+   "error": "found 1 job links but none were readable"
   },
   {
    "company": "LTIMindtree Ireland",
@@ -26,9 +31,9 @@
    "error": "sitemap had 500 URLs but none looked like jobs"
   },
   {
-   "company": "Revolut Ireland",
-   "ats": "sitemap",
-   "error": "no sitemap found"
+   "company": "Musgrave Group",
+   "ats": "rssfeed",
+   "error": "no readable job feed"
   },
   {
    "company": "Wrkit",
@@ -38,6 +43,11 @@
   {
    "company": "Nostra",
    "ats": "workable",
+   "error": "board not found (404)"
+  },
+  {
+   "company": "Cubic Telecom",
+   "ats": "lever",
    "error": "board not found (404)"
   },
   {
@@ -52,11 +62,6 @@
   },
   {
    "company": "Soapbox Labs",
-   "ats": "lever",
-   "error": "board not found (404)"
-  },
-  {
-   "company": "Cubic Telecom",
    "ats": "lever",
    "error": "board not found (404)"
   },
