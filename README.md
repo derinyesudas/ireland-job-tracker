@@ -286,12 +286,6 @@ python scripts/vault.py close                   # lock them again before committ
 cd site && python -m http.server 8000           # view
 ```
 
-To retarget it at a different person, unlock the files and edit
-`profile/derin.json`. Role families, skills, languages and weights all live
-there. No code changes needed.
-
----
-
 ## Layout
 
 <details>
