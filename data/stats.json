@@ -1,34 +1,24 @@
 {
- "last_run": "2026-09-10T21:59:22+00:00",
+ "last_run": "2026-09-10T23:35:24+00:00",
  "companies_total": 263,
  "companies_scanned": 163,
- "boards_failed": 3,
- "raw_postings": 21434,
- "relevant_jobs": 1420,
+ "boards_failed": 1,
+ "raw_postings": 19246,
+ "relevant_jobs": 1424,
  "min_score": 10,
- "new_this_run": 39,
+ "new_this_run": 28,
  "by_band": {
   "excellent": 30,
   "strong": 80,
   "decent": 45,
-  "stretch": 145,
-  "weak": 1120
+  "stretch": 147,
+  "weak": 1122
  },
  "top_errors": [
   {
-   "company": "Crowe Ireland",
+   "company": "Expleo Ireland",
    "ats": "joblinks",
-   "error": "HTTP Error 403: Forbidden"
-  },
-  {
-   "company": "Revolut Ireland",
-   "ats": "joblinks",
-   "error": "HTTP Error 403: Forbidden"
-  },
-  {
-   "company": "Revolut Ireland",
-   "ats": "sitemap",
-   "error": "no sitemap found"
+   "error": "no individual job links found on the page"
   }
  ],
  "quarantined_feeds": [
