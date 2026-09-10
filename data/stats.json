@@ -1,89 +1,29 @@
 {
- "last_run": "2026-09-10T17:18:35+00:00",
+ "last_run": "2026-09-10T19:45:34+00:00",
  "companies_total": 263,
- "companies_scanned": 174,
- "boards_failed": 14,
- "raw_postings": 19360,
- "relevant_jobs": 1403,
+ "companies_scanned": 163,
+ "boards_failed": 2,
+ "raw_postings": 19337,
+ "relevant_jobs": 1408,
  "min_score": 10,
- "new_this_run": 42,
+ "new_this_run": 33,
  "by_band": {
   "excellent": 30,
   "strong": 80,
   "decent": 45,
   "stretch": 145,
-  "weak": 1103
+  "weak": 1108
  },
  "top_errors": [
   {
-   "company": "Expleo Ireland",
+   "company": "Crowe Ireland",
    "ats": "joblinks",
-   "error": "no individual job links found on the page"
-  },
-  {
-   "company": "Revolut Ireland",
-   "ats": "joblinks",
-   "error": "found 6 job links but none were readable"
-  },
-  {
-   "company": "LTIMindtree Ireland",
-   "ats": "sitemap",
-   "error": "sitemap had 500 URLs but none looked like jobs"
-  },
-  {
-   "company": "Global Payments Ireland",
-   "ats": "sitemap",
-   "error": "no sitemap found"
+   "error": "found 1 job links but none were readable"
   },
   {
    "company": "Revolut Ireland",
    "ats": "sitemap",
    "error": "no sitemap found"
-  },
-  {
-   "company": "Wrkit",
-   "ats": "recruitee",
-   "error": "board not found (404)"
-  },
-  {
-   "company": "Nostra",
-   "ats": "workable",
-   "error": "board not found (404)"
-  },
-  {
-   "company": "Soapbox Labs",
-   "ats": "lever",
-   "error": "board not found (404)"
-  },
-  {
-   "company": "Cubic Telecom",
-   "ats": "lever",
-   "error": "board not found (404)"
-  },
-  {
-   "company": "Glofox",
-   "ats": "lever",
-   "error": "board not found (404)"
-  },
-  {
-   "company": "Payslip",
-   "ats": "lever",
-   "error": "board not found (404)"
-  },
-  {
-   "company": "Revolut",
-   "ats": "greenhouse",
-   "error": "board not found (404)"
-  },
-  {
-   "company": "Tessian",
-   "ats": "ashby",
-   "error": "board not found (404)"
-  },
-  {
-   "company": "Ubiquity",
-   "ats": "ashby",
-   "error": "board not found (404)"
   }
  ],
  "quarantined_feeds": [
