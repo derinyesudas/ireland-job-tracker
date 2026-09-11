@@ -146,6 +146,11 @@ header {
 .filter-row + .filter-row { margin-top: 10px; }
 
 input[type="search"], select, input[type="text"] {
+  /* A select sizes itself to its widest option, and one tracked company with a
+     long name was enough to push the whole page wider than a phone screen and
+     give it a sideways scrollbar. Nothing here may outgrow its container. */
+  max-width: 100%;
+  box-sizing: border-box;
   background: var(--bg);
   border: 1px solid var(--border);
   color: var(--text);
@@ -571,3 +576,38 @@ footer {
   border-color: var(--muted-fg, #94a3b8);
 }
 .job:has(.tag.closed) { opacity: .62; }
+
+/* Nothing scrolls sideways. On a phone the page itself had a horizontal
+   scrollbar, which makes every vertical swipe feel like it is fighting back. */
+html, body { max-width: 100%; overflow-x: hidden; }
+
+/* --------------------------------------------------------- permit badges */
+.tag.nosponsor   { background: rgba(239, 68, 68, .12);  color: #f87171; border-color: #f87171; }
+.tag.yessponsor  { background: rgba(34, 197, 94, .12);  color: #4ade80; border-color: #4ade80; }
+.tag.permits     { background: rgba(34, 197, 94, .12);  color: #4ade80; border-color: #4ade80; }
+.tag.csep        { background: rgba(34, 197, 94, .10);  color: #4ade80; border-color: #4ade80; }
+.tag.generalroute{ background: rgba(234, 179, 8, .12);  color: #facc15; border-color: #facc15; }
+.tag.belowbar    { background: rgba(239, 68, 68, .10);  color: #f87171; border-color: #f87171; }
+
+/* Colour is never the only signal: a refusal and a salary under the bar both
+   carry their meaning in the words, so the badges still read in greyscale and
+   to anyone who cannot separate red from green. */
+
+/* ------------------------------------------------------- time-bound badges */
+.tag.sincevisit { background: rgba(56, 189, 248, .12); color: #38bdf8; border-color: #38bdf8; }
+.tag.stale      { background: rgba(234, 179, 8, .12);  color: #facc15; border-color: #facc15; }
+.tag.ghosted    { background: rgba(148, 163, 184, .14); color: #94a3b8; border-color: #94a3b8; }
+
+/* The one line on the page that asks something of you rather than listing
+   something for you, so it sits above the list and looks unlike it. */
+.today {
+  margin-top: 8px;
+  padding: 9px 12px;
+  border-left: 3px solid #facc15;
+  background: rgba(234, 179, 8, .07);
+  border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+  font-size: 13px;
+  color: var(--text);
+  line-height: 1.5;
+}
+.today strong { color: #facc15; }

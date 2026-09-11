@@ -29,7 +29,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
-from scraper import filters, normalise, score  # noqa: E402
+from scraper import filters, normalise, score, visa  # noqa: E402
 from scraper.ats_clients import FETCHERS, FetchError  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -128,6 +128,9 @@ def fetch_company(company: dict) -> tuple[dict, list[dict], str]:
         try:
             job = normaliser(raw, name)
             job["title"] = normalise.clean_title(job.get("title", ""))
+            # What the ad itself says about sponsorship, and whether the pay it
+            # quotes clears the permit bar. Silence stays silence.
+            job.update(visa.assess(job.get("description", "")))
             out.append(job)
         except Exception:  # noqa: BLE001 - one bad record must not kill the run
             continue

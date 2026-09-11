@@ -16,6 +16,24 @@ let TAB = 'jobs';                       // 'jobs' | 'applied' | 'hidden'
 let PAGE = 1;
 
 const APPLIED_STATES = ['applied', 'interview', 'offer', 'rejected'];
+
+/* You scrape ninety-six times a day. Without a mark for what is new since you
+   were last here, that work only ever produces a list that looks the same. */
+const VISIT_KEY = 'ijt-last-visit';
+const LAST_VISIT = (() => {
+  try {
+    const v = localStorage.getItem(VISIT_KEY);
+    localStorage.setItem(VISIT_KEY, new Date().toISOString());
+    return v;                            // null on a first ever visit
+  } catch { return null; }
+})();
+const isNewSinceVisit = j =>
+  !!LAST_VISIT && (j.first_seen || '') > LAST_VISIT;
+
+/* An application with no movement for a fortnight has almost certainly been
+   passed over. Saying so is kinder than leaving it sitting there looking live,
+   and it is the prompt to chase or to let go. */
+const GHOST_DAYS = 14;
 const isApplied = st => APPLIED_STATES.includes(st);
 
 /* ------------------------------------------------------------ local state */
@@ -153,6 +171,39 @@ const BAND_COLOR = {
   decent: 'var(--decent)', stretch: 'var(--stretch)', weak: 'var(--weak)'
 };
 
+/* What today actually asks of you.
+ *
+ * A board of 1,429 jobs does not tell you what to do next; it tells you how
+ * much there is. Two things are genuinely time-bound - an application nobody
+ * has answered, and a good job going cold - so those get said out loud and
+ * everything else stays a list. */
+
+function todayLine() {
+  const el = document.getElementById('today');
+  if (!el) return;
+  if (TAB !== 'jobs') { el.hidden = true; return; }
+
+  const chase = Object.entries(STATE).filter(([, st]) => {
+    if (st.status !== 'applied' || !st.appliedAt) return false;
+    const d = daysAgo(st.appliedAt);
+    return d != null && d >= GHOST_DAYS;
+  }).length;
+
+  const cooling = JOBS.filter(j => {
+    if (j.closed || isHidden(j.id) || isApplied(statusOf(j.id))) return false;
+    if ((j.score || 0) < 70) return false;
+    const d = daysAgo(j.first_seen || j.posted_at);
+    return d != null && d >= 6 && d <= 12;
+  }).length;
+
+  const bits = [];
+  if (cooling) bits.push(`<strong>${cooling}</strong> strong ${cooling === 1 ? 'job is' : 'jobs are'} about a week old — these go first`);
+  if (chase) bits.push(`<strong>${chase}</strong> ${chase === 1 ? 'application has' : 'applications have'} had no reply in ${GHOST_DAYS} days`);
+
+  el.hidden = bits.length === 0;
+  el.innerHTML = bits.join(' · ');
+}
+
 /* ----------------------------------------------------------------- filters */
 
 function searchKey(job) {
@@ -228,6 +279,21 @@ function visible() {
   });
 
   const sort = document.getElementById('sort').value;
+  // Fit alone is the wrong ranking for a job board.
+  //
+  // Postings in this market take applications for about nine days, and roughly
+  // two in five applications reach a job inside its first forty-eight hours. A
+  // role scoring 88 that you reach on day eight is a role you have lost, so the
+  // default ordering values a good job you can still get over a better one you
+  // probably cannot. The penalty is gentle - three points a day, capped - so a
+  // genuinely excellent match never falls off the front page for being a week
+  // old, it just stops outranking an equally good one posted this morning.
+  const urgency = j => {
+    const d = daysAgo(j.first_seen || j.posted_at);
+    if (d == null) return (j.score || 0) - 6;
+    return (j.score || 0) - Math.min(d * 3, 24);
+  };
+  if (sort === 'fresh') out.sort((a, b) => urgency(b) - urgency(a));
   if (sort === 'score') out.sort((a, b) => b.score - a.score);
   if (sort === 'new') out.sort((a, b) => (b.first_seen || '').localeCompare(a.first_seen || ''));
   if (sort === 'company') out.sort((a, b) => a.company.localeCompare(b.company) || b.score - a.score);
@@ -256,6 +322,10 @@ function cardHTML(job) {
   }
   else if (job.sponsor_tier === 1) tags.push('<span class="tag sponsor">On permit register</span>');
 
+  // A count beats an adjective. This employer sponsored this many people.
+  if (job.permits > 0)
+    tags.push(`<span class="tag permits">Sponsored ${job.permits} ${job.permits === 1 ? 'person' : 'people'}</span>`);
+
   // Read the TITLE for what kind of role this is, and match whole words.
   //
   // This used to search the title and the whole job ad for /intern|placement/,
@@ -265,6 +335,31 @@ function cardHTML(job) {
   // so a wrong Internship badge took the place of the right one: only 42 jobs
   // showed "Entry level", and "Junior Data Analyst" was not among them.
   if (job.closed) tags.push('<span class="tag closed">Closed</span>');
+  else if (isNewSinceVisit(job)) tags.push('<span class="tag sincevisit">Since you last looked</span>');
+
+  const age = daysAgo(job.first_seen || job.posted_at);
+  if (!job.closed && age != null && age >= 7 && (job.score || 0) >= 60)
+    tags.push(`<span class="tag stale">${age}d old - apply or lose it</span>`);
+
+  if (isApplied(statusOf(job.id))) {
+    const since = daysAgo((STATE[job.id] || {}).appliedAt);
+    if (since != null && since >= GHOST_DAYS && statusOf(job.id) === 'applied')
+      tags.push(`<span class="tag ghosted">No word in ${since} days</span>`);
+  }
+
+  // What this role means for a permit. The ad's own words come first, because
+  // an employer saying no outright is the only certain answer there is.
+  if (job.sponsorship === 'refuses')
+    tags.push('<span class="tag nosponsor">Says no sponsorship</span>');
+  else if (job.sponsorship === 'offers')
+    tags.push('<span class="tag yessponsor">Offers sponsorship</span>');
+
+  if (job.permit_route === 'below_threshold')
+    tags.push(`<span class="tag belowbar">€${(job.salary_eur/1000).toFixed(0)}k - under the permit bar</span>`);
+  else if (job.permit_route === 'general')
+    tags.push(`<span class="tag generalroute">€${(job.salary_eur/1000).toFixed(0)}k - General permit only</span>`);
+  else if (job.permit_route === 'critical_skills')
+    tags.push(`<span class="tag csep">€${(job.salary_eur/1000).toFixed(0)}k - clears Critical Skills</span>`);
 
   const title = job.title.toLowerCase();
   const full = (job.title + ' ' + (job.description || '')).toLowerCase();
@@ -454,6 +549,7 @@ function render() {
     ? (TAB === 'jobs' ? `Showing ${list.length} of ${counts.jobs} jobs`
                       : `${list.length} ${noun}`)
     : '';
+  todayLine();
 
   const applied = Object.values(STATE)
     .filter(s => ['applied', 'interview', 'offer', 'rejected'].includes(s.status)).length;

@@ -1,0 +1,94 @@
+name: Refresh the permit register
+
+# Joins the Department of Enterprise's list of companies issued employment
+# permits against the tracked employers, so "likely sponsor" becomes "sponsored
+# 14 people this year". The Department refreshes the file monthly, so this runs
+# on the 3rd and can be run by hand any time.
+
+on:
+  schedule:
+    - cron: "0 6 3 * *"
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Report what it found, write nothing"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: permits
+  cancel-in-progress: true
+
+jobs:
+  permits:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install dependencies
+        run: pip install --quiet cryptography openpyxl
+
+      - name: Unlock the research files
+        env:
+          TRACKER_KEY: ${{ secrets.TRACKER_KEY }}
+        run: python scripts/vault.py open
+
+      - name: Join the register
+        env:
+          DRY: ${{ inputs.dry_run }}
+        run: |
+          ARGS=()
+          [ "$DRY" = "true" ] && ARGS+=(--dry-run)
+          python scripts/permits.py "${ARGS[@]}" | tee permits.log
+
+      - name: Report
+        if: always()
+        run: |
+          {
+            echo "## Permit register"
+            echo
+            echo '```'
+            cat permits.log
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Count the feeds while the file is still readable
+        if: ${{ !inputs.dry_run }}
+        run: echo "FEEDS=$(python -c "import json;print(len(json.load(open('data/companies.json'))))")" >> "$GITHUB_ENV"
+
+      - name: Lock the research files again
+        if: always()
+        env:
+          TRACKER_KEY: ${{ secrets.TRACKER_KEY }}
+        run: python scripts/vault.py close
+
+      - name: Commit
+        if: ${{ !inputs.dry_run }}
+        run: |
+          git config user.name "job-tracker-bot"
+          git config user.email "job-tracker-bot@users.noreply.github.com"
+          git add data/companies.json.enc
+          if git diff --staged --quiet; then
+            echo "Nothing changed."
+          else
+            git commit -m "companies: refresh permit counts from the register ($FEEDS feeds live)"
+            git pull --rebase --autostash origin main
+            git push origin main
+          fi
+
+      - name: Confirm nothing unlocked was left behind
+        if: always()
+        run: |
+          git status --porcelain
+          if git status --porcelain | grep -E '^\?\?.*(ireland_register|companies|resolution_report|site_inspection|seed_companies|feed_health|derin)\.json$'; then
+            echo "::error::plaintext research left on disk"
+            exit 1
+          fi
+          echo "clean - only encrypted files present"

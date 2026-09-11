@@ -63,6 +63,7 @@
     <div class="filter-row">
       <input type="search" id="q" placeholder="Search title, company, or anything in the job description…" autocomplete="off">
       <select id="sort">
+        <option value="fresh">Best match you can still get</option>
         <option value="score">Best match first</option>
         <option value="new">Newest first</option>
         <option value="company">Company A–Z</option>
@@ -110,6 +111,7 @@
 
     <div class="filter-meta">
       <span id="count">Loading…</span>
+      <div id="today" class="today" hidden></div>
       <span class="legend">
         Score is out of 100 — how well the ad matches your CV, your tools, and the roles you want.
       </span>
