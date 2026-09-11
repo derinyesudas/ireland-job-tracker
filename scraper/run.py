@@ -294,18 +294,6 @@ def main() -> int:
     # see them as the same job; forty-six rows on the board were one vacancy
     # wearing different company names. The best-scoring row wins, and its
     # company name is the one that survives.
-    by_url: dict[str, dict] = {}
-    for job in kept:
-        u = (job.get("url") or "").split("?")[0].rstrip("/")
-        if not u:
-            by_url[job["id"]] = job          # nothing to compare on, keep it
-            continue
-        prev = by_url.get(u)
-        if prev is None or job.get("score", 0) > prev.get("score", 0):
-            by_url[u] = job
-    if len(by_url) < len(kept):
-        print(f"  collapsed {len(kept) - len(by_url)} postings sharing one address")
-    kept = list(by_url.values())
 
     print(f"  {len(kept)} jobs relevant to you after filtering")
     for reason, count in sorted(drop_reasons.items(), key=lambda x: -x[1]):
@@ -364,6 +352,32 @@ def main() -> int:
             except ValueError:
                 job["is_new"] = False
             fresh.append(job)
+
+    # One address is one vacancy - applied to the whole board, not to one run.
+    #
+    # This used to run over the freshly fetched batch only, which meant it could
+    # not see the copy left behind by a previous run. Forty-two addresses were
+    # still on the board twice: Bank of Ireland and New Ireland Assurance share
+    # a careers site, as do Elavon and U.S. Bank, so the same vacancy sat there
+    # under two employers with the stale twin never quite ageing out. The same
+    # split also mislabelled thirty-seven jobs as closed - a row that lost the
+    # dedupe was simply absent, and absence is what closed means.
+    #
+    # The row kept is the one seen most recently, and where that ties, the one
+    # scoring highest - the copy whose page gave up the most information.
+    best: dict[str, dict] = {}
+    for job in fresh:
+        u = (job.get("url") or "").split("?")[0].rstrip("/")
+        if not u:
+            best[job["id"]] = job         # nothing to compare on, so keep it
+            continue
+        prev = best.get(u)
+        if prev is None or (job.get("last_seen", ""), job.get("score", 0)) > \
+                           (prev.get("last_seen", ""), prev.get("score", 0)):
+            best[u] = job
+    if len(best) < len(fresh):
+        print(f"  collapsed {len(fresh) - len(best)} postings sharing one address")
+    fresh = list(best.values())
 
     # Re-score EVERY job on the board, not just the ones fetched this run.
     #
