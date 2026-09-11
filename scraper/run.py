@@ -126,7 +126,9 @@ def fetch_company(company: dict) -> tuple[dict, list[dict], str]:
     out = []
     for raw in raw_jobs:
         try:
-            out.append(normaliser(raw, name))
+            job = normaliser(raw, name)
+            job["title"] = normalise.clean_title(job.get("title", ""))
+            out.append(job)
         except Exception:  # noqa: BLE001 - one bad record must not kill the run
             continue
     return company, out, ""
@@ -275,6 +277,27 @@ def main() -> int:
     if len(best) < len(kept):
         print(f"  collapsed {len(kept) - len(best)} duplicate postings")
     kept = list(best.values())
+
+    # One address is one vacancy, whoever found it.
+    #
+    # Irish Life Group, Irish Life Health and Canada Life Group are three
+    # entries sharing one board, so the same posting arrived three times under
+    # three employer names. The key above keys on the employer, so it could not
+    # see them as the same job; forty-six rows on the board were one vacancy
+    # wearing different company names. The best-scoring row wins, and its
+    # company name is the one that survives.
+    by_url: dict[str, dict] = {}
+    for job in kept:
+        u = (job.get("url") or "").split("?")[0].rstrip("/")
+        if not u:
+            by_url[job["id"]] = job          # nothing to compare on, keep it
+            continue
+        prev = by_url.get(u)
+        if prev is None or job.get("score", 0) > prev.get("score", 0):
+            by_url[u] = job
+    if len(by_url) < len(kept):
+        print(f"  collapsed {len(kept) - len(by_url)} postings sharing one address")
+    kept = list(by_url.values())
 
     print(f"  {len(kept)} jobs relevant to you after filtering")
     for reason, count in sorted(drop_reasons.items(), key=lambda x: -x[1]):

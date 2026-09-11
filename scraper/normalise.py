@@ -146,13 +146,34 @@ def from_ashby(raw: dict, company: str) -> dict:
     }
 
 
+_TITLE_LABEL_RE = re.compile(r"^\s*(?:job\s+)?title\s*[:\-\u2013]\s*", re.I)
+
+
+def clean_title(text: str) -> str:
+    """Strip a label a page printed alongside its own title.
+
+    Eight jobs reached the board called "Title: Specialist, Accounts Payable".
+    The page's heading was the label and the value together, and taking it
+    whole meant the word Title sorted, searched and read as part of the role.
+    """
+    return _TITLE_LABEL_RE.sub("", text or "").strip()
+
+
 def from_workable(raw: dict, company: str) -> dict:
     title = raw.get("title", "")
     url = raw.get("url") or raw.get("application_url") or ""
-    loc_bits = [
-        (raw.get("location") or {}).get("city", ""),
-        (raw.get("location") or {}).get("country", ""),
-    ]
+    # Workable's widget API has no "location" key at all. It puts the place in
+    # flat city/state/country fields, with a "locations" ARRAY alongside. Asking
+    # for raw["location"] therefore returned nothing, every time, and all 68
+    # Workable jobs on the board carried a blank location - Davy's 23 Dublin
+    # roles among them, on a board whose entire purpose is Irish jobs.
+    first = (raw.get("locations") or [{}])[0] if raw.get("locations") else {}
+    city = raw.get("city") or first.get("city") or ""
+    region = raw.get("state") or first.get("region") or ""
+    country = raw.get("country") or first.get("country") or ""
+    # "Dublin, Ireland" reads better than "Dublin, County Dublin, Ireland", so
+    # the region is only used when there is no city to name.
+    loc_bits = [city or region, country]
     return {
         "id": make_id(company, title, url),
         "title": title,

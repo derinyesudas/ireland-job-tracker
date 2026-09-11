@@ -359,6 +359,26 @@ _JUNK_TITLE_RE = re.compile(
     r"(?:for\s+)?employers?|(?:for\s+)?students?(?:\s+and\s+graduates?)?|"
     r"jobs?\s+and\s+internships?|internships?\s+and\s+jobs?|graduates?|"
     r"alumni|about\s+us|contact\s+us|news|events?|blog|privacy(?:\s+policy)?|"
+    # A maintenance sweep found fifty-three more of these on the live board.
+    # They are not vacancies but pages ABOUT working somewhere, and they score
+    # well precisely because they are written to sound appealing: "Career
+    # Development at Dalata Hotel Group", "Apply for Crowe Ireland's Graduate
+    # Programme", "CareersNews is back!", and ICON's "Jobs in Taiwan", which is
+    # a country landing page sitting on an Ireland-only board.
+    r"(?:career|job|life|working|employee)[\s\w]*\s+at\s+.+|"
+    r"apply\s+for\s+.+|"
+    r"(?:jobs?|vacancies|careers?|opportunities)\s+in\s+\w+|"
+    # The pattern is anchored at both ends on purpose - it is what stops a real
+    # job like "Analyst, Careers Service" being thrown away - so every branch
+    # has to consume the whole title or it does not fire at all.
+    r"careers?\s*news.*|"
+    # "Careers and ..." is not junk by itself - "Careers and Guidance
+    # Counsellor" is a real vacancy, and blocking a real job is the worse
+    # mistake. What gives a page away is what it ENDS in, so match that
+    # instead: a title finishing in FAQs or Resources is a page about working
+    # somewhere, whatever it starts with.
+    r".*\b(?:faqs?|resources?|information|hub|portal|newsletter|handbook)\s*|"
+    r"job\s+opportunities|why\s+(?:work|join).*|meet\s+(?:the|our)\s+.*|"
     r"terms(?:\s+(?:and|&)\s+conditions)?|cookie[s]?(?:\s+policy)?|sitemap|"
     r"employer\s+.*|student\s+.*|recruit\s+.*|hire\s+.*|"
     r"work\s+(?:with|for)\s+us|life\s+at\s+.*|why\s+join\s+.*)$",
