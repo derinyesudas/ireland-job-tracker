@@ -165,6 +165,16 @@ def main() -> int:
         key = (e["ats"], e["token"])
         r = record(e["name"], e["ats"], e["token"], e.get("url", ""), found,
                    by_meta.get(e["name"], {}))
+        # A named addition replaces whatever feed that company had, rather than
+        # sitting beside it. Davy is the case: the address in the register now
+        # 404s, so the company was tracked and silently returning nothing while
+        # its real board carried twenty-three Dublin jobs. Adding the working
+        # feed without removing the dead one leaves the company on the list
+        # twice, one of them broken.
+        for k in [k for k, c in by_key.items()
+                  if c.get("name", "").lower() == e["name"].lower() and k != key]:
+            print(f"  replacing {e['name']}'s old feed {k[0]}/{k[1][:40]}")
+            del by_key[k]
         by_key[key] = {**by_key.get(key, {}), **r}
         adopted.append((e["name"], e["ats"], e["token"], found))
 
@@ -218,7 +228,9 @@ def main() -> int:
     if args.dry_run:
         print("\n  dry run - nothing written")
         return 0
-    if len(by_key) == before:
+    # Count is the wrong test. Replacing a company's dead feed with a working
+    # one leaves the total unchanged, and this guard then threw the repair away.
+    if not adopted:
         print("\n  nothing new to write")
         return 0
 
