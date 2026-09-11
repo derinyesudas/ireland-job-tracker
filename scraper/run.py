@@ -209,6 +209,10 @@ def main() -> int:
     all_jobs: list[dict] = []
     errors: list[dict] = []
     scanned = 0
+    # Which employers actually answered this run. A job can only be called
+    # closed if its own board was read and did not mention it; most runs scan a
+    # shard, so absence on its own proves nothing.
+    scanned_companies: set[str] = set()
 
     for ats, group in by_ats.items():
         workers = WORKERS.get(ats, DEFAULT_WORKERS)
@@ -226,6 +230,7 @@ def main() -> int:
                 else:
                     all_jobs.extend(jobs)
                     entry["fails"] = 0
+                    scanned_companies.add(name)
                     entry["last_ok"] = now_iso()
                     entry.pop("last_error", None)
 
@@ -320,6 +325,25 @@ def main() -> int:
             new_count += 1
         job["last_seen"] = now_iso()
         existing[job["id"]] = job
+
+    # A vacancy that has come off its own careers page is closed.
+    #
+    # Until now such a job simply sat on the board until it aged out 45 days
+    # later, so the most appealing thing about it - that it is still open - was
+    # the part most likely to be untrue. It is not deleted: a closed job is
+    # still worth seeing, and how long postings stay open is worth knowing.
+    closed_now = 0
+    for jid, job in existing.items():
+        if jid in seen_now:
+            if job.pop("closed", None):
+                job.pop("closed_at", None)     # reposted, so it is open again
+            continue
+        if job.get("company") in scanned_companies and not job.get("closed"):
+            job["closed"] = True
+            job["closed_at"] = now_iso()
+            closed_now += 1
+    if closed_now:
+        print(f"  {closed_now} jobs have come off their careers page")
 
     # Age out anything we have not seen in a while.
     cutoff = datetime.now(timezone.utc) - timedelta(days=MAX_AGE_DAYS)

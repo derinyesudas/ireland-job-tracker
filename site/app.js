@@ -155,6 +155,14 @@ const BAND_COLOR = {
 
 /* ----------------------------------------------------------------- filters */
 
+function searchKey(job) {
+  if (job._key === undefined) {
+    job._key = (job.title + ' ' + job.company + ' ' + (job.location || '') + ' ' +
+                (job.department || '') + ' ' + (job.description || '')).toLowerCase();
+  }
+  return job._key;
+}
+
 function visible() {
   const q = document.getElementById('q').value.trim().toLowerCase();
 
@@ -163,8 +171,7 @@ function visible() {
   // slider is set somewhere would be a nasty surprise.
   if (TAB !== 'jobs') {
     const base = TAB === 'applied' ? appliedJobs() : hiddenJobs();
-    const matches = j => !q || (j.title + ' ' + j.company + ' ' + (j.location || '') + ' ' +
-                                (j.department || '')).toLowerCase().includes(q);
+    const matches = j => !q || searchKey(j).includes(q);
     return base.filter(matches).sort((a, b) => (b.score || 0) - (a.score || 0));
   }
 
@@ -179,6 +186,10 @@ function visible() {
     // each has its own tab - but they should stop competing for attention.
     if (isHidden(job.id)) return false;
     if (isApplied(statusOf(job.id))) return false;
+    // A job that has come off its own careers page cannot be applied to, so it
+    // leaves the board. It stays visible under Applied, where knowing that a
+    // role you went for has closed is worth more than a tidy list.
+    if (job.closed) return false;
 
     if (job.score < minScore) return false;
     if (company && job.company !== company) return false;
@@ -190,11 +201,10 @@ function visible() {
       if (d == null || d > +age) return false;
     }
 
-    if (q) {
-      const hay = (job.title + ' ' + job.company + ' ' + job.location + ' ' +
-                   (job.department || '') + ' ' + (job.description || '')).toLowerCase();
-      if (!hay.includes(q)) return false;
-    }
+    // The haystack is built once, at load, not on every keystroke. Lowercasing
+    // 1,429 descriptions - about 8.5 million characters - for every letter
+    // typed is what made the search box feel heavy.
+    if (q && !searchKey(job).includes(q)) return false;
 
     const st = statusOf(job.id);
     if (QUICK.has('saved') && st !== 'saved') return false;
@@ -246,10 +256,24 @@ function cardHTML(job) {
   }
   else if (job.sponsor_tier === 1) tags.push('<span class="tag sponsor">On permit register</span>');
 
-  const t = (job.title + ' ' + (job.description || '')).toLowerCase();
-  if (/graduate programme|graduate program|graduate scheme/.test(t)) tags.push('<span class="tag grad">Graduate programme</span>');
-  else if (/intern|placement/.test(t)) tags.push('<span class="tag grad">Internship</span>');
-  else if (/junior|entry.level|trainee/.test(t)) tags.push('<span class="tag grad">Entry level</span>');
+  // Read the TITLE for what kind of role this is, and match whole words.
+  //
+  // This used to search the title and the whole job ad for /intern|placement/,
+  // which meant "internal" and "international" both counted. 544 jobs wore the
+  // Internship badge and 508 of them had no such word in their title - Davy's
+  // 12-18 month contract, AIB's AML KYC Analyst. Worse, the chain is else-if,
+  // so a wrong Internship badge took the place of the right one: only 42 jobs
+  // showed "Entry level", and "Junior Data Analyst" was not among them.
+  if (job.closed) tags.push('<span class="tag closed">Closed</span>');
+
+  const title = job.title.toLowerCase();
+  const full = (job.title + ' ' + (job.description || '')).toLowerCase();
+  if (/\bgraduate (?:programme|program|scheme)\b/.test(full))
+    tags.push('<span class="tag grad">Graduate programme</span>');
+  else if (/\b(?:intern|interns|internship|internships|placement|co[- ]?op)\b/.test(title))
+    tags.push('<span class="tag grad">Internship</span>');
+  else if (/\b(?:junior|jnr|entry[- ]level|trainee|graduate|apprentice)\b/.test(title))
+    tags.push('<span class="tag grad">Entry level</span>');
 
   if ((job.breakdown || []).some(b => b.label === 'Language edge'))
     tags.push('<span class="tag lang">Your languages help here</span>');
@@ -709,7 +733,13 @@ async function init() {
 
   // Wiring
   ['q', 'sort', 'f-company', 'f-location', 'f-band', 'f-age'].forEach(id => {
-    document.getElementById(id).addEventListener('input', () => { PAGE = 1; render(); });
+    // A pause of a fifth of a second reads as instant and spares the list a
+    // full redraw per letter.
+    let timer = null;
+    document.getElementById(id).addEventListener('input', () => {
+      clearTimeout(timer);
+      timer = setTimeout(() => { PAGE = 1; render(); }, 200);
+    });
   });
 
   const slider = document.getElementById('minscore');
