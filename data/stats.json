@@ -1,18 +1,18 @@
 {
- "last_run": "2026-09-11T11:21:23+00:00",
+ "last_run": "2026-09-11T13:01:51+00:00",
  "companies_total": 264,
- "companies_scanned": 175,
- "boards_failed": 18,
- "raw_postings": 16442,
- "relevant_jobs": 1445,
+ "companies_scanned": 264,
+ "boards_failed": 16,
+ "raw_postings": 20810,
+ "relevant_jobs": 1501,
  "min_score": 10,
- "new_this_run": 48,
+ "new_this_run": 128,
  "by_band": {
-  "excellent": 33,
-  "strong": 80,
-  "decent": 45,
-  "stretch": 143,
-  "weak": 1144
+  "excellent": 55,
+  "strong": 68,
+  "decent": 58,
+  "stretch": 164,
+  "weak": 1156
  },
  "top_errors": [
   {
@@ -21,24 +21,9 @@
    "error": "found 1 job links but none were readable"
   },
   {
-   "company": "Musgrave Group",
-   "ats": "joblinks",
-   "error": "no individual job links found on the page"
-  },
-  {
    "company": "Expleo Ireland",
    "ats": "joblinks",
    "error": "no individual job links found on the page"
-  },
-  {
-   "company": "Crowe Ireland",
-   "ats": "joblinks",
-   "error": "HTTP Error 403: Forbidden"
-  },
-  {
-   "company": "Revolut Ireland",
-   "ats": "joblinks",
-   "error": "HTTP Error 403: Forbidden"
   },
   {
    "company": "LTIMindtree Ireland",
@@ -51,14 +36,14 @@
    "error": "sitemap had 28 URLs but none looked like jobs"
   },
   {
-   "company": "Revolut Ireland",
+   "company": "Udemy Ireland",
    "ats": "sitemap",
-   "error": "no sitemap found"
+   "error": "sitemap had 568 URLs but none looked like jobs"
   },
   {
-   "company": "Musgrave Group",
-   "ats": "rssfeed",
-   "error": "no readable job feed"
+   "company": "Bord Bia",
+   "ats": "sitemap",
+   "error": "no sitemap found"
   },
   {
    "company": "Wrkit",
@@ -71,8 +56,13 @@
    "error": "board not found (404)"
   },
   {
-   "company": "Soapbox Labs",
-   "ats": "lever",
+   "company": "Energia Group",
+   "ats": "jsonld",
+   "error": "no JobPosting structured data on the page"
+  },
+  {
+   "company": "Revolut",
+   "ats": "greenhouse",
    "error": "board not found (404)"
   },
   {
@@ -86,13 +76,13 @@
    "error": "board not found (404)"
   },
   {
-   "company": "Payslip",
+   "company": "Soapbox Labs",
    "ats": "lever",
    "error": "board not found (404)"
   },
   {
-   "company": "Revolut",
-   "ats": "greenhouse",
+   "company": "Payslip",
+   "ats": "lever",
    "error": "board not found (404)"
   },
   {
@@ -114,7 +104,6 @@
   "Nostra",
   "Payslip",
   "Revolut",
-  "Revolut Ireland",
   "Soapbox Labs",
   "Tessian",
   "Ubiquity",
