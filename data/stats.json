@@ -1,39 +1,84 @@
 {
- "last_run": "2026-09-11T18:35:04+00:00",
+ "last_run": "2026-09-11T21:14:06+00:00",
  "companies_total": 264,
- "companies_scanned": 164,
- "boards_failed": 4,
- "raw_postings": 16589,
- "relevant_jobs": 1485,
+ "companies_scanned": 175,
+ "boards_failed": 13,
+ "raw_postings": 16468,
+ "relevant_jobs": 1488,
  "min_score": 10,
- "new_this_run": 73,
+ "new_this_run": 54,
  "by_band": {
   "excellent": 54,
   "strong": 61,
   "decent": 57,
   "stretch": 162,
-  "weak": 1151
+  "weak": 1154
  },
  "top_errors": [
   {
-   "company": "Expleo Ireland",
+   "company": "PayPal Ireland",
    "ats": "joblinks",
-   "error": "no individual job links found on the page"
+   "error": "found 1 job links but none were readable"
   },
   {
-   "company": "Crowe Ireland",
-   "ats": "joblinks",
-   "error": "HTTP Error 403: Forbidden"
+   "company": "LTIMindtree Ireland",
+   "ats": "sitemap",
+   "error": "sitemap had 500 URLs but none looked like jobs"
   },
   {
-   "company": "Revolut Ireland",
+   "company": "Sutherland Ireland",
    "ats": "sitemap",
    "error": "no sitemap found"
   },
   {
-   "company": "Udemy Ireland",
+   "company": "Sutherland Ireland",
    "ats": "sitemap",
-   "error": "sitemap had 568 URLs but none looked like jobs"
+   "error": "no sitemap found"
+  },
+  {
+   "company": "Wrkit",
+   "ats": "recruitee",
+   "error": "board not found (404)"
+  },
+  {
+   "company": "Nostra",
+   "ats": "workable",
+   "error": "board not found (404)"
+  },
+  {
+   "company": "Cubic Telecom",
+   "ats": "lever",
+   "error": "board not found (404)"
+  },
+  {
+   "company": "Glofox",
+   "ats": "lever",
+   "error": "board not found (404)"
+  },
+  {
+   "company": "Payslip",
+   "ats": "lever",
+   "error": "board not found (404)"
+  },
+  {
+   "company": "Soapbox Labs",
+   "ats": "lever",
+   "error": "board not found (404)"
+  },
+  {
+   "company": "Revolut",
+   "ats": "greenhouse",
+   "error": "board not found (404)"
+  },
+  {
+   "company": "Tessian",
+   "ats": "ashby",
+   "error": "board not found (404)"
+  },
+  {
+   "company": "Ubiquity",
+   "ats": "ashby",
+   "error": "board not found (404)"
   }
  ],
  "quarantined_feeds": [
