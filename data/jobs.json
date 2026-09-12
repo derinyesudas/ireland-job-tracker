@@ -244,8 +244,8 @@
   "permits": 0,
   "company_site": "",
   "first_seen": "2026-09-11T18:34:53+00:00",
-  "is_new": true,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "is_new": false,
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "971751282e6aba28",
@@ -505,7 +505,7 @@
   "company_site": "",
   "first_seen": "2026-09-11T01:24:55+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "5c37e9a27fca0335",
@@ -629,7 +629,7 @@
   "company_site": "https://careers.statestreet.com/global/en/search-results",
   "first_seen": "2026-09-07T19:16:31+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "0a316d991e1127c3",
@@ -694,7 +694,7 @@
   "company_site": "https://www.forvismazars.com/ie/en/careers",
   "first_seen": "2026-09-02T04:08:24+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "d52ebca0b639a34b",
@@ -878,7 +878,7 @@
   "company_site": "https://jobs.citi.com/location/dublin-jobs/287/2963597-7521314-7778677-2964574/4",
   "first_seen": "2026-09-09T13:49:34+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "e43887068533ccd2",
@@ -1112,7 +1112,7 @@
   "company_site": "https://careers.bankofireland.com/",
   "first_seen": "2026-09-02T03:59:37+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "1f3a8142283c75fd",
@@ -1167,7 +1167,7 @@
   "company_site": "https://careers.bankofireland.com/",
   "first_seen": "2026-09-02T03:59:37+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "7b772030572424b7",
@@ -1222,7 +1222,7 @@
   "company_site": "https://careers.bankofireland.com/",
   "first_seen": "2026-09-02T03:59:37+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "4911718b77c916ce",
@@ -1400,7 +1400,7 @@
   "company_site": "https://www.aig.com/careers",
   "first_seen": "2026-09-01T22:22:46+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "f77558235710d425",
@@ -1457,7 +1457,7 @@
   "company_site": "",
   "first_seen": "2026-09-02T01:29:46+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "2e8bfcb80eb0beb2",
@@ -1522,7 +1522,7 @@
   "company_site": "https://www.forvismazars.com/ie/en/careers",
   "first_seen": "2026-09-02T04:08:24+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "b8bef0eb9f95c618",
@@ -1587,7 +1587,7 @@
   "company_site": "https://www.forvismazars.com/ie/en/careers",
   "first_seen": "2026-09-02T04:08:24+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "a096cd5b0d9fe512",
@@ -1652,7 +1652,7 @@
   "company_site": "https://www.forvismazars.com/ie/en/careers",
   "first_seen": "2026-09-02T04:08:24+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "0f6ee6690a99aab0",
@@ -1717,7 +1717,7 @@
   "company_site": "https://www.forvismazars.com/ie/en/careers",
   "first_seen": "2026-09-02T04:08:24+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "b5dbd9c44191f551",
@@ -1782,7 +1782,7 @@
   "company_site": "https://www.forvismazars.com/ie/en/careers",
   "first_seen": "2026-09-02T04:08:24+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "ad5a31188cc8a592",
@@ -1847,7 +1847,7 @@
   "company_site": "https://www.forvismazars.com/ie/en/careers",
   "first_seen": "2026-09-02T04:08:24+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "ca3910c7f79f891f",
@@ -1912,7 +1912,7 @@
   "company_site": "https://www.forvismazars.com/ie/en/careers",
   "first_seen": "2026-09-02T04:08:24+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "f48abf6fd73113c0",
@@ -1977,7 +1977,7 @@
   "company_site": "https://www.forvismazars.com/ie/en/careers",
   "first_seen": "2026-09-02T04:08:24+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "b3da2c777d483f14",
@@ -2042,7 +2042,7 @@
   "company_site": "https://www.forvismazars.com/ie/en/careers",
   "first_seen": "2026-09-02T04:08:24+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "8998622be47c7021",
@@ -2107,7 +2107,7 @@
   "company_site": "https://www.forvismazars.com/ie/en/careers",
   "first_seen": "2026-09-02T04:08:24+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "e38ddc20d8f7e3bb",
@@ -2172,7 +2172,7 @@
   "company_site": "https://www.forvismazars.com/ie/en/careers",
   "first_seen": "2026-09-02T04:08:24+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "d06091b469c91990",
@@ -2237,7 +2237,7 @@
   "company_site": "https://www.forvismazars.com/ie/en/careers",
   "first_seen": "2026-09-02T04:08:24+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "b67521a28b3fb206",
@@ -2302,7 +2302,7 @@
   "company_site": "https://www.forvismazars.com/ie/en/careers",
   "first_seen": "2026-09-02T04:08:24+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "e7aba1bfd4e7442a",
@@ -2534,7 +2534,7 @@
   "company_site": "https://sedgwick.wd1.myworkdayjobs.com/Sedgwick",
   "first_seen": "2026-09-02T03:53:37+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "fcbf6d444f3b8cec",
@@ -2589,7 +2589,7 @@
   "company_site": "https://life-careers.com/irishlife/go/All-Jobs/3805301/",
   "first_seen": "2026-09-02T04:08:24+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "a61b819bd57311e0",
@@ -2713,7 +2713,7 @@
   "company_site": "https://davies-group.com/careers/",
   "first_seen": "2026-09-01T19:24:15+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "6f545d3388729367",
@@ -3140,7 +3140,7 @@
   "company_site": "https://sedgwick.wd1.myworkdayjobs.com/Sedgwick",
   "first_seen": "2026-09-02T03:53:37+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "5d4c2b0ef6a19d89",
@@ -3259,7 +3259,7 @@
   "company_site": "https://life-careers.com/irishlife/go/All-Jobs/3805301/",
   "first_seen": "2026-09-03T11:16:40+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "bc07bb418013cf49",
@@ -3314,7 +3314,7 @@
   "company_site": "",
   "first_seen": "2026-09-11T01:24:55+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "f85ecffd00973182",
@@ -3493,7 +3493,7 @@
   "company_site": "https://sedgwick.wd1.myworkdayjobs.com/Sedgwick",
   "first_seen": "2026-09-01T22:22:46+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "9af412a350a7c532",
@@ -3548,7 +3548,7 @@
   "company_site": "https://careers.jpmorgan.com/global/en/students",
   "first_seen": "2026-09-08T19:44:04+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "40a5322a0fdc42a0",
@@ -3608,7 +3608,7 @@
   "company_site": "https://accenture.pinpointhq.com/ireland",
   "first_seen": "2026-09-10T09:17:03+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "c3fca8611f8cd72b",
@@ -3663,7 +3663,7 @@
   "company_site": "https://bdoireland.pinpointhq.com/",
   "first_seen": "2026-09-01T19:24:15+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "9caca6fa6bdaae07",
@@ -3718,7 +3718,7 @@
   "company_site": "https://careers.statestreet.com/global/en/search-results",
   "first_seen": "2026-09-01T22:22:46+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "f9b44fba5957030f",
@@ -3949,7 +3949,7 @@
   "company_site": "https://careers.usbank.com/global/en/",
   "first_seen": "2026-09-03T15:03:42+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "7b6e1e0ac966f15e",
@@ -4128,7 +4128,7 @@
   "company_site": "https://accenture.pinpointhq.com/ireland",
   "first_seen": "2026-09-10T09:17:03+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "be8ecf8dfa4d73a7",
@@ -4250,7 +4250,7 @@
   "company_site": "https://bdoireland.pinpointhq.com/",
   "first_seen": "2026-09-01T19:24:15+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "3ba2744d13592dae",
@@ -4310,7 +4310,7 @@
   "company_site": "https://bdoireland.pinpointhq.com/",
   "first_seen": "2026-09-01T19:24:15+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "bdaa2973f19ebf42",
@@ -4370,7 +4370,7 @@
   "company_site": "https://www.exlservice.com/careers",
   "first_seen": "2026-09-01T19:24:15+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "a3055504f97bae78",
@@ -4425,7 +4425,7 @@
   "company_site": "https://cantorfitzgerald.ie/careers/",
   "first_seen": "2026-09-01T22:41:03+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "c7b05d6e82b79178",
@@ -4591,7 +4591,7 @@
   "company_site": "https://bdoireland.pinpointhq.com/",
   "first_seen": "2026-09-01T19:24:15+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "3488a0afd920eda8",
@@ -4646,7 +4646,7 @@
   "company_site": "https://bdoireland.pinpointhq.com/",
   "first_seen": "2026-09-01T19:24:15+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "9cbbf5dff99e4a46",
@@ -4701,7 +4701,7 @@
   "company_site": "https://bdoireland.pinpointhq.com/",
   "first_seen": "2026-09-01T19:24:15+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "6f41cb9160499379",
@@ -4879,7 +4879,7 @@
   "company_site": "https://careers.fbdgroup.com/search/",
   "first_seen": "2026-09-01T22:41:03+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "183b2e1dbef6b40f",
@@ -4939,7 +4939,7 @@
   "company_site": "https://careers.fbdgroup.com/search/",
   "first_seen": "2026-09-01T22:41:03+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "aa3c0d6a6cd5886f",
@@ -5118,7 +5118,7 @@
   "company_site": "",
   "first_seen": "2026-09-11T01:24:55+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "d19ef17fa010efd3",
@@ -5368,7 +5368,7 @@
   "url": "https://careers.expleo.com/en/roles/transformation-consultancy/expleo-business-analyst-team/",
   "description": "Skip to main content\nHome > Transformation consultancy > Join Expleo’s Business Analyst team\nCAREERS\nJoin Expleo’s Business Analyst team\nScroll\nBe the bridge between business and technology to create effective solutions\nProblem-solving and designing efficiencies motivates you and you always have your eye on the bigger picture. You can take a problem and piece together a solution whilst bringing stakeholders along the journey with you. For you, success is most exciting knowing you’ve met the needs of your customer.\nYou don’t just understand what people are saying, you understand what they mean and what they really need. And you know how to turn that into action, translating that message for different audiences and delivering solutions that leave customers satisfied every time.\nMy appetite to grow in Expleo as an active contributor to the organisation and as a Business Analyst is matched by the support and opportunity Expleo have provided with the brief time I have been within the company.\nCaitlin Brown, Senior Business Analyst\nExpleo’s Business Analyst Team helps deliver:\nImplementation of SMART Metering\nInsurance - Global Digital Ecosystem Process Optimisation & Standardisation\nRetail Workforce Management\nTransportation – Bus Garage Automation System Design\nTransportation – Airline booking and self-service website redesign\nBFSI – Transfer Agency New Client Integration and Onboarding\nA good business analyst is a good listener; they understand what a person means, not just what they say.\nSebastian Fischer, Lead Business Analyst\nWhile I may be a Senior Business Analyst, I work on a lot more because Expleo help you develop into areas that you're interested in, allowing you to navigate and explore different avenues of work\nLauren Passingham, Senior Business Analyst\nA day in the life of an Expleo Business Analyst\nMorning\nStart the day with a stand-up to outline the priorities across the team.\nMid-morning\nHold a meeting with the customer to discuss their requirements for the project.\nMidday\nReview the latest requirements to start working on the design for the product and discuss feasibility with developers.\nAfter lunch\nWork on the latest documentation.\nMid-afternoon\nPresent the latest design to the customer, discuss feedback based on requirements before handing over to the developer team.\nEnd of day\nMeet with the testing team to manage any questions they have and ensure the project is on track.\nEntry-level requirements​\nHARD SKILLS\nStakeholder Identification\n     Rated 5 out of 5\nManagement\nStakeholder Identification & Management\nWorkshop Facilitation\n     Rated 3 out of 5\nRequirements Elicitation\nProcess Mapping\n     Rated 4 out of 5\nGap Analysis\n     Rated 2 out of 5\nSOFT SKILLS\nEffective Communication\nProblem Solving\nNegotiation Skills\nAttention to Detail\nWhat you will be learning with our team\nSKILLS / QUALIFICATIONS\nIIBA Standards\nBCS Business Analysis International Diploma (UKI)\nAgile Practices\nBusiness & Strategic Thinking\nManagement & Leadership\nSound exciting? We think so too!\nJoin our team\nAccessibility\ntop\nRobert Matthews\nRead other stories from our veterans\nWhat is your name and your role and how long have you been working at Expleo?\nThis year I’m celebrating my 1 2 th year at Expleo . I started my career at Expleo as a Quality Auditor contractor, and then was offered a Staff position in the Life Cycle Management team, where I became a Deputy Team Lead, after which there was a nother promotion opportunity to an Engineering Manager, and later I was able to join our Marine division where I currently work.\nWhere and how long did you serve in the armed forces?\nI served in the Air Force just shy of 25 years. I started my career as an Aero Engines Mechanic. My first posting was at Brize Norton working on VC 10s, Tri Stars & Hercules Aircraft. Then I went on to a technician’s course and became a Junior Technician, and then progressed into a leadership position as a Sergeant. I left the Air Force as a Senior Non-commissioned Officer.\nRob in 2022 post remembrance parade in his local village. Remembrance day is very important to serving and veterans of the forces as it gives a chance to honor those who have given the ultimate sacrifice in serving their country\nWhat challenges did you have after leaving the Armed Forces?\nMy main challenge was worrying about Job Security. My manager was very supportive when I was still a contractor at Expleo and he transferred me over from contractor to permanent staff. I remember the conversation I had with him about the opportunities for secure job security and promotion.\nAnd he said: “At Expleo, opportunities are out there for you, so go and get them”. And he was right, there are plenty of opportunities at Expleo. You just have to seize them. And every time I saw an opportunity at Expleo, I just went for it.\nI transferred a lot of my skills over to Expleo. For instance, the aircraft and engine experience, experience in fault diagnosis, and more in-depth engineering project management and of course my leadership & Management Skills\nHow did Expleo help you to transition into your civilian job?\nI found it quite an easy transition, as there were a lot of ex-forces colleagues within Expleo when I joined, some of which I knew already. For those that didn’t have a military background they were equally as welcoming.\nHow do you feel Expleo allows you to use your expertise you gained during your service?\nExpleo gave me the freedom to use my transferable skills that I gained in the Air Force. My manager and colleagues had an open mindset for my ideas. I could bring those ideas into the office and illustrate how they could be implemented within a business setting They very much welcomed my ideas about improvements, and there is always an open environment for sharing ideas and previous knowledge. I also completed an Expleo Leadership Management course, which differed to the one I had in the Air Force. Combining the two gave me a much more rounded lead",
   "posted_at": "",
-  "source": "sitemap",
+  "source": "joblinks",
   "department": "",
   "employment_type": "",
   "sponsorship": null,
@@ -5418,7 +5418,7 @@
   "company_site": "https://expleo.com/global/en/careers/",
   "first_seen": "2026-09-01T22:41:03+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "21cda1053c3d29f1",
@@ -5896,7 +5896,7 @@
   "company_site": "https://www.apexgroup.com/careers/",
   "first_seen": "2026-09-01T22:22:46+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "745b38c96d971cfa",
@@ -6015,7 +6015,7 @@
   "company_site": "https://www.centralbank.ie/careers",
   "first_seen": "2026-09-04T11:19:10+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "e1c6e00258c72a46",
@@ -6075,7 +6075,7 @@
   "company_site": "https://www.ey.com/en_ie/careers/students",
   "first_seen": "2026-09-01T22:41:03+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "c2125f02f598a08e",
@@ -6703,7 +6703,7 @@
   "company_site": "https://careers.primark.com/en/location/ireland-jobs/30423/2963597/2",
   "first_seen": "2026-09-03T11:16:40+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "476606b42b330e64",
@@ -6866,7 +6866,9 @@
   "company_site": "https://careers.wipro.com/content/Early-Careers/?locale=en_US",
   "first_seen": "2026-09-12T05:51:50+00:00",
   "is_new": true,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T16:22:24+00:00",
+  "closed": true,
+  "closed_at": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "133771e429e73080",
@@ -6921,7 +6923,7 @@
   "company_site": "https://careers.wipro.com/content/Early-Careers/?locale=en_US",
   "first_seen": "2026-09-12T16:22:24+00:00",
   "is_new": true,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "53619adc2135ed60",
@@ -7035,7 +7037,7 @@
   "company_site": "https://www.centralbank.ie/careers",
   "first_seen": "2026-09-01T22:41:03+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "51246cd751bde450",
@@ -7159,7 +7161,7 @@
   "company_site": "https://www.vistra.com/careers",
   "first_seen": "2026-09-07T15:20:24+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "a88e8d13d007842e",
@@ -7271,7 +7273,7 @@
   "company_site": "https://www.ey.com/en_ie/careers/students",
   "first_seen": "2026-09-01T22:41:03+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "f3b085bc12a2a939",
@@ -7390,7 +7392,7 @@
   "company_site": "https://www.ey.com/en_ie/careers/students",
   "first_seen": "2026-09-02T03:59:37+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "f22df2b74b2b87ea",
@@ -7509,7 +7511,7 @@
   "company_site": "https://life-careers.com/irishlife/go/All-Jobs/3805301/",
   "first_seen": "2026-09-02T04:08:24+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "13e2d9b171838746",
@@ -7682,7 +7684,7 @@
   "company_site": "https://accenture.pinpointhq.com/ireland",
   "first_seen": "2026-09-10T09:17:03+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "1324205de2844f81",
@@ -8377,7 +8379,7 @@
   "company_site": "https://www.vistra.com/careers",
   "first_seen": "2026-09-06T22:35:45+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "d5243159bec593e9",
@@ -8432,7 +8434,7 @@
   "company_site": "https://www.vistra.com/careers",
   "first_seen": "2026-09-08T19:44:04+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "a2350801b6bc0c3c",
@@ -9001,7 +9003,7 @@
   "company_site": "https://accenture.pinpointhq.com/ireland",
   "first_seen": "2026-09-10T09:17:03+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "01c5f5747c3991c5",
@@ -9174,7 +9176,7 @@
   "company_site": "https://www.forvismazars.com/ie/en/careers",
   "first_seen": "2026-09-02T04:08:24+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "19cb064529842020",
@@ -9239,7 +9241,7 @@
   "company_site": "https://www.forvismazars.com/ie/en/careers",
   "first_seen": "2026-09-02T04:08:24+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "2acdda1871f26689",
@@ -9304,7 +9306,7 @@
   "company_site": "https://www.forvismazars.com/ie/en/careers",
   "first_seen": "2026-09-02T04:08:24+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "9fdd79835ca6a211",
@@ -9369,7 +9371,7 @@
   "company_site": "https://www.forvismazars.com/ie/en/careers",
   "first_seen": "2026-09-02T04:08:24+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "3bbec4a8c9e0f7b6",
@@ -9434,7 +9436,7 @@
   "company_site": "https://www.forvismazars.com/ie/en/careers",
   "first_seen": "2026-09-02T04:08:24+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "3f864deba11f7850",
@@ -9735,7 +9737,7 @@
   "company_site": "https://www.aig.com/careers",
   "first_seen": "2026-09-01T22:22:46+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "c1a80836444340b5",
@@ -10816,7 +10818,7 @@
   "company_site": "https://jobs.aib.ie/go/Search-All-Jobs/3834700/",
   "first_seen": "2026-09-07T09:50:11+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "58a8800cf4f5530c",
@@ -11670,7 +11672,7 @@
   "permits": 3,
   "company_site": "https://careers.wipro.com/content/Early-Careers/?locale=en_US",
   "first_seen": "2026-09-11T18:34:53+00:00",
-  "is_new": true,
+  "is_new": false,
   "last_seen": "2026-09-11T23:20:16+00:00",
   "closed": true,
   "closed_at": "2026-09-12T01:13:13+00:00"
@@ -11733,7 +11735,7 @@
   "company_site": "https://life-careers.com/irishlife/go/All-Jobs/3805301/",
   "first_seen": "2026-09-02T11:18:46+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "cfc26b924cc84115",
@@ -11788,7 +11790,7 @@
   "company_site": "https://cantorfitzgerald.ie/careers/",
   "first_seen": "2026-09-01T22:41:03+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "4b0fbd430d4e3d91",
@@ -12085,7 +12087,7 @@
   "company_site": "https://kpmg.com/ie/en/careers/graduate.html",
   "first_seen": "2026-09-01T22:41:03+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "b885437603a98165",
@@ -12626,7 +12628,9 @@
   "company_site": "https://careers.wipro.com/content/Early-Careers/?locale=en_US",
   "first_seen": "2026-09-12T05:51:50+00:00",
   "is_new": true,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T16:22:24+00:00",
+  "closed": true,
+  "closed_at": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "d636aa33ea937470",
@@ -13269,7 +13273,7 @@
   "url": "https://careers.expleo.com/en/roles/engineers-technicians/embedded-system-engineering-team/",
   "description": "Skip to main content\nHome > Engineers & Technicians > Join the Expleo Embedded Systems Engineering team\nCAREERS\nJoin the Expleo Embedded Systems Engineering team\nScroll\nDesign and deliver next-gen features\nNaturally curious , y ou love to learn about what makes things work. Y ou’re detail-oriented with the ability to accommodate different needs and requests (often at the same time) to deliver the bigger picture .\nManaging complex projects is where you truly thrive , working alongside colleagues with diverse skillsets , because you know how to lead, coordinate and motivate people towards a common goal: deliver ing quality product s that meet the user needs, on time and within budgets.\nDoes it sound like we’re talking about you?\nYou’re in the right place.\nSearch open positions\nExpleo’s embedded systems engineering team designs and delivers:\nScalable and centralised electrical/electronic architecture\nNanosatellite avionic system\nHybrid & electric vehicle battery system\nHigh-capacity rail signalling system (CBTC & ETCS)\nFuel-efficient aircraft engine control system (FADEC)\nAndroid Automotive OS-based infotainment system\nAutonomous naval inertial navigation system\nADAS & Autonomous driving system\nAs an embedded systems engineer, it's very exciting to work within a multi-cultural environment.\nAmine Mecheraoui, Embedded Systems Engineering Practice Leader\nDiscover more\nA day in the life of an Expleo Embedded Systems Engineer\nMorning\nCall with client and other stakeholders to establish where the project is at and what’s next.\nMid-morning\nMeeting with the current client project’s Product Owner to review updates of all specifications. Generally, a Q&A session helps ensure everything is covered, from security to design to customer matters.\nAfter lunch\nFocus on a specific problem or new need. Update specification and system architecture models to cover new requirements, share it with the team and answer their questions.\nAfternoon\nDefine/update testing strategy with support from the testing team. Anticipate problems with checking that all testing means defined within the testing strategy will be available on time.\nMid-Afternoon\nMeeting with the supplier to be sure that everything is OK and there are no delays for delivery.\nEnd of day\nCheck in with the team to make sure to identify any challenges and ensure they have the support to move forwards.​\nEntry-level requirements​\nHARD SKILLS\nProduct development lifecycle (V-model)\n     Rated 4 out of 5\nMechanics, Physics & Mathematics\nSOFT SKILLS\nRigorous mindset & Systems thinking\nCuriosity & Outside-the-box thinking\n     Rated 5 out of 5\nEnjoy solving complex problems\nSkeptical of unproven assertions\nLeadership\n     Rated 3 out of 5\nWhat you will be learning with our team\nComplex products & s ystems and how to approach them\nMBSE methods & tools (Arcadia, OOSEM, Capella, IBM Rhapsody etc. )\nProject & Team management\nRisk m anagement\nSound exciting? We think so too!\nJoin our team\nAccessibility\ntop\nRobert Matthews\nRead other stories from our veterans\nWhat is your name and your role and how long have you been working at Expleo?\nThis year I’m celebrating my 1 2 th year at Expleo . I started my career at Expleo as a Quality Auditor contractor, and then was offered a Staff position in the Life Cycle Management team, where I became a Deputy Team Lead, after which there was a nother promotion opportunity to an Engineering Manager, and later I was able to join our Marine division where I currently work.\nWhere and how long did you serve in the armed forces?\nI served in the Air Force just shy of 25 years. I started my career as an Aero Engines Mechanic. My first posting was at Brize Norton working on VC 10s, Tri Stars & Hercules Aircraft. Then I went on to a technician’s course and became a Junior Technician, and then progressed into a leadership position as a Sergeant. I left the Air Force as a Senior Non-commissioned Officer.\nRob in 2022 post remembrance parade in his local village. Remembrance day is very important to serving and veterans of the forces as it gives a chance to honor those who have given the ultimate sacrifice in serving their country\nWhat challenges did you have after leaving the Armed Forces?\nMy main challenge was worrying about Job Security. My manager was very supportive when I was still a contractor at Expleo and he transferred me over from contractor to permanent staff. I remember the conversation I had with him about the opportunities for secure job security and promotion.\nAnd he said: “At Expleo, opportunities are out there for you, so go and get them”. And he was right, there are plenty of opportunities at Expleo. You just have to seize them. And every time I saw an opportunity at Expleo, I just went for it.\nI transferred a lot of my skills over to Expleo. For instance, the aircraft and engine experience, experience in fault diagnosis, and more in-depth engineering project management and of course my leadership & Management Skills\nHow did Expleo help you to transition into your civilian job?\nI found it quite an easy transition, as there were a lot of ex-forces colleagues within Expleo when I joined, some of which I knew already. For those that didn’t have a military background they were equally as welcoming.\nHow do you feel Expleo allows you to use your expertise you gained during your service?\nExpleo gave me the freedom to use my transferable skills that I gained in the Air Force. My manager and colleagues had an open mindset for my ideas. I could bring those ideas into the office and illustrate how they could be implemented within a business setting They very much welcomed my ideas about improvements, and there is always an open environment for sharing ideas and previous knowledge. I also completed an Expleo Leadership Management course, which differed to the one I had in the Air Force. Combining the two gave me a much more rounded leadership and management mindset.\nHow do you connect with other members of the Armed Forces C",
   "posted_at": "",
-  "source": "sitemap",
+  "source": "joblinks",
   "department": "",
   "employment_type": "",
   "sponsorship": null,
@@ -13314,7 +13318,7 @@
   "company_site": "https://expleo.com/global/en/careers/",
   "first_seen": "2026-09-01T22:41:03+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "c0ccb48f99202223",
@@ -13379,7 +13383,7 @@
   "company_site": "https://careers.usbank.com/global/en/",
   "first_seen": "2026-09-02T04:08:24+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "4067b2b60c458ee4",
@@ -13969,7 +13973,7 @@
   "company_site": "https://www.vistra.com/careers",
   "first_seen": "2026-09-03T06:07:29+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "ba4e80642c16537c",
@@ -14277,7 +14281,7 @@
   "company_site": "https://sedgwick.wd1.myworkdayjobs.com/Sedgwick",
   "first_seen": "2026-09-01T22:22:46+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "5ff77bcac140866c",
@@ -14347,7 +14351,7 @@
   "company_site": "https://www.capgemini.com/ie-en/careers/",
   "first_seen": "2026-09-01T22:41:03+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "316d456e0bed5c3f",
@@ -14663,7 +14667,7 @@
   "company_site": "https://careers.marsh.com/global/en/mercer-search",
   "first_seen": "2026-09-02T04:08:24+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "fa599df1b91760ef",
@@ -14802,7 +14806,7 @@
   "company_site": "https://www.monumentregroup.com/careers/",
   "first_seen": "2026-09-02T17:20:46+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "753345a9485576b6",
@@ -15046,7 +15050,7 @@
   "company_site": "https://life-careers.com/irishlife/go/All-Jobs/3805301/",
   "first_seen": "2026-09-03T15:03:42+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "7b9b12b3736caf9c",
@@ -16073,7 +16077,7 @@
   "company_site": "https://careers.primark.com/en/location/ireland-jobs/30423/2963597/2",
   "first_seen": "2026-09-11T13:01:40+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "fabe009da0579416",
@@ -16326,7 +16330,7 @@
   "company_site": "https://www.zurich.ie/careers/career-opportunities/",
   "first_seen": "2026-09-01T22:41:03+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "ca591dc2b0662501",
@@ -16381,7 +16385,7 @@
   "company_site": "https://www.tudublin.ie/explore/jobs-at-tu-dublin/",
   "first_seen": "2026-09-02T01:29:46+00:00",
   "is_new": false,
-  "last_seen": "2026-09-11T13:43:29+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "32b46a340bc735ab",
@@ -16436,7 +16440,7 @@
   "company_site": "https://www.tudublin.ie/explore/jobs-at-tu-dublin/",
   "first_seen": "2026-09-02T01:29:46+00:00",
   "is_new": false,
-  "last_seen": "2026-09-11T13:43:29+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "44ac7f3dd44179f3",
@@ -16496,7 +16500,7 @@
   "company_site": "https://expleo.com/global/en/careers/",
   "first_seen": "2026-09-02T01:29:46+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "707207fda4b39f5c",
@@ -16551,7 +16555,7 @@
   "company_site": "https://www.crawco.com/careers",
   "first_seen": "2026-09-02T03:59:37+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "fb68008940482fea",
@@ -16666,7 +16670,7 @@
   "company_site": "https://www.tudublin.ie/explore/jobs-at-tu-dublin/",
   "first_seen": "2026-09-03T18:27:48+00:00",
   "is_new": false,
-  "last_seen": "2026-09-11T13:43:29+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "c377491fb5a03c2b",
@@ -17244,8 +17248,8 @@
   "permits": 3,
   "company_site": "https://careers.wtwco.com/",
   "first_seen": "2026-09-11T18:34:53+00:00",
-  "is_new": true,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "is_new": false,
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "f5afc00018205bdc",
@@ -17523,7 +17527,7 @@
   "company_site": "https://careers.marsh.com/global/en/mercer-search",
   "first_seen": "2026-09-02T04:08:24+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "a5107c36580cea7e",
@@ -17583,7 +17587,7 @@
   "company_site": "https://life-careers.com/irishlife/go/All-Jobs/3805301/",
   "first_seen": "2026-09-02T04:08:24+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "0a0a9770fb61d22f",
@@ -17812,7 +17816,7 @@
   "company_site": "https://careers.usbank.com/global/en/",
   "first_seen": "2026-09-03T15:03:42+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "a6da99117c7a9bd6",
@@ -18571,7 +18575,7 @@
   "company_site": "https://fa-euxc-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/jobs",
   "first_seen": "2026-09-01T19:24:15+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "4f5413883617b871",
@@ -18631,7 +18635,7 @@
   "company_site": "https://www.cscglobal.com/service/careers/",
   "first_seen": "2026-09-01T19:24:15+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "f27d7f856dd614aa",
@@ -18804,7 +18808,7 @@
   "company_site": "https://www.version1.com/careers",
   "first_seen": "2026-09-01T22:41:03+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "e757374ea06dbe73",
@@ -19036,7 +19040,7 @@
   "company_site": "https://careers.marsh.com/global/en/mercer-search",
   "first_seen": "2026-09-02T04:08:24+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "aaa419071d410144",
@@ -21517,7 +21521,7 @@
   "company_site": "",
   "first_seen": "2026-09-11T01:24:55+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "d7e4e00a6986b9c1",
@@ -21635,7 +21639,7 @@
   "permits": 3,
   "company_site": "https://careers.wipro.com/content/Early-Careers/?locale=en_US",
   "first_seen": "2026-09-11T18:34:53+00:00",
-  "is_new": true,
+  "is_new": false,
   "last_seen": "2026-09-11T18:34:53+00:00",
   "closed": true,
   "closed_at": "2026-09-11T21:13:58+00:00"
@@ -21757,7 +21761,7 @@
   "company_site": "https://www.cscglobal.com/service/careers/",
   "first_seen": "2026-09-01T19:24:15+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "60a917f20d57c0e9",
@@ -21881,7 +21885,7 @@
   "company_site": "https://www.aig.com/careers",
   "first_seen": "2026-09-01T22:22:46+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "0685d2948c82a50b",
@@ -21938,7 +21942,7 @@
   "company_site": "",
   "first_seen": "2026-09-01T22:41:03+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "afa14984bac674b9",
@@ -21948,7 +21952,7 @@
   "url": "https://careers.expleo.com/en/roles/it-digital/join-expleos-rpa-consulting-team/",
   "description": "Skip to main content\nHome > IT & Digital > Join Expleo’s RPA consulting team\nCAREERS\nJoin Expleo’s RPA consulting team\nScroll\nRedefine process automation excellence\nAs an RPA consultant, you’ll leverage your skills in automation/low-code/no-code technology to automate repetitive tasks and manual processes—transforming the business process of our clients by interacting with websites, business and desktop applications, databases and people to execute repetitive and often mundane work.\nYou’ll collaborate with a dynamic team of experts to deliver well-designed RPA bots, ensuring the automation of high volume, high value and high stakes process. If you enjoy problem-solving and have a passion for technology, this role will allow you to thrive in a fast-paced, high-impact environment.\nDoes that sound like we’re talking about you?\nYou’re in the right place.\nSearch open positions\nExpleo’s mechanical design engineering team delivers:\nPayroll process automation\nVendor, customer and employee onboarding automation\nAutomated report aggregation\nOrder processing automation\nAutomated financial planning and forecasting\nAt Expleo, I appreciate how management is approachable and how HR is always there to offer support. It’s not just about working on a project—it's about growing professionally, and I've had the chance to work on everything from business analysis to full lifecycle RPA solutions.\nSherif\nRPA Consultant at Expleo\nBefore joining Expleo, I wasn’t in the tech field —I transitioned into it as a mature college graduate in my 30s. Seven years on, I’ve become a highly specialised expert in the RPA field. This growth is thanks to Expleo’s confidence in my abilities and the opportunities they’ve given me to develop professionally\nAidan\nSenior Technical Engineer\nDiscover more\nA day in the life of an Expleo RPA consultant\nMorning\n• Reviewing client emails, project updates, and communications from the team.\n• Holding a virtual meeting with the client to discuss new automation requirements or optimisations.\nMid-morning\n• Conducting an internal meeting to discuss ongoing process automation projects and address any client-specific challenges.\n• Preparing technical documentation and ensuring the best practices are in place for automation deployment.\nNoon\n• Meeting with the development team to discuss new automation tools or strategies and how they fit with client systems.\nAfter lunch\n• Testing newly built bots and providing insights on their efficiency and improvements.\nAfternoon\n• Working with business analysts and engineers to identify potential RPA opportunities and align project goals.\nMid-afternoon\n• Preparing a status report on the current projects and outlining new tasks for the next day.\nEnd of day\n• Reviewing team progress and planning for the following day's activities.\nEntry-level requirements​\nHARD SKILLS\nBachelor’s degree in computer science or related field.\nExperience or knowledge of RPA platforms such as UiPath, Blue Prism, Automation Anywhere, Microsoft Power Platform.\nBasic coding knowledge, preferably in languages such as Python, Java, or .NET.\nCertificates in any of the major RPA tools are highly valued. (e.g., Blue Prism, UiPath, Automation Anywhere, Microsoft Power Platform)\nSOFT SKILLS\nExcellent communication skills, both verbal and written.\nAbility to work well with different teams and clients.\nStrong problem-solving and critical thinking abilities.\nDetail-oriented and able to manage multiple tasks efficiently.\nComplementary technologies/languages\nSQL, RegEx, HTML, XML, JSON, Knowledge of APIs, Excel Macros (VB.net)\nWhat you will be learning with our team\nIn-depth knowledge of RPA tools and automation techniques.\nProcess analysis and optimisation skills.\nRisk management strategies in RPA projects.\nClient relationship building and management.\nEffective teamwork and collaboration across departments.\nAdaptability in a fast-paced working environment.\nSound exciting? We think so too!\nJoin our team\nAccessibility\ntop\nRobert Matthews\nRead other stories from our veterans\nWhat is your name and your role and how long have you been working at Expleo?\nThis year I’m celebrating my 1 2 th year at Expleo . I started my career at Expleo as a Quality Auditor contractor, and then was offered a Staff position in the Life Cycle Management team, where I became a Deputy Team Lead, after which there was a nother promotion opportunity to an Engineering Manager, and later I was able to join our Marine division where I currently work.\nWhere and how long did you serve in the armed forces?\nI served in the Air Force just shy of 25 years. I started my career as an Aero Engines Mechanic. My first posting was at Brize Norton working on VC 10s, Tri Stars & Hercules Aircraft. Then I went on to a technician’s course and became a Junior Technician, and then progressed into a leadership position as a Sergeant. I left the Air Force as a Senior Non-commissioned Officer.\nRob in 2022 post remembrance parade in his local village. Remembrance day is very important to serving and veterans of the forces as it gives a chance to honor those who have given the ultimate sacrifice in serving their country\nWhat challenges did you have after leaving the Armed Forces?\nMy main challenge was worrying about Job Security. My manager was very supportive when I was still a contractor at Expleo and he transferred me over from contractor to permanent staff. I remember the conversation I had with him about the opportunities for secure job security and promotion.\nAnd he said: “At Expleo, opportunities are out there for you, so go and get them”. And he was right, there are plenty of opportunities at Expleo. You just have to seize them. And every time I saw an opportunity at Expleo, I just went for it.\nI transferred a lot of my skills over to Expleo. For instance, the aircraft and engine experience, experience in fault diagnosis, and more in-depth engineering project management and of course my leadership & Management Skills\nHow did Expleo help you to",
   "posted_at": "",
-  "source": "sitemap",
+  "source": "joblinks",
   "department": "",
   "employment_type": "",
   "sponsorship": null,
@@ -22003,7 +22007,7 @@
   "company_site": "https://expleo.com/global/en/careers/",
   "first_seen": "2026-09-01T22:41:03+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "1ed6a90b44e0c6ec",
@@ -22013,7 +22017,7 @@
   "url": "https://careers.expleo.com/en/roles/engineers-technicians/material-process-engineering-team/",
   "description": "Skip to main content\nHome > Engineers & Technicians > Join the Expleo Material process engineering team\nCAREERS\nJoin the Expleo Material Process Engineering team\nScroll\nDevelop high-performance and sustainable materials for industry\nYou’re fascinated by how different materials and components interact to make it possible for a jet to fly or keep a sports car light. The green mobility revolution inspires you, and you want to help make it a reality.\nYou have a scientific outlook and are methodical in your approach, ensuring that clients receive quality materials to make innovative and game-changing products, whatever the industry.\nDoes that sound like we’re talking about you?\nWell, you’re in the right place.\nSearch open positions\nExpleo's Material Process Engineers contribute to the development and production of:\nQualification of bio-composite materials for aeronautics\nIndustriali s ation of surface treatment baths applied to helicopters\nA utomated control of exterior paints applied by drone\nMechanical testing for the automotive systems\nMeasurement of contamination of optical surfaces for space applications\nLife c ycle a ssessment of c omposite p art s for aerospace\nA Material Process Engineer at Expleo ensures that the parts delivered to customers meet the relevant standards and requirements\nChristophe Sapet, Global Practice Leader – Material Process Engineering team\nA day in the life of an Expleo Material Process Engineer\nMorning\nTeam meeting to discuss progress of the project and outline the upcoming priorities for the team\nMid-morning\nWeekly meeting with a supplier and qualification follow-up\nNoon\nCustomer meeting to validate the delivery schedule of the technical specifications\nAfter lunch\nValidation with our experts of a batch of test results\nMid-afternoon\nClient meeting to launch a new batch of qualifications\nEnd of Day\nFeedback on the development of a surface treatment\nEntry-level requirements​\nHARD SKILLS\nDevelopment of new materials (metals, composites etc.)\n     Rated 4 out of 5\nMaterials shaping\nLaboratory testing\n     Rated 3 out of 5\nWriting test reports\n     Rated 2 out of 5\nSOFT SKILLS\nCurious mindset and passion for learning\n     Rated 5 out of 5\nMotivation\nTeamwork and collaboration\nWhat you will be learning with our team\nExpertise in a technical fields across materials and treatments\nDefining and validating requirements for a material type\nProject management qualifications\nWriting standards and technical specifications\nStakeholder and client communications\nAdaptability and resilience\nSound exciting? We think so too!\nJoin our team\nAccessibility\ntop\nRobert Matthews\nRead other stories from our veterans\nWhat is your name and your role and how long have you been working at Expleo?\nThis year I’m celebrating my 1 2 th year at Expleo . I started my career at Expleo as a Quality Auditor contractor, and then was offered a Staff position in the Life Cycle Management team, where I became a Deputy Team Lead, after which there was a nother promotion opportunity to an Engineering Manager, and later I was able to join our Marine division where I currently work.\nWhere and how long did you serve in the armed forces?\nI served in the Air Force just shy of 25 years. I started my career as an Aero Engines Mechanic. My first posting was at Brize Norton working on VC 10s, Tri Stars & Hercules Aircraft. Then I went on to a technician’s course and became a Junior Technician, and then progressed into a leadership position as a Sergeant. I left the Air Force as a Senior Non-commissioned Officer.\nRob in 2022 post remembrance parade in his local village. Remembrance day is very important to serving and veterans of the forces as it gives a chance to honor those who have given the ultimate sacrifice in serving their country\nWhat challenges did you have after leaving the Armed Forces?\nMy main challenge was worrying about Job Security. My manager was very supportive when I was still a contractor at Expleo and he transferred me over from contractor to permanent staff. I remember the conversation I had with him about the opportunities for secure job security and promotion.\nAnd he said: “At Expleo, opportunities are out there for you, so go and get them”. And he was right, there are plenty of opportunities at Expleo. You just have to seize them. And every time I saw an opportunity at Expleo, I just went for it.\nI transferred a lot of my skills over to Expleo. For instance, the aircraft and engine experience, experience in fault diagnosis, and more in-depth engineering project management and of course my leadership & Management Skills\nHow did Expleo help you to transition into your civilian job?\nI found it quite an easy transition, as there were a lot of ex-forces colleagues within Expleo when I joined, some of which I knew already. For those that didn’t have a military background they were equally as welcoming.\nHow do you feel Expleo allows you to use your expertise you gained during your service?\nExpleo gave me the freedom to use my transferable skills that I gained in the Air Force. My manager and colleagues had an open mindset for my ideas. I could bring those ideas into the office and illustrate how they could be implemented within a business setting They very much welcomed my ideas about improvements, and there is always an open environment for sharing ideas and previous knowledge. I also completed an Expleo Leadership Management course, which differed to the one I had in the Air Force. Combining the two gave me a much more rounded leadership and management mindset.\nHow do you connect with other members of the Armed Forces Community at Expleo?\nI participate in careers  transition workshops supporting recruiters. When Ex-Forces  are looking for a new career, I attend the workshops chatting  to the Armed Forces community sharing my experience and  what I have learned.\nWhat advice would you give to other members of the Armed Forces Community who are planning to join Expleo?\nExpleo has m",
   "posted_at": "",
-  "source": "sitemap",
+  "source": "joblinks",
   "department": "",
   "employment_type": "",
   "sponsorship": null,
@@ -22063,7 +22067,7 @@
   "company_site": "https://expleo.com/global/en/careers/",
   "first_seen": "2026-09-01T22:41:03+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "1be31c1aca564d18",
@@ -22187,7 +22191,7 @@
   "url": "https://careers.expleo.com/en/roles/engineers-technicians/manufacturing-method-engineering-team/",
   "description": "Skip to main content\nHome > Engineers & Technicians > Join Expleo’s Manufacturing Method Engineering Team\nCAREERS\nJoin Expleo’s Manufacturing Method Engineering Team\nScroll\nRedefine manufacturing excellence\nAs a manufacturing method engineer, you enjoy using your skills in advanced manufacturing technology, lean manufacturing and operations management to design the most efficient tools and processes for manufacturing operations in the automotive, aerospace, railway, defence, and life science industries.\nYou work alongside experts in production, quality, design, digital and the supply chain to guide the next-generation products such as aircrafts, cars, ships and trains from design to delivery and beyond.\nDoes that sound like we’re talking about you?\nWell, you’re in the right place.\nSearch open positions\nExpleo’s manufacturing method engineering team designs and delivers:\nInd ustrial ramp-up of the world’s bestselling aircrafts\nPLM & MES implementation to enable digital thread\nIndustrialisation o f electric car batter ies\nConstruction of next-gen nuclear submarine s\nAt Expleo, I appreciate that you're not just a number; management is approachable, and HR is supportive. Plus, I've had opportunities like representing the company at air shows, where I got to meet some great people from different teams.\nNigel – Senior Manufacturing Engineer\nA day in the life of an Expleo manufacturing method engineer\nMorning\nChecking emails, reviewing daily communications, and holding virtual team meetings to discuss any issues or requests from the factory floor or the engineering department.\nMid-morning\nConducting ad hoc meetings with customers and customer reviews with project management and technical teams. Offer insights and recommendations on optimising manufacturing methods to improve efficiency and quality.\nNoon\nMeeting with the design engineering team to discuss upcoming product launches or design changes and provide input on manufacturability and suggesting modifications to designs.\nAfter lunch\nDiving into data analysis. Reviewing performance metrics from the previous day or week to identify areas for improvement.\nAfternoon\nCreating a new Standard Operating Procedure (SOP) for process improvement.\nMid-Afternoon\nCarrying out risk opportunity meetings and identifying potential areas for project expansion and growth.\nEnd of day\nOutlining goals for the next day, providing updates on completed work, and contributing to reporting metrics.\nEntry-level requirements​\nHARD SKILLS\nEngineering qualification\nAbility to read, interpret, and execute technical drawings and diagrams\nKnowledge of manufacturing processes and equipment\nFamiliarity with PLM tools\nSOFT SKILLS\nPositive attitude\nWillingness to ask questions when necessary\nBeing conscientious in work\nStrong communication skills\nComplex problem-solving abilities\nCritical mindset\nAttention to detail\nWhat you will be learning with our team\nProject and team management\nProduct knowledge\nIndustrial standards\nRisk management\nSound exciting? We think so too!\nJoin our team\nAccessibility\ntop\nRobert Matthews\nRead other stories from our veterans\nWhat is your name and your role and how long have you been working at Expleo?\nThis year I’m celebrating my 1 2 th year at Expleo . I started my career at Expleo as a Quality Auditor contractor, and then was offered a Staff position in the Life Cycle Management team, where I became a Deputy Team Lead, after which there was a nother promotion opportunity to an Engineering Manager, and later I was able to join our Marine division where I currently work.\nWhere and how long did you serve in the armed forces?\nI served in the Air Force just shy of 25 years. I started my career as an Aero Engines Mechanic. My first posting was at Brize Norton working on VC 10s, Tri Stars & Hercules Aircraft. Then I went on to a technician’s course and became a Junior Technician, and then progressed into a leadership position as a Sergeant. I left the Air Force as a Senior Non-commissioned Officer.\nRob in 2022 post remembrance parade in his local village. Remembrance day is very important to serving and veterans of the forces as it gives a chance to honor those who have given the ultimate sacrifice in serving their country\nWhat challenges did you have after leaving the Armed Forces?\nMy main challenge was worrying about Job Security. My manager was very supportive when I was still a contractor at Expleo and he transferred me over from contractor to permanent staff. I remember the conversation I had with him about the opportunities for secure job security and promotion.\nAnd he said: “At Expleo, opportunities are out there for you, so go and get them”. And he was right, there are plenty of opportunities at Expleo. You just have to seize them. And every time I saw an opportunity at Expleo, I just went for it.\nI transferred a lot of my skills over to Expleo. For instance, the aircraft and engine experience, experience in fault diagnosis, and more in-depth engineering project management and of course my leadership & Management Skills\nHow did Expleo help you to transition into your civilian job?\nI found it quite an easy transition, as there were a lot of ex-forces colleagues within Expleo when I joined, some of which I knew already. For those that didn’t have a military background they were equally as welcoming.\nHow do you feel Expleo allows you to use your expertise you gained during your service?\nExpleo gave me the freedom to use my transferable skills that I gained in the Air Force. My manager and colleagues had an open mindset for my ideas. I could bring those ideas into the office and illustrate how they could be implemented within a business setting They very much welcomed my ideas about improvements, and there is always an open environment for sharing ideas and previous knowledge. I also completed an Expleo Leadership Management course, which differed to the one I had in the Air Force. Combining the two gave me a much more rounded leadership and managemen",
   "posted_at": "",
-  "source": "sitemap",
+  "source": "joblinks",
   "department": "",
   "employment_type": "",
   "sponsorship": null,
@@ -22237,7 +22241,7 @@
   "company_site": "https://expleo.com/global/en/careers/",
   "first_seen": "2026-09-02T01:29:46+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "fcd59f2ceb695331",
@@ -22292,7 +22296,7 @@
   "company_site": "https://kpmg.com/ie/en/careers/graduate.html",
   "first_seen": "2026-09-02T03:59:37+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "34652e18bca3766c",
@@ -23469,7 +23473,7 @@
   "company_site": "https://careers.statestreet.com/global/en/search-results",
   "first_seen": "2026-09-09T17:24:31+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "e31b7a3f9bb7605c",
@@ -24255,7 +24259,7 @@
   "company_site": "https://fa-euxc-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/jobs",
   "first_seen": "2026-09-01T19:24:15+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "3050b8c82e46d479",
@@ -24315,7 +24319,7 @@
   "company_site": "https://www.cscglobal.com/service/careers/",
   "first_seen": "2026-09-01T19:24:15+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "76b14f5e4ebd6fe0",
@@ -24552,7 +24556,7 @@
   "company_site": "https://careers.mastercard.com/us/en/dublin-ireland",
   "first_seen": "2026-09-01T22:22:46+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "111395740449109a",
@@ -24607,7 +24611,7 @@
   "company_site": "https://www.ttecjobs.com/en/search-jobs/Ireland",
   "first_seen": "2026-09-01T22:41:03+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "9f5560ac7cdc667b",
@@ -24726,7 +24730,7 @@
   "company_site": "https://expleo.com/global/en/careers/",
   "first_seen": "2026-09-02T01:29:46+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "3769d27bf34c254b",
@@ -24786,7 +24790,7 @@
   "company_site": "https://sedgwick.wd1.myworkdayjobs.com/Sedgwick",
   "first_seen": "2026-09-02T03:53:37+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "64b63adc04ae55df",
@@ -25260,7 +25264,7 @@
   "company_site": "https://careers.marsh.com/global/en/mercer-search",
   "first_seen": "2026-09-02T04:08:24+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "7b485f1e1cd0d2ac",
@@ -25379,7 +25383,7 @@
   "company_site": "https://careers.statestreet.com/global/en/search-results",
   "first_seen": "2026-09-02T11:18:46+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "a88eeeba6e4871ae",
@@ -26555,7 +26559,7 @@
   "company_site": "",
   "first_seen": "2026-09-11T01:24:55+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "36b3b4a75fc8a811",
@@ -26615,7 +26619,7 @@
   "company_site": "",
   "first_seen": "2026-09-11T01:24:55+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "8fc3aa12992675e0",
@@ -26675,7 +26679,7 @@
   "company_site": "",
   "first_seen": "2026-09-11T01:24:55+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "49c9628b9436b096",
@@ -26921,7 +26925,9 @@
   "company_site": "https://careers.wipro.com/content/Early-Careers/?locale=en_US",
   "first_seen": "2026-09-12T05:51:50+00:00",
   "is_new": true,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T16:22:24+00:00",
+  "closed": true,
+  "closed_at": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "42da82068aef6516",
@@ -26976,7 +26982,9 @@
   "company_site": "https://careers.wipro.com/content/Early-Careers/?locale=en_US",
   "first_seen": "2026-09-12T05:51:50+00:00",
   "is_new": true,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T16:22:24+00:00",
+  "closed": true,
+  "closed_at": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "516641f3df74f432",
@@ -27041,7 +27049,7 @@
   "company_site": "https://stripe.com/jobs",
   "first_seen": "2026-09-01T16:15:25+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "ee0db101dbc56b42",
@@ -27096,7 +27104,7 @@
   "company_site": "https://fa-euxc-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/jobs",
   "first_seen": "2026-09-01T19:24:15+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "b6b390228d85166e",
@@ -27151,7 +27159,7 @@
   "company_site": "https://jobs.citi.com/location/dublin-jobs/287/2963597-7521314-7778677-2964574/4",
   "first_seen": "2026-09-01T22:22:46+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "3e9098b1c436073f",
@@ -27211,7 +27219,7 @@
   "company_site": "https://jobs.citi.com/location/dublin-jobs/287/2963597-7521314-7778677-2964574/4",
   "first_seen": "2026-09-01T22:22:46+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "bca0a68b017c4f64",
@@ -27280,7 +27288,7 @@
   "url": "https://careers.expleo.com/en/roles/transformation-consultancy/business-agility-team/",
   "description": "Skip to main content\nHome > Transformation consultancy > Join Expleo’s Business Agility team\nCAREERS\nJoin Expleo’s Business Agility team\nScroll\nEnable more connected and effective teams through agile methodologies, to deliver better results\nThe quintessential team player who is as comfortable giving tough advice as much as listening and hearing the challenges of others. You’re a confidant, mentor and leader that knows the strengths and styles of everyone you work with, and you thrive on helping them deliver the greatest value as individuals and teams.\nYou are adaptable, reacting to new risks and challenges by setting manageable goals for a project and ensuring your team has the support it needs to succeed. You take pride in being the glue that holds a project together, keeping your team motivated around you and your clients happy by delivering outstanding results.\nDoes that sound like we’re talking about you?\nWell, you’re in the right place.\nSearch open positions\nExpleo’s Business Agility Team helps deliver:\nImproved cross-team collaboration for global insurance provider\nAgile delivery & coaching capability for financial regulator\nAgile Centre of Enablement for retail banking\nAgile product development framework for mobility solutions provider\nScrum support for automotive software company\nInternational dev team enablement for ADAS provider\nAs an Agile Coach or Scrum Master knows how to communicate and does so often, and with different kinds of people.\nDivya Sharma, Senior Consultant\nBusiness Agility Team\nA day in the life of an Expleo Agile Coach\nMorning\nJoin the daily ‘virtual’ stand-up with team members and customer representatives from around the world to align on the priorities for the coming day\nMid-morning\nConduct one-to-ones with team members around the world to ensure they have the support they need.\nMidday\nLead a ceremony for the team based on our current sprint schedule\nAfter lunch\nHave meetings with different stakeholders from across the project to discuss potential challenges.\nAfternoon\nFurther one-to-ones and mentoring sessions with team members\nEnd-of-day\nWork on the documentation from recent ceremonies and workshops to ensure that actions are followed up on.\nEntry-level requirements​\nHARD SKILLS\nAgile delivery\n     Rated 5 out of 5\nAgile tooling experience (Jira, ADO etc.)\n     Rated 3 out of 5\nProduct management\n     Rated 2.5 out of 5\nSOFT SKILLS\nTeamwork and collaboration\nExcellent communication and interpersonal skills\n     Rated 4 out of 5\nProfessional presentation skills\nCoaching and skill development\nWhat you will be learning with our team\nApplication of Agile principles and practices\nLaunching and growing Agile process in new and existing teams\nHow to apply coaching methodologies to improve ways of working\nExperience working across geographies and in different industries\nSound exciting? We think so too!\nJoin our team\nAccessibility\ntop\nRobert Matthews\nRead other stories from our veterans\nWhat is your name and your role and how long have you been working at Expleo?\nThis year I’m celebrating my 1 2 th year at Expleo . I started my career at Expleo as a Quality Auditor contractor, and then was offered a Staff position in the Life Cycle Management team, where I became a Deputy Team Lead, after which there was a nother promotion opportunity to an Engineering Manager, and later I was able to join our Marine division where I currently work.\nWhere and how long did you serve in the armed forces?\nI served in the Air Force just shy of 25 years. I started my career as an Aero Engines Mechanic. My first posting was at Brize Norton working on VC 10s, Tri Stars & Hercules Aircraft. Then I went on to a technician’s course and became a Junior Technician, and then progressed into a leadership position as a Sergeant. I left the Air Force as a Senior Non-commissioned Officer.\nRob in 2022 post remembrance parade in his local village. Remembrance day is very important to serving and veterans of the forces as it gives a chance to honor those who have given the ultimate sacrifice in serving their country\nWhat challenges did you have after leaving the Armed Forces?\nMy main challenge was worrying about Job Security. My manager was very supportive when I was still a contractor at Expleo and he transferred me over from contractor to permanent staff. I remember the conversation I had with him about the opportunities for secure job security and promotion.\nAnd he said: “At Expleo, opportunities are out there for you, so go and get them”. And he was right, there are plenty of opportunities at Expleo. You just have to seize them. And every time I saw an opportunity at Expleo, I just went for it.\nI transferred a lot of my skills over to Expleo. For instance, the aircraft and engine experience, experience in fault diagnosis, and more in-depth engineering project management and of course my leadership & Management Skills\nHow did Expleo help you to transition into your civilian job?\nI found it quite an easy transition, as there were a lot of ex-forces colleagues within Expleo when I joined, some of which I knew already. For those that didn’t have a military background they were equally as welcoming.\nHow do you feel Expleo allows you to use your expertise you gained during your service?\nExpleo gave me the freedom to use my transferable skills that I gained in the Air Force. My manager and colleagues had an open mindset for my ideas. I could bring those ideas into the office and illustrate how they could be implemented within a business setting They very much welcomed my ideas about improvements, and there is always an open environment for sharing ideas and previous knowledge. I also completed an Expleo Leadership Management course, which differed to the one I had in the Air Force. Combining the two gave me a much more rounded leadership and management mindset.\nHow do you connect with other members of the Armed Forces Community at Expleo?\nI participate in careers  transition workshops ",
   "posted_at": "",
-  "source": "sitemap",
+  "source": "joblinks",
   "department": "",
   "employment_type": "",
   "sponsorship": null,
@@ -27325,9 +27333,7 @@
   "company_site": "https://expleo.com/global/en/careers/",
   "first_seen": "2026-09-01T22:41:03+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T13:13:18+00:00",
-  "closed": true,
-  "closed_at": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "373deb0db962c71e",
@@ -27337,7 +27343,7 @@
   "url": "https://careers.expleo.com/en/roles/quality-testing/performance-test-engineering-team/",
   "description": "Skip to main content\nHome > Quality & Testing > Join Expleo’s Performance Test Engineering team\nCAREERS\nJoin Expleo’s Performance Test Engineering team\nScroll\nDevelop, run and analyse intelligent test scenarios to optimise and improve critical customer infrastructure\nA natural learner who loves to communicate, you love a challenge because every challenge is a lesson to be learned and a chance to improve. You thrive on the fact that no two clients are the same and enjoy working as part of a team that shares its experiences so you can all get better.\nYou’re analytical too, able to take the data and results from your test scenarios to tweak, improve and test again to make customer systems as robust, reliable and effective as possible.\nDoes that sound like we’re talking about you?\nWell, you’re in the right place.\nSearch open positions\nExpleo’s Performance Test Engineering Team helps deliver:\nAfter sales platform for major auto manufacturer\nDigital experience, CRM and payment apps for international bank\nLoad, stress and endurance testing for insurance sector\nS ystem infrastructure upgrades for bank\nMulti-application testing for cards and payments sector\nDigital banking platform for national bank\nTest Engineering is highly specialised and always challenging but I know what we do makes a massive difference to my clients and so do they.\nFanny Zantow, Principal Technical Engineer\nA day in the life of an Expleo Performance Test Engineer\nMorning\nJoin the daily stand-up to meet with the full project team to discuss progress\nMid-morning\nMeet with the customer to understand their requirements\nMidday\nStart development of the latest test scenarios for the customer system\nAfter lunch\nMeet with the development team to discuss the test scenarios being developed\nMid-afternoon\nImplement a new test scenario and continue working on other scenarios\nEnd of day\nReview and analyse results from the one of the latest scenarios ready to share with the project team\nEntry-level requirements​\nHARD SKILLS\nPerformance Test tools (JMeter, LoadRunner, Neoload)\n     Rated 4 out of 5\nCommunications protocols (Http/s, Webservice, WebSocket, Mobile, JMS etc.)\nJenkins, CI/CD pipeline creation and setups\n     Rated 3 out of 5\nSystems monitoring and analytics tools (Grafana, Perfmon, nmon etc.)\nSOFT SKILLS\nRigorous mindset & systems thinking\nCommunication & interpersonal skills\nAppetite for learning\nAgile approach to working\nWhat you will be learning with our team\nHARD SKILLS Ability to create performance frameworks\nIndustry standard best practices developing performance test scripts\nPerformance engineering\nSOFT SKILLS Project & team management\nEffective communication\nExperience with cross-border teams and in multiple industries\nSound exciting? We think so too!\nJoin our team\nAccessibility\ntop\nRobert Matthews\nRead other stories from our veterans\nWhat is your name and your role and how long have you been working at Expleo?\nThis year I’m celebrating my 1 2 th year at Expleo . I started my career at Expleo as a Quality Auditor contractor, and then was offered a Staff position in the Life Cycle Management team, where I became a Deputy Team Lead, after which there was a nother promotion opportunity to an Engineering Manager, and later I was able to join our Marine division where I currently work.\nWhere and how long did you serve in the armed forces?\nI served in the Air Force just shy of 25 years. I started my career as an Aero Engines Mechanic. My first posting was at Brize Norton working on VC 10s, Tri Stars & Hercules Aircraft. Then I went on to a technician’s course and became a Junior Technician, and then progressed into a leadership position as a Sergeant. I left the Air Force as a Senior Non-commissioned Officer.\nRob in 2022 post remembrance parade in his local village. Remembrance day is very important to serving and veterans of the forces as it gives a chance to honor those who have given the ultimate sacrifice in serving their country\nWhat challenges did you have after leaving the Armed Forces?\nMy main challenge was worrying about Job Security. My manager was very supportive when I was still a contractor at Expleo and he transferred me over from contractor to permanent staff. I remember the conversation I had with him about the opportunities for secure job security and promotion.\nAnd he said: “At Expleo, opportunities are out there for you, so go and get them”. And he was right, there are plenty of opportunities at Expleo. You just have to seize them. And every time I saw an opportunity at Expleo, I just went for it.\nI transferred a lot of my skills over to Expleo. For instance, the aircraft and engine experience, experience in fault diagnosis, and more in-depth engineering project management and of course my leadership & Management Skills\nHow did Expleo help you to transition into your civilian job?\nI found it quite an easy transition, as there were a lot of ex-forces colleagues within Expleo when I joined, some of which I knew already. For those that didn’t have a military background they were equally as welcoming.\nHow do you feel Expleo allows you to use your expertise you gained during your service?\nExpleo gave me the freedom to use my transferable skills that I gained in the Air Force. My manager and colleagues had an open mindset for my ideas. I could bring those ideas into the office and illustrate how they could be implemented within a business setting They very much welcomed my ideas about improvements, and there is always an open environment for sharing ideas and previous knowledge. I also completed an Expleo Leadership Management course, which differed to the one I had in the Air Force. Combining the two gave me a much more rounded leadership and management mindset.\nHow do you connect with other members of the Armed Forces Community at Expleo?\nI participate in careers  transition workshops supporting recruiters. When Ex-Forces  are looking for a new career, I attend the workshops chatting  to the Armed Forc",
   "posted_at": "",
-  "source": "sitemap",
+  "source": "joblinks",
   "department": "",
   "employment_type": "",
   "sponsorship": null,
@@ -27382,7 +27388,7 @@
   "company_site": "https://expleo.com/global/en/careers/",
   "first_seen": "2026-09-01T22:41:03+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "62258a65af697097",
@@ -27392,7 +27398,7 @@
   "url": "https://careers.expleo.com/en/roles/engineers-technicians/industrial-project-management-team/",
   "description": "Skip to main content\nHome > Engineers & Technicians > Join Expleo’s Industrial Project Management team\nCAREERS\nJoin Expleo’s Project Management Team\nScroll\nCoordinate and plan the execution of large-scale industrial projects\nAs an Industrial Project Manager, your interpersonal skills and enthusiasm allow you to build teams and unite them around the customer’s needs.\nYou are the conductor – you see the big picture of needs and constraints, are responsible for the development and maintenance of the schedule, budget and quality requirements.\nYou know how to lead, coordinate and motivate to achieve common goals.\nDoes it sound like we’re talking about you?\nYou’re in the right place.\nSearch open positions\nExpleo's industrial project managers team contributes to the delivery of ...\nDevelopment of cable car station cover\nQualification of a change of material to reduce the cost of approval\nQualification of a new supplier\nM anufacturing process es of energy sensors\nBeing an Industrial Project Manager means ensuring that the project is well carried out on time, with the budget and schedule given.\nMarine Finchelstein  - Team Leader - Industrial Project Manager\nA day in the life of an Industrial Project Manager\nMorning\nCheck emails to understand project status for the day ahead\nMid-morning\nMeeting with project teams covering factories, purchasing, marketing and quality\nNoon\nUpdate of project deliverables including planning, budget, risk analysis, impact analysis\nAfter lunch\nInternal team meeting\nAfternoon\nDefine/update testing strategy with support from the testing team. Anticipate problems with checking that all testing means defined within the testing strategy will be available on time.\nMid-Afternoon\nProject meeting with suppliers\nEnd of day\nUpdate the action plan and send emails for return the next day\nEntry-level requirements​\nHARD SKILLS\nMastery of office automation tools (MSP, PPT etc.)\n     Rated 5 out of 5\nBasic project management\n     Rated 4 out of 5\nPlanning\nAgile Method Base\n     Rated 3 out of 5\nSOFT SKILLS\nGood interpersonal skills\nRigorous mindset\nTeamwork\nAnalytical skills\nWhat you will be learning with our team\nHARD SKILLS Risk management\nMethodology\nBudget monitoring\nComplex project management\nSOFT SKILLS Team management\nStress management\nSound exciting? We think so too!\nJoin our team\nAccessibility\ntop\nRobert Matthews\nRead other stories from our veterans\nWhat is your name and your role and how long have you been working at Expleo?\nThis year I’m celebrating my 1 2 th year at Expleo . I started my career at Expleo as a Quality Auditor contractor, and then was offered a Staff position in the Life Cycle Management team, where I became a Deputy Team Lead, after which there was a nother promotion opportunity to an Engineering Manager, and later I was able to join our Marine division where I currently work.\nWhere and how long did you serve in the armed forces?\nI served in the Air Force just shy of 25 years. I started my career as an Aero Engines Mechanic. My first posting was at Brize Norton working on VC 10s, Tri Stars & Hercules Aircraft. Then I went on to a technician’s course and became a Junior Technician, and then progressed into a leadership position as a Sergeant. I left the Air Force as a Senior Non-commissioned Officer.\nRob in 2022 post remembrance parade in his local village. Remembrance day is very important to serving and veterans of the forces as it gives a chance to honor those who have given the ultimate sacrifice in serving their country\nWhat challenges did you have after leaving the Armed Forces?\nMy main challenge was worrying about Job Security. My manager was very supportive when I was still a contractor at Expleo and he transferred me over from contractor to permanent staff. I remember the conversation I had with him about the opportunities for secure job security and promotion.\nAnd he said: “At Expleo, opportunities are out there for you, so go and get them”. And he was right, there are plenty of opportunities at Expleo. You just have to seize them. And every time I saw an opportunity at Expleo, I just went for it.\nI transferred a lot of my skills over to Expleo. For instance, the aircraft and engine experience, experience in fault diagnosis, and more in-depth engineering project management and of course my leadership & Management Skills\nHow did Expleo help you to transition into your civilian job?\nI found it quite an easy transition, as there were a lot of ex-forces colleagues within Expleo when I joined, some of which I knew already. For those that didn’t have a military background they were equally as welcoming.\nHow do you feel Expleo allows you to use your expertise you gained during your service?\nExpleo gave me the freedom to use my transferable skills that I gained in the Air Force. My manager and colleagues had an open mindset for my ideas. I could bring those ideas into the office and illustrate how they could be implemented within a business setting They very much welcomed my ideas about improvements, and there is always an open environment for sharing ideas and previous knowledge. I also completed an Expleo Leadership Management course, which differed to the one I had in the Air Force. Combining the two gave me a much more rounded leadership and management mindset.\nHow do you connect with other members of the Armed Forces Community at Expleo?\nI participate in careers  transition workshops supporting recruiters. When Ex-Forces  are looking for a new career, I attend the workshops chatting  to the Armed Forces community sharing my experience and  what I have learned.\nWhat advice would you give to other members of the Armed Forces Community who are planning to join Expleo?\nExpleo has many different opportunities, whether it be leadership management, various jobs in engineering, project management etc. Don’t think that you don’t have the skill set to join Expleo. It is within you; you do have those skills and Expleo can bring out these skills in p",
   "posted_at": "",
-  "source": "sitemap",
+  "source": "joblinks",
   "department": "",
   "employment_type": "",
   "sponsorship": null,
@@ -27437,7 +27443,7 @@
   "company_site": "https://expleo.com/global/en/careers/",
   "first_seen": "2026-09-01T22:41:03+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "b0946557419e5dc5",
@@ -27447,7 +27453,7 @@
   "url": "https://careers.expleo.com/en/roles/engineers-technicians/digital-electronics-engineering-team/",
   "description": "Skip to main content\nHome > Engineers & Technicians > Join the Expleo Digital Electronics Engineering team\nCAREERS\nJoin the Expleo Digital Electronics Engineering team\nScroll\nDeliver reliable, robust and programmable hardware for safety applications\nFascinated about how electronics work , you genuinely thrive when you have to challenge what you already know by applying it to new industrial sectors. You have out-of-the-box thinking that enables you to develop innovative, on-point ideas.\nYou enjoy collaborating with your engineering peers and other teams because you believe sharing knowledge is a great way to learn, if not the best.\nYou can rigorously apply electronics methodologies and processes to industries such as aeronautics, space, defence and automotive because you always aim to deliver the safest and most sustainable equipment.\nDoes that sound like we’re talking about you?\nWell, you’re in the right place.\nSearch open positions\nExpleo’s digital electronics engineering team develops:\nLong-range radar systems\nAdvanced 3D sensor systems\nAutonomous naval inertial navigation system\nFail-safe motor control systems\nNanosatellite payloads\nJamming protection for drones\nUnderstanding each industry's key challenge (e.g. cost, reliability or safety) is essential to becoming an excellent digital electronics engineer\nJEAN-FRANÇOIS BACARDATZ, Go-to-Market team, Head of electronics engineering\nDiscover more\nA day in the life of Expleo Digital Electronics Engineer\nMorning\nMeeting or call with the client to determine the project’s status and what’s next.\nMid-morning\nResearch and design at the lab or remotely via PC, interspersed with discussions with other teams working on the project, such as embedded software and systems engineers.\nAfter lunch\nTime to test, re-test, and re-re-test everything at the lab.\nAfternoon\nExchange with subcontractors to brief them on activities we do not handle in-house, such as chip production and our requirements in terms of quality, security, quantity, delivery delays, etc.\nEnd of day\nQ&A with the team referents (the project manager and technical experts) to raise issues that could slow down the project’s advancements.\nEntry-level requirements​\nHARD SKILLS\nElectronics engineering (design and test)\n     Rated 3 out of 5\nDigital Electronics Troubleshooting\n     Rated 2 out of 5\nA/D and D/A conversions\nMicroprocessors-based design\nFPGA and HDL programming languages\nRapid links\n     Rated 1 out of 5\nSOFT SKILLS\nRigorous mindset\n     Rated 4 out of 5\nCapacity for analysis and synthesis\n     Rated 5 out of 5\nOutside-the-box thinking\nEnjoy learning new disciplines, fascinated by how things work\nEnjoy solving complex problems and overcoming obstacles\nLeadership\nWhat you will be learning with our team\nHigh-performance computing\nDigital Signal Processing, Communications and Controls\nMulticore and embedded systems\nProject & team management\nRisk management\nSound exciting? We think so too!\nJoin our team\nAccessibility\ntop\nRobert Matthews\nRead other stories from our veterans\nWhat is your name and your role and how long have you been working at Expleo?\nThis year I’m celebrating my 1 2 th year at Expleo . I started my career at Expleo as a Quality Auditor contractor, and then was offered a Staff position in the Life Cycle Management team, where I became a Deputy Team Lead, after which there was a nother promotion opportunity to an Engineering Manager, and later I was able to join our Marine division where I currently work.\nWhere and how long did you serve in the armed forces?\nI served in the Air Force just shy of 25 years. I started my career as an Aero Engines Mechanic. My first posting was at Brize Norton working on VC 10s, Tri Stars & Hercules Aircraft. Then I went on to a technician’s course and became a Junior Technician, and then progressed into a leadership position as a Sergeant. I left the Air Force as a Senior Non-commissioned Officer.\nRob in 2022 post remembrance parade in his local village. Remembrance day is very important to serving and veterans of the forces as it gives a chance to honor those who have given the ultimate sacrifice in serving their country\nWhat challenges did you have after leaving the Armed Forces?\nMy main challenge was worrying about Job Security. My manager was very supportive when I was still a contractor at Expleo and he transferred me over from contractor to permanent staff. I remember the conversation I had with him about the opportunities for secure job security and promotion.\nAnd he said: “At Expleo, opportunities are out there for you, so go and get them”. And he was right, there are plenty of opportunities at Expleo. You just have to seize them. And every time I saw an opportunity at Expleo, I just went for it.\nI transferred a lot of my skills over to Expleo. For instance, the aircraft and engine experience, experience in fault diagnosis, and more in-depth engineering project management and of course my leadership & Management Skills\nHow did Expleo help you to transition into your civilian job?\nI found it quite an easy transition, as there were a lot of ex-forces colleagues within Expleo when I joined, some of which I knew already. For those that didn’t have a military background they were equally as welcoming.\nHow do you feel Expleo allows you to use your expertise you gained during your service?\nExpleo gave me the freedom to use my transferable skills that I gained in the Air Force. My manager and colleagues had an open mindset for my ideas. I could bring those ideas into the office and illustrate how they could be implemented within a business setting They very much welcomed my ideas about improvements, and there is always an open environment for sharing ideas and previous knowledge. I also completed an Expleo Leadership Management course, which differed to the one I had in the Air Force. Combining the two gave me a much more rounded leadership and management mindset.\nHow do you connect with other members of the Armed ",
   "posted_at": "",
-  "source": "sitemap",
+  "source": "joblinks",
   "department": "",
   "employment_type": "",
   "sponsorship": null,
@@ -27492,7 +27498,7 @@
   "company_site": "https://expleo.com/global/en/careers/",
   "first_seen": "2026-09-01T22:41:03+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "e158553093162288",
@@ -28862,7 +28868,7 @@
   "company_site": "https://careers.primark.com/en/location/ireland-jobs/30423/2963597/2",
   "first_seen": "2026-09-09T17:24:31+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "824de37ac39c9c9e",
@@ -29083,7 +29089,7 @@
   "permits": 3,
   "company_site": "https://careers.wipro.com/content/Early-Careers/?locale=en_US",
   "first_seen": "2026-09-11T18:34:53+00:00",
-  "is_new": true,
+  "is_new": false,
   "last_seen": "2026-09-11T21:13:58+00:00",
   "closed": true,
   "closed_at": "2026-09-11T23:20:16+00:00"
@@ -29140,7 +29146,7 @@
   "permits": 3,
   "company_site": "https://careers.wipro.com/content/Early-Careers/?locale=en_US",
   "first_seen": "2026-09-11T18:34:53+00:00",
-  "is_new": true,
+  "is_new": false,
   "last_seen": "2026-09-11T23:20:16+00:00",
   "closed": true,
   "closed_at": "2026-09-12T01:13:13+00:00"
@@ -29197,7 +29203,7 @@
   "permits": 3,
   "company_site": "https://careers.wipro.com/content/Early-Careers/?locale=en_US",
   "first_seen": "2026-09-11T18:34:53+00:00",
-  "is_new": true,
+  "is_new": false,
   "last_seen": "2026-09-11T18:34:53+00:00",
   "closed": true,
   "closed_at": "2026-09-11T21:13:58+00:00"
@@ -29369,7 +29375,7 @@
   "company_site": "https://opportunities.vodafone.com/search/?q=&locationsearch=ireland",
   "first_seen": "2026-09-01T22:41:03+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "313d1ab60c43cac9",
@@ -29586,7 +29592,7 @@
   "company_site": "https://www.musgravegroup.com/careers/",
   "first_seen": "2026-09-01T22:41:03+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "a2f81f14d36491f7",
@@ -30179,7 +30185,7 @@
   "company_site": "https://careers.marsh.com/global/en/mercer-search",
   "first_seen": "2026-09-02T04:08:24+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "2ecb621f6da41958",
@@ -30357,7 +30363,7 @@
   "company_site": "https://careers.statestreet.com/global/en/search-results",
   "first_seen": "2026-09-02T15:12:21+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "214ea03056a381f5",
@@ -31429,7 +31435,7 @@
   "company_site": "https://opportunities.vodafone.com/search/?q=&locationsearch=ireland",
   "first_seen": "2026-09-04T15:03:12+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "6a29654e5154142e",
@@ -32093,7 +32099,7 @@
   "company_site": "https://careers.wipro.com/content/Early-Careers/?locale=en_US",
   "first_seen": "2026-09-07T15:20:24+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "821b68e061687567",
@@ -32854,7 +32860,7 @@
   "company_site": "",
   "first_seen": "2026-09-11T01:24:55+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "8aef398aa95f4f19",
@@ -33277,7 +33283,7 @@
   "company_site": "https://careers.wipro.com/content/Early-Careers/?locale=en_US",
   "first_seen": "2026-09-12T09:42:02+00:00",
   "is_new": true,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "01cd0ae6a26bce48",
@@ -33337,7 +33343,7 @@
   "company_site": "https://careers.wipro.com/content/Early-Careers/?locale=en_US",
   "first_seen": "2026-09-12T13:13:18+00:00",
   "is_new": true,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "9120f8af56222981",
@@ -33392,7 +33398,7 @@
   "company_site": "https://fa-euxc-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/jobs",
   "first_seen": "2026-09-01T19:24:15+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "68020352f94caa07",
@@ -33447,7 +33453,7 @@
   "company_site": "https://fa-euxc-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/jobs",
   "first_seen": "2026-09-01T19:24:15+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "7668e49914eae8af",
@@ -33502,7 +33508,7 @@
   "company_site": "https://fa-euxc-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/jobs",
   "first_seen": "2026-09-01T19:24:15+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "38acab8ffc694b19",
@@ -33557,7 +33563,7 @@
   "company_site": "https://fa-euxc-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/jobs",
   "first_seen": "2026-09-01T19:24:15+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "9eb9f6a5dc6ced7d",
@@ -33746,7 +33752,7 @@
   "url": "https://careers.expleo.com/en/roles/quality-testing/software-test-engineering-team/",
   "description": "Skip to main content\nHome > Quality & Testing > Join Expleo’s Software Test Analyst team\nCAREERS\nJoin Expleo’s Software Test Analyst team\nScroll\nHelp create quality enterprise software and applications for clients through testing\nTechnology is your passion, and you love to understand how things work. Your eye for detail combines with an innate curiosity that allows you to design and implement tests to validate software so that it performs just how clients want it to.\nA clear communicator across different audiences, putting the results of your tests and where software can be improved comes naturally to you. You enjoy working with teams from around the world with different skill sets and use this as an opportunity to develop your own expertise.\nDoes that sound like we’re talking about you?\nWell, you’re in the right place.\nSearch open positions\nExpleo’s software Test Analyst Team helps deliver:\nWorld-class infotainment systems for executive cars\nSmart meter roll out for major energy provider\nSubmarine design systems\nBusiness critical insurance systems\nGPS systems for oil tankers\nCredit card management systems\nRetail loyalty programmes\nWholesale/after-sale systems for telecommunications\nOur software testers work as a team, communicating with each other to learn, grow and deliver the best work possible.\nNarmada Gnanamohan, Lead Software Engineer\nA day in the life of an Expleo Software Test Analyst\nMorning\nJoin the team stand up to discuss the day’s tasks and hear the latest development priorities\nMid-morning\nMeetings in sub-groups to discuss specific features, change requests and any potential roadblocks\nMidday\nBegin test analysis and start writing test scripts and execute test cases against requirements\nAfter lunch\nMeet with project leads to provide updates on our progress and newly created bugs\nMid-afternoon\nCompile updates on latest bug reports to share with the client\nEnd of day\nFinalise the day’s testing, ensuring it meets the customer’s requirements outlined at the beginning of the day\nEntry-level requirements​\nHARD SKILLS\nTechnical degree or proven experience working in an IT domain\n     Rated 5 out of 5\nExperience in test analysis, test methods and test execution\n     Rated 4 out of 5\nKnowledge of software development methods (Agile, Scrum, V-model)\n     Rated 3 out of 5\nKnowledge of programming languages\nSOFT SKILLS\nClear communication\nExcellent teamworking\nAnalytical & thorough mindset\nProcess-driven and structured thinking\nWhat you will be learning with our team\nCertification in recognised international standards including ISTQB, IRB, iSAQB and SAFe\nExperience working with the latest technologies, before they reach the market\nKnowledge of cutting-edge test automation tools\nDevelopment of key interpersonal, consulting and methodological competencies\nExposure to a broad range of industries and markets\nSound exciting? We think so too!\nJoin our team\nAccessibility\ntop\nRobert Matthews\nRead other stories from our veterans\nWhat is your name and your role and how long have you been working at Expleo?\nThis year I’m celebrating my 1 2 th year at Expleo . I started my career at Expleo as a Quality Auditor contractor, and then was offered a Staff position in the Life Cycle Management team, where I became a Deputy Team Lead, after which there was a nother promotion opportunity to an Engineering Manager, and later I was able to join our Marine division where I currently work.\nWhere and how long did you serve in the armed forces?\nI served in the Air Force just shy of 25 years. I started my career as an Aero Engines Mechanic. My first posting was at Brize Norton working on VC 10s, Tri Stars & Hercules Aircraft. Then I went on to a technician’s course and became a Junior Technician, and then progressed into a leadership position as a Sergeant. I left the Air Force as a Senior Non-commissioned Officer.\nRob in 2022 post remembrance parade in his local village. Remembrance day is very important to serving and veterans of the forces as it gives a chance to honor those who have given the ultimate sacrifice in serving their country\nWhat challenges did you have after leaving the Armed Forces?\nMy main challenge was worrying about Job Security. My manager was very supportive when I was still a contractor at Expleo and he transferred me over from contractor to permanent staff. I remember the conversation I had with him about the opportunities for secure job security and promotion.\nAnd he said: “At Expleo, opportunities are out there for you, so go and get them”. And he was right, there are plenty of opportunities at Expleo. You just have to seize them. And every time I saw an opportunity at Expleo, I just went for it.\nI transferred a lot of my skills over to Expleo. For instance, the aircraft and engine experience, experience in fault diagnosis, and more in-depth engineering project management and of course my leadership & Management Skills\nHow did Expleo help you to transition into your civilian job?\nI found it quite an easy transition, as there were a lot of ex-forces colleagues within Expleo when I joined, some of which I knew already. For those that didn’t have a military background they were equally as welcoming.\nHow do you feel Expleo allows you to use your expertise you gained during your service?\nExpleo gave me the freedom to use my transferable skills that I gained in the Air Force. My manager and colleagues had an open mindset for my ideas. I could bring those ideas into the office and illustrate how they could be implemented within a business setting They very much welcomed my ideas about improvements, and there is always an open environment for sharing ideas and previous knowledge. I also completed an Expleo Leadership Management course, which differed to the one I had in the Air Force. Combining the two gave me a much more rounded leadership and management mindset.\nHow do you connect with other members of the Armed Forces Community at Expleo?\nI participate in careers  transition wo",
   "posted_at": "",
-  "source": "sitemap",
+  "source": "joblinks",
   "department": "",
   "employment_type": "",
   "sponsorship": null,
@@ -33801,7 +33807,7 @@
   "company_site": "https://expleo.com/global/en/careers/",
   "first_seen": "2026-09-01T22:41:03+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "7b9bb86d03162a28",
@@ -34082,7 +34088,7 @@
   "company_site": "https://www.version1.com/careers",
   "first_seen": "2026-09-01T22:41:03+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "6809e592cac7a1df",
@@ -34315,7 +34321,7 @@
   "company_site": "https://www.tudublin.ie/explore/jobs-at-tu-dublin/",
   "first_seen": "2026-09-02T01:29:46+00:00",
   "is_new": false,
-  "last_seen": "2026-09-11T13:43:29+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "aa4d1ad0f629790b",
@@ -34370,7 +34376,7 @@
   "company_site": "https://www.tudublin.ie/explore/jobs-at-tu-dublin/",
   "first_seen": "2026-09-02T01:29:46+00:00",
   "is_new": false,
-  "last_seen": "2026-09-11T13:43:29+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "ea845ae52a42054d",
@@ -34425,7 +34431,7 @@
   "company_site": "https://www.tudublin.ie/explore/jobs-at-tu-dublin/",
   "first_seen": "2026-09-02T01:29:46+00:00",
   "is_new": false,
-  "last_seen": "2026-09-11T13:43:29+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "1fb11bf87d84cddd",
@@ -34480,7 +34486,7 @@
   "company_site": "https://www.tudublin.ie/explore/jobs-at-tu-dublin/",
   "first_seen": "2026-09-02T01:29:46+00:00",
   "is_new": false,
-  "last_seen": "2026-09-11T13:43:29+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "9c579ca28252d13d",
@@ -34535,7 +34541,7 @@
   "company_site": "https://www.tudublin.ie/explore/jobs-at-tu-dublin/",
   "first_seen": "2026-09-02T01:29:46+00:00",
   "is_new": false,
-  "last_seen": "2026-09-11T13:43:29+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "2bfc3b932cd740cf",
@@ -34590,7 +34596,7 @@
   "company_site": "https://www.tudublin.ie/explore/jobs-at-tu-dublin/",
   "first_seen": "2026-09-02T01:29:46+00:00",
   "is_new": false,
-  "last_seen": "2026-09-11T13:43:29+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "62bace67c625274a",
@@ -34645,9 +34651,7 @@
   "company_site": "https://www.smbcgroup.com/emea/careers",
   "first_seen": "2026-09-02T01:29:46+00:00",
   "is_new": false,
-  "last_seen": "2026-09-11T13:01:40+00:00",
-  "closed": true,
-  "closed_at": "2026-09-11T13:43:30+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "2edab1aba1907933",
@@ -34702,7 +34706,7 @@
   "company_site": "https://www.tudublin.ie/explore/jobs-at-tu-dublin/",
   "first_seen": "2026-09-02T01:29:46+00:00",
   "is_new": false,
-  "last_seen": "2026-09-11T13:43:29+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "ad8bcb4d9eb981a0",
@@ -35111,7 +35115,7 @@
   "company_site": "https://life-careers.com/irishlife/go/All-Jobs/3805301/",
   "first_seen": "2026-09-02T04:08:24+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "0f404a599da3b1df",
@@ -35166,7 +35170,7 @@
   "company_site": "https://www.tudublin.ie/explore/jobs-at-tu-dublin/",
   "first_seen": "2026-09-02T04:29:55+00:00",
   "is_new": false,
-  "last_seen": "2026-09-11T13:43:29+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "9c350cc385ff6318",
@@ -36806,7 +36810,7 @@
   "company_site": "https://fa-euxc-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/jobs",
   "first_seen": "2026-09-03T11:16:40+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "4ea0ee5b94e2680e",
@@ -37267,7 +37271,7 @@
   "company_site": "https://www.aig.com/careers",
   "first_seen": "2026-09-04T11:19:10+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "56f1275dca1ecaec",
@@ -37322,7 +37326,7 @@
   "company_site": "https://www.aig.com/careers",
   "first_seen": "2026-09-04T11:19:10+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "77e4865e4551b645",
@@ -37377,7 +37381,7 @@
   "company_site": "https://www.aig.com/careers",
   "first_seen": "2026-09-04T11:19:10+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "da29b739042a2838",
@@ -38746,7 +38750,7 @@
   "company_site": "https://fa-euxc-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/jobs",
   "first_seen": "2026-09-09T17:24:31+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "b6f5b44822368425",
@@ -39049,7 +39053,7 @@
   "company_site": "",
   "first_seen": "2026-09-11T01:24:55+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "503a8d8a1ade8c79",
@@ -39104,7 +39108,7 @@
   "company_site": "",
   "first_seen": "2026-09-11T01:24:55+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "2907bb73fce11b6d",
@@ -39219,7 +39223,7 @@
   "company_site": "https://careers.primark.com/en/location/ireland-jobs/30423/2963597/2",
   "first_seen": "2026-09-11T13:01:40+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "856bb2bf735d8f87",
@@ -39340,7 +39344,7 @@
   "permits": 3,
   "company_site": "https://careers.wipro.com/content/Early-Careers/?locale=en_US",
   "first_seen": "2026-09-11T18:34:53+00:00",
-  "is_new": true,
+  "is_new": false,
   "last_seen": "2026-09-11T21:13:58+00:00",
   "closed": true,
   "closed_at": "2026-09-11T23:20:16+00:00"
@@ -39397,7 +39401,7 @@
   "permits": 3,
   "company_site": "https://careers.wipro.com/content/Early-Careers/?locale=en_US",
   "first_seen": "2026-09-11T18:34:53+00:00",
-  "is_new": true,
+  "is_new": false,
   "last_seen": "2026-09-11T21:13:58+00:00",
   "closed": true,
   "closed_at": "2026-09-11T23:20:16+00:00"
@@ -39459,7 +39463,7 @@
   "permits": 3,
   "company_site": "https://careers.wipro.com/content/Early-Careers/?locale=en_US",
   "first_seen": "2026-09-11T18:34:53+00:00",
-  "is_new": true,
+  "is_new": false,
   "last_seen": "2026-09-11T23:20:16+00:00",
   "closed": true,
   "closed_at": "2026-09-12T01:13:13+00:00"
@@ -39522,7 +39526,7 @@
   "company_site": "https://careers.wipro.com/content/Early-Careers/?locale=en_US",
   "first_seen": "2026-09-12T05:51:50+00:00",
   "is_new": true,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "b28d7b2fde3453f8",
@@ -39577,7 +39581,7 @@
   "company_site": "https://fa-euxc-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/jobs",
   "first_seen": "2026-09-01T19:24:15+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "9bb7f4451377c556",
@@ -39637,7 +39641,7 @@
   "company_site": "https://sedgwick.wd1.myworkdayjobs.com/Sedgwick",
   "first_seen": "2026-09-01T19:24:15+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "3d73631f753ebcf5",
@@ -39707,7 +39711,7 @@
   "company_site": "https://www.cscglobal.com/service/careers/",
   "first_seen": "2026-09-01T19:24:15+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "494dd75ecba2e9d6",
@@ -39826,7 +39830,7 @@
   "company_site": "https://careers.fbdgroup.com/search/",
   "first_seen": "2026-09-01T22:41:03+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "e0c0c306f1155f57",
@@ -45889,7 +45893,7 @@
   "company_site": "https://careers.wipro.com/content/Early-Careers/?locale=en_US",
   "first_seen": "2026-09-10T13:39:56+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "65fbd578eedfd429",
@@ -47487,7 +47491,7 @@
   "permits": 3,
   "company_site": "https://careers.wipro.com/content/Early-Careers/?locale=en_US",
   "first_seen": "2026-09-11T18:34:53+00:00",
-  "is_new": true,
+  "is_new": false,
   "last_seen": "2026-09-11T23:20:16+00:00",
   "closed": true,
   "closed_at": "2026-09-12T01:13:13+00:00"
@@ -47892,7 +47896,7 @@
   "company_site": "https://careers.wipro.com/content/Early-Careers/?locale=en_US",
   "first_seen": "2026-09-12T05:51:50+00:00",
   "is_new": true,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "bf37209669c45de0",
@@ -48009,7 +48013,7 @@
   "company_site": "https://careers.wipro.com/content/Early-Careers/?locale=en_US",
   "first_seen": "2026-09-12T13:13:18+00:00",
   "is_new": true,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "b1a522436014b2ab",
@@ -48064,7 +48068,7 @@
   "company_site": "https://careers.wipro.com/content/Early-Careers/?locale=en_US",
   "first_seen": "2026-09-12T13:13:18+00:00",
   "is_new": true,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "d6ccf93c88519789",
@@ -48119,7 +48123,7 @@
   "company_site": "https://careers.wipro.com/content/Early-Careers/?locale=en_US",
   "first_seen": "2026-09-12T13:13:18+00:00",
   "is_new": true,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "9e6f12a884b91b39",
@@ -48174,7 +48178,7 @@
   "company_site": "https://www.aig.com/careers",
   "first_seen": "2026-09-01T22:22:46+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "e0e56349d82c8374",
@@ -48234,7 +48238,7 @@
   "company_site": "https://opportunities.vodafone.com/search/?q=&locationsearch=ireland",
   "first_seen": "2026-09-01T22:41:03+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "331a6d0f3745cd19",
@@ -48289,7 +48293,7 @@
   "company_site": "https://www.tudublin.ie/explore/jobs-at-tu-dublin/",
   "first_seen": "2026-09-02T01:29:46+00:00",
   "is_new": false,
-  "last_seen": "2026-09-11T13:43:29+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "fc66736c8cbf78d8",
@@ -48344,7 +48348,7 @@
   "company_site": "https://www.tudublin.ie/explore/jobs-at-tu-dublin/",
   "first_seen": "2026-09-02T01:29:46+00:00",
   "is_new": false,
-  "last_seen": "2026-09-11T13:43:29+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "8700ccd82b935ce2",
@@ -48453,7 +48457,7 @@
   "company_site": "https://careers.marsh.com/global/en/mercer-search",
   "first_seen": "2026-09-02T04:08:24+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "28a3078da5bb8faf",
@@ -48508,7 +48512,7 @@
   "company_site": "https://careers.dhl.com/eu/en",
   "first_seen": "2026-09-02T04:29:55+00:00",
   "is_new": false,
-  "last_seen": "2026-09-11T13:43:29+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "6f7fb6f5b87bd68b",
@@ -48996,7 +49000,7 @@
   "company_site": "https://www.aig.com/careers",
   "first_seen": "2026-09-04T11:19:10+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "4107976f300468a2",
@@ -49051,7 +49055,7 @@
   "company_site": "https://www.aig.com/careers",
   "first_seen": "2026-09-04T11:19:10+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "14d969dc127055d1",
@@ -49106,7 +49110,7 @@
   "company_site": "https://www.aig.com/careers",
   "first_seen": "2026-09-04T11:19:10+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "464733d6ec639ee1",
@@ -49449,7 +49453,7 @@
   "company_site": "https://careers.jpmorgan.com/global/en/students",
   "first_seen": "2026-09-08T12:26:59+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "c02cd0490acfe4d2",
@@ -49504,7 +49508,7 @@
   "company_site": "https://careers.jpmorgan.com/global/en/students",
   "first_seen": "2026-09-08T12:26:59+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "175de33d4d72da21",
@@ -49816,7 +49820,7 @@
   "company_site": "https://www.apexgroup.com/careers/",
   "first_seen": "2026-09-01T19:24:15+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "41513b55c0b86cfa",
@@ -49871,7 +49875,7 @@
   "company_site": "https://fa-euxc-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/jobs",
   "first_seen": "2026-09-01T19:24:15+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "b64267f33fe78b28",
@@ -50118,7 +50122,7 @@
   "company_site": "https://www.genesys.com/company/careers",
   "first_seen": "2026-09-01T22:22:46+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "570919521d41c07f",
@@ -50227,7 +50231,7 @@
   "company_site": "https://careers.fbdgroup.com/search/",
   "first_seen": "2026-09-01T22:41:03+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "9a6ead5c684191c2",
@@ -50282,7 +50286,7 @@
   "company_site": "https://careers.fbdgroup.com/search/",
   "first_seen": "2026-09-01T22:41:03+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "922676a6c5c88131",
@@ -50337,7 +50341,7 @@
   "company_site": "https://careers.fbdgroup.com/search/",
   "first_seen": "2026-09-01T22:41:03+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "bb6f3bf0dcd6af4a",
@@ -50392,7 +50396,7 @@
   "company_site": "https://www.waystone.com/careers/",
   "first_seen": "2026-09-01T22:41:03+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "c718acd21af61c36",
@@ -50447,7 +50451,7 @@
   "company_site": "https://www.vistra.com/careers",
   "first_seen": "2026-09-01T22:41:03+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "884b22cd6e8f2239",
@@ -50561,7 +50565,7 @@
   "company_site": "https://www.tudublin.ie/explore/jobs-at-tu-dublin/",
   "first_seen": "2026-09-02T01:29:46+00:00",
   "is_new": false,
-  "last_seen": "2026-09-11T13:43:29+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "1a5ef1edaa777803",
@@ -50616,7 +50620,7 @@
   "company_site": "https://www.tudublin.ie/explore/jobs-at-tu-dublin/",
   "first_seen": "2026-09-02T01:29:46+00:00",
   "is_new": false,
-  "last_seen": "2026-09-11T13:43:29+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "b88a9f032797c1b5",
@@ -50671,7 +50675,7 @@
   "company_site": "https://careers.bankofireland.com/",
   "first_seen": "2026-09-02T03:59:37+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "2a82095dbed390d8",
@@ -51082,7 +51086,7 @@
   "company_site": "https://www.vistra.com/careers",
   "first_seen": "2026-09-03T06:07:29+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "1c1749257e40dc03",
@@ -51142,7 +51146,7 @@
   "company_site": "https://jobs.aib.ie/go/Search-All-Jobs/3834700/",
   "first_seen": "2026-09-03T11:16:40+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "3906890dd12d68cf",
@@ -51746,7 +51750,7 @@
   "company_site": "https://careers.flutteruki.com/early-careers/",
   "first_seen": "2026-09-04T15:03:12+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "2fabfe8b71d2c199",
@@ -52176,7 +52180,7 @@
   "company_site": "",
   "first_seen": "2026-09-11T01:24:55+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "17569bdb249bf474",
@@ -52301,7 +52305,7 @@
   "company_site": "https://www.version1.com/careers",
   "first_seen": "2026-09-11T13:01:40+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "92b3c8c68c0c43e7",
@@ -52356,7 +52360,7 @@
   "company_site": "https://careers.chubb.com/",
   "first_seen": "2026-09-01T19:24:15+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "44d527c7e0476d97",
@@ -52943,7 +52947,7 @@
   "company_site": "https://careers.chubb.com/",
   "first_seen": "2026-09-02T17:20:46+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "2ab32d10297a3b84",
@@ -53355,7 +53359,7 @@
   "company_site": "https://jobs.aib.ie/go/Search-All-Jobs/3834700/",
   "first_seen": "2026-09-08T12:26:59+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "106cb93db7afadb4",
@@ -53410,7 +53414,7 @@
   "company_site": "https://jobs.aib.ie/go/Search-All-Jobs/3834700/",
   "first_seen": "2026-09-09T17:24:31+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "87bb4f45598a9455",
@@ -53592,9 +53596,7 @@
   "company_site": "https://careers.cognizant.com/global-en/",
   "first_seen": "2026-09-12T10:08:56+00:00",
   "is_new": true,
-  "last_seen": "2026-09-12T13:13:18+00:00",
-  "closed": true,
-  "closed_at": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "7beabe5943cf10c9",
@@ -53654,7 +53656,7 @@
   "company_site": "https://jobs.citi.com/location/dublin-jobs/287/2963597-7521314-7778677-2964574/4",
   "first_seen": "2026-09-01T22:22:46+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "adc81c3620a345de",
@@ -53838,7 +53840,7 @@
   "company_site": "https://workday.wd5.myworkdayjobs.com/Workday",
   "first_seen": "2026-09-02T03:53:37+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "1ee699836163c5d3",
@@ -54820,7 +54822,7 @@
   "company_site": "https://jobs.citi.com/location/dublin-jobs/287/2963597-7521314-7778677-2964574/4",
   "first_seen": "2026-09-01T22:22:46+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "654332470fa77559",
@@ -54944,7 +54946,7 @@
   "url": "https://careers.expleo.com/en/roles/industry/energy-utilities-roles/",
   "description": "Skip to main content\nOur energy & utilities roles\nHarness technological change through business transformation and operational excellence.\nAre you passionate about transforming the energy sector and driving the future of renewable energy, while implementing the best Net Zero strategies ? As the demand for renewable sources grows and regulatory pressures increase, energy suppliers are at the forefront of industry transformation.\nAt Expleo, we’re leading the charge with our innovative solutions and strategic partnerships. We’re looking for talented individuals to help us to decarbonise energy production, revolutionise customer experiences and accelerate next-generation energy solutions. With our expertise in engineering, technology, and high-end management consultancy, we’re making significant contributions to the global E&U sector. By leveraging smarter and newer technologies, we aim to provide a reliable and sustainable energy supply for customers worldwide.\nDoes that sound like we’re talking about you?\nWell, you’re in the right place.\nSearch open positions\nLearn more about how we collaborate with our clients and the wider energy & utilities sector to enable robust methods of transition and adoption of digital technologies\nOUR WORK\nCloud migration of a global energy leader: transforming the continuous testing with AWS\nContinuous Quality: Safeguarding ESB’s journey to S/4HANA\nVIEW MORE CASE STUDIES\nNEWS & INSIGHTS\nAI Advantage: 10 Steps to Elevate Your Business\nTransforming the energy & utilities sector with digital twins\nREAD OUR LATEST INSIGHTS\nSearch jobs in your country\nCountry\nAccessibility\ntop\nRobert Matthews\nRead other stories from our veterans\nWhat is your name and your role and how long have you been working at Expleo?\nThis year I’m celebrating my 1 2 th year at Expleo . I started my career at Expleo as a Quality Auditor contractor, and then was offered a Staff position in the Life Cycle Management team, where I became a Deputy Team Lead, after which there was a nother promotion opportunity to an Engineering Manager, and later I was able to join our Marine division where I currently work.\nWhere and how long did you serve in the armed forces?\nI served in the Air Force just shy of 25 years. I started my career as an Aero Engines Mechanic. My first posting was at Brize Norton working on VC 10s, Tri Stars & Hercules Aircraft. Then I went on to a technician’s course and became a Junior Technician, and then progressed into a leadership position as a Sergeant. I left the Air Force as a Senior Non-commissioned Officer.\nRob in 2022 post remembrance parade in his local village. Remembrance day is very important to serving and veterans of the forces as it gives a chance to honor those who have given the ultimate sacrifice in serving their country\nWhat challenges did you have after leaving the Armed Forces?\nMy main challenge was worrying about Job Security. My manager was very supportive when I was still a contractor at Expleo and he transferred me over from contractor to permanent staff. I remember the conversation I had with him about the opportunities for secure job security and promotion.\nAnd he said: “At Expleo, opportunities are out there for you, so go and get them”. And he was right, there are plenty of opportunities at Expleo. You just have to seize them. And every time I saw an opportunity at Expleo, I just went for it.\nI transferred a lot of my skills over to Expleo. For instance, the aircraft and engine experience, experience in fault diagnosis, and more in-depth engineering project management and of course my leadership & Management Skills\nHow did Expleo help you to transition into your civilian job?\nI found it quite an easy transition, as there were a lot of ex-forces colleagues within Expleo when I joined, some of which I knew already. For those that didn’t have a military background they were equally as welcoming.\nHow do you feel Expleo allows you to use your expertise you gained during your service?\nExpleo gave me the freedom to use my transferable skills that I gained in the Air Force. My manager and colleagues had an open mindset for my ideas. I could bring those ideas into the office and illustrate how they could be implemented within a business setting They very much welcomed my ideas about improvements, and there is always an open environment for sharing ideas and previous knowledge. I also completed an Expleo Leadership Management course, which differed to the one I had in the Air Force. Combining the two gave me a much more rounded leadership and management mindset.\nHow do you connect with other members of the Armed Forces Community at Expleo?\nI participate in careers  transition workshops supporting recruiters. When Ex-Forces  are looking for a new career, I attend the workshops chatting  to the Armed Forces community sharing my experience and  what I have learned.\nWhat advice would you give to other members of the Armed Forces Community who are planning to join Expleo?\nExpleo has many different opportunities, whether it be leadership management, various jobs in engineering, project management etc. Don’t think that you don’t have the skill set to join Expleo. It is within you; you do have those skills and Expleo can bring out these skills in people.",
   "posted_at": "",
-  "source": "sitemap",
+  "source": "joblinks",
   "department": "",
   "employment_type": "",
   "sponsorship": null,
@@ -54994,7 +54996,7 @@
   "company_site": "https://expleo.com/global/en/careers/",
   "first_seen": "2026-09-01T22:41:03+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "47b39b9c4e85f25a",
@@ -55226,7 +55228,7 @@
   "company_site": "https://www.tudublin.ie/explore/jobs-at-tu-dublin/",
   "first_seen": "2026-09-02T01:29:46+00:00",
   "is_new": false,
-  "last_seen": "2026-09-11T13:43:29+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "40787372fd3a06ed",
@@ -55529,7 +55531,7 @@
   "company_site": "https://careers.usbank.com/global/en/",
   "first_seen": "2026-09-02T04:08:24+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "cbf472a60321e923",
@@ -56797,7 +56799,7 @@
   "company_site": "",
   "first_seen": "2026-09-11T11:21:14+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "8901b4645cf42651",
@@ -56986,7 +56988,7 @@
   "company_site": "https://careers.wipro.com/content/Early-Careers/?locale=en_US",
   "first_seen": "2026-09-12T05:51:50+00:00",
   "is_new": true,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "9dd7955d7bdcc569",
@@ -57041,7 +57043,7 @@
   "company_site": "https://www.squarespace.com/careers",
   "first_seen": "2026-09-01T16:15:25+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "c1f1ceb36a1e4355",
@@ -57205,7 +57207,7 @@
   "company_site": "https://careers.fbdgroup.com/search/",
   "first_seen": "2026-09-01T22:41:03+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "33f1cab4958a9199",
@@ -58527,7 +58529,7 @@
   "company_site": "https://careers.datadoghq.com",
   "first_seen": "2026-09-01T16:15:25+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "279d9e2a468685e8",
@@ -58582,7 +58584,7 @@
   "company_site": "https://www.exlservice.com/careers",
   "first_seen": "2026-09-01T19:24:15+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "e5b1f8d04e48a326",
@@ -58637,7 +58639,7 @@
   "company_site": "https://www.exlservice.com/careers",
   "first_seen": "2026-09-01T19:24:15+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "19b1741b7e0621a1",
@@ -58692,7 +58694,7 @@
   "company_site": "https://www.exlservice.com/careers",
   "first_seen": "2026-09-01T19:24:15+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "279e4b7f940cd2b6",
@@ -59249,7 +59251,7 @@
   "company_site": "https://workday.wd5.myworkdayjobs.com/Workday",
   "first_seen": "2026-09-01T22:22:46+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "b3d8ef71027d8ebe",
@@ -59358,7 +59360,7 @@
   "company_site": "https://www.version1.com/careers",
   "first_seen": "2026-09-01T22:41:03+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "d38faf627bd98124",
@@ -59413,7 +59415,7 @@
   "company_site": "https://www.version1.com/careers",
   "first_seen": "2026-09-01T22:41:03+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "7a3fb974eb041a98",
@@ -59522,7 +59524,7 @@
   "company_site": "https://workday.wd5.myworkdayjobs.com/Workday",
   "first_seen": "2026-09-02T03:53:37+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "971838e7c360e8fe",
@@ -59577,7 +59579,7 @@
   "company_site": "https://www.cpl.com/careers",
   "first_seen": "2026-09-02T03:53:37+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "e0a64fc8e032bd01",
@@ -59632,7 +59634,7 @@
   "company_site": "https://www.cpl.com/careers",
   "first_seen": "2026-09-02T03:53:37+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "3a810b602096c990",
@@ -59687,7 +59689,7 @@
   "company_site": "https://www.cpl.com/careers",
   "first_seen": "2026-09-02T03:53:37+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "197f917de8282b5f",
@@ -59742,7 +59744,7 @@
   "company_site": "https://www.cpl.com/careers",
   "first_seen": "2026-09-02T03:53:37+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "10805b4c5665f96b",
@@ -59797,7 +59799,7 @@
   "company_site": "https://www.cpl.com/careers",
   "first_seen": "2026-09-02T03:53:37+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "eb6942970634bcd0",
@@ -60177,7 +60179,7 @@
   "company_site": "https://www.musgravegroup.com/careers/",
   "first_seen": "2026-09-02T18:48:50+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "7b0abdfebfff070e",
@@ -60692,7 +60694,7 @@
   "company_site": "https://bdoireland.pinpointhq.com/",
   "first_seen": "2026-09-03T15:03:42+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "cfc5a7330a9ac1d7",
@@ -62910,7 +62912,7 @@
   "company_site": "https://careers.iconplc.com/",
   "first_seen": "2026-09-11T01:50:24+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "68ace2fa25dce05b",
@@ -62965,7 +62967,7 @@
   "company_site": "https://www.hse.ie/eng/careers/",
   "first_seen": "2026-09-11T13:43:29+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "00926203476f8deb",
@@ -63020,7 +63022,7 @@
   "company_site": "https://www.hse.ie/eng/careers/",
   "first_seen": "2026-09-11T13:43:29+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "e2d613e260394d06",
@@ -63075,7 +63077,7 @@
   "company_site": "https://www.hse.ie/eng/careers/",
   "first_seen": "2026-09-11T15:08:52+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "c6ac0c7b393c0a12",
@@ -63315,7 +63317,7 @@
   "company_site": "",
   "first_seen": "2026-09-01T22:41:03+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "9d2da3403df0a55d",
@@ -63370,7 +63372,7 @@
   "company_site": "https://careers.iconplc.com/",
   "first_seen": "2026-09-01T22:41:03+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "0312cc6251b0107a",
@@ -63430,7 +63432,7 @@
   "company_site": "https://jobs.fidelity.com/",
   "first_seen": "2026-09-01T22:41:03+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "9195ace87eb6fffe",
@@ -63440,7 +63442,7 @@
   "url": "https://careers.expleo.com/en/roles/it-digital/join-expleos-application-software-development-team/",
   "description": "Skip to main content\nHome > IT & Digital > Join Expleo’s application software development team\nCAREERS\nJoin Expleo’s application software development team\nScroll\nRedefine software development excellence\nAs an application software developer at Expleo, you’ll leverage your skills in coding, problem-solving, and business understanding to develop robust software solutions. You’ll be at the forefront of building cutting-edge applications for industries such as aerospace, automotive, healthcare, and finance, ensuring high-quality software solutions that meet the needs of our diverse clients.\nWorking alongside a talented team of engineers and business stakeholders, you’ll play a key role in shaping the future of software development, transforming business requirements into innovative solutions. If you’re a problem-solver with a passion for coding and technology, you’ll thrive in a dynamic environment at Expleo.\nDoes it sound like we’re talking about you?\nYou’re in the right place.\nSearch open positions\nExpleo’s application software development team designs and delivers:\nInnovative software solutions\nCustomised applications tailored to business needs\nSeamless integration with client systems\nHigh-quality, efficient code that drives real business impact\nA day in the life of an Expleo application software developer\nMorning\n- Reviewing project emails, updates, and communications from the team.\n- Holding virtual meetings with business stakeholders to clarify requirements and expectations for the software.\nMid-morning\n- Collaborating with the development team to discuss any technical challenges and to plan the implementation of new features.\n- Writing and reviewing code, ensuring it aligns with project specifications and best practices.\nNoon\n- Conducting code reviews with the team to ensure the highest quality standards.\n- Meeting with the testing team to review the implementation and prepare for testing and deployment.\nAfter lunch\n- Troubleshooting any issues raised by testers and implementing fixes.\n- Reviewing code performance metrics and identifying potential improvements.\nAfternoon\n- Working with business analysts to explore new functionality and features that could enhance the application.\n- Planning future development tasks and creating development schedules.\nMid-Afternoon\n- Coordinating with the quality assurance team to ensure smooth deployment of new features.\n- Engaging in risk opportunity meetings to discuss areas for improvement or further development.\nEnd of day\n- Outlining goals for the next day, providing updates on progress, and contributing to reporting metrics.\nEntry-level requirements​\nHARD SKILLS\nBachelor’s degree in computer science or related field.\nFamiliarity with development frameworks such as Java , C# , or Python .\nKnowledge of application software design principles and coding standards.\nFamiliarity with version control systems (e.g., Git , SVN ).\nSOFT SKILLS\nStrong communication skills to collaborate with business stakeholders and team members.\nInitiative and ability to work independently, with a drive for problem-solving.\nAbility to think critically and work within the constraints of a project.\nAttention to detail and a passion for delivering quality software.\nWhat you’ll be learning with our team\nAdvanced knowledge of application software development.\nExperience with APIs , SQL , and Web Development .\nUnderstanding of system architecture and design patterns.\nRisk management strategies for software deployment.\nEnhancing collaboration and relationship-building skills with clients and team members.\nDeveloping the ability to understand and solve complex business problems.\nGaining an understanding of how software development fits into the broader business strategy.\nSound exciting? We think so too!\nJoin our team\nAccessibility\ntop\nRobert Matthews\nRead other stories from our veterans\nWhat is your name and your role and how long have you been working at Expleo?\nThis year I’m celebrating my 1 2 th year at Expleo . I started my career at Expleo as a Quality Auditor contractor, and then was offered a Staff position in the Life Cycle Management team, where I became a Deputy Team Lead, after which there was a nother promotion opportunity to an Engineering Manager, and later I was able to join our Marine division where I currently work.\nWhere and how long did you serve in the armed forces?\nI served in the Air Force just shy of 25 years. I started my career as an Aero Engines Mechanic. My first posting was at Brize Norton working on VC 10s, Tri Stars & Hercules Aircraft. Then I went on to a technician’s course and became a Junior Technician, and then progressed into a leadership position as a Sergeant. I left the Air Force as a Senior Non-commissioned Officer.\nRob in 2022 post remembrance parade in his local village. Remembrance day is very important to serving and veterans of the forces as it gives a chance to honor those who have given the ultimate sacrifice in serving their country\nWhat challenges did you have after leaving the Armed Forces?\nMy main challenge was worrying about Job Security. My manager was very supportive when I was still a contractor at Expleo and he transferred me over from contractor to permanent staff. I remember the conversation I had with him about the opportunities for secure job security and promotion.\nAnd he said: “At Expleo, opportunities are out there for you, so go and get them”. And he was right, there are plenty of opportunities at Expleo. You just have to seize them. And every time I saw an opportunity at Expleo, I just went for it.\nI transferred a lot of my skills over to Expleo. For instance, the aircraft and engine experience, experience in fault diagnosis, and more in-depth engineering project management and of course my leadership & Management Skills\nHow did Expleo help you to transition into your civilian job?\nI found it quite an easy transition, as there were a lot of ex-forces colleagues within Expleo when I joined, some of which I knew already",
   "posted_at": "",
-  "source": "sitemap",
+  "source": "joblinks",
   "department": "",
   "employment_type": "",
   "sponsorship": null,
@@ -63495,7 +63497,7 @@
   "company_site": "https://expleo.com/global/en/careers/",
   "first_seen": "2026-09-01T22:41:03+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "2e47da60c3fca0d1",
@@ -66009,7 +66011,7 @@
   "company_site": "",
   "first_seen": "2026-09-11T01:24:55+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "eed99fca9b1b43c9",
@@ -66315,7 +66317,7 @@
   "company_site": "https://www.version1.com/careers",
   "first_seen": "2026-09-11T13:01:40+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "4845509941c61868",
@@ -66380,7 +66382,7 @@
   "company_site": "https://www.version1.com/careers",
   "first_seen": "2026-09-11T13:01:40+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "4b34f3e01c54ae91",
@@ -66613,8 +66615,8 @@
   "permits": 1,
   "company_site": "https://careers.primark.com/en/location/ireland-jobs/30423/2963597/2",
   "first_seen": "2026-09-11T18:34:53+00:00",
-  "is_new": true,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "is_new": false,
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "f0519e5dbd58a7a5",
@@ -66669,7 +66671,7 @@
   "company_site": "https://careers.datadoghq.com",
   "first_seen": "2026-09-01T16:15:25+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "291337ccf6e68732",
@@ -66724,7 +66726,7 @@
   "company_site": "https://careers.datadoghq.com",
   "first_seen": "2026-09-01T16:15:25+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "f1f63517ff285e0d",
@@ -66779,7 +66781,7 @@
   "company_site": "https://careers.datadoghq.com",
   "first_seen": "2026-09-01T16:15:25+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "8b8fc82dbf9ee34a",
@@ -66888,7 +66890,7 @@
   "company_site": "https://careers.datadoghq.com",
   "first_seen": "2026-09-01T16:15:25+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "6943170d22e3587c",
@@ -66943,7 +66945,7 @@
   "company_site": "https://careers.datadoghq.com",
   "first_seen": "2026-09-01T16:15:25+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "79d3754d3bd8baf9",
@@ -67052,7 +67054,7 @@
   "company_site": "https://careers.primark.com/en/location/ireland-jobs/30423/2963597/2",
   "first_seen": "2026-09-01T19:24:15+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "c1a5e35575ed9911",
@@ -67161,7 +67163,7 @@
   "company_site": "https://careers.primark.com/en/location/ireland-jobs/30423/2963597/2",
   "first_seen": "2026-09-01T19:24:15+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "e5e2db4db6d772a9",
@@ -67270,7 +67272,7 @@
   "company_site": "https://careers.primark.com/en/location/ireland-jobs/30423/2963597/2",
   "first_seen": "2026-09-01T19:24:15+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "0b4d96639cf9f0d6",
@@ -67325,7 +67327,7 @@
   "company_site": "https://careers.primark.com/en/location/ireland-jobs/30423/2963597/2",
   "first_seen": "2026-09-01T19:24:15+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "1838ab4e5ac5c12b",
@@ -67380,7 +67382,7 @@
   "company_site": "https://careers.primark.com/en/location/ireland-jobs/30423/2963597/2",
   "first_seen": "2026-09-01T19:24:15+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "eccc08bd4526f0d3",
@@ -67489,7 +67491,7 @@
   "company_site": "https://careers.primark.com/en/location/ireland-jobs/30423/2963597/2",
   "first_seen": "2026-09-01T19:24:15+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "617af69c91dd87bb",
@@ -67544,7 +67546,7 @@
   "company_site": "https://careers.primark.com/en/location/ireland-jobs/30423/2963597/2",
   "first_seen": "2026-09-01T19:24:15+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "13bb4c0a039cf612",
@@ -67599,7 +67601,7 @@
   "company_site": "https://careers.primark.com/en/location/ireland-jobs/30423/2963597/2",
   "first_seen": "2026-09-01T19:24:15+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "95fdc9a1b777cb6d",
@@ -67654,7 +67656,7 @@
   "company_site": "https://careers.primark.com/en/location/ireland-jobs/30423/2963597/2",
   "first_seen": "2026-09-01T19:24:15+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "e8b5622ad5f2d62d",
@@ -67763,7 +67765,7 @@
   "company_site": "https://careers.primark.com/en/location/ireland-jobs/30423/2963597/2",
   "first_seen": "2026-09-01T19:24:15+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "22697e55fd2d6b94",
@@ -67926,7 +67928,7 @@
   "company_site": "https://careers.primark.com/en/location/ireland-jobs/30423/2963597/2",
   "first_seen": "2026-09-01T19:24:15+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "29d598354b7b64d1",
@@ -67981,7 +67983,7 @@
   "company_site": "https://careers.primark.com/en/location/ireland-jobs/30423/2963597/2",
   "first_seen": "2026-09-01T19:24:15+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "13f12b861a35bb71",
@@ -68036,7 +68038,7 @@
   "company_site": "https://careers.primark.com/en/location/ireland-jobs/30423/2963597/2",
   "first_seen": "2026-09-01T19:24:15+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "26245ad30be0e53c",
@@ -68150,7 +68152,7 @@
   "company_site": "https://careers.statestreet.com/global/en/search-results",
   "first_seen": "2026-09-01T22:22:46+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "a583ae766ce208d7",
@@ -68328,7 +68330,7 @@
   "company_site": "https://www.tudublin.ie/explore/jobs-at-tu-dublin/",
   "first_seen": "2026-09-02T01:29:46+00:00",
   "is_new": false,
-  "last_seen": "2026-09-11T13:43:29+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "1ffb4df4a9ca09be",
@@ -68383,7 +68385,7 @@
   "company_site": "https://www.tudublin.ie/explore/jobs-at-tu-dublin/",
   "first_seen": "2026-09-02T01:29:46+00:00",
   "is_new": false,
-  "last_seen": "2026-09-11T13:43:29+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "7f17170bae52f90b",
@@ -68438,7 +68440,7 @@
   "company_site": "https://www.tudublin.ie/explore/jobs-at-tu-dublin/",
   "first_seen": "2026-09-02T01:29:46+00:00",
   "is_new": false,
-  "last_seen": "2026-09-11T13:43:29+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "468f6e3178fb4e73",
@@ -68493,7 +68495,7 @@
   "company_site": "https://www.tudublin.ie/explore/jobs-at-tu-dublin/",
   "first_seen": "2026-09-02T01:29:46+00:00",
   "is_new": false,
-  "last_seen": "2026-09-11T13:43:29+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "f843b3df23dce554",
@@ -68895,7 +68897,7 @@
   "company_site": "https://careers.flutteruki.com/early-careers/",
   "first_seen": "2026-09-02T04:08:24+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "f0bfa66912f098e9",
@@ -69005,7 +69007,7 @@
   "company_site": "https://www.squarespace.com/careers/jobs",
   "first_seen": "2026-09-02T04:29:55+00:00",
   "is_new": false,
-  "last_seen": "2026-09-11T13:43:29+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "80ae40fb213dda9e",
@@ -69060,7 +69062,7 @@
   "company_site": "https://www.squarespace.com/careers/jobs",
   "first_seen": "2026-09-02T04:29:55+00:00",
   "is_new": false,
-  "last_seen": "2026-09-11T13:43:29+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "36c77ae7a7553de5",
@@ -70312,7 +70314,7 @@
   "company_site": "https://careers.primark.com/en/location/ireland-jobs/30423/2963597/2",
   "first_seen": "2026-09-03T15:03:42+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "70f9ce6d8aacc7a3",
@@ -70729,7 +70731,7 @@
   "company_site": "https://opportunities.vodafone.com/search/?q=&locationsearch=ireland",
   "first_seen": "2026-09-04T15:03:12+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "5084bf304e3d12d8",
@@ -70784,7 +70786,7 @@
   "company_site": "https://careers.primark.com/en/location/ireland-jobs/30423/2963597/2",
   "first_seen": "2026-09-04T15:03:12+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "539355709c3f4175",
@@ -71067,7 +71069,7 @@
   "company_site": "https://www.wayflyer.com/careers",
   "first_seen": "2026-09-05T00:44:47+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "8eb22e18f6eabe93",
@@ -71186,7 +71188,7 @@
   "company_site": "https://opportunities.vodafone.com/search/?q=&locationsearch=ireland",
   "first_seen": "2026-09-07T19:16:31+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "20efc46a25f753da",
@@ -71246,7 +71248,7 @@
   "company_site": "https://opportunities.vodafone.com/search/?q=&locationsearch=ireland",
   "first_seen": "2026-09-07T22:07:13+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "d2de5f7280155a8e",
@@ -71301,7 +71303,7 @@
   "company_site": "https://careers.primark.com/en/location/ireland-jobs/30423/2963597/2",
   "first_seen": "2026-09-08T12:26:59+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "1009f82c9b133ca7",
@@ -71413,7 +71415,7 @@
   "company_site": "https://careers.primark.com/en/location/ireland-jobs/30423/2963597/2",
   "first_seen": "2026-09-08T16:51:45+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "036feb8dad34d200",
@@ -71522,7 +71524,7 @@
   "company_site": "https://careers.primark.com/en/location/ireland-jobs/30423/2963597/2",
   "first_seen": "2026-09-09T09:17:05+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "a4da87e63a36d4d9",
@@ -71577,7 +71579,7 @@
   "company_site": "https://careers.primark.com/en/location/ireland-jobs/30423/2963597/2",
   "first_seen": "2026-09-09T17:24:31+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "7541a1474e154a82",
@@ -71687,7 +71689,7 @@
   "company_site": "https://careers.primark.com/en/location/ireland-jobs/30423/2963597/2",
   "first_seen": "2026-09-10T13:39:56+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "da43460e429e72f6",
@@ -72032,7 +72034,7 @@
   "company_site": "https://www.version1.com/careers",
   "first_seen": "2026-09-11T13:01:40+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "364429b138c6951f",
@@ -72092,7 +72094,7 @@
   "company_site": "https://www.version1.com/careers",
   "first_seen": "2026-09-11T13:01:40+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "77c820f7510240dc",
@@ -72157,7 +72159,7 @@
   "company_site": "https://www.version1.com/careers",
   "first_seen": "2026-09-11T13:01:40+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "706f858daad6e2c4",
@@ -72227,7 +72229,7 @@
   "company_site": "https://www.version1.com/careers",
   "first_seen": "2026-09-11T13:01:40+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "a8afd8ef01b97835",
@@ -72292,7 +72294,7 @@
   "company_site": "https://www.version1.com/careers",
   "first_seen": "2026-09-11T13:01:40+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "4780be56e8523f78",
@@ -72347,7 +72349,7 @@
   "company_site": "https://careers.bankofireland.com/",
   "first_seen": "2026-09-11T13:43:29+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "878a9408f0994826",
@@ -72406,8 +72408,8 @@
   "permits": 66,
   "company_site": "https://careers.mastercard.com/us/en/dublin-ireland",
   "first_seen": "2026-09-11T18:34:53+00:00",
-  "is_new": true,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "is_new": false,
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "2a111cab1e5efd63",
@@ -72705,7 +72707,7 @@
   "company_site": "https://jobs.apple.com/en-ie/search?location=ireland-IRLC",
   "first_seen": "2026-09-01T22:41:03+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "181da652f51011e1",
@@ -72990,7 +72992,7 @@
   "company_site": "https://www.vistra.com/careers",
   "first_seen": "2026-09-02T03:59:37+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "c15274c687ef9d02",
@@ -73045,7 +73047,7 @@
   "company_site": "https://careers.dhl.com/eu/en",
   "first_seen": "2026-09-02T04:29:55+00:00",
   "is_new": false,
-  "last_seen": "2026-09-11T13:43:29+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "3d8741cc26879562",
@@ -73771,7 +73773,7 @@
   "company_site": "https://www.vistra.com/careers",
   "first_seen": "2026-09-04T22:48:41+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "471bf5f41c97e901",
@@ -73950,7 +73952,7 @@
   "company_site": "https://careers.marsh.com/global/en/mercer-search",
   "first_seen": "2026-09-08T16:51:45+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "8231d0e6df168167",
@@ -74075,7 +74077,7 @@
   "company_site": "https://opportunities.vodafone.com/search/?q=&locationsearch=ireland",
   "first_seen": "2026-09-09T20:02:10+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "793d1f55b54b89e6",
@@ -74184,7 +74186,7 @@
   "company_site": "https://opportunities.vodafone.com/search/?q=&locationsearch=ireland",
   "first_seen": "2026-09-10T17:18:25+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "b46b59f75419b8c4",
@@ -74239,7 +74241,7 @@
   "company_site": "https://www.musgravegroup.com/careers/",
   "first_seen": "2026-09-11T13:01:40+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "cc530bda460e9099",
@@ -74294,7 +74296,7 @@
   "company_site": "https://www.musgravegroup.com/careers/",
   "first_seen": "2026-09-11T13:01:40+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "481cbcd7e3de86bd",
@@ -74349,7 +74351,7 @@
   "company_site": "https://www.musgravegroup.com/careers/",
   "first_seen": "2026-09-11T13:01:40+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "06e6e805afda20c7",
@@ -74409,7 +74411,7 @@
   "company_site": "https://www.version1.com/careers",
   "first_seen": "2026-09-11T13:01:40+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "eabc3ae7b2187acd",
@@ -74469,7 +74471,7 @@
   "company_site": "https://www.version1.com/careers",
   "first_seen": "2026-09-11T13:01:40+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "c4a183bd8a0402ec",
@@ -74529,7 +74531,7 @@
   "company_site": "https://www.version1.com/careers",
   "first_seen": "2026-09-11T13:01:40+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "20bc293c81c7003b",
@@ -74878,7 +74880,7 @@
   "company_site": "https://careers.statestreet.com/global/en/search-results",
   "first_seen": "2026-09-01T22:22:46+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "6025df63ed760b9f",
@@ -74933,7 +74935,7 @@
   "company_site": "https://www.tp.com/en-ie/locations/ireland/careers/",
   "first_seen": "2026-09-01T22:41:03+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "1b5f4582f77e3d31",
@@ -75042,7 +75044,7 @@
   "company_site": "https://jobs.iqvia.com/",
   "first_seen": "2026-09-01T22:41:03+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "a85f7053d265a84e",
@@ -75097,7 +75099,7 @@
   "company_site": "https://jobs.iqvia.com/",
   "first_seen": "2026-09-01T22:41:03+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "c341525ec4405cf6",
@@ -75206,7 +75208,7 @@
   "company_site": "https://www.tudublin.ie/explore/jobs-at-tu-dublin/",
   "first_seen": "2026-09-02T01:29:46+00:00",
   "is_new": false,
-  "last_seen": "2026-09-11T13:43:29+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "4d1bcca32167b701",
@@ -75315,7 +75317,7 @@
   "company_site": "https://www.tudublin.ie/explore/jobs-at-tu-dublin/",
   "first_seen": "2026-09-02T01:29:46+00:00",
   "is_new": false,
-  "last_seen": "2026-09-11T13:43:29+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "648eeb2988ae55fd",
@@ -75370,7 +75372,7 @@
   "company_site": "https://www.tudublin.ie/explore/jobs-at-tu-dublin/",
   "first_seen": "2026-09-02T01:29:46+00:00",
   "is_new": false,
-  "last_seen": "2026-09-11T13:43:29+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "043f83eefc2d30d2",
@@ -75425,7 +75427,7 @@
   "company_site": "https://www.tudublin.ie/explore/jobs-at-tu-dublin/",
   "first_seen": "2026-09-02T01:29:46+00:00",
   "is_new": false,
-  "last_seen": "2026-09-11T13:43:29+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "313246602a99629c",
@@ -75480,7 +75482,7 @@
   "company_site": "https://www.tudublin.ie/explore/jobs-at-tu-dublin/",
   "first_seen": "2026-09-02T01:29:46+00:00",
   "is_new": false,
-  "last_seen": "2026-09-11T13:43:29+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "eb905de92e502a4b",
@@ -75589,7 +75591,7 @@
   "company_site": "https://www.tudublin.ie/explore/jobs-at-tu-dublin/",
   "first_seen": "2026-09-02T01:29:46+00:00",
   "is_new": false,
-  "last_seen": "2026-09-11T13:43:29+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "675928f40a52293b",
@@ -75708,7 +75710,7 @@
   "company_site": "https://jobs.iqvia.com/",
   "first_seen": "2026-09-02T03:53:37+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "cf356c268c40703e",
@@ -75989,7 +75991,7 @@
   "company_site": "https://careers.dhl.com/eu/en",
   "first_seen": "2026-09-02T04:29:55+00:00",
   "is_new": false,
-  "last_seen": "2026-09-11T13:43:29+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "ef522472f1a03dd4",
@@ -77122,7 +77124,7 @@
   "company_site": "https://careers.wtwco.com/",
   "first_seen": "2026-09-09T17:24:31+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "f612600313a87616",
@@ -77177,7 +77179,7 @@
   "company_site": "https://careers.wtwco.com/",
   "first_seen": "2026-09-10T17:18:25+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "d1ec87978cd170bb",
@@ -77452,7 +77454,7 @@
   "company_site": "https://www.hse.ie/eng/careers/",
   "first_seen": "2026-09-11T13:01:40+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "8d079e2f7ab91ffc",
@@ -77564,7 +77566,7 @@
   "company_site": "https://www.vistra.com/careers",
   "first_seen": "2026-09-11T13:01:40+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "2d626982af006f50",
@@ -77739,7 +77741,7 @@
   "company_site": "https://www.aioinissaydowa.eu/careers/",
   "first_seen": "2026-09-11T13:01:40+00:00",
   "is_new": false,
-  "last_seen": "2026-09-11T13:43:30+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "3cc6531c82eb54f0",
@@ -77794,7 +77796,7 @@
   "company_site": "https://www.aioinissaydowa.eu/careers/",
   "first_seen": "2026-09-11T13:01:40+00:00",
   "is_new": false,
-  "last_seen": "2026-09-11T13:43:30+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "dfb6bd046e0f2467",
@@ -77854,7 +77856,7 @@
   "company_site": "https://www.version1.com/careers",
   "first_seen": "2026-09-11T13:01:40+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "3c7d7699dd0291ba",
@@ -77909,7 +77911,7 @@
   "company_site": "https://careers.wtwco.com/",
   "first_seen": "2026-09-11T21:13:58+00:00",
   "is_new": true,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "abb94ddca9c15bdb",
@@ -78078,7 +78080,7 @@
   "company_site": "https://www.vistra.com/careers",
   "first_seen": "2026-09-11T23:20:16+00:00",
   "is_new": true,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "c1bf143295dfcc40",
@@ -78195,7 +78197,7 @@
   "company_site": "https://jobs.fidelity.com/",
   "first_seen": "2026-09-01T22:41:03+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "ce6236ca86fb7955",
@@ -78630,7 +78632,7 @@
   "company_site": "https://www.squarespace.com/careers/jobs",
   "first_seen": "2026-09-02T04:29:55+00:00",
   "is_new": false,
-  "last_seen": "2026-09-11T13:43:29+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "fa4b01e50581a4ef",
@@ -80770,8 +80772,10 @@
   "permits": 3,
   "company_site": "https://careers.wipro.com/content/Early-Careers/?locale=en_US",
   "first_seen": "2026-09-11T18:34:53+00:00",
-  "is_new": true,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "is_new": false,
+  "last_seen": "2026-09-12T16:22:24+00:00",
+  "closed": true,
+  "closed_at": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "5d580a015102a7bd",
@@ -80830,8 +80834,8 @@
   "permits": 66,
   "company_site": "https://careers.mastercard.com/us/en/dublin-ireland",
   "first_seen": "2026-09-11T18:34:53+00:00",
-  "is_new": true,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "is_new": false,
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "4af28f4fe91393dc",
@@ -81191,7 +81195,7 @@
   "company_site": "",
   "first_seen": "2026-09-01T22:41:03+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "6071f9d5809511be",
@@ -81769,7 +81773,7 @@
   "company_site": "https://life-careers.com/irishlife/go/All-Jobs/3805301/",
   "first_seen": "2026-09-02T21:22:21+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "06295b5e3e9dda93",
@@ -81829,7 +81833,7 @@
   "company_site": "https://careers.marsh.com/global/en/mercer-search",
   "first_seen": "2026-09-02T21:22:21+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "f89468472f5656b1",
@@ -82425,7 +82429,7 @@
   "company_site": "https://life-careers.com/search-jobs",
   "first_seen": "2026-09-07T19:16:31+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "eeccffbd0f2d0713",
@@ -82742,7 +82746,7 @@
   "url": "https://careers.expleo.com/en/roles/it-digital/data-engineering-team/",
   "description": "Skip to main content\nHome > IT & Digital > Join Expleo’s Data Engineering Team\nCAREERS\nJoin Expleo's Data Engineering Team\nScroll\nCode, analyse and visualise data for real-word results\nTechnology is your passion, and you love to understand how things work. Your eye for detail combines with an innate curiosity that allows you to design and implement tests to validate software so that it performs just how clients want it to.\nA clear communicator across different audiences, putting the results of your tests and where software can be improved comes naturally to you. You enjoy working with teams from around the world with different skill sets and use this as an opportunity to develop your own expertise.\nDoes that sound like we’re talking about you?\nWell, you’re in the right place.\nSearch open positions\nExpleo's Data Engineering Team helps deliver\nMassive data analysis for the automotive industry\nTrain driver assistance system using d eep l earning\nPredictive maintenance for aircraft systems\nGas leakage prediction of heat pumps\nD ata analysis for automotive battery manufacturing\nPredictive maintenance of electric vehicle batteries\nIn data, you have to be curious, always on the lookout so that you never stop learning\nSandy Lartigue, Data Engineer\nA day in the life of an Expleo Data Engineer\nMorning\nClient meeting for presentation to receive technical overview of the project and goals\nMid-morning\nData collection, formatting, and cleaning\nNoon\nTransformation of the data according to the client needs\nAfter lunch\nWork on data visualisation including interactive dashboards and applications\nMid-afternoon\nWork on code improvement and optimisation\nEnd of Day\nMeeting with the client to propose a new solution and make any necessary adjustments\nEntry-level requirements​\nHARD SKILLS\nProgramming languages (e.g. Python, SQL, Spark)\n     Rated 5 out of 5\nData engineering tools: (e.g. Hadoop, Docker, GitLab)\nData visualisation tools (e.g. PowerBI, Spotfire, Tableau, Qlik)\nMachine Learning\n     Rated 3 out of 5\nSOFT SKILLS\nRigorous mindset and attention to details\nCuriosity and willing to learn\n     Rated 4 out of 5\nAdaptability\nCourageous: enjoying debugging programs\nWhat you will be learning with our team\nAdvanced level in programming languages\nClient environments and software\nKnowledge of data visualisation software\nCreating a client application from scratch\nProject management\nClient interaction and communication\nSound exciting? We think so too!\nJoin our team\nAccessibility\ntop\nRobert Matthews\nRead other stories from our veterans\nWhat is your name and your role and how long have you been working at Expleo?\nThis year I’m celebrating my 1 2 th year at Expleo . I started my career at Expleo as a Quality Auditor contractor, and then was offered a Staff position in the Life Cycle Management team, where I became a Deputy Team Lead, after which there was a nother promotion opportunity to an Engineering Manager, and later I was able to join our Marine division where I currently work.\nWhere and how long did you serve in the armed forces?\nI served in the Air Force just shy of 25 years. I started my career as an Aero Engines Mechanic. My first posting was at Brize Norton working on VC 10s, Tri Stars & Hercules Aircraft. Then I went on to a technician’s course and became a Junior Technician, and then progressed into a leadership position as a Sergeant. I left the Air Force as a Senior Non-commissioned Officer.\nRob in 2022 post remembrance parade in his local village. Remembrance day is very important to serving and veterans of the forces as it gives a chance to honor those who have given the ultimate sacrifice in serving their country\nWhat challenges did you have after leaving the Armed Forces?\nMy main challenge was worrying about Job Security. My manager was very supportive when I was still a contractor at Expleo and he transferred me over from contractor to permanent staff. I remember the conversation I had with him about the opportunities for secure job security and promotion.\nAnd he said: “At Expleo, opportunities are out there for you, so go and get them”. And he was right, there are plenty of opportunities at Expleo. You just have to seize them. And every time I saw an opportunity at Expleo, I just went for it.\nI transferred a lot of my skills over to Expleo. For instance, the aircraft and engine experience, experience in fault diagnosis, and more in-depth engineering project management and of course my leadership & Management Skills\nHow did Expleo help you to transition into your civilian job?\nI found it quite an easy transition, as there were a lot of ex-forces colleagues within Expleo when I joined, some of which I knew already. For those that didn’t have a military background they were equally as welcoming.\nHow do you feel Expleo allows you to use your expertise you gained during your service?\nExpleo gave me the freedom to use my transferable skills that I gained in the Air Force. My manager and colleagues had an open mindset for my ideas. I could bring those ideas into the office and illustrate how they could be implemented within a business setting They very much welcomed my ideas about improvements, and there is always an open environment for sharing ideas and previous knowledge. I also completed an Expleo Leadership Management course, which differed to the one I had in the Air Force. Combining the two gave me a much more rounded leadership and management mindset.\nHow do you connect with other members of the Armed Forces Community at Expleo?\nI participate in careers  transition workshops supporting recruiters. When Ex-Forces  are looking for a new career, I attend the workshops chatting  to the Armed Forces community sharing my experience and  what I have learned.\nWhat advice would you give to other members of the Armed Forces Community who are planning to join Expleo?\nExpleo has many different opportunities, whether it be leadership management, various jobs in engineering, project management ",
   "posted_at": "",
-  "source": "sitemap",
+  "source": "joblinks",
   "department": "",
   "employment_type": "",
   "sponsorship": null,
@@ -82802,7 +82806,7 @@
   "company_site": "https://expleo.com/global/en/careers/",
   "first_seen": "2026-09-11T13:01:40+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "d4c9ceeaaa0da249",
@@ -83183,7 +83187,7 @@
   "company_site": "https://www.three.ie/careers",
   "first_seen": "2026-09-01T22:41:03+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "ec231a377efc8710",
@@ -83238,7 +83242,7 @@
   "company_site": "https://www.tudublin.ie/explore/jobs-at-tu-dublin/",
   "first_seen": "2026-09-02T01:29:46+00:00",
   "is_new": false,
-  "last_seen": "2026-09-11T13:43:29+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "56ab00bee28889e4",
@@ -85705,7 +85709,7 @@
   "company_site": "https://www.letsgetchecked.com/careers",
   "first_seen": "2026-09-05T00:44:47+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "3be6f610ba06ddee",
@@ -86795,7 +86799,7 @@
   "company_site": "https://www.wayflyer.com/careers",
   "first_seen": "2026-09-11T13:01:40+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "ed374aa6988aaa4c",
@@ -86860,7 +86864,7 @@
   "company_site": "https://www.wayflyer.com/careers",
   "first_seen": "2026-09-11T13:01:40+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "a467d05e8357a0f3",
@@ -86915,7 +86919,7 @@
   "company_site": "https://www.hse.ie/eng/careers/",
   "first_seen": "2026-09-11T15:08:52+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "6fbad40220176bde",
@@ -86985,7 +86989,7 @@
   "company_site": "https://www.vistra.com/careers",
   "first_seen": "2026-09-11T23:20:16+00:00",
   "is_new": true,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "e9e649af84fb20c4",
@@ -87770,7 +87774,7 @@
   "company_site": "https://www.version1.com/careers",
   "first_seen": "2026-09-07T09:50:11+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "7ace84ad053392b0",
@@ -87830,7 +87834,7 @@
   "company_site": "https://careers.wipro.com/content/Early-Careers/?locale=en_US",
   "first_seen": "2026-09-08T22:08:55+00:00",
   "is_new": false,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "aa54d47644ac3ef5",
@@ -88533,8 +88537,8 @@
   "permits": 1,
   "company_site": "https://careers.primark.com/en/location/ireland-jobs/30423/2963597/2",
   "first_seen": "2026-09-11T18:34:53+00:00",
-  "is_new": true,
-  "last_seen": "2026-09-12T16:22:24+00:00"
+  "is_new": false,
+  "last_seen": "2026-09-12T18:38:33+00:00"
  },
  {
   "id": "e7fc7e60991beaa4",
