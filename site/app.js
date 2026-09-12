@@ -326,8 +326,11 @@ function cardHTML(job) {
   else if (job.sponsor_tier === 1) tags.push('<span class="tag sponsor">On permit register</span>');
 
   // A count beats an adjective. This employer sponsored this many people.
+  // A number like this has to say where it came from. "Sponsored 114 people"
+  // is a claim about a real company, and a reader is entitled to ask who says
+  // so before they act on it.
   if (job.permits > 0)
-    tags.push(`<span class="tag permits">Sponsored ${job.permits} ${job.permits === 1 ? 'person' : 'people'}</span>`);
+    tags.push(`<span class="tag permits" title="Department of Enterprise, Tourism and Employment - employment permits issued to companies, 2026, refreshed monthly (enterprise.gov.ie)">Sponsored ${job.permits} ${job.permits === 1 ? 'person' : 'people'} \u24D8</span>`);
 
   // Read the TITLE for what kind of role this is, and match whole words.
   //
@@ -353,16 +356,16 @@ function cardHTML(job) {
   // What this role means for a permit. The ad's own words come first, because
   // an employer saying no outright is the only certain answer there is.
   if (job.sponsorship === 'refuses')
-    tags.push('<span class="tag nosponsor">Says no sponsorship</span>');
+    tags.push('<span class="tag nosponsor" title="Found in the wording of this advert itself">Says no sponsorship</span>');
   else if (job.sponsorship === 'offers')
-    tags.push('<span class="tag yessponsor">Offers sponsorship</span>');
+    tags.push('<span class="tag yessponsor" title="Found in the wording of this advert itself">Offers sponsorship</span>');
 
   if (job.permit_route === 'below_threshold')
-    tags.push(`<span class="tag belowbar">€${(job.salary_eur/1000).toFixed(0)}k - under the permit bar</span>`);
+    tags.push(`<span class="tag belowbar" title="Salary read from this advert, against the thresholds in force from 1 March 2026: Critical Skills EUR 40,904, General EUR 36,605">€${(job.salary_eur/1000).toFixed(0)}k - under the permit bar</span>`);
   else if (job.permit_route === 'general')
-    tags.push(`<span class="tag generalroute">€${(job.salary_eur/1000).toFixed(0)}k - General permit only</span>`);
+    tags.push(`<span class="tag generalroute" title="Salary read from this advert, against the thresholds in force from 1 March 2026: Critical Skills EUR 40,904, General EUR 36,605">€${(job.salary_eur/1000).toFixed(0)}k - General permit only</span>`);
   else if (job.permit_route === 'critical_skills')
-    tags.push(`<span class="tag csep">€${(job.salary_eur/1000).toFixed(0)}k - clears Critical Skills</span>`);
+    tags.push(`<span class="tag csep" title="Salary read from this advert, against the thresholds in force from 1 March 2026: Critical Skills EUR 40,904, General EUR 36,605">€${(job.salary_eur/1000).toFixed(0)}k - clears Critical Skills</span>`);
 
   const title = job.title.toLowerCase();
   const full = (job.title + ' ' + (job.description || '')).toLowerCase();
