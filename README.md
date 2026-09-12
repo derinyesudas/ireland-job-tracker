@@ -6,12 +6,15 @@ employers who actually sponsor work permits.
 
 **Live: https://derinyesudas.github.io/ireland-job-tracker/**
 
+![The tracker, showing scored jobs from employers on Ireland's permit register](docs/screenshot.png)
+
 | | |
 |---|---|
-| Employers watched | 260 |
-| Recruitment platforms it can read | 27 |
+| Employers watched | 264 |
+| Recruitment platforms it can read | 29 |
 | How often it checks | every 15 minutes |
-| Jobs on the board | around 900, each scored 0-100 |
+| Jobs on the board | around 660 open, each scored 0-100 |
+| Employers verified as sponsors | 164, from the government's own register |
 | Running cost | nothing |
 
 ---

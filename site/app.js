@@ -98,7 +98,10 @@ function hiddenJobs() {
 function bucketCounts() {
   const applied = appliedJobs().length;
   const hidden = hiddenJobs().length;
-  const jobs = JOBS.filter(j => !isHidden(j.id) && !isApplied(statusOf(j.id))).length;
+  // The tab counts what the tab will show. A closed vacancy is not on the
+  // board, so counting it here contradicted both the header and the list.
+  const jobs = JOBS.filter(j =>
+    !j.closed && !isHidden(j.id) && !isApplied(statusOf(j.id))).length;
   return { jobs, applied, hidden };
 }
 
@@ -811,7 +814,11 @@ async function init() {
     return;
   }
 
-  document.getElementById('s-total').textContent = JOBS.length;
+  // "Live jobs" has to mean jobs you can still apply to. Counting the closed
+  // ones alongside them put 1,488 in the header while the list below said
+  // "showing 664" - which reads as an error rather than as two true numbers.
+  document.getElementById('s-total').textContent =
+    JOBS.filter(j => !j.closed).length;
   document.getElementById('s-new').textContent = JOBS.filter(j => j.is_new).length;
   // Two different numbers, and conflating them is misleading: the tracker
   // watches every company in the register, but only some of them have an
