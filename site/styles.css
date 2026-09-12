@@ -611,3 +611,14 @@ html, body { max-width: 100%; overflow-x: hidden; }
   line-height: 1.5;
 }
 .today strong { color: #facc15; }
+
+/* Scan now: the scanner is a GitHub workflow, and a public page cannot be
+   given a credential to start one without handing that credential to everybody
+   who opens the page. So the button goes to the place that can, rather than
+   pretending to do it here. */
+.scan-btn { text-decoration: none; display: inline-flex; align-items: center; }
+
+/* A check that has gone cold should look it. */
+.stat.stale-check b       { color: #facc15; }
+.stat.very-stale-check b  { color: #f87171; }
+.stat.very-stale-check span { color: #f87171; }

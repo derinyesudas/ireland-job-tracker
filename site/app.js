@@ -827,6 +827,19 @@ async function init() {
   document.getElementById('s-watched').textContent = STATS.companies_total || '–';
   if (STATS.last_run) {
     document.getElementById('s-updated').textContent = ago(STATS.last_run);
+
+    // GitHub runs the scanner on a best-effort schedule, and in practice best
+    // effort has meant about one run every three hours rather than every
+    // fifteen minutes. The time was already on screen; what was missing was any
+    // sign of when it had stopped being a good number, and what to do then.
+    const box = document.getElementById('s-updated').closest('.stat');
+    const mins = (Date.now() - new Date(STATS.last_run)) / 60000;
+    if (box && isFinite(mins)) {
+      box.classList.toggle('stale-check', mins >= 60);
+      box.classList.toggle('very-stale-check', mins >= 180);
+      const label = box.querySelector('span');
+      if (label) label.textContent = mins >= 180 ? 'last check \u2014 hit Scan now' : 'last check';
+    }
   }
 
   fillSelect('f-company', [...new Set(JOBS.map(j => j.company))].sort());
