@@ -1,34 +1,49 @@
 {
- "last_run": "2026-09-13T19:44:26+00:00",
+ "last_run": "2026-09-13T21:50:22+00:00",
  "companies_total": 264,
  "companies_scanned": 163,
- "boards_failed": 3,
- "raw_postings": 18353,
- "relevant_jobs": 1540,
+ "boards_failed": 6,
+ "raw_postings": 18322,
+ "relevant_jobs": 1541,
  "min_score": 10,
- "new_this_run": 54,
+ "new_this_run": 43,
  "by_band": {
   "excellent": 55,
   "strong": 63,
   "decent": 56,
   "stretch": 167,
-  "weak": 1199
+  "weak": 1200
  },
  "top_errors": [
+  {
+   "company": "Musgrave Group",
+   "ats": "joblinks",
+   "error": "no individual job links found on the page"
+  },
+  {
+   "company": "Irish Life Group",
+   "ats": "joblinks",
+   "error": "<urlopen error timed out>"
+  },
   {
    "company": "Revolut Ireland",
    "ats": "joblinks",
    "error": "HTTP Error 403: Forbidden"
   },
   {
-   "company": "Sutherland Ireland",
+   "company": "Canada Life Group Services (Irish Life Group)",
    "ats": "sitemap",
    "error": "no sitemap found"
   },
   {
-   "company": "Sutherland Ireland",
+   "company": "Vistra Ireland",
    "ats": "sitemap",
    "error": "no sitemap found"
+  },
+  {
+   "company": "Musgrave Group",
+   "ats": "rssfeed",
+   "error": "no readable job feed"
   }
  ],
  "quarantined_feeds": [
