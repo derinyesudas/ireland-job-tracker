@@ -1,34 +1,104 @@
 {
- "last_run": "2026-09-14T18:42:38+00:00",
+ "last_run": "2026-09-14T21:59:16+00:00",
  "companies_total": 264,
- "companies_scanned": 164,
- "boards_failed": 3,
- "raw_postings": 16437,
- "relevant_jobs": 1589,
+ "companies_scanned": 264,
+ "boards_failed": 17,
+ "raw_postings": 26645,
+ "relevant_jobs": 1605,
  "min_score": 10,
- "new_this_run": 79,
+ "new_this_run": 109,
  "by_band": {
   "excellent": 55,
   "strong": 66,
   "decent": 62,
   "stretch": 173,
-  "weak": 1233
+  "weak": 1249
  },
  "top_errors": [
+  {
+   "company": "PayPal Ireland",
+   "ats": "joblinks",
+   "error": "found 1 job links but none were readable"
+  },
   {
    "company": "Expleo Ireland",
    "ats": "joblinks",
    "error": "no individual job links found on the page"
   },
   {
-   "company": "Revolut Ireland",
+   "company": "South East Technological University (SETU)",
    "ats": "joblinks",
-   "error": "HTTP Error 403: Forbidden"
+   "error": "found 1 job links but none were readable"
   },
   {
-   "company": "Revolut Ireland",
+   "company": "LTIMindtree Ireland",
+   "ats": "sitemap",
+   "error": "sitemap had 500 URLs but none looked like jobs"
+  },
+  {
+   "company": "Global Payments Ireland",
+   "ats": "sitemap",
+   "error": "sitemap had 29 URLs but none looked like jobs"
+  },
+  {
+   "company": "Udemy Ireland",
+   "ats": "sitemap",
+   "error": "1 job URLs in the sitemap, none readable"
+  },
+  {
+   "company": "Bord Bia",
    "ats": "sitemap",
    "error": "no sitemap found"
+  },
+  {
+   "company": "Wrkit",
+   "ats": "recruitee",
+   "error": "board not found (404)"
+  },
+  {
+   "company": "Nostra",
+   "ats": "workable",
+   "error": "board not found (404)"
+  },
+  {
+   "company": "Energia Group",
+   "ats": "jsonld",
+   "error": "no JobPosting structured data on the page"
+  },
+  {
+   "company": "Revolut",
+   "ats": "greenhouse",
+   "error": "board not found (404)"
+  },
+  {
+   "company": "Soapbox Labs",
+   "ats": "lever",
+   "error": "board not found (404)"
+  },
+  {
+   "company": "Payslip",
+   "ats": "lever",
+   "error": "board not found (404)"
+  },
+  {
+   "company": "Cubic Telecom",
+   "ats": "lever",
+   "error": "board not found (404)"
+  },
+  {
+   "company": "Glofox",
+   "ats": "lever",
+   "error": "board not found (404)"
+  },
+  {
+   "company": "Ubiquity",
+   "ats": "ashby",
+   "error": "board not found (404)"
+  },
+  {
+   "company": "Tessian",
+   "ats": "ashby",
+   "error": "board not found (404)"
   }
  ],
  "quarantined_feeds": [
