@@ -1,10 +1,10 @@
 {
- "last_run": "2026-09-15T21:52:49+00:00",
+ "last_run": "2026-09-15T23:51:54+00:00",
  "companies_total": 264,
  "companies_scanned": 163,
- "boards_failed": 1,
- "raw_postings": 24478,
- "relevant_jobs": 1656,
+ "boards_failed": 2,
+ "raw_postings": 24411,
+ "relevant_jobs": 1659,
  "min_score": 10,
  "new_this_run": 73,
  "by_band": {
@@ -12,13 +12,18 @@
   "strong": 66,
   "decent": 63,
   "stretch": 174,
-  "weak": 1297
+  "weak": 1300
  },
  "top_errors": [
   {
    "company": "Expleo Ireland",
    "ats": "joblinks",
    "error": "no individual job links found on the page"
+  },
+  {
+   "company": "South East Technological University (SETU)",
+   "ats": "joblinks",
+   "error": "HTTP Error 403: Forbidden"
   }
  ],
  "quarantined_feeds": [
