@@ -1,104 +1,24 @@
 {
- "last_run": "2026-09-16T16:38:56+00:00",
+ "last_run": "2026-09-16T16:55:40+00:00",
  "companies_total": 264,
- "companies_scanned": 264,
- "boards_failed": 17,
- "raw_postings": 26848,
- "relevant_jobs": 1719,
+ "companies_scanned": 164,
+ "boards_failed": 1,
+ "raw_postings": 19424,
+ "relevant_jobs": 1720,
  "min_score": 10,
- "new_this_run": 125,
+ "new_this_run": 63,
  "by_band": {
   "excellent": 57,
-  "strong": 68,
+  "strong": 67,
   "decent": 66,
-  "stretch": 181,
-  "weak": 1347
+  "stretch": 182,
+  "weak": 1348
  },
  "top_errors": [
-  {
-   "company": "PayPal Ireland",
-   "ats": "joblinks",
-   "error": "found 1 job links but none were readable"
-  },
-  {
-   "company": "Expleo Ireland",
-   "ats": "joblinks",
-   "error": "no individual job links found on the page"
-  },
   {
    "company": "Revolut Ireland",
    "ats": "joblinks",
    "error": "HTTP Error 403: Forbidden"
-  },
-  {
-   "company": "LTIMindtree Ireland",
-   "ats": "sitemap",
-   "error": "sitemap had 500 URLs but none looked like jobs"
-  },
-  {
-   "company": "Udemy Ireland",
-   "ats": "sitemap",
-   "error": "2 job URLs in the sitemap, none readable"
-  },
-  {
-   "company": "Udemy Ireland",
-   "ats": "sitemap",
-   "error": "2 job URLs in the sitemap, none readable"
-  },
-  {
-   "company": "Flutter Entertainment (Paddy Power, Betfair, PokerStars)",
-   "ats": "rssfeed",
-   "error": "no readable job feed"
-  },
-  {
-   "company": "Wrkit",
-   "ats": "recruitee",
-   "error": "board not found (404)"
-  },
-  {
-   "company": "Nostra",
-   "ats": "workable",
-   "error": "board not found (404)"
-  },
-  {
-   "company": "Energia Group",
-   "ats": "jsonld",
-   "error": "no JobPosting structured data on the page"
-  },
-  {
-   "company": "Revolut",
-   "ats": "greenhouse",
-   "error": "board not found (404)"
-  },
-  {
-   "company": "Soapbox Labs",
-   "ats": "lever",
-   "error": "board not found (404)"
-  },
-  {
-   "company": "Cubic Telecom",
-   "ats": "lever",
-   "error": "board not found (404)"
-  },
-  {
-   "company": "Payslip",
-   "ats": "lever",
-   "error": "board not found (404)"
-  },
-  {
-   "company": "Glofox",
-   "ats": "lever",
-   "error": "board not found (404)"
-  },
-  {
-   "company": "Ubiquity",
-   "ats": "ashby",
-   "error": "board not found (404)"
-  },
-  {
-   "company": "Tessian",
-   "ats": "ashby",
-   "error": "board not found (404)"
   }
  ],
  "quarantined_feeds": [
