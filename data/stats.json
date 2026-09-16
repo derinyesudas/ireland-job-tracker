@@ -1,26 +1,20 @@
 {
- "last_run": "2026-09-16T16:55:40+00:00",
+ "last_run": "2026-09-16T19:54:17+00:00",
  "companies_total": 264,
- "companies_scanned": 164,
- "boards_failed": 1,
- "raw_postings": 19424,
- "relevant_jobs": 1720,
+ "companies_scanned": 163,
+ "boards_failed": 0,
+ "raw_postings": 19846,
+ "relevant_jobs": 1728,
  "min_score": 10,
- "new_this_run": 63,
+ "new_this_run": 78,
  "by_band": {
   "excellent": 57,
-  "strong": 67,
+  "strong": 69,
   "decent": 66,
-  "stretch": 182,
-  "weak": 1348
+  "stretch": 181,
+  "weak": 1355
  },
- "top_errors": [
-  {
-   "company": "Revolut Ireland",
-   "ats": "joblinks",
-   "error": "HTTP Error 403: Forbidden"
-  }
- ],
+ "top_errors": [],
  "quarantined_feeds": [
   "Cubic Telecom",
   "Energia Group",
