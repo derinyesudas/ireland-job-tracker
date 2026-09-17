@@ -126,7 +126,7 @@
   "company_site": "https://careers.statestreet.com/global/en/search-results",
   "first_seen": "2026-09-17T10:16:47+00:00",
   "is_new": true,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "441f92080dcbdfb9",
@@ -700,7 +700,7 @@
   "company_site": "https://careers.statestreet.com/global/en/search-results",
   "first_seen": "2026-09-07T19:16:31+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "d9c0e9d535ab2ba0",
@@ -760,7 +760,7 @@
   "company_site": "https://life-careers.com/search-jobs",
   "first_seen": "2026-09-17T10:16:47+00:00",
   "is_new": true,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "0a316d991e1127c3",
@@ -825,7 +825,7 @@
   "company_site": "https://www.forvismazars.com/ie/en/careers",
   "first_seen": "2026-09-02T04:08:24+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "d52ebca0b639a34b",
@@ -1009,7 +1009,7 @@
   "company_site": "https://jobs.citi.com/location/dublin-jobs/287/2963597-7521314-7778677-2964574/4",
   "first_seen": "2026-09-09T13:49:34+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "d14e8eb1abebc24a",
@@ -1073,7 +1073,7 @@
   "permits": 3,
   "company_site": "https://careers.wipro.com/content/Early-Careers/?locale=en_US",
   "first_seen": "2026-09-16T12:11:44+00:00",
-  "is_new": true,
+  "is_new": false,
   "last_seen": "2026-09-16T12:11:44+00:00",
   "closed": true,
   "closed_at": "2026-09-16T16:38:49+00:00"
@@ -1310,7 +1310,7 @@
   "company_site": "https://careers.bankofireland.com/",
   "first_seen": "2026-09-02T03:59:37+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "1f3a8142283c75fd",
@@ -1365,7 +1365,7 @@
   "company_site": "https://careers.bankofireland.com/",
   "first_seen": "2026-09-02T03:59:37+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "7b772030572424b7",
@@ -1420,7 +1420,7 @@
   "company_site": "https://careers.bankofireland.com/",
   "first_seen": "2026-09-02T03:59:37+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "4911718b77c916ce",
@@ -1598,7 +1598,7 @@
   "company_site": "https://www.aig.com/careers",
   "first_seen": "2026-09-01T22:22:46+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "f77558235710d425",
@@ -1720,7 +1720,7 @@
   "company_site": "https://www.forvismazars.com/ie/en/careers",
   "first_seen": "2026-09-02T04:08:24+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "b8bef0eb9f95c618",
@@ -1785,7 +1785,7 @@
   "company_site": "https://www.forvismazars.com/ie/en/careers",
   "first_seen": "2026-09-02T04:08:24+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "a096cd5b0d9fe512",
@@ -1850,7 +1850,7 @@
   "company_site": "https://www.forvismazars.com/ie/en/careers",
   "first_seen": "2026-09-02T04:08:24+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "0f6ee6690a99aab0",
@@ -1915,7 +1915,7 @@
   "company_site": "https://www.forvismazars.com/ie/en/careers",
   "first_seen": "2026-09-02T04:08:24+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "b5dbd9c44191f551",
@@ -1980,7 +1980,7 @@
   "company_site": "https://www.forvismazars.com/ie/en/careers",
   "first_seen": "2026-09-02T04:08:24+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "ad5a31188cc8a592",
@@ -2045,7 +2045,7 @@
   "company_site": "https://www.forvismazars.com/ie/en/careers",
   "first_seen": "2026-09-02T04:08:24+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "ca3910c7f79f891f",
@@ -2110,7 +2110,7 @@
   "company_site": "https://www.forvismazars.com/ie/en/careers",
   "first_seen": "2026-09-02T04:08:24+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "f48abf6fd73113c0",
@@ -2175,7 +2175,7 @@
   "company_site": "https://www.forvismazars.com/ie/en/careers",
   "first_seen": "2026-09-02T04:08:24+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "b3da2c777d483f14",
@@ -2240,7 +2240,7 @@
   "company_site": "https://www.forvismazars.com/ie/en/careers",
   "first_seen": "2026-09-02T04:08:24+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "8998622be47c7021",
@@ -2305,7 +2305,7 @@
   "company_site": "https://www.forvismazars.com/ie/en/careers",
   "first_seen": "2026-09-02T04:08:24+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "e38ddc20d8f7e3bb",
@@ -2370,7 +2370,7 @@
   "company_site": "https://www.forvismazars.com/ie/en/careers",
   "first_seen": "2026-09-02T04:08:24+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "d06091b469c91990",
@@ -2435,7 +2435,7 @@
   "company_site": "https://www.forvismazars.com/ie/en/careers",
   "first_seen": "2026-09-02T04:08:24+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "b67521a28b3fb206",
@@ -2500,7 +2500,7 @@
   "company_site": "https://www.forvismazars.com/ie/en/careers",
   "first_seen": "2026-09-02T04:08:24+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "e7aba1bfd4e7442a",
@@ -2732,7 +2732,7 @@
   "company_site": "https://sedgwick.wd1.myworkdayjobs.com/Sedgwick",
   "first_seen": "2026-09-02T03:53:37+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "fcbf6d444f3b8cec",
@@ -2787,7 +2787,7 @@
   "company_site": "https://life-careers.com/irishlife/go/All-Jobs/3805301/",
   "first_seen": "2026-09-02T04:08:24+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "a61b819bd57311e0",
@@ -2911,7 +2911,7 @@
   "company_site": "https://davies-group.com/careers/",
   "first_seen": "2026-09-01T19:24:15+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "6f545d3388729367",
@@ -3338,7 +3338,7 @@
   "company_site": "https://sedgwick.wd1.myworkdayjobs.com/Sedgwick",
   "first_seen": "2026-09-02T03:53:37+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "5d4c2b0ef6a19d89",
@@ -3514,7 +3514,7 @@
   "company_site": "",
   "first_seen": "2026-09-11T01:24:55+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "f85ecffd00973182",
@@ -3579,7 +3579,7 @@
   "company_site": "https://careers.stryker.com/",
   "first_seen": "2026-09-11T13:43:30+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "344efe3c4e933e60",
@@ -3770,7 +3770,7 @@
   "company_site": "https://bdoireland.pinpointhq.com/",
   "first_seen": "2026-09-01T19:24:15+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "ebec869420eb8499",
@@ -3825,7 +3825,7 @@
   "company_site": "https://sedgwick.wd1.myworkdayjobs.com/Sedgwick",
   "first_seen": "2026-09-01T22:22:46+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "9af412a350a7c532",
@@ -3942,7 +3942,7 @@
   "company_site": "https://accenture.pinpointhq.com/ireland",
   "first_seen": "2026-09-10T09:17:03+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "9caca6fa6bdaae07",
@@ -4233,7 +4233,7 @@
   "company_site": "https://careers.usbank.com/global/en/",
   "first_seen": "2026-09-03T15:03:42+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "7b6e1e0ac966f15e",
@@ -4412,7 +4412,7 @@
   "company_site": "https://accenture.pinpointhq.com/ireland",
   "first_seen": "2026-09-10T09:17:03+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "c2deec7ac2b28978",
@@ -4467,7 +4467,7 @@
   "company_site": "https://careers.wtwco.com/",
   "first_seen": "2026-09-17T05:29:22+00:00",
   "is_new": true,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "be8ecf8dfa4d73a7",
@@ -4589,7 +4589,7 @@
   "company_site": "https://bdoireland.pinpointhq.com/",
   "first_seen": "2026-09-01T19:24:15+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "3ba2744d13592dae",
@@ -4649,7 +4649,7 @@
   "company_site": "https://bdoireland.pinpointhq.com/",
   "first_seen": "2026-09-01T19:24:15+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "bdaa2973f19ebf42",
@@ -4766,7 +4766,7 @@
   "company_site": "https://cantorfitzgerald.ie/careers/",
   "first_seen": "2026-09-01T22:41:03+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "c7b05d6e82b79178",
@@ -4932,7 +4932,7 @@
   "company_site": "https://bdoireland.pinpointhq.com/",
   "first_seen": "2026-09-01T19:24:15+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "3488a0afd920eda8",
@@ -4987,7 +4987,7 @@
   "company_site": "https://bdoireland.pinpointhq.com/",
   "first_seen": "2026-09-01T19:24:15+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "9cbbf5dff99e4a46",
@@ -5042,7 +5042,7 @@
   "company_site": "https://bdoireland.pinpointhq.com/",
   "first_seen": "2026-09-01T19:24:15+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "6f41cb9160499379",
@@ -5466,7 +5466,7 @@
   "company_site": "https://careers.statestreet.com/global/en/search-results",
   "first_seen": "2026-09-15T10:20:18+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "d19ef17fa010efd3",
@@ -5526,7 +5526,7 @@
   "company_site": "https://www.dalatahotelgroup.com/careers",
   "first_seen": "2026-09-02T01:29:46+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "ac533b06a22c3c5e",
@@ -6072,7 +6072,7 @@
   "company_site": "https://expleo.com/global/en/careers/",
   "first_seen": "2026-09-16T19:54:05+00:00",
   "is_new": true,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "8e30a59505a38078",
@@ -6366,7 +6366,7 @@
   "company_site": "https://www.apexgroup.com/careers/",
   "first_seen": "2026-09-01T22:22:46+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "745b38c96d971cfa",
@@ -6485,7 +6485,7 @@
   "company_site": "https://www.centralbank.ie/careers",
   "first_seen": "2026-09-04T11:19:10+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "cddd46ff1ae967e2",
@@ -6612,7 +6612,7 @@
   "company_site": "https://www.ey.com/en_ie/careers/students",
   "first_seen": "2026-09-01T22:41:03+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "c2125f02f598a08e",
@@ -6907,7 +6907,7 @@
   "company_site": "https://careers.stryker.com/",
   "first_seen": "2026-09-04T22:48:41+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "0593f8abb989f310",
@@ -7026,7 +7026,7 @@
   "company_site": "https://www.crowe.ie/careers/",
   "first_seen": "2026-09-11T01:50:24+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "36d98438d011b53e",
@@ -7086,7 +7086,7 @@
   "company_site": "https://stripe.com/jobs",
   "first_seen": "2026-09-14T12:29:32+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "f569d543e5ca1e35",
@@ -7822,7 +7822,7 @@
   "company_site": "https://www.centralbank.ie/careers",
   "first_seen": "2026-09-01T22:41:03+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "9b6e393e50e9b34f",
@@ -8013,7 +8013,7 @@
   "company_site": "https://www.vistra.com/careers",
   "first_seen": "2026-09-07T15:20:24+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "a88e8d13d007842e",
@@ -8192,7 +8192,7 @@
   "company_site": "https://www.ey.com/en_ie/careers/students",
   "first_seen": "2026-09-01T22:41:03+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "f3b085bc12a2a939",
@@ -8311,7 +8311,7 @@
   "company_site": "https://www.ey.com/en_ie/careers/students",
   "first_seen": "2026-09-02T03:59:37+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "f22df2b74b2b87ea",
@@ -8433,7 +8433,7 @@
   "company_site": "https://life-careers.com/irishlife/go/All-Jobs/3805301/",
   "first_seen": "2026-09-02T04:08:24+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "13e2d9b171838746",
@@ -8606,7 +8606,7 @@
   "company_site": "https://accenture.pinpointhq.com/ireland",
   "first_seen": "2026-09-10T09:17:03+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "ae0af144d630e43e",
@@ -9121,7 +9121,7 @@
   "company_site": "",
   "first_seen": "2026-09-14T12:29:32+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "8622242e602487dd",
@@ -9567,7 +9567,7 @@
   "company_site": "https://www.vistra.com/careers",
   "first_seen": "2026-09-08T19:44:04+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "a2350801b6bc0c3c",
@@ -10204,7 +10204,7 @@
   "company_site": "https://accenture.pinpointhq.com/ireland",
   "first_seen": "2026-09-10T09:17:03+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "01c5f5747c3991c5",
@@ -10377,7 +10377,7 @@
   "company_site": "https://www.forvismazars.com/ie/en/careers",
   "first_seen": "2026-09-02T04:08:24+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "19cb064529842020",
@@ -10442,7 +10442,7 @@
   "company_site": "https://www.forvismazars.com/ie/en/careers",
   "first_seen": "2026-09-02T04:08:24+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "2acdda1871f26689",
@@ -10507,7 +10507,7 @@
   "company_site": "https://www.forvismazars.com/ie/en/careers",
   "first_seen": "2026-09-02T04:08:24+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "9fdd79835ca6a211",
@@ -10572,7 +10572,7 @@
   "company_site": "https://www.forvismazars.com/ie/en/careers",
   "first_seen": "2026-09-02T04:08:24+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "3bbec4a8c9e0f7b6",
@@ -10637,7 +10637,7 @@
   "company_site": "https://www.forvismazars.com/ie/en/careers",
   "first_seen": "2026-09-02T04:08:24+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "3f864deba11f7850",
@@ -10756,7 +10756,7 @@
   "company_site": "https://www.vistra.com/careers",
   "first_seen": "2026-09-02T23:32:35+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "162868c661b16f1f",
@@ -11066,7 +11066,7 @@
   "company_site": "https://careers.mastercard.com/us/en/dublin-ireland",
   "first_seen": "2026-09-17T11:48:30+00:00",
   "is_new": true,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "3f0b6889f1c4c667",
@@ -11121,7 +11121,7 @@
   "company_site": "https://www.aig.com/careers",
   "first_seen": "2026-09-01T22:22:46+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "c1a80836444340b5",
@@ -11618,7 +11618,7 @@
   "company_site": "https://fa-euxc-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/jobs",
   "first_seen": "2026-09-14T12:29:32+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "2c0edd7f55fee112",
@@ -12451,7 +12451,7 @@
   "company_site": "https://jobs.aib.ie/go/Search-All-Jobs/3834700/",
   "first_seen": "2026-09-07T09:50:11+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "58a8800cf4f5530c",
@@ -12575,7 +12575,72 @@
   "company_site": "https://careers.stryker.com/",
   "first_seen": "2026-09-02T01:29:46+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
+ },
+ {
+  "id": "ec45146062279685",
+  "title": "Transaction Analyst",
+  "company": "CSC Ireland (Intertrust)",
+  "location": "Dublin, Ireland",
+  "url": "https://hczw.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/16765",
+  "description": "Transaction Analyst \n Full-time, Permanent \n Hybrid - 3 Days Onsite \n Dublin, Ireland \n   \n \n The Position \n \n A Transaction Analyst (TA) reports to a Manager of the Governance & Transaction Services team and will have responsibility for the legal, corporate and administrative affairs relating to a portfolio of clients within the Capital Markets team. The proposed salary range for this position is €30,000 to €35,000 gross per annum. The final salary will be determined based on the successful candidate's skills, qualifications and experience, while also taking into account internal equity and our commitment to a fair, consistent and gender-neutral compensation framework. \n \n   \n Key Responsibilities \n\n \n Assisting in ensuring all on-going statutory, legal and transactional obligations of the SPVs we manage, in structured finance and securitisation deals, are met and ensuring good corporate governance throughout. \n Assisting with the coordination and oversight of pan-European securitisation transactions from a governance, compliance and administrative perspective. \n Assisting with organising, convening (including the preparation of board packs) and attending client board and committee meetings. Drafting minutes and action item lists from board and committee meetings and circulating to clients and boards of directors in a timely manner. \n Assisting with monitoring the obligations and client deadlines of the team. \n Maintaining statutory registers, filing forms with the CRO, incorporating new companies, and processing dissolutions. \n Complete the take-on of new clients, including ensuring AML is completed in accordance with CSC’s internal policies \n Arranging for document execution and liaising with intermediaries for the safe delivery of such documents within a quick turnaround. \n Completing KYC processes and preparing documents. \n Ensuring all Companies Act 2014 filings and registrations are completed in a timely and accurate manner. \n Publishing notices to stock exchanges, communicating with shareholders and performing other company secretarial functions from time to time as may be required. \n Notarisations, apostilling and consularisation. \n    \n \n Key Competencies \n   \n Bachelor’s degree with a minimum 2:1 grade in a Legal, Finance or Business degree or similar \n 1 - 2 years’ experience (which can include work placement) within legal/financial sector or similar office environment required  \n Excellent attention to detail is essential. \n Excellent written and oral communication skills. \n Ability to analyse a situation and identify/mitigate potential problems. \n Strong planning and organisational skills. \n Ability to train team members and new joiners. \n Ability to cope with a busy workload. \n Ability to agree and meet deadlines. \n Able to use good judgment to make sound decisions. \n Good planning, co-ordination and organisational skills. \n Ability to work effectively as part of a team while also comfortable working on own initiative. \n Energetic, enthusiastic and enjoys working in a strong team environment. \n Interest in company secretarial and compliance matters.",
+  "posted_at": "2026-09-17T00:00:00+00:00",
+  "source": "oraclecloud",
+  "department": "",
+  "employment_type": "Hybrid",
+  "sponsorship": null,
+  "salary_eur": 35000,
+  "permit_route": "below_threshold",
+  "score": 43,
+  "band": "stretch",
+  "breakdown": [
+   {
+    "label": "Role fit",
+    "points": 0,
+    "note": "This job title is not one your CV qualifies you for — capped accordingly"
+   },
+   {
+    "label": "Early careers",
+    "points": 12,
+    "note": "Flagged as placement"
+   },
+   {
+    "label": "Tools you have",
+    "points": 0,
+    "note": "Names none of the tools you actually use"
+   },
+   {
+    "label": "How you already work",
+    "points": 1,
+    "note": "Mentions attention to detail — the way you worked at TCS"
+   },
+   {
+    "label": "Industry fit",
+    "points": 8,
+    "note": "Corporate & fund services employer — the sector your experience is in"
+   },
+   {
+    "label": "Location",
+    "points": 10,
+    "note": "Dublin"
+   },
+   {
+    "label": "Sponsorship",
+    "points": 6,
+    "note": "Issued 1 employment permit(s) this year"
+   },
+   {
+    "label": "Known entry route",
+    "points": 6,
+    "note": "Matches an entry route you identified at this employer: analyst"
+   }
+  ],
+  "sponsor_tier": 3,
+  "permits": 1,
+  "company_site": "https://www.cscglobal.com/service/careers/",
+  "first_seen": "2026-09-17T15:04:34+00:00",
+  "is_new": true,
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "6b1fecdfba12aaee",
@@ -12692,7 +12757,7 @@
   "company_site": "https://www.novonordisk.com/careers.html",
   "first_seen": "2026-09-02T04:08:24+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "869cd0518faa932d",
@@ -13801,6 +13866,66 @@
   "last_seen": "2026-09-17T11:48:30+00:00"
  },
  {
+  "id": "a82978f3227a4112",
+  "title": "Order to Cash with English Job Details",
+  "company": "Wipro Ireland",
+  "location": "",
+  "url": "https://careers.wipro.com/job/Timisoara-Order-to-Cash-with-English-ROU/1368803055/",
+  "description": "We use cookies to offer you the best possible website experience. Your cookie preferences will be stored in your browser’s local storage. This includes cookies necessary for the website's operation. Additionally, you can freely decide and change any time whether you accept cookies or choose to opt out of cookies to improve website's performance, as well as cookies used to display content tailored to your interests. Your experience of the site and the services we are able to offer may be impacted if you do not accept all cookies.\nModify Cookie Preferences\nAccept All Cookies\nSkip to main content\nLanguage\nالعَرَبِيَّة (السعودية)\nDeutsch (Deutschland)\nEnglish (United States)\nEspañol (España)\nEspañol (México)\nFrançais (Canada)\nFrançais (France)\nItaliano (Italia)\n日本語 (日本)\nPolski\nPortuguês (Brasil)\nPortuguês (Portugal)\nLimba Română (România)\n简体中文 (中国大陆)\nLife at Wipro\nCareers\nEarly Careers\nExperienced Professionals\nLocations\nBenelux\nBrazil\nGermany and Austria\nKorea\nMexico\nNordics\nPhilippines\nPoland\nPortugal\nRomania\nSouthern Europe\nSwitzerland\nUK and Ireland\nJoin Our Talent Network\nSearch Jobs\nJob Description\nStart applying with LinkedIn\nPlease wait...\nJob Title:\nOrder to Cash with English\nCity:\nTimisoara\nState/Province:\nTimis County\nPosting Start Date:\n9/17/26\nWipro Limited (NYSE: WIT, BSE: 507685, NSE: WIPRO) is a leading technology services and consulting company focused on building innovative solutions that address clients’ most complex digital transformation needs. Leveraging our holistic portfolio of capabilities in consulting, design, engineering, and operations, we help clients realize their boldest ambitions and build future-ready, sustainable businesses. With over 230,000 employees and business partners across 65 countries, we deliver on the promise of helping our customers, colleagues, and communities thrive in an ever-changing world. For additional information, visit us at www.wipro.com.\nJob Description:\nWe are excited to offer you this new opportunity with Wipro Technologies, one of the biggest brands in the industry at this moment with a well-established history in various domains.\nAs part of this project and a new team, your role as an OTC will be to build and co-manage a strong relationship with our client organization and perform based on defined SLA and KPIs, within energy and utility client industry.\nRequirements:\nGraduate/Experience in Accounting/Economics\nExposure to Navision, Oracle is an advantage\nPrevious work experience in OTC\nGood domain knowledge\nProficiency in English\nPC literate in MS Office especially MS Excel\nStrong verbal/written communication skills\nHard Working/Willingness to stretch\nSelf driven in problem analysis and solving\nDrive for performance, results and improvements proactively\nTeam player, open and co-operative\nStakeholder management\nAble to handle escalations and business review sessions\nOpen to travel if case\nResponsabilities:\nBilling and dispatching\nPrepare ageing reports, review aged debtor's, compute & book bad debts provisions\nCustomer Master Data management\nReconcile customer payments and invoices, collection\nUnallocated cash management\nProcess bank statements, cash flow forecast & variance reporting\nCustomer and bank statements posting and reconciliation\nInvestigate and solve discrepancies and variations\nProcess customer refunds or adjustments\nEnsure successful resolution for open questions and tickets\nManage customer credit limit\nReporting process & reconciliations\nManage queries from different parties\nSupport internal/external audit\nParticipate in testing and implementing new systems, projects or procedures\nPrepare and update documentation as appropriate\nPropose, drive and implement various / special projects and improvements\nAd-hoc requests\nOther MEC and reporting activities\nMeeting targets, deadlines, SLAs\nKeeps track of volumes and quality of deliverables and reports at appropriate levels\nTraining for newcomers\nCreate different reports, dashboards for Business / internal purpose\nAct as an escalation point for issues raised by the client. Ensuring the fast resolution of these issues\nBenefits for working with us:\nCompetitive salary with attractive set of social benefits:\nPrivate Pension Plan;\nMonthly Benefit budget;\nMedical insurance;\nLife insurance;\nChristmas bonus;\nChildbirth allowance;\nRelocation package for candidates willing to relocate;\nGreat career opportunity to work for one of the biggest brands in the world in a unique work environment;\nPersonal development in a multinational working environment through nice extracurricular activities with the team;\nPlatform to actively participate and make an impact through Sustainability and Corporate Social Responsibility (CSR) projects;\nProfessional development through a variety of training programs (hard/soft skills within WILearn/Udemy platforms);\nExtra annual leave days depending on tenure within Wipro;\nBOOKSTER opportunities;\nNice designed and central business office;\nFruits, coffee and tea on the house;\nWinner Circle Points (WCP) & Long service award (LSA) platforms which offers the possibility of both non-monetary and monetary recognition;\nEmployee Assistance program;\nEmployee Referral Program with attractive incentive schemes\nThe promise of an enjoyable first impression after discussing with any of our recruitment colleagues.\nMandatory Skills: O2C (Transactional Accounting Services) .\nExperience: 1-3 Years .\nReinvent your world. We are building a modern Wipro. We are an end-to-end digital transformation partner with the boldest ambitions. To realize them, we need people inspired by reinvention. Of yourself, your career, and your skills. We want to see the constant evolution of our business and our industry. It has always been in our DNA - as the world around us changes, so do we. Join a business powered by purpose and a place that empowers you to design your own reinvention.\nInformation at a Glance\nPrimiți alerte de joburi\nPrimiți notificări când avem poziţii deschise și alte știri relevan",
+  "posted_at": "",
+  "source": "sitemap",
+  "department": "",
+  "employment_type": "",
+  "sponsorship": null,
+  "salary_eur": null,
+  "permit_route": null,
+  "score": 41,
+  "band": "stretch",
+  "breakdown": [
+   {
+    "label": "Role fit",
+    "points": 0,
+    "note": "This job title is not one your CV qualifies you for — capped accordingly"
+   },
+   {
+    "label": "Early careers",
+    "points": 12,
+    "note": "Flagged as early careers"
+   },
+   {
+    "label": "Tools you have",
+    "points": 11,
+    "note": "Wants dashboards, excel — all on your CV"
+   },
+   {
+    "label": "How you already work",
+    "points": 5,
+    "note": "Mentions kpis, reconciliation, sla — the way you worked at TCS"
+   },
+   {
+    "label": "Industry fit",
+    "points": 0,
+    "note": "Not in insurance, finance or operations"
+   },
+   {
+    "label": "Location",
+    "points": 7,
+    "note": "Ireland"
+   },
+   {
+    "label": "Sponsorship",
+    "points": 6,
+    "note": "Issued 3 employment permit(s) this year"
+   }
+  ],
+  "sponsor_tier": 3,
+  "permits": 3,
+  "company_site": "https://careers.wipro.com/content/Early-Careers/?locale=en_US",
+  "first_seen": "2026-09-17T15:04:34+00:00",
+  "is_new": true,
+  "last_seen": "2026-09-17T15:04:34+00:00"
+ },
+ {
   "id": "cfc26b924cc84115",
   "title": "Transition Year Programme",
   "company": "Cantor Fitzgerald Ireland",
@@ -13853,7 +13978,7 @@
   "company_site": "https://cantorfitzgerald.ie/careers/",
   "first_seen": "2026-09-01T22:41:03+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "4b0fbd430d4e3d91",
@@ -14150,7 +14275,7 @@
   "company_site": "https://kpmg.com/ie/en/careers/graduate.html",
   "first_seen": "2026-09-01T22:41:03+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "b885437603a98165",
@@ -14626,7 +14751,7 @@
   "company_site": "https://www.dalatahotelgroup.com/careers",
   "first_seen": "2026-09-11T01:50:24+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "0306d4a68a524159",
@@ -14928,7 +15053,7 @@
   "company_site": "https://careers.stryker.com/",
   "first_seen": "2026-09-02T01:29:46+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "03727eff12b07a71",
@@ -15450,7 +15575,7 @@
   "company_site": "https://life-careers.com/search-jobs",
   "first_seen": "2026-09-17T10:16:47+00:00",
   "is_new": true,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "40a5df3eee66c66a",
@@ -15515,7 +15640,7 @@
   "company_site": "https://life-careers.com/search-jobs",
   "first_seen": "2026-09-17T10:16:47+00:00",
   "is_new": true,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "c7a29e35ac7d27ff",
@@ -15570,7 +15695,7 @@
   "company_site": "https://expleo.com/global/en/careers/",
   "first_seen": "2026-09-01T22:41:03+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "c0ccb48f99202223",
@@ -15635,7 +15760,7 @@
   "company_site": "https://careers.usbank.com/global/en/",
   "first_seen": "2026-09-02T04:08:24+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "4067b2b60c458ee4",
@@ -16165,7 +16290,7 @@
   "company_site": "https://careers.stryker.com/",
   "first_seen": "2026-09-02T01:29:46+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "699e577dfe3ae374",
@@ -16225,7 +16350,7 @@
   "company_site": "https://www.vistra.com/careers",
   "first_seen": "2026-09-03T06:07:29+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "ba4e80642c16537c",
@@ -16719,7 +16844,7 @@
   "company_site": "https://sedgwick.wd1.myworkdayjobs.com/Sedgwick",
   "first_seen": "2026-09-01T22:22:46+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "5ff77bcac140866c",
@@ -16789,7 +16914,7 @@
   "company_site": "https://www.capgemini.com/ie-en/careers/",
   "first_seen": "2026-09-01T22:41:03+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "316d456e0bed5c3f",
@@ -17111,7 +17236,7 @@
   "company_site": "https://careers.marsh.com/global/en/mercer-search",
   "first_seen": "2026-09-02T04:08:24+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "fa599df1b91760ef",
@@ -17250,7 +17375,7 @@
   "company_site": "https://www.monumentregroup.com/careers/",
   "first_seen": "2026-09-02T17:20:46+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "753345a9485576b6",
@@ -17497,7 +17622,7 @@
   "company_site": "https://life-careers.com/irishlife/go/All-Jobs/3805301/",
   "first_seen": "2026-09-03T15:03:42+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "7b9b12b3736caf9c",
@@ -18201,7 +18326,7 @@
   "company_site": "https://www.vistra.com/careers",
   "first_seen": "2026-09-07T15:20:24+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "5796c0236cf0ea4e",
@@ -18660,7 +18785,7 @@
   "company_site": "https://fa-euxc-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/jobs",
   "first_seen": "2026-09-14T18:42:27+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "0a0b8608f84ff183",
@@ -18801,8 +18926,8 @@
   "permits": 1,
   "company_site": "https://careers.primark.com/en/location/ireland-jobs/30423/2963597/2",
   "first_seen": "2026-09-16T12:11:44+00:00",
-  "is_new": true,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "is_new": false,
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "7c31cea46efcb04d",
@@ -18872,7 +18997,72 @@
   "company_site": "https://careers.primark.com/en/location/ireland-jobs/30423/2963597/2",
   "first_seen": "2026-09-16T16:38:49+00:00",
   "is_new": true,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
+ },
+ {
+  "id": "a6a8e43b2a19afdc",
+  "title": "Trainee Buyer",
+  "company": "Primark / Penneys",
+  "location": "Dublin 1, ie",
+  "url": "https://jobs.smartrecruiters.com/Primark / Penneys/744000150135154",
+  "description": "Trainee Buyer \n Because you lead our next look. Create, your way.\n Buying at Primark \n Trainee Buyers support their managers in maximising sales and profitability – in short, getting in the products our customers will love. They're learning the ropes on their way to becoming a Primark Buyer.\n\n What you’ll do as a Trainee Buyer at Primark: \n You’ll play a key role in supporting our buying team in developing products for the latest ‘must‐have’ trends. Working closely with the buyers and merchandisers, you’ll be responsible for managing the department’s critical path to make sure all of our amazing products arrive in store on time and are up to our high quality standards. This is a fantastic opportunity for you to learn about the industry and progress in a buying role.\n In your role, you’ll collaborate with different people across a range of skillsets. Here’s a flavour of your day-to-day:\n Accurately input orders, updating and amending computer systems with the order details as required\n Continually assess product range with key competitors to compare price, quality and value\n Daily communication with suppliers and attend any appropriate meetings\n Manage the critical path\n Liaise with suppliers regarding raised orders\n Preparation of size specifications\n Management of initial sealing and production samples (including fitting and quality)\n Effectively manage receipt and despatch of packages to and from suppliers\n Be aware of weekly stock and sales information for the section according to company policy\n \n\n What You'll Get \n People are at the heart of what we do here, so it’s essential we provide you with the right environment to perform at your very best. Let’s talk lifestyle:\n 27 days of leave, plus bank holidays and if you want, you can buy 5 more. \n Flexible Working, opportunity for an early Friday finish, and a subsidised cafeteria. \n Primark Perks – Discounts with some local partner business to our offices\n \n\n What You’ll Bring \n Here at Primark, we want everyone to feel valued – so please bring your authentic self to work, of course with some other key experience and abilities for this role in particular:\n Someone with an understanding of fashion and buying. This is a fantastic entry‐level position. Qualifications in fashion or buying are a plus\n Genuine passion - You’ll be an avid fashion follower with a solid interest in product and trends, always aware of what is happening on the high street, on the catwalks and on social media. You are enthusiastic and creative and always open to sharing new ideas.\n Commercial ability - A key part of your role will be taking ownership of the department’s admin tasks. You will have a keen eye for attention to detail and understand the ever‐changing needs of our business and customer.\n Great communication - You are the first point of call for our suppliers over email and phone. You will be an active part of our departmental and supplier product meetings so great communication skills are a must.\n Total organisation - In a fast‐paced environment, managing the department’s products will be your domain. Whether it is for meetings, keeping the buying floor organised or managing what is sent to our online, social and press teams.\n High integrity - We pride ourselves on taking our ethical standards seriously. You will always be working with our CRS policies in mind.\n Does this sound like you? Great, because we can’t wait to see what you’ll bring. You’ll be supported within a team of equally capable people, celebrating who you are and aiding you reach your potential. At Primark, we’re excited about our future - and we’re excited to develop yours.\n\nAt Primark, people matter. They’re the beating heart of our business and the reason we’ve grown from our first store in Dublin in 1969 to a £9bn+ turnover business a over 80,000 colleagues and over 440 stores in 17 countries today. Our values run through everything we do. In essence, we're Caring and always strive to put people first. We're also Dynamic, bravely pushing the boundaries to stay ahead. And finally, we succeed Together.\n\nIf you need any reasonable adjustments or have an accessibility requests, during your recruitment journey, such as extended time or breaks between online assessments, a sign language interpreter, mobility access, or assistive technology please contact your talent acquisition specialist.\n\n \n\nAll offers of employment are subject to background checks, including right to work, reference education and for some roles criminal, and financial checks. If you have any concerns please reach out to our talent acquisition team to discuss.\n\n \n #hybrid",
+  "posted_at": "2026-09-17T14:46:14.453Z",
+  "source": "smartrecruiters",
+  "department": "",
+  "employment_type": "Full-time",
+  "sponsorship": null,
+  "salary_eur": null,
+  "permit_route": null,
+  "score": 35,
+  "band": "stretch",
+  "breakdown": [
+   {
+    "label": "Role fit",
+    "points": 0,
+    "note": "This job title is not one your CV qualifies you for — capped accordingly"
+   },
+   {
+    "label": "Early careers",
+    "points": 12,
+    "note": "Flagged as trainee"
+   },
+   {
+    "label": "Tools you have",
+    "points": 0,
+    "note": "Names none of the tools you actually use"
+   },
+   {
+    "label": "How you already work",
+    "points": 1,
+    "note": "Mentions attention to detail — the way you worked at TCS"
+   },
+   {
+    "label": "Industry fit",
+    "points": 0,
+    "note": "Not in insurance, finance or operations"
+   },
+   {
+    "label": "Location",
+    "points": 10,
+    "note": "Dublin"
+   },
+   {
+    "label": "Sponsorship",
+    "points": 6,
+    "note": "Issued 1 employment permit(s) this year"
+   },
+   {
+    "label": "Known entry route",
+    "points": 6,
+    "note": "Matches an entry route you identified at this employer: buying"
+   }
+  ],
+  "sponsor_tier": 3,
+  "permits": 1,
+  "company_site": "https://careers.primark.com/en/location/ireland-jobs/30423/2963597/2",
+  "first_seen": "2026-09-17T15:04:34+00:00",
+  "is_new": true,
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "5072ed066a357db2",
@@ -18986,7 +19176,7 @@
   "company_site": "https://www.zurich.ie/careers/career-opportunities/",
   "first_seen": "2026-09-01T22:41:03+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "ca591dc2b0662501",
@@ -19156,7 +19346,7 @@
   "company_site": "https://expleo.com/global/en/careers/",
   "first_seen": "2026-09-02T01:29:46+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "707207fda4b39f5c",
@@ -19211,7 +19401,7 @@
   "company_site": "https://www.crawco.com/careers",
   "first_seen": "2026-09-02T03:59:37+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "fb68008940482fea",
@@ -19271,7 +19461,7 @@
   "company_site": "https://careers.stryker.com/",
   "first_seen": "2026-09-02T18:48:50+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "d6791d73f1c28241",
@@ -19381,7 +19571,7 @@
   "company_site": "https://www.vistra.com/careers",
   "first_seen": "2026-09-03T23:41:34+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "870444b4e679d84e",
@@ -19851,7 +20041,7 @@
   "company_site": "https://careers.stryker.com/",
   "first_seen": "2026-09-11T13:43:30+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "b740596564fe15d9",
@@ -20035,7 +20225,7 @@
   "company_site": "",
   "first_seen": "2026-09-15T15:07:04+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "4f038cbeeda30e3e",
@@ -20089,7 +20279,7 @@
   "permits": 1,
   "company_site": "https://www.vistra.com/careers",
   "first_seen": "2026-09-16T12:11:44+00:00",
-  "is_new": true,
+  "is_new": false,
   "last_seen": "2026-09-16T19:54:05+00:00",
   "closed": true,
   "closed_at": "2026-09-16T22:33:36+00:00"
@@ -20147,7 +20337,7 @@
   "company_site": "https://www.universityofgalway.ie/human-resources/recruitment-and-selection/current-vacancies/",
   "first_seen": "2026-09-01T23:47:19+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "06b11c25b2e582e3",
@@ -20256,7 +20446,7 @@
   "company_site": "https://careers.stryker.com/",
   "first_seen": "2026-09-02T01:29:46+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "692a4490d1dbcbd7",
@@ -20370,7 +20560,7 @@
   "company_site": "https://careers.marsh.com/global/en/mercer-search",
   "first_seen": "2026-09-02T04:08:24+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "a5107c36580cea7e",
@@ -20430,7 +20620,7 @@
   "company_site": "https://life-careers.com/irishlife/go/All-Jobs/3805301/",
   "first_seen": "2026-09-02T04:08:24+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "0a0a9770fb61d22f",
@@ -20544,7 +20734,7 @@
   "company_site": "https://careers.stryker.com/",
   "first_seen": "2026-09-02T18:48:50+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "7a38038f233c82c1",
@@ -20659,7 +20849,7 @@
   "company_site": "https://careers.usbank.com/global/en/",
   "first_seen": "2026-09-03T15:03:42+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "a6da99117c7a9bd6",
@@ -20952,7 +21142,7 @@
   "company_site": "https://careers.stryker.com/",
   "first_seen": "2026-09-07T15:20:24+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "7a092e6ab147264c",
@@ -21066,7 +21256,7 @@
   "company_site": "https://careers.stryker.com/",
   "first_seen": "2026-09-09T09:17:05+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "b48bcbf41e26192e",
@@ -21355,7 +21545,7 @@
   "company_site": "https://fa-euxc-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/jobs",
   "first_seen": "2026-09-01T19:24:15+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "4f5413883617b871",
@@ -21415,7 +21605,7 @@
   "company_site": "https://www.cscglobal.com/service/careers/",
   "first_seen": "2026-09-01T19:24:15+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "f27d7f856dd614aa",
@@ -21822,7 +22012,7 @@
   "company_site": "https://careers.marsh.com/global/en/mercer-search",
   "first_seen": "2026-09-02T04:08:24+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "aaa419071d410144",
@@ -23888,7 +24078,9 @@
   "company_site": "https://careers.wipro.com/content/Early-Careers/?locale=en_US",
   "first_seen": "2026-09-08T07:57:20+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T11:48:30+00:00",
+  "closed": true,
+  "closed_at": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "95a58725c849c476",
@@ -24424,7 +24616,7 @@
   "company_site": "",
   "first_seen": "2026-09-11T01:24:55+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "d7e4e00a6986b9c1",
@@ -24917,7 +25109,7 @@
   "company_site": "https://www.cscglobal.com/service/careers/",
   "first_seen": "2026-09-01T19:24:15+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "60a917f20d57c0e9",
@@ -25041,7 +25233,7 @@
   "company_site": "https://www.aig.com/careers",
   "first_seen": "2026-09-01T22:22:46+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "0685d2948c82a50b",
@@ -25098,7 +25290,7 @@
   "company_site": "",
   "first_seen": "2026-09-01T22:41:03+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "afa14984bac674b9",
@@ -25163,7 +25355,7 @@
   "company_site": "https://expleo.com/global/en/careers/",
   "first_seen": "2026-09-01T22:41:03+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "1ed6a90b44e0c6ec",
@@ -25223,7 +25415,7 @@
   "company_site": "https://expleo.com/global/en/careers/",
   "first_seen": "2026-09-01T22:41:03+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "1be31c1aca564d18",
@@ -25397,7 +25589,7 @@
   "company_site": "https://expleo.com/global/en/careers/",
   "first_seen": "2026-09-02T01:29:46+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "fcd59f2ceb695331",
@@ -25452,7 +25644,7 @@
   "company_site": "https://kpmg.com/ie/en/careers/graduate.html",
   "first_seen": "2026-09-02T03:59:37+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "34652e18bca3766c",
@@ -25512,7 +25704,7 @@
   "company_site": "https://www.novonordisk.com/careers.html",
   "first_seen": "2026-09-02T04:08:24+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "ad58873875637989",
@@ -27651,7 +27843,7 @@
   "company_site": "https://fa-euxc-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/jobs",
   "first_seen": "2026-09-01T19:24:15+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "3050b8c82e46d479",
@@ -27711,7 +27903,7 @@
   "company_site": "https://www.cscglobal.com/service/careers/",
   "first_seen": "2026-09-01T19:24:15+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "3d73631f753ebcf5",
@@ -27771,7 +27963,7 @@
   "company_site": "https://www.cscglobal.com/service/careers/",
   "first_seen": "2026-09-01T19:24:15+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "76b14f5e4ebd6fe0",
@@ -28008,7 +28200,7 @@
   "company_site": "https://careers.mastercard.com/us/en/dublin-ireland",
   "first_seen": "2026-09-01T22:22:46+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "111395740449109a",
@@ -28063,7 +28255,7 @@
   "company_site": "https://www.ttecjobs.com/en/search-jobs/Ireland",
   "first_seen": "2026-09-01T22:41:03+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "9f5560ac7cdc667b",
@@ -28182,7 +28374,7 @@
   "company_site": "https://expleo.com/global/en/careers/",
   "first_seen": "2026-09-02T01:29:46+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "3769d27bf34c254b",
@@ -28242,7 +28434,7 @@
   "company_site": "https://sedgwick.wd1.myworkdayjobs.com/Sedgwick",
   "first_seen": "2026-09-02T03:53:37+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "64b63adc04ae55df",
@@ -28716,7 +28908,7 @@
   "company_site": "https://careers.marsh.com/global/en/mercer-search",
   "first_seen": "2026-09-02T04:08:24+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "7b485f1e1cd0d2ac",
@@ -28835,7 +29027,7 @@
   "company_site": "https://careers.statestreet.com/global/en/search-results",
   "first_seen": "2026-09-02T11:18:46+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "a88eeeba6e4871ae",
@@ -29302,7 +29494,7 @@
   "company_site": "https://careers.mastercard.com/us/en/dublin-ireland",
   "first_seen": "2026-09-03T18:27:48+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "d668744af8498b75",
@@ -30140,7 +30332,9 @@
   "company_site": "",
   "first_seen": "2026-09-11T01:24:55+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T11:48:30+00:00",
+  "closed": true,
+  "closed_at": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "36b3b4a75fc8a811",
@@ -30200,7 +30394,7 @@
   "company_site": "",
   "first_seen": "2026-09-11T01:24:55+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "8fc3aa12992675e0",
@@ -30260,7 +30454,7 @@
   "company_site": "",
   "first_seen": "2026-09-11T01:24:55+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "49c9628b9436b096",
@@ -30806,7 +31000,7 @@
   "company_site": "https://fa-euxc-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/jobs",
   "first_seen": "2026-09-01T19:24:15+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "b6b390228d85166e",
@@ -30923,7 +31117,7 @@
   "company_site": "https://jobs.citi.com/location/dublin-jobs/287/2963597-7521314-7778677-2964574/4",
   "first_seen": "2026-09-01T22:22:46+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "bca0a68b017c4f64",
@@ -31037,7 +31231,7 @@
   "company_site": "https://expleo.com/global/en/careers/",
   "first_seen": "2026-09-01T22:41:03+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "373deb0db962c71e",
@@ -31092,7 +31286,7 @@
   "company_site": "https://expleo.com/global/en/careers/",
   "first_seen": "2026-09-01T22:41:03+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "62258a65af697097",
@@ -31147,7 +31341,7 @@
   "company_site": "https://expleo.com/global/en/careers/",
   "first_seen": "2026-09-01T22:41:03+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "b0946557419e5dc5",
@@ -31202,7 +31396,7 @@
   "company_site": "https://expleo.com/global/en/careers/",
   "first_seen": "2026-09-01T22:41:03+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "e158553093162288",
@@ -31380,7 +31574,7 @@
   "company_site": "https://careers.amgen.com/",
   "first_seen": "2026-09-02T03:53:37+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "dfe0fbe98f764446",
@@ -31660,7 +31854,7 @@
   "company_site": "https://careers.stryker.com/",
   "first_seen": "2026-09-02T18:48:50+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "a8720151c8c6001f",
@@ -32294,7 +32488,7 @@
   "company_site": "https://careers.stryker.com/",
   "first_seen": "2026-09-07T19:16:31+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "38db28bcddb10c77",
@@ -32580,7 +32774,7 @@
   "company_site": "https://careers.primark.com/en/location/ireland-jobs/30423/2963597/2",
   "first_seen": "2026-09-09T17:24:31+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "824de37ac39c9c9e",
@@ -33030,7 +33224,7 @@
   "company_site": "https://careers.amgen.com/",
   "first_seen": "2026-09-15T15:07:04+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "37cace93d819ef58",
@@ -33142,7 +33336,9 @@
   "company_site": "https://careers.wipro.com/content/Early-Careers/?locale=en_US",
   "first_seen": "2026-09-17T11:48:30+00:00",
   "is_new": true,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T11:48:30+00:00",
+  "closed": true,
+  "closed_at": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "92c323e63238597a",
@@ -33259,61 +33455,6 @@
   "last_seen": "2026-09-17T11:48:30+00:00"
  },
  {
-  "id": "7beabe5943cf10c9",
-  "title": "Corporate Banking Associate",
-  "company": "Citi Ireland",
-  "location": "Dublin  Ireland",
-  "url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Dublin--Ireland/Corporate-Banking-Associate_26956495-1",
-  "description": "26956495",
-  "posted_at": "Posted 30+ Days Ago",
-  "source": "workday",
-  "department": "",
-  "employment_type": "",
-  "sponsorship": null,
-  "salary_eur": null,
-  "permit_route": null,
-  "score": 27,
-  "band": "weak",
-  "breakdown": [
-   {
-    "label": "Role fit",
-    "points": 0,
-    "note": "This job title is not one your CV qualifies you for — capped accordingly"
-   },
-   {
-    "label": "Early careers",
-    "points": 0,
-    "note": "No graduate/junior/internship signal"
-   },
-   {
-    "label": "Tools you have",
-    "points": 0,
-    "note": "Names none of the tools you actually use"
-   },
-   {
-    "label": "Industry fit",
-    "points": 10,
-    "note": "Banking is in the job title — your TCS year was insurance operations"
-   },
-   {
-    "label": "Location",
-    "points": 10,
-    "note": "Dublin"
-   },
-   {
-    "label": "Sponsorship",
-    "points": 7,
-    "note": "Documented sponsor in your employer research"
-   }
-  ],
-  "sponsor_tier": 3,
-  "permits": 0,
-  "company_site": "https://jobs.citi.com/location/dublin-jobs/287/2963597-7521314-7778677-2964574/4",
-  "first_seen": "2026-09-01T22:22:46+00:00",
-  "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
- },
- {
   "id": "3221bb3667a0c65f",
   "title": "Retail Advisor Full-Time (Tallaght)",
   "company": "Vodafone Ireland",
@@ -33366,7 +33507,7 @@
   "company_site": "https://opportunities.vodafone.com/search/?q=&locationsearch=ireland",
   "first_seen": "2026-09-01T22:41:03+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "313d1ab60c43cac9",
@@ -33583,7 +33724,7 @@
   "company_site": "https://www.musgravegroup.com/careers/",
   "first_seen": "2026-09-01T22:41:03+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "a2f81f14d36491f7",
@@ -33876,7 +34017,7 @@
   "company_site": "https://www.novonordisk.com/careers.html",
   "first_seen": "2026-09-02T04:08:24+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "8cc34ef7d866c66f",
@@ -33936,7 +34077,7 @@
   "company_site": "https://www.novonordisk.com/careers.html",
   "first_seen": "2026-09-02T04:08:24+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "30756603a2ba919a",
@@ -33996,7 +34137,7 @@
   "company_site": "https://www.novonordisk.com/careers.html",
   "first_seen": "2026-09-02T04:08:24+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "407daa5addeaaf03",
@@ -34056,7 +34197,7 @@
   "company_site": "https://www.novonordisk.com/careers.html",
   "first_seen": "2026-09-02T04:08:24+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "b07762ee11062173",
@@ -34116,7 +34257,7 @@
   "company_site": "https://www.novonordisk.com/careers.html",
   "first_seen": "2026-09-02T04:08:24+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "1d80a72f4bd92a95",
@@ -34176,7 +34317,7 @@
   "company_site": "https://careers.marsh.com/global/en/mercer-search",
   "first_seen": "2026-09-02T04:08:24+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "2ecb621f6da41958",
@@ -34354,7 +34495,7 @@
   "company_site": "https://careers.statestreet.com/global/en/search-results",
   "first_seen": "2026-09-02T15:12:21+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "214ea03056a381f5",
@@ -35489,7 +35630,7 @@
   "company_site": "https://opportunities.vodafone.com/search/?q=&locationsearch=ireland",
   "first_seen": "2026-09-04T15:03:12+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "6a29654e5154142e",
@@ -36930,7 +37071,7 @@
   "company_site": "",
   "first_seen": "2026-09-11T01:24:55+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "8aef398aa95f4f19",
@@ -38042,7 +38183,7 @@
   "permits": 3,
   "company_site": "https://careers.wipro.com/content/Early-Careers/?locale=en_US",
   "first_seen": "2026-09-16T12:11:44+00:00",
-  "is_new": true,
+  "is_new": false,
   "last_seen": "2026-09-16T16:55:27+00:00",
   "closed": true,
   "closed_at": "2026-09-16T19:54:05+00:00"
@@ -38104,7 +38245,7 @@
   "permits": 3,
   "company_site": "https://careers.wipro.com/content/Early-Careers/?locale=en_US",
   "first_seen": "2026-09-16T12:11:44+00:00",
-  "is_new": true,
+  "is_new": false,
   "last_seen": "2026-09-16T12:11:44+00:00",
   "closed": true,
   "closed_at": "2026-09-16T16:38:49+00:00"
@@ -38229,7 +38370,9 @@
   "company_site": "https://careers.wipro.com/content/Early-Careers/?locale=en_US",
   "first_seen": "2026-09-17T11:48:30+00:00",
   "is_new": true,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T11:48:30+00:00",
+  "closed": true,
+  "closed_at": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "9120f8af56222981",
@@ -38284,7 +38427,7 @@
   "company_site": "https://fa-euxc-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/jobs",
   "first_seen": "2026-09-01T19:24:15+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "68020352f94caa07",
@@ -38339,7 +38482,7 @@
   "company_site": "https://fa-euxc-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/jobs",
   "first_seen": "2026-09-01T19:24:15+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "7668e49914eae8af",
@@ -38394,7 +38537,7 @@
   "company_site": "https://fa-euxc-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/jobs",
   "first_seen": "2026-09-01T19:24:15+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "38acab8ffc694b19",
@@ -38449,7 +38592,7 @@
   "company_site": "https://fa-euxc-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/jobs",
   "first_seen": "2026-09-01T19:24:15+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "9eb9f6a5dc6ced7d",
@@ -38695,7 +38838,7 @@
   "company_site": "https://expleo.com/global/en/careers/",
   "first_seen": "2026-09-01T22:41:03+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "7b9bb86d03162a28",
@@ -39658,7 +39801,7 @@
   "company_site": "https://careers.stryker.com/",
   "first_seen": "2026-09-02T01:29:46+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "0354c4ee78945878",
@@ -39718,7 +39861,7 @@
   "company_site": "https://careers.stryker.com/",
   "first_seen": "2026-09-02T01:29:46+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "e7521cccce6fc003",
@@ -39778,7 +39921,7 @@
   "company_site": "https://careers.stryker.com/",
   "first_seen": "2026-09-02T01:29:46+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "d427d58d3dd0bfa8",
@@ -40007,7 +40150,7 @@
   "company_site": "https://life-careers.com/irishlife/go/All-Jobs/3805301/",
   "first_seen": "2026-09-02T04:08:24+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "0f404a599da3b1df",
@@ -40879,7 +41022,7 @@
   "company_site": "https://careers.stryker.com/",
   "first_seen": "2026-09-02T18:48:50+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "b136aea8adfc60ec",
@@ -40939,7 +41082,7 @@
   "company_site": "https://careers.stryker.com/",
   "first_seen": "2026-09-02T18:48:50+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "52b60bb80cb6e0cf",
@@ -40999,7 +41142,7 @@
   "company_site": "https://careers.stryker.com/",
   "first_seen": "2026-09-02T18:48:50+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "66892b99845b5667",
@@ -41059,7 +41202,7 @@
   "company_site": "https://careers.stryker.com/",
   "first_seen": "2026-09-02T18:48:50+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "2efff13bedab1368",
@@ -41119,7 +41262,7 @@
   "company_site": "https://careers.stryker.com/",
   "first_seen": "2026-09-02T18:48:50+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "e4045e303f1fe09b",
@@ -41714,7 +41857,7 @@
   "company_site": "https://fa-euxc-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/jobs",
   "first_seen": "2026-09-03T11:16:40+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "4ea0ee5b94e2680e",
@@ -42175,7 +42318,7 @@
   "company_site": "https://www.aig.com/careers",
   "first_seen": "2026-09-04T11:19:10+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "56f1275dca1ecaec",
@@ -42230,7 +42373,7 @@
   "company_site": "https://www.aig.com/careers",
   "first_seen": "2026-09-04T11:19:10+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "77e4865e4551b645",
@@ -42285,7 +42428,7 @@
   "company_site": "https://www.aig.com/careers",
   "first_seen": "2026-09-04T11:19:10+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "da29b739042a2838",
@@ -42463,7 +42606,7 @@
   "company_site": "https://careers.stryker.com/",
   "first_seen": "2026-09-04T22:48:41+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "69fdca401e476272",
@@ -42523,7 +42666,7 @@
   "company_site": "https://careers.stryker.com/",
   "first_seen": "2026-09-04T22:48:41+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "a1ff96bb5f1d81b8",
@@ -43666,7 +43809,7 @@
   "company_site": "https://fa-euxc-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/jobs",
   "first_seen": "2026-09-09T17:24:31+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "b6f5b44822368425",
@@ -43969,7 +44112,7 @@
   "company_site": "",
   "first_seen": "2026-09-11T01:24:55+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "503a8d8a1ade8c79",
@@ -44024,7 +44167,7 @@
   "company_site": "",
   "first_seen": "2026-09-11T01:24:55+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "2907bb73fce11b6d",
@@ -45054,7 +45197,7 @@
   "company_site": "https://jobs.citi.com/location/dublin-jobs/287/2963597-7521314-7778677-2964574/4",
   "first_seen": "2026-09-15T15:07:04+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "f05267f59f40ee93",
@@ -45294,8 +45437,8 @@
   "permits": 0,
   "company_site": "https://dxc.com/us/en/careers",
   "first_seen": "2026-09-16T12:11:44+00:00",
-  "is_new": true,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "is_new": false,
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "d693e565bba4387d",
@@ -46345,6 +46488,126 @@
   "closed_at": "2026-09-17T11:48:30+00:00"
  },
  {
+  "id": "b74d1195856f1dfe",
+  "title": "Cloudflare WAF",
+  "company": "Wipro Ireland",
+  "location": "",
+  "url": "https://careers.wipro.com/job/Bengaluru-Cloudflare-WAF-ANALYST-L4-IND-560035/1367714455/",
+  "description": "We use cookies to offer you the best possible website experience. Your cookie preferences will be stored in your browser’s local storage. This includes cookies necessary for the website's operation. Additionally, you can freely decide and change any time whether you accept cookies or choose to opt out of cookies to improve website's performance, as well as cookies used to display content tailored to your interests. Your experience of the site and the services we are able to offer may be impacted if you do not accept all cookies.\nModify Cookie Preferences\nAccept All Cookies\nSkip to main content\nLanguage\nالعَرَبِيَّة (السعودية)\nDeutsch (Deutschland)\nEnglish (United States)\nEspañol (España)\nEspañol (México)\nFrançais (Canada)\nFrançais (France)\nItaliano (Italia)\n日本語 (日本)\nPolski\nPortuguês (Brasil)\nPortuguês (Portugal)\nLimba Română (România)\n简体中文 (中国大陆)\nLife at Wipro\nCareers\nEarly Careers\nExperienced Professionals\nLocations\nBenelux\nBrazil\nGermany and Austria\nKorea\nMexico\nNordics\nPhilippines\nPoland\nPortugal\nRomania\nSouthern Europe\nSwitzerland\nUK and Ireland\nJoin Our Talent Network\nSearch Jobs\nJob Description\nStart applying with LinkedIn\nPlease wait...\nJob Title:\nCloudflare WAF - ANALYST L4\nCity:\nBengaluru\nState/Province:\nKarnataka\nPosting Start Date:\n9/17/26\nWipro Limited (NYSE: WIT, BSE: 507685, NSE: WIPRO) is a leading technology services and consulting company focused on building innovative solutions that address clients’ most complex digital transformation needs. Leveraging our holistic portfolio of capabilities in consulting, design, engineering, and operations, we help clients realize their boldest ambitions and build future-ready, sustainable businesses. With over 230,000 employees and business partners across 65 countries, we deliver on the promise of helping our customers, colleagues, and communities thrive in an ever-changing world. For additional information, visit us at www.wipro.com.\nJob Description:\nRole Purpose\nThe purpose of this role is to analyze attack patterns, develop incident response plans, ensure audit readiness, and implement disaster recovery measures, to ensure adherence to cyber security regulatory frameworks.\nAreas of responsibility\nMonitoring and Incident Detection-Analyse attack trends and correlate logs across systems to identify advance threats. Enhance monitoring processes and implement improvements for faster detection, to ensure compliance with security frameworks and regulatory standards.\nIncident Handling and Analysis-Perform root cause analysis, create incident response plans and implement disaster recovery measures to minimize business disruption\nThreat Assessment and Analytics-Undertake forensic analysis using advanced analytics tools and implement mitigation measures to align with compliance requirements.\nStakeholder Coordination and Audit Assistance-\"Liaise with cross functional teams, external vendors and auditors to ensure compliance with security frameworks.\nMaintain audit documentation and ensure its accuracy while implementing processes that support audit readiness and continuous compliance.\"\nTraining and Awareness-Assist in creating and delivering cybersecurity awareness sessions, including guidance on phishing and malicious emails.\nMandatory Skills: Azure Cloud Workload Security .\nExperience: 5-8 Years .\nReinvent your world. We are building a modern Wipro. We are an end-to-end digital transformation partner with the boldest ambitions. To realize them, we need people inspired by reinvention. Of yourself, your career, and your skills. We want to see the constant evolution of our business and our industry. It has always been in our DNA - as the world around us changes, so do we. Join a business powered by purpose and a place that empowers you to design your own reinvention.\nInformation at a Glance\nGet Job Alerts\nReceive notifications when we have open roles and get other relevant career news\nRegister >\nJoin Us\nExplore open roles that match your interests and skills\nSearch Jobs >\nIf you encounter any suspicious mail, advertisements, or persons who offer jobs at Wipro, please email us at  helpdesk.recruitment@wipro.com . Do not email your resume to this ID as it is not monitored for resumes and career applications.\nAny complaints or concerns regarding unethical/unfair hiring practices should be directed to our Ombuds Group at  ombuds.person@wipro.com .\nWe are an Equal Opportunity Employer. All qualified applicants will receive consideration for employment without regard to race, color, caste, creed, religion, gender, marital status, age, ethnic and national origin, gender identity, gender expression, sexual orientation, political orientation, disability status, protected veteran status, or any other characteristic protected by law.\nWipro is committed to creating an accessible, supportive, and inclusive workplace. Reasonable accommodation will be provided to all applicants including persons with disabilities, throughout the recruitment and selection process. Accommodations must be communicated in advance of the application, where possible, and will be reviewed on an individual basis. Wipro provides equal opportunities to all and values diversity.\nWipro.com\nExplore All Jobs\nPrivacy policy\nTerms of use\nFraud Awareness\nWipro Locations\nCookie Consent Manager\nOpens in a new tab.\nWhen you visit any website, it may store or retrieve information on your browser, mostly in the form of cookies. Because we respect your right to privacy, you can choose not to allow some types of cookies. However, blocking some types of cookies may impact your experience of the site and the services we are able to offer.\nRequired Cookies\nThese cookies are required to use this website and can't be turned off.\nShow More Details\nProvider\nDescription\nEnabled\nSAP as service provider\nWe use the following session cookies, which are all required to enable the website to function:\n\"route\" is used for session stickiness\n\"careerSiteCompanyId\" is used to send the request to the correct data ce",
+  "posted_at": "",
+  "source": "sitemap",
+  "department": "",
+  "employment_type": "",
+  "sponsorship": null,
+  "salary_eur": null,
+  "permit_route": null,
+  "score": 26,
+  "band": "weak",
+  "breakdown": [
+   {
+    "label": "Role fit",
+    "points": 0,
+    "note": "This job title is not one your CV qualifies you for — capped accordingly"
+   },
+   {
+    "label": "Early careers",
+    "points": 12,
+    "note": "Flagged as early careers"
+   },
+   {
+    "label": "Tools you have",
+    "points": 0,
+    "note": "Names none of the tools you actually use"
+   },
+   {
+    "label": "How you already work",
+    "points": 1,
+    "note": "Mentions stakeholder — the way you worked at TCS"
+   },
+   {
+    "label": "Industry fit",
+    "points": 0,
+    "note": "Not in insurance, finance or operations"
+   },
+   {
+    "label": "Location",
+    "points": 7,
+    "note": "Ireland"
+   },
+   {
+    "label": "Sponsorship",
+    "points": 6,
+    "note": "Issued 3 employment permit(s) this year"
+   }
+  ],
+  "sponsor_tier": 3,
+  "permits": 3,
+  "company_site": "https://careers.wipro.com/content/Early-Careers/?locale=en_US",
+  "first_seen": "2026-09-17T15:04:34+00:00",
+  "is_new": true,
+  "last_seen": "2026-09-17T15:04:34+00:00"
+ },
+ {
+  "id": "d24c9d18dbb21d9e",
+  "title": "Zscaler",
+  "company": "Wipro Ireland",
+  "location": "",
+  "url": "https://careers.wipro.com/job/Hyderabad-Zscaler-ANALYST-L3-IND-500032/1365466755/",
+  "description": "We use cookies to offer you the best possible website experience. Your cookie preferences will be stored in your browser’s local storage. This includes cookies necessary for the website's operation. Additionally, you can freely decide and change any time whether you accept cookies or choose to opt out of cookies to improve website's performance, as well as cookies used to display content tailored to your interests. Your experience of the site and the services we are able to offer may be impacted if you do not accept all cookies.\nModify Cookie Preferences\nAccept All Cookies\nSkip to main content\nLanguage\nالعَرَبِيَّة (السعودية)\nDeutsch (Deutschland)\nEnglish (United States)\nEspañol (España)\nEspañol (México)\nFrançais (Canada)\nFrançais (France)\nItaliano (Italia)\n日本語 (日本)\nPolski\nPortuguês (Brasil)\nPortuguês (Portugal)\nLimba Română (România)\n简体中文 (中国大陆)\nLife at Wipro\nCareers\nEarly Careers\nExperienced Professionals\nLocations\nBenelux\nBrazil\nGermany and Austria\nKorea\nMexico\nNordics\nPhilippines\nPoland\nPortugal\nRomania\nSouthern Europe\nSwitzerland\nUK and Ireland\nJoin Our Talent Network\nSearch Jobs\nJob Description\nStart applying with LinkedIn\nPlease wait...\nJob Title:\nZscaler - ANALYST L3\nCity:\nHyderabad\nState/Province:\nTelangana\nPosting Start Date:\n8/29/26\nWipro Limited (NYSE: WIT, BSE: 507685, NSE: WIPRO) is a leading technology services and consulting company focused on building innovative solutions that address clients’ most complex digital transformation needs. Leveraging our holistic portfolio of capabilities in consulting, design, engineering, and operations, we help clients realize their boldest ambitions and build future-ready, sustainable businesses. With over 230,000 employees and business partners across 65 countries, we deliver on the promise of helping our customers, colleagues, and communities thrive in an ever-changing world. For additional information, visit us at www.wipro.com.\nJob Description:\nRole Purpose\nThe purpose of this role is to handle escalated alerts, investigate incidents and perform vulnerability scans to ensure compliance with organizational standards and reduce security risks.\nAreas of responsibility\nMonitoring and Incident Detection-Handle escalated alerts, prevent potential intrusions from third party agents and analyse log correlation to ensure alignment with security standards.\nIncident Handling and Analysis-Triage security incidents, handle escalated incidents, assist in performing root cause analysis and prepare reports that adhere to compliance requirements.\nThreat Assessment and Analytics-\"Perform vulnerability scans, identify threat intelligence feeds, and recommend preventive measures to reduce exposure.\"\nStakeholder Coordination and Audit Assistance-Coordinate with internal teams on security issues, maintain risk registers and assist during compliance audits.\nMandatory Skills: Zscaler ZPA .\nExperience: 3-5 Years .\nReinvent your world. We are building a modern Wipro. We are an end-to-end digital transformation partner with the boldest ambitions. To realize them, we need people inspired by reinvention. Of yourself, your career, and your skills. We want to see the constant evolution of our business and our industry. It has always been in our DNA - as the world around us changes, so do we. Join a business powered by purpose and a place that empowers you to design your own reinvention.\nInformation at a Glance\nGet Job Alerts\nReceive notifications when we have open roles and get other relevant career news\nRegister >\nJoin Us\nExplore open roles that match your interests and skills\nSearch Jobs >\nIf you encounter any suspicious mail, advertisements, or persons who offer jobs at Wipro, please email us at  helpdesk.recruitment@wipro.com . Do not email your resume to this ID as it is not monitored for resumes and career applications.\nAny complaints or concerns regarding unethical/unfair hiring practices should be directed to our Ombuds Group at  ombuds.person@wipro.com .\nWe are an Equal Opportunity Employer. All qualified applicants will receive consideration for employment without regard to race, color, caste, creed, religion, gender, marital status, age, ethnic and national origin, gender identity, gender expression, sexual orientation, political orientation, disability status, protected veteran status, or any other characteristic protected by law.\nWipro is committed to creating an accessible, supportive, and inclusive workplace. Reasonable accommodation will be provided to all applicants including persons with disabilities, throughout the recruitment and selection process. Accommodations must be communicated in advance of the application, where possible, and will be reviewed on an individual basis. Wipro provides equal opportunities to all and values diversity.\nWipro.com\nExplore All Jobs\nPrivacy policy\nTerms of use\nFraud Awareness\nWipro Locations\nCookie Consent Manager\nOpens in a new tab.\nWhen you visit any website, it may store or retrieve information on your browser, mostly in the form of cookies. Because we respect your right to privacy, you can choose not to allow some types of cookies. However, blocking some types of cookies may impact your experience of the site and the services we are able to offer.\nRequired Cookies\nThese cookies are required to use this website and can't be turned off.\nShow More Details\nProvider\nDescription\nEnabled\nSAP as service provider\nWe use the following session cookies, which are all required to enable the website to function:\n\"route\" is used for session stickiness\n\"careerSiteCompanyId\" is used to send the request to the correct data center\n\"JSESSIONID\" is placed on the visitor's device during the session so the server can identify the visitor\n\"Load balancer cookie\" (actual cookie name may vary) prevents a visitor from bouncing from one instance to another\nCookies from provider SAPasserviceprovider are required and cannot be turned off\nFunctional Cookies\nThese cookies provide a better customer experience on this site, such as by rememberi",
+  "posted_at": "",
+  "source": "sitemap",
+  "department": "",
+  "employment_type": "",
+  "sponsorship": null,
+  "salary_eur": null,
+  "permit_route": null,
+  "score": 26,
+  "band": "weak",
+  "breakdown": [
+   {
+    "label": "Role fit",
+    "points": 0,
+    "note": "This job title is not one your CV qualifies you for — capped accordingly"
+   },
+   {
+    "label": "Early careers",
+    "points": 12,
+    "note": "Flagged as early careers"
+   },
+   {
+    "label": "Tools you have",
+    "points": 0,
+    "note": "Names none of the tools you actually use"
+   },
+   {
+    "label": "How you already work",
+    "points": 1,
+    "note": "Mentions stakeholder — the way you worked at TCS"
+   },
+   {
+    "label": "Industry fit",
+    "points": 0,
+    "note": "Not in insurance, finance or operations"
+   },
+   {
+    "label": "Location",
+    "points": 7,
+    "note": "Ireland"
+   },
+   {
+    "label": "Sponsorship",
+    "points": 6,
+    "note": "Issued 3 employment permit(s) this year"
+   }
+  ],
+  "sponsor_tier": 3,
+  "permits": 3,
+  "company_site": "https://careers.wipro.com/content/Early-Careers/?locale=en_US",
+  "first_seen": "2026-09-17T15:04:34+00:00",
+  "is_new": true,
+  "last_seen": "2026-09-17T15:04:34+00:00"
+ },
+ {
   "id": "b28d7b2fde3453f8",
   "title": "Investor Relations Administrator (Hedge Funds)",
   "company": "Citco Fund Services (Ireland)",
@@ -46397,7 +46660,7 @@
   "company_site": "https://fa-euxc-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/jobs",
   "first_seen": "2026-09-01T19:24:15+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "9bb7f4451377c556",
@@ -46578,7 +46841,7 @@
   "company_site": "https://careers.fbdgroup.com/search/",
   "first_seen": "2026-09-01T22:41:03+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "e0c0c306f1155f57",
@@ -46692,7 +46955,7 @@
   "company_site": "https://careers.stryker.com/",
   "first_seen": "2026-09-02T01:29:46+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "8d582578d7ef75cf",
@@ -48058,7 +48321,7 @@
   "company_site": "https://careers.stryker.com/",
   "first_seen": "2026-09-02T18:48:50+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "155754d5518b7adf",
@@ -49996,7 +50259,7 @@
   "company_site": "https://careers.stryker.com/",
   "first_seen": "2026-09-04T22:48:41+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "3b628322470bb7c8",
@@ -50051,7 +50314,7 @@
   "company_site": "https://careers.stryker.com/",
   "first_seen": "2026-09-04T22:48:41+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "9573d1224a4c2038",
@@ -53962,7 +54225,7 @@
   "company_site": "https://careers.stryker.com/",
   "first_seen": "2026-09-11T13:43:30+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "137db1ac141b180e",
@@ -55410,7 +55673,7 @@
   "company_site": "https://sedgwick.wd1.myworkdayjobs.com/Sedgwick",
   "first_seen": "2026-09-15T10:20:18+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "f299645c4abe4304",
@@ -55582,66 +55845,6 @@
   "last_seen": "2026-09-15T18:48:46+00:00",
   "closed": true,
   "closed_at": "2026-09-15T21:52:36+00:00"
- },
- {
-  "id": "3e75eda14518540f",
-  "title": "People & Culture Administrator (FTC - 6 months)",
-  "company": "Primark / Penneys",
-  "location": "Dublin, ie",
-  "url": "https://jobs.smartrecruiters.com/Primark / Penneys/744000149650259",
-  "description": "Because people are more than just your day job.\n\nConnect, our way.\n People and Culture at Primark \n Our team has created a workplace of inspiration and growth. Be a part of building an inclusive and empowering culture, where every colleague’s unique abilities are recognised and celebrated. Collaborate with a team committed to the wellbeing of our workforce, and define what it means to work at Primark.\n\n What You’ll Do as a People & Culture Administrator \n In your role, you’ll collaborate with different people across a range of skillsets and departments. Here’s a flavour of your day-to-day:\n Managed end-to-end employee lifecycle administration, including onboarding, offboarding, induction planning, employment contracts, exit interviews, and ensuring a seamless colleague experience.\n Provided comprehensive People & Culture administrative support, maintaining employee records, processing absences in Workday, managing colleague movements, updating organisational charts, and resolving employee queries and service tickets.\n Supported payroll and finance processes by conducting payroll audits, validating employee data, raising purchase orders, and assisting with invoice and payment tracking.\n Delivered colleague engagement and experience initiatives, coordinating recognition programs, supporting P&C projects, and fostering strong working relationships across the business.\n Produced and maintained accurate people data and reporting, supporting business stakeholders with insights, performance cycle administration, and data-driven decision-making.\n Ensured compliance, confidentiality, and continuous improvement, handling sensitive employee information professionally while identifying opportunities to streamline processes and enhance ways of working.\n \n\n What You’ll Ge t  \n This role is a hybrid opportunity, offering 1-2 days Working from home.\n People are at the heart of what we do here, so it’s essential we provide you with the right environment to perform at your very best. \n Let’s talk lifestyle: 27 days of leave, plus bank holidays and if you want, you can buy 5 more. Because Primark is all about tailoring to you, we offer Tax Saver Tickets, fitness centre, and a subsidised cafeteria.\n\n What You’ll Bring   \n Here at Primark, we want everyone to feel valued – so please bring your authentic self to work, of course with some other key experience and abilities for this role in particular:\n Proficient in using HR/People systems such as Workday, with the ability to manage employee data and support HR processes effectively.\n Experienced in providing People & Culture/HR administrative support within a fast-paced and dynamic environment.\n Skilled in Microsoft Office applications, including Excel, Word, PowerPoint, and Outlook, for reporting, documentation, and data management.\n Demonstrates strong attention to detail, accuracy, and organisational skills, with the ability to manage multiple priorities and work independently.\n Possesses excellent planning, coordination, communication, and interpersonal skills, coupled with a proactive and positive approach to problem-solving.\n Holds, or is working towards, a People & Culture/HR qualification, with a strong commitment to delivering a professional and employee-focused service.\n Does this sound like you? Great, because we can’t wait to see what you’ll bring. You’ll be supported within a team of equally capable people, celebrating who you are and aiding you reach your potential. At Primark, we’re excited about our future - and we’re excited to develop yours.  \n About Primark  \n At Primark, people matter. They’re the beating heart of our business and the reason we’ve grown from our first store in Dublin in 1969 to a £9bn+ turnover business and over 80,000 colleagues and over 440 stores in 17 countries today. Our values run through everything we do. In essence, we're Caring and always strive to put people first. We're also Dynamic, bravely pushing the boundaries to stay ahead. And finally, we succeed Together.  \n If you need any reasonable adjustments or have an accessibility request, during your recruitment journey, such as extended time or breaks between online assessments, a sign language interpreter, mobility access, or assistive technology please contact your talent acquisition specialist. \n All offers of employment are subject to background checks, including right to work, reference education and for some roles criminal, and financial checks. If you have any concerns, please reach out to our talent acquisition team to discuss. \n #Li-Hybrid",
-  "posted_at": "2026-09-15T15:15:17.951Z",
-  "source": "smartrecruiters",
-  "department": "",
-  "employment_type": "Full-time",
-  "sponsorship": null,
-  "salary_eur": null,
-  "permit_route": null,
-  "score": 25,
-  "band": "weak",
-  "breakdown": [
-   {
-    "label": "Role fit",
-    "points": 0,
-    "note": "This job title is not one your CV qualifies you for — capped accordingly"
-   },
-   {
-    "label": "Early careers",
-    "points": 0,
-    "note": "No graduate/junior/internship signal"
-   },
-   {
-    "label": "Tools you have",
-    "points": 8,
-    "note": "Wants excel — all on your CV"
-   },
-   {
-    "label": "How you already work",
-    "points": 1,
-    "note": "Mentions attention to detail — the way you worked at TCS"
-   },
-   {
-    "label": "Industry fit",
-    "points": 0,
-    "note": "Not in insurance, finance or operations"
-   },
-   {
-    "label": "Location",
-    "points": 10,
-    "note": "Dublin"
-   },
-   {
-    "label": "Sponsorship",
-    "points": 6,
-    "note": "Issued 1 employment permit(s) this year"
-   }
-  ],
-  "sponsor_tier": 3,
-  "permits": 1,
-  "company_site": "https://careers.primark.com/en/location/ireland-jobs/30423/2963597/2",
-  "first_seen": "2026-09-15T18:48:46+00:00",
-  "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
  },
  {
   "id": "b305747e6cb10685",
@@ -55985,8 +56188,8 @@
   "permits": 1,
   "company_site": "https://jobs.globalpayments.com/",
   "first_seen": "2026-09-16T12:11:44+00:00",
-  "is_new": true,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "is_new": false,
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "7af559942d88c3aa",
@@ -56155,7 +56358,7 @@
   "company_site": "https://www.aig.com/careers",
   "first_seen": "2026-09-01T22:22:46+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "e0e56349d82c8374",
@@ -56436,7 +56639,7 @@
   "company_site": "https://careers.marsh.com/global/en/mercer-search",
   "first_seen": "2026-09-02T04:08:24+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "28a3078da5bb8faf",
@@ -56979,7 +57182,7 @@
   "company_site": "https://www.aig.com/careers",
   "first_seen": "2026-09-04T11:19:10+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "4107976f300468a2",
@@ -57034,7 +57237,7 @@
   "company_site": "https://www.aig.com/careers",
   "first_seen": "2026-09-04T11:19:10+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "14d969dc127055d1",
@@ -57089,7 +57292,7 @@
   "company_site": "https://www.aig.com/careers",
   "first_seen": "2026-09-04T11:19:10+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "464733d6ec639ee1",
@@ -57321,7 +57524,7 @@
   "company_site": "https://careers.stryker.com/",
   "first_seen": "2026-09-04T22:48:41+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "2a9c219ba6e66aaf",
@@ -58058,7 +58261,7 @@
   "company_site": "https://www.apexgroup.com/careers/",
   "first_seen": "2026-09-01T19:24:15+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "41513b55c0b86cfa",
@@ -58113,7 +58316,7 @@
   "company_site": "https://fa-euxc-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/jobs",
   "first_seen": "2026-09-01T19:24:15+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "b64267f33fe78b28",
@@ -58360,7 +58563,7 @@
   "company_site": "https://www.genesys.com/company/careers",
   "first_seen": "2026-09-01T22:22:46+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "570919521d41c07f",
@@ -58415,7 +58618,7 @@
   "company_site": "https://careers.fbdgroup.com/search/",
   "first_seen": "2026-09-01T22:41:03+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "141bf1a86a943bfe",
@@ -58527,7 +58730,7 @@
   "company_site": "https://careers.fbdgroup.com/search/",
   "first_seen": "2026-09-01T22:41:03+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "922676a6c5c88131",
@@ -58582,7 +58785,7 @@
   "company_site": "https://careers.fbdgroup.com/search/",
   "first_seen": "2026-09-01T22:41:03+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "bb6f3bf0dcd6af4a",
@@ -58637,7 +58840,7 @@
   "company_site": "https://www.waystone.com/careers/",
   "first_seen": "2026-09-01T22:41:03+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "c718acd21af61c36",
@@ -58918,7 +59121,7 @@
   "company_site": "https://careers.bankofireland.com/",
   "first_seen": "2026-09-02T03:59:37+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "2a82095dbed390d8",
@@ -59937,7 +60140,7 @@
   "company_site": "https://careers.fbdgroup.com/search/",
   "first_seen": "2026-09-04T15:03:12+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "b2bdfd4aa9356586",
@@ -60439,7 +60642,7 @@
   "company_site": "",
   "first_seen": "2026-09-11T01:24:55+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "cdfecb05868ee81d",
@@ -60499,7 +60702,7 @@
   "company_site": "https://www.version1.com/careers",
   "first_seen": "2026-09-11T13:01:40+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "0aa9091bbe1fdf7c",
@@ -60619,7 +60822,7 @@
   "company_site": "https://careers.fbdgroup.com/search/",
   "first_seen": "2026-09-14T12:29:32+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "48d293c0b1e0bdb1",
@@ -60674,7 +60877,7 @@
   "company_site": "https://careers.bankofireland.com/",
   "first_seen": "2026-09-15T18:48:46+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "043b801f488c038b",
@@ -60733,7 +60936,7 @@
   "permits": 28,
   "company_site": "https://www.jobs.abbott/",
   "first_seen": "2026-09-16T12:11:44+00:00",
-  "is_new": true,
+  "is_new": false,
   "last_seen": "2026-09-17T11:48:30+00:00"
  },
  {
@@ -60789,7 +60992,7 @@
   "company_site": "https://careers.chubb.com/",
   "first_seen": "2026-09-01T19:24:15+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "44d527c7e0476d97",
@@ -61378,7 +61581,7 @@
   "company_site": "https://careers.chubb.com/",
   "first_seen": "2026-09-02T17:20:46+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "2ab32d10297a3b84",
@@ -61790,7 +61993,7 @@
   "company_site": "https://jobs.aib.ie/go/Search-All-Jobs/3834700/",
   "first_seen": "2026-09-08T12:26:59+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "106cb93db7afadb4",
@@ -61845,7 +62048,7 @@
   "company_site": "https://jobs.aib.ie/go/Search-All-Jobs/3834700/",
   "first_seen": "2026-09-09T17:24:31+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "87bb4f45598a9455",
@@ -62220,7 +62423,7 @@
   "company_site": "https://careers.statestreet.com/global/en/search-results",
   "first_seen": "2026-09-14T18:42:27+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "3f48d60940f268f3",
@@ -62337,7 +62540,9 @@
   "company_site": "https://careers.wipro.com/content/Early-Careers/?locale=en_US",
   "first_seen": "2026-09-17T11:48:30+00:00",
   "is_new": true,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T11:48:30+00:00",
+  "closed": true,
+  "closed_at": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "70f171d76cbfe229",
@@ -62398,6 +62603,121 @@
   "first_seen": "2026-09-17T11:48:30+00:00",
   "is_new": true,
   "last_seen": "2026-09-17T11:48:30+00:00"
+ },
+ {
+  "id": "27a2ceaa708dfa25",
+  "title": "Government Legislative Priorities for Autumn 2026",
+  "company": "William Fry LLP",
+  "location": "",
+  "url": "https://www.williamfry.com/knowledge/government-legislative-priorities-for-autumn-2026/",
+  "description": "The post Government Legislative Priorities for Autumn 2026 appeared first on WILLIAM FRY .",
+  "posted_at": "Thu, 17 Sep 2026 14:05:33 +0000",
+  "source": "rssfeed",
+  "department": "Regulation",
+  "employment_type": "",
+  "sponsorship": null,
+  "salary_eur": null,
+  "permit_route": null,
+  "score": 22,
+  "band": "weak",
+  "breakdown": [
+   {
+    "label": "Role fit",
+    "points": 0,
+    "note": "This job title is not one your CV qualifies you for — capped accordingly"
+   },
+   {
+    "label": "Early careers",
+    "points": 16,
+    "note": "Titled for the 2026 intake — a graduate entry route"
+   },
+   {
+    "label": "Tools you have",
+    "points": 0,
+    "note": "Names none of the tools you actually use"
+   },
+   {
+    "label": "Industry fit",
+    "points": 0,
+    "note": "Not in insurance, finance or operations"
+   },
+   {
+    "label": "Location",
+    "points": 0,
+    "note": "Location unclear"
+   },
+   {
+    "label": "Sponsorship",
+    "points": 6,
+    "note": "Issued 1 employment permit(s) this year"
+   }
+  ],
+  "sponsor_tier": 3,
+  "permits": 1,
+  "company_site": "https://www.williamfry.com/careers/",
+  "first_seen": "2026-09-17T15:04:34+00:00",
+  "is_new": true,
+  "last_seen": "2026-09-17T15:04:34+00:00"
+ },
+ {
+  "id": "7beabe5943cf10c9",
+  "title": "Corporate Banking Associate",
+  "company": "Citi Ireland",
+  "location": "Dublin  Ireland",
+  "url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Dublin--Ireland/Corporate-Banking-Associate_26956495-1",
+  "description": "The Corporate Banking Associate is an intermediate level professional within Citi’s Corporate Bank, responsible for providing relationship management, capital structure expertise and corporate finance advice to clients.\n \n The successful candidate will join a team with an unrivalled position in the Ireland banking market. Citi has a 20% market share of all episodic financing and advisory transactions since 2020 and has recently been awarded Euromoney’s Best Investment Bank in Ireland award for the 7th consecutive year.\n \n The overall objective of this role is to drive revenue by cross selling the Citi platform while efficiently deploying the firm's capital and evaluating and managing risk.\n \n Responsibilities: \n Support senior bankers to originate opportunities with existing clients form the corporate, financial institutions and public sector industries, working closely with colleagues from Investment Banking, Capital Markets, Treasury & Trade Solutions and Markets\n Support Bankers in cross-selling full spectrum of products and services by identifying customer needs to generate revenue\n Produce high quality client-facing analytical material on topics including corporate finance, capital structure and optimal financing strategy\n Responsible for evaluating public filings, research reports, operations, business plans, and financial forecasts to produce strategic and financial analyses\n Responsible for staying abreast of market and industry trends, “best practices” and competitive landscape\n Appropriately assess risk when business decisions are made, demonstrating particular consideration for the firm's reputation and safeguarding Citigroup, its clients and assets, by driving compliance with applicable laws, rules and regulations, adhering to Policy, applying sound ethical judgment regarding personal behaviour, conduct and business practices, and escalating, managing and reporting control issues with transparency.\n Assist with day to day cash management activities, trading initiatives, vendor finance, foreign exchange, loan activity, debt capital markets efforts, share repurchase and interest rate/equity derivatives\n \n Qualifications: \n Strong corporate finance skills with understanding of drivers of capital structure\n Financial modelling, analysis and credit skills\n Experience working in a fast-paced environment with the proven ability to multi-task\n Consistently demonstrates clear and concise written and verbal communication skills\n Prior experience working in a corporate bank, investment banking, corporate finance or a capital markets role preferred\n ​MBA or Master's Degree in Business preferred\n Strong credit skills, credit background and knowledge of Citi’s credit policies,\n Consistently demonstrates clear and concise written and verbal communication skills\n Ideally 2-6 years of relevant experience in Corporate Banking, Investment Banking, Credit, Leveraged Finance, or Commercial Banking\n \n Education: \n Bachelor’s/University degree or equivalent experience\n \n This Role is a “Controlled Function” Role as defined by the Central Bank of Ireland Reform Act 2010 and Principal Regulations 2011, and amending Regulations 2014, 2015. \n ------------------------------------------------------ \n Job Family Group: Institutional Banking ------------------------------------------------------ \n Job Family: Corporate Banking ------------------------------------------------------ \n Time Type: Full time ------------------------------------------------------ \n Primary Location Full Time Salary Range: €120,000.00 - €135,000.00 ------------------------------------------------------ \n Most Relevant Skills Please see the requirements listed above. ------------------------------------------------------ \n Other Relevant Skills For complementary skills, please see above and/or contact the recruiter. ------------------------------------------------------ \n Automated Processing and AI We use automated processing, including artificial intelligence, for our legitimate business interests (or our reasonable and appropriate business purposes) to identify and align the candidate's skills and abilities with a specific job opening. Additionally, if you so choose, or consent, we can match your skills and abilities to other suitable roles at Citi.\n \n Importantly, all our hiring processes and decisions, including determining your suitability for a role, are conducted, checked, and decided by individuals. Our automated processing and AI do not involve relying on automatic or autonomous decision-making. Please refer to any Jurisdictional Considerations, with specific provisions for your country (where relevant) for further details.\n ------------------------------------------------------ \n This job opening is for an existing job vacancy. \n ------------------------------------------------------ \n Citi is an equal opportunity employer, and qualified candidates will receive consideration without regard to their race, color, religion, sex, sexual orientation, gender identity, national origin, disability, status as a protected veteran, or any other characteristic protected by law. \n   \n If you are a person with a disability and need a reasonable accommodation to use our search tools and/or apply for a career opportunity review Accessibility at Citi . \n\n View Citi’s EEO Policy Statement and the Know Your Rights poster.",
+  "posted_at": "2026-05-05T00:00:00+00:00",
+  "source": "workday",
+  "department": "",
+  "employment_type": "",
+  "sponsorship": null,
+  "salary_eur": 135000,
+  "permit_route": "critical_skills",
+  "score": 21,
+  "band": "weak",
+  "breakdown": [
+   {
+    "label": "Role fit",
+    "points": 0,
+    "note": "This job title is not one your CV qualifies you for — capped accordingly"
+   },
+   {
+    "label": "Early careers",
+    "points": 0,
+    "note": "No graduate/junior/internship signal"
+   },
+   {
+    "label": "Tools you have",
+    "points": 0,
+    "note": "Names none of the tools you actually use"
+   },
+   {
+    "label": "Industry fit",
+    "points": 10,
+    "note": "Banking is in the job title — your TCS year was insurance operations"
+   },
+   {
+    "label": "Location",
+    "points": 10,
+    "note": "Dublin"
+   },
+   {
+    "label": "Sponsorship",
+    "points": 7,
+    "note": "Documented sponsor in your employer research"
+   },
+   {
+    "label": "Experience required",
+    "points": -6,
+    "note": "Asks for 2+ years"
+   }
+  ],
+  "sponsor_tier": 3,
+  "permits": 0,
+  "company_site": "https://jobs.citi.com/location/dublin-jobs/287/2963597-7521314-7778677-2964574/4",
+  "first_seen": "2026-09-01T22:22:46+00:00",
+  "is_new": false,
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "adc81c3620a345de",
@@ -62581,7 +62901,7 @@
   "company_site": "https://workday.wd5.myworkdayjobs.com/Workday",
   "first_seen": "2026-09-02T03:53:37+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "1ee699836163c5d3",
@@ -62755,7 +63075,7 @@
   "company_site": "https://careers.stryker.com/",
   "first_seen": "2026-09-02T18:48:50+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "5a27340da66e5113",
@@ -64013,7 +64333,7 @@
   "permits": 0,
   "company_site": "https://careers.coca-colahellenic.com/",
   "first_seen": "2026-09-16T12:11:44+00:00",
-  "is_new": true,
+  "is_new": false,
   "last_seen": "2026-09-16T19:54:05+00:00",
   "closed": true,
   "closed_at": "2026-09-17T10:16:47+00:00"
@@ -64191,7 +64511,7 @@
   "company_site": "https://jobs.citi.com/location/dublin-jobs/287/2963597-7521314-7778677-2964574/4",
   "first_seen": "2026-09-01T22:22:46+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "654332470fa77559",
@@ -64365,7 +64685,7 @@
   "company_site": "https://expleo.com/global/en/careers/",
   "first_seen": "2026-09-01T22:41:03+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "47b39b9c4e85f25a",
@@ -64663,7 +64983,7 @@
   "company_site": "https://careers.amgen.com/",
   "first_seen": "2026-09-02T03:53:37+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "b310cb1bf5d0eadb",
@@ -64906,7 +65226,7 @@
   "company_site": "https://careers.usbank.com/global/en/",
   "first_seen": "2026-09-02T04:08:24+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "cbf472a60321e923",
@@ -66686,7 +67006,7 @@
   "permits": 3,
   "company_site": "https://careers.wipro.com/content/Early-Careers/?locale=en_US",
   "first_seen": "2026-09-16T12:11:44+00:00",
-  "is_new": true,
+  "is_new": false,
   "last_seen": "2026-09-16T12:11:44+00:00",
   "closed": true,
   "closed_at": "2026-09-16T16:38:49+00:00"
@@ -66806,7 +67126,7 @@
   "company_site": "https://www.squarespace.com/careers",
   "first_seen": "2026-09-01T16:15:25+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "c1f1ceb36a1e4355",
@@ -66970,7 +67290,7 @@
   "company_site": "https://careers.fbdgroup.com/search/",
   "first_seen": "2026-09-01T22:41:03+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "33f1cab4958a9199",
@@ -68054,7 +68374,7 @@
   "company_site": "https://careers.amgen.com/",
   "first_seen": "2026-09-10T09:17:03+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "4f0264374ea63cbb",
@@ -68412,7 +68732,7 @@
   "company_site": "https://careers.primark.com/en/location/ireland-jobs/30423/2963597/2",
   "first_seen": "2026-09-16T06:51:17+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "8ccd1d5c55b81bf7",
@@ -68482,7 +68802,7 @@
   "company_site": "https://www.version1.com/careers",
   "first_seen": "2026-09-17T11:48:30+00:00",
   "is_new": true,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "1eaa31166c6a7de7",
@@ -68661,7 +68981,7 @@
   "company_site": "https://www.exlservice.com/careers",
   "first_seen": "2026-09-01T19:24:15+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "19b1741b7e0621a1",
@@ -68716,7 +69036,7 @@
   "company_site": "https://www.exlservice.com/careers",
   "first_seen": "2026-09-01T19:24:15+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "279e4b7f940cd2b6",
@@ -69273,7 +69593,7 @@
   "company_site": "https://workday.wd5.myworkdayjobs.com/Workday",
   "first_seen": "2026-09-01T22:22:46+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "b3d8ef71027d8ebe",
@@ -69550,7 +69870,7 @@
   "company_site": "https://workday.wd5.myworkdayjobs.com/Workday",
   "first_seen": "2026-09-02T03:53:37+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "971838e7c360e8fe",
@@ -70215,7 +70535,7 @@
   "company_site": "https://www.musgravegroup.com/careers/",
   "first_seen": "2026-09-02T18:48:50+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "7b0abdfebfff070e",
@@ -73247,7 +73567,7 @@
   "company_site": "",
   "first_seen": "2026-09-15T00:41:24+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "1229beab45d95f6f",
@@ -73928,7 +74248,7 @@
   "permits": 7,
   "company_site": "https://www.hse.ie/eng/careers/",
   "first_seen": "2026-09-16T12:11:44+00:00",
-  "is_new": true,
+  "is_new": false,
   "last_seen": "2026-09-16T12:11:44+00:00",
   "closed": true,
   "closed_at": "2026-09-16T16:38:49+00:00"
@@ -74108,6 +74428,71 @@
   "last_seen": "2026-09-17T10:16:47+00:00",
   "closed": true,
   "closed_at": "2026-09-17T11:48:30+00:00"
+ },
+ {
+  "id": "478132207652e2b7",
+  "title": "AWS and DNS Security Job Details",
+  "company": "Wipro Ireland",
+  "location": "",
+  "url": "https://careers.wipro.com/job/Norwich-AWS-and-DNS-Security-GBR/1367915455/",
+  "description": "We use cookies to offer you the best possible website experience. Your cookie preferences will be stored in your browser’s local storage. This includes cookies necessary for the website's operation. Additionally, you can freely decide and change any time whether you accept cookies or choose to opt out of cookies to improve website's performance, as well as cookies used to display content tailored to your interests. Your experience of the site and the services we are able to offer may be impacted if you do not accept all cookies.\nModify Cookie Preferences\nAccept All Cookies\nSkip to main content\nLanguage\nالعَرَبِيَّة (السعودية)\nDeutsch (Deutschland)\nEnglish (United States)\nEspañol (España)\nEspañol (México)\nFrançais (Canada)\nFrançais (France)\nItaliano (Italia)\n日本語 (日本)\nPolski\nPortuguês (Brasil)\nPortuguês (Portugal)\nLimba Română (România)\n简体中文 (中国大陆)\nLife at Wipro\nCareers\nEarly Careers\nExperienced Professionals\nLocations\nBenelux\nBrazil\nGermany and Austria\nKorea\nMexico\nNordics\nPhilippines\nPoland\nPortugal\nRomania\nSouthern Europe\nSwitzerland\nUK and Ireland\nJoin Our Talent Network\nSearch Jobs\nJob Description\nStart applying with LinkedIn\nPlease wait...\nJob Title:\nAWS and DNS Security\nCity:\nNorwich\nState/Province:\nNorfolk\nPosting Start Date:\n9/10/26\nWipro Limited (NYSE: WIT, BSE: 507685, NSE: WIPRO) is a leading technology services and consulting company focused on building innovative solutions that address clients’ most complex digital transformation needs. Leveraging our holistic portfolio of capabilities in consulting, design, engineering, and operations, we help clients realize their boldest ambitions and build future-ready, sustainable businesses. With over 230,000 employees and business partners across 65 countries, we deliver on the promise of helping our customers, colleagues, and communities thrive in an ever-changing world. For additional information, visit us at www.wipro.com.\nJob Description:\nRole: AWS Security Specialist-DNS\nLocation: Remote work-anywhere in UK.\nSupport knowledge transfer for domain management processes, tools and operational dependencies.\nCapture how DL domains are managed across MarkMonitor, AWS Route 53 and delegated DNS arrangements.\nSupport the AWS Route 53 team with domain analysis, hosted zone review and migration inputs.\nReview DNS records and zone files to identify key dependencies before migration.\nSupport technical coordination across CSC, AWS/cloud teams and CACI.\nMandatory Skills Required:\nDNS knowledge\nRoute 53\nDomain management\nRegistrar transfers\nZone files\nStakeholder coordination\nTechnical documentation\nRisk awareness\nMandatory Skills: AWS Security Services .\nReinvent your world. We are building a modern Wipro. We are an end-to-end digital transformation partner with the boldest ambitions. To realize them, we need people inspired by reinvention. Of yourself, your career, and your skills. We want to see the constant evolution of our business and our industry. It has always been in our DNA - as the world around us changes, so do we. Join a business powered by purpose and a place that empowers you to design your own reinvention.\nInformation at a Glance\nGet Job Alerts\nReceive notifications when we have open roles and get other relevant career news\nRegister >\nJoin Us\nExplore open roles that match your interests and skills\nSearch Jobs >\nIf you encounter any suspicious mail, advertisements, or persons who offer jobs at Wipro, please email us at  helpdesk.recruitment@wipro.com . Do not email your resume to this ID as it is not monitored for resumes and career applications.\nAny complaints or concerns regarding unethical/unfair hiring practices should be directed to our Ombuds Group at  ombuds.person@wipro.com .\nWe are an Equal Opportunity Employer. All qualified applicants will receive consideration for employment without regard to race, color, caste, creed, religion, gender, marital status, age, ethnic and national origin, gender identity, gender expression, sexual orientation, political orientation, disability status, protected veteran status, or any other characteristic protected by law.\nWipro is committed to creating an accessible, supportive, and inclusive workplace. Reasonable accommodation will be provided to all applicants including persons with disabilities, throughout the recruitment and selection process. Accommodations must be communicated in advance of the application, where possible, and will be reviewed on an individual basis. Wipro provides equal opportunities to all and values diversity.\nWipro.com\nExplore All Jobs\nPrivacy policy\nTerms of use\nFraud Awareness\nWipro Locations\nCookie Consent Manager\nOpens in a new tab.\nWhen you visit any website, it may store or retrieve information on your browser, mostly in the form of cookies. Because we respect your right to privacy, you can choose not to allow some types of cookies. However, blocking some types of cookies may impact your experience of the site and the services we are able to offer.\nRequired Cookies\nThese cookies are required to use this website and can't be turned off.\nShow More Details\nProvider\nDescription\nEnabled\nSAP as service provider\nWe use the following session cookies, which are all required to enable the website to function:\n\"route\" is used for session stickiness\n\"careerSiteCompanyId\" is used to send the request to the correct data center\n\"JSESSIONID\" is placed on the visitor's device during the session so the server can identify the visitor\n\"Load balancer cookie\" (actual cookie name may vary) prevents a visitor from bouncing from one instance to another\nCookies from provider SAPasserviceprovider are required and cannot be turned off\nFunctional Cookies\nThese cookies provide a better customer experience on this site, such as by remembering your login details, optimizing video performance, or providing us with information about how our site is used. You may freely choose to accept or decline these cookies at any time. Note that certain functionalities that these third-parties make avai",
+  "posted_at": "",
+  "source": "sitemap",
+  "department": "",
+  "employment_type": "",
+  "sponsorship": null,
+  "salary_eur": null,
+  "permit_route": null,
+  "score": 18,
+  "band": "weak",
+  "breakdown": [
+   {
+    "label": "Role fit",
+    "points": 0,
+    "note": "This job title is not one your CV qualifies you for — capped accordingly"
+   },
+   {
+    "label": "Early careers",
+    "points": 12,
+    "note": "Flagged as early careers"
+   },
+   {
+    "label": "Tools you have",
+    "points": 0,
+    "note": "Names none of the tools you actually use"
+   },
+   {
+    "label": "How you already work",
+    "points": 1,
+    "note": "Mentions stakeholder — the way you worked at TCS"
+   },
+   {
+    "label": "Industry fit",
+    "points": 0,
+    "note": "Not in insurance, finance or operations"
+   },
+   {
+    "label": "Location",
+    "points": 7,
+    "note": "Ireland"
+   },
+   {
+    "label": "Sponsorship",
+    "points": 6,
+    "note": "Issued 3 employment permit(s) this year"
+   },
+   {
+    "label": "Technical gap",
+    "points": -8,
+    "note": "Wants aws — not on your CV"
+   }
+  ],
+  "sponsor_tier": 3,
+  "permits": 3,
+  "company_site": "https://careers.wipro.com/content/Early-Careers/?locale=en_US",
+  "first_seen": "2026-09-17T15:04:34+00:00",
+  "is_new": true,
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "c6ac0c7b393c0a12",
@@ -74347,7 +74732,7 @@
   "company_site": "",
   "first_seen": "2026-09-01T22:41:03+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "9d2da3403df0a55d",
@@ -74402,7 +74787,7 @@
   "company_site": "https://careers.iconplc.com/",
   "first_seen": "2026-09-01T22:41:03+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "0312cc6251b0107a",
@@ -74462,7 +74847,7 @@
   "company_site": "https://jobs.fidelity.com/",
   "first_seen": "2026-09-01T22:41:03+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "9195ace87eb6fffe",
@@ -74527,7 +74912,7 @@
   "company_site": "https://expleo.com/global/en/careers/",
   "first_seen": "2026-09-01T22:41:03+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "2e47da60c3fca0d1",
@@ -74587,7 +74972,7 @@
   "company_site": "https://careers.stryker.com/",
   "first_seen": "2026-09-02T01:29:46+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "03652c3eee0d40f2",
@@ -76945,7 +77330,7 @@
   "company_site": "",
   "first_seen": "2026-09-11T01:24:55+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "eed99fca9b1b43c9",
@@ -77132,6 +77517,61 @@
   "last_seen": "2026-09-17T11:48:30+00:00"
  },
  {
+  "id": "3bb8da08680035e5",
+  "title": "Jobs In North America",
+  "company": "ICON plc",
+  "location": "",
+  "url": "https://careers.iconplc.com/jobs-in-north-america",
+  "description": "Jobs in US\nICON in North America\nWith an established footprint in North America, ICON stands as a leading CRO, blending global presence with regional expertise. Having successfully managed numerous research projects across the continent, our North American teams are at the forefront of innovative clinical research.\nOur North American teams operate across various states and provinces, showcasing the capability and expertise to conduct clinical trial and development projects on a local, cross-region, and global scale.\nWe're looking for passionate professionals who are eager to contribute their skills and creativity to a team that's shaping the future of healthcare. With ICON, you'll have the chance to work on both local and global projects, leveraging our extensive network and world-class resources.\nView Jobs in North America\nOur Culture\nICON's culture is defined by our dedicated, diverse, and innovative workforce.\nOur teams in North America embody this spirit by bringing a unique blend of dedication, innovation, and teamwork, where every member plays a vital role in shaping the future of medicine.\nInclusion & Belonging\nWe're committed to building a workplace that celebrates different backgrounds, perspectives, and talents.\nJoin our team in North America and be part of a culture that promotes inclusivity, and empowers success.\nInnovation & Excellence\nLeading the way in cutting-edge medical solutions, our teams are dedicated to setting new benchmarks in healthcare.\nOur commitment to excellent shines through in our investment in advanced technology, collaboration with industry-leading clients, and adherence to the highest quality standards.\nOffice Locations - USA\nCalifornia\nCare Innovations\n950 Iron Point Road\nSuite 160\nFolsom, CA 95630\nView Jobs\nIllinois\nICON Clinical Research\n3 Parkway North Blvd\nSuite 200\nDeerfield IL, 60015\nKansas\n9755 Ridge Dr\nLenexa, KS 66219\nKCIB – Lenexa Bioanalytical Laboratory\n10836 Strang Line Road\nLenexa, KS 66215\nKentucky\n3101 Beaumont Centre Circle\nSuite 275\nLexington, KY 40513\nMassachusetts\nILS MolecularMD\n840 Memorial Drive, 1st Floor\nCambridge, MA 02139\nNew York\nICON Central Laboratory\n123 Smith Street\nFarmingdale\nNY 11735\nICON Laboratory Services\n8282 Halsey Rd\nWhitesboro, NY 13492\nNorth Carolina\n4131 Parklake Ave.\nSuite 600\nRaleigh, NC 27612\n1001 Military Cutoff Road\nSuite 201\nWilmington, NC 28405\nOregon\n1341 SW Custer Drive\nPortland OR 97219\nPennsylvania\n731Arbor Way\nSuite 100\nBlue Bell, PA 19422\nTennessee\n320 Seven Springs Way\nSuite 500\nBrentwood, TN 37027\nTexas\nICON Development Solutions, LLC\n8307 Gault Lane\nSan Antonio\nTexas 78209\n2150 Town Square Place\nSuite 220\nSugar Land, TX 77479\nUtah\n1255 East 3900 South\nSalt Lake City\nUT 84124\njobs\nRoles in this area at ICON\nScientist I (Lab Analyst I) - Ligand Binding Assay\nSalary\nLocation\nUS, Lenexa KCIB (PRA)\nDepartment\nFull Service - Early Clinical and Bioanalytical Solutions\nLenexa\nRemote Working\nOffice Based\nBusiness Area\nICON Full Service & Corporate Support\nJob Categories\nLaboratory Support\nJob Type\nPermanent\nDescription\nLooking to grow your career in support of real scientific advancements that bring new medicine to patients? ICON's bioanalytical teams in the Greater Kansas City area are growing! Join a culture that\nReference\nJR160399\nExpiry date\n01/01/0001\nAuthor\nKennedy Malone\nRead more\nShortlist Save this role\nScientist II (Lab Analyst II) - LCMS\nLooking to grow your career in support of real scientific advancements that bring new medicine to patients? Our bioanalytical teams in the Greater Kansas City area are growing! Join a culture that val\nJR159480\nLab Analyst I (MLT/MT/ASCP)\nUS, San Antonio, TX 78232\nHybrid\nTemporary Employee\nAs a Lab Analyst I at ICON, you will be responsible for conducting routine laboratory tests and analyses to support clinical research studies. You will maintaining accurate data, adhering to standard\nJR159118\nStephanie Curran\nSenior Clinical Research Associate\nCanada, Burlington\nToronto\nBurlington\nRemote\nICON Strategic Solutions (FSP)\nClinical Monitoring\nAs a Senior CRA at ICON Plc, you will oversee and manage clinical trial activities to ensure they are conducted according to protocol, regulatory requirements, and industry standards. We are looking f\nJR160167\nJamie Pruitt\nCanada, Montreal\nMontreal\nQuebec City\nJR160175\nOutsourcing Manager\nUS, Blue Bell (ICON)\nBlue Bell\nProcurement\nAs a Outsourcing Manager at ICON, you lead the contracting lifecycle for complex external vendor engagements, partnering with internal stakeholders and service providers to negotiate commercially soun\nJR159658\nBrandon Pupek\nJr. Scientist II/X-Ray Crystallographer\nMaryland\nResearch and Development\nAs a Research Scientist at ICON, you will lead and conduct scientific research aimed at advancing clinical trials and develop innovative therapies.What You Will Do:You will contribute to clinical rese\nJR160390\nKaitlyn Lurker\nSenior Supervising Radiologist\nFull Service - Development & Commercialisation Solutions\nDublin\nReading\nRemote or Office\nDrug / Device Regulatory Affairs\nWe are currently seeking a Senior Supervising Radiologist to join our diverse and dynamic Medical & Scientific Affairs team within ICON’s Medical Imaging group. In this role, you will provide senior m\nJR158306\nLindsey Eltzroth\nManager, Clinical Operations\nClinical Trial Management\nAs a Clinical Trial Manager at ICON, you will manage clinical trial operations activities, supporting your team and stakeholders to deliver high-quality outcomes across our clinical programmes.What Yo\nJR159978\nMelissa Benner\nEMT / Phlebotomist/Medical Assistant (Medical Research Associate)\nClinic\nTitle: EMT/Phlebotomist/ Medical Assistant (Medical Research Associate)Location: 100% on site San Antonio TX 78232Job Type: PRN/As NeededShift/Schedule: Seeking candidates who can work a minimum 4 day\nJR159668\nClinical Trial Manager\nWhat you will be doing:This role is accountable for performance and compliance for assigned protocols in a country in compliance with IC",
+  "posted_at": "",
+  "source": "joblinks",
+  "department": "",
+  "employment_type": "",
+  "sponsorship": null,
+  "salary_eur": null,
+  "permit_route": null,
+  "score": 17,
+  "band": "weak",
+  "breakdown": [
+   {
+    "label": "Role fit",
+    "points": 0,
+    "note": "This job title is not one your CV qualifies you for — capped accordingly"
+   },
+   {
+    "label": "Early careers",
+    "points": 0,
+    "note": "No graduate/junior/internship signal"
+   },
+   {
+    "label": "Tools you have",
+    "points": 0,
+    "note": "Names none of the tools you actually use"
+   },
+   {
+    "label": "Industry fit",
+    "points": 0,
+    "note": "Not in insurance, finance or operations"
+   },
+   {
+    "label": "Location",
+    "points": 10,
+    "note": "Dublin"
+   },
+   {
+    "label": "Sponsorship",
+    "points": 7,
+    "note": "Documented sponsor in your employer research"
+   }
+  ],
+  "sponsor_tier": 3,
+  "permits": 0,
+  "company_site": "https://careers.iconplc.com/",
+  "first_seen": "2026-09-11T01:50:24+00:00",
+  "is_new": false,
+  "last_seen": "2026-09-17T15:04:34+00:00"
+ },
+ {
   "id": "73de3c9d94a34d61",
   "title": "Career Days Greece 2026",
   "company": "Coca-Cola HBC Ireland",
@@ -77253,7 +77693,7 @@
   "company_site": "https://www.version1.com/careers",
   "first_seen": "2026-09-11T13:01:40+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "4845509941c61868",
@@ -77678,7 +78118,7 @@
   "company_site": "https://careers.primark.com/en/location/ireland-jobs/30423/2963597/2",
   "first_seen": "2026-09-16T06:51:17+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "0f327437392f291a",
@@ -77737,7 +78177,7 @@
   "permits": 3,
   "company_site": "https://careers.wipro.com/content/Early-Careers/?locale=en_US",
   "first_seen": "2026-09-16T12:11:44+00:00",
-  "is_new": true,
+  "is_new": false,
   "last_seen": "2026-09-16T12:11:44+00:00",
   "closed": true,
   "closed_at": "2026-09-16T16:38:49+00:00"
@@ -77799,7 +78239,7 @@
   "permits": 3,
   "company_site": "https://careers.wipro.com/content/Early-Careers/?locale=en_US",
   "first_seen": "2026-09-16T12:11:44+00:00",
-  "is_new": true,
+  "is_new": false,
   "last_seen": "2026-09-16T12:11:44+00:00",
   "closed": true,
   "closed_at": "2026-09-16T16:38:49+00:00"
@@ -78173,7 +78613,9 @@
   "company_site": "https://careers.wipro.com/content/Early-Careers/?locale=en_US",
   "first_seen": "2026-09-17T11:48:30+00:00",
   "is_new": true,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T11:48:30+00:00",
+  "closed": true,
+  "closed_at": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "504a2effb2c6f656",
@@ -78288,7 +78730,7 @@
   "company_site": "https://careers.datadoghq.com",
   "first_seen": "2026-09-01T16:15:25+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "291337ccf6e68732",
@@ -78343,7 +78785,7 @@
   "company_site": "https://careers.datadoghq.com",
   "first_seen": "2026-09-01T16:15:25+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "f1f63517ff285e0d",
@@ -78398,7 +78840,7 @@
   "company_site": "https://careers.datadoghq.com",
   "first_seen": "2026-09-01T16:15:25+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "8b8fc82dbf9ee34a",
@@ -78507,7 +78949,7 @@
   "company_site": "https://careers.datadoghq.com",
   "first_seen": "2026-09-01T16:15:25+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "6943170d22e3587c",
@@ -78562,7 +79004,7 @@
   "company_site": "https://careers.datadoghq.com",
   "first_seen": "2026-09-01T16:15:25+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "79d3754d3bd8baf9",
@@ -78671,7 +79113,7 @@
   "company_site": "https://careers.primark.com/en/location/ireland-jobs/30423/2963597/2",
   "first_seen": "2026-09-01T19:24:15+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "c1a5e35575ed9911",
@@ -78834,7 +79276,7 @@
   "company_site": "https://careers.primark.com/en/location/ireland-jobs/30423/2963597/2",
   "first_seen": "2026-09-01T19:24:15+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "0b4d96639cf9f0d6",
@@ -78889,7 +79331,7 @@
   "company_site": "https://careers.primark.com/en/location/ireland-jobs/30423/2963597/2",
   "first_seen": "2026-09-01T19:24:15+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "1838ab4e5ac5c12b",
@@ -79112,7 +79554,7 @@
   "company_site": "https://careers.primark.com/en/location/ireland-jobs/30423/2963597/2",
   "first_seen": "2026-09-01T19:24:15+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "13bb4c0a039cf612",
@@ -79167,7 +79609,7 @@
   "company_site": "https://careers.primark.com/en/location/ireland-jobs/30423/2963597/2",
   "first_seen": "2026-09-01T19:24:15+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "95fdc9a1b777cb6d",
@@ -79222,7 +79664,7 @@
   "company_site": "https://careers.primark.com/en/location/ireland-jobs/30423/2963597/2",
   "first_seen": "2026-09-01T19:24:15+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "e8b5622ad5f2d62d",
@@ -79442,7 +79884,7 @@
   "company_site": "https://careers.primark.com/en/location/ireland-jobs/30423/2963597/2",
   "first_seen": "2026-09-01T19:24:15+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "29d598354b7b64d1",
@@ -79497,7 +79939,7 @@
   "company_site": "https://careers.primark.com/en/location/ireland-jobs/30423/2963597/2",
   "first_seen": "2026-09-01T19:24:15+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "13f12b861a35bb71",
@@ -79552,7 +79994,7 @@
   "company_site": "https://careers.primark.com/en/location/ireland-jobs/30423/2963597/2",
   "first_seen": "2026-09-01T19:24:15+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "26245ad30be0e53c",
@@ -79666,7 +80108,7 @@
   "company_site": "https://careers.statestreet.com/global/en/search-results",
   "first_seen": "2026-09-01T22:22:46+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "a583ae766ce208d7",
@@ -81838,7 +82280,7 @@
   "company_site": "https://careers.primark.com/en/location/ireland-jobs/30423/2963597/2",
   "first_seen": "2026-09-03T15:03:42+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "70f9ce6d8aacc7a3",
@@ -82320,7 +82762,7 @@
   "company_site": "https://opportunities.vodafone.com/search/?q=&locationsearch=ireland",
   "first_seen": "2026-09-04T15:03:12+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "5084bf304e3d12d8",
@@ -82375,7 +82817,7 @@
   "company_site": "https://careers.primark.com/en/location/ireland-jobs/30423/2963597/2",
   "first_seen": "2026-09-04T15:03:12+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "539355709c3f4175",
@@ -82611,7 +83053,7 @@
   "company_site": "https://careers.amgen.com/",
   "first_seen": "2026-09-04T22:48:41+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "6202f48700a38fef",
@@ -82666,7 +83108,7 @@
   "company_site": "https://www.wayflyer.com/careers",
   "first_seen": "2026-09-05T00:44:47+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "8eb22e18f6eabe93",
@@ -82847,7 +83289,7 @@
   "company_site": "https://opportunities.vodafone.com/search/?q=&locationsearch=ireland",
   "first_seen": "2026-09-07T22:07:13+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "9dd0453b6f6f5013",
@@ -82902,7 +83344,7 @@
   "company_site": "https://careers.primark.com/en/location/ireland-jobs/30423/2963597/2",
   "first_seen": "2026-09-08T16:51:45+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "036feb8dad34d200",
@@ -83068,7 +83510,7 @@
   "company_site": "https://careers.primark.com/en/location/ireland-jobs/30423/2963597/2",
   "first_seen": "2026-09-09T17:24:31+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "7541a1474e154a82",
@@ -83178,7 +83620,9 @@
   "company_site": "https://careers.primark.com/en/location/ireland-jobs/30423/2963597/2",
   "first_seen": "2026-09-10T13:39:56+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T11:48:30+00:00",
+  "closed": true,
+  "closed_at": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "da43460e429e72f6",
@@ -83465,7 +83909,7 @@
   "company_site": "https://careers.stryker.com/",
   "first_seen": "2026-09-11T11:21:14+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "e229ef604e74e8e4",
@@ -83520,7 +83964,7 @@
   "company_site": "https://careers.primark.com/en/location/ireland-jobs/30423/2963597/2",
   "first_seen": "2026-09-11T13:01:40+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "6e994ab433eb913f",
@@ -83575,7 +84019,7 @@
   "company_site": "https://careers.primark.com/en/location/ireland-jobs/30423/2963597/2",
   "first_seen": "2026-09-11T13:01:40+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "8832e0dd74e440ed",
@@ -83960,7 +84404,7 @@
   "company_site": "https://careers.bankofireland.com/",
   "first_seen": "2026-09-11T13:43:29+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "3eeadb40873c8964",
@@ -84015,7 +84459,7 @@
   "company_site": "https://careers.primark.com/en/location/ireland-jobs/30423/2963597/2",
   "first_seen": "2026-09-11T18:34:53+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "878a9408f0994826",
@@ -84132,7 +84576,7 @@
   "company_site": "https://careers.primark.com/en/location/ireland-jobs/30423/2963597/2",
   "first_seen": "2026-09-14T12:29:32+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "686902097c6105ec",
@@ -84734,7 +85178,7 @@
   "company_site": "https://careers.amgen.com/",
   "first_seen": "2026-09-15T15:07:04+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "f5aae6b6167b160c",
@@ -84789,7 +85233,62 @@
   "company_site": "https://careers.amgen.com/",
   "first_seen": "2026-09-15T15:07:04+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
+ },
+ {
+  "id": "3e75eda14518540f",
+  "title": "People & Culture Administrator (FTC - 6 months)",
+  "company": "Primark / Penneys",
+  "location": "Dublin, ie",
+  "url": "https://jobs.smartrecruiters.com/Primark / Penneys/744000149650259",
+  "description": "",
+  "posted_at": "2026-09-15T15:15:17.951Z",
+  "source": "smartrecruiters",
+  "department": "",
+  "employment_type": "Full-time",
+  "sponsorship": null,
+  "salary_eur": null,
+  "permit_route": null,
+  "score": 16,
+  "band": "weak",
+  "breakdown": [
+   {
+    "label": "Role fit",
+    "points": 0,
+    "note": "This job title is not one your CV qualifies you for — capped accordingly"
+   },
+   {
+    "label": "Early careers",
+    "points": 0,
+    "note": "No graduate/junior/internship signal"
+   },
+   {
+    "label": "Tools you have",
+    "points": 0,
+    "note": "Names none of the tools you actually use"
+   },
+   {
+    "label": "Industry fit",
+    "points": 0,
+    "note": "Not in insurance, finance or operations"
+   },
+   {
+    "label": "Location",
+    "points": 10,
+    "note": "Dublin"
+   },
+   {
+    "label": "Sponsorship",
+    "points": 6,
+    "note": "Issued 1 employment permit(s) this year"
+   }
+  ],
+  "sponsor_tier": 3,
+  "permits": 1,
+  "company_site": "https://careers.primark.com/en/location/ireland-jobs/30423/2963597/2",
+  "first_seen": "2026-09-15T18:48:46+00:00",
+  "is_new": false,
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "d10fd4db223a288a",
@@ -84904,7 +85403,7 @@
   "company_site": "https://careers.amgen.com/",
   "first_seen": "2026-09-16T16:38:49+00:00",
   "is_new": true,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "2a111cab1e5efd63",
@@ -85202,7 +85701,7 @@
   "company_site": "https://jobs.apple.com/en-ie/search?location=ireland-IRLC",
   "first_seen": "2026-09-01T22:41:03+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "181da652f51011e1",
@@ -85427,7 +85926,7 @@
   "company_site": "https://careers.amgen.com/",
   "first_seen": "2026-09-02T03:53:37+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "c350522c7e2f7b8c",
@@ -86395,7 +86894,7 @@
   "company_site": "https://careers.marsh.com/global/en/mercer-search",
   "first_seen": "2026-09-08T16:51:45+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "8231d0e6df168167",
@@ -86520,7 +87019,7 @@
   "company_site": "https://opportunities.vodafone.com/search/?q=&locationsearch=ireland",
   "first_seen": "2026-09-09T20:02:10+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "793d1f55b54b89e6",
@@ -86629,7 +87128,7 @@
   "company_site": "https://opportunities.vodafone.com/search/?q=&locationsearch=ireland",
   "first_seen": "2026-09-10T17:18:25+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "b46b59f75419b8c4",
@@ -86684,7 +87183,7 @@
   "company_site": "https://www.musgravegroup.com/careers/",
   "first_seen": "2026-09-11T13:01:40+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "cc530bda460e9099",
@@ -86739,7 +87238,7 @@
   "company_site": "https://www.musgravegroup.com/careers/",
   "first_seen": "2026-09-11T13:01:40+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "481cbcd7e3de86bd",
@@ -86794,7 +87293,7 @@
   "company_site": "https://www.musgravegroup.com/careers/",
   "first_seen": "2026-09-11T13:01:40+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "06e6e805afda20c7",
@@ -86854,7 +87353,7 @@
   "company_site": "https://www.version1.com/careers",
   "first_seen": "2026-09-11T13:01:40+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "eabc3ae7b2187acd",
@@ -87093,7 +87592,7 @@
   "company_site": "https://www.musgravegroup.com/careers/",
   "first_seen": "2026-09-15T10:20:18+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "e372f0c699c554ae",
@@ -87153,7 +87652,7 @@
   "company_site": "https://www.version1.com/careers",
   "first_seen": "2026-09-15T10:20:18+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "33c30103fc0a88c2",
@@ -87208,7 +87707,7 @@
   "company_site": "https://careers.stryker.com/",
   "first_seen": "2026-09-15T15:07:04+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "09e88d4fb7157e56",
@@ -87262,7 +87761,7 @@
   "permits": 7,
   "company_site": "https://www.hse.ie/eng/careers/",
   "first_seen": "2026-09-16T12:11:44+00:00",
-  "is_new": true,
+  "is_new": false,
   "last_seen": "2026-09-17T05:29:22+00:00",
   "closed": true,
   "closed_at": "2026-09-17T10:16:47+00:00"
@@ -87388,6 +87887,66 @@
   "last_seen": "2026-09-16T22:33:36+00:00",
   "closed": true,
   "closed_at": "2026-09-17T00:48:01+00:00"
+ },
+ {
+  "id": "ca0377a5debee928",
+  "title": "UI Developer – Lightspeed | Angular, React & AI",
+  "company": "Citi Ireland",
+  "location": "Dublin  Ireland",
+  "url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Dublin--Ireland/UI-Developer---Lightspeed---Angular--React---AI_26992600",
+  "description": "About the Team Lightspeed is Citi’s internal CI/CD platform, used daily by 10,000+ engineers across the bank. Built using Citi technology and open-source components, it supports the engineering teams delivering technology at scale.\n You’ll join a collaborative UI chapter working on a clean, well-maintained codebase, building the next generation of user experiences for dashboards, pipeline visualisations and configuration editors.\n We value ownership, curiosity and continuous improvement, with AI-assisted development tools forming part of our engineering workflow.\n \n The Role We’re looking for a UI Developer to help build and evolve the user-facing experience of Lightspeed.\n You’ll work across modern Angular and React applications, solving complex engineering challenges and delivering intuitive, reliable interfaces. This is an opportunity to work on a platform used by thousands of engineers, contribute to meaningful technical improvements and develop your expertise within a supportive engineering team.\n You’ll work closely with developers, Product and Design in a hands-on environment where asking questions, sharing ideas and understanding the code you deliver are encouraged.\n \n Key Responsibilities Build, enhance and maintain high-quality UI solutions across Lightspeed, working through a Kanban-based delivery model.\n Develop user-facing features including dashboards, pipeline visualisations and configuration editors.\n Write clean, maintainable and well-tested code across complex frontend applications.\n Work with users and engineering colleagues to diagnose issues and deliver effective solutions.\n Contribute to technical improvements across performance, usability, architecture and code quality.\n Use AI-assisted development tools responsibly, ensuring you understand, validate and test the code you deliver.\n Stay curious about emerging technologies and contribute ideas that improve the platform and how the team works.\n Collaborate with Product, Design and Engineering to deliver solutions that meet user and business needs.\n \n Key Skills & Experience Strong professional experience in frontend/UI development, with solid software engineering fundamentals and confidence working in complex codebases.\n Strong hands-on Angular experience, including modern Angular (v18+). The Lightspeed application currently runs on Angular v21.\n Good experience with React (v18+), including hooks, context and state management.\n Strong TypeScript skills, including strict typing and modern development practices.\n Proficiency in HTML5, CSS3 and responsive design, including Flexbox and Grid.\n Experience with Git, including branching, pull requests, rebasing and code review workflows.\n Practical experience writing and maintaining unit and integration tests, using tools such as Jest, Karma, Cypress or Playwright.\n Experience integrating with REST APIs, with an understanding of GraphQL.\n Practical experience using AI coding assistants such as GitHub Copilot or Cursor.\n Understanding of clean code, SOLID principles and separation of concerns.\n Comfortable working in a Kanban, continuous-delivery environment and collaborating across Product, Design and Engineering.\n Strong communication skills and a willingness to ask questions, share ideas and continuously improve.\n Good working English, both written and spoken.\n \n Additional Experience (Valued, Not Essential) \n Exposure to CI/CD platforms or developer tooling, such as Tekton, Jenkins, Harness or TeamCity.\n Experience with design systems, shared component libraries or frontend architecture patterns such as Nx.\n Background working in enterprise technology, financial services or regulated environments.\n \n What we can offer you \n By joining Citi Dubli n , you will not only be part of a business casual workplace with a hybrid working model (up to 2 days working at home per week), but also receive a competitive base salary (which is annually reviewed ) and enjoy a whole host of additional benefits that support you (and your family) to be well, live well and save well. Discover more here. (opens in new window) \n\n \n\n Alongside these benefits Citi is committed to ensuring our workplace is where everyone feels comfortable coming to work as their whole self every day.  We want the best talent around the world to be energi s ed to join us, motivated to stay, and empowered to thrive. \n\n #LI-AH4 \n\n ------------------------------------------------------ \n Job Family Group: Technology ------------------------------------------------------ \n Job Family: Applications Development ------------------------------------------------------ \n Time Type: Full time ------------------------------------------------------ \n Primary Location Full Time Salary Range: €71,440.00 - €107,160.00 ------------------------------------------------------ \n Most Relevant Skills Please see the requirements listed above. ------------------------------------------------------ \n Other Relevant Skills For complementary skills, please see above and/or contact the recruiter. ------------------------------------------------------ \n Citi is an equal opportunity employer, and qualified candidates will receive consideration without regard to their race, color, religion, sex, sexual orientation, gender identity, national origin, disability, status as a protected veteran, or any other characteristic protected by law. \n   \n If you are a person with a disability and need a reasonable accommodation to use our search tools and/or apply for a career opportunity review Accessibility at Citi . \n\n View Citi’s EEO Policy Statement and the Know Your Rights poster.",
+  "posted_at": "2026-09-17T00:00:00+00:00",
+  "source": "workday",
+  "department": "",
+  "employment_type": "",
+  "sponsorship": null,
+  "salary_eur": 107160,
+  "permit_route": "critical_skills",
+  "score": 15,
+  "band": "weak",
+  "breakdown": [
+   {
+    "label": "Role fit",
+    "points": 0,
+    "note": "This job title is not one your CV qualifies you for — capped accordingly"
+   },
+   {
+    "label": "Early careers",
+    "points": 0,
+    "note": "No graduate/junior/internship signal"
+   },
+   {
+    "label": "Tools you have",
+    "points": 5,
+    "note": "Wants dashboards — all on your CV"
+   },
+   {
+    "label": "Industry fit",
+    "points": 8,
+    "note": "Banking & markets employer — the sector your experience is in"
+   },
+   {
+    "label": "Location",
+    "points": 10,
+    "note": "Dublin"
+   },
+   {
+    "label": "Sponsorship",
+    "points": 7,
+    "note": "Documented sponsor in your employer research"
+   },
+   {
+    "label": "Technical gap",
+    "points": -15,
+    "note": "Wants angular, react, software engineer — not on your CV"
+   }
+  ],
+  "sponsor_tier": 3,
+  "permits": 0,
+  "company_site": "https://jobs.citi.com/location/dublin-jobs/287/2963597-7521314-7778677-2964574/4",
+  "first_seen": "2026-09-17T15:04:34+00:00",
+  "is_new": true,
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "049f90e772eb4f8b",
@@ -87676,7 +88235,7 @@
   "company_site": "https://careers.statestreet.com/global/en/search-results",
   "first_seen": "2026-09-01T22:22:46+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "6025df63ed760b9f",
@@ -87731,7 +88290,7 @@
   "company_site": "https://www.tp.com/en-ie/locations/ireland/careers/",
   "first_seen": "2026-09-01T22:41:03+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "1b5f4582f77e3d31",
@@ -87840,7 +88399,7 @@
   "company_site": "https://jobs.iqvia.com/",
   "first_seen": "2026-09-01T22:41:03+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "a85f7053d265a84e",
@@ -87895,7 +88454,7 @@
   "company_site": "https://jobs.iqvia.com/",
   "first_seen": "2026-09-01T22:41:03+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "c341525ec4405cf6",
@@ -90370,7 +90929,7 @@
   "company_site": "https://www.vistra.com/careers",
   "first_seen": "2026-09-11T13:01:40+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "2d626982af006f50",
@@ -91059,7 +91618,7 @@
   "company_site": "https://www.vistra.com/careers",
   "first_seen": "2026-09-12T22:48:35+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "d8e5cf101ebf2a48",
@@ -91526,7 +92085,9 @@
   "company_site": "https://careers.wtwco.com/",
   "first_seen": "2026-09-15T00:41:24+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T11:48:30+00:00",
+  "closed": true,
+  "closed_at": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "b101bd42600c5d05",
@@ -91703,6 +92264,171 @@
   "last_seen": "2026-09-17T11:48:30+00:00"
  },
  {
+  "id": "44b3e0ac2ecd3ca7",
+  "title": "Analista De Riscos Sr Sao Paulo State Of Sao Paulo Brazil",
+  "company": "WTW Ireland (Willis Towers Watson)",
+  "location": "",
+  "url": "https://careers.wtwco.com/jobs/analista-de-riscos-sr-sao-paulo-state-of-sao-paulo-brazil",
+  "description": "",
+  "posted_at": "",
+  "source": "sitemap",
+  "department": "",
+  "employment_type": "",
+  "sponsorship": null,
+  "salary_eur": null,
+  "permit_route": null,
+  "score": 14,
+  "band": "weak",
+  "breakdown": [
+   {
+    "label": "Role fit",
+    "points": 0,
+    "note": "This job title is not one your CV qualifies you for — capped accordingly"
+   },
+   {
+    "label": "Early careers",
+    "points": 0,
+    "note": "No graduate/junior/internship signal"
+   },
+   {
+    "label": "Tools you have",
+    "points": 0,
+    "note": "Names none of the tools you actually use"
+   },
+   {
+    "label": "Industry fit",
+    "points": 8,
+    "note": "Pensions & risk consulting employer — the sector your experience is in"
+   },
+   {
+    "label": "Location",
+    "points": 0,
+    "note": "Location unclear"
+   },
+   {
+    "label": "Sponsorship",
+    "points": 6,
+    "note": "Issued 3 employment permit(s) this year"
+   }
+  ],
+  "sponsor_tier": 3,
+  "permits": 3,
+  "company_site": "https://careers.wtwco.com/",
+  "first_seen": "2026-09-17T15:04:34+00:00",
+  "is_new": true,
+  "last_seen": "2026-09-17T15:04:34+00:00"
+ },
+ {
+  "id": "8bf5bd7a408e20c7",
+  "title": "Gerente Tecnico Sao Paulo State Of Sao Paulo Brazil",
+  "company": "WTW Ireland (Willis Towers Watson)",
+  "location": "",
+  "url": "https://careers.wtwco.com/jobs/gerente-tecnico-sao-paulo-state-of-sao-paulo-brazil",
+  "description": "",
+  "posted_at": "",
+  "source": "sitemap",
+  "department": "",
+  "employment_type": "",
+  "sponsorship": null,
+  "salary_eur": null,
+  "permit_route": null,
+  "score": 14,
+  "band": "weak",
+  "breakdown": [
+   {
+    "label": "Role fit",
+    "points": 0,
+    "note": "This job title is not one your CV qualifies you for — capped accordingly"
+   },
+   {
+    "label": "Early careers",
+    "points": 0,
+    "note": "No graduate/junior/internship signal"
+   },
+   {
+    "label": "Tools you have",
+    "points": 0,
+    "note": "Names none of the tools you actually use"
+   },
+   {
+    "label": "Industry fit",
+    "points": 8,
+    "note": "Pensions & risk consulting employer — the sector your experience is in"
+   },
+   {
+    "label": "Location",
+    "points": 0,
+    "note": "Location unclear"
+   },
+   {
+    "label": "Sponsorship",
+    "points": 6,
+    "note": "Issued 3 employment permit(s) this year"
+   }
+  ],
+  "sponsor_tier": 3,
+  "permits": 3,
+  "company_site": "https://careers.wtwco.com/",
+  "first_seen": "2026-09-17T15:04:34+00:00",
+  "is_new": true,
+  "last_seen": "2026-09-17T15:04:34+00:00"
+ },
+ {
+  "id": "527aefec13a32525",
+  "title": "Especialista De Sinistro Sao Paulo State Of Sao Paulo Brazil",
+  "company": "WTW Ireland (Willis Towers Watson)",
+  "location": "",
+  "url": "https://careers.wtwco.com/jobs/especialista-de-sinistro-sao-paulo-state-of-sao-paulo-brazil",
+  "description": "",
+  "posted_at": "",
+  "source": "sitemap",
+  "department": "",
+  "employment_type": "",
+  "sponsorship": null,
+  "salary_eur": null,
+  "permit_route": null,
+  "score": 14,
+  "band": "weak",
+  "breakdown": [
+   {
+    "label": "Role fit",
+    "points": 0,
+    "note": "This job title is not one your CV qualifies you for — capped accordingly"
+   },
+   {
+    "label": "Early careers",
+    "points": 0,
+    "note": "No graduate/junior/internship signal"
+   },
+   {
+    "label": "Tools you have",
+    "points": 0,
+    "note": "Names none of the tools you actually use"
+   },
+   {
+    "label": "Industry fit",
+    "points": 8,
+    "note": "Pensions & risk consulting employer — the sector your experience is in"
+   },
+   {
+    "label": "Location",
+    "points": 0,
+    "note": "Location unclear"
+   },
+   {
+    "label": "Sponsorship",
+    "points": 6,
+    "note": "Issued 3 employment permit(s) this year"
+   }
+  ],
+  "sponsor_tier": 3,
+  "permits": 3,
+  "company_site": "https://careers.wtwco.com/",
+  "first_seen": "2026-09-17T15:04:34+00:00",
+  "is_new": true,
+  "last_seen": "2026-09-17T15:04:34+00:00"
+ },
+ {
   "id": "c1bf143295dfcc40",
   "title": "Common Myths of Cloud Computing Adoption",
   "company": "LTIMindtree Ireland",
@@ -91817,7 +92543,7 @@
   "company_site": "https://jobs.fidelity.com/",
   "first_seen": "2026-09-01T22:41:03+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "ce6236ca86fb7955",
@@ -92197,7 +92923,7 @@
   "company_site": "https://www.novonordisk.com/careers.html",
   "first_seen": "2026-09-02T04:08:24+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "1914e6f67f783454",
@@ -94341,7 +95067,7 @@
   "company_site": "https://careers.mastercard.com/us/en/dublin-ireland",
   "first_seen": "2026-09-11T18:34:53+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "4af28f4fe91393dc",
@@ -94704,7 +95430,7 @@
   "company_site": "https://careers.amgen.com/",
   "first_seen": "2026-09-14T21:59:07+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "fb24f82623eb65fe",
@@ -94820,7 +95546,7 @@
   "permits": 3,
   "company_site": "https://careers.wipro.com/content/Early-Careers/?locale=en_US",
   "first_seen": "2026-09-16T12:11:44+00:00",
-  "is_new": true,
+  "is_new": false,
   "last_seen": "2026-09-16T12:11:44+00:00",
   "closed": true,
   "closed_at": "2026-09-16T16:38:49+00:00"
@@ -94882,8 +95608,8 @@
   "permits": 1,
   "company_site": "https://careers.primark.com/en/location/ireland-jobs/30423/2963597/2",
   "first_seen": "2026-09-16T12:11:44+00:00",
-  "is_new": true,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "is_new": false,
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "c8aecd37828febb8",
@@ -95181,7 +95907,7 @@
   "company_site": "",
   "first_seen": "2026-09-01T22:41:03+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "6071f9d5809511be",
@@ -95511,7 +96237,7 @@
   "company_site": "https://www.novonordisk.com/careers.html",
   "first_seen": "2026-09-02T04:08:24+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "aa5efdec3e12487e",
@@ -95576,7 +96302,7 @@
   "company_site": "https://www.novonordisk.com/careers.html",
   "first_seen": "2026-09-02T04:08:24+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "e5c018d1c5e025ba",
@@ -95762,7 +96488,7 @@
   "company_site": "https://life-careers.com/irishlife/go/All-Jobs/3805301/",
   "first_seen": "2026-09-02T21:22:21+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "06295b5e3e9dda93",
@@ -95822,7 +96548,7 @@
   "company_site": "https://careers.marsh.com/global/en/mercer-search",
   "first_seen": "2026-09-02T21:22:21+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "f89468472f5656b1",
@@ -96422,7 +97148,7 @@
   "company_site": "https://life-careers.com/search-jobs",
   "first_seen": "2026-09-07T19:16:31+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "eeccffbd0f2d0713",
@@ -96799,7 +97525,7 @@
   "company_site": "https://expleo.com/global/en/careers/",
   "first_seen": "2026-09-11T13:01:40+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "fa35b2619d340565",
@@ -97391,7 +98117,7 @@
   "company_site": "https://www.three.ie/careers",
   "first_seen": "2026-09-01T22:41:03+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "ec231a377efc8710",
@@ -99922,7 +100648,7 @@
   "company_site": "https://www.letsgetchecked.com/careers",
   "first_seen": "2026-09-05T00:44:47+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "3be6f610ba06ddee",
@@ -100882,7 +101608,7 @@
   "company_site": "https://www.mongodb.com/company/careers",
   "first_seen": "2026-09-11T13:01:40+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "e1a61972779c5832",
@@ -100947,7 +101673,9 @@
   "company_site": "https://careers.wipro.com/content/Early-Careers/?locale=en_US",
   "first_seen": "2026-09-11T13:01:40+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T11:48:30+00:00",
+  "closed": true,
+  "closed_at": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "5be0d92864bc3fdd",
@@ -101012,7 +101740,7 @@
   "company_site": "https://www.wayflyer.com/careers",
   "first_seen": "2026-09-11T13:01:40+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "ed374aa6988aaa4c",
@@ -101077,7 +101805,7 @@
   "company_site": "https://www.wayflyer.com/careers",
   "first_seen": "2026-09-11T13:01:40+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "a467d05e8357a0f3",
@@ -101811,7 +102539,7 @@
   "permits": 7,
   "company_site": "https://www.hse.ie/eng/careers/",
   "first_seen": "2026-09-16T12:11:44+00:00",
-  "is_new": true,
+  "is_new": false,
   "last_seen": "2026-09-16T12:11:44+00:00",
   "closed": true,
   "closed_at": "2026-09-16T16:38:49+00:00"
@@ -101868,7 +102596,7 @@
   "permits": 0,
   "company_site": "https://www.ornua.com/careers/",
   "first_seen": "2026-09-16T12:11:44+00:00",
-  "is_new": true,
+  "is_new": false,
   "last_seen": "2026-09-16T19:54:05+00:00",
   "closed": true,
   "closed_at": "2026-09-17T10:16:47+00:00"
@@ -102040,7 +102768,7 @@
   "company_site": "https://www.sse.com/careers/",
   "first_seen": "2026-09-16T16:38:49+00:00",
   "is_new": true,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "c2774a7d8a0078ec",
@@ -103075,68 +103803,6 @@
   "closed_at": "2026-09-11T06:16:59+00:00"
  },
  {
-  "id": "3bb8da08680035e5",
-  "title": "Jobs In North America",
-  "company": "ICON plc",
-  "location": "",
-  "url": "https://careers.iconplc.com/jobs-in-north-america",
-  "description": "Jobs in US\nICON in North America\nWith an established footprint in North America, ICON stands as a leading CRO, blending global presence with regional expertise. Having successfully managed numerous research projects across the continent, our North American teams are at the forefront of innovative clinical research.\nOur North American teams operate across various states and provinces, showcasing the capability and expertise to conduct clinical trial and development projects on a local, cross-region, and global scale.\nWe're looking for passionate professionals who are eager to contribute their skills and creativity to a team that's shaping the future of healthcare. With ICON, you'll have the chance to work on both local and global projects, leveraging our extensive network and world-class resources.\nView Jobs in North America\nOur Culture\nICON's culture is defined by our dedicated, diverse, and innovative workforce.\nOur teams in North America embody this spirit by bringing a unique blend of dedication, innovation, and teamwork, where every member plays a vital role in shaping the future of medicine.\nInclusion & Belonging\nWe're committed to building a workplace that celebrates different backgrounds, perspectives, and talents.\nJoin our team in North America and be part of a culture that promotes inclusivity, and empowers success.\nInnovation & Excellence\nLeading the way in cutting-edge medical solutions, our teams are dedicated to setting new benchmarks in healthcare.\nOur commitment to excellent shines through in our investment in advanced technology, collaboration with industry-leading clients, and adherence to the highest quality standards.\nOffice Locations - USA\nCalifornia\nCare Innovations\n950 Iron Point Road\nSuite 160\nFolsom, CA 95630\nView Jobs\nIllinois\nICON Clinical Research\n3 Parkway North Blvd\nSuite 200\nDeerfield IL, 60015\nKansas\n9755 Ridge Dr\nLenexa, KS 66219\nKCIB – Lenexa Bioanalytical Laboratory\n10836 Strang Line Road\nLenexa, KS 66215\nKentucky\n3101 Beaumont Centre Circle\nSuite 275\nLexington, KY 40513\nMassachusetts\nILS MolecularMD\n840 Memorial Drive, 1st Floor\nCambridge, MA 02139\nNew York\nICON Central Laboratory\n123 Smith Street\nFarmingdale\nNY 11735\nICON Laboratory Services\n8282 Halsey Rd\nWhitesboro, NY 13492\nNorth Carolina\n4131 Parklake Ave.\nSuite 600\nRaleigh, NC 27612\n1001 Military Cutoff Road\nSuite 201\nWilmington, NC 28405\nOregon\n1341 SW Custer Drive\nPortland OR 97219\nPennsylvania\n731Arbor Way\nSuite 100\nBlue Bell, PA 19422\nTennessee\n320 Seven Springs Way\nSuite 500\nBrentwood, TN 37027\nTexas\nICON Development Solutions, LLC\n8307 Gault Lane\nSan Antonio\nTexas 78209\n2150 Town Square Place\nSuite 220\nSugar Land, TX 77479\nUtah\n1255 East 3900 South\nSalt Lake City\nUT 84124\njobs\nRoles in this area at ICON\nManager of Study Start Up\nSalary\nLocation\nUS, Blue Bell (ICON)\nBlue Bell\nRemote Working\nRemote\nBusiness Area\nICON Strategic Solutions (FSP)\nJob Categories\nStudy Start Up\nJob Type\nPermanent\nDescription\nAs a Manager, Study Start Up at ICON, you will lead and oversee the start-up activities for clinical trials, ensuring that all processes are completed efficiently and in compliance with regulatory req\nReference\nJR156394\nExpiry date\n01/01/0001\nAuthor\nMelissa Benner\nRead more\nShortlist Save this role\nLaboratory Assistant- Early Phase Clinical Research\nUS, Salt Lake City (PRA)\nDepartment\nFull Service - Early Clinical and Bioanalytical Solutions\nOffice Based\nICON Full Service & Corporate Support\nLaboratory Support\nTemporary Employee\nTitle: Laboratory Assistant- Early Phase Clinical ResearchJob Type: PRN/As NeededDesired Shift/Schedule: Saturday- Sunday with availability to be scheduled between 9 PM-7 AM. This is a PRN/as-needed p\nJR160044\nStephanie Curran\nTitle: Laboratory Assistant- Early Phase Clinical ResearchJob Type: PRN/As NeededDesired Shift/Schedule: M-F with availability to be scheduled between 6 AM-5 PM. This is a PRN/As-needed position, and\nJR160041\nTitle: Laboratory Assistant- Early Phase Clinical ResearchJob Type: PRN/As NeededDesired Shift/Schedule: M-F with availability to be scheduled between 4 PM-1 AM. This is a PRN/As-needed position, and\nJR160042\nTitle: Laboratory Assistant- Early Phase Clinical ResearchJob Type: PRN/As NeededDesired Shift/Schedule: M-F with availability to be scheduled between 9 PM-7 AM. This is a PRN/As-needed position, and\nJR160039\nClinical Research Associate\nClinical Monitoring\nAs a CRA II at ICON, you will design and analyze clinical trials, interpreting complex medical data, and contribute to the advancement of innovative treatments and therapies. This position is sponsor\nJR160257\nJamie Pruitt\nStudy Coordinator\nWashington\nClinical Research Site Services\nAs a Clinical Study Coordinator at ICON, you will design and analyse clinical trials, interpreting complex medical data, and contribute to the advancement of innovative treatments and therapies. What\nJR160063\nLab Analyst III\nUS, Lenexa KCIB (PRA)\nLenexa\nWe're currently seeking a Lab Analyst III to join a team of bioanalytical professionals supporting groundbreaking clinical research.As a Lab Analyst III you will be responsible for conducting analytic\nJR158895\nKennedy Malone\nLaboratory Assistant-Early Phase Clinical Research\nUS, San Antonio, TX 78232\nTitle: Laboratory AssistantJob Type: PRN/As NeededShift/Schedule: M-F 7 AM-3 PM (with occasional weekends)What You Will Do: You will provide essential support to laboratory operations by assisting wit\nJR158076\nInvestigator Pricing Analyst\nAccounting & Finance\nAs an Investigator Pricing Analyst at ICON, you will determine fair market value pricing for investigator services, ensuring compliance with regulations, and support the financial aspects of clinical\nJR159836\nCRA\nMultiple US Locations\nAs a CRA II at ICON, you will design and analyse clinical trials, interpreting complex medical data, and contribute to the advancement of innovative treatments and therapies.What You Will Do:You will\nJR157374\nKristen Reisenauer\nMedical Technologist II\nUS, Farmingdale, NY\nFull Se",
-  "posted_at": "",
-  "source": "joblinks",
-  "department": "",
-  "employment_type": "",
-  "sponsorship": null,
-  "salary_eur": null,
-  "permit_route": null,
-  "score": 10,
-  "band": "weak",
-  "breakdown": [
-   {
-    "label": "Role fit",
-    "points": 0,
-    "note": "This job title is not one your CV qualifies you for — capped accordingly"
-   },
-   {
-    "label": "Early careers",
-    "points": 0,
-    "note": "No graduate/junior/internship signal"
-   },
-   {
-    "label": "Tools you have",
-    "points": 0,
-    "note": "Names none of the tools you actually use"
-   },
-   {
-    "label": "Industry fit",
-    "points": 0,
-    "note": "Not in insurance, finance or operations"
-   },
-   {
-    "label": "Location",
-    "points": 0,
-    "note": "Location unclear"
-   },
-   {
-    "label": "Sponsorship",
-    "points": 7,
-    "note": "Documented sponsor in your employer research"
-   },
-   {
-    "label": "Shift work",
-    "points": 3,
-    "note": "Shift pattern - you already did a year of permanent nights"
-   }
-  ],
-  "sponsor_tier": 3,
-  "permits": 0,
-  "company_site": "https://careers.iconplc.com/",
-  "first_seen": "2026-09-11T01:50:24+00:00",
-  "is_new": false,
-  "last_seen": "2026-09-17T10:16:47+00:00",
-  "closed": true,
-  "closed_at": "2026-09-17T11:48:30+00:00"
- },
- {
   "id": "7da3a9c415f5b7bf",
   "title": "Jobs by Category",
   "company": "eBay Ireland",
@@ -103589,7 +104255,7 @@
   "company_site": "https://careers.stryker.com/",
   "first_seen": "2026-09-11T13:01:40+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "d915881d6444645f",
@@ -103972,7 +104638,7 @@
   "company_site": "",
   "first_seen": "2026-09-15T15:07:04+00:00",
   "is_new": false,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  },
  {
   "id": "a4c1526c15c2ec5f",
@@ -104328,6 +104994,6 @@
   "company_site": "https://careers.primark.com/en/location/ireland-jobs/30423/2963597/2",
   "first_seen": "2026-09-17T10:16:47+00:00",
   "is_new": true,
-  "last_seen": "2026-09-17T11:48:30+00:00"
+  "last_seen": "2026-09-17T15:04:34+00:00"
  }
 ]
