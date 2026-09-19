@@ -1,84 +1,29 @@
 {
- "last_run": "2026-09-19T06:11:34+00:00",
+ "last_run": "2026-09-19T10:59:49+00:00",
  "companies_total": 264,
- "companies_scanned": 175,
- "boards_failed": 13,
- "raw_postings": 13252,
- "relevant_jobs": 1877,
+ "companies_scanned": 164,
+ "boards_failed": 2,
+ "raw_postings": 16502,
+ "relevant_jobs": 1881,
  "min_score": 10,
- "new_this_run": 83,
+ "new_this_run": 81,
  "by_band": {
   "excellent": 62,
   "strong": 75,
   "decent": 70,
-  "stretch": 200,
-  "weak": 1470
+  "stretch": 201,
+  "weak": 1473
  },
  "top_errors": [
   {
-   "company": "PayPal Ireland",
+   "company": "Crowe Ireland",
    "ats": "joblinks",
-   "error": "found 1 job links but none were readable"
+   "error": "HTTP Error 403: Forbidden"
   },
   {
-   "company": "Expleo Ireland",
-   "ats": "joblinks",
-   "error": "no individual job links found on the page"
-  },
-  {
-   "company": "LTIMindtree Ireland",
+   "company": "Revolut Ireland",
    "ats": "sitemap",
-   "error": "sitemap had 500 URLs but none looked like jobs"
-  },
-  {
-   "company": "Wrkit",
-   "ats": "recruitee",
-   "error": "board not found (404)"
-  },
-  {
-   "company": "Nostra",
-   "ats": "workable",
-   "error": "board not found (404)"
-  },
-  {
-   "company": "Glofox",
-   "ats": "lever",
-   "error": "board not found (404)"
-  },
-  {
-   "company": "Soapbox Labs",
-   "ats": "lever",
-   "error": "board not found (404)"
-  },
-  {
-   "company": "Cubic Telecom",
-   "ats": "lever",
-   "error": "board not found (404)"
-  },
-  {
-   "company": "Payslip",
-   "ats": "lever",
-   "error": "board not found (404)"
-  },
-  {
-   "company": "Revolut",
-   "ats": "greenhouse",
-   "error": "board not found (404)"
-  },
-  {
-   "company": "Tessian",
-   "ats": "ashby",
-   "error": "board not found (404)"
-  },
-  {
-   "company": "Ubiquity",
-   "ats": "ashby",
-   "error": "board not found (404)"
-  },
-  {
-   "company": "Energia Group",
-   "ats": "jsonld",
-   "error": "no JobPosting structured data on the page"
+   "error": "no sitemap found"
   }
  ],
  "quarantined_feeds": [
