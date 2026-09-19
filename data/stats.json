@@ -1,18 +1,18 @@
 {
- "last_run": "2026-09-19T14:09:40+00:00",
+ "last_run": "2026-09-19T17:22:06+00:00",
  "companies_total": 264,
  "companies_scanned": 175,
- "boards_failed": 14,
- "raw_postings": 16656,
- "relevant_jobs": 1890,
+ "boards_failed": 13,
+ "raw_postings": 16615,
+ "relevant_jobs": 1892,
  "min_score": 10,
- "new_this_run": 90,
+ "new_this_run": 78,
  "by_band": {
   "excellent": 62,
   "strong": 75,
   "decent": 71,
   "stretch": 204,
-  "weak": 1478
+  "weak": 1480
  },
  "top_errors": [
   {
@@ -46,7 +46,7 @@
    "error": "board not found (404)"
   },
   {
-   "company": "Glofox",
+   "company": "Payslip",
    "ats": "lever",
    "error": "board not found (404)"
   },
@@ -56,7 +56,7 @@
    "error": "board not found (404)"
   },
   {
-   "company": "Payslip",
+   "company": "Glofox",
    "ats": "lever",
    "error": "board not found (404)"
   },
@@ -79,11 +79,6 @@
    "company": "Ubiquity",
    "ats": "ashby",
    "error": "board not found (404)"
-  },
-  {
-   "company": "Energia Group",
-   "ats": "jsonld",
-   "error": "no JobPosting structured data on the page"
   }
  ],
  "quarantined_feeds": [
