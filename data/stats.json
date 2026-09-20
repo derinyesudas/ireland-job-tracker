@@ -1,12 +1,12 @@
 {
- "last_run": "2026-09-20T12:05:44+00:00",
+ "last_run": "2026-09-20T15:21:54+00:00",
  "companies_total": 264,
  "companies_scanned": 163,
- "boards_failed": 1,
- "raw_postings": 16618,
+ "boards_failed": 3,
+ "raw_postings": 16389,
  "relevant_jobs": 1904,
  "min_score": 10,
- "new_this_run": 73,
+ "new_this_run": 72,
  "by_band": {
   "excellent": 62,
   "strong": 75,
@@ -19,6 +19,16 @@
    "company": "Expleo Ireland",
    "ats": "joblinks",
    "error": "no individual job links found on the page"
+  },
+  {
+   "company": "Global Payments Ireland",
+   "ats": "sitemap",
+   "error": "sitemap had 29 URLs but none looked like jobs"
+  },
+  {
+   "company": "Revolut Ireland",
+   "ats": "sitemap",
+   "error": "no sitemap found"
   }
  ],
  "quarantined_feeds": [
