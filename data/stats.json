@@ -1,24 +1,24 @@
 {
- "last_run": "2026-09-23T05:26:20+00:00",
+ "last_run": "2026-09-23T10:14:31+00:00",
  "companies_total": 264,
- "companies_scanned": 163,
- "boards_failed": 4,
- "raw_postings": 16422,
- "relevant_jobs": 2025,
+ "companies_scanned": 175,
+ "boards_failed": 16,
+ "raw_postings": 13601,
+ "relevant_jobs": 2035,
  "min_score": 10,
- "new_this_run": 87,
+ "new_this_run": 102,
  "by_band": {
   "excellent": 63,
   "strong": 77,
   "decent": 77,
-  "stretch": 220,
-  "weak": 1588
+  "stretch": 223,
+  "weak": 1595
  },
  "top_errors": [
   {
-   "company": "Guidewire Ireland",
+   "company": "PayPal Ireland",
    "ats": "joblinks",
-   "error": "HTTP Error 500: Internal Server Error"
+   "error": "found 1 job links but none were readable"
   },
   {
    "company": "Expleo Ireland",
@@ -31,9 +31,69 @@
    "error": "HTTP Error 403: Forbidden"
   },
   {
+   "company": "LTIMindtree Ireland",
+   "ats": "sitemap",
+   "error": "sitemap had 500 URLs but none looked like jobs"
+  },
+  {
+   "company": "Sutherland Ireland",
+   "ats": "sitemap",
+   "error": "no sitemap found"
+  },
+  {
    "company": "Revolut Ireland",
-   "ats": "joblinks",
-   "error": "HTTP Error 403: Forbidden"
+   "ats": "sitemap",
+   "error": "no sitemap found"
+  },
+  {
+   "company": "Wrkit",
+   "ats": "recruitee",
+   "error": "board not found (404)"
+  },
+  {
+   "company": "Nostra",
+   "ats": "workable",
+   "error": "board not found (404)"
+  },
+  {
+   "company": "Soapbox Labs",
+   "ats": "lever",
+   "error": "board not found (404)"
+  },
+  {
+   "company": "Glofox",
+   "ats": "lever",
+   "error": "board not found (404)"
+  },
+  {
+   "company": "Payslip",
+   "ats": "lever",
+   "error": "board not found (404)"
+  },
+  {
+   "company": "Cubic Telecom",
+   "ats": "lever",
+   "error": "board not found (404)"
+  },
+  {
+   "company": "Revolut",
+   "ats": "greenhouse",
+   "error": "board not found (404)"
+  },
+  {
+   "company": "Ubiquity",
+   "ats": "ashby",
+   "error": "board not found (404)"
+  },
+  {
+   "company": "Tessian",
+   "ats": "ashby",
+   "error": "board not found (404)"
+  },
+  {
+   "company": "Energia Group",
+   "ats": "jsonld",
+   "error": "no JobPosting structured data on the page"
   }
  ],
  "quarantined_feeds": [
