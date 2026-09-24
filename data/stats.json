@@ -1,18 +1,18 @@
 {
- "last_run": "2026-09-24T04:47:19+00:00",
+ "last_run": "2026-09-24T09:38:31+00:00",
  "companies_total": 264,
- "companies_scanned": 164,
+ "companies_scanned": 163,
  "boards_failed": 2,
- "raw_postings": 13534,
- "relevant_jobs": 2077,
+ "raw_postings": 18471,
+ "relevant_jobs": 2092,
  "min_score": 10,
- "new_this_run": 88,
+ "new_this_run": 96,
  "by_band": {
-  "excellent": 64,
+  "excellent": 66,
   "strong": 83,
-  "decent": 79,
-  "stretch": 230,
-  "weak": 1621
+  "decent": 81,
+  "stretch": 232,
+  "weak": 1630
  },
  "top_errors": [
   {
@@ -21,9 +21,9 @@
    "error": "no individual job links found on the page"
   },
   {
-   "company": "Kingspan",
-   "ats": "sitemap",
-   "error": "no sitemap found"
+   "company": "SoftCo",
+   "ats": "hirehive",
+   "error": "hirehive: no feed"
   }
  ],
  "quarantined_feeds": [
