@@ -1,24 +1,29 @@
 {
- "last_run": "2026-09-24T09:38:31+00:00",
+ "last_run": "2026-09-24T14:32:30+00:00",
  "companies_total": 264,
- "companies_scanned": 163,
- "boards_failed": 2,
- "raw_postings": 18471,
- "relevant_jobs": 2092,
+ "companies_scanned": 164,
+ "boards_failed": 3,
+ "raw_postings": 16632,
+ "relevant_jobs": 2120,
  "min_score": 10,
- "new_this_run": 96,
+ "new_this_run": 106,
  "by_band": {
-  "excellent": 66,
-  "strong": 83,
-  "decent": 81,
-  "stretch": 232,
-  "weak": 1630
+  "excellent": 74,
+  "strong": 84,
+  "decent": 84,
+  "stretch": 235,
+  "weak": 1643
  },
  "top_errors": [
   {
    "company": "Expleo Ireland",
    "ats": "joblinks",
    "error": "no individual job links found on the page"
+  },
+  {
+   "company": "SAP Ireland",
+   "ats": "joblinks",
+   "error": "HTTP Error 404: Not Found"
   },
   {
    "company": "SoftCo",
