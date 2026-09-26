@@ -27,6 +27,18 @@
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🍀</text></svg>">
 </head>
 <body>
+<div id="lock" class="lock">
+  <form id="lock-form" class="lock-box" autocomplete="off">
+    <h1>Ireland Job Tracker</h1>
+    <p>This board is encrypted. Enter your code to open it.</p>
+    <input id="lock-code" type="password" inputmode="text" spellcheck="false"
+           autocomplete="current-password" placeholder="Access code" aria-label="Access code">
+    <button id="lock-go" type="submit">Unlock</button>
+    <div id="lock-msg" class="lock-msg"></div>
+    <small>Nothing readable is published. Without the code there is nothing here to see.</small>
+  </form>
+</div>
+
 
 <header>
   <div class="wrap head-inner">
@@ -84,6 +96,7 @@
       <button class="chip" data-quick="lang">Hindi / Malayalam edge</button>
       <button class="chip" data-quick="dublin">Dublin</button>
       <button class="chip" data-quick="saved">Saved</button>
+      <button class="chip chip-block" data-quick="blocked">Can&rsquo;t apply</button>
     </div>
 
     <div class="filter-row">

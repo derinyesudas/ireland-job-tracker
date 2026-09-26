@@ -622,3 +622,54 @@ html, body { max-width: 100%; overflow-x: hidden; }
 .stat.stale-check b       { color: #facc15; }
 .stat.very-stale-check b  { color: #f87171; }
 .stat.very-stale-check span { color: #f87171; }
+
+/* ------------------------------------------------------------------ lock */
+/* A class selector beats the UA stylesheet's [hidden] rule, so without this
+   the overlay goes invisible but keeps swallowing every click on the board. */
+.lock[hidden] { display: none !important; }
+body.locked > *:not(#lock) { display: none !important; }
+.lock {
+  position: fixed; inset: 0; z-index: 9999;
+  display: grid; place-items: center;
+  background: var(--bg); padding: 24px;
+}
+.lock-box { width: min(380px, 100%); display: flex; flex-direction: column; gap: 10px; text-align: center; }
+.lock-box h1 { font-size: 1.25rem; margin: 0; color: var(--text); letter-spacing: -0.01em; }
+.lock-box p  { margin: 0 0 4px; color: var(--text-muted); font-size: .9rem; }
+.lock-box input {
+  padding: 11px 13px; font-size: 1rem; letter-spacing: .06em; text-align: center;
+  border: 1px solid var(--line, var(--bg-hover)); border-radius: 8px;
+  background: var(--bg-elevated); color: var(--text);
+}
+.lock-box input:focus { outline: 2px solid var(--accent); outline-offset: 1px; }
+.lock-box button {
+  padding: 11px 13px; font-size: .95rem; font-weight: 600;
+  border: 0; border-radius: 8px; cursor: pointer;
+  background: var(--accent); color: #fff;
+}
+.lock-box button[disabled] { opacity: .6; cursor: progress; }
+.lock-box small { color: var(--text-dim); font-size: .78rem; line-height: 1.45; }
+.lock-msg { min-height: 1.1em; font-size: .85rem; color: var(--text-muted); }
+.lock-msg.bad { color: #f85149; }
+
+/* --------------------------------------------------- eligibility markers */
+/* Theme variables, not fixed hex - the board has a light mode and hardcoded
+   colours here rendered dark text on a dark card. */
+.tag.blocked { background: transparent; color: #f85149; border-color: #f85149; }
+.tag.flagged { background: transparent; color: #d29922; border-color: #d29922; }
+.tag.funded  { background: transparent; color: #3fb950; border-color: #3fb950; }
+.chip-block.on { border-color: #f85149; color: #f85149; }
+
+.blocknote, .flagnote {
+  /* The card is a three-column grid; without this the block lands in one
+     narrow cell and wraps a word per line. */
+  grid-column: 1 / -1;
+  margin: 10px 0 0; padding: 10px 12px; border-radius: 8px;
+  border: 1px solid #f85149; background: var(--bg-hover); font-size: .85rem;
+}
+.flagnote { border-color: #d29922; }
+.blocknote h4 { margin: 0 0 8px; font-size: .85rem; color: #f85149; }
+.blocknote p, .flagnote p { margin: 0 0 8px; display: flex; flex-direction: column; gap: 3px; }
+.blocknote p b, .flagnote p b { font-weight: 600; color: var(--text); }
+.blocknote span, .flagnote span { color: var(--text-muted); font-style: italic; }
+.blocknote small { color: var(--text-dim); font-size: .75rem; }

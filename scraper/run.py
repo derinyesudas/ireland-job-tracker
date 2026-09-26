@@ -29,7 +29,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
-from scraper import filters, normalise, score, visa  # noqa: E402
+from scraper import eligible, filters, normalise, score, visa  # noqa: E402
 from scraper.ats_clients import FETCHERS, FetchError  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -437,6 +437,20 @@ def main() -> int:
 
     fresh.sort(key=lambda j: (-j.get("score", 0), j.get("first_seen", "")), reverse=False)
     fresh.sort(key=lambda j: -j.get("score", 0))
+
+    # Can she actually apply? Read the advert and say so, with the sentence
+    # that decided it. Nothing is dropped here - a job she cannot apply for is
+    # still published, marked, so a wrong rule is visible instead of silent.
+    verdicts = {"eligible": 0, "flagged": 0, "blocked": 0}
+    for job in fresh:
+        v = eligible.assess(job)
+        job["eligibility"] = v["status"]
+        job["eligibility_reasons"] = v["reasons"]
+        job["eligibility_flags"] = v["flags"]
+        job["eligibility_bonuses"] = v["bonuses"]
+        verdicts[v["status"]] += 1
+    print(f"  eligibility: {verdicts['eligible']} eligible, "
+          f"{verdicts['flagged']} flagged, {verdicts['blocked']} blocked")
 
     DATA.mkdir(exist_ok=True)
     SITE_DATA.mkdir(parents=True, exist_ok=True)

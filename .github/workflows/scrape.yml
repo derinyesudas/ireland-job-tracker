@@ -111,6 +111,16 @@ jobs:
             [pathlib.Path('site/data',n).write_text(json.dumps(json.load(open('data/'+n)),separators=(',',':')),encoding='utf-8') for n in ('jobs.json','stats.json')]"
           test -s site/data/jobs.json && test -s site/data/stats.json
           echo "staged $(python3 -c "import json;print(len(json.load(open('site/data/jobs.json'))))") jobs"
+      # Encrypt what the page serves. After this step nothing readable exists
+      # in site/, so a visitor without the code can fetch every published file
+      # and still see nothing. lock_board exits non-zero if any plaintext JSON
+      # survives, which fails the deploy rather than publishing an open board.
+      - name: Install the encryption library
+        run: pip install --quiet cryptography
+      - name: Lock the board
+        env:
+          TRACKER_KEY: ${{ secrets.TRACKER_KEY }}
+        run: python -m scripts.lock_board
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:

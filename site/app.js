@@ -1,3 +1,82 @@
+// ---------------------------------------------------------------- the lock
+// The board is published as ciphertext. Nothing readable is served, so a
+// visitor without the code can fetch every file the site has and still see
+// nothing. This mirrors scripts/crypt.py byte for byte:
+//   keys.json  -> holders[name] = {salt, nonce, wrapped, iterations}
+//   <file>.enc -> "IJT1" | 12-byte nonce | AES-256-GCM ciphertext+tag
+const LOCK = (() => {
+  const b64 = s => Uint8Array.from(atob(s), c => c.charCodeAt(0));
+  const MAGIC = 'IJT1', NONCE = 12;
+
+  async function deriveKey(phrase, salt, iterations) {
+    const base = await crypto.subtle.importKey(
+      'raw', new TextEncoder().encode(phrase), 'PBKDF2', false, ['deriveBits']);
+    const bits = await crypto.subtle.deriveBits(
+      { name: 'PBKDF2', salt, iterations, hash: 'SHA-256' }, base, 256);
+    return new Uint8Array(bits);
+  }
+  async function aesOpen(rawKey, nonce, blob) {
+    const k = await crypto.subtle.importKey('raw', rawKey, 'AES-GCM', false, ['decrypt']);
+    return new Uint8Array(await crypto.subtle.decrypt({ name: 'AES-GCM', iv: nonce }, k, blob));
+  }
+  // Try the code against every holder. Whichever opens is the data key, so
+  // the owner's phrase and the board code both work without the page needing
+  // to know which one was typed.
+  async function dataKeyFrom(phrase, keys) {
+    for (const h of Object.values(keys.holders)) {
+      try {
+        const kek = await deriveKey(phrase, b64(h.salt), h.iterations || 600000);
+        return await aesOpen(kek, b64(h.nonce), b64(h.wrapped));
+      } catch (e) { /* wrong holder - keep trying */ }
+    }
+    throw new Error('that code does not open the board');
+  }
+  async function openJSON(url, dataKey) {
+    const res = await fetch(url + '?t=' + Date.now());
+    if (!res.ok) throw new Error(url + ' is not published');
+    const bytes = new Uint8Array(await res.arrayBuffer());
+    if (new TextDecoder().decode(bytes.slice(0, 4)) !== MAGIC)
+      throw new Error('not a tracker-encrypted file');
+    const plain = await aesOpen(dataKey, bytes.slice(4, 4 + NONCE), bytes.slice(4 + NONCE));
+    return JSON.parse(new TextDecoder().decode(plain));
+  }
+  return { dataKeyFrom, openJSON };
+})();
+
+let DATA_KEY = null;
+
+// Deriving the key is deliberately slow - 600,000 PBKDF2 rounds - so the
+// button has to say something while it works, or it reads as broken.
+async function attemptUnlock(phrase) {
+  const msg = document.getElementById('lock-msg');
+  const btn = document.getElementById('lock-go');
+  msg.textContent = 'Checking…'; msg.className = 'lock-msg'; btn.disabled = true;
+  try {
+    const keys = await (await fetch('data/keys.json?t=' + Date.now())).json();
+    DATA_KEY = await LOCK.dataKeyFrom(phrase, keys);
+    sessionStorage.setItem('ijt-unlocked', '1');
+    document.getElementById('lock').hidden = true;
+    document.body.classList.remove('locked');
+    await init();
+  } catch (err) {
+    msg.textContent = err.message || 'that code does not open the board';
+    msg.className = 'lock-msg bad';
+    btn.disabled = false;
+    document.getElementById('lock-code').select();
+  }
+}
+
+function bootLock() {
+  document.body.classList.add('locked');
+  const form = document.getElementById('lock-form');
+  form.addEventListener('submit', e => {
+    e.preventDefault();
+    const v = document.getElementById('lock-code').value.trim();
+    if (v) attemptUnlock(v);
+  });
+  document.getElementById('lock-code').focus();
+}
+
 /* ==========================================================================
    Ireland Job Tracker - front end
    Plain JavaScript on purpose: no build step, no framework to update, and you
@@ -235,7 +314,16 @@ function visible() {
   const band = document.getElementById('f-band').value;
   const age = document.getElementById('f-age').value;
 
+  // A job she cannot apply for leaves the board, but is never deleted - the
+  // "Can't apply" chip shows exactly those, each with the sentence that ruled
+  // it out. A filter that hides good jobs and says nothing is the same class
+  // of bug as a publish step that never runs: wrong, and invisible.
+  const ineligibleOnly = document.querySelector('[data-quick="blocked"]')
+    ?.classList.contains('on');
+
   let out = JOBS.filter(job => {
+    if (ineligibleOnly) { if (job.eligibility !== 'blocked') return false; }
+    else if (job.eligibility === 'blocked') return false;
     // Applied and dismissed jobs leave the main board. They are not lost -
     // each has its own tab - but they should stop competing for attention.
     if (isHidden(job.id)) return false;
@@ -312,6 +400,14 @@ function cardHTML(job) {
 
   const tags = [];
   if (job.is_new) tags.push('<span class="tag new">NEW</span>');
+  // An employer that pays for the QFA is the opposite of one that demands it.
+  // Worth saying on the card, because the two read identically in a search.
+  if ((job.eligibility_bonuses || []).some(b => b.code === 'qualification_supported'))
+    tags.push('<span class="tag funded">Qualification funded</span>');
+  if (job.eligibility === 'blocked')
+    tags.push('<span class="tag blocked">Can\u2019t apply</span>');
+  else if (job.eligibility === 'flagged')
+    tags.push('<span class="tag flagged">Worth a read first</span>');
   // Two different kinds of evidence, and the tag should not blur them.
   // A permit count is a government record of permits actually granted; a tier
   // with no permits behind it is Derin's own desk research. Printing
@@ -476,6 +572,15 @@ function cardHTML(job) {
         ${appField(job.id, 'outcome',       'Outcome')}
       </div>
       ${appField(job.id, 'notes', 'Notes', 'text', true)}
+    </div>` : ''}
+
+    ${(job.eligibility_reasons || []).length ? `<div class="blocknote">
+      <h4>Why you can\u2019t apply for this one</h4>
+      ${job.eligibility_reasons.map(r => `<p><b>${esc(r.detail)}</b><span>\u201C\u2026${esc(r.quote)}\u2026\u201D</span></p>`).join('')}
+      <small>Read from the advert itself. If this looks wrong, the rule is wrong \u2014 tell Claude.</small>
+    </div>` : ''}
+    ${(job.eligibility_flags || []).length ? `<div class="flagnote">
+      ${job.eligibility_flags.map(r => `<p><b>${esc(r.detail)}</b><span>\u201C\u2026${esc(r.quote)}\u2026\u201D</span></p>`).join('')}
     </div>` : ''}
 
     <div class="why">
@@ -806,8 +911,8 @@ async function init() {
   // Data
   try {
     const [jobs, stats] = await Promise.all([
-      fetch('data/jobs.json?t=' + Date.now()).then(r => r.json()),
-      fetch('data/stats.json?t=' + Date.now()).then(r => r.json()).catch(() => ({}))
+      LOCK.openJSON('data/jobs.json.enc', DATA_KEY),
+      LOCK.openJSON('data/stats.json.enc', DATA_KEY).catch(() => ({}))
     ]);
     JOBS = jobs; STATS = stats;
   } catch (err) {
@@ -955,4 +1060,4 @@ async function init() {
   render();
 }
 
-init();
+bootLock();
