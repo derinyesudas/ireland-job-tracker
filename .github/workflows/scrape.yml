@@ -111,16 +111,19 @@ jobs:
             [pathlib.Path('site/data',n).write_text(json.dumps(json.load(open('data/'+n)),separators=(',',':')),encoding='utf-8') for n in ('jobs.json','stats.json')]"
           test -s site/data/jobs.json && test -s site/data/stats.json
           echo "staged $(python3 -c "import json;print(len(json.load(open('site/data/jobs.json'))))") jobs"
-      # Encrypt what the page serves. After this step nothing readable exists
-      # in site/, so a visitor without the code can fetch every published file
-      # and still see nothing. lock_board exits non-zero if any plaintext JSON
-      # survives, which fails the deploy rather than publishing an open board.
-      - name: Install the encryption library
-        run: pip install --quiet cryptography
-      - name: Lock the board
-        env:
-          TRACKER_KEY: ${{ secrets.TRACKER_KEY }}
-        run: python -m scripts.lock_board
+      # The board lock is OFF until the vault passphrase is recovered.
+      # Turning it on without a working passphrase would lock Derin out of her
+      # own tracker: Actions can encrypt using the TRACKER_KEY secret, but a
+      # GitHub secret cannot be read back, so nobody could decrypt it.
+      # To re-enable, uncomment the two steps below. site/app.js already
+      # detects an encrypted board on its own and will start asking for the
+      # code with no further change.
+      # - name: Install the encryption library
+      #   run: pip install --quiet cryptography
+      # - name: Lock the board
+      #   env:
+      #     TRACKER_KEY: ${{ secrets.TRACKER_KEY }}
+      #   run: python -m scripts.lock_board
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:

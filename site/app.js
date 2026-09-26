@@ -66,8 +66,24 @@ async function attemptUnlock(phrase) {
   }
 }
 
-function bootLock() {
-  document.body.classList.add('locked');
+// The board is only locked if an encrypted board was actually published.
+// Probing for it means the page works whether or not the workflow is
+// encrypting, and starts asking for the code by itself once it does - with
+// no second change needed here.
+async function bootLock() {
+  let encrypted = false;
+  try {
+    const r = await fetch('data/jobs.json.enc', { method: 'HEAD' });
+    encrypted = r.ok;
+  } catch (e) { encrypted = false; }
+
+  if (!encrypted) {
+    document.getElementById('lock').hidden = true;
+    document.body.classList.remove('locked');
+    await init();
+    return;
+  }
+
   const form = document.getElementById('lock-form');
   form.addEventListener('submit', e => {
     e.preventDefault();
@@ -911,8 +927,10 @@ async function init() {
   // Data
   try {
     const [jobs, stats] = await Promise.all([
-      LOCK.openJSON('data/jobs.json.enc', DATA_KEY),
-      LOCK.openJSON('data/stats.json.enc', DATA_KEY).catch(() => ({}))
+      DATA_KEY ? LOCK.openJSON('data/jobs.json.enc', DATA_KEY)
+               : fetch('data/jobs.json?t=' + Date.now()).then(r => r.json()),
+      DATA_KEY ? LOCK.openJSON('data/stats.json.enc', DATA_KEY).catch(() => ({}))
+               : fetch('data/stats.json?t=' + Date.now()).then(r => r.json()).catch(() => ({}))
     ]);
     JOBS = jobs; STATS = stats;
   } catch (err) {

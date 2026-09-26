@@ -1,23 +1,16 @@
-Score the white-collar roles she is actually applying for
+Turn the board lock off until the vault passphrase is recovered
 
-The scorer only knew about analyst families, so pensions administration,
-claims, customer service, back office and general office work scored near
-zero no matter how good a fit they were - and sat in the weak band where she
-never saw them.
+The passphrase does not open data/keys.json - neither the owner nor the
+recovery holder. GitHub Actions can still encrypt, because it holds
+TRACKER_KEY as a repo secret, but a secret cannot be read back out. So an
+encrypted board would be readable by nobody, including its owner.
 
-scripts/retune.py adds five role families to the encrypted profile:
+The workflow's lock steps are commented out rather than deleted.
 
-  pensions_insurance_admin  30  the job she has already held
-  financial_ops_admin       26  fund admin, settlements, payroll, accounts
-  client_service            22  contact centre, customer and client support
-  office_support            18  administrator, coordinator, business support
-  sales_support             16  broker and intermediary support
+site/app.js now decides for itself: it asks for data/jobs.json.enc, and only
+shows the unlock screen if that file is actually published. No .enc, no
+password - it loads the plaintext board. So re-enabling the lock later needs
+nothing on the page side, just the two workflow steps uncommented.
 
-and a "training provided" bonus, because an advert saying experience is not
-required is the shape of job that is open to someone with one year behind her.
-
-The profile is encrypted, so this runs locally with the vault key. It writes
-nothing blind: it prints the change, re-scores the live board both ways so the
-movement is visible, and asks before saving. It keeps a backup of the previous
-profile, and if the board cannot be scored it says so loudly rather than
-reporting a reassuring "0 jobs moved".
+Everything else is untouched. The eligibility filtering is independent of the
+lock and keeps working.
