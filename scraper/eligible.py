@@ -66,6 +66,8 @@ OUT_OF_FIELD = {
     "skilled trades or production": r"\b(electrician|plumber|welder|fitter|machinist|carpenter|"
                                     r"forklift|\bhgv\b|\blgv\b|driver|warehouse\s+operative|"
                                     r"general\s+operative|production\s+operative|butcher|baker|"
+                                    r"warehouse\s+associate|production\s+associate|"
+                                    r"manufacturing\s+associate|bioprocess|"
                                     r"chef|kitchen\s+porter|cleaner|security\s+officer|groundsk\w+)\b",
     "marketing or creative": r"\b(marketing|brand\s+manager|content\s+(writer|creator|marketer)|"
                              r"social\s+media|\bseo\b|copywriter|graphic\s+design\w*|"

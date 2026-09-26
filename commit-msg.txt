@@ -1,16 +1,28 @@
-Turn the board lock off until the vault passphrase is recovered
+Surface the white-collar roles she can actually get
 
-The passphrase does not open data/keys.json - neither the owner nor the
-recovery holder. GitHub Actions can still encrypt, because it holds
-TRACKER_KEY as a repo secret, but a secret cannot be read back out. So an
-encrypted board would be readable by nobody, including its owner.
+The role families were already right; their weights were not. Customer
+operations sat at 12 and general admin at 10 against 34 for insurance
+operations, so a customer service or administrator job could never reach a
+band she would look at. Any title the families did not recognise was capped
+at 35 - the top of "stretch" - so an unusually named but perfectly applicable
+role could not surface however well the rest of the advert matched.
 
-The workflow's lock steps are commented out rather than deleted.
+Raised customer operations to 26, general admin to 22, quality process to 24,
+project support to 20, and the unrecognised-title ceiling to 48. Added the
+title wordings those families were missing: customer advisor, client service
+executive, member services, policyholder services, administrator on its own,
+team administrator, annuity and scheme administrator.
 
-site/app.js now decides for itself: it asks for data/jobs.json.enc, and only
-shows the unlock screen if that file is actually published. No .enc, no
-password - it loads the plaintext board. So re-enabling the lock later needs
-nothing on the page side, just the two workflow steps uncommented.
+These live in scraper/score.py rather than the encrypted profile, whose
+passphrase is lost. The profile still wins wherever it is more generous, so
+nothing here lowers a weight that was set deliberately.
 
-Everything else is untouched. The eligibility filtering is independent of the
-lock and keeps working.
+Measured against the live board with the real profile: 22 jobs rise, none
+fall. Canada Life's Customer Service Representative - which pays for the QFA
+- goes 44 to 58, Davy's Client Service Executive 17 to 52, WTW's Client
+Service Advisor 29 to 55, Deloitte's Administrator 17 to 48. All were sitting
+in the weak band.
+
+Also closes a gap in the eligibility filter: warehouse, production,
+manufacturing and bioprocess associate titles now block as production-floor
+roles rather than reading as office work.

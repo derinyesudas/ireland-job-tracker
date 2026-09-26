@@ -141,8 +141,82 @@ def _requires_other_language(job: dict) -> str:
     return m.group(0).strip() if m else ""
 
 
+# --------------------------------------------------------------------------
+# Weights that live here rather than in the encrypted profile.
+#
+# She is applying for white-collar work generally now, not only analyst roles.
+# The profile already had the right families, but customer operations sat at
+# 12 and general admin at 10 against 34 for insurance operations - low enough
+# that a customer service job could never reach a band she would look at. And
+# any title the families did not recognise was capped at 35, which is the top
+# of "stretch", so an unusual but perfectly applicable title could not surface
+# however well the rest of the advert matched.
+#
+# These sit in code because the profile is encrypted and its passphrase is
+# lost. The profile still wins anywhere it is more generous, so nothing here
+# quietly lowers a weight that was deliberately set.
+# --------------------------------------------------------------------------
+
+FAMILY_FLOOR = {
+    "customer_operations": 26,   # ten months front-line, and the TCS client desk
+    "general_admin": 22,         # a year of back-office record administration
+    "project_support": 20,
+    "quality_process": 24,
+}
+
+EXTRA_FAMILY_TERMS = {
+    "customer_operations": [
+        "customer advisor", "customer adviser", "client service executive",
+        "client service representative", "member services", "member support",
+        "policyholder services", "customer success", "service advisor",
+        "customer relations", "complaints handler", "query resolution",
+        "customer service agent", "customer service executive",
+        "customer service officer", "client support",
+    ],
+    "general_admin": [
+        "administrator", "team administrator", "office assistant",
+        "business administrator", "operations assistant", "admin assistant",
+        "scheduling administrator", "support administrator", "receptionist",
+        "office coordinator", "administration officer",
+    ],
+    "insurance_operations": [
+        "annuity administrator", "retirement administrator",
+        "scheme administrator", "member administrator", "pensions specialist",
+        "pensions technician", "life administrator", "claims specialist",
+    ],
+}
+
+# A title the families do not recognise is not automatically a bad job - it
+# may simply be named unusually. Raised from 35 (top of "stretch") to 48 (top
+# of "decent") so those can surface when the rest of the advert fits.
+TITLE_MISS_CEILING = 48
+
+
+def _apply_local_weights(profile: dict) -> dict:
+    """Merge the code-level floors into whatever the profile holds."""
+    fams = dict(profile.get("target_role_families", {}))
+    for name, floor in FAMILY_FLOOR.items():
+        if name in fams:
+            fam = dict(fams[name])
+            fam["weight"] = max(fam.get("weight", 0), floor)
+            fams[name] = fam
+    for name, extra in EXTRA_FAMILY_TERMS.items():
+        if name in fams:
+            fam = dict(fams[name])
+            have = {t.lower() for t in fam.get("terms", [])}
+            fam["terms"] = list(fam.get("terms", [])) + \
+                [t for t in extra if t.lower() not in have]
+            fams[name] = fam
+    out = dict(profile)
+    out["target_role_families"] = fams
+    out["no_title_match_ceiling"] = max(
+        profile.get("no_title_match_ceiling", 0), TITLE_MISS_CEILING)
+    return out
+
+
 def score_job(job: dict, profile: dict, company_meta: dict | None = None) -> dict:
     """Return {'score': int, 'band': str, 'breakdown': [...]}"""
+    profile = _apply_local_weights(profile)
     company_meta = company_meta or {}
     text = _haystack(job)
     title = (job.get("title") or "").lower()
