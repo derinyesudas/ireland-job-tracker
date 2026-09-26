@@ -1,28 +1,27 @@
-Surface the white-collar roles she can actually get
+Mark Critical Skills roles, drop the redundant Graduate pill
 
-The role families were already right; their weights were not. Customer
-operations sat at 12 and general admin at 10 against 34 for insurance
-operations, so a customer service or administrator job could never reach a
-band she would look at. Any title the families did not recognise was capped
-at 35 - the top of "stretch" - so an unusually named but perfectly applicable
-role could not surface however well the rest of the advert matched.
+The "Graduate programme" pill repeated the job title six inches to its left,
+so it is gone. Internship and Entry level pills stay - those are not always
+in the title.
 
-Raised customer operations to 26, general admin to 22, quality process to 24,
-project support to 20, and the unrecognised-title ceiling to 48. Added the
-title wordings those families were missing: customer advisor, client service
-executive, member services, policyholder services, administrator on its own,
-team administrator, annuity and scheme administrator.
+Adds scraper/csol.py: the 2026 Critical Skills Occupations List from the
+Department of Enterprise, as matching rules.
 
-These live in scraper/score.py rather than the encrypted profile, whose
-passphrase is lost. The profile still wins wherever it is more generous, so
-nothing here lowers a weight that was set deliberately.
+The list is narrower than it looks. "Business analysts" is not on it; what is
+on it is "management consultants and business analysts specialising in big
+data analytics with skills in IT, data mining, modelling, and advanced maths".
+Matching on title alone would tag every Business Analyst advert in Ireland and
+most would not qualify, so each rule needs the title AND the specialisation
+the entry names. The pill's tooltip quotes the CSOL line it matched, the
+words in the advert that satisfied it, and the SOC-4 code.
 
-Measured against the live board with the real profile: 22 jobs rise, none
-fall. Canada Life's Customer Service Representative - which pays for the QFA
-- goes 44 to 58, Davy's Client Service Executive 17 to 52, WTW's Client
-Service Advisor 29 to 55, Deloitte's Administrator 17 to 48. All were sitting
-in the weak band.
+Salary floor is EUR 36,848. A stated salary below it suppresses the tag. Only
+9% of live adverts state a salary at all, so requiring one would mean the tag
+never appeared: a job with no stated salary is tagged and says "salary n/a"
+rather than implying a threshold was checked.
 
-Also closes a gap in the eligibility filter: warehouse, production,
-manufacturing and bioprocess associate titles now block as production-floor
-roles rather than reading as office work.
+12 of 665 live jobs tag today, across four CSOL codes - accountants and
+taxation, actuaries and statisticians, IT systems analysts, quality assurance
+and regulatory.
+
+Also rounds the job-age pill, which was printing 22.487312800925928d old.

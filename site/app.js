@@ -457,7 +457,7 @@ function cardHTML(job) {
 
   const age = daysAgo(job.first_seen || job.posted_at);
   if (!job.closed && age != null && age >= 7 && (job.score || 0) >= 60)
-    tags.push(`<span class="tag stale">${age}d old - apply or lose it</span>`);
+    tags.push(`<span class="tag stale">${Math.round(age)}d old - apply or lose it</span>`);
 
   if (isApplied(statusOf(job.id))) {
     const since = daysAgo((STATE[job.id] || {}).appliedAt);
@@ -479,11 +479,25 @@ function cardHTML(job) {
   else if (job.permit_route === 'critical_skills')
     tags.push(`<span class="tag csep" title="Salary read from this advert, against the thresholds in force from 1 March 2026: Critical Skills EUR 40,904, General EUR 36,605">€${(job.salary_eur/1000).toFixed(0)}k - clears Critical Skills</span>`);
 
+  // On the government's Critical Skills Occupations List. Only tagged where
+  // the advert carries the specialisation the list names, not just the job
+  // title - "business analyst" alone is not on the list.
+  if (job.csol) {
+    const c = job.csol;
+    const money = c.salary_known
+      ? `\u20ac${(c.salary_eur / 1000).toFixed(0)}k, above the \u20ac${c.floor.toLocaleString()} floor`
+      : `salary not stated \u2014 floor is \u20ac${c.floor.toLocaleString()}`;
+    const why = `CSOL ${c.soc4}: ${c.csol_line}. Matched on "${c.matched_title}" plus `
+              + `${c.evidence.join(', ')} in the advert. ${money}. `
+              + `Source: Critical Skills Occupations List 2026, Dept. of Enterprise, Tourism and Employment.`;
+    tags.push(`<span class="tag csol" title="${esc(why)}">Critical Skills${c.salary_known ? '' : ' \u00b7 salary n/a'}</span>`);
+  }
+
   const title = job.title.toLowerCase();
   const full = (job.title + ' ' + (job.description || '')).toLowerCase();
-  if (/\bgraduate (?:programme|program|scheme)\b/.test(full))
-    tags.push('<span class="tag grad">Graduate programme</span>');
-  else if (/\b(?:intern|interns|internship|internships|placement|co[- ]?op)\b/.test(title))
+  // "Graduate programme" was removed: the job title already says it, so the
+  // pill only repeated what was six inches to its left.
+  if (/\b(?:intern|interns|internship|internships|placement|co[- ]?op)\b/.test(title))
     tags.push('<span class="tag grad">Internship</span>');
   else if (/\b(?:junior|jnr|entry[- ]level|trainee|graduate|apprentice)\b/.test(title))
     tags.push('<span class="tag grad">Entry level</span>');

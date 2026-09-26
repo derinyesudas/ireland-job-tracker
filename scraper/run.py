@@ -29,7 +29,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
-from scraper import eligible, filters, normalise, score, visa  # noqa: E402
+from scraper import csol, eligible, filters, normalise, score, visa  # noqa: E402
 from scraper.ats_clients import FETCHERS, FetchError  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -443,6 +443,7 @@ def main() -> int:
     # still published, marked, so a wrong rule is visible instead of silent.
     verdicts = {"eligible": 0, "flagged": 0, "blocked": 0}
     for job in fresh:
+        job["csol"] = csol.assess(job)
         v = eligible.assess(job)
         job["eligibility"] = v["status"]
         job["eligibility_reasons"] = v["reasons"]
@@ -451,6 +452,7 @@ def main() -> int:
         verdicts[v["status"]] += 1
     print(f"  eligibility: {verdicts['eligible']} eligible, "
           f"{verdicts['flagged']} flagged, {verdicts['blocked']} blocked")
+    print(f"  on the Critical Skills list: {sum(1 for j in fresh if j.get('csol'))}")
 
     DATA.mkdir(exist_ok=True)
     SITE_DATA.mkdir(parents=True, exist_ok=True)

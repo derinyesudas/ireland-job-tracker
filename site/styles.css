@@ -673,3 +673,6 @@ body.locked > *:not(#lock) { display: none !important; }
 .blocknote p b, .flagnote p b { font-weight: 600; color: var(--text); }
 .blocknote span, .flagnote span { color: var(--text-muted); font-style: italic; }
 .blocknote small { color: var(--text-dim); font-size: .75rem; }
+
+/* Critical Skills Occupations List (Dept. of Enterprise, 2026) */
+.tag.csol { background: transparent; color: #a371f7; border-color: #a371f7; font-weight: 600; }
