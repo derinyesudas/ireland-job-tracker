@@ -1,25 +1,23 @@
-Only show jobs she can actually apply for, and lock the board
+Score the white-collar roles she is actually applying for
 
-Adds scraper/eligible.py: reads each advert and decides eligibility on seven
-grounds, quoting the sentence that decided it. Nothing is deleted - a blocked
-job is published marked, so a wrong rule is visible rather than silent.
+The scorer only knew about analyst families, so pensions administration,
+claims, customer service, back office and general office work scored near
+zero no matter how good a fit they were - and sat in the weak band where she
+never saw them.
 
-  discipline        out-of-field roles (engineering, clinical, legal, trades,
-                    marketing, actuarial, software) leave the main board
-  qualification     blocks only when a credential she lacks is REQUIRED;
-                    an employer who funds the QFA is a bonus, not a barrier
-  degree subject    open lists ("or related discipline") are not walls
-  years             4+ blocks, 3 flags; programme length is not experience
-  programme length  commitments over two years
-  current student   internships and co-ops needing enrolment
-  language          a required language she does not speak
+scripts/retune.py adds five role families to the encrypted profile:
 
-Locks the published board. site/data is encrypted with the existing vault
-format, so the browser opens it with WebCrypto and a visitor without the code
-can fetch every published file and see nothing. lock_board fails the deploy if
-any readable JSON survives. add_board_code.py gives the board its own holder,
-so the code typed into a browser is never the passphrase that opens the vault.
+  pensions_insurance_admin  30  the job she has already held
+  financial_ops_admin       26  fund admin, settlements, payroll, accounts
+  client_service            22  contact centre, customer and client support
+  office_support            18  administrator, coordinator, business support
+  sales_support             16  broker and intermediary support
 
-Verified in a real browser against real encrypted data: wrong code rejected,
-right code opens in ~350ms, blocked jobs off the default board and behind the
-Can't apply chip with the advert's own words underneath, both themes.
+and a "training provided" bonus, because an advert saying experience is not
+required is the shape of job that is open to someone with one year behind her.
+
+The profile is encrypted, so this runs locally with the vault key. It writes
+nothing blind: it prints the change, re-scores the live board both ways so the
+movement is visible, and asks before saving. It keeps a backup of the previous
+profile, and if the board cannot be scored it says so loudly rather than
+reporting a reassuring "0 jobs moved".

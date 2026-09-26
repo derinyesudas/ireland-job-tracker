@@ -252,6 +252,16 @@ def score_job(job: dict, profile: dict, company_meta: dict | None = None) -> dic
         add("How you already work", min(ops["cap"], len(ops_hits)),
             f"Mentions {', '.join(sorted(set(ops_hits))[:3])} — the way you worked at TCS")
 
+    # An advert that says it will train you is not a lesser job - for someone
+    # with one year behind her it is the shape of job that is actually open.
+    # Absent from older profiles, so this stays optional rather than required.
+    noexp = profile.get("no_experience_needed")
+    if noexp:
+        noexp_hits = _count_hits(text, noexp["terms"])
+        if noexp_hits:
+            add("Training provided", noexp["bonus"],
+                f"Says '{noexp_hits[0]}' — experience is not the barrier here")
+
     # -------------------------------------------------------------- 4. domain
     #
     # The domain has to be the job's own field, not a word that drifted into a
