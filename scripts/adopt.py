@@ -38,6 +38,10 @@ ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
 COMPANIES = DATA / "companies.json"
 REGISTER = DATA / "ireland_register.json"
+# Hand-picked employers to add, kept in the clear so the list can be
+# reviewed in the repository. Only names and public careers addresses -
+# nothing about the person doing the searching.
+CANDIDATES = DATA / "candidates.json"
 
 # A named board is its own evidence. When a reader talks to a real applicant
 # tracking system, that system belongs to the employer and whatever it returns
@@ -154,8 +158,46 @@ def main() -> int:
     adopted: list[tuple[str, str, str, int]] = []
     rejected: list[tuple[str, str]] = []
 
-    # 1. anything handed in by name, verified before it is believed
-    for e in json.loads(args.extra) if args.extra.strip() else []:
+    # 1. anything handed in by name, verified before it is believed.
+    #
+    # Two shapes are accepted. {name, ats, token} says exactly which feed to
+    # read. {name, url} says only where the careers page is, and the probe is
+    # asked to find the feed behind it - which is the shape a person can write
+    # without knowing what an applicant tracking system is.
+    handed = json.loads(args.extra) if args.extra.strip() else []
+    if CANDIDATES.exists():
+        handed += json.loads(CANDIDATES.read_text(encoding="utf-8"))
+
+    # The probing is the slow part and every candidate is independent, so the
+    # ones that need it are all probed at once before anything is verified.
+    need = [e for e in handed if not e.get("ats") and e.get("url")]
+    if need:
+        from concurrent.futures import ThreadPoolExecutor as _TPE
+        print(f"finding the feed behind {len(need)} named careers pages\n", flush=True)
+        with _TPE(max_workers=args.workers) as pool:
+            found_feeds = dict(zip(
+                (e["name"] for e in need),
+                pool.map(lambda e: probe(e["name"], e["url"]), need)))
+    else:
+        found_feeds = {}
+
+    for e in handed:
+        if not e.get("ats"):
+            if not e.get("url"):
+                rejected.append((e.get("name", "?"), "no ats/token and no url"))
+                continue
+            r = found_feeds.get(e["name"], {"working": [], "note": "not probed"})
+            if not r["working"]:
+                rejected.append((e["name"], r.get("note") or "no readable feed found"))
+                continue
+            w = r["working"][0]
+            e = {**e, "ats": w["ats"], "token": w["token"],
+                 "url": r.get("best_url") or e["url"]}
+            print(f"  found  {e['name'][:36]:<36} {w['ats']}", flush=True)
+        if (e["ats"], e["token"]) in by_key:
+            rejected.append((e["name"],
+                             f"same feed as {by_key[(e['ats'], e['token'])]['name']}"))
+            continue
         with full_read():
             ok, note = try_reader(e["ats"], e["token"])
         found = jobs_returned(note) if ok else 0
