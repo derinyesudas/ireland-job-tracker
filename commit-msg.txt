@@ -1,27 +1,16 @@
-Mark Critical Skills roles, drop the redundant Graduate pill
+Search the job title, not the whole advert
 
-The "Graduate programme" pill repeated the job title six inches to its left,
-so it is gone. Internship and Entry level pills stay - those are not always
-in the title.
+Typing "pension" returned 155 results, because the box searched every word of
+every description - including the benefits paragraph of roles with nothing to
+do with pensions. It now searches the job title first and the company name
+second, and nothing else.
 
-Adds scraper/csol.py: the 2026 Critical Skills Occupations List from the
-Department of Enterprise, as matching rules.
+  pension           155 results -> 2      (both titled Pensions Administrator)
+  customer service   59 results -> 2
+  claims             25 results -> 10
+  analyst            73 results -> 51
+  davy               13 results -> 13     (matched on company, as before)
 
-The list is narrower than it looks. "Business analysts" is not on it; what is
-on it is "management consultants and business analysts specialising in big
-data analytics with skills in IT, data mining, modelling, and advanced maths".
-Matching on title alone would tag every Business Analyst advert in Ireland and
-most would not qualify, so each rule needs the title AND the specialisation
-the entry names. The pill's tooltip quotes the CSOL line it matched, the
-words in the advert that satisfied it, and the SOC-4 code.
-
-Salary floor is EUR 36,848. A stated salary below it suppresses the tag. Only
-9% of live adverts state a salary at all, so requiring one would mean the tag
-never appeared: a job with no stated salary is tagged and says "salary n/a"
-rather than implying a threshold was checked.
-
-12 of 665 live jobs tag today, across four CSOL codes - accountants and
-taxation, actuaries and statisticians, IT systems analysts, quality assurance
-and regulatory.
-
-Also rounds the job-age pill, which was printing 22.487312800925928d old.
+A title hit always ranks above a company hit, whatever sort is selected, so
+searching a role name puts that role at the top rather than whichever job
+happens to score highest.

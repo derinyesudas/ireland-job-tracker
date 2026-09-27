@@ -304,12 +304,31 @@ function todayLine() {
 
 /* ----------------------------------------------------------------- filters */
 
+// The search box looks at the job title first, and the company name second.
+// It used to search the whole advert, which meant typing "pension" returned
+// every job whose description happened to mention a pension - including the
+// benefits paragraph of roles that had nothing to do with pensions. A search
+// box is for finding the job you have in mind, not every mention of a word.
+function titleKey(job) {
+  if (job._tkey === undefined) job._tkey = (job.title || '').toLowerCase();
+  return job._tkey;
+}
+function companyKey(job) {
+  if (job._ckey === undefined) job._ckey = (job.company || '').toLowerCase();
+  return job._ckey;
+}
 function searchKey(job) {
-  if (job._key === undefined) {
-    job._key = (job.title + ' ' + job.company + ' ' + (job.location || '') + ' ' +
-                (job.department || '') + ' ' + (job.description || '')).toLowerCase();
-  }
-  return job._key;
+  return titleKey(job) + ' \u00b7 ' + companyKey(job);
+}
+// Title hits rank above company hits, so searching "davy" shows the Davy jobs
+// but a job actually titled "Davy ..." would come first.
+function searchRank(job, q) {
+  if (!q) return 0;
+  const t = titleKey(job);
+  if (t.startsWith(q)) return 0;
+  if (t.includes(q)) return 1;
+  if (companyKey(job).includes(q)) return 2;
+  return 3;
 }
 
 function visible() {
@@ -321,7 +340,8 @@ function visible() {
   if (TAB !== 'jobs') {
     const base = TAB === 'applied' ? appliedJobs() : hiddenJobs();
     const matches = j => !q || searchKey(j).includes(q);
-    return base.filter(matches).sort((a, b) => (b.score || 0) - (a.score || 0));
+    return base.filter(matches).sort((a, b) =>
+      searchRank(a, q) - searchRank(b, q) || (b.score || 0) - (a.score || 0));
   }
 
   const minScore = +document.getElementById('minscore').value;
@@ -405,6 +425,11 @@ function visible() {
   if (sort === 'new') out.sort((a, b) => (b.first_seen || '').localeCompare(a.first_seen || ''));
   if (sort === 'company') out.sort((a, b) => a.company.localeCompare(b.company) || b.score - a.score);
   if (sort === 'title') out.sort((a, b) => a.title.localeCompare(b.title));
+
+  // With a search term active, a title hit outranks a company hit whatever
+  // the chosen sort - otherwise searching "pension" buries the Pensions
+  // Administrator under whichever job happens to score highest.
+  if (q) out.sort((a, b) => searchRank(a, q) - searchRank(b, q));
   return out;
 }
 
