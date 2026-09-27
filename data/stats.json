@@ -1,17 +1,17 @@
 {
- "last_run": "2026-09-27T19:12:11+00:00",
+ "last_run": "2026-09-27T21:26:40+00:00",
  "companies_total": 264,
- "companies_scanned": 175,
- "boards_failed": 14,
- "raw_postings": 16645,
- "relevant_jobs": 2223,
+ "companies_scanned": 264,
+ "boards_failed": 18,
+ "raw_postings": 20540,
+ "relevant_jobs": 2224,
  "min_score": 10,
- "new_this_run": 78,
+ "new_this_run": 115,
  "by_band": {
   "excellent": 75,
   "strong": 104,
   "decent": 143,
-  "stretch": 221,
+  "stretch": 222,
   "weak": 1680
  },
  "top_errors": [
@@ -26,6 +26,16 @@
    "error": "no individual job links found on the page"
   },
   {
+   "company": "SAP Ireland",
+   "ats": "joblinks",
+   "error": "HTTP Error 404: Not Found"
+  },
+  {
+   "company": "ORIX Aviation",
+   "ats": "joblinks",
+   "error": "no individual job links found on the page"
+  },
+  {
    "company": "Capgemini Ireland",
    "ats": "sitemap",
    "error": "sitemap had 2100 URLs but none looked like jobs"
@@ -34,6 +44,11 @@
    "company": "LTIMindtree Ireland",
    "ats": "sitemap",
    "error": "sitemap had 500 URLs but none looked like jobs"
+  },
+  {
+   "company": "Kingspan",
+   "ats": "sitemap",
+   "error": "no sitemap found"
   },
   {
    "company": "SoftCo",
@@ -51,12 +66,17 @@
    "error": "board not found (404)"
   },
   {
-   "company": "Cubic Telecom",
-   "ats": "lever",
+   "company": "Energia Group",
+   "ats": "jsonld",
+   "error": "no JobPosting structured data on the page"
+  },
+  {
+   "company": "Revolut",
+   "ats": "greenhouse",
    "error": "board not found (404)"
   },
   {
-   "company": "Payslip",
+   "company": "Cubic Telecom",
    "ats": "lever",
    "error": "board not found (404)"
   },
@@ -71,8 +91,8 @@
    "error": "board not found (404)"
   },
   {
-   "company": "Revolut",
-   "ats": "greenhouse",
+   "company": "Payslip",
+   "ats": "lever",
    "error": "board not found (404)"
   },
   {
