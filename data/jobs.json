@@ -638,7 +638,7 @@
   "company_site": "",
   "first_seen": "2026-09-11T01:24:55+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -709,7 +709,7 @@
   "company_site": "https://jobs.aib.ie/go/Search-All-Jobs/3834700/",
   "first_seen": "2026-09-24T14:32:21+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -926,7 +926,7 @@
   "company_site": "https://life-careers.com/search-jobs",
   "first_seen": "2026-09-17T10:16:47+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -1002,7 +1002,7 @@
   "company_site": "https://life-careers.com/search-jobs",
   "first_seen": "2026-09-18T15:13:09+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -1072,7 +1072,7 @@
   "company_site": "https://www.forvismazars.com/ie/en/careers",
   "first_seen": "2026-09-02T04:08:24+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -1137,7 +1137,7 @@
   "company_site": "https://jobs.aib.ie/go/Search-All-Jobs/3834700/",
   "first_seen": "2026-09-24T14:32:21+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -1342,7 +1342,7 @@
   "company_site": "https://jobs.citi.com/location/dublin-jobs/287/2963597-7521314-7778677-2964574/4",
   "first_seen": "2026-09-09T13:49:34+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -1484,7 +1484,7 @@
   "company_site": "https://jobs.aib.ie/go/Search-All-Jobs/3834700/",
   "first_seen": "2026-09-24T14:32:21+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -1794,7 +1794,9 @@
     "detail": "CFA supported or desirable, not required",
     "quote": "unting skills and experience, but also in data analysis and management. We provide full support in achieving your professional accounting qualification (ACCA, CIMA, ACA, CFA), along with a generous study leave policy for further backing. Our Programme puts an emphasis on providing the opportunity to gain experience in different roles across"
    }
-  ]
+  ],
+  "closed": true,
+  "closed_at": "2026-09-29T00:01:23+00:00"
  },
  {
   "id": "6be3b2fce7944859",
@@ -1854,7 +1856,7 @@
   "company_site": "https://jobs.aib.ie/go/Search-All-Jobs/3834700/",
   "first_seen": "2026-09-24T14:32:21+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -1935,7 +1937,7 @@
   "company_site": "https://jobs.aib.ie/go/Search-All-Jobs/3834700/",
   "first_seen": "2026-09-24T14:32:21+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -2000,7 +2002,7 @@
   "company_site": "https://jobs.aib.ie/go/Search-All-Jobs/3834700/",
   "first_seen": "2026-09-24T14:32:21+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -2193,7 +2195,7 @@
   "company_site": "https://careers.bankofireland.com/",
   "first_seen": "2026-09-02T03:59:37+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -2253,7 +2255,7 @@
   "company_site": "https://careers.bankofireland.com/",
   "first_seen": "2026-09-02T03:59:37+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -2313,7 +2315,7 @@
   "company_site": "https://careers.bankofireland.com/",
   "first_seen": "2026-09-02T03:59:37+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -2591,7 +2593,7 @@
   "company_site": "https://www.forvismazars.com/ie/en/careers",
   "first_seen": "2026-09-02T04:08:24+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -2667,7 +2669,7 @@
   "company_site": "https://www.forvismazars.com/ie/en/careers",
   "first_seen": "2026-09-02T04:08:24+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -2743,7 +2745,7 @@
   "company_site": "https://www.forvismazars.com/ie/en/careers",
   "first_seen": "2026-09-02T04:08:24+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -2819,7 +2821,7 @@
   "company_site": "https://www.forvismazars.com/ie/en/careers",
   "first_seen": "2026-09-02T04:08:24+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -2895,7 +2897,7 @@
   "company_site": "https://www.forvismazars.com/ie/en/careers",
   "first_seen": "2026-09-02T04:08:24+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -2971,7 +2973,7 @@
   "company_site": "https://www.forvismazars.com/ie/en/careers",
   "first_seen": "2026-09-02T04:08:24+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -3047,7 +3049,7 @@
   "company_site": "https://www.forvismazars.com/ie/en/careers",
   "first_seen": "2026-09-02T04:08:24+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -3123,7 +3125,7 @@
   "company_site": "https://www.forvismazars.com/ie/en/careers",
   "first_seen": "2026-09-02T04:08:24+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -3199,7 +3201,7 @@
   "company_site": "https://www.forvismazars.com/ie/en/careers",
   "first_seen": "2026-09-02T04:08:24+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -3275,7 +3277,7 @@
   "company_site": "https://www.forvismazars.com/ie/en/careers",
   "first_seen": "2026-09-02T04:08:24+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -3345,7 +3347,7 @@
   "company_site": "https://www.forvismazars.com/ie/en/careers",
   "first_seen": "2026-09-02T04:08:24+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -3415,7 +3417,7 @@
   "company_site": "https://www.forvismazars.com/ie/en/careers",
   "first_seen": "2026-09-02T04:08:24+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -3485,7 +3487,7 @@
   "company_site": "https://www.forvismazars.com/ie/en/careers",
   "first_seen": "2026-09-02T04:08:24+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -3737,7 +3739,7 @@
   "company_site": "https://sedgwick.wd1.myworkdayjobs.com/Sedgwick",
   "first_seen": "2026-09-02T03:53:37+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -3803,7 +3805,7 @@
   "company_site": "https://life-careers.com/irishlife/go/All-Jobs/3805301/",
   "first_seen": "2026-09-02T04:08:24+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -4150,7 +4152,7 @@
   "company_site": "https://jobs.citi.com/location/dublin-jobs/287/2963597-7521314-7778677-2964574/4",
   "first_seen": "2026-09-24T09:38:16+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -4285,7 +4287,7 @@
   "company_site": "https://careers.jpmorgan.com/global/en/students",
   "first_seen": "2026-09-28T19:45:08+00:00",
   "is_new": true,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -4355,7 +4357,7 @@
   "company_site": "https://davies-group.com/careers/",
   "first_seen": "2026-09-01T19:24:15+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -4420,7 +4422,7 @@
   "company_site": "https://www.kepak.com/careers",
   "first_seen": "2026-09-01T22:22:46+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T05:55:30+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -4968,7 +4970,7 @@
   "company_site": "https://sedgwick.wd1.myworkdayjobs.com/Sedgwick",
   "first_seen": "2026-09-02T03:53:37+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -5452,7 +5454,7 @@
   "company_site": "https://sedgwick.wd1.myworkdayjobs.com/Sedgwick",
   "first_seen": "2026-09-01T22:22:46+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -5654,7 +5656,7 @@
   "company_site": "https://accenture.pinpointhq.com/ireland",
   "first_seen": "2026-09-10T09:17:03+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -6250,7 +6252,7 @@
   "company_site": "https://life-careers.com/irishlife/go/All-Jobs/3805301/",
   "first_seen": "2026-09-02T04:08:24+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -6652,7 +6654,7 @@
   "company_site": "https://accenture.pinpointhq.com/ireland",
   "first_seen": "2026-09-10T09:17:03+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -6785,7 +6787,7 @@
   "company_site": "https://www.ornua.com/careers/",
   "first_seen": "2026-09-17T10:16:47+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T12:14:26+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -6917,7 +6919,7 @@
   "company_site": "https://bdoireland.pinpointhq.com/",
   "first_seen": "2026-09-01T19:24:15+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -6982,7 +6984,7 @@
   "company_site": "https://bdoireland.pinpointhq.com/",
   "first_seen": "2026-09-01T19:24:15+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -7109,7 +7111,7 @@
   "company_site": "https://cantorfitzgerald.ie/careers/",
   "first_seen": "2026-09-01T22:41:03+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -7174,7 +7176,7 @@
   "company_site": "https://life-careers.com/search-jobs",
   "first_seen": "2026-09-18T15:13:09+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": {
    "soc4": "2421",
    "matched_title": "Accountant",
@@ -7273,7 +7275,7 @@
   "company_site": "https://jobs.aib.ie/go/Search-All-Jobs/3834700/",
   "first_seen": "2026-09-24T14:32:21+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -7398,7 +7400,7 @@
   "company_site": "https://bdoireland.pinpointhq.com/",
   "first_seen": "2026-09-01T19:24:15+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -7458,7 +7460,7 @@
   "company_site": "https://bdoireland.pinpointhq.com/",
   "first_seen": "2026-09-01T19:24:15+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -7518,7 +7520,7 @@
   "company_site": "https://bdoireland.pinpointhq.com/",
   "first_seen": "2026-09-01T19:24:15+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -8075,7 +8077,7 @@
   "company_site": "https://careers.statestreet.com/global/en/search-results",
   "first_seen": "2026-09-15T10:20:18+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -8223,7 +8225,7 @@
   "company_site": "https://careers.usbank.com/global/en/",
   "first_seen": "2026-09-22T14:31:26+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -8428,14 +8430,12 @@
   "company_site": "https://www.ornua.com/careers/",
   "first_seen": "2026-09-14T12:29:32+00:00",
   "is_new": false,
-  "last_seen": "2026-09-27T21:26:15+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
   "eligibility_flags": [],
-  "eligibility_bonuses": [],
-  "closed": true,
-  "closed_at": "2026-09-27T22:11:44+00:00"
+  "eligibility_bonuses": []
  },
  {
   "id": "19126d2ea0d3c9f9",
@@ -8490,7 +8490,7 @@
   "company_site": "https://careers.statestreet.com/global/en/search-results",
   "first_seen": "2026-09-23T15:06:53+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -8689,7 +8689,7 @@
   "company_site": "https://bdoireland.pinpointhq.com/",
   "first_seen": "2026-09-01T19:24:15+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -9220,7 +9220,7 @@
   "company_site": "",
   "first_seen": "2026-09-25T14:42:05+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -9291,7 +9291,7 @@
   "company_site": "https://expleo.com/global/en/careers/",
   "first_seen": "2026-09-26T23:13:24+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -9432,7 +9432,7 @@
   "company_site": "https://www.flipdish.com/careers",
   "first_seen": "2026-09-04T11:19:10+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": {
    "soc4": "2421",
    "matched_title": "Accountant",
@@ -9571,7 +9571,7 @@
   "company_site": "https://www.apexgroup.com/careers/",
   "first_seen": "2026-09-01T22:22:46+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -9700,7 +9700,7 @@
   "company_site": "https://www.centralbank.ie/careers",
   "first_seen": "2026-09-04T11:19:10+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -9843,7 +9843,7 @@
   "company_site": "",
   "first_seen": "2026-09-28T19:45:08+00:00",
   "is_new": true,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -9908,7 +9908,7 @@
   "company_site": "https://www.ey.com/en_ie/careers/students",
   "first_seen": "2026-09-01T22:41:03+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -10122,7 +10122,7 @@
   "company_site": "",
   "first_seen": "2026-09-11T01:24:55+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -10322,7 +10322,7 @@
   "company_site": "https://www.fenergo.com/careers",
   "first_seen": "2026-09-21T16:49:09+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -10858,7 +10858,7 @@
   "company_site": "https://www.crowe.ie/careers/",
   "first_seen": "2026-09-11T01:50:24+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -10923,7 +10923,7 @@
   "company_site": "https://stripe.com/jobs",
   "first_seen": "2026-09-14T12:29:32+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -11248,7 +11248,7 @@
   "company_site": "https://fa-euxc-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/jobs",
   "first_seen": "2026-09-01T19:24:15+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -12036,7 +12036,7 @@
   "company_site": "https://careers.primark.com/en/location/ireland-jobs/30423/2963597/2",
   "first_seen": "2026-09-24T14:32:21+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -12160,7 +12160,7 @@
   "company_site": "https://www.centralbank.ie/careers",
   "first_seen": "2026-09-01T22:41:03+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -12429,7 +12429,7 @@
   "company_site": "https://fa-euxc-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/jobs",
   "first_seen": "2026-09-01T19:24:15+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -13311,7 +13311,7 @@
   "company_site": "https://careers.jpmorgan.com/global/en/students",
   "first_seen": "2026-09-24T14:32:21+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -13371,7 +13371,7 @@
   "company_site": "https://www.ey.com/en_ie/careers/students",
   "first_seen": "2026-09-01T22:41:03+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -13500,7 +13500,7 @@
   "company_site": "https://www.ey.com/en_ie/careers/students",
   "first_seen": "2026-09-02T03:59:37+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -13696,7 +13696,7 @@
   "company_site": "https://www.wayflyer.com/careers",
   "first_seen": "2026-09-17T18:49:15+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -13960,7 +13960,7 @@
   "company_site": "https://esbnetworks.ie/careers",
   "first_seen": "2026-09-25T18:58:25+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -14634,7 +14634,7 @@
   "company_site": "https://accenture.pinpointhq.com/ireland",
   "first_seen": "2026-09-10T09:17:03+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -15426,7 +15426,7 @@
   "company_site": "",
   "first_seen": "2026-09-14T12:29:32+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -16064,7 +16064,9 @@
   "eligibility": "eligible",
   "eligibility_reasons": [],
   "eligibility_flags": [],
-  "eligibility_bonuses": []
+  "eligibility_bonuses": [],
+  "closed": true,
+  "closed_at": "2026-09-29T00:01:23+00:00"
  },
  {
   "id": "d3fcd54c8d49a817",
@@ -16663,14 +16665,12 @@
   "company_site": "https://www.vistra.com/careers",
   "first_seen": "2026-09-21T20:41:09+00:00",
   "is_new": false,
-  "last_seen": "2026-09-27T22:11:44+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
   "eligibility_flags": [],
-  "eligibility_bonuses": [],
-  "closed": true,
-  "closed_at": "2026-09-28T00:45:10+00:00"
+  "eligibility_bonuses": []
  },
  {
   "id": "42cb29470fe780b6",
@@ -16735,7 +16735,7 @@
   "company_site": "https://www.ornua.com/careers/",
   "first_seen": "2026-09-22T12:17:36+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T12:14:26+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -17019,7 +17019,7 @@
   "company_site": "https://www.aig.com/careers",
   "first_seen": "2026-09-01T22:22:46+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -18183,7 +18183,7 @@
   "company_site": "https://jobs.aib.ie/go/Search-All-Jobs/3834700/",
   "first_seen": "2026-09-24T14:32:21+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -18320,7 +18320,7 @@
   "company_site": "",
   "first_seen": "2026-09-01T22:41:03+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -19206,7 +19206,7 @@
   "company_site": "https://accenture.pinpointhq.com/ireland",
   "first_seen": "2026-09-10T09:17:03+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -19477,7 +19477,7 @@
   "company_site": "https://www.version1.com/careers",
   "first_seen": "2026-09-25T14:42:05+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -19610,7 +19610,7 @@
   "company_site": "https://fa-euxc-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/jobs",
   "first_seen": "2026-09-28T19:45:08+00:00",
   "is_new": true,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -19926,7 +19926,7 @@
   "company_site": "https://www.forvismazars.com/ie/en/careers",
   "first_seen": "2026-09-02T04:08:24+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -19996,7 +19996,7 @@
   "company_site": "https://www.forvismazars.com/ie/en/careers",
   "first_seen": "2026-09-02T04:08:24+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -20066,7 +20066,7 @@
   "company_site": "https://www.forvismazars.com/ie/en/careers",
   "first_seen": "2026-09-02T04:08:24+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -20136,7 +20136,7 @@
   "company_site": "https://www.forvismazars.com/ie/en/careers",
   "first_seen": "2026-09-02T04:08:24+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -20206,7 +20206,7 @@
   "company_site": "https://www.forvismazars.com/ie/en/careers",
   "first_seen": "2026-09-02T04:08:24+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -20481,7 +20481,7 @@
   "company_site": "https://careers.mastercard.com/us/en/dublin-ireland",
   "first_seen": "2026-09-17T11:48:30+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -20757,7 +20757,7 @@
   "company_site": "https://www.forvismazars.com/ie/en/careers",
   "first_seen": "2026-09-21T20:41:09+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -20980,7 +20980,9 @@
   "eligibility": "eligible",
   "eligibility_reasons": [],
   "eligibility_flags": [],
-  "eligibility_bonuses": []
+  "eligibility_bonuses": [],
+  "closed": true,
+  "closed_at": "2026-09-29T00:01:23+00:00"
  },
  {
   "id": "561a6582c492288c",
@@ -21598,7 +21600,7 @@
   "company_site": "https://fa-euxc-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/jobs",
   "first_seen": "2026-09-14T18:42:27+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -22059,7 +22061,7 @@
   "company_site": "",
   "first_seen": "2026-09-09T20:02:10+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -22207,7 +22209,7 @@
   "company_site": "https://careers.statestreet.com/global/en/search-results",
   "first_seen": "2026-09-23T15:06:53+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -22272,7 +22274,7 @@
   "company_site": "https://careers.primark.com/en/location/ireland-jobs/30423/2963597/2",
   "first_seen": "2026-09-25T14:42:05+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -22871,7 +22873,7 @@
   "company_site": "https://www.apexgroup.com/careers/",
   "first_seen": "2026-09-22T14:31:26+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -23003,7 +23005,7 @@
   "company_site": "https://www.cscglobal.com/service/careers/",
   "first_seen": "2026-09-28T19:45:08+00:00",
   "is_new": true,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -23133,7 +23135,9 @@
   "eligibility": "eligible",
   "eligibility_reasons": [],
   "eligibility_flags": [],
-  "eligibility_bonuses": []
+  "eligibility_bonuses": [],
+  "closed": true,
+  "closed_at": "2026-09-29T00:01:23+00:00"
  },
  {
   "id": "ec45146062279685",
@@ -23198,7 +23202,7 @@
   "company_site": "https://www.cscglobal.com/service/careers/",
   "first_seen": "2026-09-17T15:04:34+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -23258,7 +23262,7 @@
   "company_site": "https://fa-euxc-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/jobs",
   "first_seen": "2026-09-23T10:14:23+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -23328,7 +23332,7 @@
   "company_site": "https://www.version1.com/careers",
   "first_seen": "2026-09-24T18:36:29+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -25258,7 +25262,7 @@
   "company_site": "https://cantorfitzgerald.ie/careers/",
   "first_seen": "2026-09-01T22:41:03+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -25605,7 +25609,7 @@
   "company_site": "https://careers.marsh.com/global/en/mercer-search",
   "first_seen": "2026-09-28T19:45:08+00:00",
   "is_new": true,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -25729,7 +25733,7 @@
   "company_site": "https://kpmg.com/ie/en/careers/graduate.html",
   "first_seen": "2026-09-01T22:41:03+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -26821,6 +26825,66 @@
   "csol": null
  },
  {
+  "id": "499425abc5e753ce",
+  "title": "Customer Success Agent Job Details",
+  "company": "BT Ireland",
+  "location": "",
+  "url": "https://jobs.bt.com/BT/job/Glasgow-Customer-Success-Agent-G2-8LA/1372491557/",
+  "description": "Cookies on BT.com\nWe use cookies to do things like remember what you've added to your shopping basket, offer live chat support and show you content we think you'll be interested in. If you're happy with the use of cookies by BT and selected partners, click OK.\nModify Cookie Preferences\nReject All Cookies\nAccept All Cookies\nSkip to main content\nView profile\nEmployee Login\nWhy BT Business\nCulture at BT\nCareers at BT\nSearch roles\nBT Group\nEarly Careers\nOur Teams\nAbout BT Group\nLife at BT Group\nFlexible Working\nRewards & Benefits\nDiversity & Inclusion\nWellbeing explained\nOur locations\nSearch Jobs\nJob Description\nStart applying with LinkedIn\nPlease wait...\nJob Title:\nCustomer Success Agent\nReq ID:\n62909\nJob Function:\nBT contact centres\nPosting Start Date:\n28/09/2026\nPosting End Date:\nDivision:\nUK Business\nJob Location:\nGBR Glasgow - Alexndr Bain Hse\nAdvertised Salary:\n32,082.00\nLocation: Glasgow\nGrade: TMSV3\nWe’re looking for a confident and customer-focused Customer Success Agent to take ownership of business customer journeys dealing with products such as, but not limited to, Broadband, BTnet and Digital Voice .\nYou’ll support customers from order through activation and Early Life, handle inbound queries, resolve issues and complaints, validate first bills and work with specialist teams to keep cases moving through to resolution.\nKey requirements:\nStrong customer service skills, with clear, empathetic communication and effective expectation management.\nConfidence in taking end-to-end ownership of customer cases, including escalations and complaint resolution.\nAbility to work across multiple systems, prioritise effectively and maintain accurate records.\nA practical approach to resolving service, order and Early Life issues, with a focus on First Contact Resolution.\nAbility to explain technical information clearly and identify suitable opportunities that add value for customers.\nWillingness to learn new products, processes and systems quickly; knowledge of BT networks or order journeys would be advantageous.\nIf you’re proactive, accountable and passionate about delivering a straightforward, reassuring customer experience, we’d like to hear from you.\nOpens in a new tab.\nCookie Consent Manager\nWhen you visit any website, it may store or retrieve information on your browser, mostly in the form of cookies. Because we respect your right to privacy, you can choose not to allow some types of cookies. However, blocking some types of cookies may impact your experience of the site and the services we are able to offer.\nRequired Cookies\nThese cookies are required to use this website and can't be turned off.\nShow More Details\nProvider\nDescription\nEnabled\nSAP as service provider\nWe use the following session cookies, which are all required to enable the website to function:\n\"route\" is used for session stickiness\n\"careerSiteCompanyId\" is used to send the request to the correct data centre\n\"JSESSIONID\" is placed on the visitor's device during the session so the server can identify the visitor\n\"Load balancer cookie\" (actual cookie name may vary) prevents a visitor from bouncing from one instance to another\nCookies from provider SAPasserviceprovider are required and cannot be turned off\nFunctional Cookies\nThese cookies provide a better customer experience on this site, such as by remembering your login details, optimising video performance or providing us with information about how our site is used. You may freely choose to accept or decline these cookies at any time. Note that certain functionalities that these third-parties make available may be impacted if you do not accept these cookies.\nConsent to all Functional Cookies\nVimeo\nVimeo is a video hosting, sharing and services platform focused on the delivery of video. Opting out of Vimeo cookies will disable your ability to watch or interact with Vimeo videos.\nCookie Policy\nPrivacy Policy\nTerms and Conditions\nConsent to cookies from provider Vimeo\nYouTube\nYouTube is a video-sharing service where users can create their own profile, upload videos, watch, like and comment on videos. Opting out of YouTube cookies will disable your ability to watch or interact with YouTube videos.\nConsent to cookies from provider YouTube\nAdvertising Cookies\nThese cookies serve ads that are relevant to your interests. You may freely choose to accept or decline these cookies at any time. Note that certain functionality that these third parties make available may be impacted if you do not accept these cookies.\nConsent to all Advertising Cookies\nGoogle Tag Manager\nGoogle Tag Manager is a tag management system for conversion tracking, site analytics, remarketing and more.\nConsent to cookies from provider GoogleTagManager\nLinkedIn\nLinkedIn is an employment-oriented social networking service. We use the Apply with LinkedIn feature to allow you to apply for jobs using your LinkedIn profile. Opting out of LinkedIn cookies will disable your ability to use Apply with LinkedIn.\nCookie Table\nConsent to cookies from provider LinkedIn\nConfirm My Choices",
+  "posted_at": "",
+  "source": "sitemap",
+  "department": "",
+  "employment_type": "",
+  "sponsorship": null,
+  "salary_eur": null,
+  "permit_route": null,
+  "score": 39,
+  "band": "stretch",
+  "breakdown": [
+   {
+    "label": "Role fit",
+    "points": 26,
+    "note": "'customer success' — Nine months on checkout, billing and query handling at D-Mart in 2021 - real front-line service, but dated and not office-based"
+   },
+   {
+    "label": "Early careers",
+    "points": 12,
+    "note": "Flagged as early careers"
+   },
+   {
+    "label": "Tools you have",
+    "points": 0,
+    "note": "Names none of the tools you actually use"
+   },
+   {
+    "label": "Industry fit",
+    "points": 0,
+    "note": "Not in insurance, finance or operations"
+   },
+   {
+    "label": "Location",
+    "points": 0,
+    "note": "Location unclear"
+   },
+   {
+    "label": "Sponsorship",
+    "points": 1,
+    "note": "Sponsorship not established either way"
+   }
+  ],
+  "sponsor_tier": 1,
+  "permits": 0,
+  "company_site": "https://www.bt.com/careers",
+  "first_seen": "2026-09-29T00:01:23+00:00",
+  "is_new": true,
+  "last_seen": "2026-09-29T00:01:23+00:00",
+  "csol": null,
+  "eligibility": "eligible",
+  "eligibility_reasons": [],
+  "eligibility_flags": [],
+  "eligibility_bonuses": []
+ },
+ {
   "id": "1b5f7017a44c0f86",
   "title": "Electrical Engineering Co-Op Student",
   "company": "Stryker Ireland",
@@ -26954,7 +27018,7 @@
   "company_site": "https://careers.marsh.com/global/en/mercer-search",
   "first_seen": "2026-09-02T04:08:24+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -27491,7 +27555,7 @@
   "company_site": "https://life-careers.com/search-jobs",
   "first_seen": "2026-09-17T10:16:47+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -27561,7 +27625,7 @@
   "company_site": "https://life-careers.com/search-jobs",
   "first_seen": "2026-09-17T10:16:47+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": {
    "soc4": "2425",
    "matched_title": "Actuary",
@@ -27648,14 +27712,12 @@
   "company_site": "https://www.bt.com/careers",
   "first_seen": "2026-09-21T23:03:20+00:00",
   "is_new": false,
-  "last_seen": "2026-09-26T22:13:47+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
+  "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
   "eligibility_flags": [],
-  "eligibility_bonuses": [],
-  "csol": null,
-  "closed": true,
-  "closed_at": "2026-09-27T05:52:37+00:00"
+  "eligibility_bonuses": []
  },
  {
   "id": "c7a29e35ac7d27ff",
@@ -27721,7 +27783,9 @@
    }
   ],
   "eligibility_flags": [],
-  "eligibility_bonuses": []
+  "eligibility_bonuses": [],
+  "closed": true,
+  "closed_at": "2026-09-29T00:01:23+00:00"
  },
  {
   "id": "35126ce130eef393",
@@ -27850,7 +27914,7 @@
   "company_site": "https://careers.usbank.com/global/en/",
   "first_seen": "2026-09-02T04:08:24+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -28479,7 +28543,7 @@
   "company_site": "https://careers.usbank.com/global/en/",
   "first_seen": "2026-09-23T10:14:23+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -28549,7 +28613,7 @@
   "company_site": "https://careers.usbank.com/global/en/",
   "first_seen": "2026-09-23T15:06:53+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -29818,7 +29882,7 @@
   "company_site": "https://life-careers.com/search-jobs",
   "first_seen": "2026-09-21T16:49:09+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": {
    "soc4": "2425",
    "matched_title": "Actuary",
@@ -29894,7 +29958,7 @@
   "company_site": "https://life-careers.com/search-jobs",
   "first_seen": "2026-09-23T10:14:23+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -29959,7 +30023,7 @@
   "company_site": "https://www.kepak.com/careers",
   "first_seen": "2026-09-24T14:32:21+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T05:55:30+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -30867,7 +30931,7 @@
   "company_site": "https://www.hse.ie/eng/careers/",
   "first_seen": "2026-09-28T19:45:08+00:00",
   "is_new": true,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -30997,7 +31061,7 @@
   "company_site": "https://www.zurich.ie/careers/career-opportunities/",
   "first_seen": "2026-09-01T22:41:03+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -31182,7 +31246,7 @@
   "company_site": "https://expleo.com/global/en/careers/",
   "first_seen": "2026-09-02T01:29:46+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -31248,7 +31312,7 @@
   "company_site": "https://www.crawco.com/careers",
   "first_seen": "2026-09-02T03:59:37+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -32051,7 +32115,7 @@
   "company_site": "",
   "first_seen": "2026-09-15T15:07:04+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "flagged",
   "eligibility_reasons": [],
@@ -33675,7 +33739,7 @@
   "company_site": "https://www.dawnmeats.com/careers/",
   "first_seen": "2026-09-02T19:39:44+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T05:55:30+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -35162,14 +35226,12 @@
   "company_site": "https://www.vistra.com/careers",
   "first_seen": "2026-09-22T09:44:49+00:00",
   "is_new": false,
-  "last_seen": "2026-09-22T20:02:27+00:00",
-  "closed": true,
-  "closed_at": "2026-09-22T22:36:06+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
+  "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
   "eligibility_flags": [],
-  "eligibility_bonuses": [],
-  "csol": null
+  "eligibility_bonuses": []
  },
  {
   "id": "9837ea40c711c791",
@@ -35390,6 +35452,71 @@
   "closed_at": "2026-09-27T10:59:51+00:00"
  },
  {
+  "id": "c7aa3f72cdf052e2",
+  "title": "SLT QC- Swing shift Job Details",
+  "company": "Wipro Ireland",
+  "location": "",
+  "url": "https://careers.wipro.com/job/Santa-Clara-SLT-QC-Swing-shift-USA-84765/1368660555/",
+  "description": "We use cookies to offer you the best possible website experience. Your cookie preferences will be stored in your browser’s local storage. This includes cookies necessary for the website's operation. Additionally, you can freely decide and change any time whether you accept cookies or choose to opt out of cookies to improve website's performance, as well as cookies used to display content tailored to your interests. Your experience of the site and the services we are able to offer may be impacted if you do not accept all cookies.\nModify Cookie Preferences\nAccept All Cookies\nSkip to main content\nLanguage\nالعَرَبِيَّة (السعودية)\nDeutsch (Deutschland)\nEnglish (United States)\nEspañol (España)\nEspañol (México)\nFrançais (Canada)\nFrançais (France)\nItaliano (Italia)\n日本語 (日本)\nPolski\nPortuguês (Brasil)\nPortuguês (Portugal)\nLimba Română (România)\n简体中文 (中国大陆)\nLife at Wipro\nCareers\nEarly Careers\nExperienced Professionals\nLocations\nBenelux\nBrazil\nGermany and Austria\nKorea\nMexico\nNordics\nPhilippines\nPoland\nPortugal\nRomania\nSouthern Europe\nSwitzerland\nUK and Ireland\nJoin Our Talent Network\nSearch Jobs\nJob Description\nStart applying with LinkedIn\nPlease wait...\nJob Title:\nSLT QC- Swing shift\nCity:\nSanta Clara\nState/Province:\nCalifornia\nPosting Start Date:\n9/16/26\nWipro Limited (NYSE: WIT, BSE: 507685, NSE: WIPRO) is a leading technology services and consulting company focused on building innovative solutions that address clients’ most complex digital transformation needs. Leveraging our holistic portfolio of capabilities in consulting, design, engineering, and operations, we help clients realize their boldest ambitions and build future-ready, sustainable businesses. With over 230,000 employees and business partners across 65 countries, we deliver on the promise of helping our customers, colleagues, and communities thrive in an ever-changing world. For additional information, visit us at www.wipro.com.\nJob Description:\nEssential Duties and Responsibilities\n• Support engineering testing activities utilizing SLT systems.\n• Perform SLT hardware and program checkout activities.\n• Execute engineering sample testing and sample management.\n• Submit and manage NVTask requests.\n• Collect engineering data and provide detailed feedback to engineering teams.\n• Assist in determining methods and corrective actions to resolve equipment or process malfunctions.\n• Perform test equipment setup, checkout, and validation activities.\n• Operate manufacturing, development, diagnostic, and test equipment, including oscilloscopes, signal generators, specialized test apparatus, and test programs.\n• Support split-sample management and engineering experiments.\n• Troubleshoot and resolve system setup and operational issues.\n• Follow written and verbal engineering instructions precisely.\n• Maintain accurate records and documentation using Excel, Word, and related tools.\n• Support engineering investigations and problem-solving activities.\n• Assist with new program qualification and validation activities.\n• Communicate test results, equipment issues, and engineering findings in a professional and timely manner.\nQualifications\n• Associate Degree (AA) or higher preferred.\n• 2–4 years of semiconductor test, engineering support, manufacturing, or related technical experience.\n• Strong troubleshooting and problem-solving skills.\n• Ability to work independently with minimal supervision.\n• Strong written and verbal communication skills.\n• Proficient in Microsoft Excel and Microsoft Word.\nMandatory Skills: VLSI Board Design .\nExperience: 1-3 Years .\nThe expected compensation for this role ranges from $45,000 to $100,000 .\nFinal compensation will depend on various factors, including your geographical location, minimum wage obligations, skills, and relevant experience. Based on the position, the role is also eligible for Wipro's standard benefits including a full range of medical and dental benefits options, disability insurance, paid time off (inclusive of sick leave), other paid and unpaid leave options.\nApplicants are advised that employment in some roles may be conditioned on successful completion of a post-offer drug screening, subject to applicable state law.\nWipro provides equal employment opportunities to all employees and applicants for employment and prohibits discrimination and harassment of any type without regard to race, color, religion, age, sex, national origin, disability status, genetics, protected veteran status, sexual orientation, gender identity or expression, or any other characteristic protected by federal, state, or local laws. Applications from veterans and people with disabilities are explicitly welcome.\nReinvent your world. We are building a modern Wipro. We are an end-to-end digital transformation partner with the boldest ambitions. To realize them, we need people inspired by reinvention. Of yourself, your career, and your skills. We want to see the constant evolution of our business and our industry. It has always been in our DNA - as the world around us changes, so do we. Join a business powered by purpose and a place that empowers you to design your own reinvention.\nInformation at a Glance\nGet Job Alerts\nReceive notifications when we have open roles and get other relevant career news\nRegister >\nJoin Us\nExplore open roles that match your interests and skills\nSearch Jobs >\nIf you encounter any suspicious mail, advertisements, or persons who offer jobs at Wipro, please email us at  helpdesk.recruitment@wipro.com . Do not email your resume to this ID as it is not monitored for resumes and career applications.\nAny complaints or concerns regarding unethical/unfair hiring practices should be directed to our Ombuds Group at  ombuds.person@wipro.com .\nWe are an Equal Opportunity Employer. All qualified applicants will receive consideration for employment without regard to race, color, caste, creed, religion, gender, marital status, age, ethnic and national origin, gender identity, gender expression, sexual orientation, polit",
+  "posted_at": "",
+  "source": "sitemap",
+  "department": "",
+  "employment_type": "",
+  "sponsorship": null,
+  "salary_eur": null,
+  "permit_route": null,
+  "score": 33,
+  "band": "stretch",
+  "breakdown": [
+   {
+    "label": "Role fit",
+    "points": 0,
+    "note": "This job title is not one your CV qualifies you for — capped accordingly"
+   },
+   {
+    "label": "Early careers",
+    "points": 12,
+    "note": "Flagged as early careers"
+   },
+   {
+    "label": "Tools you have",
+    "points": 5,
+    "note": "Wants excel — all on your CV"
+   },
+   {
+    "label": "Industry fit",
+    "points": 0,
+    "note": "Not in insurance, finance or operations"
+   },
+   {
+    "label": "Location",
+    "points": 7,
+    "note": "Ireland"
+   },
+   {
+    "label": "Sponsorship",
+    "points": 6,
+    "note": "Issued 3 employment permit(s) this year"
+   },
+   {
+    "label": "Shift work",
+    "points": 3,
+    "note": "Shift pattern - you already did a year of permanent nights"
+   }
+  ],
+  "sponsor_tier": 3,
+  "permits": 3,
+  "company_site": "https://careers.wipro.com/content/Early-Careers/?locale=en_US",
+  "first_seen": "2026-09-29T00:01:23+00:00",
+  "is_new": true,
+  "last_seen": "2026-09-29T00:01:23+00:00",
+  "csol": null,
+  "eligibility": "eligible",
+  "eligibility_reasons": [],
+  "eligibility_flags": [],
+  "eligibility_bonuses": []
+ },
+ {
   "id": "c494e8b91d05316c",
   "title": "2027 Software Engineer Program - Full-time - Dublin",
   "company": "JPMorganChase Dublin",
@@ -35517,7 +35644,7 @@
   "company_site": "https://fa-euxc-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/jobs",
   "first_seen": "2026-09-01T19:24:15+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -35582,7 +35709,7 @@
   "company_site": "https://www.cscglobal.com/service/careers/",
   "first_seen": "2026-09-01T19:24:15+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": {
    "soc4": "2421",
    "matched_title": "Accountant",
@@ -37666,7 +37793,7 @@
   "company_site": "https://careers.marsh.com/global/en/mercer-search",
   "first_seen": "2026-09-25T14:42:05+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -37742,7 +37869,7 @@
   "company_site": "https://fa-euxc-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/jobs",
   "first_seen": "2026-09-25T18:58:25+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -37942,11 +38069,87 @@
   "permits": 0,
   "company_site": "",
   "first_seen": "2026-09-27T21:26:15+00:00",
-  "is_new": true,
+  "is_new": false,
   "last_seen": "2026-09-27T21:26:15+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
+  "eligibility_flags": [],
+  "eligibility_bonuses": []
+ },
+ {
+  "id": "40961dc2e41aeafc",
+  "title": "Careers in Pharmacovigilance: Opportunities in Patient Safety and Drug Development",
+  "company": "ICON plc",
+  "location": "",
+  "url": "https://careers.iconplc.com/blogs/2025-8/careers-in-pharmacovigilance",
+  "description": "Careers in Pharmacovigilance: Opportunities in Patient Safety and Drug Development\nPosting date:\n25/08/2025\nAuthor: Inside ICON\nJoin our Talent Community\nCareers in Pharmacovigilance\nPharmacovigilance, also known as drug safety, is one of the most important pillars of modern medicine. It ensures that once a medicine is developed, tested, and approved, its journey does not end at the point of market entry. Instead, pharmacovigilance continues to monitor medicines throughout their lifecycle, safeguarding patients while supporting innovation in drug development.\nFor professionals, careers in pharmacovigilance offer a unique opportunity to combine scientific expertise with patient-centred responsibility. From evaluating individual adverse event reports to shaping global safety strategies, every role contributes to improving health outcomes.\nThis blog explores the diverse career pathways in pharmacovigilance, the skills required, and how professionals can progress while making a meaningful impact in patient safety and drug development.\nThe Role of Pharmacovigilance in Patient Safety and Drug Development\nPharmacovigilance exists at the intersection of science, regulation, and clinical practice. Its dual purpose is to:\nProtect patients by identifying, assessing, and preventing adverse drug reactions (ADRs).\nSupport drug development by providing insights into the safety profile of medicines, informing regulatory decisions, and guiding future research.\nThe work carried out in pharmacovigilance ensures that medicines remain effective and safe in the real world, not just under the controlled conditions of a clinical trial. This makes the discipline central to patient trust in healthcare systems and to the success of the pharmaceutical industry.\nKey Roles in Pharmacovigilance\nPharmacovigilance encompasses a wide variety of roles, each contributing in different ways to patient safety and the development of medicines.\nDrug Safety Associate / Pharmacovigilance Officer\nOften the entry point into the field, Drug Safety Associates handle:\nAdverse event (AE) collection and triage, ensuring all safety reports are documented.\nData entry into drug safety databases such as Oracle Argus or ArisGlobal .\nMedDRA coding, which standardises medical terminology across global datasets.\nRegulatory reporting, submitting cases to authorities like the EMA , MHRA , and FDA .\nThese roles are foundational, ensuring that every potential safety signal is captured accurately.\nPharmacovigilance Specialist / Scientist\nSpecialists take on more analytical responsibilities, including:\nSignal detection and risk evaluation, identifying patterns across patient populations.\nAggregate reporting, compiling safety data for periodic reports such as PSUR s or PBRER s.\nCollaborating with clinical and regulatory colleagues to provide scientific context for safety findings.\nBy analysing trends, specialists directly influence decisions on whether medicines require labelling changes or additional monitoring.\nPharmacovigilance Manager / Clinical Safety Manager\nAt managerial level, responsibilities shift towards leadership and oversight:\nSupervising teams of case processors and safety scientists.\nManaging external vendors, as many PV functions are outsourced.\nEnsuring inspection readiness and compliance with international regulations.\nThis role is crucial in balancing operational excellence with the ongoing commitment to patient safety.\nGlobal Safety Lead / Pharmacovigilance QA Manager\nSenior roles in PV involve strategy and governance:\nLeading global safety plans across multiple markets.\nImplementing quality management systems to maintain compliance.\nOverseeing risk minimisation strategies such as REMS.\nActing as the point of contact during regulatory inspections.\nThese professionals ensure that safety is embedded into the broader drug development strategy.\nQualified Person Responsible for Pharmacovigilance (QPPV)\nIn the EU, the QPPV carries ultimate legal responsibility for a company’s pharmacovigilance system.\nThe QPPV:\nOversees the Pharmacovigilance System Master File (PSMF).\nAct as the 24/7 contact for regulators.\nGuarantees company-wide compliance with pharmacovigilance legislation.\nThis role demonstrates the accountability of pharmacovigilance to patients and regulators alike.\nDirector or Medical Director of Drug Safety\nAt the most senior levels, directors shape global policy and safety culture. They:\nDefine strategic safety priorities for the company.\nProvide expert advice to regulatory agencies.\nDrive integration of safety data into drug development pipelines.\nThese positions combine medical expertise with executive leadership to ensure that patient safety is not only maintained but actively enhanced.\nEssential Skills for Pharmacovigilance Careers\nTo succeed in pharmacovigilance, professionals need a combination of technical expertise, regulatory knowledge, and interpersonal skills.\nScientific knowledge: a background in pharmacy, life sciences, nursing, or medicine is essential.\nTechnical proficiency: familiarity with databases such as Oracle Argus and with coding systems like MedDRA.\nAnalytical thinking: the ability to detect safety signals and distinguish meaningful patterns from random variation.\nAttention to detail: accurate data entry and reporting underpin all pharmacovigilance work.\nCommunication skills: reports must be clear, evidence-based, and accessible to both regulators and clinical teams.\nProject and vendor management: with outsourcing common, operational oversight is a valuable skill.\nStrategic foresight: senior roles demand the ability to anticipate regulatory changes and align safety strategy with drug development goals.\nCareer Advice: Building a Path in Pharmacovigilance\nPharmacovigilance offers structured opportunities for progression.\nBegin with entry-level roles such as Drug Safety Associate to gain exposure to regulatory frameworks and case processing.\nInvest in certifications and training to demonstrate technical com",
+  "posted_at": "",
+  "source": "joblinks",
+  "department": "",
+  "employment_type": "",
+  "sponsorship": null,
+  "salary_eur": null,
+  "permit_route": null,
+  "score": 32,
+  "band": "stretch",
+  "breakdown": [
+   {
+    "label": "Role fit",
+    "points": 0,
+    "note": "This job title is not one your CV qualifies you for — capped accordingly"
+   },
+   {
+    "label": "Early careers",
+    "points": 20,
+    "note": "Flagged as entry-level"
+   },
+   {
+    "label": "Tools you have",
+    "points": 0,
+    "note": "Names none of the tools you actually use"
+   },
+   {
+    "label": "How you already work",
+    "points": 2,
+    "note": "Mentions attention to detail, data entry — the way you worked at TCS"
+   },
+   {
+    "label": "Industry fit",
+    "points": 0,
+    "note": "Not in insurance, finance or operations"
+   },
+   {
+    "label": "Location",
+    "points": 0,
+    "note": "Location unclear"
+   },
+   {
+    "label": "Sponsorship",
+    "points": 7,
+    "note": "Documented sponsor in your employer research"
+   },
+   {
+    "label": "Shift work",
+    "points": 3,
+    "note": "Shift pattern - you already did a year of permanent nights"
+   }
+  ],
+  "sponsor_tier": 3,
+  "permits": 0,
+  "company_site": "https://careers.iconplc.com/",
+  "first_seen": "2026-09-29T00:01:23+00:00",
+  "is_new": true,
+  "last_seen": "2026-09-29T00:01:23+00:00",
+  "csol": null,
+  "eligibility": "blocked",
+  "eligibility_reasons": [
+   {
+    "code": "field",
+    "detail": "looks like a clinical or healthcare role",
+    "quote": "afety and drug development. The Role of Pharmacovigilance in Patient Safety and Drug Development Pharmacovigilance exists at the intersection of science, regulation, and clinical practice. Its dual purpose is to: Protect patients by identifying, assessing, and preventing adverse drug reactions (ADRs). Support drug development by providing insight"
+   }
+  ],
   "eligibility_flags": [],
   "eligibility_bonuses": []
  },
@@ -38207,7 +38410,7 @@
   "company_site": "https://jobs.cisco.com/",
   "first_seen": "2026-09-02T18:00:05+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T05:55:30+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -38482,7 +38685,7 @@
   "company_site": "https://www.bt.com/careers",
   "first_seen": "2026-09-03T21:58:30+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T05:55:30+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -38946,7 +39149,9 @@
   "eligibility": "eligible",
   "eligibility_reasons": [],
   "eligibility_flags": [],
-  "eligibility_bonuses": []
+  "eligibility_bonuses": [],
+  "closed": true,
+  "closed_at": "2026-09-29T00:01:23+00:00"
  },
  {
   "id": "2d3b8a9e767c93d3",
@@ -39212,7 +39417,7 @@
   "company_site": "",
   "first_seen": "2026-09-11T01:24:55+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -40257,7 +40462,7 @@
   "company_site": "https://careers.marsh.com/global/en/mercer-search",
   "first_seen": "2026-09-28T19:45:08+00:00",
   "is_new": true,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -40386,7 +40591,7 @@
   "company_site": "https://www.cscglobal.com/service/careers/",
   "first_seen": "2026-09-01T19:24:15+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -40466,7 +40671,7 @@
   "company_site": "https://www.aig.com/careers",
   "first_seen": "2026-09-01T22:22:46+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -40606,7 +40811,7 @@
   "company_site": "https://www.aig.com/careers",
   "first_seen": "2026-09-01T22:22:46+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": {
    "soc4": "2135",
    "matched_title": "Systems Analyst",
@@ -40681,7 +40886,7 @@
   "company_site": "",
   "first_seen": "2026-09-01T22:41:03+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -40751,7 +40956,7 @@
   "company_site": "https://expleo.com/global/en/careers/",
   "first_seen": "2026-09-01T22:41:03+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -40827,7 +41032,9 @@
    }
   ],
   "eligibility_flags": [],
-  "eligibility_bonuses": []
+  "eligibility_bonuses": [],
+  "closed": true,
+  "closed_at": "2026-09-29T00:01:23+00:00"
  },
  {
   "id": "1be31c1aca564d18",
@@ -41022,7 +41229,9 @@
    }
   ],
   "eligibility_flags": [],
-  "eligibility_bonuses": []
+  "eligibility_bonuses": [],
+  "closed": true,
+  "closed_at": "2026-09-29T00:01:23+00:00"
  },
  {
   "id": "fcd59f2ceb695331",
@@ -41077,7 +41286,7 @@
   "company_site": "https://kpmg.com/ie/en/careers/graduate.html",
   "first_seen": "2026-09-02T03:59:37+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -42355,7 +42564,7 @@
   "company_site": "https://careers.statestreet.com/global/en/search-results",
   "first_seen": "2026-09-09T17:24:31+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -44326,7 +44535,7 @@
   "company_site": "https://fa-euxc-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/jobs",
   "first_seen": "2026-09-01T19:24:15+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -44397,7 +44606,7 @@
   "company_site": "https://www.cscglobal.com/service/careers/",
   "first_seen": "2026-09-01T19:24:15+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -44726,7 +44935,7 @@
   "company_site": "https://www.ttecjobs.com/en/search-jobs/Ireland",
   "first_seen": "2026-09-01T22:41:03+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -44855,7 +45064,7 @@
   "company_site": "https://expleo.com/global/en/careers/",
   "first_seen": "2026-09-02T01:29:46+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -44926,7 +45135,7 @@
   "company_site": "https://sedgwick.wd1.myworkdayjobs.com/Sedgwick",
   "first_seen": "2026-09-02T03:53:37+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -45476,7 +45685,7 @@
   "company_site": "https://careers.marsh.com/global/en/mercer-search",
   "first_seen": "2026-09-02T04:08:24+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -45747,7 +45956,7 @@
   "company_site": "https://careers.statestreet.com/global/en/search-results",
   "first_seen": "2026-09-02T11:18:46+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -46225,13 +46434,7 @@
   "company_site": "https://www.vistra.com/careers",
   "first_seen": "2026-09-03T18:27:48+00:00",
   "is_new": false,
-  "last_seen": "2026-09-26T22:13:47+00:00",
-  "eligibility": "eligible",
-  "eligibility_reasons": [],
-  "eligibility_flags": [],
-  "eligibility_bonuses": [],
-  "closed": true,
-  "closed_at": "2026-09-26T22:30:59+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": {
    "soc4": "2421",
    "matched_title": "Accountant",
@@ -46244,7 +46447,11 @@
    "salary_eur": null,
    "salary_known": false,
    "floor": 36848
-  }
+  },
+  "eligibility": "eligible",
+  "eligibility_reasons": [],
+  "eligibility_flags": [],
+  "eligibility_bonuses": []
  },
  {
   "id": "df1749b61e36b46d",
@@ -47155,7 +47362,7 @@
   "company_site": "",
   "first_seen": "2026-09-11T01:24:55+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -47231,7 +47438,7 @@
   "company_site": "",
   "first_seen": "2026-09-11T01:24:55+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -48427,7 +48634,7 @@
   "company_site": "https://jobs.iqvia.com/",
   "first_seen": "2026-09-24T14:32:21+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -48581,7 +48788,9 @@
   "eligibility": "eligible",
   "eligibility_reasons": [],
   "eligibility_flags": [],
-  "eligibility_bonuses": []
+  "eligibility_bonuses": [],
+  "closed": true,
+  "closed_at": "2026-09-29T00:01:23+00:00"
  },
  {
   "id": "1fa8c5c9ad945c4c",
@@ -48714,7 +48923,7 @@
   "company_site": "https://careers.wipro.com/content/Early-Careers/?locale=en_US",
   "first_seen": "2026-09-28T19:45:08+00:00",
   "is_new": true,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -48841,7 +49050,7 @@
   "company_site": "https://jobs.citi.com/location/dublin-jobs/287/2963597-7521314-7778677-2964574/4",
   "first_seen": "2026-09-01T22:22:46+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -48971,7 +49180,7 @@
   "company_site": "https://expleo.com/global/en/careers/",
   "first_seen": "2026-09-01T22:41:03+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -49031,7 +49240,7 @@
   "company_site": "https://expleo.com/global/en/careers/",
   "first_seen": "2026-09-01T22:41:03+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -49102,7 +49311,9 @@
   "eligibility": "eligible",
   "eligibility_reasons": [],
   "eligibility_flags": [],
-  "eligibility_bonuses": []
+  "eligibility_bonuses": [],
+  "closed": true,
+  "closed_at": "2026-09-29T00:01:23+00:00"
  },
  {
   "id": "b0946557419e5dc5",
@@ -49168,7 +49379,9 @@
    }
   ],
   "eligibility_flags": [],
-  "eligibility_bonuses": []
+  "eligibility_bonuses": [],
+  "closed": true,
+  "closed_at": "2026-09-29T00:01:23+00:00"
  },
  {
   "id": "e158553093162288",
@@ -50607,7 +50820,7 @@
   "company_site": "https://careers.primark.com/en/location/ireland-jobs/30423/2963597/2",
   "first_seen": "2026-09-09T17:24:31+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -51195,7 +51408,7 @@
   "company_site": "https://careers.primark.com/en/location/ireland-jobs/30423/2963597/2",
   "first_seen": "2026-09-17T15:04:34+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -51901,7 +52114,7 @@
   "company_site": "https://www.kepak.com/careers",
   "first_seen": "2026-09-01T22:22:46+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T05:55:30+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -51967,7 +52180,7 @@
   "company_site": "https://opportunities.vodafone.com/search/?q=&locationsearch=ireland",
   "first_seen": "2026-09-01T22:41:03+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -52204,7 +52417,7 @@
   "company_site": "https://www.musgravegroup.com/careers/",
   "first_seen": "2026-09-01T22:41:03+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -52870,7 +53083,7 @@
   "company_site": "https://careers.marsh.com/global/en/mercer-search",
   "first_seen": "2026-09-02T04:08:24+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -53063,7 +53276,7 @@
   "company_site": "https://careers.statestreet.com/global/en/search-results",
   "first_seen": "2026-09-02T15:12:21+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -54389,7 +54602,7 @@
   "company_site": "https://www.bt.com/careers",
   "first_seen": "2026-09-05T00:44:47+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T05:55:30+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -55119,7 +55332,9 @@
   "eligibility": "eligible",
   "eligibility_reasons": [],
   "eligibility_flags": [],
-  "eligibility_bonuses": []
+  "eligibility_bonuses": [],
+  "closed": true,
+  "closed_at": "2026-09-29T00:01:23+00:00"
  },
  {
   "id": "863f3c887a945160",
@@ -55708,7 +55923,7 @@
   "company_site": "",
   "first_seen": "2026-09-11T01:24:55+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -57015,7 +57230,9 @@
    }
   ],
   "eligibility_flags": [],
-  "eligibility_bonuses": []
+  "eligibility_bonuses": [],
+  "closed": true,
+  "closed_at": "2026-09-29T00:01:23+00:00"
  },
  {
   "id": "c99483a1a73a2096",
@@ -57696,7 +57913,7 @@
   "company_site": "",
   "first_seen": "2026-09-23T15:06:53+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -57767,7 +57984,7 @@
   "company_site": "https://careers.marsh.com/global/en/mercer-search",
   "first_seen": "2026-09-23T18:52:47+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "flagged",
   "eligibility_reasons": [],
@@ -57779,90 +57996,6 @@
    }
   ],
   "eligibility_bonuses": []
- },
- {
-  "id": "1dbe4cd8e58f9cfe",
-  "title": "Accountant (fixed term 9 month contract)",
-  "company": "Kepak Group",
-  "location": "Dublin 15, Ireland",
-  "url": "https://apply.workable.com/j/8E498C92B0",
-  "description": "The Accountant is responsible for maintaining accurate financial records, preparing financial reports, ensuring compliance with statutory and regulatory requirements, and supporting the business in achieving its financial objectives. The role requires strong analytical skills, attention to detail, and the ability to provide timely financial information to support decision-making.\n \n Prepare monthly, quarterly, and annual management accounts.\n Analyse financial performance and provide commentary on variances and trends.\n Assist with budgeting, forecasting, and financial planning activities.\n Prepare financial reports for senior management.\n Maintain the general ledger and ensure all transactions are accurately recorded.\n Reconcile bank accounts, balance sheet accounts, and other key financial records.\n Manage accounts payable and accounts receivable processes.\n Process journals, accruals, and prepayments.\n Ensure compliance with accounting standards, tax regulations, and company policies.\n Prepare and submit VAT, payroll, and other statutory returns as required.\n Support internal and external audit processes.\n Maintain effective financial controls and identify opportunities for process improvements. \n Monitor financial performance against budgets and forecasts.\n Conduct cost and profitability analysis.\n Provide insights and recommendations to support strategic business decisions.\n Assist with business cases and investment appraisals\n Support the implementation and enhancement of finance systems.\n Develop and improve financial reporting processes.\n Ensure data integrity within financial systems.\n Requirements \n Professional accounting qualification (ACA, ACCA, CIMA, CPA or equivalent) or part-qualified with relevant experience.\n Experience in a finance or accounting role.\n Strong understanding of accounting principles and financial reporting.\n Proficiency in Microsoft Excel and accounting software.\n Excellent analytical and problem-solving skills.\n Experience within a manufacturing, food production, or FMCG environment.\n Knowledge of ERP systems.\n Experience with budgeting and forecasting processes.\n Key Competencies\n Attention to detail and accuracy.\n Strong organisational and time management skills.\n Commercial awareness.\n Analytical thinking.\n Effective communication and interpersonal skills.\n Ability to work independently and as part of a team.\n Confidentiality and integrity.\n Benefits \n What can we offer you? \n \n Subsidized canteen. \n free parking",
-  "posted_at": "2026-09-23T00:00:00+00:00",
-  "source": "workable",
-  "department": "Finance",
-  "employment_type": "Temporary",
-  "sponsorship": null,
-  "salary_eur": null,
-  "permit_route": null,
-  "score": 27,
-  "band": "weak",
-  "breakdown": [
-   {
-    "label": "Role fit",
-    "points": 0,
-    "note": "This job title is not one your CV qualifies you for — capped accordingly"
-   },
-   {
-    "label": "Early careers",
-    "points": 0,
-    "note": "No graduate/junior/internship signal"
-   },
-   {
-    "label": "Tools you have",
-    "points": 8,
-    "note": "Wants excel, forecasting — all on your CV"
-   },
-   {
-    "label": "How you already work",
-    "points": 2,
-    "note": "Mentions attention to detail, process improvement — the way you worked at TCS"
-   },
-   {
-    "label": "Industry fit",
-    "points": 0,
-    "note": "Not in insurance, finance or operations"
-   },
-   {
-    "label": "Location",
-    "points": 10,
-    "note": "Dublin"
-   },
-   {
-    "label": "Sponsorship",
-    "points": 7,
-    "note": "Documented sponsor in your employer research"
-   }
-  ],
-  "sponsor_tier": 3,
-  "permits": 0,
-  "company_site": "https://www.kepak.com/careers",
-  "first_seen": "2026-09-24T14:32:21+00:00",
-  "is_new": false,
-  "last_seen": "2026-09-28T05:55:30+00:00",
-  "csol": {
-   "soc4": "2421",
-   "matched_title": "Accountant",
-   "evidence": [
-    "aca",
-    "acca",
-    "audit",
-    "cima"
-   ],
-   "csol_line": "Chartered and certified accountants, and taxation experts specialising in tax, compliance, regulation, solvency or financial management",
-   "salary_eur": null,
-   "salary_known": false,
-   "floor": 36848
-  },
-  "eligibility": "eligible",
-  "eligibility_reasons": [],
-  "eligibility_flags": [],
-  "eligibility_bonuses": [
-   {
-    "code": "qualification_supported",
-    "detail": "ACA / ACCA / CIMA / CPA supported or desirable, not required",
-    "quote": "ance systems. Develop and improve financial reporting processes. Ensure data integrity within financial systems. Requirements Professional accounting qualification (ACA, ACCA, CIMA, CPA or equivalent) or part-qualified with relevant experience. Experience in a finance or accounting role. Strong understanding of accounting principles a"
-   }
-  ]
  },
  {
   "id": "f263ee8f08004d31",
@@ -58266,7 +58399,7 @@
   "company_site": "https://fa-euxc-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/jobs",
   "first_seen": "2026-09-01T19:24:15+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -58326,7 +58459,7 @@
   "company_site": "https://fa-euxc-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/jobs",
   "first_seen": "2026-09-01T19:24:15+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -58386,7 +58519,7 @@
   "company_site": "https://fa-euxc-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/jobs",
   "first_seen": "2026-09-01T19:24:15+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -58594,7 +58727,7 @@
   "company_site": "https://www.kepak.com/careers",
   "first_seen": "2026-09-01T22:22:46+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T05:55:30+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -58670,7 +58803,7 @@
   "company_site": "https://expleo.com/global/en/careers/",
   "first_seen": "2026-09-01T22:41:03+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -60157,7 +60290,7 @@
   "company_site": "https://life-careers.com/irishlife/go/All-Jobs/3805301/",
   "first_seen": "2026-09-02T04:08:24+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -61887,7 +62020,7 @@
   "company_site": "https://fa-euxc-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/jobs",
   "first_seen": "2026-09-03T11:16:40+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -63877,7 +64010,7 @@
   "company_site": "https://fa-euxc-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/jobs",
   "first_seen": "2026-09-09T17:24:31+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -64217,7 +64350,7 @@
   "company_site": "",
   "first_seen": "2026-09-11T01:24:55+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -64288,7 +64421,7 @@
   "company_site": "https://www.dawnmeats.com/careers/",
   "first_seen": "2026-09-11T01:50:24+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T05:55:30+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -65391,7 +65524,7 @@
   "company_site": "https://jobs.citi.com/location/dublin-jobs/287/2963597-7521314-7778677-2964574/4",
   "first_seen": "2026-09-15T15:07:04+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -65664,7 +65797,7 @@
   "company_site": "https://dxc.com/us/en/careers",
   "first_seen": "2026-09-16T12:11:44+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -67237,7 +67370,7 @@
   "company_site": "https://jobs.citi.com/location/dublin-jobs/287/2963597-7521314-7778677-2964574/4",
   "first_seen": "2026-09-17T23:50:35+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -68464,14 +68597,12 @@
   "company_site": "https://careers.wipro.com/content/Early-Careers/?locale=en_US",
   "first_seen": "2026-09-23T10:14:23+00:00",
   "is_new": false,
-  "last_seen": "2026-09-23T10:14:23+00:00",
-  "closed": true,
-  "closed_at": "2026-09-23T15:06:53+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
+  "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
   "eligibility_flags": [],
-  "eligibility_bonuses": [],
-  "csol": null
+  "eligibility_bonuses": []
  },
  {
   "id": "fe49862cb7a3b4de",
@@ -69357,7 +69488,7 @@
   "company_site": "https://careers.bankofireland.com/",
   "first_seen": "2026-09-28T12:14:26+00:00",
   "is_new": true,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -69495,7 +69626,7 @@
   "company_site": "https://jobs.aib.ie/go/Search-All-Jobs/3834700/",
   "first_seen": "2026-09-28T19:45:08+00:00",
   "is_new": true,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -69565,7 +69696,9 @@
   "eligibility": "eligible",
   "eligibility_reasons": [],
   "eligibility_flags": [],
-  "eligibility_bonuses": []
+  "eligibility_bonuses": [],
+  "closed": true,
+  "closed_at": "2026-09-29T00:01:23+00:00"
  },
  {
   "id": "9bb7f4451377c556",
@@ -77860,14 +77993,12 @@
   "company_site": "https://careers.wipro.com/content/Early-Careers/?locale=en_US",
   "first_seen": "2026-09-12T01:13:13+00:00",
   "is_new": false,
-  "last_seen": "2026-09-23T15:06:53+00:00",
-  "closed": true,
-  "closed_at": "2026-09-23T18:52:47+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
+  "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
   "eligibility_flags": [],
-  "eligibility_bonuses": [],
-  "csol": null
+  "eligibility_bonuses": []
  },
  {
   "id": "5e2ade2892633209",
@@ -79656,7 +79787,7 @@
   "company_site": "https://jobs.globalpayments.com/",
   "first_seen": "2026-09-16T12:11:44+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -83264,7 +83395,7 @@
   "company_site": "https://careers.wipro.com/content/Early-Careers/?locale=en_US",
   "first_seen": "2026-09-28T19:45:08+00:00",
   "is_new": true,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -83324,7 +83455,67 @@
   "company_site": "https://fa-euxc-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/jobs",
   "first_seen": "2026-09-28T19:45:08+00:00",
   "is_new": true,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
+  "csol": null,
+  "eligibility": "eligible",
+  "eligibility_reasons": [],
+  "eligibility_flags": [],
+  "eligibility_bonuses": []
+ },
+ {
+  "id": "479a69423b0e6ff5",
+  "title": "SAP SD/MM Consultant Job Details",
+  "company": "Wipro Ireland",
+  "location": "",
+  "url": "https://careers.wipro.com/job/Austin-SAP-SDMM-Consultant-USA-78753/1363219255/",
+  "description": "We use cookies to offer you the best possible website experience. Your cookie preferences will be stored in your browser’s local storage. This includes cookies necessary for the website's operation. Additionally, you can freely decide and change any time whether you accept cookies or choose to opt out of cookies to improve website's performance, as well as cookies used to display content tailored to your interests. Your experience of the site and the services we are able to offer may be impacted if you do not accept all cookies.\nModify Cookie Preferences\nAccept All Cookies\nSkip to main content\nLanguage\nالعَرَبِيَّة (السعودية)\nDeutsch (Deutschland)\nEnglish (United States)\nEspañol (España)\nEspañol (México)\nFrançais (Canada)\nFrançais (France)\nItaliano (Italia)\n日本語 (日本)\nPolski\nPortuguês (Brasil)\nPortuguês (Portugal)\nLimba Română (România)\n简体中文 (中国大陆)\nLife at Wipro\nCareers\nEarly Careers\nExperienced Professionals\nLocations\nBenelux\nBrazil\nGermany and Austria\nKorea\nMexico\nNordics\nPhilippines\nPoland\nPortugal\nRomania\nSouthern Europe\nSwitzerland\nUK and Ireland\nJoin Our Talent Network\nSearch Jobs\nJob Description\nStart applying with LinkedIn\nPlease wait...\nJob Title:\nSAP SD/MM Consultant\nCity:\nAustin\nState/Province:\nTexas\nPosting Start Date:\n9/28/26\nWipro Limited (NYSE: WIT, BSE: 507685, NSE: WIPRO) is a leading technology services and consulting company focused on building innovative solutions that address clients’ most complex digital transformation needs. Leveraging our holistic portfolio of capabilities in consulting, design, engineering, and operations, we help clients realize their boldest ambitions and build future-ready, sustainable businesses. With over 230,000 employees and business partners across 65 countries, we deliver on the promise of helping our customers, colleagues, and communities thrive in an ever-changing world. For additional information, visit us at www.wipro.com.\nJob Description:\nJob Title: SAP SD/MM Consultant\nLocation- Austin, TX ( Day 1 Onsite)\nStrong hands-on expertise in Retail Logistics processes: In-Store Pickup (APU), Ship From Store (SFS), Inbound Distribution Logistics (IDL), and Inventory Management.\n• Deep knowledge of SAP SD and MM modules with experience in end-to-end order fulfilment, store operations, and supply chain workflows.\n• Prior experience working in a large-scale retail environment (prior Apple experience preferred).\n• Strong analytical skills, ability to work in a multi-vendor setup, and capability to independently drive deliverables with minimal supervision.\n• Preferred / Plus: Experience with SAP S/4HANA, familiarity with AI or automation tools.\nMandatory Skills: SAP Financial Accounting & Controlling .\nExperience: 8-10 Years .\nThe expected compensation for this role ranges from $80,000 to $158,000 .\nFinal compensation will depend on various factors, including your geographical location, minimum wage obligations, skills, and relevant experience. Based on the position, the role is also eligible for Wipro's standard benefits including a full range of medical and dental benefits options, disability insurance, paid time off (inclusive of sick leave), other paid and unpaid leave options.\nApplicants are advised that employment in some roles may be conditioned on successful completion of a post-offer drug screening, subject to applicable state law.\nWipro provides equal employment opportunities to all employees and applicants for employment and prohibits discrimination and harassment of any type without regard to race, color, religion, age, sex, national origin, disability status, genetics, protected veteran status, sexual orientation, gender identity or expression, or any other characteristic protected by federal, state, or local laws. Applications from veterans and people with disabilities are explicitly welcome.\nReinvent your world. We are building a modern Wipro. We are an end-to-end digital transformation partner with the boldest ambitions. To realize them, we need people inspired by reinvention. Of yourself, your career, and your skills. We want to see the constant evolution of our business and our industry. It has always been in our DNA - as the world around us changes, so do we. Join a business powered by purpose and a place that empowers you to design your own reinvention.\nInformation at a Glance\nGet Job Alerts\nReceive notifications when we have open roles and get other relevant career news\nRegister >\nJoin Us\nExplore open roles that match your interests and skills\nSearch Jobs >\nIf you encounter any suspicious mail, advertisements, or persons who offer jobs at Wipro, please email us at  helpdesk.recruitment@wipro.com . Do not email your resume to this ID as it is not monitored for resumes and career applications.\nAny complaints or concerns regarding unethical/unfair hiring practices should be directed to our Ombuds Group at  ombuds.person@wipro.com .\nWe are an Equal Opportunity Employer. All qualified applicants will receive consideration for employment without regard to race, color, caste, creed, religion, gender, marital status, age, ethnic and national origin, gender identity, gender expression, sexual orientation, political orientation, disability status, protected veteran status, or any other characteristic protected by law.\nWipro is committed to creating an accessible, supportive, and inclusive workplace. Reasonable accommodation will be provided to all applicants including persons with disabilities, throughout the recruitment and selection process. Accommodations must be communicated in advance of the application, where possible, and will be reviewed on an individual basis. Wipro provides equal opportunities to all and values diversity.\nWipro.com\nExplore All Jobs\nPrivacy policy\nTerms of use\nFraud Awareness\nWipro Locations\nCookie Consent Manager\nOpens in a new tab.\nWhen you visit any website, it may store or retrieve information on your browser, mostly in the form of cookies. Because we respect your right to privacy, you can choose not to all",
+  "posted_at": "",
+  "source": "sitemap",
+  "department": "",
+  "employment_type": "",
+  "sponsorship": null,
+  "salary_eur": null,
+  "permit_route": null,
+  "score": 25,
+  "band": "weak",
+  "breakdown": [
+   {
+    "label": "Role fit",
+    "points": 0,
+    "note": "This job title is not one your CV qualifies you for — capped accordingly"
+   },
+   {
+    "label": "Early careers",
+    "points": 12,
+    "note": "Flagged as early careers"
+   },
+   {
+    "label": "Tools you have",
+    "points": 0,
+    "note": "Names none of the tools you actually use"
+   },
+   {
+    "label": "Industry fit",
+    "points": 0,
+    "note": "Not in insurance, finance or operations"
+   },
+   {
+    "label": "Location",
+    "points": 7,
+    "note": "Ireland"
+   },
+   {
+    "label": "Sponsorship",
+    "points": 6,
+    "note": "Issued 3 employment permit(s) this year"
+   }
+  ],
+  "sponsor_tier": 3,
+  "permits": 3,
+  "company_site": "https://careers.wipro.com/content/Early-Careers/?locale=en_US",
+  "first_seen": "2026-09-29T00:01:23+00:00",
+  "is_new": true,
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -83698,7 +83889,7 @@
   "company_site": "https://careers.marsh.com/global/en/mercer-search",
   "first_seen": "2026-09-02T04:08:24+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -85414,7 +85605,7 @@
   "company_site": "https://www.fenergo.com/careers",
   "first_seen": "2026-09-18T11:38:45+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -85552,7 +85743,93 @@
   "eligibility": "eligible",
   "eligibility_reasons": [],
   "eligibility_flags": [],
-  "eligibility_bonuses": []
+  "eligibility_bonuses": [],
+  "closed": true,
+  "closed_at": "2026-09-29T00:01:23+00:00"
+ },
+ {
+  "id": "896ea6e9f10e991d",
+  "title": "Accountant (9 month FTC)",
+  "company": "Kepak Group",
+  "location": "Clonee, Ireland",
+  "url": "https://apply.workable.com/j/8E498C92B0",
+  "description": "Are you a detail-oriented finance professional who enjoys turning numbers into meaningful business insights? We're looking for an ambitious Accountant to join our team in Clonee, Meath and play a key role in supporting financial performance, driving continuous improvement, and helping the business achieve its strategic goals.\n \n This is an excellent opportunity for someone who enjoys a mix of financial reporting, analysis, business partnering, and process improvement within a dynamic and collaborative environment.\n \n This is a 9 month fixed term contract. \n The Accountant is responsible for maintaining accurate financial records, preparing financial reports, ensuring compliance with statutory and regulatory requirements, and supporting the business in achieving its financial objectives. The role requires strong analytical skills, attention to detail, and the ability to provide timely financial information to support decision-making.\n \n Prepare monthly, quarterly, and annual management accounts.\n Analyse financial performance and provide commentary on variances and trends.\n Assist with budgeting, forecasting, and financial planning activities.\n Prepare financial reports for senior management.\n Maintain the general ledger and ensure all transactions are accurately recorded.\n Reconcile bank accounts, balance sheet accounts, and other key financial records.\n Manage accounts payable and accounts receivable processes.\n Process journals, accruals, and prepayments.\n Ensure compliance with accounting standards, tax regulations, and company policies.\n Prepare and submit VAT, payroll, and other statutory returns as required.\n Support internal and external audit processes.\n Maintain effective financial controls and identify opportunities for process improvements. \n Monitor financial performance against budgets and forecasts.\n Conduct cost and profitability analysis.\n Provide insights and recommendations to support strategic business decisions.\n Assist with business cases and investment appraisals\n Support the implementation and enhancement of finance systems.\n Develop and improve financial reporting processes.\n Ensure data integrity within financial systems.\n Requirements \n Professional accounting qualification (ACA, ACCA, CIMA, CPA or equivalent) or part-qualified with relevant experience.\n Experience in a finance or accounting role.\n Strong understanding of accounting principles and financial reporting.\n Proficiency in Microsoft Excel and accounting software.\n Excellent analytical and problem-solving skills.\n Experience within a manufacturing, food production, or FMCG environment.\n Knowledge of ERP systems.\n Experience with budgeting and forecasting processes.\n Key Competencies\n Attention to detail and accuracy.\n Strong organisational and time management skills.\n Commercial awareness.\n Analytical thinking.\n Effective communication and interpersonal skills.\n Ability to work independently and as part of a team.\n Confidentiality and integrity.\n Benefits \n What can we offer you? \n \n Subsidized canteen. \n free parking",
+  "posted_at": "2026-09-28T00:00:00+00:00",
+  "source": "workable",
+  "department": "Finance",
+  "employment_type": "Contract",
+  "sponsorship": null,
+  "salary_eur": null,
+  "permit_route": null,
+  "score": 24,
+  "band": "weak",
+  "breakdown": [
+   {
+    "label": "Role fit",
+    "points": 0,
+    "note": "This job title is not one your CV qualifies you for — capped accordingly"
+   },
+   {
+    "label": "Early careers",
+    "points": 0,
+    "note": "No graduate/junior/internship signal"
+   },
+   {
+    "label": "Tools you have",
+    "points": 8,
+    "note": "Wants excel, forecasting — all on your CV"
+   },
+   {
+    "label": "How you already work",
+    "points": 2,
+    "note": "Mentions attention to detail, process improvement — the way you worked at TCS"
+   },
+   {
+    "label": "Industry fit",
+    "points": 0,
+    "note": "Not in insurance, finance or operations"
+   },
+   {
+    "label": "Location",
+    "points": 7,
+    "note": "Ireland"
+   },
+   {
+    "label": "Sponsorship",
+    "points": 7,
+    "note": "Documented sponsor in your employer research"
+   }
+  ],
+  "sponsor_tier": 3,
+  "permits": 0,
+  "company_site": "https://www.kepak.com/careers",
+  "first_seen": "2026-09-29T00:01:23+00:00",
+  "is_new": true,
+  "last_seen": "2026-09-29T00:01:23+00:00",
+  "csol": {
+   "soc4": "2421",
+   "matched_title": "Accountant",
+   "evidence": [
+    "aca",
+    "acca",
+    "audit",
+    "cima"
+   ],
+   "csol_line": "Chartered and certified accountants, and taxation experts specialising in tax, compliance, regulation, solvency or financial management",
+   "salary_eur": null,
+   "salary_known": false,
+   "floor": 36848
+  },
+  "eligibility": "eligible",
+  "eligibility_reasons": [],
+  "eligibility_flags": [],
+  "eligibility_bonuses": [
+   {
+    "code": "qualification_supported",
+    "detail": "ACA / ACCA / CIMA / CPA supported or desirable, not required",
+    "quote": "ance systems. Develop and improve financial reporting processes. Ensure data integrity within financial systems. Requirements Professional accounting qualification (ACA, ACCA, CIMA, CPA or equivalent) or part-qualified with relevant experience. Experience in a finance or accounting role. Strong understanding of accounting principles a"
+   }
+  ]
  },
  {
   "id": "005edca3299ad4e0",
@@ -85612,7 +85889,7 @@
   "company_site": "https://www.apexgroup.com/careers/",
   "first_seen": "2026-09-01T19:24:15+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "flagged",
   "eligibility_reasons": [],
@@ -85678,7 +85955,7 @@
   "company_site": "https://fa-euxc-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/jobs",
   "first_seen": "2026-09-01T19:24:15+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -85979,6 +86256,77 @@
   "csol": null
  },
  {
+  "id": "964cb2afdc5cc63a",
+  "title": "Warehouse Operative",
+  "company": "Kepak Group",
+  "location": "Clonee, Ireland",
+  "url": "https://apply.workable.com/j/1869689531",
+  "description": "Kepak is a leading food company with 14 manufacturing sites and over 4,500 employees across Ireland and the UK, with a turnover of €1.75 billion. \n The Group operates across three divisions: Meat Division Ireland, Foods Division and Meat Division UK. Guided by our values - Responsibility, Ambition, Passion for Food, and Teamwork. We are committed to operating as a successful, sustainable, future-ready business that is a great place to work. We supply fresh and value-added meat based products to retail and foodservice through private label and our own brands, including Rustlers, Big Al's and John Stone. \n \n Responsibilities \n What is expected in this job? \n Reporting to the Warehouse Manager the operative will partake in all aspects of the warehouse operation, with health & safety, communication, accuracy and efficiency of the operation being a priority. \n Assisting in the maintenance of inventory and supplies by receiving, storing, and dispatching items in a timely manner.\n Support the maintenance and organisation of the storage areas.\n Assist the Stock Controller in maintaining accurate stock records and ensuring proper stock rotation.\n Participate in scheduled and ad‑hoc stocktakes as required.\n Adhere to all company policies and procedures at all times.\n Wear all required PPE in accordance with Kepak guidelines.\n Work collaboratively with the Coldstore team to ensure smooth operational flow.\n Provide flexibility regarding working hours to meet business needs.\n Working in a cold environment \n Use Microsoft Office applications (Word, Excel) as part of daily duties.\n Use Workstations and Scanners for Picking Orders as part of daily duties, training provided.\n Loading and Unloading of Containers using Forklift.\n Putting away pallets delivered into racks using forklift.\n Picking orders with the use of forklift. \n Shift work may be required.\n Requirements \n What we need from you? \n Good English communication skills, both written and verbal. \n Enthusiastic and motivated with a proactive, safety‑focused mindset. \n Dependable, with excellent timekeeping and reliability. \n Able to work independently using their own initiative, as well as collaboratively within a team environment. \n Efficient and able to perform manual tasks as required. \n Willing to learn, develop new skills, and adapt to changing business needs. \n Strong time‑management skills, with the ability to work under pressure and meet tight deadlines. \n Previous experience in order picking within a warehouse environment is an advantage. \n Experience using Microsoft Office applications is an advantage.\n Must have previous and recent forklift driving experience working inside a warehouse.\n Benefits \n Private Health Insurance\n Pension Plan\n Training & Development\n Company Pension\n Bike to Work Scheme\n Long Service Awards\n Subsidised canteen onsite\n Free on-site parking",
+  "posted_at": "2026-07-29T00:00:00+00:00",
+  "source": "workable",
+  "department": "Operations",
+  "employment_type": "",
+  "sponsorship": null,
+  "salary_eur": null,
+  "permit_route": null,
+  "score": 23,
+  "band": "weak",
+  "breakdown": [
+   {
+    "label": "Role fit",
+    "points": 0,
+    "note": "This job title is not one your CV qualifies you for — capped accordingly"
+   },
+   {
+    "label": "Early careers",
+    "points": 0,
+    "note": "No graduate/junior/internship signal"
+   },
+   {
+    "label": "Tools you have",
+    "points": 6,
+    "note": "Wants excel — all on your CV"
+   },
+   {
+    "label": "Industry fit",
+    "points": 0,
+    "note": "Not in insurance, finance or operations"
+   },
+   {
+    "label": "Location",
+    "points": 7,
+    "note": "Ireland"
+   },
+   {
+    "label": "Sponsorship",
+    "points": 7,
+    "note": "Documented sponsor in your employer research"
+   },
+   {
+    "label": "Shift work",
+    "points": 3,
+    "note": "Shift pattern - you already did a year of permanent nights"
+   }
+  ],
+  "sponsor_tier": 3,
+  "permits": 0,
+  "company_site": "https://www.kepak.com/careers",
+  "first_seen": "2026-09-01T22:22:46+00:00",
+  "is_new": false,
+  "last_seen": "2026-09-29T00:01:23+00:00",
+  "csol": null,
+  "eligibility": "blocked",
+  "eligibility_reasons": [
+   {
+    "code": "field",
+    "detail": "skilled trades or production role",
+    "quote": "Warehouse Operative"
+   }
+  ],
+  "eligibility_flags": [],
+  "eligibility_bonuses": []
+ },
+ {
   "id": "570919521d41c07f",
   "title": "Sales Advisor Naas",
   "company": "FBD Insurance",
@@ -86167,7 +86515,7 @@
   "company_site": "https://careers.fbdgroup.com/search/",
   "first_seen": "2026-09-01T22:41:03+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -86244,7 +86592,9 @@
     "detail": "APA supported or desirable, not required",
     "quote": "s management may require from time to time Education Leaving Certificate or equivalent and/or a relevant third level qualification Qualified to Approved Product Advisor (APA), Approved Product Professional (APP), Certified Insurance Practitioner (CIP) or Grandfathered Accreditation is desired however assistance will be given to obtain this q"
    }
-  ]
+  ],
+  "closed": true,
+  "closed_at": "2026-09-29T00:01:23+00:00"
  },
  {
   "id": "bb6f3bf0dcd6af4a",
@@ -86299,7 +86649,7 @@
   "company_site": "https://www.waystone.com/careers/",
   "first_seen": "2026-09-01T22:41:03+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -86359,14 +86709,12 @@
   "company_site": "https://www.vistra.com/careers",
   "first_seen": "2026-09-01T22:41:03+00:00",
   "is_new": false,
-  "last_seen": "2026-09-26T22:13:47+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
+  "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
   "eligibility_flags": [],
-  "eligibility_bonuses": [],
-  "closed": true,
-  "closed_at": "2026-09-26T22:30:59+00:00",
-  "csol": null
+  "eligibility_bonuses": []
  },
  {
   "id": "884b22cd6e8f2239",
@@ -86611,7 +86959,7 @@
   "company_site": "https://careers.bankofireland.com/",
   "first_seen": "2026-09-02T03:59:37+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -87091,7 +87439,7 @@
   "company_site": "https://www.vistra.com/careers",
   "first_seen": "2026-09-03T06:07:29+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -87731,7 +88079,9 @@
     "detail": "APA supported or desirable, not required",
     "quote": "s management may require from time to time Education Leaving Certificate or equivalent and/or a relevant third level qualification Qualified to Approved Product Advisor (APA), Approved Product Professional (APP), Certified Insurance Practitioner (CIP) or Grandfathered Accreditation is desired however assistance will be given to obtain this q"
    }
-  ]
+  ],
+  "closed": true,
+  "closed_at": "2026-09-29T00:01:23+00:00"
  },
  {
   "id": "b2bdfd4aa9356586",
@@ -88282,7 +88632,7 @@
   "company_site": "",
   "first_seen": "2026-09-11T01:24:55+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -88425,7 +88775,9 @@
     "detail": "APA supported or desirable, not required",
     "quote": "s management may require from time to time Education Leaving Certificate or equivalent and/or a relevant third level qualification Qualified to Approved Product Advisor (APA), Approved Product Professional (APP), Certified Insurance Practitioner (CIP) or Grandfathered Accreditation is desired however assistance will be given to obtain this q"
    }
-  ]
+  ],
+  "closed": true,
+  "closed_at": "2026-09-29T00:01:23+00:00"
  },
  {
   "id": "043b801f488c038b",
@@ -88915,7 +89267,9 @@
    }
   ],
   "eligibility_flags": [],
-  "eligibility_bonuses": []
+  "eligibility_bonuses": [],
+  "closed": true,
+  "closed_at": "2026-09-29T00:01:23+00:00"
  },
  {
   "id": "293ea9a9d17cb20b",
@@ -89050,7 +89404,7 @@
   "company_site": "https://careers.fbdgroup.com/search/",
   "first_seen": "2026-09-28T12:14:26+00:00",
   "is_new": true,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -89116,7 +89470,7 @@
   "company_site": "https://careers.fbdgroup.com/search/",
   "first_seen": "2026-09-28T12:14:26+00:00",
   "is_new": true,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -89128,6 +89482,71 @@
     "quote": "s management may require from time to time Education Leaving Certificate or equivalent and/or a relevant third level qualification Qualified to Approved Product Advisor (APA), Approved Product Professional (APP), Certified Insurance Practitioner (CIP) or Grandfathered Accreditation is desired however assistance will be given to obtain this q"
    }
   ]
+ },
+ {
+  "id": "8d6c8d9d98335c4b",
+  "title": "2027 MBA University Graduate",
+  "company": "Adobe Ireland",
+  "location": "",
+  "url": "https://careers.adobe.com/us/en/job/R171683/2027-MBA-University-Graduate-Manager-Corporate-Development",
+  "description": "We're sorry… the job you are trying to apply for has been filled.\nMaybe you would like to consider the Categories below :\nCard text\nStay in the loop.\nJoin a community of innovators and get early access to opportunities, insider insights, and exclusive updates on life at Adobe.\nJoin our talent community\nWidget title goes here\nYour engaging subtitle goes here. This text should capture attention and provide a brief overview of what follows.\nLearn more\nMeta card 1\nTitle card 1\nA brief description highlighting the key message or action users can take\nMeta card 2\nTitle card 2\nMeta card 3\nTitle card 3\nYour engaging footer subtitle goes here\nCareer Site Cookie Settings\nPersonal Information\n-->",
+  "posted_at": "",
+  "source": "sitemap",
+  "department": "",
+  "employment_type": "",
+  "sponsorship": null,
+  "salary_eur": null,
+  "permit_route": null,
+  "score": 23,
+  "band": "weak",
+  "breakdown": [
+   {
+    "label": "Role fit",
+    "points": 0,
+    "note": "This job title is not one your CV qualifies you for — capped accordingly"
+   },
+   {
+    "label": "Early careers",
+    "points": 16,
+    "note": "Titled for the 2027 intake — a graduate entry route"
+   },
+   {
+    "label": "Tools you have",
+    "points": 0,
+    "note": "Names none of the tools you actually use"
+   },
+   {
+    "label": "Industry fit",
+    "points": 0,
+    "note": "Not in insurance, finance or operations"
+   },
+   {
+    "label": "Location",
+    "points": 0,
+    "note": "Location unclear"
+   },
+   {
+    "label": "Sponsorship",
+    "points": 1,
+    "note": "Sponsorship not established either way"
+   },
+   {
+    "label": "Known entry route",
+    "points": 6,
+    "note": "Matches an entry route you identified at this employer: graduate"
+   }
+  ],
+  "sponsor_tier": 1,
+  "permits": 0,
+  "company_site": "https://careers.adobe.com/",
+  "first_seen": "2026-09-29T00:01:23+00:00",
+  "is_new": true,
+  "last_seen": "2026-09-29T00:01:23+00:00",
+  "csol": null,
+  "eligibility": "eligible",
+  "eligibility_reasons": [],
+  "eligibility_flags": [],
+  "eligibility_bonuses": []
  },
  {
   "id": "92b3c8c68c0c43e7",
@@ -89182,7 +89601,7 @@
   "company_site": "https://careers.chubb.com/",
   "first_seen": "2026-09-01T19:24:15+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -90275,7 +90694,7 @@
   "company_site": "https://www.bt.com/careers",
   "first_seen": "2026-09-11T13:43:30+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T05:55:30+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "flagged",
   "eligibility_reasons": [],
@@ -90553,7 +90972,7 @@
   "company_site": "https://careers.statestreet.com/global/en/search-results",
   "first_seen": "2026-09-14T18:42:27+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -90958,7 +91377,7 @@
   "company_site": "https://www.intercom.com/careers",
   "first_seen": "2026-09-19T21:38:59+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T05:55:30+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -91117,6 +91536,85 @@
   "closed_at": "2026-09-28T19:45:08+00:00"
  },
  {
+  "id": "a97738f808a81713",
+  "title": "Fund Accountant",
+  "company": "Alter Domus",
+  "location": "Cork, Ireland",
+  "url": "https://careers.alterdomus.com/en/job/cork/fund-accountant/38735/34316037184",
+  "description": "ABOUT US: \n  \n As a world leading provider of integrated solutions for the alternative investment industry, Alter Domus (meaning “The Other House” in Latin) is proud to be home to 90% of the top 30 asset managers in the private markets, and more than 6,000 professionals across 24 jurisdictions.  \n  \n With a deep understanding of what it takes to succeed in alternatives, we believe in being different - in what we do, in how we work and most importantly in how we enable and develop our people. Invest yourself in the alternative, and join an organization where you progress on merit, where you can speak openly with whoever you are speaking to, and where you will be supported along whichever path you choose to take.  \n  \n Find out more about life at Alter Domus at careers.alterdomus.com   \n  \n YOUR FUTURE RESPONSIBILITIES: \n  \n  \n Taking an active part in the initial setup of any new funds take-on and liaising with independent tax specialists, lawyers, and notaries as part of the set up process; \n Taking care of the day-to-day operations of the funds and following up with third parties, including investors and fund managers; \n Handling the fund accounts and preparation of periodic reports and regulatory reports for the fund entities; \n Preparing the funds’ periodic Net Asset Value calculation and year-end financial statements, management of the audit, and reviewing other fund related reports; \n Reviewing tax returns and tax balances and maintaining relevant contacts with the tax authorities; \n \n Accurately record all time spent dealing with client matters to ensure the clients are correctly invoiced; \n Pro-actively take on additional responsibilities and administrational tasks as required by your managers or clients. \n  \n  \n YOUR PROFILE: \n  \n  \n You are degree level educated in a relevant area such Finance, Accounting or Economics; \n You may have some existing relevant experience in the fields of fund administration, audit or fiduciary services; \n You have knowledge of fund industry, valuation, and accounting; \n A basic knowledge in accounting for investment products and experience of closed ended funds in the private assset space will be considered as an asset; \n You are fluent in English; \n You possess team spirit, a capacity to build strong client relationships and take initiative to act without waiting for direction (when appropriate). \n  \n  \n  \n  \n WHAT WE OFFER \n  \n We are committed to supporting your development, advancing your career, and providing benefits that matter to you.  \n  \n Our industry-leading Alter Domus Academy offers six learning zones for every stage of your career, with resources tailored to your ambitions and resources from LinkedIn Learning.  \n  \n Our global benefits also include: \n Support for professional accreditations such as ACCA and study leave  \n Flexible arrangements, generous holidays, plus an additional day off for your birthday! \n Continuous mentoring along your career progression  \n Active sports, events and social committees across our offices  \n 24/7 support available from our Employee Assistance Program  \n The opportunity to invest in our growth and success through our Employee Share Plan  \n Plus additional local benefits depending on your location  \n  \n Equity in every sense of the word: \n We are in the business of equity, in every sense of the word. For us, this means taking action to ensure every colleague has equal opportunity, valuing every voice and experience across our organisation, maintaining an inclusive culture where you can bring your whole self to work, and making Alter Domus a workplace where everyone feels they belong.  \n  \n We celebrate our differences, and understand that our success relies on diverse perspectives and experiences, working towards shared goals and a common purpose. We take pride in creating a workplace where all our people are empowered to be truly invested in the alternative and bring their whole selves to work. \n  \n We are committed to ensuring a welcoming recruiting and onboarding process for everyone. Please contact our hiring team if you require any accommodations to make our recruitment process more accessible for you.  \n  \n (Alter Domus Privacy notice can be reviewed via Alter Domus webpage: https://alterdomus.com/privacy-notice/ ) \n  \n #LI-HYBRID \n #LI-LT1",
+  "posted_at": "2026-01-19T00:00:00+00:00",
+  "closes_at": "",
+  "salary": "",
+  "source": "joblinks",
+  "department": "",
+  "employment_type": "",
+  "sponsorship": null,
+  "salary_eur": null,
+  "permit_route": null,
+  "score": 22,
+  "band": "weak",
+  "breakdown": [
+   {
+    "label": "Role fit",
+    "points": 0,
+    "note": "This job title is not one your CV qualifies you for — capped accordingly"
+   },
+   {
+    "label": "Early careers",
+    "points": 0,
+    "note": "No graduate/junior/internship signal"
+   },
+   {
+    "label": "Tools you have",
+    "points": 0,
+    "note": "Names none of the tools you actually use"
+   },
+   {
+    "label": "Industry fit",
+    "points": 10,
+    "note": "Fund is in the job title — your TCS year was insurance operations"
+   },
+   {
+    "label": "Location",
+    "points": 9,
+    "note": "Hybrid"
+   },
+   {
+    "label": "Sponsorship",
+    "points": 0,
+    "note": "Not on this year's employment permit register"
+   },
+   {
+    "label": "Shift work",
+    "points": 3,
+    "note": "Shift pattern - you already did a year of permanent nights"
+   }
+  ],
+  "sponsor_tier": 0,
+  "permits": 0,
+  "company_site": "",
+  "first_seen": "2026-09-29T00:01:23+00:00",
+  "is_new": true,
+  "last_seen": "2026-09-29T00:01:23+00:00",
+  "csol": {
+   "soc4": "2421",
+   "matched_title": "Accountant",
+   "evidence": [
+    "acca",
+    "audit",
+    "tax"
+   ],
+   "csol_line": "Chartered and certified accountants, and taxation experts specialising in tax, compliance, regulation, solvency or financial management",
+   "salary_eur": null,
+   "salary_known": false,
+   "floor": 36848
+  },
+  "eligibility": "eligible",
+  "eligibility_reasons": [],
+  "eligibility_flags": [],
+  "eligibility_bonuses": []
+ },
+ {
   "id": "7beabe5943cf10c9",
   "title": "Corporate Banking Associate",
   "company": "Citi Ireland",
@@ -91241,7 +91739,7 @@
   "company_site": "https://www.kepak.com/careers",
   "first_seen": "2026-09-01T22:22:46+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T05:55:30+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -91375,7 +91873,7 @@
   "company_site": "https://workday.wd5.myworkdayjobs.com/Workday",
   "first_seen": "2026-09-02T03:53:37+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -93038,7 +93536,7 @@
   "company_site": "https://www.version1.com/careers",
   "first_seen": "2026-09-18T15:13:09+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -93121,7 +93619,7 @@
   "company_site": "",
   "first_seen": "2026-09-22T22:36:06+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -93264,7 +93762,7 @@
   "company_site": "",
   "first_seen": "2026-09-24T09:38:16+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -93344,7 +93842,7 @@
   "company_site": "https://life-careers.com/search-jobs",
   "first_seen": "2026-09-26T17:06:34+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -93482,72 +93980,6 @@
   "eligibility_bonuses": []
  },
  {
-  "id": "964cb2afdc5cc63a",
-  "title": "Warehouse Operative",
-  "company": "Kepak Group",
-  "location": "Clonee, Ireland",
-  "url": "https://apply.workable.com/j/1869689531",
-  "description": "Kepak is a leading food company with 14 manufacturing sites and over 4,500 employees across Ireland and the UK, with a turnover of €1.75 billion. \n The Group operates across three divisions: Meat Division Ireland, Foods Division and Meat Division UK. Guided by our values - Responsibility, Ambition, Passion for Food, and Teamwork. We are committed to operating as a successful, sustainable, future-ready business that is a great place to work. We supply fresh and value-added meat based products to retail and foodservice through private label and our own brands, including Rustlers, Big Al's and John Stone. \n \n Responsibilities \n What is expected in this job? \n Reporting to the Warehouse Manager the operative will partake in all aspects of the warehouse operation, with health & safety, communication, accuracy and efficiency of the operation being a priority. \n Assisting in the maintenance of inventory and supplies by receiving, storing, and dispatching items in a timely manner.\n Support the maintenance and organisation of the storage areas.\n Assist the Stock Controller in maintaining accurate stock records and ensuring proper stock rotation.\n Participate in scheduled and ad‑hoc stocktakes as required.\n Adhere to all company policies and procedures at all times.\n Wear all required PPE in accordance with Kepak guidelines.\n Work collaboratively with the Coldstore team to ensure smooth operational flow.\n Provide flexibility regarding working hours to meet business needs.\n Working in a cold environment \n Use Microsoft Office applications (Word, Excel) as part of daily duties.\n Use Workstations and Scanners for Picking Orders as part of daily duties, training provided.\n Loading and Unloading of Containers using Forklift.\n Putting away pallets delivered into racks using forklift.\n Picking orders with the use of forklift. \n Requirements \n What we need from you? \n Good English communication skills, both written and verbal. \n Enthusiastic and motivated with a proactive, safety‑focused mindset. \n Dependable, with excellent timekeeping and reliability. \n Able to work independently using their own initiative, as well as collaboratively within a team environment. \n Efficient and able to perform manual tasks as required. \n Willing to learn, develop new skills, and adapt to changing business needs. \n Strong time‑management skills, with the ability to work under pressure and meet tight deadlines. \n Previous experience in order picking within a warehouse environment is an advantage. \n Experience using Microsoft Office applications is an advantage.\n Must have previous and recent forklift driving experience working inside a warehouse.\n Benefits \n Private Health Insurance\n Pension Plan\n Training & Development\n Company Pension\n Bike to Work Scheme\n Long Service Awards\n Subsidised canteen onsite\n Free on-site parking",
-  "posted_at": "2026-07-29T00:00:00+00:00",
-  "source": "workable",
-  "department": "Operations",
-  "employment_type": "",
-  "sponsorship": null,
-  "salary_eur": null,
-  "permit_route": null,
-  "score": 20,
-  "band": "weak",
-  "breakdown": [
-   {
-    "label": "Role fit",
-    "points": 0,
-    "note": "This job title is not one your CV qualifies you for — capped accordingly"
-   },
-   {
-    "label": "Early careers",
-    "points": 0,
-    "note": "No graduate/junior/internship signal"
-   },
-   {
-    "label": "Tools you have",
-    "points": 6,
-    "note": "Wants excel — all on your CV"
-   },
-   {
-    "label": "Industry fit",
-    "points": 0,
-    "note": "Not in insurance, finance or operations"
-   },
-   {
-    "label": "Location",
-    "points": 7,
-    "note": "Ireland"
-   },
-   {
-    "label": "Sponsorship",
-    "points": 7,
-    "note": "Documented sponsor in your employer research"
-   }
-  ],
-  "sponsor_tier": 3,
-  "permits": 0,
-  "company_site": "https://www.kepak.com/careers",
-  "first_seen": "2026-09-01T22:22:46+00:00",
-  "is_new": false,
-  "last_seen": "2026-09-28T05:55:30+00:00",
-  "csol": null,
-  "eligibility": "blocked",
-  "eligibility_reasons": [
-   {
-    "code": "field",
-    "detail": "skilled trades or production role",
-    "quote": "Warehouse Operative"
-   }
-  ],
-  "eligibility_flags": [],
-  "eligibility_bonuses": []
- },
- {
   "id": "5d03397965a67a08",
   "title": "Custody Technology Analyst – Digital Assets",
   "company": "Citi Ireland",
@@ -93610,7 +94042,7 @@
   "company_site": "https://jobs.citi.com/location/dublin-jobs/287/2963597-7521314-7778677-2964574/4",
   "first_seen": "2026-09-01T22:22:46+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -93670,7 +94102,7 @@
   "company_site": "https://www.kepak.com/careers",
   "first_seen": "2026-09-01T22:22:46+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T05:55:30+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -93804,7 +94236,9 @@
   "eligibility": "eligible",
   "eligibility_reasons": [],
   "eligibility_flags": [],
-  "eligibility_bonuses": []
+  "eligibility_bonuses": [],
+  "closed": true,
+  "closed_at": "2026-09-29T00:01:23+00:00"
  },
  {
   "id": "47b39b9c4e85f25a",
@@ -93864,14 +94298,12 @@
   "company_site": "https://www.vistra.com/careers",
   "first_seen": "2026-09-01T22:41:03+00:00",
   "is_new": false,
-  "last_seen": "2026-09-14T18:42:27+00:00",
-  "closed": true,
-  "closed_at": "2026-09-14T21:59:07+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
+  "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
   "eligibility_flags": [],
-  "eligibility_bonuses": [],
-  "csol": null
+  "eligibility_bonuses": []
  },
  {
   "id": "cef3b228155db804",
@@ -94407,7 +94839,7 @@
   "company_site": "https://careers.usbank.com/global/en/",
   "first_seen": "2026-09-02T04:08:24+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -94736,7 +95168,9 @@
   "eligibility": "eligible",
   "eligibility_reasons": [],
   "eligibility_flags": [],
-  "eligibility_bonuses": []
+  "eligibility_bonuses": [],
+  "closed": true,
+  "closed_at": "2026-09-29T00:01:23+00:00"
  },
  {
   "id": "b262881baf86292e",
@@ -96528,7 +96962,7 @@
   "company_site": "https://opportunities.vodafone.com/search/?q=&locationsearch=ireland",
   "first_seen": "2026-09-18T15:13:09+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -97028,7 +97462,7 @@
   "company_site": "https://careers.klaviyo.com",
   "first_seen": "2026-09-25T18:58:25+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -97275,7 +97709,7 @@
   "company_site": "https://careers.fbdgroup.com/search/",
   "first_seen": "2026-09-01T22:41:03+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -98019,13 +98453,7 @@
   "company_site": "https://www.vistra.com/careers",
   "first_seen": "2026-09-05T06:01:14+00:00",
   "is_new": false,
-  "last_seen": "2026-09-21T20:41:09+00:00",
-  "closed": true,
-  "closed_at": "2026-09-21T23:03:20+00:00",
-  "eligibility": "eligible",
-  "eligibility_reasons": [],
-  "eligibility_flags": [],
-  "eligibility_bonuses": [],
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": {
    "soc4": "2421",
    "matched_title": "Accountant",
@@ -98036,7 +98464,11 @@
    "salary_eur": null,
    "salary_known": false,
    "floor": 36848
-  }
+  },
+  "eligibility": "eligible",
+  "eligibility_reasons": [],
+  "eligibility_flags": [],
+  "eligibility_bonuses": []
  },
  {
   "id": "1a3ef2d345ec14d4",
@@ -99015,7 +99447,7 @@
   "company_site": "https://www.version1.com/careers",
   "first_seen": "2026-09-21T11:02:29+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -99801,7 +100233,7 @@
   "company_site": "https://www.exlservice.com/careers",
   "first_seen": "2026-09-01T19:24:15+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -99934,7 +100366,7 @@
   "company_site": "https://www.kepak.com/careers",
   "first_seen": "2026-09-01T22:22:46+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T05:55:30+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": {
    "soc4": "2462",
    "matched_title": "Quality Assurance",
@@ -100084,7 +100516,7 @@
   "company_site": "https://www.kepak.com/careers",
   "first_seen": "2026-09-01T22:22:46+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T05:55:30+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -100160,7 +100592,7 @@
   "company_site": "https://www.kepak.com/careers",
   "first_seen": "2026-09-01T22:22:46+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T05:55:30+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -100305,7 +100737,7 @@
   "company_site": "https://www.kepak.com/careers",
   "first_seen": "2026-09-01T22:22:46+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T05:55:30+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -100381,7 +100813,7 @@
   "company_site": "https://www.kepak.com/careers",
   "first_seen": "2026-09-01T22:22:46+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T05:55:30+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -100441,7 +100873,7 @@
   "company_site": "https://careers.statestreet.com/global/en/search-results",
   "first_seen": "2026-09-01T22:22:46+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -100501,7 +100933,7 @@
   "company_site": "https://workday.wd5.myworkdayjobs.com/Workday",
   "first_seen": "2026-09-01T22:22:46+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -100809,7 +101241,7 @@
   "company_site": "https://workday.wd5.myworkdayjobs.com/Workday",
   "first_seen": "2026-09-02T03:53:37+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "flagged",
   "eligibility_reasons": [],
@@ -101570,7 +102002,7 @@
   "company_site": "https://www.musgravegroup.com/careers/",
   "first_seen": "2026-09-02T18:48:50+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -102398,7 +102830,7 @@
   "company_site": "https://www.kepak.com/careers",
   "first_seen": "2026-09-04T06:09:59+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T05:55:30+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -107070,7 +107502,7 @@
   "company_site": "https://www.exlservice.com/careers",
   "first_seen": "2026-09-18T18:32:20+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -107676,7 +108108,7 @@
   "company_site": "https://bdoireland.pinpointhq.com/",
   "first_seen": "2026-09-22T12:17:36+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -108017,7 +108449,7 @@
   "company_site": "https://careers.flutteruki.com/early-careers/",
   "first_seen": "2026-09-23T18:52:47+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -109029,7 +109461,9 @@
    }
   ],
   "eligibility_flags": [],
-  "eligibility_bonuses": []
+  "eligibility_bonuses": [],
+  "closed": true,
+  "closed_at": "2026-09-29T00:01:23+00:00"
  },
  {
   "id": "1c8e05f134e60dde",
@@ -109156,7 +109590,7 @@
   "company_site": "https://www.hse.ie/eng/careers/",
   "first_seen": "2026-09-28T12:14:26+00:00",
   "is_new": true,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -109222,7 +109656,7 @@
   "company_site": "https://www.hse.ie/eng/careers/",
   "first_seen": "2026-09-28T19:45:08+00:00",
   "is_new": true,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -109427,7 +109861,7 @@
   "company_site": "https://www.kepak.com/careers",
   "first_seen": "2026-09-01T22:22:46+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T05:55:30+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -109493,7 +109927,7 @@
   "company_site": "https://careers.iconplc.com/",
   "first_seen": "2026-09-01T22:41:03+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -109558,7 +109992,7 @@
   "company_site": "https://jobs.fidelity.com/",
   "first_seen": "2026-09-01T22:41:03+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -109633,7 +110067,9 @@
   "eligibility": "eligible",
   "eligibility_reasons": [],
   "eligibility_flags": [],
-  "eligibility_bonuses": []
+  "eligibility_bonuses": [],
+  "closed": true,
+  "closed_at": "2026-09-29T00:01:23+00:00"
  },
  {
   "id": "2e47da60c3fca0d1",
@@ -110719,7 +111155,7 @@
   "company_site": "https://www.dawnmeats.com/careers/",
   "first_seen": "2026-09-02T19:39:44+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T05:55:30+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -110779,7 +111215,7 @@
   "company_site": "https://www.dawnmeats.com/careers/",
   "first_seen": "2026-09-02T19:39:44+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T05:55:30+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -112307,7 +112743,7 @@
   "company_site": "",
   "first_seen": "2026-09-11T01:24:55+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -112456,7 +112892,7 @@
   "company_site": "https://www.kepak.com/careers",
   "first_seen": "2026-09-11T01:50:24+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T05:55:30+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -113634,7 +114070,7 @@
   "company_site": "https://www.kepak.com/careers",
   "first_seen": "2026-09-17T11:48:30+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T05:55:30+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -113899,7 +114335,7 @@
   "company_site": "https://opportunities.vodafone.com/search/?q=&locationsearch=ireland",
   "first_seen": "2026-09-18T18:32:20+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -114686,7 +115122,7 @@
   "company_site": "https://www.fenergo.com/careers",
   "first_seen": "2026-09-24T14:32:21+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -115233,7 +115669,72 @@
   "company_site": "https://careers.primark.com/en/location/ireland-jobs/30423/2963597/2",
   "first_seen": "2026-09-28T19:45:08+00:00",
   "is_new": true,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
+  "csol": null,
+  "eligibility": "eligible",
+  "eligibility_reasons": [],
+  "eligibility_flags": [],
+  "eligibility_bonuses": []
+ },
+ {
+  "id": "e5179025dde85824",
+  "title": "Java with ReactJS (CONTRACT) Job Details",
+  "company": "Wipro Ireland",
+  "location": "",
+  "url": "https://careers.wipro.com/job/Minneapolis-Java-with-ReactJS-%28CONTRACT%29-USA-55401/1369834355/",
+  "description": "We use cookies to offer you the best possible website experience. Your cookie preferences will be stored in your browser’s local storage. This includes cookies necessary for the website's operation. Additionally, you can freely decide and change any time whether you accept cookies or choose to opt out of cookies to improve website's performance, as well as cookies used to display content tailored to your interests. Your experience of the site and the services we are able to offer may be impacted if you do not accept all cookies.\nModify Cookie Preferences\nAccept All Cookies\nSkip to main content\nLanguage\nالعَرَبِيَّة (السعودية)\nDeutsch (Deutschland)\nEnglish (United States)\nEspañol (España)\nEspañol (México)\nFrançais (Canada)\nFrançais (France)\nItaliano (Italia)\n日本語 (日本)\nPolski\nPortuguês (Brasil)\nPortuguês (Portugal)\nLimba Română (România)\n简体中文 (中国大陆)\nLife at Wipro\nCareers\nEarly Careers\nExperienced Professionals\nLocations\nBenelux\nBrazil\nGermany and Austria\nKorea\nMexico\nNordics\nPhilippines\nPoland\nPortugal\nRomania\nSouthern Europe\nSwitzerland\nUK and Ireland\nJoin Our Talent Network\nSearch Jobs\nJob Description\nStart applying with LinkedIn\nPlease wait...\nJob Title:\nJava with ReactJS (CONTRACT)\nCity:\nMinneapolis\nState/Province:\nMinnesota\nPosting Start Date:\n9/28/26\nWipro Limited (NYSE: WIT, BSE: 507685, NSE: WIPRO) is a leading technology services and consulting company focused on building innovative solutions that address clients’ most complex digital transformation needs. Leveraging our holistic portfolio of capabilities in consulting, design, engineering, and operations, we help clients realize their boldest ambitions and build future-ready, sustainable businesses. With over 230,000 employees and business partners across 65 countries, we deliver on the promise of helping our customers, colleagues, and communities thrive in an ever-changing world. For additional information, visit us at www.wipro.com.\nJob Description:\nWork Location:  Minneapolis, MN (Onsite)\nExperience in Design, Development, Implementation and maintenance of mission critical enterprise Java applications.\nExperience working with and implementing microservices and restful API's. 3 plus years of implementing Java/Spring boot Micro services.\nSpring Boot Lead Developer with experience in application components using Spring Boot.\nShould possess application development experience in Java 7/8, Spring Framework, Spring Boot, ReactJS following industry recognized software development life cycle.\nSkills are Java 7, Java 8, ReactJS, functional aspects, Spring Framework, familiar with the current Spring platform and it s capabilities.\nSkills- Spring Boot, Spring Integration, Spring Data, Swagger, Tomcat 8, Maven, Jenkins, SVN, Git, Mountebank, Postman/Newman.\nGood understanding of Web Application security.\nExcellent technical, logical, analytical and problem-solving skills.\nAbility to grasp business logic beyond just coding. Experience in working in Agile environment. Version 1 experience is plus.\nMandatory Skills: Fullstack Java Enterprise .\nExperience: 5-8 Years .\nThe expected compensation for this role ranges from $60,000 to $135,000 .\nFinal compensation will depend on various factors, including your geographical location, minimum wage obligations, skills, and relevant experience. Based on the position, the role is also eligible for Wipro's standard benefits including a full range of medical and dental benefits options, disability insurance, paid time off (inclusive of sick leave), other paid and unpaid leave options.\nApplicants are advised that employment in some roles may be conditioned on successful completion of a post-offer drug screening, subject to applicable state law.\nWipro provides equal employment opportunities to all employees and applicants for employment and prohibits discrimination and harassment of any type without regard to race, color, religion, age, sex, national origin, disability status, genetics, protected veteran status, sexual orientation, gender identity or expression, or any other characteristic protected by federal, state, or local laws. Applications from veterans and people with disabilities are explicitly welcome.\nReinvent your world. We are building a modern Wipro. We are an end-to-end digital transformation partner with the boldest ambitions. To realize them, we need people inspired by reinvention. Of yourself, your career, and your skills. We want to see the constant evolution of our business and our industry. It has always been in our DNA - as the world around us changes, so do we. Join a business powered by purpose and a place that empowers you to design your own reinvention.\nInformation at a Glance\nGet Job Alerts\nReceive notifications when we have open roles and get other relevant career news\nRegister >\nJoin Us\nExplore open roles that match your interests and skills\nSearch Jobs >\nIf you encounter any suspicious mail, advertisements, or persons who offer jobs at Wipro, please email us at  helpdesk.recruitment@wipro.com . Do not email your resume to this ID as it is not monitored for resumes and career applications.\nAny complaints or concerns regarding unethical/unfair hiring practices should be directed to our Ombuds Group at  ombuds.person@wipro.com .\nWe are an Equal Opportunity Employer. All qualified applicants will receive consideration for employment without regard to race, color, caste, creed, religion, gender, marital status, age, ethnic and national origin, gender identity, gender expression, sexual orientation, political orientation, disability status, protected veteran status, or any other characteristic protected by law.\nWipro is committed to creating an accessible, supportive, and inclusive workplace. Reasonable accommodation will be provided to all applicants including persons with disabilities, throughout the recruitment and selection process. Accommodations must be communicated in advance of the application, where possible, and will be reviewed on an individual basis. Wipro provides equal op",
+  "posted_at": "",
+  "source": "sitemap",
+  "department": "",
+  "employment_type": "",
+  "sponsorship": null,
+  "salary_eur": null,
+  "permit_route": null,
+  "score": 17,
+  "band": "weak",
+  "breakdown": [
+   {
+    "label": "Role fit",
+    "points": 0,
+    "note": "This job title is not one your CV qualifies you for — capped accordingly"
+   },
+   {
+    "label": "Early careers",
+    "points": 12,
+    "note": "Flagged as early careers"
+   },
+   {
+    "label": "Tools you have",
+    "points": 0,
+    "note": "Names none of the tools you actually use"
+   },
+   {
+    "label": "Industry fit",
+    "points": 0,
+    "note": "Not in insurance, finance or operations"
+   },
+   {
+    "label": "Location",
+    "points": 7,
+    "note": "Ireland"
+   },
+   {
+    "label": "Sponsorship",
+    "points": 6,
+    "note": "Issued 3 employment permit(s) this year"
+   },
+   {
+    "label": "Technical gap",
+    "points": -8,
+    "note": "Wants java — not on your CV"
+   }
+  ],
+  "sponsor_tier": 3,
+  "permits": 3,
+  "company_site": "https://careers.wipro.com/content/Early-Careers/?locale=en_US",
+  "first_seen": "2026-09-29T00:01:23+00:00",
+  "is_new": true,
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -115293,7 +115794,7 @@
   "company_site": "https://careers.datadoghq.com",
   "first_seen": "2026-09-01T16:15:25+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -115353,7 +115854,7 @@
   "company_site": "https://careers.datadoghq.com",
   "first_seen": "2026-09-01T16:15:25+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -115413,7 +115914,7 @@
   "company_site": "https://careers.datadoghq.com",
   "first_seen": "2026-09-01T16:15:25+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -115594,7 +116095,7 @@
   "company_site": "https://careers.datadoghq.com",
   "first_seen": "2026-09-01T16:15:25+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -115893,7 +116394,7 @@
   "company_site": "https://careers.primark.com/en/location/ireland-jobs/30423/2963597/2",
   "first_seen": "2026-09-01T19:24:15+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -115953,7 +116454,7 @@
   "company_site": "https://careers.primark.com/en/location/ireland-jobs/30423/2963597/2",
   "first_seen": "2026-09-01T19:24:15+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -116202,7 +116703,7 @@
   "company_site": "https://careers.primark.com/en/location/ireland-jobs/30423/2963597/2",
   "first_seen": "2026-09-01T19:24:15+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -116572,7 +117073,7 @@
   "company_site": "https://careers.primark.com/en/location/ireland-jobs/30423/2963597/2",
   "first_seen": "2026-09-01T19:24:15+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -116632,7 +117133,7 @@
   "company_site": "https://careers.primark.com/en/location/ireland-jobs/30423/2963597/2",
   "first_seen": "2026-09-01T19:24:15+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -116756,7 +117257,7 @@
   "company_site": "https://careers.statestreet.com/global/en/search-results",
   "first_seen": "2026-09-01T22:22:46+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -117896,7 +118397,7 @@
   "company_site": "https://careers.jpmorgan.com/global/en/students",
   "first_seen": "2026-09-02T11:18:46+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -118928,7 +119429,7 @@
   "company_site": "https://www.dcu.ie/hr/vacancies",
   "first_seen": "2026-09-02T19:39:44+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T05:55:30+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -118988,7 +119489,7 @@
   "company_site": "https://www.dawnmeats.com/careers/",
   "first_seen": "2026-09-02T19:39:44+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T05:55:30+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -120044,7 +120545,7 @@
   "company_site": "https://www.wayflyer.com/careers",
   "first_seen": "2026-09-05T00:44:47+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -120308,7 +120809,7 @@
   "company_site": "https://careers.primark.com/en/location/ireland-jobs/30423/2963597/2",
   "first_seen": "2026-09-08T16:51:45+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -120489,7 +120990,7 @@
   "company_site": "https://careers.primark.com/en/location/ireland-jobs/30423/2963597/2",
   "first_seen": "2026-09-09T17:24:31+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -121075,7 +121576,7 @@
   "company_site": "https://careers.primark.com/en/location/ireland-jobs/30423/2963597/2",
   "first_seen": "2026-09-11T13:01:40+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -121497,7 +121998,7 @@
   "company_site": "https://careers.bankofireland.com/",
   "first_seen": "2026-09-11T13:43:29+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -121858,7 +122359,9 @@
   "eligibility": "eligible",
   "eligibility_reasons": [],
   "eligibility_flags": [],
-  "eligibility_bonuses": []
+  "eligibility_bonuses": [],
+  "closed": true,
+  "closed_at": "2026-09-29T00:01:23+00:00"
  },
  {
   "id": "f450e59d7c34fe1a",
@@ -122461,7 +122964,7 @@
   "company_site": "https://careers.primark.com/en/location/ireland-jobs/30423/2963597/2",
   "first_seen": "2026-09-16T06:51:17+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -122583,7 +123086,7 @@
   "company_site": "https://careers.primark.com/en/location/ireland-jobs/30423/2963597/2",
   "first_seen": "2026-09-16T12:11:44+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -122781,7 +123284,7 @@
   "company_site": "https://careers.primark.com/en/location/ireland-jobs/30423/2963597/2",
   "first_seen": "2026-09-18T11:38:45+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -123021,7 +123524,7 @@
   "company_site": "https://careers.primark.com/en/location/ireland-jobs/30423/2963597/2",
   "first_seen": "2026-09-21T11:02:29+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -123081,7 +123584,7 @@
   "company_site": "https://careers.primark.com/en/location/ireland-jobs/30423/2963597/2",
   "first_seen": "2026-09-21T11:02:29+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -123403,7 +123906,7 @@
   "company_site": "https://careers.primark.com/en/location/ireland-jobs/30423/2963597/2",
   "first_seen": "2026-09-22T09:44:49+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -123730,7 +124233,7 @@
   "company_site": "https://careers.datadoghq.com",
   "first_seen": "2026-09-24T18:36:29+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -123795,14 +124298,12 @@
   "company_site": "https://www.vistra.com/careers",
   "first_seen": "2026-09-25T00:05:27+00:00",
   "is_new": false,
-  "last_seen": "2026-09-26T22:13:47+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
+  "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
   "eligibility_flags": [],
-  "eligibility_bonuses": [],
-  "closed": true,
-  "closed_at": "2026-09-26T22:30:59+00:00",
-  "csol": null
+  "eligibility_bonuses": []
  },
  {
   "id": "1636a8be1194a9e6",
@@ -123872,7 +124373,7 @@
   "company_site": "https://www.aig.com/careers",
   "first_seen": "2026-09-25T14:42:05+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -123938,7 +124439,7 @@
   "company_site": "https://careers.wtwco.com/",
   "first_seen": "2026-09-25T21:12:46+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -124128,7 +124629,9 @@
   "eligibility": "eligible",
   "eligibility_reasons": [],
   "eligibility_flags": [],
-  "eligibility_bonuses": []
+  "eligibility_bonuses": [],
+  "closed": true,
+  "closed_at": "2026-09-29T00:01:23+00:00"
  },
  {
   "id": "2a111cab1e5efd63",
@@ -124395,7 +124898,7 @@
   "company_site": "https://www.kepak.com/careers",
   "first_seen": "2026-09-01T22:22:46+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T05:55:30+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -124455,7 +124958,7 @@
   "company_site": "https://jobs.apple.com/en-ie/search?location=ireland-IRLC",
   "first_seen": "2026-09-01T22:41:03+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -124515,7 +125018,7 @@
   "company_site": "https://opportunities.vodafone.com/search/?q=&locationsearch=ireland",
   "first_seen": "2026-09-01T22:41:03+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -125875,7 +126378,7 @@
   "company_site": "https://careers.marsh.com/global/en/mercer-search",
   "first_seen": "2026-09-08T16:51:45+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -126204,7 +126707,7 @@
   "company_site": "https://www.musgravegroup.com/careers/",
   "first_seen": "2026-09-11T13:01:40+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -126264,7 +126767,7 @@
   "company_site": "https://www.musgravegroup.com/careers/",
   "first_seen": "2026-09-11T13:01:40+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -126324,7 +126827,7 @@
   "company_site": "https://www.musgravegroup.com/careers/",
   "first_seen": "2026-09-11T13:01:40+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -126389,7 +126892,7 @@
   "company_site": "https://www.version1.com/careers",
   "first_seen": "2026-09-11T13:01:40+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -126595,7 +127098,7 @@
   "company_site": "https://www.musgravegroup.com/careers/",
   "first_seen": "2026-09-15T10:20:18+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -126660,7 +127163,7 @@
   "company_site": "https://www.version1.com/careers",
   "first_seen": "2026-09-15T10:20:18+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -126875,7 +127378,7 @@
   "company_site": "https://www.kepak.com/careers",
   "first_seen": "2026-09-16T16:38:49+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T05:55:30+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -127019,7 +127522,7 @@
   "company_site": "https://jobs.citi.com/location/dublin-jobs/287/2963597-7521314-7778677-2964574/4",
   "first_seen": "2026-09-17T18:49:15+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -127090,7 +127593,7 @@
   "company_site": "https://www.version1.com/careers",
   "first_seen": "2026-09-18T15:13:09+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -127161,7 +127664,7 @@
   "company_site": "https://www.version1.com/careers",
   "first_seen": "2026-09-18T15:13:09+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -127354,7 +127857,7 @@
   "company_site": "https://www.version1.com/careers",
   "first_seen": "2026-09-23T15:06:53+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -127559,7 +128062,7 @@
   "company_site": "https://www.kepak.com/careers",
   "first_seen": "2026-09-24T14:32:21+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T05:55:30+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -127703,7 +128206,7 @@
   "company_site": "https://www.version1.com/careers",
   "first_seen": "2026-09-24T18:36:29+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -127774,7 +128277,7 @@
   "company_site": "https://www.version1.com/careers",
   "first_seen": "2026-09-25T14:42:05+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -127921,7 +128424,7 @@
   "company_site": "https://careers.statestreet.com/global/en/search-results",
   "first_seen": "2026-09-01T22:22:46+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -127987,7 +128490,7 @@
   "company_site": "https://www.kepak.com/careers",
   "first_seen": "2026-09-01T22:22:46+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T05:55:30+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -128117,7 +128620,7 @@
   "company_site": "https://www.kepak.com/careers",
   "first_seen": "2026-09-01T22:22:46+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T05:55:30+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -128177,7 +128680,7 @@
   "company_site": "https://www.kepak.com/careers",
   "first_seen": "2026-09-01T22:22:46+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T05:55:30+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -128237,7 +128740,7 @@
   "company_site": "https://www.tp.com/en-ie/locations/ireland/careers/",
   "first_seen": "2026-09-01T22:41:03+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -128362,7 +128865,7 @@
   "company_site": "https://jobs.iqvia.com/",
   "first_seen": "2026-09-01T22:41:03+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -128428,7 +128931,7 @@
   "company_site": "https://jobs.iqvia.com/",
   "first_seen": "2026-09-01T22:41:03+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -129572,7 +130075,7 @@
   "company_site": "https://www.intercom.com/careers",
   "first_seen": "2026-09-02T18:00:05+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T05:55:30+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -129648,7 +130151,7 @@
   "company_site": "https://www.intercom.com/careers",
   "first_seen": "2026-09-02T18:00:05+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T05:55:30+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -129799,7 +130302,7 @@
   "company_site": "https://www.bt.com/careers",
   "first_seen": "2026-09-02T19:39:44+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T05:55:30+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -130854,7 +131357,7 @@
   "company_site": "https://www.kepak.com/careers",
   "first_seen": "2026-09-11T01:50:24+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T05:55:30+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -130920,7 +131423,7 @@
   "company_site": "https://www.kepak.com/careers",
   "first_seen": "2026-09-11T01:50:24+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T05:55:30+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -131048,7 +131551,7 @@
   "company_site": "https://www.kepak.com/careers",
   "first_seen": "2026-09-11T01:50:24+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T05:55:30+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -131843,7 +132346,7 @@
   "company_site": "https://www.vistra.com/careers",
   "first_seen": "2026-09-11T23:20:16+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -131918,7 +132421,9 @@
   "eligibility": "eligible",
   "eligibility_reasons": [],
   "eligibility_flags": [],
-  "eligibility_bonuses": []
+  "eligibility_bonuses": [],
+  "closed": true,
+  "closed_at": "2026-09-29T00:01:23+00:00"
  },
  {
   "id": "70c7a57bc420d8cf",
@@ -131978,7 +132483,9 @@
   "eligibility": "eligible",
   "eligibility_reasons": [],
   "eligibility_flags": [],
-  "eligibility_bonuses": []
+  "eligibility_bonuses": [],
+  "closed": true,
+  "closed_at": "2026-09-29T00:01:23+00:00"
  },
  {
   "id": "2cd8e7e9e541345b",
@@ -132291,7 +132798,7 @@
   "company_site": "https://www.kepak.com/careers",
   "first_seen": "2026-09-14T12:29:32+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T05:55:30+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -132683,7 +133190,7 @@
   "company_site": "https://www.kepak.com/careers",
   "first_seen": "2026-09-16T16:38:49+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T05:55:30+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -133963,7 +134470,7 @@
   "company_site": "https://jobs.globalpayments.com/",
   "first_seen": "2026-09-22T22:36:06+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -134617,7 +135124,9 @@
   "eligibility": "eligible",
   "eligibility_reasons": [],
   "eligibility_flags": [],
-  "eligibility_bonuses": []
+  "eligibility_bonuses": [],
+  "closed": true,
+  "closed_at": "2026-09-29T00:01:23+00:00"
  },
  {
   "id": "6d712eb838b6d06c",
@@ -134996,7 +135505,9 @@
   "eligibility": "eligible",
   "eligibility_reasons": [],
   "eligibility_flags": [],
-  "eligibility_bonuses": []
+  "eligibility_bonuses": [],
+  "closed": true,
+  "closed_at": "2026-09-29T00:01:23+00:00"
  },
  {
   "id": "683fe1c47e39e681",
@@ -135064,6 +135575,66 @@
   "closed": true,
   "closed_at": "2026-09-26T22:13:47+00:00",
   "csol": null
+ },
+ {
+  "id": "9da0a60b5dac66f9",
+  "title": "Ejecutivo Car Dealers Panama",
+  "company": "WTW Ireland (Willis Towers Watson)",
+  "location": "",
+  "url": "https://careers.wtwco.com/jobs/ejecutivo-car-dealers-panama",
+  "description": "",
+  "posted_at": "",
+  "source": "sitemap",
+  "department": "",
+  "employment_type": "",
+  "sponsorship": null,
+  "salary_eur": null,
+  "permit_route": null,
+  "score": 14,
+  "band": "weak",
+  "breakdown": [
+   {
+    "label": "Role fit",
+    "points": 0,
+    "note": "This job title is not one your CV qualifies you for — capped accordingly"
+   },
+   {
+    "label": "Early careers",
+    "points": 0,
+    "note": "No graduate/junior/internship signal"
+   },
+   {
+    "label": "Tools you have",
+    "points": 0,
+    "note": "Names none of the tools you actually use"
+   },
+   {
+    "label": "Industry fit",
+    "points": 8,
+    "note": "Pensions & risk consulting employer — the sector your experience is in"
+   },
+   {
+    "label": "Location",
+    "points": 0,
+    "note": "Location unclear"
+   },
+   {
+    "label": "Sponsorship",
+    "points": 6,
+    "note": "Issued 3 employment permit(s) this year"
+   }
+  ],
+  "sponsor_tier": 3,
+  "permits": 3,
+  "company_site": "https://careers.wtwco.com/",
+  "first_seen": "2026-09-29T00:01:23+00:00",
+  "is_new": true,
+  "last_seen": "2026-09-29T00:01:23+00:00",
+  "csol": null,
+  "eligibility": "eligible",
+  "eligibility_reasons": [],
+  "eligibility_flags": [],
+  "eligibility_bonuses": []
  },
  {
   "id": "c1bf143295dfcc40",
@@ -135191,7 +135762,7 @@
   "company_site": "https://jobs.fidelity.com/",
   "first_seen": "2026-09-01T22:41:03+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -138714,14 +139285,12 @@
   "company_site": "https://www.bt.com/careers",
   "first_seen": "2026-09-25T21:12:46+00:00",
   "is_new": false,
-  "last_seen": "2026-09-25T21:12:46+00:00",
-  "closed": true,
-  "closed_at": "2026-09-26T10:17:29+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
+  "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
   "eligibility_flags": [],
-  "eligibility_bonuses": [],
-  "csol": null
+  "eligibility_bonuses": []
  },
  {
   "id": "dc1d046e5f0cac1c",
@@ -138913,7 +139482,7 @@
   "company_site": "https://careers.primark.com/en/location/ireland-jobs/30423/2963597/2",
   "first_seen": "2026-09-28T12:14:26+00:00",
   "is_new": true,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -139236,7 +139805,7 @@
   "company_site": "",
   "first_seen": "2026-09-01T22:41:03+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -139885,7 +140454,7 @@
   "company_site": "https://life-careers.com/irishlife/go/All-Jobs/3805301/",
   "first_seen": "2026-09-02T21:22:21+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -139956,7 +140525,7 @@
   "company_site": "https://careers.marsh.com/global/en/mercer-search",
   "first_seen": "2026-09-02T21:22:21+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -140386,7 +140955,9 @@
    }
   ],
   "eligibility_flags": [],
-  "eligibility_bonuses": []
+  "eligibility_bonuses": [],
+  "closed": true,
+  "closed_at": "2026-09-29T00:01:23+00:00"
  },
  {
   "id": "1f869e3ed0ff836c",
@@ -140862,7 +141433,7 @@
   "company_site": "https://expleo.com/global/en/careers/",
   "first_seen": "2026-09-11T13:01:40+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -141326,7 +141897,7 @@
   "company_site": "https://life-careers.com/irishlife/go/All-Jobs/3805301/",
   "first_seen": "2026-09-26T00:19:16+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -141756,7 +142327,7 @@
   "company_site": "https://www.three.ie/careers",
   "first_seen": "2026-09-01T22:41:03+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -142406,7 +142977,7 @@
   "company_site": "https://www.ornua.com/careers/",
   "first_seen": "2026-09-02T18:00:05+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T12:14:26+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -142477,14 +143048,12 @@
   "company_site": "https://www.ornua.com/careers/",
   "first_seen": "2026-09-02T18:00:05+00:00",
   "is_new": false,
-  "last_seen": "2026-09-27T21:26:15+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
   "eligibility_flags": [],
-  "eligibility_bonuses": [],
-  "closed": true,
-  "closed_at": "2026-09-27T22:11:44+00:00"
+  "eligibility_bonuses": []
  },
  {
   "id": "abe52f2830a991d5",
@@ -142611,7 +143180,8 @@
   "company_site": "https://www.ornua.com/careers/",
   "first_seen": "2026-09-02T18:00:05+00:00",
   "is_new": false,
-  "last_seen": "2026-09-26T22:13:47+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
+  "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
    {
@@ -142627,10 +143197,7 @@
     "quote": "s as needed. Maintain a clean and safe work area. Performs any additional maintenance related duties as required and assigned. Required Education, Experience, and Skills At least 3 years’ experience in industrial manufacturing maintenance Electrical experience is a plus but not required HVAC experience a plus but not required A strong understanding of electrical con"
    }
   ],
-  "eligibility_bonuses": [],
-  "csol": null,
-  "closed": true,
-  "closed_at": "2026-09-27T05:52:37+00:00"
+  "eligibility_bonuses": []
  },
  {
   "id": "65984c2e336b88d8",
@@ -143815,7 +144382,7 @@
   "company_site": "https://www.ornua.com/careers/",
   "first_seen": "2026-09-03T21:58:30+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T12:14:26+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -144564,7 +145131,7 @@
   "company_site": "https://www.letsgetchecked.com/careers",
   "first_seen": "2026-09-05T00:44:47+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -145072,14 +145639,12 @@
   "company_site": "https://www.ornua.com/careers/",
   "first_seen": "2026-09-09T22:09:10+00:00",
   "is_new": false,
-  "last_seen": "2026-09-25T00:05:27+00:00",
-  "closed": true,
-  "closed_at": "2026-09-25T21:12:46+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
+  "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
   "eligibility_flags": [],
-  "eligibility_bonuses": [],
-  "csol": null
+  "eligibility_bonuses": []
  },
  {
   "id": "1e11afaa43129db1",
@@ -145760,7 +146325,7 @@
   "company_site": "https://www.wayflyer.com/careers",
   "first_seen": "2026-09-11T13:01:40+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -145841,7 +146406,7 @@
   "company_site": "https://www.wayflyer.com/careers",
   "first_seen": "2026-09-11T13:01:40+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -146680,14 +147245,12 @@
   "company_site": "https://www.ornua.com/careers/",
   "first_seen": "2026-09-16T12:11:44+00:00",
   "is_new": false,
-  "last_seen": "2026-09-23T21:56:40+00:00",
-  "closed": true,
-  "closed_at": "2026-09-24T00:08:57+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
+  "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
   "eligibility_flags": [],
-  "eligibility_bonuses": [],
-  "csol": null
+  "eligibility_bonuses": []
  },
  {
   "id": "43769e7e1e968739",
@@ -147425,14 +147988,12 @@
   "company_site": "https://www.ornua.com/careers/",
   "first_seen": "2026-09-19T06:11:20+00:00",
   "is_new": false,
-  "last_seen": "2026-09-25T22:00:14+00:00",
-  "closed": true,
-  "closed_at": "2026-09-26T00:19:16+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
+  "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
   "eligibility_flags": [],
-  "eligibility_bonuses": [],
-  "csol": null
+  "eligibility_bonuses": []
  },
  {
   "id": "e250cba734cfd1a5",
@@ -147768,7 +148329,7 @@
   "company_site": "https://www.version1.com/careers",
   "first_seen": "2026-09-21T16:49:09+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -149148,7 +149709,9 @@
    }
   ],
   "eligibility_flags": [],
-  "eligibility_bonuses": []
+  "eligibility_bonuses": [],
+  "closed": true,
+  "closed_at": "2026-09-29T00:01:23+00:00"
  },
  {
   "id": "5efeb9e16ed5dfad",
@@ -150246,7 +150809,7 @@
   "company_site": "https://www.dawnmeats.com/careers/",
   "first_seen": "2026-09-11T13:01:40+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T05:55:30+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -151229,7 +151792,7 @@
   "company_site": "https://www.exlservice.com/careers",
   "first_seen": "2026-09-22T09:44:49+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -151295,7 +151858,7 @@
   "company_site": "https://www.flipdish.com/careers",
   "first_seen": "2026-09-23T18:52:47+00:00",
   "is_new": false,
-  "last_seen": "2026-09-28T19:45:08+00:00",
+  "last_seen": "2026-09-29T00:01:23+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -151783,7 +152346,7 @@
   "permits": 0,
   "company_site": "",
   "first_seen": "2026-09-27T22:11:44+00:00",
-  "is_new": true,
+  "is_new": false,
   "last_seen": "2026-09-27T22:11:44+00:00",
   "csol": null,
   "eligibility": "blocked",
