@@ -1,24 +1,89 @@
 {
- "last_run": "2026-09-29T02:58:46+00:00",
+ "last_run": "2026-09-29T09:15:50+00:00",
  "companies_total": 264,
- "companies_scanned": 161,
- "boards_failed": 1,
- "raw_postings": 13617,
- "relevant_jobs": 2272,
+ "companies_scanned": 175,
+ "boards_failed": 14,
+ "raw_postings": 13661,
+ "relevant_jobs": 2280,
  "min_score": 10,
- "new_this_run": 83,
+ "new_this_run": 88,
  "by_band": {
   "excellent": 77,
   "strong": 105,
   "decent": 144,
   "stretch": 233,
-  "weak": 1713
+  "weak": 1721
  },
  "top_errors": [
+  {
+   "company": "PayPal Ireland",
+   "ats": "joblinks",
+   "error": "found 1 job links but none were readable"
+  },
   {
    "company": "Expleo Ireland",
    "ats": "joblinks",
    "error": "no individual job links found on the page"
+  },
+  {
+   "company": "Capgemini Ireland",
+   "ats": "sitemap",
+   "error": "sitemap had 2100 URLs but none looked like jobs"
+  },
+  {
+   "company": "LTIMindtree Ireland",
+   "ats": "sitemap",
+   "error": "sitemap had 500 URLs but none looked like jobs"
+  },
+  {
+   "company": "SoftCo",
+   "ats": "hirehive",
+   "error": "hirehive: no feed"
+  },
+  {
+   "company": "Wrkit",
+   "ats": "recruitee",
+   "error": "board not found (404)"
+  },
+  {
+   "company": "Nostra",
+   "ats": "workable",
+   "error": "board not found (404)"
+  },
+  {
+   "company": "Payslip",
+   "ats": "lever",
+   "error": "board not found (404)"
+  },
+  {
+   "company": "Glofox",
+   "ats": "lever",
+   "error": "board not found (404)"
+  },
+  {
+   "company": "Soapbox Labs",
+   "ats": "lever",
+   "error": "board not found (404)"
+  },
+  {
+   "company": "Cubic Telecom",
+   "ats": "lever",
+   "error": "board not found (404)"
+  },
+  {
+   "company": "Revolut",
+   "ats": "greenhouse",
+   "error": "board not found (404)"
+  },
+  {
+   "company": "Ubiquity",
+   "ats": "ashby",
+   "error": "board not found (404)"
+  },
+  {
+   "company": "Tessian",
+   "ats": "ashby",
+   "error": "board not found (404)"
   }
  ],
  "quarantined_feeds": [
