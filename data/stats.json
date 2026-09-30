@@ -1,29 +1,24 @@
 {
- "last_run": "2026-09-30T11:18:50+00:00",
+ "last_run": "2026-09-30T14:06:21+00:00",
  "companies_total": 264,
  "companies_scanned": 264,
  "boards_failed": 18,
- "raw_postings": 22394,
- "relevant_jobs": 2346,
+ "raw_postings": 22479,
+ "relevant_jobs": 2357,
  "min_score": 10,
- "new_this_run": 152,
+ "new_this_run": 131,
  "by_band": {
   "excellent": 76,
   "strong": 111,
   "decent": 149,
   "stretch": 243,
-  "weak": 1767
+  "weak": 1778
  },
  "top_errors": [
   {
    "company": "PayPal Ireland",
    "ats": "joblinks",
    "error": "found 1 job links but none were readable"
-  },
-  {
-   "company": "Expleo Ireland",
-   "ats": "joblinks",
-   "error": "no individual job links found on the page"
   },
   {
    "company": "SAP Ireland",
@@ -44,6 +39,11 @@
    "company": "LTIMindtree Ireland",
    "ats": "sitemap",
    "error": "sitemap had 500 URLs but none looked like jobs"
+  },
+  {
+   "company": "Danone Ireland",
+   "ats": "sitemap",
+   "error": "no sitemap found"
   },
   {
    "company": "Kingspan",
@@ -76,11 +76,6 @@
    "error": "board not found (404)"
   },
   {
-   "company": "Payslip",
-   "ats": "lever",
-   "error": "board not found (404)"
-  },
-  {
    "company": "Soapbox Labs",
    "ats": "lever",
    "error": "board not found (404)"
@@ -91,17 +86,22 @@
    "error": "board not found (404)"
   },
   {
+   "company": "Payslip",
+   "ats": "lever",
+   "error": "board not found (404)"
+  },
+  {
    "company": "Glofox",
    "ats": "lever",
    "error": "board not found (404)"
   },
   {
-   "company": "Ubiquity",
+   "company": "Tessian",
    "ats": "ashby",
    "error": "board not found (404)"
   },
   {
-   "company": "Tessian",
+   "company": "Ubiquity",
    "ats": "ashby",
    "error": "board not found (404)"
   }
