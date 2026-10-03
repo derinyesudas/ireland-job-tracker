@@ -1,116 +1,20 @@
 {
- "last_run": "2026-10-03T20:24:08+00:00",
+ "last_run": "2026-10-03T21:57:18+00:00",
  "companies_total": 335,
- "companies_scanned": 335,
- "boards_failed": 19,
- "raw_postings": 26075,
+ "companies_scanned": 173,
+ "boards_failed": 0,
+ "raw_postings": 16809,
  "relevant_jobs": 2714,
  "min_score": 10,
- "new_this_run": 314,
+ "new_this_run": 97,
  "by_band": {
   "excellent": 88,
-  "strong": 124,
-  "decent": 167,
+  "strong": 125,
+  "decent": 166,
   "stretch": 313,
   "weak": 2022
  },
- "top_errors": [
-  {
-   "company": "PayPal Ireland",
-   "ats": "joblinks",
-   "error": "found 1 job links but none were readable"
-  },
-  {
-   "company": "Expleo Ireland",
-   "ats": "joblinks",
-   "error": "no individual job links found on the page"
-  },
-  {
-   "company": "SAP Ireland",
-   "ats": "joblinks",
-   "error": "HTTP Error 404: Not Found"
-  },
-  {
-   "company": "ORIX Aviation",
-   "ats": "joblinks",
-   "error": "no individual job links found on the page"
-  },
-  {
-   "company": "South East Technological University (SETU)",
-   "ats": "joblinks",
-   "error": "HTTP Error 403: Forbidden"
-  },
-  {
-   "company": "Capgemini Ireland",
-   "ats": "sitemap",
-   "error": "sitemap had 2110 URLs but none looked like jobs"
-  },
-  {
-   "company": "LTIMindtree Ireland",
-   "ats": "sitemap",
-   "error": "sitemap had 500 URLs but none looked like jobs"
-  },
-  {
-   "company": "Kingspan",
-   "ats": "sitemap",
-   "error": "no sitemap found"
-  },
-  {
-   "company": "SoftCo",
-   "ats": "hirehive",
-   "error": "hirehive: no feed"
-  },
-  {
-   "company": "Wrkit",
-   "ats": "recruitee",
-   "error": "board not found (404)"
-  },
-  {
-   "company": "Nostra",
-   "ats": "workable",
-   "error": "board not found (404)"
-  },
-  {
-   "company": "Revolut",
-   "ats": "greenhouse",
-   "error": "board not found (404)"
-  },
-  {
-   "company": "Energia Group",
-   "ats": "jsonld",
-   "error": "no JobPosting structured data on the page"
-  },
-  {
-   "company": "Glofox",
-   "ats": "lever",
-   "error": "board not found (404)"
-  },
-  {
-   "company": "Soapbox Labs",
-   "ats": "lever",
-   "error": "board not found (404)"
-  },
-  {
-   "company": "Payslip",
-   "ats": "lever",
-   "error": "board not found (404)"
-  },
-  {
-   "company": "Cubic Telecom",
-   "ats": "lever",
-   "error": "board not found (404)"
-  },
-  {
-   "company": "Ubiquity",
-   "ats": "ashby",
-   "error": "board not found (404)"
-  },
-  {
-   "company": "Tessian",
-   "ats": "ashby",
-   "error": "board not found (404)"
-  }
- ],
+ "top_errors": [],
  "quarantined_feeds": [
   "Capgemini Ireland",
   "Cubic Telecom",
