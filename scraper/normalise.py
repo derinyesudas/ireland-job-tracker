@@ -517,6 +517,15 @@ def from_sitemap(raw: dict, company: str) -> dict:
 NORMALISERS["sitemap"] = from_sitemap
 
 
+def from_candidatemanager(raw: dict, company: str) -> dict:
+    job = from_joblinks(raw, company)
+    job["source"] = "candidatemanager"
+    return job
+
+
+NORMALISERS["candidatemanager"] = from_candidatemanager
+
+
 def from_rssfeed(raw: dict, company: str) -> dict:
     title = raw.get("title", "")
     url = raw.get("link", "") or raw.get("_source_url", "")
@@ -587,7 +596,7 @@ def _make_common(source: str):
 
 for _src in ("icims", "taleo", "avature", "cornerstone", "teamtailor", "occupop",
              "hirehive", "eightfold", "jobvite", "bamboohr", "rippling",
-    "talentbrew",
+    "talentbrew", "jibe", "amazonjobs",
 ):
     NORMALISERS[_src] = _make_common(_src)
 

@@ -56,7 +56,7 @@ OUT_OF_FIELD = {
     "clinical or healthcare": r"\b(nurse|nursing|midwif\w+|clinical|physiotherap\w+|radiograph\w+|"
                               r"pharmacist|pharmacy\s+technician|dentist|dental|occupational\s+therap\w+|"
                               r"speech\s+and\s+language|healthcare\s+assistant|care\s+assistant|"
-                              r"phlebotom\w+|sonograph\w+|paramedic)\b",
+                              r"phlebotom\w+|sonograph\w+|paramedic|dietitian|dietician|nutritionist)\b",
     "laboratory science": r"\b(laborator\w+|\blab\s+(analyst|technician|scientist)|scientist|chemist|"
                           r"microbiolog\w+|biolog\w+|toxicolog\w+|formulation)\b",
     "legal": r"\b(solicitor|barrister|legal\s+counsel|paralegal|legal\s+advis\w+|law\s+clerk|"
@@ -78,7 +78,8 @@ OUT_OF_FIELD = {
 RESCUE = re.compile(
     r"\b(business\s+intelligence\s+(developer|analyst)|bi\s+developer|report\s+developer|"
     r"reporting\s+(analyst|developer)|data\s+analyst|business\s+analyst|systems?\s+analyst|"
-    r"sales\s+support|customer\s+(service|support)|client\s+service)\b", re.I)
+    r"sales\s+support|customer\s+(service|support)|client\s+service|"
+    r"actuarial\s+(operations|support|administrat\w+|assistant|data))\b", re.I)
 
 # ------------------------------------------------------------- qualifications
 
@@ -99,7 +100,7 @@ CREDENTIALS = {
 }
 REQUIRED = re.compile(r"\b(must\s+(hold|have|be|possess)|required|requirement|essential|"
                       r"mandatory|minimum\s+of|you\s+will\s+(hold|have|be)|qualified\s+in|"
-                      r"fully\s+qualified|holds?\s+a)\b", re.I)
+                      r"fully\s+qualified|holds?\s+an?)\b", re.I)
 OFFERED  = re.compile(r"\b(desirable|preferred|advantage|beneficial|nice\s+to\s+have|"
                       r"working\s+towards|support(ed)?\s+(you\s+)?(to|in|through)|we\s+will\s+support|"
                       r"fully\s+supported|financial\s+support|study\s+support|funded|"

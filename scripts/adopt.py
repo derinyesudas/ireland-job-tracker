@@ -25,6 +25,7 @@ from __future__ import annotations
 import argparse
 import contextlib
 import json
+import re
 import sys
 from pathlib import Path
 
@@ -95,6 +96,29 @@ def jobs_returned(note: str) -> int:
         return 0
 
 
+_NAME_NOISE = {"the", "and", "of", "group", "ireland", "irish", "plc", "ltd", "limited",
+               "dac", "se", "sa", "nv", "clg", "company", "inc", "llc", "eu", "europe",
+               "european", "international", "holdings", "dublin"}
+
+
+def _name_words(name: str) -> set[str]:
+    return {w for w in re.findall(r"[\w&]+", name.lower())
+            if w not in _NAME_NOISE and len(w) > 1}
+
+
+def already_tracked(name: str, existing: list[dict]) -> str | None:
+    """The tracked employer this name already refers to, if any. Every
+    distinctive word must appear: "Citi" is "Citi Ireland", but "Bank of
+    America" is not "Bank of Ireland". A bracketed aside is ignored."""
+    want = _name_words(name.split("(")[0])
+    if not want:
+        return None
+    for c in existing:
+        if want <= _name_words(c.get("name", "")):
+            return c.get("name")
+    return None
+
+
 def record(name: str, ats: str, token: str, url: str, found: int,
            meta: dict) -> dict:
     """The same shape the careers-site resolver writes, so a company adopted
@@ -160,51 +184,21 @@ def main() -> int:
 
     # 1. anything handed in by name, verified before it is believed.
     #
-    # Two shapes are accepted. {name, ats, token} says exactly which feed to
-    # read. {name, url} says only where the careers page is, and the probe is
-    # asked to find the feed behind it - which is the shape a person can write
-    # without knowing what an applicant tracking system is.
-    handed = json.loads(args.extra) if args.extra.strip() else []
-    if CANDIDATES.exists():
-        handed += json.loads(CANDIDATES.read_text(encoding="utf-8"))
-
-    # The probing is the slow part and every candidate is independent, so the
-    # ones that need it are all probed at once before anything is verified.
-    need = [e for e in handed if not e.get("ats") and e.get("url")]
-    if need:
-        from concurrent.futures import ThreadPoolExecutor as _TPE
-        print(f"finding the feed behind {len(need)} named careers pages\n", flush=True)
-        with _TPE(max_workers=args.workers) as pool:
-            found_feeds = dict(zip(
-                (e["name"] for e in need),
-                pool.map(lambda e: probe(e["name"], e["url"]), need)))
-    else:
-        found_feeds = {}
-
-    for e in handed:
-        if not e.get("ats"):
-            if not e.get("url"):
-                rejected.append((e.get("name", "?"), "no ats/token and no url"))
-                continue
-            r = found_feeds.get(e["name"], {"working": [], "note": "not probed"})
-            if not r["working"]:
-                rejected.append((e["name"], r.get("note") or "no readable feed found"))
-                continue
-            w = r["working"][0]
-            e = {**e, "ats": w["ats"], "token": w["token"],
-                 "url": r.get("best_url") or e["url"]}
-            print(f"  found  {e['name'][:36]:<36} {w['ats']}", flush=True)
-        if (e["ats"], e["token"]) in by_key:
-            rejected.append((e["name"],
-                             f"same feed as {by_key[(e['ats'], e['token'])]['name']}"))
-            continue
+    # Two shapes are accepted, and an entry may carry both. {name, ats, token}
+    # says exactly which feed to read. {name, url} says only where the careers
+    # page is, and the probe is asked to find the feed behind it. When both are
+    # given the named feed is tried first and the page is the fallback, so one
+    # wrong guess about a tenant does not lose the employer.
+    def adopt_one(e: dict) -> str | None:
+        """Verify and record one feed. None on success, else the reason."""
+        key = (e["ats"], e["token"])
+        if key in by_key:
+            return f"same feed as {by_key[key]['name']}"
         with full_read():
             ok, note = try_reader(e["ats"], e["token"])
         found = jobs_returned(note) if ok else 0
         if not ok or not enough(e["ats"], found):
-            rejected.append((e["name"], note if not ok else f"only {found} jobs"))
-            continue
-        key = (e["ats"], e["token"])
+            return note if not ok else f"only {found} jobs"
         r = record(e["name"], e["ats"], e["token"], e.get("url", ""), found,
                    by_meta.get(e["name"], {}))
         # A named addition replaces whatever feed that company had, rather than
@@ -219,6 +213,54 @@ def main() -> int:
             del by_key[k]
         by_key[key] = {**by_key.get(key, {}), **r}
         adopted.append((e["name"], e["ats"], e["token"], found))
+        print(f"  ADOPT  {e['name'][:38]:<38} {e['ats']:<14} {found} jobs", flush=True)
+        return None
+
+    handed = json.loads(args.extra) if args.extra.strip() else []
+    if CANDIDATES.exists():
+        # The candidate list is a wish list. An employer already on the board
+        # keeps the feed it has - replacing a working feed with a guess would
+        # be the Davy problem in reverse.
+        for e in json.loads(CANDIDATES.read_text(encoding="utf-8")):
+            hit = already_tracked(e.get("name", ""), existing)
+            if hit:
+                rejected.append((e["name"], f"already tracked as {hit}"))
+            else:
+                handed.append(e)
+
+    to_probe: list[dict] = []
+    for e in handed:
+        if e.get("ats") and e.get("token"):
+            why = adopt_one(e)
+            if why is None:
+                continue
+            if e.get("url"):
+                to_probe.append({**{k: v for k, v in e.items()
+                                    if k not in ("ats", "token")}, "_first": why})
+            else:
+                rejected.append((e["name"], why))
+        elif e.get("url"):
+            to_probe.append(e)
+        else:
+            rejected.append((e.get("name", "?"), "no ats/token and no url"))
+
+    # The probing is the slow part and every candidate is independent, so the
+    # ones that need it are all probed at once before anything is verified.
+    if to_probe:
+        from concurrent.futures import ThreadPoolExecutor as _TPE
+        print(f"\nfinding the feed behind {len(to_probe)} careers pages\n", flush=True)
+        with _TPE(max_workers=args.workers) as pool:
+            probed = list(pool.map(lambda e: probe(e["name"], e["url"]), to_probe))
+        for e, r in zip(to_probe, probed):
+            if not r["working"]:
+                rejected.append((e["name"], e.get("_first") or r.get("note")
+                                 or "no readable feed found"))
+                continue
+            w = r["working"][0]
+            why = adopt_one({**e, "ats": w["ats"], "token": w["token"],
+                             "url": r.get("best_url") or e["url"]})
+            if why:
+                rejected.append((e["name"], why))
 
     # 2. the register sweep
     from concurrent.futures import ThreadPoolExecutor, as_completed

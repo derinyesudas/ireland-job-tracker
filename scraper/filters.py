@@ -79,9 +79,50 @@ GRAD_RESCUE = re.compile(
 )
 
 
+# Read in the TITLE as well, because a careers site that publishes no location
+# usually puts it in the job's address instead, and the sitemap reader turns
+# that address into the title: "Junior Data Analyst Inplant Mexico City Mexico",
+# "Hr Advisor 27797 En Us". Word boundaries, and no Midlands - Ireland has one.
+TITLE_ABROAD = re.compile(
+    r"\b(" + "|".join(sorted((re.escape(p) for p in CLEARLY_ABROAD if p != "midlands"),
+                             key=len, reverse=True)) +
+    r"|mexico|colombia|medell[ií]n|monterrey|bogot[aá]|cartagena|tegucigalpa|honduras|"
+    r"brazil|argentina|chile|peru|costa\s+rica|guatemala|messico|isle\s+of\s+man|"
+    r"jersey|guernsey|"
+    r"en[\s-]us|en[\s-]gb)\b", re.I)
+
+# Northern Ireland is the United Kingdom. A Republic of Ireland work permit
+# does not cover it, so "Northern Ireland, Ireland" is not an Irish job here.
+NORTHERN_IRELAND = re.compile(
+    r"\b(northern\s+ireland|county\s+(down|antrim|armagh|tyrone|fermanagh|"
+    r"londonderry)|co\.?\s+(down|antrim|armagh|tyrone|fermanagh)|newry|"
+    r"belfast|lisburn|londonderry|derry|craigavon|portadown|enniskillen|omagh|"
+    r"coleraine|ballymena|bangor,?\s+co)\b", re.I)
+
+
+def clearly_not_ireland(job: dict) -> bool:
+    """The two cases the location check used to wave through. Pure, cheap, and
+    safe to run over the whole board, not only this run's catch."""
+    loc = (job.get("location") or "").lower().strip()
+    title = (job.get("title") or "").lower()
+    # Only when nowhere in the Republic is named too - a role advertised for
+    # "Dublin, Ireland; Belfast, County Antrim" is still a Dublin job.
+    if NORTHERN_IRELAND.search(f"{loc} {title}") and not any(
+            p in loc for p in IRISH_PLACES if "ireland" not in p and p != "eire"):
+        return True
+    if not loc:
+        return bool(TITLE_ABROAD.search(title))
+    # A stated location abroad with nowhere Irish in it. "Administrative
+    # Assistant - Ireland" based in Lisbon supports Ireland from Portugal.
+    return bool(TITLE_ABROAD.search(loc)) and not any(p in loc for p in IRISH_PLACES)
+
+
 def is_in_ireland(job: dict, employer_is_irish: bool = False) -> bool:
     loc = (job.get("location") or "").lower().strip()
     text = f"{loc} {(job.get('title') or '').lower()}"
+
+    if clearly_not_ireland(job):
+        return False
 
     if not loc:
         desc = (job.get("description") or "").lower()[:1500]

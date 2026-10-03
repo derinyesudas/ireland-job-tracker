@@ -29,7 +29,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
-from scraper import csol, eligible, filters, normalise, score, visa  # noqa: E402
+from scraper import crackit, csol, eligible, filters, normalise, score, visa  # noqa: E402
 from scraper.ats_clients import FETCHERS, FetchError  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -259,9 +259,13 @@ def main() -> int:
         kept.append(job)
 
     # -------------------------------------------------------- drop the no-hopers
-    below = [j for j in kept if j.get("score", 0) < MIN_SCORE]
+    # A Crack-IT title is never "wrong field" - that list exists precisely
+    # because its jobs score low - so the floor does not apply to it.
+    below = [j for j in kept if j.get("score", 0) < MIN_SCORE
+             and not crackit.assess(j, "eligible")]
     if below:
-        kept = [j for j in kept if j.get("score", 0) >= MIN_SCORE]
+        kept = [j for j in kept if j.get("score", 0) >= MIN_SCORE
+                or crackit.assess(j, "eligible")]
         print(f"  dropped {len(below)} jobs scoring under {MIN_SCORE} - wrong field, not near misses")
 
     # ------------------------------------------------------------- deduplicate
@@ -414,11 +418,20 @@ def main() -> int:
     fresh = [j for j in fresh if _is_a_real_posting(j)]
     junked = before_clean - len(fresh)
 
+    # Same again for place. A slug that says "Mexico City" or a role in Newry
+    # got onto the board before the location check could read them, and would
+    # otherwise sit there for the full 45 days.
+    before_place = len(fresh)
+    fresh = [j for j in fresh if not filters.clearly_not_ireland(j)]
+    if before_place != len(fresh):
+        print(f"  removed {before_place - len(fresh)} jobs that are not in the Republic")
+
     # The floor applies to the whole board, not only to this run's catch -
     # otherwise jobs that scored above it under the old model would sit there
     # for the full 45-day retention.
     before_floor = len(fresh)
-    fresh = [j for j in fresh if j.get("score", 0) >= MIN_SCORE]
+    fresh = [j for j in fresh if j.get("score", 0) >= MIN_SCORE
+             or crackit.assess(j, "eligible")]
     floored = before_floor - len(fresh)
     if floored:
         print(f"  removed {floored} existing jobs now scoring under {MIN_SCORE}")
@@ -449,10 +462,14 @@ def main() -> int:
         job["eligibility_reasons"] = v["reasons"]
         job["eligibility_flags"] = v["flags"]
         job["eligibility_bonuses"] = v["bonuses"]
+        # Crack-IT: office jobs she can walk into, listed apart so a low fit
+        # score cannot bury them.
+        job["crack_it"] = crackit.assess(job, v["status"])
         verdicts[v["status"]] += 1
     print(f"  eligibility: {verdicts['eligible']} eligible, "
           f"{verdicts['flagged']} flagged, {verdicts['blocked']} blocked")
     print(f"  on the Critical Skills list: {sum(1 for j in fresh if j.get('csol'))}")
+    print(f"  Crack-IT: {sum(1 for j in fresh if j.get('crack_it') and not j.get('closed'))} open")
 
     DATA.mkdir(exist_ok=True)
     SITE_DATA.mkdir(parents=True, exist_ok=True)

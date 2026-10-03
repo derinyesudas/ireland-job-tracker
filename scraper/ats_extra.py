@@ -588,6 +588,55 @@ EXTRA_FETCHERS["joblinks"] = joblinks
 
 
 # ---------------------------------------------------------------------------
+# Candidate Manager - the applicant tracking system a lot of Irish employers use
+#
+# Vhi and Abtran both serve their vacancies from candidatemanager.net. The
+# listing is plain server-rendered HTML; the generic link reader threw every
+# job away because Candidate Manager identifies a job in the query string -
+# pJobDetails.aspx?mid=..&sid=..&jid=.. - and that reader judges a link by its
+# path, which is the same on every job. The listing is also the better source
+# for the title: the detail pages put the company name in their <title>.
+
+CM_JOB_RE = re.compile(
+    r'<a[^>]+href="([^"]*pJobDetails\.aspx\?[^"]*)"[^>]*>(.*?)</a>',
+    re.I | re.S)
+
+
+def candidatemanager(token: str) -> list[dict]:
+    """Token is the employer's own pJobs.aspx listing address."""
+    listing, landed = _get_html_at(token)
+    titles: dict[str, str] = {}
+    for href, label in CM_JOB_RE.findall(listing):
+        url = urllib.parse.urldefrag(
+            urllib.parse.urljoin(landed, html.unescape(href)))[0]
+        title = " ".join(
+            html.unescape(html.unescape(re.sub(r"<[^>]+>", " ", label))).split())
+        if not title or len(title) < 4 or len(title) > 140:
+            continue
+        titles.setdefault(url, title)
+        if len(titles) >= MAX_JOB_PAGES:
+            break
+    if not titles:
+        raise FetchError("candidatemanager: no job links on the listing page")
+
+    urls = list(titles)
+    jobs: list[dict] = []
+    with ThreadPoolExecutor(max_workers=6) as pool:
+        for url, job in zip(urls, pool.map(_read_one_job, urls)):
+            if not job:
+                continue
+            job["title"] = titles[url]
+            job["url"] = job.get("url") or url
+            jobs.append(job)
+    if not jobs:
+        raise FetchError(f"candidatemanager: {len(urls)} job links, none readable")
+    return jobs
+
+
+EXTRA_FETCHERS["candidatemanager"] = candidatemanager
+
+
+# ---------------------------------------------------------------------------
 # sitemap - for career sites that build their job list in the browser
 #
 # The inspection found 44 employers whose careers page ships almost no HTML:

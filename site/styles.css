@@ -676,3 +676,16 @@ body.locked > *:not(#lock) { display: none !important; }
 
 /* Critical Skills Occupations List (Dept. of Enterprise, 2026) */
 .tag.csol { background: transparent; color: #a371f7; border-color: #a371f7; font-weight: 600; }
+
+/* Crack-IT: the office jobs she can walk into, listed apart from the fit score */
+.tag.crackit { background: transparent; color: #f0883e; border-color: #f0883e; font-weight: 600; }
+body.tab-crackit #sort,
+body.tab-crackit .slider-wrap,
+body.tab-crackit #f-band,
+body.tab-crackit [data-quick="blocked"] { display: none; }
+/* Four tabs on a phone: keep each label on one line and let the row scroll
+   sideways rather than breaking "Crack-IT" at its hyphen. */
+.tab { white-space: nowrap; flex: 0 0 auto; }
+.tabs { overflow-x: auto; scrollbar-width: none; }
+.tabs::-webkit-scrollbar { display: none; }
+@media (max-width: 480px) { .tab { padding: 9px 10px; } }

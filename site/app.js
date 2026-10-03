@@ -107,7 +107,7 @@ let JOBS = [];
 let STATS = {};
 let STATE = load();          // { [jobId]: { status, appliedAt, notes } }
 let QUICK = new Set();
-let TAB = 'jobs';                       // 'jobs' | 'applied' | 'hidden'
+let TAB = 'crackit';                    // 'crackit' | 'jobs' | 'applied' | 'hidden'
 let PAGE = 1;
 
 const APPLIED_STATES = ['applied', 'interview', 'offer', 'rejected'];
@@ -197,7 +197,9 @@ function bucketCounts() {
   // board, so counting it here contradicted both the header and the list.
   const jobs = JOBS.filter(j =>
     !j.closed && !isHidden(j.id) && !isApplied(statusOf(j.id))).length;
-  return { jobs, applied, hidden };
+  const crackit = JOBS.filter(j => j.crack_it && j.eligibility !== 'blocked' &&
+    !j.closed && !isHidden(j.id) && !isApplied(statusOf(j.id))).length;
+  return { jobs, applied, hidden, crackit };
 }
 
 function setStatus(id, status) {
@@ -337,7 +339,11 @@ function visible() {
   // The Applied and Hidden tabs are your own short lists, so only the search
   // box applies to them. Silently withholding an application because a score
   // slider is set somewhere would be a nasty surprise.
-  if (TAB !== 'jobs') {
+  // Crack-IT is the main board narrowed to the office jobs she can walk into.
+  // Score plays no part in it - that is the point of the list - so the score
+  // slider and fit band are ignored here and the newest job comes first.
+  const crack = TAB === 'crackit';
+  if (TAB !== 'jobs' && !crack) {
     const base = TAB === 'applied' ? appliedJobs() : hiddenJobs();
     const matches = j => !q || searchKey(j).includes(q);
     return base.filter(matches).sort((a, b) =>
@@ -358,7 +364,8 @@ function visible() {
     ?.classList.contains('on');
 
   let out = JOBS.filter(job => {
-    if (ineligibleOnly) { if (job.eligibility !== 'blocked') return false; }
+    if (crack && !job.crack_it) return false;
+    if (ineligibleOnly && !crack) { if (job.eligibility !== 'blocked') return false; }
     else if (job.eligibility === 'blocked') return false;
     // Applied and dismissed jobs leave the main board. They are not lost -
     // each has its own tab - but they should stop competing for attention.
@@ -369,9 +376,9 @@ function visible() {
     // role you went for has closed is worth more than a tidy list.
     if (job.closed) return false;
 
-    if (job.score < minScore) return false;
+    if (!crack && job.score < minScore) return false;
     if (company && job.company !== company) return false;
-    if (band && job.band !== band) return false;
+    if (!crack && band && job.band !== band) return false;
     if (location && !(job.location || '').includes(location)) return false;
 
     if (age) {
@@ -405,7 +412,7 @@ function visible() {
     return true;
   });
 
-  const sort = document.getElementById('sort').value;
+  const sort = crack ? 'new' : document.getElementById('sort').value;
   // Fit alone is the wrong ranking for a job board.
   //
   // Postings in this market take applications for about nine days, and roughly
@@ -422,7 +429,8 @@ function visible() {
   };
   if (sort === 'fresh') out.sort((a, b) => urgency(b) - urgency(a));
   if (sort === 'score') out.sort((a, b) => b.score - a.score);
-  if (sort === 'new') out.sort((a, b) => (b.first_seen || '').localeCompare(a.first_seen || ''));
+  if (sort === 'new') out.sort((a, b) =>
+    (b.first_seen || b.posted_at || '').localeCompare(a.first_seen || a.posted_at || ''));
   if (sort === 'company') out.sort((a, b) => a.company.localeCompare(b.company) || b.score - a.score);
   if (sort === 'title') out.sort((a, b) => a.title.localeCompare(b.title));
 
@@ -441,6 +449,8 @@ function cardHTML(job) {
 
   const tags = [];
   if (job.is_new) tags.push('<span class="tag new">NEW</span>');
+  if (job.crack_it && job.eligibility !== 'blocked')
+    tags.push(`<span class="tag crackit" title="Crack-IT: an office job you can get into now">Crack-IT · ${esc(job.crack_it.family)}</span>`);
   // An employer that pays for the QFA is the opposite of one that demands it.
   // Worth saying on the card, because the two read identically in a search.
   if ((job.eligibility_bonuses || []).some(b => b.code === 'qualification_supported'))
@@ -692,10 +702,14 @@ function render() {
 
   const counts = bucketCounts();
   document.getElementById('t-jobs').textContent = counts.jobs;
+  const tc = document.getElementById('t-crackit');
+  if (tc) tc.textContent = counts.crackit;
   document.getElementById('t-applied').textContent = counts.applied;
   document.getElementById('t-hidden').textContent = counts.hidden;
 
   const EMPTY = {
+    crackit: `<div class="empty"><h3>No Crack-IT jobs match</h3>
+              <p>Clear the search or a filter. New ones arrive with every scan.</p></div>`,
     jobs: `<div class="empty"><h3>Nothing matches those filters</h3>
            <p>Try lowering the minimum score or clearing a filter.</p></div>`,
     applied: `<div class="empty"><h3>No applications logged yet</h3>
@@ -713,7 +727,8 @@ function render() {
   const noun = TAB === 'applied' ? 'applications' : TAB === 'hidden' ? 'hidden jobs' : 'jobs';
   document.getElementById('count').textContent = list.length
     ? (TAB === 'jobs' ? `Showing ${list.length} of ${counts.jobs} jobs`
-                      : `${list.length} ${noun}`)
+      : TAB === 'crackit' ? `${list.length} Crack-IT ${list.length === 1 ? 'job' : 'jobs'} · newest first`
+      : `${list.length} ${noun}`)
     : '';
   todayLine();
 
@@ -1058,7 +1073,9 @@ async function init() {
     PAGE = 1;
     document.querySelectorAll('#tabs .tab').forEach(b => b.classList.toggle('on', b === t));
     // The filter panel belongs to the main board only.
-    document.getElementById('filters-extra').classList.toggle('hidden-panel', TAB !== 'jobs');
+    document.getElementById('filters-extra').classList.toggle('hidden-panel',
+      TAB !== 'jobs' && TAB !== 'crackit');
+    document.body.classList.toggle('tab-crackit', TAB === 'crackit');
     render();
   });
 

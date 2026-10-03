@@ -247,6 +247,9 @@ def workday(token: str) -> list[dict]:
     if len(parts) != 3:
         raise FetchError("workday token must be 'tenant|wd_number|site'")
     tenant, wd_num, site = parts
+    # The probe writes "wd3" where the resolver writes "3". Both mean the same
+    # data centre, and "wdwd3.myworkdayjobs.com" does not exist.
+    wd_num = wd_num.lower().removeprefix("wd")
     url = (
         f"https://{tenant}.wd{wd_num}.myworkdayjobs.com"
         f"/wday/cxs/{tenant}/{site}/jobs"

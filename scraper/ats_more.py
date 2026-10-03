@@ -1053,6 +1053,94 @@ def talentbrew(token: str) -> list[dict]:
 #
 
 
+# ------------------------------------------------------------------- Jibe
+#
+# AXA and Gallagher run their careers sites on Jibe (iCIMS's front end). The
+# site answers /api/jobs?location=Ireland with the Irish vacancies already
+# filtered, full descriptions included. Gallagher's own Irish site redirects
+# here, and so do the brokers it bought - INNOVU and First Ireland - so one
+# feed covers all three.
+#
+# Token: "host|location", e.g. "jobs.ajg.com|Ireland".
+
+def jibe(token: str) -> list[dict]:
+    host, _, where = token.partition("|")
+    host = host.replace("https://", "").replace("http://", "").strip("/").split("/")[0]
+    where = where or "Ireland"
+    out: list[dict] = []
+    seen: set[str] = set()
+    for page in range(1, 11):
+        data = _get(f"https://{host}/api/jobs?location={urllib.parse.quote(where)}"
+                    f"&page={page}&limit=100")
+        rows = (data or {}).get("jobs") or []
+        fresh = 0
+        for row in rows:
+            d = row.get("data") or row
+            slug = str(d.get("slug") or d.get("req_id") or "")
+            if not slug or slug in seen:
+                continue
+            seen.add(slug)
+            fresh += 1
+            body = " ".join(x for x in (d.get("description"), d.get("responsibilities"),
+                                        d.get("qualifications")) if x)
+            out.append({
+                "id": slug,
+                "title": d.get("title", ""),
+                "location": row.get("full_location") or d.get("full_location") or
+                            ", ".join(x for x in (d.get("city"), d.get("country")) if x),
+                "url": f"https://{host}/jobs/{slug}?lang=en-us",
+                "description": body,
+                "posted": d.get("posted_date", ""),
+                "employment_type": d.get("employment_type", "") or "",
+            })
+        if not fresh:
+            break
+    if not out:
+        raise FetchError("jibe: no jobs")
+    return out
+
+
+# ----------------------------------------------------------------- Amazon
+#
+# amazon.jobs publishes its own search as JSON. Token is the country code
+# ("IRL"): Amazon's Irish companies post two hundred-odd roles at a time,
+# finance, operations and support among the engineering.
+
+def amazonjobs(token: str) -> list[dict]:
+    from datetime import datetime
+    country = (token or "IRL").strip().upper()
+    out: list[dict] = []
+    for offset in range(0, 1000, 100):
+        data = _get("https://www.amazon.jobs/en/search.json"
+                    f"?country={country}&result_limit=100&offset={offset}&sort=recent")
+        rows = (data or {}).get("jobs") or []
+        for r in rows:
+            posted = " ".join(str(r.get("posted_date") or "").split())
+            try:
+                posted = datetime.strptime(posted, "%B %d, %Y").strftime("%Y-%m-%d")
+            except ValueError:
+                pass
+            body = "\n".join(x for x in (r.get("description"),
+                                          r.get("basic_qualifications"),
+                                          r.get("preferred_qualifications")) if x)
+            out.append({
+                "id": str(r.get("id_icims") or r.get("id") or ""),
+                "title": r.get("title", ""),
+                "location": ", ".join(x for x in (r.get("city"), "Ireland") if x)
+                            if country == "IRL" else (r.get("location") or ""),
+                "url": "https://www.amazon.jobs" + (r.get("job_path") or ""),
+                "description": body,
+                "posted": posted,
+                "department": r.get("job_category", "") or "",
+                "employment_type": r.get("job_schedule_type", "") or "",
+            })
+        if len(rows) < 100 or offset + 100 >= int((data or {}).get("hits") or 0):
+            break
+    if not out:
+        raise FetchError("amazonjobs: no jobs")
+    return out
+
+
 MORE_FETCHERS = {
     "icims": icims,
     "taleo": taleo,
@@ -1067,4 +1155,6 @@ MORE_FETCHERS = {
     "rippling": rippling,
     "phenom": phenom,
     "talentbrew": talentbrew,
+    "jibe": jibe,
+    "amazonjobs": amazonjobs,
 }

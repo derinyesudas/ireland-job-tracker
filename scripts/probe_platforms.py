@@ -317,6 +317,17 @@ def probe(name: str, url: str) -> dict:
     if m and attempt("workday", "|".join(m.groups())):
         return r
 
+    # 1c. Candidate Manager, which several Irish employers sit behind. The
+    #     careers page is usually prose with one link out to the vacancy list,
+    #     so there is nothing for the link readers above to see.
+    for l in alive[:2]:
+        for href in re.findall(r'href=["\']([^"\']*pJobs\.aspx\?[^"\']*)',
+                               l.get("page", ""), re.I):
+            cm = urljoin(l["url"], href.replace("&amp;", "&"))
+            if "candidatemanager" in urlparse(cm).netloc.lower() and \
+                    attempt("candidatemanager", cm):
+                return r
+
     # 2. the platform behind the branding
     host = urlparse(url).netloc
     for l in alive[:2]:
