@@ -1,594 +1,112 @@
 [
  {
-  "name": "Permanent TSB (PTSB)",
-  "url": "https://my.corehr.com/pls/ptsbrecruit/erq_search_package.search_form?p_company=1000&p_internal_external=E"
- },
- {
-  "name": "NatWest Group (Ulster Bank)",
-  "url": "https://jobs.natwestgroup.com/search/jobs/in/country/ireland"
- },
- {
-  "name": "Bank of America",
-  "url": "https://careers.bankofamerica.com/en-us/job-search/ireland"
- },
- {
-  "name": "Goldman Sachs",
-  "url": "https://higher.gs.com/results"
- },
- {
-  "name": "Morgan Stanley",
-  "url": "https://ms.wd5.myworkdayjobs.com/External",
-  "ats": "workday",
-  "token": "ms|5|External"
- },
- {
-  "name": "BNP Paribas Ireland",
-  "url": "https://group.bnpparibas/en/careers/all-job-offers/dublin"
- },
- {
-  "name": "Mizuho",
-  "url": "https://careers.mizuhoemea.com/search/",
-  "ats": "successfactors",
-  "token": "https://careers.mizuhoemea.com/search/"
- },
- {
-  "name": "HSBC",
-  "url": "https://hsbc.eightfold.ai/careers",
-  "ats": "eightfold",
-  "token": "hsbc"
- },
- {
-  "name": "Deutsche Bank",
-  "url": "https://db.wd3.myworkdayjobs.com/DBWebsite",
-  "ats": "workday",
-  "token": "db|3|DBWebsite"
- },
- {
-  "name": "Commerzbank",
-  "url": "https://jobs.commerzbank.com/index.php?ac=search_result"
- },
- {
-  "name": "Nordea",
-  "url": "https://careers.nordea.com/search/?q=&locationsearch=Ireland",
-  "ats": "successfactors",
-  "token": "https://careers.nordea.com/search/?q=&locationsearch=Ireland"
- },
- {
-  "name": "SS&C Technologies",
-  "url": "https://ssctech.wd1.myworkdayjobs.com/SSCTechnologies",
-  "ats": "workday",
-  "token": "ssctech|1|SSCTechnologies"
- },
- {
-  "name": "CACEIS",
-  "url": "https://jobs.caceis.com/pages/offre/listeoffre.aspx?lcid=2057"
- },
- {
-  "name": "Allfunds",
-  "url": "https://allfunds.com/en/careers"
- },
- {
-  "name": "BlackRock",
-  "url": "https://blackrock.wd1.myworkdayjobs.com/BlackRock_Professional",
-  "ats": "workday",
-  "token": "blackrock|1|BlackRock_Professional"
- },
- {
-  "name": "Vanguard",
-  "url": "https://vanguard.wd5.myworkdayjobs.com/vanguard_external",
-  "ats": "workday",
-  "token": "vanguard|5|vanguard_external"
- },
- {
-  "name": "The Carlyle Group",
-  "url": "https://carlyle.wd1.myworkdayjobs.com/Carlyle",
-  "ats": "workday",
-  "token": "carlyle|1|Carlyle"
- },
- {
-  "name": "KKR",
-  "url": "https://www.kkr.com/careers/career-opportunities"
- },
- {
-  "name": "Millennium Management",
-  "url": "https://mlp.wd5.myworkdayjobs.com/mlpcareers",
-  "ats": "workday",
-  "token": "mlp|5|mlpcareers"
- },
- {
-  "name": "PIMCO",
-  "url": "https://pimco.wd1.myworkdayjobs.com/pimco-careers",
-  "ats": "workday",
-  "token": "pimco|1|pimco-careers"
- },
- {
-  "name": "StepStone Group",
-  "url": "https://boards.greenhouse.io/stepstone",
-  "ats": "greenhouse",
-  "token": "stepstone"
- },
- {
-  "name": "Euronext",
-  "url": "https://hrhub.wd3.myworkdayjobs.com/Euronext_Career_Page",
-  "ats": "workday",
-  "token": "hrhub|3|Euronext_Career_Page"
- },
- {
-  "name": "Fineco Asset Management",
-  "url": "https://finecoassetmanagement.com/careers"
- },
- {
-  "name": "Laya Healthcare",
-  "url": "https://corebridgefinancial.wd1.myworkdayjobs.com/laya",
-  "ats": "workday",
-  "token": "corebridgefinancial|1|laya"
- },
- {
-  "name": "Liberty Insurance Ireland",
-  "url": "https://www.libertyinsurance.ie/about-us/careers"
- },
- {
-  "name": "PartnerRe",
-  "url": "https://careers.partnerre.com/search/?q=&locationsearch=Dublin",
-  "ats": "successfactors",
-  "token": "https://careers.partnerre.com/search/?q=&locationsearch=Dublin"
- },
- {
-  "name": "AXA Ireland",
-  "url": "https://careers.axa.com/careers-home/jobs?location=Ireland",
-  "ats": "jibe",
-  "token": "careers.axa.com|Ireland"
- },
- {
-  "name": "Gallagher Ireland",
-  "url": "https://jobs.ajg.com/ajg-uk/jobs?location=Ireland",
-  "ats": "jibe",
-  "token": "jobs.ajg.com|Ireland"
- },
- {
-  "name": "Howden Ireland",
-  "url": "https://hyperiongrp.wd3.myworkdayjobs.com/Hyperion_External",
-  "ats": "workday",
-  "token": "hyperiongrp|3|Hyperion_External"
- },
- {
-  "name": "Arachas (Ardonagh)",
-  "url": "https://careers.ardonagh.com/departments/arachas",
-  "ats": "teamtailor",
-  "token": "careers.ardonagh.com"
- },
- {
-  "name": "Chill Insurance",
-  "url": "https://www.chill.ie/company/careers/"
- },
- {
-  "name": "AA Ireland",
-  "url": "https://www.theaa.ie/about-us/jobs/"
- },
- {
   "name": "Goodbody Stockbrokers",
-  "url": "https://jobs.aib.ie/goodbody/go/Goodbody-Jobs/9606100/",
-  "ats": "successfactors",
-  "token": "https://jobs.aib.ie/goodbody/go/Goodbody-Jobs/9606100/"
- },
- {
-  "name": "Standard Life International",
-  "url": "https://fa-enor-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/requisitions?location=Ireland",
-  "ats": "oraclecloud",
-  "token": "fa-enor-saasfaprod1.fa.ocs.oraclecloud.com|CX"
- },
- {
-  "name": "Arch Insurance (EU)",
-  "url": "https://archgroup.wd1.myworkdayjobs.com/Careers",
-  "ats": "workday",
-  "token": "archgroup|1|Careers"
- },
- {
-  "name": "Berkshire Hathaway Specialty Insurance",
-  "url": "https://www.bhspecialty.com/career_category/dublin/"
- },
- {
-  "name": "AXIS Capital",
-  "url": "https://axiscapital.wd1.myworkdayjobs.com/axiscareers",
-  "ats": "workday",
-  "token": "axiscapital|1|axiscareers"
- },
- {
-  "name": "Lane Clark & Peacock (LCP)",
-  "url": "https://careers.lcp.com/search-all-vacancies"
- },
- {
-  "name": "Unio Financial Services",
-  "url": "https://unio.hirehive.com/",
-  "ats": "hirehive",
-  "token": "unio.hirehive.com"
- },
- {
-  "name": "Capita",
-  "url": "https://capita.wd3.myworkdayjobs.com/CapitaGlobal",
-  "ats": "workday",
-  "token": "capita|3|CapitaGlobal"
- },
- {
-  "name": "Brown & Brown Ireland (O'Leary Insurances)",
-  "url": "https://bbinsurance.wd1.myworkdayjobs.com/Careers_Europe",
-  "ats": "workday",
-  "token": "bbinsurance|1|Careers_Europe"
- },
- {
-  "name": "RedClick (Generali)",
-  "url": "https://generaliespana.wd3.myworkdayjobs.com/RedClick_External_Career_Site",
-  "ats": "workday",
-  "token": "generaliespana|3|RedClick_External_Career_Site"
- },
- {
-  "name": "Ayvens Ireland",
-  "url": "https://ayvens.wd3.myworkdayjobs.com/AyvensCareers",
-  "ats": "workday",
-  "token": "ayvens|3|AyvensCareers"
- },
- {
-  "name": "Harvest Financial Services",
-  "url": "https://www.harvestfinancial.ie/career-opportunities-harvest/"
- },
- {
-  "name": "CPAS",
-  "url": "https://cpas.ie/cpas-careers/"
- },
- {
-  "name": "Aviva Ireland",
-  "url": "https://aviva.wd1.myworkdayjobs.com/External",
-  "ats": "workday",
-  "token": "aviva|1|External"
- },
- {
-  "name": "Campion Insurance",
-  "url": "https://www.campion.com/careers/"
- },
- {
-  "name": "PwC Ireland",
-  "url": "https://pwc.wd3.myworkdayjobs.com/Global_Experienced_Careers",
-  "ats": "workday",
-  "token": "pwc|3|Global_Experienced_Careers"
- },
- {
-  "name": "Infosys",
-  "url": "https://digitalcareers.infosys.com/infosys/global-careers"
- },
- {
-  "name": "Infosys BPM Ireland",
-  "url": "https://globalcareers.infosysbpm.com/infosysbpm/ireland"
- },
- {
-  "name": "NTT DATA",
-  "url": "https://careers.nttdata.com/global/en/search-results",
-  "ats": "phenom",
-  "token": "careers.nttdata.com"
- },
- {
-  "name": "IBM",
-  "url": "https://careers.ibm.com/en_US/careers/SearchJobs",
-  "ats": "avature",
-  "token": "https://careers.ibm.com/en_US"
+  "drop": true
  },
  {
   "name": "Dell Technologies",
-  "url": "https://dell.wd1.myworkdayjobs.com/External",
+  "fix": true,
   "ats": "workday",
-  "token": "dell|1|External"
+  "token": "dell|1|External",
+  "url": "https://dell.wd1.myworkdayjobs.com/External"
  },
  {
-  "name": "Hewlett Packard Enterprise",
-  "url": "https://hpe.wd5.myworkdayjobs.com/Jobsathpe",
-  "ats": "workday",
-  "token": "hpe|5|Jobsathpe"
- },
- {
-  "name": "Google",
-  "url": "https://www.google.com/about/careers/applications/jobs/results?location=Dublin%2C%20Ireland"
- },
- {
-  "name": "Amazon",
-  "url": "https://www.amazon.jobs/en/search?base_query=&loc_query=Ireland&country=IRL",
-  "ats": "amazonjobs",
-  "token": "IRL"
+  "name": "IBM",
+  "fix": true,
+  "ats": "avature",
+  "token": "https://careers.ibm.com/en_US",
+  "url": "https://careers.ibm.com/en_US/careers/SearchJobs"
  },
  {
   "name": "HubSpot",
-  "url": "https://boards.greenhouse.io/hubspotjobs",
+  "fix": true,
   "ats": "greenhouse",
-  "token": "hubspotjobs"
- },
- {
-  "name": "TikTok",
-  "url": "https://lifeattiktok.com/search?keyword=Dublin"
+  "token": "hubspotjobs",
+  "url": "https://boards.greenhouse.io/hubspotjobs"
  },
  {
   "name": "PayPal",
-  "url": "https://paypal.eightfold.ai/careers",
+  "fix": true,
   "ats": "eightfold",
-  "token": "paypal"
- },
- {
-  "name": "Adyen",
-  "url": "https://job-boards.greenhouse.io/adyen",
-  "ats": "greenhouse",
-  "token": "adyen"
- },
- {
-  "name": "Fire.com",
-  "url": "https://fire.hirehive.com",
-  "ats": "hirehive",
-  "token": "fire.hirehive.com"
- },
- {
-  "name": "SumUp",
-  "url": "https://boards.greenhouse.io/sumup",
-  "ats": "greenhouse",
-  "token": "sumup"
- },
- {
-  "name": "Block (Square)",
-  "url": "https://job-boards.greenhouse.io/block",
-  "ats": "greenhouse",
-  "token": "block"
+  "token": "paypal",
+  "url": "https://paypal.eightfold.ai/careers"
  },
  {
   "name": "Zendesk",
-  "url": "https://zendesk.wd1.myworkdayjobs.com/zendesk",
+  "fix": true,
   "ats": "workday",
-  "token": "zendesk|1|zendesk"
- },
- {
-  "name": "EPAM Systems",
-  "url": "https://careers.epam.com/en/jobs"
- },
- {
-  "name": "TELUS Digital",
-  "url": "https://careers.telusdigital.com/search/jobs/in/country/ireland"
- },
- {
-  "name": "Transcom",
-  "url": "https://apply.careers.transcom.com/en_US/careers/SearchJobs",
-  "ats": "avature",
-  "token": "https://apply.careers.transcom.com/en_US"
- },
- {
-  "name": "Conduent",
-  "url": "https://careers.conduent.com/us/en/search-results",
-  "ats": "phenom",
-  "token": "careers.conduent.com"
- },
- {
-  "name": "Abtran",
-  "url": "https://www.candidatemanager.net/cm/p/pJobs.aspx?mid=CXAZGTY&sid=YDWF",
-  "ats": "candidatemanager",
-  "token": "https://www.candidatemanager.net/cm/p/pJobs.aspx?mid=CXAZGTY&sid=YDWF"
- },
- {
-  "name": "Zevas Communications",
-  "url": "https://zevas-communications-limited.hirehive.com/",
-  "ats": "hirehive",
-  "token": "zevas-communications-limited.hirehive.com"
- },
- {
-  "name": "Arema Connect",
-  "url": "https://aremaconnect.com/careers"
- },
- {
-  "name": "Covalen",
-  "url": "https://covalensolutions.com/our-company/careers"
- },
- {
-  "name": "Bristol Myers Squibb",
-  "url": "https://bristolmyerssquibb.wd5.myworkdayjobs.com/BMS",
-  "ats": "workday",
-  "token": "bristolmyerssquibb|5|BMS"
- },
- {
-  "name": "Novartis",
-  "url": "https://novartis.wd3.myworkdayjobs.com/Novartis_Careers",
-  "ats": "workday",
-  "token": "novartis|3|Novartis_Careers"
- },
- {
-  "name": "Roche",
-  "url": "https://roche.wd3.myworkdayjobs.com/roche-ext",
-  "ats": "workday",
-  "token": "roche|3|roche-ext"
- },
- {
-  "name": "GSK",
-  "url": "https://gsk.wd5.myworkdayjobs.com/GSKCareers",
-  "ats": "workday",
-  "token": "gsk|5|GSKCareers"
- },
- {
-  "name": "AstraZeneca",
-  "url": "https://astrazeneca.wd3.myworkdayjobs.com/Careers",
-  "ats": "workday",
-  "token": "astrazeneca|3|Careers"
- },
- {
-  "name": "Boston Scientific",
-  "url": "https://jobs.bostonscientific.com/search/?q=&locationsearch=Ireland",
-  "ats": "successfactors",
-  "token": "https://jobs.bostonscientific.com/search/?q=&locationsearch=Ireland"
- },
- {
-  "name": "Medtronic",
-  "url": "https://medtronic.wd1.myworkdayjobs.com/MedtronicCareers",
-  "ats": "workday",
-  "token": "medtronic|1|MedtronicCareers"
- },
- {
-  "name": "Zimmer Biomet",
-  "url": "https://careers.zimmerbiomet.com/us/en/search-results",
-  "ats": "phenom",
-  "token": "careers.zimmerbiomet.com"
- },
- {
-  "name": "Bord Gáis Energy (Centrica)",
-  "url": "https://centrica.wd3.myworkdayjobs.com/Centrica",
-  "ats": "workday",
-  "token": "centrica|3|Centrica"
- },
- {
-  "name": "CRH",
-  "url": "https://jobs.crh.com/search/?q=&locationsearch=Ireland",
-  "ats": "successfactors",
-  "token": "https://jobs.crh.com/search/?q=&locationsearch=Ireland"
+  "token": "zendesk|1|zendesk",
+  "url": "https://zendesk.wd1.myworkdayjobs.com/zendesk"
  },
  {
   "name": "Kerry Group",
-  "url": "https://vacancies.kerry.com/search/?q=&locationsearch=Ireland",
+  "fix": true,
   "ats": "successfactors",
-  "token": "https://vacancies.kerry.com/search/?q=&locationsearch=Ireland"
+  "token": "https://vacancies.kerry.com/search/?q=&locationsearch=Ireland",
+  "url": "https://vacancies.kerry.com/search/?q=&locationsearch=Ireland"
  },
  {
-  "name": "DCC plc",
-  "url": "https://careers.dcc.ie/go/All-Jobs-DCC/4501501/",
+  "name": "Boston Scientific",
+  "fix": true,
   "ats": "successfactors",
-  "token": "https://careers.dcc.ie/go/All-Jobs-DCC/4501501/"
+  "token": "https://jobs.bostonscientific.com/search/?q=&locationsearch=Ireland",
+  "url": "https://jobs.bostonscientific.com/search/?q=&locationsearch=Ireland"
  },
  {
-  "name": "Tusla",
-  "url": "https://tusla-candidate.thehirelab.com/livejobs"
- },
- {
-  "name": "Virtu Financial",
-  "url": "https://job-boards.greenhouse.io/virtu",
-  "ats": "greenhouse",
-  "token": "virtu"
- },
- {
-  "name": "IMC Trading",
-  "url": "https://job-boards.eu.greenhouse.io/imc",
-  "ats": "greenhouse",
-  "token": "imc"
- },
- {
-  "name": "Optiver",
-  "url": "https://optiver.com/working-at-optiver/career-opportunities/"
- },
- {
-  "name": "Hays Ireland",
-  "url": "https://www.hays.ie/job-search/in-dublin-ireland"
- },
- {
-  "name": "Robert Walters Ireland",
-  "url": "https://www.robertwalters.ie/jobs.html"
- },
- {
-  "name": "Reperio Human Capital",
-  "url": "https://www.reperiohumancapital.com/jobs-search"
- },
- {
-  "name": "Collins McNicholas",
-  "url": "https://www.collinsmcnicholas.ie/jobs"
- },
- {
-  "name": "Lincoln Recruitment",
-  "url": "https://lincoln.ie/job-listings/"
- },
- {
-  "name": "Archer Recruitment",
-  "url": "https://www.archer.ie/jobsearch/"
- },
- {
-  "name": "Mason Alexander",
-  "url": "https://www.masonalexander.ie/jobs-in-ireland"
- },
- {
-  "name": "Morgan McKinley",
-  "url": "https://www.morganmckinley.com/ie/jobs"
- },
- {
-  "name": "Brightwater",
-  "url": "https://www.brightwater.ie/search/"
- },
- {
-  "name": "Osborne Recruitment",
-  "url": "https://osborne.ie/jobs/"
- },
- {
-  "name": "IQ-EQ",
-  "url": "https://jobs.smartrecruiters.com/IQEQ",
-  "ats": "smartrecruiters",
-  "token": "IQEQ"
- },
- {
-  "name": "Carne Group",
-  "url": "https://carnepeopleportal.my.salesforce-sites.com/recruit/fRecruit__ApplyJobList"
- },
- {
-  "name": "Computershare",
-  "url": "https://www.computershare.com/corporate/careers/hub"
- },
- {
-  "name": "Equiniti",
-  "url": "https://equiniti.wd3.myworkdayjobs.com/Opportunities",
+  "name": "AstraZeneca",
+  "fix": true,
   "ats": "workday",
-  "token": "equiniti|3|Opportunities"
+  "token": "astrazeneca|3|Careers",
+  "url": "https://astrazeneca.wd3.myworkdayjobs.com/Careers"
  },
  {
-  "name": "CMS Distribution",
-  "url": "https://careers.cmsdistribution.com/go/Ireland-Vacancies/8999502/",
-  "ats": "successfactors",
-  "token": "https://careers.cmsdistribution.com/go/Ireland-Vacancies/8999502/"
+  "name": "Bank of America",
+  "fix": true,
+  "url": "https://careers.bankofamerica.com/en-us/job-search/ireland"
  },
  {
-  "name": "Vhi Healthcare",
-  "url": "https://www.candidatemanager.net/cm/p/pJobs.aspx?mid=YGTGTU&sid=YCXAZF",
-  "ats": "candidatemanager",
-  "token": "https://www.candidatemanager.net/cm/p/pJobs.aspx?mid=YGTGTU&sid=YCXAZF"
+  "name": "Northern Trust",
+  "fix": true,
+  "url": "https://careers.northerntrust.com/jobs"
  },
  {
-  "name": "Hiscox",
-  "url": "https://hiscox.wd3.myworkdayjobs.com/Hiscox_External_Site",
+  "name": "BNY",
+  "fix": true,
+  "ats": "eightfold",
+  "token": "bnymellon",
+  "url": "https://bnymellon.eightfold.ai/careers"
+ },
+ {
+  "name": "Concentrix",
+  "fix": true,
+  "url": "https://jobs.concentrix.com/job-search/?country=Ireland"
+ },
+ {
+  "name": "Aer Lingus",
+  "fix": true,
+  "url": "https://careers.aerlingus.com/"
+ },
+ {
+  "name": "Sigmar Recruitment",
+  "fix": true,
+  "url": "https://www.sigmarrecruitment.com/jobs"
+ },
+ {
+  "name": "Brown & Brown Ireland (O'Leary Insurances)",
   "ats": "workday",
-  "token": "hiscox|3|Hiscox_External_Site"
+  "token": "bbinsurance|1|Careers_Europe",
+  "url": "https://bbinsurance.wd1.myworkdayjobs.com/Careers_Europe"
  },
  {
-  "name": "Marsh McLennan",
-  "url": "https://mmc.wd1.myworkdayjobs.com/MMC",
-  "ats": "workday",
-  "token": "mmc|1|MMC"
+  "name": "HSBC",
+  "ats": "eightfold",
+  "token": "hsbc",
+  "url": "https://hsbc.eightfold.ai/careers"
  },
  {
   "name": "QBE Insurance",
-  "url": "https://qbe.wd3.myworkdayjobs.com/QBE-Careers",
-  "ats": "workday",
-  "token": "qbe|3|QBE-Careers"
- },
- {
-  "name": "Evelyn Partners",
-  "url": "https://www.evelyn.com/careers/",
-  "ats": "smartrecruiters",
-  "token": "EvelynPartners"
- },
- {
-  "name": "Maples Group",
-  "url": "https://maples.com/en/careers"
- },
- {
-  "name": "Ocorian",
-  "url": "https://www.ocorian.com/careers/search"
- },
- {
-  "name": "XPS Group",
-  "url": "https://www.xpsgroup.com/careers/"
- },
- {
-  "name": "Access Healthcare",
-  "url": "https://www.accesshealthcare.com/careers"
- },
- {
-  "name": "Meta",
-  "url": "https://www.metacareers.com/jobs?offices[0]=Dublin%2C%20Ireland"
- },
- {
-  "name": "Klarna",
-  "url": "https://www.klarna.com/careers/"
+  "ats": "phenom",
+  "token": "careers.qbe.com",
+  "url": "https://careers.qbe.com/gb/en/search-results"
  }
 ]

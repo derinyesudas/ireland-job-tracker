@@ -114,9 +114,37 @@ def already_tracked(name: str, existing: list[dict]) -> str | None:
     if not want:
         return None
     for c in existing:
-        if want <= _name_words(c.get("name", "")):
+        have = _name_words(c.get("name", ""))
+        # ...and they must make up at least half of the tracked name, or
+        # "Brown & Brown" would be Brown Brothers Harriman.
+        if want <= have and len(want) * 2 >= len(have):
             return c.get("name")
     return None
+
+
+def irish_jobs(ats: str, token: str, name: str) -> int:
+    """How many of a feed's jobs are in Ireland - the only count that matters
+    when deciding between two feeds for one employer. -1 if it will not read."""
+    from scraper.ats_clients import FETCHERS
+    from scraper import filters, normalise
+    fn = FETCHERS.get(ats)
+    if not fn:
+        return -1
+    try:
+        with full_read():
+            raw = fn(token) or []
+    except Exception:  # noqa: BLE001
+        return -1
+    norm = normalise.NORMALISERS.get(ats)
+    n = 0
+    for r in raw:
+        try:
+            job = norm(r, name) if norm else r
+        except Exception:  # noqa: BLE001
+            continue
+        if filters.is_in_ireland(job, employer_is_irish=True):
+            n += 1
+    return n
 
 
 def record(name: str, ats: str, token: str, url: str, found: int,
@@ -217,13 +245,26 @@ def main() -> int:
         return None
 
     handed = json.loads(args.extra) if args.extra.strip() else []
+    upgrades: list[tuple[dict, str]] = []
     if CANDIDATES.exists():
-        # The candidate list is a wish list. An employer already on the board
-        # keeps the feed it has - replacing a working feed with a guess would
-        # be the Davy problem in reverse.
         for e in json.loads(CANDIDATES.read_text(encoding="utf-8")):
+            # {"name": X, "drop": true} takes a feed off the board. Goodbody is
+            # the case: its probe landed on AIB's whole job search, so AIB's
+            # vacancies were turning up under Goodbody's name.
+            if e.get("drop"):
+                gone = [k for k, c in by_key.items()
+                        if c.get("name", "").lower() == e["name"].lower()]
+                for k in gone:
+                    del by_key[k]
+                print(f"  DROP   {e['name'][:38]:<38} {len(gone)} feed(s) removed")
+                continue
             hit = already_tracked(e.get("name", ""), existing)
-            if hit:
+            if hit and e.get("fix"):
+                # {"fix": true} asks for the tracked feed to be checked against
+                # this one - for employers that are tracked but never show a
+                # job. Without it, a tracked employer is simply left alone.
+                upgrades.append((e, hit))
+            elif hit:
                 rejected.append((e["name"], f"already tracked as {hit}"))
             else:
                 handed.append(e)
@@ -261,6 +302,38 @@ def main() -> int:
                              "url": r.get("best_url") or e["url"]})
             if why:
                 rejected.append((e["name"], why))
+
+    # 1b. employers already on the board. The candidate list is a wish list,
+    # and a working feed is never swapped for a guess - but a tracked feed that
+    # finds no Irish jobs while the candidate finds some is a dead feed, and is
+    # replaced. The tracked name and its permit record are kept.
+    for e, hit in upgrades:
+        old_keys = [k for k, c in by_key.items() if c.get("name") == hit]
+        old_n = max((irish_jobs(k[0], k[1], hit) for k in old_keys), default=-1)
+        cand = None
+        if e.get("ats") and e.get("token"):
+            cand = (e["ats"], e["token"], e.get("url", ""))
+        if (cand is None or irish_jobs(cand[0], cand[1], hit) <= 0) and e.get("url"):
+            r = probe(e["name"], e["url"])
+            if r["working"]:
+                w = r["working"][0]
+                cand = (w["ats"], w["token"], r.get("best_url") or e["url"])
+        new_n = irish_jobs(cand[0], cand[1], hit) if cand else -1
+        if cand and new_n > max(old_n, 0) and (cand[0], cand[1]) not in by_key:
+            keep = by_key[old_keys[0]] if old_keys else {}
+            for k in old_keys:
+                del by_key[k]
+            by_key[(cand[0], cand[1])] = {
+                **keep, **record(hit, cand[0], cand[1], cand[2], new_n, by_meta.get(hit, {})),
+                **{f: keep[f] for f in ("permits", "sponsor_tier", "sponsor_confidence",
+                                        "priority", "fit_rank", "sector", "entry_routes",
+                                        "research_note") if f in keep},
+            }
+            adopted.append((f"{hit} (fixed)", cand[0], cand[1], new_n))
+            print(f"  FIXED  {hit[:38]:<38} {max(old_n, 0)} -> {new_n} Irish jobs", flush=True)
+        else:
+            rejected.append((e["name"], f"already tracked as {hit} "
+                                        f"({max(old_n, 0)} Irish jobs; candidate {max(new_n, 0)})"))
 
     # 2. the register sweep
     from concurrent.futures import ThreadPoolExecutor, as_completed

@@ -255,19 +255,27 @@ def workday(token: str) -> list[dict]:
         f"/wday/cxs/{tenant}/{site}/jobs"
     )
 
-    # Two Ireland-narrowing search terms are tried before falling back to the
-    # unfiltered list. Large employers have thousands of jobs worldwide and we
-    # only ever want the Irish ones, so asking Workday to narrow it beats
-    # paging through Kuala Lumpur to find Dublin.
-    for search_text in ("Ireland", "Dublin", ""):
-        jobs = _workday_page(url, tenant, wd_num, site, search_text)
-        if jobs:
-            return jobs
-    return []
+    # Ireland-narrowing searches first, then the unfiltered list only if they
+    # all come back empty. Large employers have thousands of jobs worldwide and
+    # we only ever want the Irish ones.
+    #
+    # The searches are combined, not tried in turn. Aviva lists its Irish roles
+    # as "Dublin" and "Cork" with no "Ireland" in them, so the old first-hit
+    # rule stopped at the one advert that happened to say Ireland and never
+    # saw the rest.
+    seen: dict[str, dict] = {}
+    for search_text in ("Ireland", "Dublin", "Cork", "Galway", "Limerick"):
+        for job in _workday_page(url, tenant, wd_num, site, search_text,
+                                 describe=False):
+            seen.setdefault(job.get("externalPath") or job.get("title", ""), job)
+    jobs = list(seen.values()) or _workday_page(url, tenant, wd_num, site, "",
+                                                describe=False)
+    _workday_add_descriptions(jobs, tenant, wd_num, site, cap=200)
+    return jobs
 
 
 def _workday_page(url: str, tenant: str, wd_num: str, site: str,
-                  search_text: str) -> list[dict]:
+                  search_text: str, describe: bool = True) -> list[dict]:
     """
     Page through one Workday search.
 
@@ -308,7 +316,8 @@ def _workday_page(url: str, tenant: str, wd_num: str, site: str,
             break
         time.sleep(0.25)
 
-    _workday_add_descriptions(out, tenant, wd_num, site)
+    if describe:
+        _workday_add_descriptions(out, tenant, wd_num, site)
     return out
 
 

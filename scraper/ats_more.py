@@ -270,10 +270,18 @@ def hirehive(token: str) -> list[dict]:
 
 def eightfold(token: str) -> list[dict]:
     slug = token.replace("https://", "").strip("/").split("/")[0].split(".")[0]
-    url = (f"https://api.eightfold.ai/api/apply/v2/jobs"
-           f"?domain={slug}.com&start=0&num=100&sort_by=timestamp")
-    data = _get(url)
-    rows = (data or {}).get("positions") or []
+    rows = []
+    # The shared API host first, then the tenant's own: HSBC's board answers
+    # only on hsbc.eightfold.ai.
+    for base in ("https://api.eightfold.ai", f"https://{slug}.eightfold.ai"):
+        try:
+            data = _get(f"{base}/api/apply/v2/jobs"
+                        f"?domain={slug}.com&start=0&num=100&sort_by=timestamp")
+        except FetchError:
+            continue
+        rows = (data or {}).get("positions") or []
+        if rows:
+            break
     if not rows:
         raise FetchError("eightfold: empty")
     return [{
