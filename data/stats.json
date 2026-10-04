@@ -1,89 +1,24 @@
 {
- "last_run": "2026-10-04T00:20:17+00:00",
+ "last_run": "2026-10-04T05:55:09+00:00",
  "companies_total": 335,
- "companies_scanned": 188,
- "boards_failed": 14,
- "raw_postings": 16528,
- "relevant_jobs": 2714,
+ "companies_scanned": 173,
+ "boards_failed": 1,
+ "raw_postings": 16849,
+ "relevant_jobs": 2719,
  "min_score": 10,
- "new_this_run": 102,
+ "new_this_run": 104,
  "by_band": {
-  "excellent": 88,
+  "excellent": 89,
   "strong": 125,
   "decent": 166,
-  "stretch": 313,
-  "weak": 2022
+  "stretch": 315,
+  "weak": 2024
  },
  "top_errors": [
   {
-   "company": "PayPal Ireland",
+   "company": "Expleo Ireland",
    "ats": "joblinks",
-   "error": "found 1 job links but none were readable"
-  },
-  {
-   "company": "Capgemini Ireland",
-   "ats": "sitemap",
-   "error": "sitemap had 2110 URLs but none looked like jobs"
-  },
-  {
-   "company": "LTIMindtree Ireland",
-   "ats": "sitemap",
-   "error": "sitemap had 500 URLs but none looked like jobs"
-  },
-  {
-   "company": "SoftCo",
-   "ats": "hirehive",
-   "error": "hirehive: no feed"
-  },
-  {
-   "company": "Wrkit",
-   "ats": "recruitee",
-   "error": "board not found (404)"
-  },
-  {
-   "company": "Nostra",
-   "ats": "workable",
-   "error": "board not found (404)"
-  },
-  {
-   "company": "Payslip",
-   "ats": "lever",
-   "error": "board not found (404)"
-  },
-  {
-   "company": "Glofox",
-   "ats": "lever",
-   "error": "board not found (404)"
-  },
-  {
-   "company": "Soapbox Labs",
-   "ats": "lever",
-   "error": "board not found (404)"
-  },
-  {
-   "company": "Cubic Telecom",
-   "ats": "lever",
-   "error": "board not found (404)"
-  },
-  {
-   "company": "Revolut",
-   "ats": "greenhouse",
-   "error": "board not found (404)"
-  },
-  {
-   "company": "Tessian",
-   "ats": "ashby",
-   "error": "board not found (404)"
-  },
-  {
-   "company": "Ubiquity",
-   "ats": "ashby",
-   "error": "board not found (404)"
-  },
-  {
-   "company": "Energia Group",
-   "ats": "jsonld",
-   "error": "no JobPosting structured data on the page"
+   "error": "no individual job links found on the page"
   }
  ],
  "quarantined_feeds": [
