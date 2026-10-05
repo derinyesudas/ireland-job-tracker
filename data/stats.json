@@ -1,34 +1,99 @@
 {
- "last_run": "2026-10-05T06:30:59+00:00",
+ "last_run": "2026-10-05T15:12:29+00:00",
  "companies_total": 335,
- "companies_scanned": 174,
- "boards_failed": 3,
- "raw_postings": 15732,
- "relevant_jobs": 2726,
+ "companies_scanned": 187,
+ "boards_failed": 16,
+ "raw_postings": 16203,
+ "relevant_jobs": 2745,
  "min_score": 10,
- "new_this_run": 106,
+ "new_this_run": 129,
  "by_band": {
   "excellent": 89,
-  "strong": 126,
+  "strong": 128,
   "decent": 167,
-  "stretch": 315,
-  "weak": 2029
+  "stretch": 314,
+  "weak": 2047
  },
  "top_errors": [
+  {
+   "company": "PayPal Ireland",
+   "ats": "joblinks",
+   "error": "found 1 job links but none were readable"
+  },
   {
    "company": "Expleo Ireland",
    "ats": "joblinks",
    "error": "no individual job links found on the page"
   },
   {
-   "company": "Crawford & Company Ireland",
-   "ats": "joblinks",
-   "error": "found 1 job links but none were readable"
+   "company": "Capgemini Ireland",
+   "ats": "sitemap",
+   "error": "sitemap had 2110 URLs but none looked like jobs"
   },
   {
-   "company": "Mason Alexander",
+   "company": "LTIMindtree Ireland",
+   "ats": "sitemap",
+   "error": "sitemap had 500 URLs but none looked like jobs"
+  },
+  {
+   "company": "Kingspan",
    "ats": "sitemap",
    "error": "no sitemap found"
+  },
+  {
+   "company": "Fire Financial Services",
+   "ats": "hirehive",
+   "error": "hirehive: no feed"
+  },
+  {
+   "company": "SoftCo",
+   "ats": "hirehive",
+   "error": "hirehive: no feed"
+  },
+  {
+   "company": "Wrkit",
+   "ats": "recruitee",
+   "error": "board not found (404)"
+  },
+  {
+   "company": "Nostra",
+   "ats": "workable",
+   "error": "board not found (404)"
+  },
+  {
+   "company": "Glofox",
+   "ats": "lever",
+   "error": "board not found (404)"
+  },
+  {
+   "company": "Soapbox Labs",
+   "ats": "lever",
+   "error": "board not found (404)"
+  },
+  {
+   "company": "Cubic Telecom",
+   "ats": "lever",
+   "error": "board not found (404)"
+  },
+  {
+   "company": "Payslip",
+   "ats": "lever",
+   "error": "board not found (404)"
+  },
+  {
+   "company": "Revolut",
+   "ats": "greenhouse",
+   "error": "board not found (404)"
+  },
+  {
+   "company": "Tessian",
+   "ats": "ashby",
+   "error": "board not found (404)"
+  },
+  {
+   "company": "Ubiquity",
+   "ats": "ashby",
+   "error": "board not found (404)"
   }
  ],
  "quarantined_feeds": [
