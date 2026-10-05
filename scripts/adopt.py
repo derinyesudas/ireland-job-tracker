@@ -114,7 +114,7 @@ def already_tracked(name: str, existing: list[dict]) -> str | None:
     if not want:
         return None
     for c in existing:
-        have = _name_words(c.get("name", ""))
+        have = _name_words(c.get("name", "").split("(")[0])
         # ...and they must make up at least half of the tracked name, or
         # "Brown & Brown" would be Brown Brothers Harriman.
         if want <= have and len(want) * 2 >= len(have):
@@ -269,37 +269,47 @@ def main() -> int:
             else:
                 handed.append(e)
 
-    to_probe: list[dict] = []
-    for e in handed:
-        if e.get("ats") and e.get("token"):
-            why = adopt_one(e)
-            if why is None:
-                continue
-            if e.get("url"):
-                to_probe.append({**{k: v for k, v in e.items()
-                                    if k not in ("ats", "token")}, "_first": why})
-            else:
-                rejected.append((e["name"], why))
-        elif e.get("url"):
-            to_probe.append(e)
-        else:
-            rejected.append((e.get("name", "?"), "no ats/token and no url"))
+    # Each employer gets at most three tries: a named feed if one is known,
+    # then its careers pages in the order given. An address that refuses us
+    # (401/403/429) ends the attempt early - the next address on the same
+    # site will refuse us too, and three tries were never going to be enough.
+    MAX_TRIES = 3
+    BLOCKED = re.compile(r"\b(401|403|429)\b")
 
-    # The probing is the slow part and every candidate is independent, so the
-    # ones that need it are all probed at once before anything is verified.
-    if to_probe:
+    def resolve(e: dict) -> tuple:
+        tries: list[tuple] = []
+        if e.get("ats") and e.get("token"):
+            tries.append(("feed", e["ats"], e["token"], e.get("url", "")))
+        pages = e.get("urls") or ([e["url"]] if e.get("url") else [])
+        tries += [("page", u) for u in pages]
+        last = "nothing to try"
+        for n, t in enumerate(tries[:MAX_TRIES], 1):
+            if t[0] == "feed":
+                ok, note = try_reader(t[1], t[2])
+                if ok:
+                    return ("ok", t[1], t[2], t[3], n)
+                last = note
+            else:
+                r = probe(e["name"], t[1])
+                if r["working"]:
+                    w = r["working"][0]
+                    return ("ok", w["ats"], w["token"], r.get("best_url") or t[1], n)
+                last = r.get("note") or "no readable feed found"
+            if BLOCKED.search(str(last)):
+                return ("fail", f"{last} (stopped after try {n})")
+        return ("fail", f"{last} (after {min(len(tries), MAX_TRIES)} tries)")
+
+    if handed:
         from concurrent.futures import ThreadPoolExecutor as _TPE
-        print(f"\nfinding the feed behind {len(to_probe)} careers pages\n", flush=True)
+        print(f"\ntrying {len(handed)} employers, up to {MAX_TRIES} tries each\n", flush=True)
         with _TPE(max_workers=args.workers) as pool:
-            probed = list(pool.map(lambda e: probe(e["name"], e["url"]), to_probe))
-        for e, r in zip(to_probe, probed):
-            if not r["working"]:
-                rejected.append((e["name"], e.get("_first") or r.get("note")
-                                 or "no readable feed found"))
+            results = list(pool.map(resolve, handed))
+        for e, res in zip(handed, results):
+            if res[0] != "ok":
+                rejected.append((e.get("name", "?"), res[1]))
                 continue
-            w = r["working"][0]
-            why = adopt_one({**e, "ats": w["ats"], "token": w["token"],
-                             "url": r.get("best_url") or e["url"]})
+            _, ats, token, url, n = res
+            why = adopt_one({**e, "ats": ats, "token": token, "url": url})
             if why:
                 rejected.append((e["name"], why))
 

@@ -1,112 +1,488 @@
 [
  {
-  "name": "Goodbody Stockbrokers",
-  "drop": true
+  "name": "Deutsche Börse Group",
+  "urls": [
+   "https://careers.deutsche-boerse.com/",
+   "https://www.deutsche-boerse.com/dbg-en/careers"
+  ]
  },
  {
-  "name": "Dell Technologies",
-  "fix": true,
+  "name": "Fexco",
+  "urls": [
+   "https://www.fexco.com/careers/",
+   "https://careers.fexco.com/"
+  ]
+ },
+ {
+  "name": "Dun & Bradstreet",
+  "urls": [
+   "https://www.dnb.com/about-us/careers-and-people.html"
+  ],
   "ats": "workday",
-  "token": "dell|1|External",
-  "url": "https://dell.wd1.myworkdayjobs.com/External"
+  "token": "dnb|1|Careers"
  },
  {
-  "name": "IBM",
-  "fix": true,
-  "ats": "avature",
-  "token": "https://careers.ibm.com/en_US",
-  "url": "https://careers.ibm.com/en_US/careers/SearchJobs"
+  "name": "Sysco Ireland",
+  "urls": [
+   "https://careers.sysco.com/",
+   "https://www.sysco.ie/careers"
+  ]
  },
  {
-  "name": "HubSpot",
-  "fix": true,
+  "name": "SMBC Aviation Capital",
+  "urls": [
+   "https://www.smbc.aero/careers",
+   "https://www.smbc.aero/"
+  ]
+ },
+ {
+  "name": "S&W Ireland",
+  "urls": [
+   "https://www.swgroup.com/ie/careers",
+   "https://www.swgroup.com/careers"
+  ]
+ },
+ {
+  "name": "Baker Tilly Ireland",
+  "urls": [
+   "https://www.bakertilly.ie/careers/",
+   "https://www.bakertilly.ie/"
+  ]
+ },
+ {
+  "name": "AAB",
+  "urls": [
+   "https://www.aab.ie/careers",
+   "https://www.aab.uk/careers"
+  ]
+ },
+ {
+  "name": "O'Neill Foley",
+  "urls": [
+   "https://www.oneillfoley.ie/careers/",
+   "https://www.oneillfoley.ie/"
+  ]
+ },
+ {
+  "name": "PKF Brenson Lawlor",
+  "urls": [
+   "https://www.pkf-bl.com/careers/",
+   "https://www.pkf-bl.com/"
+  ]
+ },
+ {
+  "name": "ifac",
+  "urls": [
+   "https://www.ifac.ie/careers",
+   "https://www.ifac.ie/"
+  ]
+ },
+ {
+  "name": "FDC Group",
+  "urls": [
+   "https://www.fdc.ie/careers/",
+   "https://www.fdc.ie/"
+  ]
+ },
+ {
+  "name": "Chartered Accountants Ireland",
+  "urls": [
+   "https://www.charteredaccountants.ie/About-Us/Careers",
+   "https://www.charteredaccountants.ie/"
+  ]
+ },
+ {
+  "name": "Irish Tax Institute",
+  "urls": [
+   "https://www.taxinstitute.ie/about-us/careers/",
+   "https://www.taxinstitute.ie/"
+  ]
+ },
+ {
+  "name": "Positive Equity",
+  "urls": [
+   "https://www.positiveequity.ie/careers",
+   "https://positiveequity.com/careers"
+  ]
+ },
+ {
+  "name": "FMC Corporation",
+  "urls": [
+   "https://www.fmc.com/en/careers"
+  ]
+ },
+ {
+  "name": "Kinisla",
+  "urls": [
+   "https://www.kinisla.com/careers",
+   "https://www.kinisla.com/"
+  ]
+ },
+ {
+  "name": "Arthur Cox",
+  "urls": [
+   "https://www.arthurcox.com/careers/",
+   "https://www.arthurcox.com/"
+  ]
+ },
+ {
+  "name": "A&L Goodbody",
+  "urls": [
+   "https://www.algoodbody.com/careers",
+   "https://www.algoodbody.com/"
+  ]
+ },
+ {
+  "name": "Matheson",
+  "urls": [
+   "https://www.matheson.com/careers",
+   "https://www.matheson.com/"
+  ]
+ },
+ {
+  "name": "McCann FitzGerald",
+  "urls": [
+   "https://www.mccannfitzgerald.com/careers",
+   "https://www.mccannfitzgerald.com/"
+  ]
+ },
+ {
+  "name": "Fieldfisher Ireland",
+  "urls": [
+   "https://www.fieldfisher.com/en-ie/careers"
+  ]
+ },
+ {
+  "name": "RDJ",
+  "urls": [
+   "https://www.rdj.ie/careers",
+   "https://www.rdj.ie/"
+  ]
+ },
+ {
+  "name": "Logitech",
+  "urls": [
+   "https://www.logitech.com/en-ie/careers.html"
+  ],
+  "ats": "workday",
+  "token": "logitech|5|Logitech"
+ },
+ {
+  "name": "Infineon Technologies",
+  "urls": [
+   "https://jobs.infineon.com/careers"
+  ],
+  "ats": "eightfold",
+  "token": "infineon"
+ },
+ {
+  "name": "Analog Devices",
+  "urls": [
+   "https://www.analog.com/en/about-adi/careers.html"
+  ],
+  "ats": "workday",
+  "token": "analogdevices|1|External"
+ },
+ {
+  "name": "Cadence Design Systems",
+  "urls": [
+   "https://www.cadence.com/en_US/home/company/careers.html"
+  ],
+  "ats": "workday",
+  "token": "cadence|1|External_Careers"
+ },
+ {
+  "name": "onsemi",
+  "urls": [
+   "https://www.onsemi.com/careers"
+  ]
+ },
+ {
+  "name": "Cohesity",
+  "urls": [
+   "https://www.cohesity.com/company/careers/"
+  ],
   "ats": "greenhouse",
-  "token": "hubspotjobs",
-  "url": "https://boards.greenhouse.io/hubspotjobs"
+  "token": "cohesity"
  },
  {
-  "name": "PayPal",
-  "fix": true,
-  "ats": "eightfold",
-  "token": "paypal",
-  "url": "https://paypal.eightfold.ai/careers"
+  "name": "Keelvar",
+  "urls": [
+   "https://www.keelvar.com/careers"
+  ]
  },
  {
-  "name": "Zendesk",
-  "fix": true,
+  "name": "SolarWinds",
+  "urls": [
+   "https://www.solarwinds.com/company/careers"
+  ]
+ },
+ {
+  "name": "SOTI",
+  "urls": [
+   "https://soti.net/careers/"
+  ]
+ },
+ {
+  "name": "OpenText",
+  "urls": [
+   "https://careers.opentext.com/"
+  ]
+ },
+ {
+  "name": "Liebherr Ireland",
+  "urls": [
+   "https://www.liebherr.com/en/int/career/job-offers/job-offers.html"
+  ]
+ },
+ {
+  "name": "Regeneron",
+  "urls": [
+   "https://careers.regeneron.com/"
+  ],
   "ats": "workday",
-  "token": "zendesk|1|zendesk",
-  "url": "https://zendesk.wd1.myworkdayjobs.com/zendesk"
+  "token": "regeneron|1|Careers"
  },
  {
-  "name": "Kerry Group",
-  "fix": true,
-  "ats": "successfactors",
-  "token": "https://vacancies.kerry.com/search/?q=&locationsearch=Ireland",
-  "url": "https://vacancies.kerry.com/search/?q=&locationsearch=Ireland"
- },
- {
-  "name": "Boston Scientific",
-  "fix": true,
-  "ats": "successfactors",
-  "token": "https://jobs.bostonscientific.com/search/?q=&locationsearch=Ireland",
-  "url": "https://jobs.bostonscientific.com/search/?q=&locationsearch=Ireland"
- },
- {
-  "name": "AstraZeneca",
-  "fix": true,
+  "name": "Gilead Sciences",
+  "urls": [
+   "https://www.gilead.com/careers"
+  ],
   "ats": "workday",
-  "token": "astrazeneca|3|Careers",
-  "url": "https://astrazeneca.wd3.myworkdayjobs.com/Careers"
+  "token": "gilead|1|gileadcareers"
  },
  {
-  "name": "Bank of America",
-  "fix": true,
-  "url": "https://careers.bankofamerica.com/en-us/job-search/ireland"
+  "name": "Astellas",
+  "urls": [
+   "https://www.astellas.com/en/careers"
+  ]
  },
  {
-  "name": "Northern Trust",
-  "fix": true,
-  "url": "https://careers.northerntrust.com/jobs"
- },
- {
-  "name": "BNY",
-  "fix": true,
-  "ats": "eightfold",
-  "token": "bnymellon",
-  "url": "https://bnymellon.eightfold.ai/careers"
- },
- {
-  "name": "Concentrix",
-  "fix": true,
-  "url": "https://jobs.concentrix.com/job-search/?country=Ireland"
- },
- {
-  "name": "Aer Lingus",
-  "fix": true,
-  "url": "https://careers.aerlingus.com/"
- },
- {
-  "name": "Sigmar Recruitment",
-  "fix": true,
-  "url": "https://www.sigmarrecruitment.com/jobs"
- },
- {
-  "name": "Brown & Brown Ireland (O'Leary Insurances)",
+  "name": "Sanofi",
+  "urls": [
+   "https://www.sanofi.com/en/careers"
+  ],
   "ats": "workday",
-  "token": "bbinsurance|1|Careers_Europe",
-  "url": "https://bbinsurance.wd1.myworkdayjobs.com/Careers_Europe"
+  "token": "sanofi|3|SanofiCareers"
  },
  {
-  "name": "HSBC",
-  "ats": "eightfold",
-  "token": "hsbc",
-  "url": "https://hsbc.eightfold.ai/careers"
+  "name": "Merck Group",
+  "urls": [
+   "https://careers.merckgroup.com/"
+  ]
  },
  {
-  "name": "QBE Insurance",
-  "ats": "phenom",
-  "token": "careers.qbe.com",
-  "url": "https://careers.qbe.com/gb/en/search-results"
+  "name": "Eurofins Ireland",
+  "urls": [
+   "https://careers.eurofins.com/"
+  ]
+ },
+ {
+  "name": "SGS Ireland",
+  "urls": [
+   "https://www.sgs.com/en-ie/careers"
+  ]
+ },
+ {
+  "name": "MKO",
+  "urls": [
+   "https://www.mkoireland.ie/careers/"
+  ]
+ },
+ {
+  "name": "Sterling Pharma Solutions",
+  "urls": [
+   "https://www.sterlingpharmasolutions.com/careers/"
+  ]
+ },
+ {
+  "name": "NeoDyne",
+  "urls": [
+   "https://www.neodyne.ie/careers"
+  ]
+ },
+ {
+  "name": "Dairygold",
+  "urls": [
+   "https://www.dairygold.ie/careers/",
+   "https://www.dairygold.ie/"
+  ]
+ },
+ {
+  "name": "Lakeland Dairies",
+  "urls": [
+   "https://www.lakeland.ie/careers/",
+   "https://www.lakeland.ie/"
+  ]
+ },
+ {
+  "name": "Gi Group Ireland",
+  "urls": [
+   "https://www.gigroup.ie/jobs/",
+   "https://www.gigroup.ie/"
+  ]
+ },
+ {
+  "name": "Clarity Locums",
+  "urls": [
+   "https://www.claritylocums.com/jobs"
+  ]
+ },
+ {
+  "name": "Fehily Timoney",
+  "urls": [
+   "https://www.fehilytimoney.ie/careers/"
+  ]
+ },
+ {
+  "name": "AECOM",
+  "urls": [
+   "https://aecom.jobs/"
+  ]
+ },
+ {
+  "name": "Arup",
+  "urls": [
+   "https://www.arup.com/careers/"
+  ]
+ },
+ {
+  "name": "Stantec",
+  "urls": [
+   "https://www.stantec.com/en/careers"
+  ]
+ },
+ {
+  "name": "Mott MacDonald",
+  "urls": [
+   "https://www.mottmac.com/careers"
+  ]
+ },
+ {
+  "name": "Tetra Tech",
+  "urls": [
+   "https://www.tetratech.com/careers"
+  ]
+ },
+ {
+  "name": "BAM Ireland",
+  "urls": [
+   "https://www.bam.ie/careers"
+  ]
+ },
+ {
+  "name": "John Paul Construction",
+  "urls": [
+   "https://www.johnpaul.ie/careers"
+  ]
+ },
+ {
+  "name": "Ward & Burke",
+  "urls": [
+   "https://www.wardandburke.com/careers/"
+  ]
+ },
+ {
+  "name": "DBFL Consulting Engineers",
+  "urls": [
+   "https://www.dbfl.ie/careers/"
+  ]
+ },
+ {
+  "name": "OCSC",
+  "urls": [
+   "https://www.ocsc.ie/careers/"
+  ]
+ },
+ {
+  "name": "PUNCH Consulting Engineers",
+  "urls": [
+   "https://www.punchconsulting.com/careers"
+  ]
+ },
+ {
+  "name": "Cairn Homes",
+  "urls": [
+   "https://www.cairnhomes.com/careers/"
+  ]
+ },
+ {
+  "name": "Statkraft",
+  "urls": [
+   "https://www.statkraft.com/careers/"
+  ]
+ },
+ {
+  "name": "EirGrid",
+  "urls": [
+   "https://www.eirgrid.ie/careers",
+   "https://www.eirgridgroup.com/careers/"
+  ]
+ },
+ {
+  "name": "AirNav Ireland",
+  "urls": [
+   "https://www.airnav.ie/careers"
+  ]
+ },
+ {
+  "name": "H&MV Engineering",
+  "urls": [
+   "https://www.hmvengineering.com/careers/"
+  ]
+ },
+ {
+  "name": "Winthrop Technologies",
+  "urls": [
+   "https://www.winthrop.ie/careers/"
+  ]
+ },
+ {
+  "name": "tli Group",
+  "urls": [
+   "https://www.tligroup.ie/careers/"
+  ]
+ },
+ {
+  "name": "EPS Group",
+  "urls": [
+   "https://www.eps.ie/careers/"
+  ]
+ },
+ {
+  "name": "St John of God Community Services",
+  "urls": [
+   "https://www.sjog.ie/careers/"
+  ]
+ },
+ {
+  "name": "Talbot Group",
+  "urls": [
+   "https://www.talbotgroup.ie/careers/"
+  ]
+ },
+ {
+  "name": "Corlann",
+  "urls": [
+   "https://www.corlann.ie/careers/"
+  ]
+ },
+ {
+  "name": "Tigers Childcare",
+  "urls": [
+   "https://www.tigerschildcare.com/careers/"
+  ]
+ },
+ {
+  "name": "Depaul Ireland",
+  "urls": [
+   "https://ie.depaulcharity.org/jobs/"
+  ]
+ },
+ {
+  "name": "USIT",
+  "urls": [
+   "https://www.usit.ie/careers"
+  ]
  }
 ]
