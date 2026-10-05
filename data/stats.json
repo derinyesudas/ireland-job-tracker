@@ -1,18 +1,18 @@
 {
- "last_run": "2026-10-05T15:12:29+00:00",
+ "last_run": "2026-10-05T21:45:11+00:00",
  "companies_total": 335,
- "companies_scanned": 187,
- "boards_failed": 16,
- "raw_postings": 16203,
- "relevant_jobs": 2745,
+ "companies_scanned": 335,
+ "boards_failed": 27,
+ "raw_postings": 25938,
+ "relevant_jobs": 2787,
  "min_score": 10,
- "new_this_run": 129,
+ "new_this_run": 192,
  "by_band": {
-  "excellent": 89,
-  "strong": 128,
-  "decent": 167,
-  "stretch": 314,
-  "weak": 2047
+  "excellent": 90,
+  "strong": 130,
+  "decent": 171,
+  "stretch": 316,
+  "weak": 2080
  },
  "top_errors": [
   {
@@ -26,6 +26,41 @@
    "error": "no individual job links found on the page"
   },
   {
+   "company": "Crowe Ireland",
+   "ats": "joblinks",
+   "error": "HTTP Error 403: Forbidden"
+  },
+  {
+   "company": "Revolut Ireland",
+   "ats": "joblinks",
+   "error": "HTTP Error 403: Forbidden"
+  },
+  {
+   "company": "SAP Ireland",
+   "ats": "joblinks",
+   "error": "HTTP Error 404: Not Found"
+  },
+  {
+   "company": "ORIX Aviation",
+   "ats": "joblinks",
+   "error": "no individual job links found on the page"
+  },
+  {
+   "company": "South East Technological University (SETU)",
+   "ats": "joblinks",
+   "error": "HTTP Error 403: Forbidden"
+  },
+  {
+   "company": "NatWest Group (Ulster Bank)",
+   "ats": "joblinks",
+   "error": "HTTP Error 403: Forbidden"
+  },
+  {
+   "company": "TELUS Digital",
+   "ats": "joblinks",
+   "error": "HTTP Error 403: Forbidden"
+  },
+  {
    "company": "Capgemini Ireland",
    "ats": "sitemap",
    "error": "sitemap had 2110 URLs but none looked like jobs"
@@ -36,12 +71,27 @@
    "error": "sitemap had 500 URLs but none looked like jobs"
   },
   {
+   "company": "Global Payments Ireland",
+   "ats": "sitemap",
+   "error": "no sitemap found"
+  },
+  {
+   "company": "Revolut Ireland",
+   "ats": "sitemap",
+   "error": "no sitemap found"
+  },
+  {
    "company": "Kingspan",
    "ats": "sitemap",
    "error": "no sitemap found"
   },
   {
    "company": "Fire Financial Services",
+   "ats": "hirehive",
+   "error": "hirehive: no feed"
+  },
+  {
+   "company": "Fire.com",
    "ats": "hirehive",
    "error": "hirehive: no feed"
   },
@@ -61,7 +111,22 @@
    "error": "board not found (404)"
   },
   {
+   "company": "Revolut",
+   "ats": "greenhouse",
+   "error": "board not found (404)"
+  },
+  {
+   "company": "Energia Group",
+   "ats": "jsonld",
+   "error": "no JobPosting structured data on the page"
+  },
+  {
    "company": "Glofox",
+   "ats": "lever",
+   "error": "board not found (404)"
+  },
+  {
+   "company": "Payslip",
    "ats": "lever",
    "error": "board not found (404)"
   },
@@ -73,26 +138,6 @@
   {
    "company": "Cubic Telecom",
    "ats": "lever",
-   "error": "board not found (404)"
-  },
-  {
-   "company": "Payslip",
-   "ats": "lever",
-   "error": "board not found (404)"
-  },
-  {
-   "company": "Revolut",
-   "ats": "greenhouse",
-   "error": "board not found (404)"
-  },
-  {
-   "company": "Tessian",
-   "ats": "ashby",
-   "error": "board not found (404)"
-  },
-  {
-   "company": "Ubiquity",
-   "ats": "ashby",
    "error": "board not found (404)"
   }
  ],
