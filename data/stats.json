@@ -1,24 +1,29 @@
 {
- "last_run": "2026-10-07T10:37:52+00:00",
+ "last_run": "2026-10-07T17:43:44+00:00",
  "companies_total": 335,
- "companies_scanned": 173,
- "boards_failed": 2,
- "raw_postings": 16060,
- "relevant_jobs": 2854,
+ "companies_scanned": 172,
+ "boards_failed": 3,
+ "raw_postings": 16676,
+ "relevant_jobs": 2873,
  "min_score": 10,
- "new_this_run": 111,
+ "new_this_run": 129,
  "by_band": {
   "excellent": 92,
   "strong": 131,
-  "decent": 174,
-  "stretch": 322,
-  "weak": 2135
+  "decent": 178,
+  "stretch": 324,
+  "weak": 2148
  },
  "top_errors": [
   {
    "company": "Expleo Ireland",
    "ats": "joblinks",
-   "error": "no individual job links found on the page"
+   "error": "<urlopen error timed out>"
+  },
+  {
+   "company": "Fire.com",
+   "ats": "hirehive",
+   "error": "hirehive: no feed"
   },
   {
    "company": "HubSpot",
@@ -32,6 +37,7 @@
   "Energia Group",
   "Fire Financial Services",
   "Glofox",
+  "HubSpot",
   "Kingspan",
   "LTIMindtree Ireland",
   "Nostra",
