@@ -1,39 +1,24 @@
 {
- "last_run": "2026-10-07T03:29:43+00:00",
+ "last_run": "2026-10-07T10:37:52+00:00",
  "companies_total": 335,
- "companies_scanned": 172,
- "boards_failed": 5,
- "raw_postings": 16538,
- "relevant_jobs": 2838,
+ "companies_scanned": 173,
+ "boards_failed": 2,
+ "raw_postings": 16060,
+ "relevant_jobs": 2854,
  "min_score": 10,
- "new_this_run": 110,
+ "new_this_run": 111,
  "by_band": {
-  "excellent": 90,
+  "excellent": 92,
   "strong": 131,
-  "decent": 173,
-  "stretch": 320,
-  "weak": 2124
+  "decent": 174,
+  "stretch": 322,
+  "weak": 2135
  },
  "top_errors": [
   {
    "company": "Expleo Ireland",
    "ats": "joblinks",
    "error": "no individual job links found on the page"
-  },
-  {
-   "company": "Ergo",
-   "ats": "joblinks",
-   "error": "no individual job links found on the page"
-  },
-  {
-   "company": "Revolut Ireland",
-   "ats": "sitemap",
-   "error": "no sitemap found"
-  },
-  {
-   "company": "Fire.com",
-   "ats": "hirehive",
-   "error": "hirehive: no feed"
   },
   {
    "company": "HubSpot",
