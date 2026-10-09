@@ -402,8 +402,12 @@ function visible() {
     if (QUICK.has('dublin') && !/dublin/i.test(job.location || '')) return false;
 
     if (QUICK.has('grad')) {
+      // grad_text is worked out from the whole advert when the data is published,
+      // because the copy the page downloads keeps only the first 2,200 characters
       const t = (job.title + ' ' + (job.description || '')).toLowerCase();
-      if (!/graduate|intern|placement|trainee|entry.level|junior|early career|apprentice/.test(t)) return false;
+      const isGrad = job.grad_text !== undefined ? job.grad_text
+        : /graduate|intern|placement|trainee|entry.level|junior|early career|apprentice/.test(t);
+      if (!isGrad) return false;
     }
     if (QUICK.has('lang')) {
       const hasLang = (job.breakdown || []).some(b => b.label === 'Language edge');
@@ -790,14 +794,31 @@ function buildWorkbook(rows) {
   return wb;
 }
 
-function xlsxReady() {
-  if (typeof XLSX !== 'undefined') return true;
-  alert('The spreadsheet library did not load — check your connection and refresh.');
+// The spreadsheet library is 860 KB, so it loads the first time it is needed
+// rather than on every visit.
+let XLSX_LOADING = null;
+function loadXLSX() {
+  if (typeof XLSX !== 'undefined') return Promise.resolve(true);
+  if (!XLSX_LOADING) {
+    XLSX_LOADING = new Promise(resolve => {
+      const s = document.createElement('script');
+      s.src = 'vendor/xlsx.full.min.js';
+      s.onload = () => resolve(typeof XLSX !== 'undefined');
+      s.onerror = () => { XLSX_LOADING = null; resolve(false); };
+      document.head.appendChild(s);
+    });
+  }
+  return XLSX_LOADING;
+}
+
+async function xlsxReady() {
+  if (await loadXLSX()) return true;
+  alert('The spreadsheet library did not load — check your connection and try again.');
   return false;
 }
 
-function exportExcel() {
-  if (!xlsxReady()) return;
+async function exportExcel() {
+  if (!(await xlsxReady())) return;
   const rows = applicationRows();
   if (!rows.length) {
     alert('No applications logged yet. Mark a job as applied first.');
@@ -899,7 +920,7 @@ async function ensurePermission(handle, interactive) {
 }
 
 async function writeWorkbook(interactive = false) {
-  if (!SYNC_HANDLE || typeof XLSX === 'undefined') return false;
+  if (!SYNC_HANDLE || !(await loadXLSX())) return false;
   try {
     if (!(await ensurePermission(SYNC_HANDLE, interactive))) {
       setSyncLabel('Sync paused', false);
@@ -980,11 +1001,14 @@ async function init() {
 
   // Data
   try {
+    const fresh = DATA_KEY ? null
+      : await fetch('data/stats.json?t=' + Date.now()).then(r => r.json()).catch(() => ({}));
+    const version = encodeURIComponent((fresh && fresh.last_run) || Date.now());
     const [jobs, stats] = await Promise.all([
       DATA_KEY ? LOCK.openJSON('data/jobs.json.enc', DATA_KEY)
-               : fetch('data/jobs.json?t=' + Date.now()).then(r => r.json()),
+               : fetch('data/jobs.json?v=' + version).then(r => r.json()),
       DATA_KEY ? LOCK.openJSON('data/stats.json.enc', DATA_KEY).catch(() => ({}))
-               : fetch('data/stats.json?t=' + Date.now()).then(r => r.json()).catch(() => ({}))
+               : Promise.resolve(fresh)
     ]);
     JOBS = jobs; STATS = stats;
   } catch (err) {
