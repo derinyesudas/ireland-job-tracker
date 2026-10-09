@@ -107,8 +107,21 @@ jobs:
       - name: Stage the data the page reads
         run: |
           mkdir -p site/data
-          python3 -c "import json,pathlib; \
-            [pathlib.Path('site/data',n).write_text(json.dumps(json.load(open('data/'+n)),separators=(',',':')),encoding='utf-8') for n in ('jobs.json','stats.json')]"
+          # The page shows at most the first 2,200 characters of an advert, so that is all
+          # it downloads (about 1.8 MB instead of 4 MB). The graduate filter reads the whole
+          # advert, so its answer is worked out here first and shipped as grad_text.
+          # Keep this step the same as the one in pages.yml.
+          python3 - <<'PY'
+          import json, pathlib, re
+          grad = re.compile(r"graduate|intern|placement|trainee|entry[^\n\r\u2028\u2029]level|junior|early career|apprentice")
+          jobs = json.load(open("data/jobs.json"))
+          for j in jobs:
+              d = j.get("description") or ""
+              j["grad_text"] = bool(grad.search((j.get("title", "") + " " + d).lower()))
+              if d: j["description"] = d[:2200]
+          for name, data in (("jobs.json", jobs), ("stats.json", json.load(open("data/stats.json")))):
+              pathlib.Path("site/data", name).write_text(json.dumps(data, separators=(",", ":")), encoding="utf-8")
+          PY
           test -s site/data/jobs.json && test -s site/data/stats.json
           echo "staged $(python3 -c "import json;print(len(json.load(open('site/data/jobs.json'))))") jobs"
       # The board lock is OFF until the vault passphrase is recovered.
