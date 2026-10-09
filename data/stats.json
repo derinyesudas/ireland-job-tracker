@@ -1,104 +1,24 @@
 {
- "last_run": "2026-10-09T19:16:15+00:00",
+ "last_run": "2026-10-09T20:16:11+00:00",
  "companies_total": 335,
- "companies_scanned": 187,
- "boards_failed": 17,
- "raw_postings": 17589,
- "relevant_jobs": 3003,
+ "companies_scanned": 171,
+ "boards_failed": 1,
+ "raw_postings": 18410,
+ "relevant_jobs": 3005,
  "min_score": 10,
- "new_this_run": 129,
+ "new_this_run": 114,
  "by_band": {
   "excellent": 94,
   "strong": 138,
   "decent": 190,
-  "stretch": 333,
+  "stretch": 335,
   "weak": 2248
  },
  "top_errors": [
   {
-   "company": "PayPal Ireland",
-   "ats": "joblinks",
-   "error": "found 1 job links but none were readable"
-  },
-  {
    "company": "Expleo Ireland",
    "ats": "joblinks",
    "error": "no individual job links found on the page"
-  },
-  {
-   "company": "Capgemini Ireland",
-   "ats": "sitemap",
-   "error": "sitemap had 2119 URLs but none looked like jobs"
-  },
-  {
-   "company": "LTIMindtree Ireland",
-   "ats": "sitemap",
-   "error": "sitemap had 500 URLs but none looked like jobs"
-  },
-  {
-   "company": "Kingspan",
-   "ats": "sitemap",
-   "error": "no sitemap found"
-  },
-  {
-   "company": "Fire Financial Services",
-   "ats": "hirehive",
-   "error": "hirehive: no feed"
-  },
-  {
-   "company": "SoftCo",
-   "ats": "hirehive",
-   "error": "hirehive: no feed"
-  },
-  {
-   "company": "Wrkit",
-   "ats": "recruitee",
-   "error": "board not found (404)"
-  },
-  {
-   "company": "Nostra",
-   "ats": "workable",
-   "error": "board not found (404)"
-  },
-  {
-   "company": "Glofox",
-   "ats": "lever",
-   "error": "board not found (404)"
-  },
-  {
-   "company": "Soapbox Labs",
-   "ats": "lever",
-   "error": "board not found (404)"
-  },
-  {
-   "company": "Cubic Telecom",
-   "ats": "lever",
-   "error": "board not found (404)"
-  },
-  {
-   "company": "Payslip",
-   "ats": "lever",
-   "error": "board not found (404)"
-  },
-  {
-   "company": "Revolut",
-   "ats": "greenhouse",
-   "error": "board not found (404)"
-  },
-  {
-   "company": "HubSpot",
-   "ats": "greenhouse",
-   "error": "board not found (404)"
-  },
-  {
-   "company": "Tessian",
-   "ats": "ashby",
-   "error": "board not found (404)"
-  },
-  {
-   "company": "Ubiquity",
-   "ats": "ashby",
-   "error": "board not found (404)"
   }
  ],
  "quarantined_feeds": [
