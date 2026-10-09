@@ -1,20 +1,36 @@
 {
- "last_run": "2026-10-09T00:58:39+00:00",
+ "last_run": "2026-10-09T06:59:11+00:00",
  "companies_total": 335,
  "companies_scanned": 172,
- "boards_failed": 0,
- "raw_postings": 18463,
- "relevant_jobs": 2959,
+ "boards_failed": 3,
+ "raw_postings": 18347,
+ "relevant_jobs": 2967,
  "min_score": 10,
- "new_this_run": 119,
+ "new_this_run": 107,
  "by_band": {
   "excellent": 94,
-  "strong": 137,
-  "decent": 185,
+  "strong": 138,
+  "decent": 186,
   "stretch": 332,
-  "weak": 2211
+  "weak": 2217
  },
- "top_errors": [],
+ "top_errors": [
+  {
+   "company": "Musgrave Group",
+   "ats": "joblinks",
+   "error": "no individual job links found on the page"
+  },
+  {
+   "company": "Archer Recruitment",
+   "ats": "joblinks",
+   "error": "no individual job links found on the page"
+  },
+  {
+   "company": "Musgrave Group",
+   "ats": "rssfeed",
+   "error": "no readable job feed"
+  }
+ ],
  "quarantined_feeds": [
   "Capgemini Ireland",
   "Cubic Telecom",
