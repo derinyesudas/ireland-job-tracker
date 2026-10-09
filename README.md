@@ -15,7 +15,7 @@ Built with Claude: I designed it, researched the employers and wrote the rules; 
 | Employers watched | more than 300 |
 | Recruitment platforms it can read | 29 |
 | How often it checks | a few times a day |
-| Jobs on the board | around 660 open, each scored 0-100 |
+| Jobs on the board | nearly 1,000 open in October 2026, each scored 0-100 |
 | Employers verified as sponsors | 164, from the government's own register |
 | Running cost | nothing |
 
@@ -73,8 +73,8 @@ nothing at all. So I deleted it and kept the model I already had.
 Employment permit register  ─┐
 (gov.ie, updated monthly)    │
                              ├─►  companies.json ──► scraper ──► jobs.json ──► live site
-Curated graduate employers  ─┘    (who to watch,     (every 15    (scored,      (GitHub
-                                   and on which ATS)  minutes)     filtered)     Pages)
+Curated graduate employers  ─┘    (who to watch,     (a few times (scored,      (GitHub
+                                   and on which ATS)  a day)       filtered)     Pages)
 ```
 
 ### 1. Working out who to watch
@@ -131,11 +131,12 @@ or API key, and carry the job the moment it is published.
 
 ### 3. Knowing when to stop
 
-The tracker is capped at 290 employers, queued by how solid the sponsorship
+Automatic additions stop at 290 employers, queued by how solid the sponsorship
 evidence is and then how well the employer fits. The ones that never resolve are
 the long tail: rarely hiring, or behind a bot wall only a real browser gets
 through. Chasing them costs more than they return. Companies already tracked are
-never displaced by the cap.
+never displaced by the cap, and employers added another way are not limited by it,
+which is why the tracker now watches more than 300.
 
 ### 4. Filtering
 
@@ -222,7 +223,7 @@ unlimited Actions minutes, so the whole thing runs for nothing.
 
 ## The site
 
-- Full-text search across titles, companies and descriptions
+- Search by job title or company name, with title matches first
 - Filters for score, company, location, fit band and posting age
 - Quick filters: new today, graduate and internships, active sponsors, roles
   where my languages help, Dublin only
