@@ -1,18 +1,20 @@
 # Ireland Job Tracker
 
-A job board that watches 260 Irish employers' own career sites, scores every
+A job board that watches more than 300 Irish employers' own career sites, scores every
 graduate and junior role out of 100 against my CV, and flags the ones from
 employers who actually sponsor work permits.
 
 **Live: https://derinyesudas.github.io/ireland-job-tracker/**
 
+Built with Claude: I designed it, researched the employers and wrote the rules; Claude wrote the code.
+
 ![The tracker, showing scored jobs from employers on Ireland's permit register](docs/screenshot.png)
 
 | | |
 |---|---|
-| Employers watched | 264 |
+| Employers watched | more than 300 |
 | Recruitment platforms it can read | 29 |
-| How often it checks | every 15 minutes |
+| How often it checks | a few times a day |
 | Jobs on the board | around 660 open, each scored 0-100 |
 | Employers verified as sponsors | 164, from the government's own register |
 | Running cost | nothing |
@@ -27,7 +29,7 @@ buried by Wednesday. Aggregators are worse. They lag by days, repost the same
 job six times, and tell you nothing about whether a company will sponsor a
 permit.
 
-So I built something that reads the employers directly, every 15 minutes, and
+So I built something that reads the employers directly, a few times a day, and
 ranks what it finds against what I have actually done.
 
 ---
@@ -212,7 +214,7 @@ score you cannot trust.
 
 ### 6. Publishing
 
-GitHub Actions runs the scraper every 15 minutes, commits any change to the job
+GitHub Actions runs the scraper on a 15-minute schedule, commits any change to the job
 list, then publishes the site as its own second step. Public repositories get
 unlimited Actions minutes, so the whole thing runs for nothing.
 
@@ -327,8 +329,9 @@ publish job builds it before uploading the page.
 <details>
 <summary><b>Known limits and design trade-offs</b></summary>
 
-- GitHub schedules cron jobs on a best-effort basis, so "every 15 minutes" is in
-  practice "usually within 15 to 25". The Actions tab has a manual trigger.
+- GitHub schedules cron jobs on a best-effort basis: the 15-minute schedule runs
+  a few times a day in practice (gaps of several hours in October 2026), and each
+  run reads about half the employers in turn. The Actions tab has a manual trigger.
 - Every reader fetches the full advert, even where the listing endpoint returns
   only a teaser. One extra request per job, and worth it: a job scored on its
   title alone lands in roughly the wrong place.
