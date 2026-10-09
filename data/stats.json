@@ -1,34 +1,24 @@
 {
- "last_run": "2026-10-09T06:59:11+00:00",
+ "last_run": "2026-10-09T10:40:58+00:00",
  "companies_total": 335,
  "companies_scanned": 172,
- "boards_failed": 3,
- "raw_postings": 18347,
- "relevant_jobs": 2967,
+ "boards_failed": 1,
+ "raw_postings": 17349,
+ "relevant_jobs": 2975,
  "min_score": 10,
- "new_this_run": 107,
+ "new_this_run": 116,
  "by_band": {
   "excellent": 94,
   "strong": 138,
-  "decent": 186,
+  "decent": 187,
   "stretch": 332,
-  "weak": 2217
+  "weak": 2224
  },
  "top_errors": [
   {
-   "company": "Musgrave Group",
+   "company": "Expleo Ireland",
    "ats": "joblinks",
    "error": "no individual job links found on the page"
-  },
-  {
-   "company": "Archer Recruitment",
-   "ats": "joblinks",
-   "error": "no individual job links found on the page"
-  },
-  {
-   "company": "Musgrave Group",
-   "ats": "rssfeed",
-   "error": "no readable job feed"
   }
  ],
  "quarantined_feeds": [
