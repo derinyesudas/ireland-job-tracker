@@ -1,29 +1,24 @@
 {
- "last_run": "2026-10-10T08:51:55+00:00",
+ "last_run": "2026-10-10T14:55:04+00:00",
  "companies_total": 335,
  "companies_scanned": 172,
- "boards_failed": 2,
- "raw_postings": 16898,
- "relevant_jobs": 3016,
+ "boards_failed": 1,
+ "raw_postings": 18206,
+ "relevant_jobs": 3018,
  "min_score": 10,
- "new_this_run": 120,
+ "new_this_run": 123,
  "by_band": {
   "excellent": 95,
   "strong": 139,
   "decent": 191,
-  "stretch": 335,
-  "weak": 2256
+  "stretch": 336,
+  "weak": 2257
  },
  "top_errors": [
   {
    "company": "Expleo Ireland",
    "ats": "joblinks",
    "error": "no individual job links found on the page"
-  },
-  {
-   "company": "JPMorganChase Dublin",
-   "ats": "oraclecloud",
-   "error": "HTTP Error 503: Service Temporarily Unavailable"
   }
  ],
  "quarantined_feeds": [
