@@ -1,18 +1,18 @@
 {
- "last_run": "2026-10-11T21:31:15+00:00",
+ "last_run": "2026-10-11T22:19:54+00:00",
  "companies_total": 335,
- "companies_scanned": 335,
- "boards_failed": 26,
- "raw_postings": 26348,
- "relevant_jobs": 3053,
+ "companies_scanned": 188,
+ "boards_failed": 22,
+ "raw_postings": 16873,
+ "relevant_jobs": 3055,
  "min_score": 10,
- "new_this_run": 165,
+ "new_this_run": 110,
  "by_band": {
   "excellent": 99,
   "strong": 142,
   "decent": 195,
   "stretch": 337,
-  "weak": 2280
+  "weak": 2282
  },
  "top_errors": [
   {
@@ -26,14 +26,19 @@
    "error": "no individual job links found on the page"
   },
   {
-   "company": "SAP Ireland",
+   "company": "Crowe Ireland",
    "ats": "joblinks",
-   "error": "HTTP Error 404: Not Found"
+   "error": "HTTP Error 403: Forbidden"
   },
   {
-   "company": "ORIX Aviation",
+   "company": "Revolut Ireland",
    "ats": "joblinks",
-   "error": "no individual job links found on the page"
+   "error": "HTTP Error 403: Forbidden"
+  },
+  {
+   "company": "South East Technological University (SETU)",
+   "ats": "joblinks",
+   "error": "HTTP Error 403: Forbidden"
   },
   {
    "company": "Capgemini Ireland",
@@ -56,32 +61,12 @@
    "error": "no sitemap found"
   },
   {
-   "company": "Udemy Ireland",
-   "ats": "sitemap",
-   "error": "no sitemap found"
-  },
-  {
-   "company": "Kingspan",
-   "ats": "sitemap",
-   "error": "no sitemap found"
-  },
-  {
-   "company": "Bord Bia",
-   "ats": "sitemap",
-   "error": "no sitemap found"
+   "company": "SoftCo",
+   "ats": "hirehive",
+   "error": "hirehive: no feed"
   },
   {
    "company": "Fire Financial Services",
-   "ats": "hirehive",
-   "error": "hirehive: no feed"
-  },
-  {
-   "company": "Fire.com",
-   "ats": "hirehive",
-   "error": "hirehive: no feed"
-  },
-  {
-   "company": "SoftCo",
    "ats": "hirehive",
    "error": "hirehive: no feed"
   },
@@ -96,37 +81,7 @@
    "error": "board not found (404)"
   },
   {
-   "company": "HubSpot Ireland",
-   "ats": "greenhouse",
-   "error": "board not found (404)"
-  },
-  {
-   "company": "HubSpot",
-   "ats": "greenhouse",
-   "error": "board not found (404)"
-  },
-  {
-   "company": "Revolut",
-   "ats": "greenhouse",
-   "error": "board not found (404)"
-  },
-  {
-   "company": "Energia Group",
-   "ats": "jsonld",
-   "error": "no JobPosting structured data on the page"
-  },
-  {
    "company": "Soapbox Labs",
-   "ats": "lever",
-   "error": "board not found (404)"
-  },
-  {
-   "company": "Glofox",
-   "ats": "lever",
-   "error": "board not found (404)"
-  },
-  {
-   "company": "Payslip",
    "ats": "lever",
    "error": "board not found (404)"
   },
@@ -136,9 +91,39 @@
    "error": "board not found (404)"
   },
   {
+   "company": "Payslip",
+   "ats": "lever",
+   "error": "board not found (404)"
+  },
+  {
+   "company": "Glofox",
+   "ats": "lever",
+   "error": "board not found (404)"
+  },
+  {
+   "company": "Revolut",
+   "ats": "greenhouse",
+   "error": "board not found (404)"
+  },
+  {
+   "company": "HubSpot",
+   "ats": "greenhouse",
+   "error": "board not found (404)"
+  },
+  {
    "company": "Tessian",
    "ats": "ashby",
    "error": "board not found (404)"
+  },
+  {
+   "company": "Ubiquity",
+   "ats": "ashby",
+   "error": "board not found (404)"
+  },
+  {
+   "company": "Energia Group",
+   "ats": "jsonld",
+   "error": "no JobPosting structured data on the page"
   }
  ],
  "quarantined_feeds": [
