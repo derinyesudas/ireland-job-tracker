@@ -1,24 +1,144 @@
 {
- "last_run": "2026-10-11T18:37:17+00:00",
+ "last_run": "2026-10-11T21:31:15+00:00",
  "companies_total": 335,
- "companies_scanned": 172,
- "boards_failed": 1,
- "raw_postings": 16951,
- "relevant_jobs": 3037,
+ "companies_scanned": 335,
+ "boards_failed": 26,
+ "raw_postings": 26348,
+ "relevant_jobs": 3053,
  "min_score": 10,
- "new_this_run": 104,
+ "new_this_run": 165,
  "by_band": {
-  "excellent": 95,
-  "strong": 139,
-  "decent": 193,
+  "excellent": 99,
+  "strong": 142,
+  "decent": 195,
   "stretch": 337,
-  "weak": 2273
+  "weak": 2280
  },
  "top_errors": [
+  {
+   "company": "PayPal Ireland",
+   "ats": "joblinks",
+   "error": "found 1 job links but none were readable"
+  },
   {
    "company": "Expleo Ireland",
    "ats": "joblinks",
    "error": "no individual job links found on the page"
+  },
+  {
+   "company": "SAP Ireland",
+   "ats": "joblinks",
+   "error": "HTTP Error 404: Not Found"
+  },
+  {
+   "company": "ORIX Aviation",
+   "ats": "joblinks",
+   "error": "no individual job links found on the page"
+  },
+  {
+   "company": "Capgemini Ireland",
+   "ats": "sitemap",
+   "error": "sitemap had 2119 URLs but none looked like jobs"
+  },
+  {
+   "company": "LTIMindtree Ireland",
+   "ats": "sitemap",
+   "error": "sitemap had 500 URLs but none looked like jobs"
+  },
+  {
+   "company": "Global Payments Ireland",
+   "ats": "sitemap",
+   "error": "no sitemap found"
+  },
+  {
+   "company": "Revolut Ireland",
+   "ats": "sitemap",
+   "error": "no sitemap found"
+  },
+  {
+   "company": "Udemy Ireland",
+   "ats": "sitemap",
+   "error": "no sitemap found"
+  },
+  {
+   "company": "Kingspan",
+   "ats": "sitemap",
+   "error": "no sitemap found"
+  },
+  {
+   "company": "Bord Bia",
+   "ats": "sitemap",
+   "error": "no sitemap found"
+  },
+  {
+   "company": "Fire Financial Services",
+   "ats": "hirehive",
+   "error": "hirehive: no feed"
+  },
+  {
+   "company": "Fire.com",
+   "ats": "hirehive",
+   "error": "hirehive: no feed"
+  },
+  {
+   "company": "SoftCo",
+   "ats": "hirehive",
+   "error": "hirehive: no feed"
+  },
+  {
+   "company": "Wrkit",
+   "ats": "recruitee",
+   "error": "board not found (404)"
+  },
+  {
+   "company": "Nostra",
+   "ats": "workable",
+   "error": "board not found (404)"
+  },
+  {
+   "company": "HubSpot Ireland",
+   "ats": "greenhouse",
+   "error": "board not found (404)"
+  },
+  {
+   "company": "HubSpot",
+   "ats": "greenhouse",
+   "error": "board not found (404)"
+  },
+  {
+   "company": "Revolut",
+   "ats": "greenhouse",
+   "error": "board not found (404)"
+  },
+  {
+   "company": "Energia Group",
+   "ats": "jsonld",
+   "error": "no JobPosting structured data on the page"
+  },
+  {
+   "company": "Soapbox Labs",
+   "ats": "lever",
+   "error": "board not found (404)"
+  },
+  {
+   "company": "Glofox",
+   "ats": "lever",
+   "error": "board not found (404)"
+  },
+  {
+   "company": "Payslip",
+   "ats": "lever",
+   "error": "board not found (404)"
+  },
+  {
+   "company": "Cubic Telecom",
+   "ats": "lever",
+   "error": "board not found (404)"
+  },
+  {
+   "company": "Tessian",
+   "ats": "ashby",
+   "error": "board not found (404)"
   }
  ],
  "quarantined_feeds": [
@@ -26,6 +146,7 @@
   "Cubic Telecom",
   "Energia Group",
   "Fire Financial Services",
+  "Fire.com",
   "Glofox",
   "HubSpot",
   "Kingspan",
