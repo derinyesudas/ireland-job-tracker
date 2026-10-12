@@ -1,24 +1,29 @@
 {
- "last_run": "2026-10-12T07:42:22+00:00",
+ "last_run": "2026-10-12T17:12:19+00:00",
  "companies_total": 335,
- "companies_scanned": 171,
- "boards_failed": 1,
- "raw_postings": 19121,
- "relevant_jobs": 3064,
+ "companies_scanned": 172,
+ "boards_failed": 2,
+ "raw_postings": 16930,
+ "relevant_jobs": 3085,
  "min_score": 10,
- "new_this_run": 101,
+ "new_this_run": 123,
  "by_band": {
-  "excellent": 101,
-  "strong": 143,
-  "decent": 195,
-  "stretch": 337,
-  "weak": 2288
+  "excellent": 102,
+  "strong": 144,
+  "decent": 199,
+  "stretch": 336,
+  "weak": 2304
  },
  "top_errors": [
   {
    "company": "Expleo Ireland",
    "ats": "joblinks",
    "error": "no individual job links found on the page"
+  },
+  {
+   "company": "HubSpot Ireland",
+   "ats": "greenhouse",
+   "error": "board not found (404)"
   }
  ],
  "quarantined_feeds": [
