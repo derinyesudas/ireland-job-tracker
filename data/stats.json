@@ -1,18 +1,18 @@
 {
- "last_run": "2026-10-14T12:18:25+00:00",
+ "last_run": "2026-10-14T17:19:00+00:00",
  "companies_total": 335,
- "companies_scanned": 188,
- "boards_failed": 16,
- "raw_postings": 17797,
- "relevant_jobs": 3172,
+ "companies_scanned": 187,
+ "boards_failed": 15,
+ "raw_postings": 17601,
+ "relevant_jobs": 3191,
  "min_score": 10,
- "new_this_run": 116,
+ "new_this_run": 128,
  "by_band": {
   "excellent": 104,
-  "strong": 144,
+  "strong": 145,
   "decent": 204,
   "stretch": 344,
-  "weak": 2376
+  "weak": 2394
  },
  "top_errors": [
   {
@@ -21,9 +21,9 @@
    "error": "found 1 job links but none were readable"
   },
   {
-   "company": "Expleo Ireland",
-   "ats": "joblinks",
-   "error": "no individual job links found on the page"
+   "company": "Capgemini Ireland",
+   "ats": "sitemap",
+   "error": "sitemap had 2120 URLs but none looked like jobs"
   },
   {
    "company": "LTIMindtree Ireland",
@@ -31,9 +31,9 @@
    "error": "sitemap had 500 URLs but none looked like jobs"
   },
   {
-   "company": "Capgemini Ireland",
+   "company": "Kingspan",
    "ats": "sitemap",
-   "error": "sitemap had 2120 URLs but none looked like jobs"
+   "error": "no sitemap found"
   },
   {
    "company": "SoftCo",
@@ -51,17 +51,12 @@
    "error": "board not found (404)"
   },
   {
-   "company": "Soapbox Labs",
-   "ats": "lever",
-   "error": "board not found (404)"
-  },
-  {
    "company": "Payslip",
    "ats": "lever",
    "error": "board not found (404)"
   },
   {
-   "company": "Cubic Telecom",
+   "company": "Soapbox Labs",
    "ats": "lever",
    "error": "board not found (404)"
   },
@@ -71,12 +66,17 @@
    "error": "board not found (404)"
   },
   {
-   "company": "Revolut",
-   "ats": "greenhouse",
+   "company": "Cubic Telecom",
+   "ats": "lever",
    "error": "board not found (404)"
   },
   {
    "company": "HubSpot",
+   "ats": "greenhouse",
+   "error": "board not found (404)"
+  },
+  {
+   "company": "Revolut",
    "ats": "greenhouse",
    "error": "board not found (404)"
   },
@@ -89,11 +89,6 @@
    "company": "Ubiquity",
    "ats": "ashby",
    "error": "board not found (404)"
-  },
-  {
-   "company": "Energia Group",
-   "ats": "jsonld",
-   "error": "no JobPosting structured data on the page"
   }
  ],
  "quarantined_feeds": [
