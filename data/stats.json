@@ -1,59 +1,24 @@
 {
- "last_run": "2026-10-14T01:38:20+00:00",
+ "last_run": "2026-10-14T06:32:16+00:00",
  "companies_total": 335,
- "companies_scanned": 171,
- "boards_failed": 8,
- "raw_postings": 16726,
- "relevant_jobs": 3154,
+ "companies_scanned": 172,
+ "boards_failed": 1,
+ "raw_postings": 18096,
+ "relevant_jobs": 3160,
  "min_score": 10,
- "new_this_run": 99,
+ "new_this_run": 114,
  "by_band": {
   "excellent": 104,
   "strong": 144,
-  "decent": 202,
+  "decent": 203,
   "stretch": 343,
-  "weak": 2361
+  "weak": 2366
  },
  "top_errors": [
-  {
-   "company": "Irish Life Group",
-   "ats": "joblinks",
-   "error": "<urlopen error timed out>"
-  },
   {
    "company": "Expleo Ireland",
    "ats": "joblinks",
    "error": "no individual job links found on the page"
-  },
-  {
-   "company": "Kerry Group",
-   "ats": "joblinks",
-   "error": "<urlopen error timed out>"
-  },
-  {
-   "company": "TELUS Digital",
-   "ats": "joblinks",
-   "error": "HTTP Error 403: Forbidden"
-  },
-  {
-   "company": "PartnerRe",
-   "ats": "joblinks",
-   "error": "<urlopen error timed out>"
-  },
-  {
-   "company": "Canada Life Group Services (Irish Life Group)",
-   "ats": "sitemap",
-   "error": "no sitemap found"
-  },
-  {
-   "company": "Vistra Ireland",
-   "ats": "sitemap",
-   "error": "no sitemap found"
-  },
-  {
-   "company": "West Pharmaceutical Services Ireland",
-   "ats": "sitemap",
-   "error": "no sitemap found"
   }
  ],
  "quarantined_feeds": [
