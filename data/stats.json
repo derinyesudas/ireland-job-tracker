@@ -1,20 +1,26 @@
 {
- "last_run": "2026-10-15T12:00:25+00:00",
+ "last_run": "2026-10-15T16:08:58+00:00",
  "companies_total": 335,
  "companies_scanned": 172,
- "boards_failed": 0,
- "raw_postings": 18688,
- "relevant_jobs": 3258,
+ "boards_failed": 1,
+ "raw_postings": 18725,
+ "relevant_jobs": 3274,
  "min_score": 10,
- "new_this_run": 146,
+ "new_this_run": 139,
  "by_band": {
   "excellent": 107,
   "strong": 147,
   "decent": 203,
-  "stretch": 355,
-  "weak": 2446
+  "stretch": 357,
+  "weak": 2460
  },
- "top_errors": [],
+ "top_errors": [
+  {
+   "company": "Expleo Ireland",
+   "ats": "joblinks",
+   "error": "no individual job links found on the page"
+  }
+ ],
  "quarantined_feeds": [
   "Capgemini Ireland",
   "Cubic Telecom",
