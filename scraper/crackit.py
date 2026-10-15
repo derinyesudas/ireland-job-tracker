@@ -45,8 +45,7 @@ FAMILIES: list[tuple[str, re.Pattern]] = [(label, re.compile(pat, re.I)) for lab
      r"reconciliation\w*|settlements?|trade\s+(support|operations|processing|settlement|"
      r"capture)|middle\s+office|back\s+office|income\s+processing|cash\s+(management|"
      r"operations)|markets?\s+operations|pricing\s+analyst|valuations?\s+analyst|"
-     r"investment\s+(operations|support|administrat\w+)|alternative\s+investment|"
-     r"wealth\s+operations|transaction\s+(analyst|processor|associate|administrator)|"
+     r"transaction\s+(analyst|processor|associate|administrator)|"
      r"private\s+(equity|markets)\s+(associate|analyst|administrator))\b"),
     ("Payments",
      r"\b(payments?\s+(analyst|operations|associate|specialist|officer|executive|assistant|"
@@ -75,7 +74,7 @@ FAMILIES: list[tuple[str, re.Pattern]] = [(label, re.compile(pat, re.I)) for lab
      r"\b((business|data|bi|mi|reporting|insights?|process|supply\s+chain|planning|"
      r"commercial|sales\s+op\w*|revenue\s+op\w*|product\s+op\w*|pricing|research|"
      r"performance|financial|finance|credit|risk|compliance|regulatory|audit|technology|"
-     r"consulting|investment|portfolio|controls?|quality|workforce|real[\s-]time|"
+     r"consulting|controls?|quality|workforce|real[\s-]time|"
      r"capacity|governance|client|customer|operational|junior|associate)\s+analyst|"
      r"analyst\s*[,(\-–]\s*\w+|^analyst$|audit\s+associate|assurance\s+associate|"
      r"risk\s+associate|consulting\s+(analyst|associate)|advisory\s+associate)\b"),
@@ -88,7 +87,7 @@ FAMILIES: list[tuple[str, re.Pattern]] = [(label, re.compile(pat, re.I)) for lab
      r"assistant|executive)|credit\s+control\w*|billing\s+(specialist|associate|analyst|"
      r"administrator|executive)|bookkeep\w+|purchase\s+ledger|sales\s+ledger|"
      r"procurement\s+(assistant|administrator|analyst|associate|executive)|"
-     r"purchasing\s+(assistant|administrator)|tax\s+assistant|payroll\s+(administrator|"
+     r"purchasing\s+(assistant|administrator)|payroll\s+(administrator|"
      r"assistant|associate|executive|specialist|officer|analyst))\b"),
     ("Customer operations",
      r"\b(customer\s+(service|support|care|operations|experience|engagement|success|contact|"
@@ -149,43 +148,16 @@ YEARS_PLAIN = re.compile(
 
 
 def years_asked(job: dict) -> tuple[int | None, str]:
-    """The lowest number of years the advert demands, with the sentence."""
-    desc = job.get("description") or ""
-    best: tuple[int, str] | None = None
-    for rx in (E.YEARS, YEARS_PLAIN):
-        for m in rx.finditer(desc):
-            g = [x for x in m.groups() if x and x.isdigit()]
-            if not g:
-                continue
-            n = int(g[0])
-            if not 1 <= n <= 15:
-                continue
-            w = E._sentence(desc, m.start(), m.end())
-            if E.YEARS_DURATION.search(w):
-                continue
-            # "Senior Customer Service Representatives will have at least 2
-            # years" sits in the same advert as the entry-level grade it
-            # does not apply to.
-            if re.search(r"\b(senior|experienced|team\s+lead\w*)\b",
-                         desc[max(0, m.start() - 90):m.start()], re.I):
-                continue
-            if best is None or n < best[0]:
-                best = (n, w)
-    return (best[0], best[1]) if best else (None, "")
+    """The lowest number of years the advert demands, with the sentence.
+    The same reader the eligibility gate uses, so the two never disagree."""
+    hit = E.years_required(E._clean(job.get("description") or ""))
+    return hit if hit else (None, "")
 
 
-# An internship is for students unless the advert says otherwise. She has
-# graduated, and asked for the ones that need you to still be enrolled to stay
-# hidden - so an internship has to show it is open to graduates to get in.
-STUDENT_TITLE = re.compile(
-    r"\b(intern|internship|co[\s-]?op|placement|summer\s+(analyst|associate|"
-    r"intern\w*)|off[\s-]cycle|spring\s+(week|insight)|insight\s+(day|week|"
-    r"programme))\b", re.I)
-OPEN_TO_GRADUATES = re.compile(
-    r"\b(recent(ly)?\s+graduat\w+|(have|has)\s+(recently\s+)?graduated|"
-    r"graduated\s+(in|within|from)|completed\s+(your|a|their)\s+(degree|studies)|"
-    r"graduate\s+internship|open\s+to\s+(recent\s+)?graduates|"
-    r"graduates?\s+(are\s+)?(welcome|eligible))\b", re.I)
+# An internship is for students unless the advert says otherwise - the same
+# rule the eligibility gate applies, shared rather than copied.
+STUDENT_TITLE = E.STUDENT_TITLE
+OPEN_TO_GRADUATES = E.OPEN_TO_GRADUATES
 
 # Careers-site pages that are not a vacancy.
 NOT_A_JOB = re.compile(

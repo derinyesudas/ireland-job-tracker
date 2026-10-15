@@ -89,7 +89,67 @@ TITLE_ABROAD = re.compile(
     r"|mexico|colombia|medell[ií]n|monterrey|bogot[aá]|cartagena|tegucigalpa|honduras|"
     r"brazil|argentina|chile|peru|costa\s+rica|guatemala|messico|isle\s+of\s+man|"
     r"jersey|guernsey|"
+    # Found on the board in October 2026 with no location: "Business Analyst
+    # Austria", "Risk Analytics, Northampton", "Business Development Graduate
+    # (Heathrow)". Britain and the Continent by city, the rest by country.
+    r"northampton|heathrow|gatwick|stansted|glasgow|edinburgh|aberdeen|dundee|birmingham|leeds|"
+    r"bristol|liverpool|newcastle|sheffield|nottingham|leicester|cardiff|swansea|milton\s+keynes|"
+    r"brighton|southampton|portsmouth|coventry|swindon|peterborough|luton|croydon|slough|watford|"
+    r"norwich|ipswich|plymouth|exeter|bournemouth|chelmsford|basingstoke|guildford|maidstone|"
+    r"crawley|telford|wolverhampton|sunderland|warrington|stockport|doncaster|bradford|"
+    r"huddersfield|wakefield|harrogate|austria|vienna|luxembourg|malta|cyprus|gibraltar|monaco|"
+    r"italy|milan|rome|greece|athens|czech\s+republic|czechia|prague|brno|slovakia|bratislava|"
+    r"bulgaria|croatia|zagreb|serbia|belgrade|ukraine|kyiv|lithuania|vilnius|latvia|riga|"
+    r"estonia|tallinn|denmark|copenhagen|sweden|stockholm|norway|oslo|finland|helsinki|iceland|"
+    r"frankfurt|munich|hamburg|d[uü]sseldorf|cologne|stuttgart|paris|lyon|marseille|brussels|"
+    r"antwerp|rotterdam|the\s+hague|eindhoven|zurich|z[uü]rich|geneva|basel|porto|barcelona|"
+    r"valencia|seville|bucharest|cluj|timisoara|iasi|wroclaw|gdansk|lodz|katowice|poznan|"
+    r"istanbul|dubai|abu\s+dhabi|riyadh|doha|qatar|saudi\s+arabia|united\s+arab\s+emirates|uae|"
+    r"egypt|cairo|morocco|kenya|nairobi|nigeria|lagos|ghana|johannesburg|cape\s+town|"
+    r"china|shanghai|beijing|shenzhen|hong\s+kong|taiwan|taipei|japan|tokyo|korea|seoul|"
+    r"vietnam|thailand|bangkok|indonesia|jakarta|kuala\s+lumpur|pakistan|bangladesh|sri\s+lanka|"
+    r"pune|chennai|hyderabad|noida|gurgaon|gurugram|kolkata|delhi|quezon|makati|taguig|cebu|"
+    r"sydney|melbourne|brisbane|auckland|toronto|montreal|vancouver|new\s+york|chicago|"
+    r"atlanta|dallas|houston|denver|seattle|san\s+francisco|los\s+angeles|miami|"
+    r"guadalajara|s[aã]o\s+paulo|buenos\s+aires|santiago|lima|uruguay|montevideo|"
     r"en[\s-]us|en[\s-]gb)\b", re.I)
+
+# A URL or the advert's own "Location" field often says where a job is when
+# the location field does not: Wipro's ".../job/Quezon-City-Real-Time-Analyst-
+# (PS)-PHL/1367061055/", Cognizant's "Location Guadalajara,JA-Aviacion /
+# Mexico". Read only when the job states no location, and never when the same
+# text names somewhere in Ireland.
+_ISO3_ABROAD = re.compile(
+    r"-(phl|ind|pol|usa|gbr|rou|mex|bra|deu|fra|esp|ita|nld|bel|che|aut|hun|cze|svk|bgr|grc|tur|"
+    r"egy|zaf|arg|chl|col|aus|nzl|sgp|mys|chn|jpn|kor|tha|vnm|idn|lka|pak|bgd|sau|qat|isr|prt|"
+    r"swe|nor|dnk|fin|ukr|srb|hrv|can|ltu|lva|est|lux|mlt|cyp)(?:-[0-9a-z]{1,8}){0,3}/\d{6,}", re.I)
+_LOCALE_SEGMENT = re.compile(r"/[a-z]{2}[-_][a-z]{2}(?=/)", re.I)
+_LOCATION_FIELD = re.compile(r"\blocation\b\s*[:\-–]?\s*([^•|]{2,70})", re.I)
+
+
+def _says_abroad(text: str) -> bool:
+    low = text.lower()
+    return bool(TITLE_ABROAD.search(low)) and not any(p in low for p in IRISH_PLACES)
+
+
+def _url_abroad(url: str) -> bool:
+    import urllib.parse
+    path = urllib.parse.unquote(urllib.parse.urlparse(url or "").path or "")
+    path = _LOCALE_SEGMENT.sub("/", path)
+    if any(p in path.lower() for p in IRISH_PLACES) or "-irl/" in path.lower():
+        return False
+    if _ISO3_ABROAD.search(path):
+        return True
+    # "-en-us.html" on a slug is the language of the page, not a place.
+    words = re.sub(r"[-_/+.]+", " ", path)
+    words = re.sub(r"\ben\s+(us|gb)\b", " ", words, flags=re.I)
+    return _says_abroad(words)
+
+
+def _description_abroad(desc: str) -> bool:
+    head = re.sub(r"<[^>]+>", " ", desc or "")[:1500]
+    m = _LOCATION_FIELD.search(head)
+    return bool(m) and _says_abroad(m.group(1))
 
 # Northern Ireland is the United Kingdom. A Republic of Ireland work permit
 # does not cover it, so "Northern Ireland, Ireland" is not an Irish job here.
@@ -111,7 +171,8 @@ def clearly_not_ireland(job: dict) -> bool:
             p in loc for p in IRISH_PLACES if "ireland" not in p and p != "eire"):
         return True
     if not loc:
-        return bool(TITLE_ABROAD.search(title))
+        return (bool(TITLE_ABROAD.search(title)) or _url_abroad(job.get("url") or "")
+                or _description_abroad(job.get("description") or ""))
     # A stated location abroad with nowhere Irish in it. "Administrative
     # Assistant - Ireland" based in Lisbon supports Ireland from Portugal.
     return bool(TITLE_ABROAD.search(loc)) and not any(p in loc for p in IRISH_PLACES)

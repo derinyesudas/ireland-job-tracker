@@ -390,8 +390,40 @@ _STOPWORDS = {"the", "and", "with", "for", "you", "your", "our", "we", "to", "of
               "a", "is", "are", "it", "that", "have", "has", "in", "on", "at"}
 
 
+# More pages that are not a vacancy, found on the board in October 2026:
+# agency category pages ("Business Support Jobs in Ireland", "Jobs In Finance
+# Archives", "Find Personal & Executive Assistant Jobs Near You Ireland"),
+# careers-site sections ("Early Careers at Pfizer in Ireland", "Office
+# Locations", Novo Nordisk's "Global Finance"), an insurer's product pages
+# ("Public Liability Insurance"), news ("Dawn Meats and Alliance Group
+# complete transaction"), a law firm's article and a blog post of career tips.
+# A vacancy title names a role; none of these do.
+_ROLE_WORD = (r"administrator|admin|advis[eo]r|executive|handler|analyst|officer|associate|assistant|"
+              r"manager|specialist|underwriter|consultant|agent|representative|clerk|coordinator|"
+              r"co-ordinator|technician|graduate|trainee|intern|lead|head|director|support|"
+              r"processor|adjuster|assessor|broker|controller|partner|engineer|developer")
+_NOT_A_VACANCY_RE = re.compile(
+    r"^(?:"
+    r".+\s+jobs|.*\bjobs\s+(?:in|near|at|archives?)\b.*|find\s+.*\bjobs?\b.*|"
+    r"(?:our\s+)?office\s+locations?|locations?|"
+    r".*\bcareers?\s+fairs?\b.*|.*\bopen\s+(?:day|evening)s?\b.*|"
+    rf"(?!.*\b(?:{_ROLE_WORD})s?\b).*\b(?:tips|advice|veteran|lessons\s+from|how\s+to)\b.*|"
+    r"early\s+careers?(?:\s+(?:programmes?|programs?|opportunities|at\s+.*|in\s+.*))?|"
+    r"(?:global\s+|internal\s+|international\s+|internation\s+)?(?:operations|procurement|"
+    r"supply\s+chain|finance|commercial\s+business|logistics\s+supply\s+chain|"
+    r"procurement\s+and\s+supply\s+chain|operations\s+finance|customer\s+experience)|"
+    rf"(?!.*\b(?:{_ROLE_WORD})s?\b)(?:[\w&'’-]+\s+){{0,5}}insurance|"
+    r".*[“”].*|"
+    rf"(?=(?:\S+\s+){{5,}}\S)(?!.*\b(?:{_ROLE_WORD})s?\b)(?=.*\b(?:completes?|completed|hosts?|hosted|"
+    r"announces?|announced|launch(?:es|ed)|acquires?|acquired|celebrates?|celebrated|unveils?|"
+    r"unveiled|appoints?|appointed|signs|signed|secures|secured)\b).*"
+    r")$", re.I)
+
+
 def _looks_like_a_title(text: str) -> bool:
     if not text or _JUNK_TITLE_RE.match(text.strip()):
+        return False
+    if _NOT_A_VACANCY_RE.match(" ".join(text.split())):
         return False
     words = text.split()
     if len(words) > 12:
