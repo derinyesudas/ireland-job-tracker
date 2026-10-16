@@ -1,18 +1,18 @@
 {
- "last_run": "2026-10-16T14:25:49+00:00",
+ "last_run": "2026-10-16T18:14:11+00:00",
  "companies_total": 335,
  "companies_scanned": 188,
- "boards_failed": 16,
- "raw_postings": 18308,
- "relevant_jobs": 2124,
+ "boards_failed": 17,
+ "raw_postings": 18331,
+ "relevant_jobs": 2131,
  "min_score": 10,
- "new_this_run": 119,
+ "new_this_run": 114,
  "by_band": {
   "excellent": 100,
   "strong": 115,
   "decent": 141,
   "stretch": 239,
-  "weak": 1529
+  "weak": 1536
  },
  "top_errors": [
   {
@@ -24,6 +24,11 @@
    "company": "Expleo Ireland",
    "ats": "joblinks",
    "error": "no individual job links found on the page"
+  },
+  {
+   "company": "Dell Technologies Ireland",
+   "ats": "joblinks",
+   "error": "HTTP Error 502: Bad Gateway"
   },
   {
    "company": "Capgemini Ireland",
@@ -51,6 +56,11 @@
    "error": "board not found (404)"
   },
   {
+   "company": "Cubic Telecom",
+   "ats": "lever",
+   "error": "board not found (404)"
+  },
+  {
    "company": "Payslip",
    "ats": "lever",
    "error": "board not found (404)"
@@ -62,11 +72,6 @@
   },
   {
    "company": "Glofox",
-   "ats": "lever",
-   "error": "board not found (404)"
-  },
-  {
-   "company": "Cubic Telecom",
    "ats": "lever",
    "error": "board not found (404)"
   },
