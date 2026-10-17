@@ -1,12 +1,12 @@
 {
- "last_run": "2026-10-17T06:18:44+00:00",
+ "last_run": "2026-10-17T10:49:57+00:00",
  "companies_total": 335,
- "companies_scanned": 188,
- "boards_failed": 19,
- "raw_postings": 11765,
+ "companies_scanned": 173,
+ "boards_failed": 2,
+ "raw_postings": 18310,
  "relevant_jobs": 2097,
  "min_score": 10,
- "new_this_run": 83,
+ "new_this_run": 100,
  "by_band": {
   "excellent": 98,
   "strong": 114,
@@ -16,11 +16,6 @@
  },
  "top_errors": [
   {
-   "company": "PayPal Ireland",
-   "ats": "joblinks",
-   "error": "found 1 job links but none were readable"
-  },
-  {
    "company": "Expleo Ireland",
    "ats": "joblinks",
    "error": "no individual job links found on the page"
@@ -29,91 +24,12 @@
    "company": "Dell Technologies Ireland",
    "ats": "joblinks",
    "error": "HTTP Error 502: Bad Gateway"
-  },
-  {
-   "company": "Osborne Recruitment",
-   "ats": "joblinks",
-   "error": "<urlopen error timed out>"
-  },
-  {
-   "company": "Deloitte Ireland",
-   "ats": "sitemap",
-   "error": "no sitemap found"
-  },
-  {
-   "company": "Capgemini Ireland",
-   "ats": "sitemap",
-   "error": "sitemap had 2120 URLs but none looked like jobs"
-  },
-  {
-   "company": "LTIMindtree Ireland",
-   "ats": "sitemap",
-   "error": "sitemap had 500 URLs but none looked like jobs"
-  },
-  {
-   "company": "SoftCo",
-   "ats": "hirehive",
-   "error": "hirehive: no feed"
-  },
-  {
-   "company": "Wrkit",
-   "ats": "recruitee",
-   "error": "board not found (404)"
-  },
-  {
-   "company": "Nostra",
-   "ats": "workable",
-   "error": "board not found (404)"
-  },
-  {
-   "company": "Soapbox Labs",
-   "ats": "lever",
-   "error": "board not found (404)"
-  },
-  {
-   "company": "Glofox",
-   "ats": "lever",
-   "error": "board not found (404)"
-  },
-  {
-   "company": "Payslip",
-   "ats": "lever",
-   "error": "board not found (404)"
-  },
-  {
-   "company": "Cubic Telecom",
-   "ats": "lever",
-   "error": "board not found (404)"
-  },
-  {
-   "company": "HubSpot",
-   "ats": "greenhouse",
-   "error": "board not found (404)"
-  },
-  {
-   "company": "Revolut",
-   "ats": "greenhouse",
-   "error": "board not found (404)"
-  },
-  {
-   "company": "Tessian",
-   "ats": "ashby",
-   "error": "board not found (404)"
-  },
-  {
-   "company": "Ubiquity",
-   "ats": "ashby",
-   "error": "board not found (404)"
-  },
-  {
-   "company": "Energia Group",
-   "ats": "jsonld",
-   "error": "no JobPosting structured data on the page"
   }
  ],
  "quarantined_feeds": [
   "Capgemini Ireland",
   "Cubic Telecom",
+  "Dell Technologies Ireland",
   "Energia Group",
   "Glofox",
   "HubSpot",
