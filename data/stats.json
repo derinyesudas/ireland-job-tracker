@@ -1,18 +1,18 @@
 {
- "last_run": "2026-10-17T16:57:43+00:00",
+ "last_run": "2026-10-17T18:58:20+00:00",
  "companies_total": 335,
  "companies_scanned": 172,
- "boards_failed": 2,
- "raw_postings": 18469,
- "relevant_jobs": 2103,
+ "boards_failed": 3,
+ "raw_postings": 17175,
+ "relevant_jobs": 2098,
  "min_score": 10,
- "new_this_run": 100,
+ "new_this_run": 83,
  "by_band": {
   "excellent": 100,
   "strong": 113,
   "decent": 139,
   "stretch": 236,
-  "weak": 1515
+  "weak": 1510
  },
  "top_errors": [
   {
@@ -21,9 +21,14 @@
    "error": "no individual job links found on the page"
   },
   {
-   "company": "Revolut Ireland",
-   "ats": "joblinks",
-   "error": "HTTP Error 403: Forbidden"
+   "company": "Expleo Ireland",
+   "ats": "sitemap",
+   "error": "no sitemap found"
+  },
+  {
+   "company": "HubSpot Ireland",
+   "ats": "greenhouse",
+   "error": "board not found (404)"
   }
  ],
  "quarantined_feeds": [
@@ -33,6 +38,7 @@
   "Energia Group",
   "Glofox",
   "HubSpot",
+  "HubSpot Ireland",
   "Kingspan",
   "LTIMindtree Ireland",
   "Nostra",
