@@ -1,26 +1,101 @@
 {
- "last_run": "2026-10-18T17:01:38+00:00",
+ "last_run": "2026-10-18T19:11:21+00:00",
  "companies_total": 366,
- "companies_scanned": 173,
- "boards_failed": 0,
- "raw_postings": 17419,
- "relevant_jobs": 2115,
+ "companies_scanned": 191,
+ "boards_failed": 15,
+ "raw_postings": 17530,
+ "relevant_jobs": 2118,
  "min_score": 10,
- "new_this_run": 98,
+ "new_this_run": 93,
  "by_band": {
   "excellent": 99,
-  "strong": 114,
-  "decent": 142,
-  "stretch": 244,
-  "weak": 1516
+  "strong": 115,
+  "decent": 144,
+  "stretch": 245,
+  "weak": 1515
  },
- "top_errors": [],
+ "top_errors": [
+  {
+   "company": "PayPal Ireland",
+   "ats": "joblinks",
+   "error": "found 1 job links but none were readable"
+  },
+  {
+   "company": "Dell Technologies Ireland",
+   "ats": "joblinks",
+   "error": "HTTP Error 502: Bad Gateway"
+  },
+  {
+   "company": "Capgemini Ireland",
+   "ats": "sitemap",
+   "error": "sitemap had 2120 URLs but none looked like jobs"
+  },
+  {
+   "company": "LTIMindtree Ireland",
+   "ats": "sitemap",
+   "error": "sitemap had 500 URLs but none looked like jobs"
+  },
+  {
+   "company": "SoftCo",
+   "ats": "hirehive",
+   "error": "hirehive: no feed"
+  },
+  {
+   "company": "Wrkit",
+   "ats": "recruitee",
+   "error": "board not found (404)"
+  },
+  {
+   "company": "Nostra",
+   "ats": "workable",
+   "error": "board not found (404)"
+  },
+  {
+   "company": "Soapbox Labs",
+   "ats": "lever",
+   "error": "board not found (404)"
+  },
+  {
+   "company": "Glofox",
+   "ats": "lever",
+   "error": "board not found (404)"
+  },
+  {
+   "company": "Cubic Telecom",
+   "ats": "lever",
+   "error": "board not found (404)"
+  },
+  {
+   "company": "Payslip",
+   "ats": "lever",
+   "error": "board not found (404)"
+  },
+  {
+   "company": "HubSpot",
+   "ats": "greenhouse",
+   "error": "board not found (404)"
+  },
+  {
+   "company": "Revolut",
+   "ats": "greenhouse",
+   "error": "board not found (404)"
+  },
+  {
+   "company": "Tessian",
+   "ats": "ashby",
+   "error": "board not found (404)"
+  },
+  {
+   "company": "Ubiquity",
+   "ats": "ashby",
+   "error": "board not found (404)"
+  }
+ ],
  "quarantined_feeds": [
   "Capgemini Ireland",
   "Cubic Telecom",
   "Dell Technologies Ireland",
   "Energia Group",
-  "Expleo Ireland",
   "Glofox",
   "HubSpot",
   "HubSpot Ireland",
