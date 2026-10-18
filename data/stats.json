@@ -1,18 +1,18 @@
 {
- "last_run": "2026-10-18T13:46:17+00:00",
+ "last_run": "2026-10-18T17:01:38+00:00",
  "companies_total": 366,
  "companies_scanned": 173,
  "boards_failed": 0,
- "raw_postings": 19835,
- "relevant_jobs": 2107,
+ "raw_postings": 17419,
+ "relevant_jobs": 2115,
  "min_score": 10,
- "new_this_run": 104,
+ "new_this_run": 98,
  "by_band": {
   "excellent": 99,
   "strong": 114,
-  "decent": 140,
-  "stretch": 237,
-  "weak": 1517
+  "decent": 142,
+  "stretch": 244,
+  "weak": 1516
  },
  "top_errors": [],
  "quarantined_feeds": [
