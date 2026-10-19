@@ -1,0 +1,44 @@
+name: Log feedback
+
+# The site's "Send to tracker" button opens an issue titled "feedback: ..." with
+# the jobs Derin hid and applied to. Only her own issues are accepted: the repo
+# is public, so anyone could otherwise inject rejections.
+
+on:
+  issues:
+    types: [opened]
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: feedback
+
+jobs:
+  log:
+    if: github.event.issue.user.login == github.repository_owner && startsWith(github.event.issue.title, 'feedback:')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Record it
+        env:
+          ISSUE_BODY: ${{ github.event.issue.body }}
+        run: python scripts/feedback.py
+      - name: Commit
+        run: |
+          git config user.name  "job-tracker-bot"
+          git config user.email "actions@github.com"
+          git add data/feedback.json data/feedback_report.md
+          git commit -m "feedback: log hidden and applied jobs"
+          for i in 1 2 3; do
+            git pull --rebase --autostash origin main && git push origin main && break
+            sleep 5
+          done
+      - name: Close the issue
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh issue close ${{ github.event.issue.number }} --repo ${{ github.repository }} --comment "Logged."

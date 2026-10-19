@@ -134,6 +134,7 @@ const isApplied = st => APPLIED_STATES.includes(st);
 /* ------------------------------------------------------------ local state */
 
 const HIDDEN_DAYS = 7;
+const WEEK_AGO = () => new Date(Date.now() - 7 * 864e5).toISOString();
 function load() {
   try {
     const s = JSON.parse(localStorage.getItem(STORE_KEY)) || {};
@@ -154,12 +155,14 @@ function isHidden(id) { return !!(STATE[id] || {}).hidden; }
 /* Dismissing a job never destroys anything - it moves to the Hidden tab, and
    one click there puts it back. A tracker you cannot undo is a tracker you
    stop trusting. */
-function setHidden(id, hidden) {
+function setHidden(id, hidden, reason) {
   const job = JOBS.find(j => j.id === id);
   if (!STATE[id]) STATE[id] = {};
   if (hidden) {
     STATE[id].hidden = true;
     STATE[id].hiddenAt = new Date().toISOString();
+    STATE[id].reason = reason || '';
+    delete STATE[id].sent;
     if (job) STATE[id].snapshot = snapshotOf(job);
   } else {
     delete STATE[id].hidden;
@@ -177,6 +180,26 @@ function snapshotOf(job) {
     posted_at: job.posted_at, permits: job.permits,
     sponsor_tier: job.sponsor_tier, salary: job.salary, closes_at: job.closes_at
   };
+}
+
+/* Sends hidden (with reason) and applied jobs to the repo as an issue that a
+   workflow logs, so the scraper skips repeats and the report shows which title
+   words to filter. A static site cannot write to the repo any other way. */
+function sendFeedback() {
+  const rows = [];
+  for (const [id, st] of Object.entries(STATE)) {
+    const kind = st.hidden ? 'hidden' : isApplied(st.status) ? 'applied' : '';
+    if (!kind || st.sent) continue;
+    const j = JOBS.find(x => x.id === id) || st.snapshot || {};
+    if (j.title) rows.push({ kind, id, title: j.title, company: j.company || '', reason: st.reason || '' });
+  }
+  if (!rows.length) { alert('Nothing new to send.'); return; }
+  const batch = rows.slice(0, 25);
+  batch.forEach(r => { STATE[r.id].sent = true; });
+  save();
+  const body = '```json\n' + JSON.stringify(batch) + '\n```';
+  window.open('https://github.com/derinyesudas/ireland-job-tracker/issues/new?title=' +
+    encodeURIComponent(`feedback: ${batch.length} jobs`) + '&body=' + encodeURIComponent(body), '_blank', 'noopener');
 }
 
 /* Applications outlive the advert. A job you applied to three weeks ago will
@@ -372,7 +395,10 @@ function visible() {
 
   let out = JOBS.filter(job => {
     if (crack && !job.crack_it) return false;
-    if (ineligibleOnly && !crack) { if (job.eligibility !== 'blocked') return false; }
+    // Dropped jobs are shown for a week only, newest first by the sort below.
+    if (ineligibleOnly && !crack) {
+      if (job.eligibility !== 'blocked' || (job.first_seen || '') < WEEK_AGO()) return false;
+    }
     else if (job.eligibility === 'blocked') return false;
     // Applied and dismissed jobs leave the main board. They are not lost -
     // each has its own tab - but they should stop competing for attention.
@@ -717,6 +743,7 @@ function render() {
   if (tc) tc.textContent = counts.crackit;
   document.getElementById('t-applied').textContent = counts.applied;
   document.getElementById('t-hidden').textContent = counts.hidden;
+  document.getElementById('send-feedback').hidden = !(TAB === 'hidden' || TAB === 'applied');
 
   const EMPTY = {
     crackit: `<div class="empty"><h3>No Crack-IT jobs match</h3>
@@ -1116,6 +1143,7 @@ async function init() {
     syncBtn.onclick = () => (SYNC_HANDLE ? writeWorkbook(true) : linkWorkbook());
   }
   restoreSync();
+  document.getElementById('send-feedback').onclick = sendFeedback;
 
   document.getElementById('jobs').addEventListener('click', e => {
     const pg = e.target.closest('[data-page]');
@@ -1131,7 +1159,9 @@ async function init() {
     if (act === 'why') {
       btn.closest('.job').classList.toggle('open');
     } else if (act === 'hide') {
-      setHidden(id, true);
+      // The reason is what lets the tracker learn; Cancel still hides the job.
+      const n = prompt('Why hide it?\n1 wrong field   2 too senior   3 location\n4 needs qualification/experience   5 other', '');
+      setHidden(id, true, { 1: 'wrong field', 2: 'too senior', 3: 'location', 4: 'needs qualification/experience', 5: 'other' }[(n || '').trim()] || '');
     } else if (act === 'unhide') {
       setHidden(id, false);
     } else {
