@@ -1,0 +1,19 @@
+name: Test rules
+
+# Runs on every change to the filter code, so a rule tweak cannot quietly
+# start dropping good jobs or letting 3-year roles back in.
+
+on:
+  push:
+    paths: ["scraper/**", "tests/**"]
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python tests/test_rules.py

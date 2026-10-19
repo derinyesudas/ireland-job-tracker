@@ -15,7 +15,7 @@ Built with Claude: I designed it, researched the employers and wrote the rules; 
 | Employers watched | more than 300 |
 | Recruitment platforms it can read | 29 |
 | How often it checks | a few times a day |
-| Jobs on the board | nearly 1,000 open in October 2026, each scored 0-100 |
+| Jobs on the board | about 90 open in October 2026, each scored 0-100 after a strict fit filter |
 | Employers verified as sponsors | 164, from the government's own register |
 | Running cost | nothing |
 
@@ -304,14 +304,18 @@ scraper/
   ats_more.py       the enterprise suites, plus Occupop and HireHive
   normalise.py      one common job shape out of twenty-seven different ones
   filters.py        Ireland, early-career and engagement-type gates
+  eligible.py       reads each advert: field, qualifications, years asked, hours, sponsorship
+  crackit.py        the office jobs she can walk into now
   score.py          the 0-100 compatibility model
   run.py            the pipeline, with sharded scanning
 scripts/
   resolve_careers.py  careers URL to working feed, verified by calling it
   inspect_sites.py    works out what an unresolved site would need
   build_companies.py  the government sponsor register
+  feedback.py         logs the jobs she hid and applied to, from the site's issue button
   crypt.py            key handling and file locking
   vault.py            unlocks the research before a run, locks it after
+tests/test_rules.py     guards the filter rules (runs on every change to scraper/)
 profile/derin.json.enc  everything personal, in one editable file
 site/                   the front end, vanilla JS, no build step
 data/                   the job board in the clear, the research encrypted
@@ -325,13 +329,23 @@ publish job builds it before uploading the page.
 
 ---
 
+## How the board stays strict
+
+- A job is dropped when its advert asks for 3+ years of experience, a qualification
+  she lacks, sales or retail work, or when its fit score is weak. Dropped jobs are
+  published for a week only ("Dropped this week"), then leave the site.
+- Hiding a job asks why. "Send hidden & applied jobs to the tracker" files a GitHub
+  issue that `feedback.yml` logs to `data/feedback.json`; the scraper then skips the
+  same company and title, and `data/feedback_report.md` suggests filter words.
+- Hidden jobs are forgotten after 7 days.
+
 ## Notes and limits
 
 <details>
 <summary><b>Known limits and design trade-offs</b></summary>
 
-- GitHub schedules cron jobs on a best-effort basis: the 15-minute schedule runs
-  a few times a day in practice (gaps of several hours in October 2026), and each
+- GitHub schedules cron jobs on a best-effort basis: the schedule (offset to odd minutes, which helps) runs
+  every few hours in practice (gaps of several hours in October 2026), and each
   run reads about half the employers in turn. The Actions tab has a manual trigger.
 - Every reader fetches the full advert, even where the listing endpoint returns
   only a teaser. One extra request per job, and worth it: a job scored on its
