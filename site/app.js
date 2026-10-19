@@ -133,9 +133,16 @@ const isApplied = st => APPLIED_STATES.includes(st);
 
 /* ------------------------------------------------------------ local state */
 
+const HIDDEN_DAYS = 7;
 function load() {
-  try { return JSON.parse(localStorage.getItem(STORE_KEY)) || {}; }
-  catch { return {}; }
+  try {
+    const s = JSON.parse(localStorage.getItem(STORE_KEY)) || {};
+    // Hidden jobs are forgotten after a week. Applied ones are never touched.
+    const cutoff = Date.now() - HIDDEN_DAYS * 864e5;
+    for (const [id, st] of Object.entries(s))
+      if (st.hidden && !st.status && Date.parse(st.hiddenAt) < cutoff) delete s[id];
+    return s;
+  } catch { return {}; }
 }
 function save() {
   try { localStorage.setItem(STORE_KEY, JSON.stringify(STATE)); }

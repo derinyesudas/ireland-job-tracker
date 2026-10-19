@@ -462,6 +462,13 @@ def main() -> int:
         job["eligibility_reasons"] = v["reasons"]
         job["eligibility_flags"] = v["flags"]
         job["eligibility_bonuses"] = v["bonuses"]
+        # A weak fit is a job she would not apply to; keep it, but off the board.
+        if job.get("band") == "weak" and v["status"] != "blocked" \
+                and not crackit.assess(job, v["status"]):
+            job["eligibility"] = "blocked"
+            job["eligibility_reasons"] = v["reasons"] + [
+                {"code": "fit", "detail": "weak profile fit", "quote": job.get("title", "")}]
+            v = dict(v, status="blocked")
         # Crack-IT: office jobs she can walk into, listed apart so a low fit
         # score cannot bury them.
         job["crack_it"] = crackit.assess(job, v["status"])

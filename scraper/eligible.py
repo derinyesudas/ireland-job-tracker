@@ -105,6 +105,12 @@ OUT_OF_FIELD = {
                    r"instrumentation|metrology|validation\s+technician|manufacturing\s+technician|"
                    r"process\s+technician|maintenance\s+technician|civil|structural|quantity\s+surveyor|"
                    r"cnc|tooling|firmware|hardware)\b",
+    # Commission-led selling and shop-floor retail: "Account Executive", "BDR",
+    # "Insurance Advisor". Sales support and admin stay.
+    "sales or retail": r"\b(account\s+executive|business\s+development(?!\s+(support|admin\w*|coordinator))|"
+                       r"bdr|sdr|sales(?!\s+(support|admin\w*|operations|coordinator))|"
+                       r"(insurance|financial|life|mortgage)\s+advis[eo]r|retail(?!\s+(bank\w*|credit|lending|risk|finance|financial|insurance|pensions?))|merchandis\w+|"
+                       r"buyer|recruit(er|ing|ment)|sourcer)\b",
     "software development": r"\b(software\s+(developer|engineer)|developer|programmer|devops|\bsre\b|"
                             r"full[\s-]stack|back[\s-]end|front[\s-]end|data\s+engineer|"
                             r"platform\s+engineer|cloud\s+(engineer|architect)|solutions?\s+architect|"
