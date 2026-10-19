@@ -413,11 +413,24 @@ _NOT_A_VACANCY_RE = re.compile(
     r"supply\s+chain|finance|commercial\s+business|logistics\s+supply\s+chain|"
     r"procurement\s+and\s+supply\s+chain|operations\s+finance|customer\s+experience)|"
     rf"(?!.*\b(?:{_ROLE_WORD})s?\b)(?:[\w&'’-]+\s+){{0,5}}insurance|"
-    r".*[“”].*|"
+    r".*[“”].*|graduates?\s+\d{1,2}|"
     rf"(?=(?:\S+\s+){{5,}}\S)(?!.*\b(?:{_ROLE_WORD})s?\b)(?=.*\b(?:completes?|completed|hosts?|hosted|"
     r"announces?|announced|launch(?:es|ed)|acquires?|acquired|celebrates?|celebrated|unveils?|"
     r"unveiled|appoints?|appointed|signs|signed|secures|secured)\b).*"
     r")$", re.I)
+
+
+_BUSINESS_WORDS = {
+    "agency", "accounting", "accounts", "fund", "funds", "operations", "finance", "financial", "risk",
+    "data", "transfer", "banking", "bank", "insurance", "claims", "pensions", "pension", "payroll",
+    "tax", "audit", "compliance", "sales", "marketing", "hr", "it", "technology", "digital", "global",
+    "client", "customer", "services", "service", "investor", "investment", "treasury", "credit",
+    "legal", "supply", "chain", "procurement", "business", "commercial", "corporate", "product",
+    "project", "programme", "program", "analytics", "reporting", "settlements", "custody",
+    "depositary", "trade", "markets", "capital", "wealth", "asset", "assets", "retail", "private",
+    "equity", "debt", "middle", "back", "front", "office", "team", "group", "europe", "ireland",
+    "dublin", "cork", "limerick", "galway", "emea", "uk", "people", "talent", "quality", "kyc", "aml"}
+_PROFILE_PAGE_RE = re.compile(r"^([^,|–-]{3,40}),\s+(?:trainee|graduate|intern|apprentice)\b", re.I)
 
 
 def _looks_like_a_title(text: str) -> bool:
@@ -425,6 +438,15 @@ def _looks_like_a_title(text: str) -> bool:
         return False
     if _NOT_A_VACANCY_RE.match(" ".join(text.split())):
         return False
+    # A trainee's profile page: "Maartje Duzijn, Trainee Energy Storage
+    # Business Development". A name before the comma, not a role.
+    m = _PROFILE_PAGE_RE.match(" ".join(text.split()))
+    if m:
+        words = m.group(1).split()
+        if (2 <= len(words) <= 4 and all(w[:1].isupper() for w in words)
+                and not re.search(rf"\b(?:{_ROLE_WORD})s?\b|\d|&", m.group(1), re.I)
+                and not any(w.lower().strip(".") in _BUSINESS_WORDS for w in words)):
+            return False
     words = text.split()
     if len(words) > 12:
         return False

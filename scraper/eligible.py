@@ -78,7 +78,8 @@ GRAD_OFF = re.compile(
     r"\b(culinary|chef|food|health\s*(and|&)\s*safety|safety|environment\w*|energy|"
     r"sustainab\w+|cyber|security|legal|law|engineering|engineer|manufacturing|production|"
     r"scien\w+|laborator\w+|nursing|clinical|pharmac\w+|veterinar\w+|agri\w*|marketing|design|"
-    r"human\s+resources|\bhr\b|talent|software|research|r&d|quality)\b", re.I)
+    r"human\s+resources|\bhr\b|talent|software|research|r&d|quality|p\s*&\s*c|people\s+(and|&)\s+culture)\b",
+    re.I)
 # Technology and digital programmes stay only when the title also names data,
 # finance or the business side; the hard list above needs a strong anchor.
 GRAD_SOFT_OFF = re.compile(r"\b(technology|digital|\bit\b|enterprise\s+delivery)\b", re.I)
@@ -160,7 +161,8 @@ OUT_OF_FIELD = {
                              r"designer|design\s+(assistant|associate|graduate)|fashion)\b",
     "HR or recruitment": r"\b(recruiter|talent\s+(acquisition|partner|sourc\w+)|sourcer|resourcer|"
                          r"(hr|human\s+resources|people)\s+(advis\w+|generalist|business\s+partner|"
-                         r"officer|specialist|partner))\b",
+                         r"officer|specialist|partner)|talent\s+management|p\s*&\s*c\b|"
+                         r"people\s+(and|&)\s+culture)",
 }
 
 # Tax and investment are off her list outright - no title rescues them.
@@ -240,7 +242,8 @@ CREDENTIALS = {
 # those, whether the qualification is asked for or offered. Only an advert that
 # calls one merely desirable keeps the job.
 ACCOUNTANCY_QUALS = re.compile(
-    r"\b(ACA|ACCA|CIMA|CPA|CFA|CTA|AITI|ATT|CIPFA|CAIA|ICAI)\b|chartered\s+accountan\w+|"
+    r"\b(ACA|ACCA|CIMA|CPA|CFA|CTA|AITI|ATT|CIPFA|CAIA|ICAI|PQE)\b|post[\s-]qualification\s+experience|"
+    r"newly[\s-]qualified|chartered\s+accountan\w+|"
     r"trainee\s+accountant|chartered\s+tax|part[\s-]qualified|"
     r"qualified\s+accountant", re.I)
 SOFT_MENTION = re.compile(r"\b(desirable|preferred|advantage\w*|beneficial|nice\s+to\s+have|"
@@ -606,6 +609,9 @@ def assess(job: dict) -> dict:
         if m:
             reasons.append({"code": "experience", "detail": "senior or supervisory title",
                             "quote": title})
+    if re.search(r"\bPQE\b|newly[\s-]qualified", title, re.I):
+        reasons.append({"code": "qualification",
+                        "detail": "a qualified professional (PQE) role", "quote": title})
     if ACCOUNTANCY_TITLE.search(title) and not FUND_ACCOUNTANT.search(title) \
             and not (is_grad and re.search(r"\bfinance\b", title, re.I)):
         reasons.append({"code": "qualification",
