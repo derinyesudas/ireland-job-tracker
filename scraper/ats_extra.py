@@ -573,7 +573,7 @@ _BOILERPLATE_RE = re.compile(
 )
 
 
-def _readable_text(page: str, limit: int = 6000) -> str:
+def _readable_text(page: str, limit: int = 12000) -> str:
     """
     Pull the advert text out of a job page that publishes no structured data.
 

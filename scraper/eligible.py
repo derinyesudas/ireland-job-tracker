@@ -314,7 +314,7 @@ _WORDNUM_Y = {"one": 1, "two": 2, "three": 3, "four": 4, "five": 5, "six": 6,
 _NUM = r"(\d{1,2}|one|two|three|four|five|six|seven|eight|nine|ten|twelve|fifteen)"
 YEARS_WORDS = re.compile(
     rf"\b{_NUM}\s*(?:\(\d+\)\s*)?\+?\s*(?:(?:-|–|to|or)\s*{_NUM}\s*)?\+?\s*"
-    rf"(?:or\s+more\s+)?(?:years?|yrs?)['’]?s?\s+(?:of\s+)?(?:[\w/&-]+\s+){{0,4}}?(?:experience|exp\b)",
+    rf"(?:or\s+more\s+)?(?:years?|yrs?)['’]?s?\s+(?:of\s+)?(?:[\w/&,'’-]+\s+){{0,8}}?(?:experience|exp\b)",
     re.I)
 YEARS_LEAD = re.compile(
     rf"\b(?:experience\s+of|min(?:imum)?\.?(?:\s+of)?|at\s+least|a\s+minimum\s+of|more\s+than|"
@@ -331,7 +331,7 @@ YEARS_FIELD = re.compile(
     rf"\bexperience\s*(?:\(\s*|:\s*|-\s*|–\s*)(?:min(?:imum)?\.?\s*(?:of\s+)?|at\s+least\s+)?"
     rf"{_NUM}\s*(?:(?:-|–|to)\s*{_NUM}\s*)?\+?\s*(?:years?|yrs?)", re.I)
 _OTHER_GRADE = re.compile(r"\b(senior|team\s+lead\w*|manager|supervisor)\b", re.I)
-_ABOUT_US = re.compile(r"\b(we|our|us|company|firm|business|group|bank|organi[sz]ation|founded|history)\b", re.I)
+_ABOUT_US = re.compile(r"\b(we|our|us|company|firm|bank|organi[sz]ation|founded|history)\b", re.I)
 _ABOUT_YOU = re.compile(r"\b(you|your|candidate|applicant|ideal|successful)\b", re.I)
 MAX_YEARS = 2          # what she can be asked for; 3 or more takes it off the board
 
@@ -344,7 +344,11 @@ def _years_value(token: str) -> int | None:
 def years_required(desc: str) -> tuple[int, str] | None:
     """The lowest number of years of experience the advert asks of the
     candidate, with the sentence that says so - or None."""
-    best: tuple[int, str] | None = None
+    # An advert can ask for different things in different sentences: "Minimum 2
+    # years preferred" and "Minimum 3 years required". Within one clause the
+    # lowest number wins (alternatives: "2-3 years, or 1 year with a degree");
+    # across clauses the highest requirement that is not merely preferred wins.
+    per_clause: dict[str, int] = {}
     for rx in (YEARS, YEARS_WORDS, YEARS_LEAD, YEARS_ROLE, YEARS_FIELD):
         for m in rx.finditer(desc):
             raw = next((g for g in m.groups() if g and (g.isdigit() or g.lower() in _WORDNUM_Y)), None)
@@ -361,11 +365,16 @@ def years_required(desc: str) -> tuple[int, str] | None:
             same = _clause(desc, m.start(), m.end())
             if _OTHER_GRADE.search(same[:max(0, same.find(m.group(0)))]):
                 continue            # "for the Senior grade, 5 years" - another grade of the job
-            if _ABOUT_US.search(before[-60:]) and not _ABOUT_YOU.search(before[-60:]):
+            local = re.split(r"[•:.;]", before)[-1]      # this sentence only: "join our team: At least 5 years"
+            if _ABOUT_US.search(local[-60:]) and not _ABOUT_YOU.search(local[-60:]):
                 continue            # "we have 25 years' experience"
-            if best is None or n < best[0]:
-                best = (n, _clause(desc, m.start(), m.end()))
-    return best
+            if SOFT_EXPERIENCE.search(same):
+                continue
+            per_clause[same] = min(n, per_clause.get(same, n))
+    if not per_clause:
+        return None
+    clause = max(per_clause, key=per_clause.get)
+    return per_clause[clause], clause
 
 
 # Hours and sponsorship - two things an advert can rule her out on that have

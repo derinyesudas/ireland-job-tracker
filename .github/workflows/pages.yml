@@ -38,6 +38,9 @@ jobs:
           import json, pathlib, re
           grad = re.compile(r"graduate|intern|placement|trainee|entry[^\n\r\u2028\u2029]level|junior|early career|apprentice")
           jobs = json.load(open("data/jobs.json"))
+          # Dropped jobs are only published for a week (the "Dropped this week" view).
+          import datetime; cut = (datetime.datetime.now(datetime.timezone.utc) - datetime.timedelta(days=7)).isoformat()
+          jobs = [j for j in jobs if j.get("eligibility") != "blocked" or (j.get("first_seen") or "") >= cut]
           for j in jobs:
               d = j.get("description") or ""
               j["grad_text"] = bool(grad.search((j.get("title", "") + " " + d).lower()))
