@@ -1,18 +1,18 @@
 {
- "last_run": "2026-10-20T01:24:57+00:00",
+ "last_run": "2026-10-20T06:23:49+00:00",
  "companies_total": 366,
  "companies_scanned": 191,
- "boards_failed": 14,
- "raw_postings": 17410,
- "relevant_jobs": 2185,
+ "boards_failed": 15,
+ "raw_postings": 18894,
+ "relevant_jobs": 2184,
  "min_score": 10,
  "new_this_run": 92,
  "by_band": {
   "excellent": 100,
   "strong": 118,
   "decent": 142,
-  "stretch": 252,
-  "weak": 1573
+  "stretch": 253,
+  "weak": 1571
  },
  "top_errors": [
   {
@@ -46,7 +46,7 @@
    "error": "board not found (404)"
   },
   {
-   "company": "Cubic Telecom",
+   "company": "Payslip",
    "ats": "lever",
    "error": "board not found (404)"
   },
@@ -61,13 +61,8 @@
    "error": "board not found (404)"
   },
   {
-   "company": "Payslip",
+   "company": "Cubic Telecom",
    "ats": "lever",
-   "error": "board not found (404)"
-  },
-  {
-   "company": "HubSpot",
-   "ats": "greenhouse",
    "error": "board not found (404)"
   },
   {
@@ -76,14 +71,24 @@
    "error": "board not found (404)"
   },
   {
-   "company": "Tessian",
-   "ats": "ashby",
+   "company": "HubSpot",
+   "ats": "greenhouse",
    "error": "board not found (404)"
   },
   {
    "company": "Ubiquity",
    "ats": "ashby",
    "error": "board not found (404)"
+  },
+  {
+   "company": "Tessian",
+   "ats": "ashby",
+   "error": "board not found (404)"
+  },
+  {
+   "company": "Energia Group",
+   "ats": "jsonld",
+   "error": "no JobPosting structured data on the page"
   }
  ],
  "quarantined_feeds": [
