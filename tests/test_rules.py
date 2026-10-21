@@ -31,6 +31,15 @@ def test_experience_blocks():
     assert status("Claims Handler", "No experience needed.") != "blocked"
 
 
+def test_learned_words():
+    from scripts.feedback import learned_words
+    hid = lambda t, r="wrong field": {"kind": "hidden", "title": t, "reason": r}
+    log = [hid("Procurement Analyst"), hid("Senior Procurement Lead"), hid("Procurement Officer"),
+           hid("Treasury Analyst", "too senior"), hid("Treasury Officer", "too senior"), hid("Treasury Clerk", "too senior")]
+    assert learned_words(log) == {"procurement"}
+    assert learned_words(log + [{"kind": "applied", "title": "Procurement Assistant"}]) == set()
+
+
 if __name__ == "__main__":
     for name, fn in list(globals().items()):
         if name.startswith("test_"):

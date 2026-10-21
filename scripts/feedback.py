@@ -31,6 +31,15 @@ def words(title: str) -> set[str]:
     return {w for w in re.findall(r"[a-z]{4,}", title.lower()) if w not in STOP}
 
 
+def learned_words(log: list[dict], min_hits: int = 3) -> set[str]:
+    """Title words hidden as "wrong field" at least min_hits times and never in
+    a job she applied to. Applying to one such job lifts the word again."""
+    applied = set().union(*(words(e["title"]) for e in log if e["kind"] == "applied"), set())
+    cnt = Counter(w for e in log if e["kind"] == "hidden" and e.get("reason") == "wrong field"
+                  for w in words(e["title"]))
+    return {w for w, n in cnt.items() if n >= min_hits and w not in applied}
+
+
 def report(log: list[dict]) -> str:
     hid = [e for e in log if e["kind"] == "hidden"]
     app = [e for e in log if e["kind"] == "applied"]

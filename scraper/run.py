@@ -31,6 +31,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
 from scraper import crackit, csol, eligible, filters, normalise, score, visa  # noqa: E402
 from scraper.ats_clients import FETCHERS, FetchError  # noqa: E402
+from scripts.feedback import learned_words, words  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
@@ -455,12 +456,15 @@ def main() -> int:
     # that decided it. Nothing is dropped here - a job she cannot apply for is
     # still published, marked, so a wrong rule is visible instead of silent.
     verdicts = {"eligible": 0, "flagged": 0, "blocked": 0}
-    # Jobs she hid herself (data/feedback.json, written by scripts/feedback.py)
-    # are not shown again when the same company reposts the same title.
+    # What she hid (data/feedback.json, written by scripts/feedback.py): the same
+    # company reposting the same title, or a title word she keeps rejecting.
     fb = DATA / "feedback.json"
+    log = json.loads(fb.read_text(encoding="utf-8")) if fb.exists() else []
     rejected = {((e.get("company") or "").lower(), (e.get("title") or "").lower())
-                for e in (json.loads(fb.read_text(encoding="utf-8")) if fb.exists() else [])
-                if e.get("kind") == "hidden"}
+                for e in log if e.get("kind") == "hidden"}
+    learned = learned_words(log)
+    if learned:
+        print(f"  learned from feedback: skipping titles with {sorted(learned)}")
     for job in fresh:
         job["csol"] = csol.assess(job)
         v = eligible.assess(job)
@@ -468,10 +472,15 @@ def main() -> int:
         job["eligibility_reasons"] = v["reasons"]
         job["eligibility_flags"] = v["flags"]
         job["eligibility_bonuses"] = v["bonuses"]
-        if (job.get("company", "").lower(), job.get("title", "").lower()) in rejected                 and v["status"] != "blocked":
+        why = None
+        if (job.get("company", "").lower(), job.get("title", "").lower()) in rejected:
+            why = "you hid this job before"
+        elif (hit := words(job.get("title", "")) & learned):
+            why = f"you keep rejecting '{sorted(hit)[0]}' roles"
+        if why and v["status"] != "blocked":
             job["eligibility"] = "blocked"
             job["eligibility_reasons"] = v["reasons"] + [
-                {"code": "feedback", "detail": "you hid this job before", "quote": job.get("title", "")}]
+                {"code": "feedback", "detail": why, "quote": job.get("title", "")}]
             v = dict(v, status="blocked")
         # A weak fit is a job she would not apply to; keep it, but off the board.
         if job.get("band") == "weak" and v["status"] != "blocked" \
