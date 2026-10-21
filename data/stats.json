@@ -1,96 +1,20 @@
 {
- "last_run": "2026-10-20T23:20:23+00:00",
+ "last_run": "2026-10-21T01:56:32+00:00",
  "companies_total": 366,
- "companies_scanned": 191,
- "boards_failed": 15,
- "raw_postings": 17552,
+ "companies_scanned": 176,
+ "boards_failed": 0,
+ "raw_postings": 19856,
  "relevant_jobs": 2288,
  "min_score": 10,
- "new_this_run": 88,
+ "new_this_run": 84,
  "by_band": {
   "excellent": 100,
   "strong": 120,
-  "decent": 146,
+  "decent": 145,
   "stretch": 265,
-  "weak": 1657
+  "weak": 1658
  },
- "top_errors": [
-  {
-   "company": "PayPal Ireland",
-   "ats": "joblinks",
-   "error": "found 1 job links but none were readable"
-  },
-  {
-   "company": "ESB",
-   "ats": "joblinks",
-   "error": "The read operation timed out"
-  },
-  {
-   "company": "Capgemini Ireland",
-   "ats": "sitemap",
-   "error": "sitemap had 2121 URLs but none looked like jobs"
-  },
-  {
-   "company": "LTIMindtree Ireland",
-   "ats": "sitemap",
-   "error": "sitemap had 500 URLs but none looked like jobs"
-  },
-  {
-   "company": "SoftCo",
-   "ats": "hirehive",
-   "error": "hirehive: no feed"
-  },
-  {
-   "company": "Wrkit",
-   "ats": "recruitee",
-   "error": "board not found (404)"
-  },
-  {
-   "company": "Nostra",
-   "ats": "workable",
-   "error": "board not found (404)"
-  },
-  {
-   "company": "Payslip",
-   "ats": "lever",
-   "error": "board not found (404)"
-  },
-  {
-   "company": "Soapbox Labs",
-   "ats": "lever",
-   "error": "board not found (404)"
-  },
-  {
-   "company": "Glofox",
-   "ats": "lever",
-   "error": "board not found (404)"
-  },
-  {
-   "company": "Cubic Telecom",
-   "ats": "lever",
-   "error": "board not found (404)"
-  },
-  {
-   "company": "HubSpot",
-   "ats": "greenhouse",
-   "error": "board not found (404)"
-  },
-  {
-   "company": "Revolut",
-   "ats": "greenhouse",
-   "error": "board not found (404)"
-  },
-  {
-   "company": "Tessian",
-   "ats": "ashby",
-   "error": "board not found (404)"
-  },
-  {
-   "company": "Ubiquity",
-   "ats": "ashby",
-   "error": "board not found (404)"
-  }
- ],
+ "top_errors": [],
  "quarantined_feeds": [
   "Capgemini Ireland",
   "Cubic Telecom",
