@@ -1,26 +1,20 @@
 {
- "last_run": "2026-10-21T17:47:59+00:00",
+ "last_run": "2026-10-21T21:05:48+00:00",
  "companies_total": 366,
- "companies_scanned": 176,
- "boards_failed": 1,
- "raw_postings": 19959,
- "relevant_jobs": 2332,
+ "companies_scanned": 177,
+ "boards_failed": 0,
+ "raw_postings": 17250,
+ "relevant_jobs": 2333,
  "min_score": 10,
- "new_this_run": 101,
+ "new_this_run": 90,
  "by_band": {
   "excellent": 100,
   "strong": 121,
   "decent": 149,
   "stretch": 271,
-  "weak": 1691
+  "weak": 1692
  },
- "top_errors": [
-  {
-   "company": "Revolut Ireland",
-   "ats": "joblinks",
-   "error": "HTTP Error 403: Forbidden"
-  }
- ],
+ "top_errors": [],
  "quarantined_feeds": [
   "Capgemini Ireland",
   "Cubic Telecom",
