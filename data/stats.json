@@ -1,136 +1,20 @@
 {
- "last_run": "2026-10-23T10:45:32+00:00",
+ "last_run": "2026-10-23T15:37:28+00:00",
  "companies_total": 366,
- "companies_scanned": 366,
- "boards_failed": 23,
- "raw_postings": 29834,
- "relevant_jobs": 2353,
+ "companies_scanned": 176,
+ "boards_failed": 0,
+ "raw_postings": 17417,
+ "relevant_jobs": 2359,
  "min_score": 10,
- "new_this_run": 189,
+ "new_this_run": 106,
  "by_band": {
-  "excellent": 102,
-  "strong": 121,
-  "decent": 150,
+  "excellent": 103,
+  "strong": 122,
+  "decent": 149,
   "stretch": 280,
-  "weak": 1700
+  "weak": 1705
  },
- "top_errors": [
-  {
-   "company": "PayPal Ireland",
-   "ats": "joblinks",
-   "error": "found 1 job links but none were readable"
-  },
-  {
-   "company": "Musgrave Group",
-   "ats": "joblinks",
-   "error": "no individual job links found on the page"
-  },
-  {
-   "company": "SAP Ireland",
-   "ats": "joblinks",
-   "error": "HTTP Error 404: Not Found"
-  },
-  {
-   "company": "ORIX Aviation",
-   "ats": "joblinks",
-   "error": "no individual job links found on the page"
-  },
-  {
-   "company": "Archer Recruitment",
-   "ats": "joblinks",
-   "error": "no individual job links found on the page"
-  },
-  {
-   "company": "Sterling Pharma Solutions",
-   "ats": "joblinks",
-   "error": "no individual job links found on the page"
-  },
-  {
-   "company": "Capgemini Ireland",
-   "ats": "sitemap",
-   "error": "sitemap had 2121 URLs but none looked like jobs"
-  },
-  {
-   "company": "LTIMindtree Ireland",
-   "ats": "sitemap",
-   "error": "sitemap had 500 URLs but none looked like jobs"
-  },
-  {
-   "company": "Kingspan",
-   "ats": "sitemap",
-   "error": "no sitemap found"
-  },
-  {
-   "company": "Bord na M\u00f3na",
-   "ats": "rssfeed",
-   "error": "no readable job feed"
-  },
-  {
-   "company": "Musgrave Group",
-   "ats": "rssfeed",
-   "error": "no readable job feed"
-  },
-  {
-   "company": "SoftCo",
-   "ats": "hirehive",
-   "error": "hirehive: no feed"
-  },
-  {
-   "company": "Wrkit",
-   "ats": "recruitee",
-   "error": "board not found (404)"
-  },
-  {
-   "company": "Nostra",
-   "ats": "workable",
-   "error": "board not found (404)"
-  },
-  {
-   "company": "HubSpot",
-   "ats": "greenhouse",
-   "error": "board not found (404)"
-  },
-  {
-   "company": "Revolut",
-   "ats": "greenhouse",
-   "error": "board not found (404)"
-  },
-  {
-   "company": "Energia Group",
-   "ats": "jsonld",
-   "error": "no JobPosting structured data on the page"
-  },
-  {
-   "company": "Glofox",
-   "ats": "lever",
-   "error": "board not found (404)"
-  },
-  {
-   "company": "Payslip",
-   "ats": "lever",
-   "error": "board not found (404)"
-  },
-  {
-   "company": "Soapbox Labs",
-   "ats": "lever",
-   "error": "board not found (404)"
-  },
-  {
-   "company": "Cubic Telecom",
-   "ats": "lever",
-   "error": "board not found (404)"
-  },
-  {
-   "company": "Tessian",
-   "ats": "ashby",
-   "error": "board not found (404)"
-  },
-  {
-   "company": "Ubiquity",
-   "ats": "ashby",
-   "error": "board not found (404)"
-  }
- ],
+ "top_errors": [],
  "quarantined_feeds": [
   "Capgemini Ireland",
   "Cubic Telecom",
