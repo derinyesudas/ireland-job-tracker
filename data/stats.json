@@ -1,29 +1,129 @@
 {
- "last_run": "2026-10-25T07:41:52+00:00",
+ "last_run": "2026-10-25T12:38:14+00:00",
  "companies_total": 366,
- "companies_scanned": 176,
- "boards_failed": 2,
- "raw_postings": 19752,
- "relevant_jobs": 2326,
+ "companies_scanned": 366,
+ "boards_failed": 22,
+ "raw_postings": 29904,
+ "relevant_jobs": 2323,
  "min_score": 10,
- "new_this_run": 89,
+ "new_this_run": 188,
  "by_band": {
   "excellent": 103,
   "strong": 123,
   "decent": 146,
-  "stretch": 280,
-  "weak": 1674
+  "stretch": 279,
+  "weak": 1672
  },
  "top_errors": [
   {
-   "company": "South East Technological University (SETU)",
+   "company": "PayPal Ireland",
    "ats": "joblinks",
    "error": "found 1 job links but none were readable"
   },
   {
-   "company": "Revolut Ireland",
+   "company": "SAP Ireland",
+   "ats": "joblinks",
+   "error": "HTTP Error 404: Not Found"
+  },
+  {
+   "company": "ORIX Aviation",
+   "ats": "joblinks",
+   "error": "no individual job links found on the page"
+  },
+  {
+   "company": "South East Technological University (SETU)",
+   "ats": "joblinks",
+   "error": "HTTP Error 403: Forbidden"
+  },
+  {
+   "company": "Collins McNicholas",
+   "ats": "joblinks",
+   "error": "no individual job links found on the page"
+  },
+  {
+   "company": "NatWest Group (Ulster Bank)",
+   "ats": "joblinks",
+   "error": "HTTP Error 403: Forbidden"
+  },
+  {
+   "company": "TELUS Digital",
+   "ats": "joblinks",
+   "error": "HTTP Error 403: Forbidden"
+  },
+  {
+   "company": "Capgemini Ireland",
+   "ats": "sitemap",
+   "error": "sitemap had 2122 URLs but none looked like jobs"
+  },
+  {
+   "company": "LTIMindtree Ireland",
+   "ats": "sitemap",
+   "error": "sitemap had 500 URLs but none looked like jobs"
+  },
+  {
+   "company": "Kingspan",
    "ats": "sitemap",
    "error": "no sitemap found"
+  },
+  {
+   "company": "SoftCo",
+   "ats": "hirehive",
+   "error": "hirehive: no feed"
+  },
+  {
+   "company": "Wrkit",
+   "ats": "recruitee",
+   "error": "board not found (404)"
+  },
+  {
+   "company": "Nostra",
+   "ats": "workable",
+   "error": "board not found (404)"
+  },
+  {
+   "company": "HubSpot",
+   "ats": "greenhouse",
+   "error": "board not found (404)"
+  },
+  {
+   "company": "Revolut",
+   "ats": "greenhouse",
+   "error": "board not found (404)"
+  },
+  {
+   "company": "Energia Group",
+   "ats": "jsonld",
+   "error": "no JobPosting structured data on the page"
+  },
+  {
+   "company": "Cubic Telecom",
+   "ats": "lever",
+   "error": "board not found (404)"
+  },
+  {
+   "company": "Soapbox Labs",
+   "ats": "lever",
+   "error": "board not found (404)"
+  },
+  {
+   "company": "Glofox",
+   "ats": "lever",
+   "error": "board not found (404)"
+  },
+  {
+   "company": "Payslip",
+   "ats": "lever",
+   "error": "board not found (404)"
+  },
+  {
+   "company": "Tessian",
+   "ats": "ashby",
+   "error": "board not found (404)"
+  },
+  {
+   "company": "Ubiquity",
+   "ats": "ashby",
+   "error": "board not found (404)"
   }
  ],
  "quarantined_feeds": [
