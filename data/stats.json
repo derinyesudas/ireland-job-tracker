@@ -1,12 +1,12 @@
 {
- "last_run": "2026-10-28T23:50:02+00:00",
+ "last_run": "2026-10-29T03:09:22+00:00",
  "companies_total": 366,
- "companies_scanned": 176,
+ "companies_scanned": 177,
  "boards_failed": 0,
- "raw_postings": 19503,
+ "raw_postings": 18209,
  "relevant_jobs": 2348,
  "min_score": 10,
- "new_this_run": 93,
+ "new_this_run": 102,
  "by_band": {
   "excellent": 104,
   "strong": 119,
