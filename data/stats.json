@@ -1,20 +1,31 @@
 {
- "last_run": "2026-10-29T10:01:39+00:00",
+ "last_run": "2026-10-29T16:39:27+00:00",
  "companies_total": 366,
- "companies_scanned": 176,
- "boards_failed": 0,
- "raw_postings": 18277,
- "relevant_jobs": 2343,
+ "companies_scanned": 177,
+ "boards_failed": 2,
+ "raw_postings": 17240,
+ "relevant_jobs": 2350,
  "min_score": 10,
- "new_this_run": 94,
+ "new_this_run": 111,
  "by_band": {
   "excellent": 104,
   "strong": 118,
-  "decent": 143,
+  "decent": 145,
   "stretch": 289,
-  "weak": 1689
+  "weak": 1694
  },
- "top_errors": [],
+ "top_errors": [
+  {
+   "company": "Revolut Ireland",
+   "ats": "sitemap",
+   "error": "no sitemap found"
+  },
+  {
+   "company": "Mercury Engineering",
+   "ats": "sitemap",
+   "error": "sitemap had 18 URLs but none looked like jobs"
+  }
+ ],
  "quarantined_feeds": [
   "Capgemini Ireland",
   "Cubic Telecom",
