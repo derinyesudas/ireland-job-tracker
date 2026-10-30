@@ -1,20 +1,91 @@
 {
- "last_run": "2026-10-30T19:46:12+00:00",
+ "last_run": "2026-10-30T23:22:47+00:00",
  "companies_total": 366,
- "companies_scanned": 176,
- "boards_failed": 0,
- "raw_postings": 18245,
+ "companies_scanned": 191,
+ "boards_failed": 14,
+ "raw_postings": 16313,
  "relevant_jobs": 2353,
  "min_score": 10,
- "new_this_run": 90,
+ "new_this_run": 95,
  "by_band": {
-  "excellent": 101,
-  "strong": 116,
-  "decent": 142,
+  "excellent": 102,
+  "strong": 115,
+  "decent": 143,
   "stretch": 293,
-  "weak": 1701
+  "weak": 1700
  },
- "top_errors": [],
+ "top_errors": [
+  {
+   "company": "PayPal Ireland",
+   "ats": "joblinks",
+   "error": "found 1 job links but none were readable"
+  },
+  {
+   "company": "Capgemini Ireland",
+   "ats": "sitemap",
+   "error": "sitemap had 2122 URLs but none looked like jobs"
+  },
+  {
+   "company": "LTIMindtree Ireland",
+   "ats": "sitemap",
+   "error": "sitemap had 500 URLs but none looked like jobs"
+  },
+  {
+   "company": "SoftCo",
+   "ats": "hirehive",
+   "error": "hirehive: no feed"
+  },
+  {
+   "company": "Wrkit",
+   "ats": "recruitee",
+   "error": "board not found (404)"
+  },
+  {
+   "company": "Nostra",
+   "ats": "workable",
+   "error": "board not found (404)"
+  },
+  {
+   "company": "Cubic Telecom",
+   "ats": "lever",
+   "error": "board not found (404)"
+  },
+  {
+   "company": "Glofox",
+   "ats": "lever",
+   "error": "board not found (404)"
+  },
+  {
+   "company": "Payslip",
+   "ats": "lever",
+   "error": "board not found (404)"
+  },
+  {
+   "company": "Soapbox Labs",
+   "ats": "lever",
+   "error": "board not found (404)"
+  },
+  {
+   "company": "HubSpot",
+   "ats": "greenhouse",
+   "error": "board not found (404)"
+  },
+  {
+   "company": "Revolut",
+   "ats": "greenhouse",
+   "error": "board not found (404)"
+  },
+  {
+   "company": "Ubiquity",
+   "ats": "ashby",
+   "error": "board not found (404)"
+  },
+  {
+   "company": "Tessian",
+   "ats": "ashby",
+   "error": "board not found (404)"
+  }
+ ],
  "quarantined_feeds": [
   "Capgemini Ireland",
   "Cubic Telecom",
