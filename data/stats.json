@@ -1,108 +1,23 @@
 {
- "last_run": "2026-11-01T23:19:42+00:00",
+ "last_run": "2026-11-02T02:41:42+00:00",
  "companies_total": 366,
- "companies_scanned": 366,
- "boards_failed": 18,
- "raw_postings": 31433,
+ "companies_scanned": 177,
+ "boards_failed": 1,
+ "raw_postings": 15786,
  "relevant_jobs": 2314,
  "min_score": 10,
- "new_this_run": 187,
+ "new_this_run": 89,
  "by_band": {
   "excellent": 101,
   "strong": 114,
-  "decent": 144,
+  "decent": 143,
   "stretch": 286,
-  "weak": 1669
+  "weak": 1670
  },
  "top_errors": [
   {
-   "company": "PayPal Ireland",
-   "ats": "joblinks",
-   "error": "found 1 job links but none were readable"
-  },
-  {
-   "company": "SAP Ireland",
-   "ats": "joblinks",
-   "error": "HTTP Error 404: Not Found"
-  },
-  {
-   "company": "Collins McNicholas",
-   "ats": "joblinks",
-   "error": "no individual job links found on the page"
-  },
-  {
-   "company": "Capgemini Ireland",
-   "ats": "sitemap",
-   "error": "sitemap had 2122 URLs but none looked like jobs"
-  },
-  {
-   "company": "LTIMindtree Ireland",
-   "ats": "sitemap",
-   "error": "sitemap had 500 URLs but none looked like jobs"
-  },
-  {
-   "company": "Kingspan",
-   "ats": "sitemap",
-   "error": "no sitemap found"
-  },
-  {
-   "company": "SoftCo",
-   "ats": "hirehive",
-   "error": "hirehive: no feed"
-  },
-  {
-   "company": "Wrkit",
-   "ats": "recruitee",
-   "error": "board not found (404)"
-  },
-  {
-   "company": "Nostra",
-   "ats": "workable",
-   "error": "board not found (404)"
-  },
-  {
-   "company": "HubSpot",
-   "ats": "greenhouse",
-   "error": "board not found (404)"
-  },
-  {
-   "company": "Revolut",
-   "ats": "greenhouse",
-   "error": "board not found (404)"
-  },
-  {
-   "company": "Energia Group",
-   "ats": "jsonld",
-   "error": "no JobPosting structured data on the page"
-  },
-  {
-   "company": "Glofox",
+   "company": "Aircall",
    "ats": "lever",
-   "error": "board not found (404)"
-  },
-  {
-   "company": "Soapbox Labs",
-   "ats": "lever",
-   "error": "board not found (404)"
-  },
-  {
-   "company": "Payslip",
-   "ats": "lever",
-   "error": "board not found (404)"
-  },
-  {
-   "company": "Cubic Telecom",
-   "ats": "lever",
-   "error": "board not found (404)"
-  },
-  {
-   "company": "Tessian",
-   "ats": "ashby",
-   "error": "board not found (404)"
-  },
-  {
-   "company": "Ubiquity",
-   "ats": "ashby",
    "error": "board not found (404)"
   }
  ],
