@@ -1,29 +1,24 @@
 {
- "last_run": "2026-11-03T02:38:14+00:00",
+ "last_run": "2026-11-03T10:12:17+00:00",
  "companies_total": 366,
- "companies_scanned": 177,
- "boards_failed": 3,
- "raw_postings": 16115,
- "relevant_jobs": 2336,
+ "companies_scanned": 176,
+ "boards_failed": 2,
+ "raw_postings": 18966,
+ "relevant_jobs": 2344,
  "min_score": 10,
- "new_this_run": 92,
+ "new_this_run": 87,
  "by_band": {
-  "excellent": 103,
+  "excellent": 102,
   "strong": 114,
-  "decent": 145,
-  "stretch": 283,
-  "weak": 1691
+  "decent": 143,
+  "stretch": 281,
+  "weak": 1704
  },
  "top_errors": [
   {
-   "company": "Arvato / Majorel Ireland",
-   "ats": "joblinks",
-   "error": "HTTP Error 503: Service Unavailable"
-  },
-  {
-   "company": "Dropbox Ireland",
-   "ats": "joblinks",
-   "error": "no individual job links found on the page"
+   "company": "Cohesity",
+   "ats": "sitemap",
+   "error": "no sitemap found"
   },
   {
    "company": "Aircall",
@@ -32,6 +27,7 @@
   }
  ],
  "quarantined_feeds": [
+  "Aircall",
   "Capgemini Ireland",
   "Collins McNicholas",
   "Cubic Telecom",
