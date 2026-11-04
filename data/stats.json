@@ -1,10 +1,10 @@
 {
- "last_run": "2026-11-03T22:49:04+00:00",
+ "last_run": "2026-11-04T02:54:43+00:00",
  "companies_total": 366,
  "companies_scanned": 176,
  "boards_failed": 1,
- "raw_postings": 16678,
- "relevant_jobs": 2380,
+ "raw_postings": 16633,
+ "relevant_jobs": 2377,
  "min_score": 10,
  "new_this_run": 88,
  "by_band": {
@@ -12,13 +12,13 @@
   "strong": 114,
   "decent": 150,
   "stretch": 291,
-  "weak": 1720
+  "weak": 1717
  },
  "top_errors": [
   {
-   "company": "Crawford & Company Ireland",
+   "company": "Bank of America Dublin",
    "ats": "joblinks",
-   "error": "HTTP Error 500: Internal Server Error"
+   "error": "HTTP Error 503: Service Unavailable"
   }
  ],
  "quarantined_feeds": [
