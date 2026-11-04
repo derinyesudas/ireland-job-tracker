@@ -1,29 +1,30 @@
 {
- "last_run": "2026-11-04T02:54:43+00:00",
+ "last_run": "2026-11-04T10:14:32+00:00",
  "companies_total": 366,
- "companies_scanned": 176,
+ "companies_scanned": 175,
  "boards_failed": 1,
- "raw_postings": 16633,
- "relevant_jobs": 2377,
+ "raw_postings": 19035,
+ "relevant_jobs": 2384,
  "min_score": 10,
- "new_this_run": 88,
+ "new_this_run": 89,
  "by_band": {
   "excellent": 105,
   "strong": 114,
-  "decent": 150,
-  "stretch": 291,
-  "weak": 1717
+  "decent": 151,
+  "stretch": 292,
+  "weak": 1722
  },
  "top_errors": [
   {
-   "company": "Bank of America Dublin",
-   "ats": "joblinks",
-   "error": "HTTP Error 503: Service Unavailable"
+   "company": "Cohesity",
+   "ats": "sitemap",
+   "error": "no sitemap found"
   }
  ],
  "quarantined_feeds": [
   "Aircall",
   "Capgemini Ireland",
+  "Cohesity",
   "Collins McNicholas",
   "Cubic Telecom",
   "Energia Group",
