@@ -278,7 +278,7 @@
   "company_site": "https://boards.greenhouse.io/stepstone",
   "first_seen": "2026-10-03T18:50:07+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -522,7 +522,7 @@
   "company_site": "https://www.vistra.com/careers",
   "first_seen": "2026-10-07T10:37:19+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T18:10:36+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -539,9 +539,7 @@
   ],
   "eligibility_flags": [],
   "eligibility_bonuses": [],
-  "crack_it": null,
-  "closed": true,
-  "closed_at": "2026-11-04T23:53:33+00:00"
+  "crack_it": null
  },
  {
   "id": "9b525ca386c2b671",
@@ -986,7 +984,7 @@
   "company_site": "https://fa-euxc-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/jobs",
   "first_seen": "2026-11-04T18:10:36+00:00",
   "is_new": true,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -1206,7 +1204,7 @@
   "company_site": "https://fa-euxc-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/jobs",
   "first_seen": "2026-10-23T15:36:53+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -1446,7 +1444,7 @@
   "company_site": "https://jobs.citi.com/location/dublin-jobs/287/2963597-7521314-7778677-2964574/4",
   "first_seen": "2026-10-22T14:58:20+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -1747,7 +1745,7 @@
   "company_site": "https://careers.northerntrust.com/jobs",
   "first_seen": "2026-10-19T22:20:49+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -2069,7 +2067,7 @@
   "company_site": "https://careers.northerntrust.com/jobs",
   "first_seen": "2026-10-08T15:47:26+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -3985,7 +3983,7 @@
   "company_site": "https://careers.northerntrust.com/jobs",
   "first_seen": "2026-10-03T20:23:36+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -5914,7 +5912,7 @@
   "company_site": "https://careers.northerntrust.com/jobs",
   "first_seen": "2026-11-02T20:27:57+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -6358,7 +6356,7 @@
   "company_site": "https://jobs.citi.com/location/dublin-jobs/287/2963597-7521314-7778677-2964574/4",
   "first_seen": "2026-09-24T09:38:16+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -6435,7 +6433,7 @@
   "company_site": "https://www.daa.ie/careers/",
   "first_seen": "2026-09-24T09:38:16+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -6735,7 +6733,7 @@
   "company_site": "https://jobs.aib.ie/go/Search-All-Jobs/3834700/",
   "first_seen": "2026-10-22T21:55:03+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -6962,7 +6960,7 @@
   "company_site": "https://life-careers.com/irishlife/go/All-Jobs/3805301/",
   "first_seen": "2026-09-02T04:08:24+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -7500,7 +7498,7 @@
   "company_site": "https://www.fenergo.com/careers",
   "first_seen": "2026-10-22T19:11:56+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -7713,7 +7711,7 @@
   "company_site": "https://vanguard.wd5.myworkdayjobs.com/vanguard_external",
   "first_seen": "2026-10-28T18:26:53+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -8115,7 +8113,7 @@
   "company_site": "https://vanguard.wd5.myworkdayjobs.com/vanguard_external",
   "first_seen": "2026-10-03T20:23:36+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -8278,7 +8276,7 @@
   "company_site": "https://careers.marsh.com/global/en/mercer-search",
   "first_seen": "2026-11-03T16:16:49+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -9146,7 +9144,7 @@
   "company_site": "https://www.ey.com/en_ie/careers/students",
   "first_seen": "2026-09-01T22:41:03+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -10043,7 +10041,7 @@
   "company_site": "https://cantorfitzgerald.ie/careers/",
   "first_seen": "2026-09-01T22:41:03+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -10610,7 +10608,7 @@
   "company_site": "https://jobs.ajg.com/ajg-uk/jobs?location=Ireland",
   "first_seen": "2026-10-08T15:47:26+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -10685,7 +10683,7 @@
   "company_site": "https://careers.northerntrust.com/jobs",
   "first_seen": "2026-10-12T17:11:52+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -11600,7 +11598,7 @@
   "company_site": "https://vacancies.kerry.com/search/?q=&locationsearch=Ireland",
   "first_seen": "2026-10-03T20:23:36+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -12049,7 +12047,7 @@
   "company_site": "https://www.eir.ie/jobs",
   "first_seen": "2026-10-28T01:50:57+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -13048,7 +13046,7 @@
   "company_site": "https://expleo.com/global/en/careers/",
   "first_seen": "2026-10-13T22:53:05+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -13117,7 +13115,7 @@
   "company_site": "",
   "first_seen": "2026-10-18T13:45:52+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -13797,7 +13795,7 @@
   "company_site": "https://www.ey.com/en_ie/careers/students",
   "first_seen": "2026-09-01T22:41:03+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -13864,7 +13862,7 @@
   "company_site": "https://www.ey.com/en_ie/careers/students",
   "first_seen": "2026-09-02T03:59:37+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -13936,7 +13934,7 @@
   "company_site": "https://www.centralbank.ie/careers",
   "first_seen": "2026-09-04T11:19:10+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -14238,7 +14236,7 @@
   "company_site": "https://careers.northerntrust.com/jobs",
   "first_seen": "2026-10-28T14:45:12+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -14552,7 +14550,7 @@
   "company_site": "https://www.fenergo.com/careers",
   "first_seen": "2026-09-21T16:49:09+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -15072,7 +15070,7 @@
   "company_site": "https://www.crowe.ie/careers/",
   "first_seen": "2026-09-11T01:50:24+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -15207,7 +15205,7 @@
   "company_site": "https://www.candidatemanager.net/cm/p/pJobs.aspx?mid=YGTGTU&sid=YCXAZF",
   "first_seen": "2026-10-19T10:40:55+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -15425,7 +15423,7 @@
   "company_site": "https://www.ergogroup.ie/careers/",
   "first_seen": "2026-10-27T18:31:09+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": {
    "soc4": "2423",
    "matched_title": "Business Analyst",
@@ -15507,7 +15505,7 @@
   "company_site": "https://fa-euxc-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/jobs",
   "first_seen": "2026-09-01T19:24:15+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -15571,7 +15569,7 @@
   "company_site": "https://careers.glanbia.com/",
   "first_seen": "2026-09-02T19:39:44+00:00",
   "is_new": false,
-  "last_seen": "2026-11-02T23:58:36+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -15583,9 +15581,7 @@
   ],
   "eligibility_flags": [],
   "eligibility_bonuses": [],
-  "crack_it": null,
-  "closed": true,
-  "closed_at": "2026-11-03T16:16:49+00:00"
+  "crack_it": null
  },
  {
   "id": "8cb51f998c011b85",
@@ -16267,7 +16263,7 @@
   "company_site": "https://www.centralbank.ie/careers",
   "first_seen": "2026-09-01T22:41:03+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -16336,7 +16332,7 @@
   "company_site": "https://jobs.ajg.com/ajg-uk/jobs?location=Ireland",
   "first_seen": "2026-10-03T11:58:35+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -16400,7 +16396,7 @@
   "company_site": "https://careers.northerntrust.com/jobs",
   "first_seen": "2026-10-07T10:37:19+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -18465,7 +18461,7 @@
   "company_site": "https://careers.axa.com/careers-home/jobs?location=Ireland",
   "first_seen": "2026-10-03T20:23:36+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -18537,7 +18533,7 @@
   "company_site": "https://careers.axa.com/careers-home/jobs?location=Ireland",
   "first_seen": "2026-10-03T20:23:36+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -18900,7 +18896,7 @@
   "company_site": "https://careers.northerntrust.com/jobs",
   "first_seen": "2026-10-09T10:40:38+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -19051,7 +19047,7 @@
   "company_site": "https://careers.axa.com/careers-home/jobs?location=Ireland",
   "first_seen": "2026-10-12T17:11:52+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -19120,7 +19116,7 @@
   "company_site": "https://careers.axa.com/careers-home/jobs?location=Ireland",
   "first_seen": "2026-10-15T19:13:32+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -19794,7 +19790,7 @@
   "company_site": "",
   "first_seen": "2026-10-06T20:41:47+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -20848,7 +20844,7 @@
   "company_site": "https://www.vistra.com/careers",
   "first_seen": "2026-10-21T17:47:24+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -20917,7 +20913,7 @@
   "company_site": "https://careers.statestreet.com/global/en/search-results",
   "first_seen": "2026-10-30T14:48:29+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -22556,7 +22552,7 @@
   "company_site": "https://jobs.citi.com/location/dublin-jobs/287/2963597-7521314-7778677-2964574/4",
   "first_seen": "2026-10-20T12:03:27+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -22767,7 +22763,7 @@
   "company_site": "https://jobs.citi.com/location/dublin-jobs/287/2963597-7521314-7778677-2964574/4",
   "first_seen": "2026-11-04T18:10:36+00:00",
   "is_new": true,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -23328,7 +23324,7 @@
   "company_site": "",
   "first_seen": "2026-09-01T22:41:03+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -24001,7 +23997,7 @@
   "company_site": "https://corebridgefinancial.wd1.myworkdayjobs.com/laya",
   "first_seen": "2026-10-03T20:23:36+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "flagged",
   "eligibility_reasons": [],
@@ -24555,7 +24551,7 @@
   "company_site": "https://jobs.aib.ie/go/Search-All-Jobs/3834700/",
   "first_seen": "2026-10-29T16:39:06+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -25394,7 +25390,7 @@
   "company_site": "https://www.daa.ie/careers/",
   "first_seen": "2026-09-24T09:38:16+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -25601,7 +25597,7 @@
   "company_site": "",
   "first_seen": "2026-10-09T14:01:37+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -25952,8 +25948,8 @@
   "permits": 1,
   "company_site": "https://www.sigmarrecruitment.com/job-search",
   "first_seen": "2026-11-04T02:54:17+00:00",
-  "is_new": true,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "is_new": false,
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": {
    "soc4": "2421",
    "matched_title": "accountant",
@@ -27128,7 +27124,7 @@
   "company_site": "https://fa-euxc-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/jobs",
   "first_seen": "2026-10-29T17:36:48+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -27282,7 +27278,7 @@
   "company_site": "https://pwc.wd3.myworkdayjobs.com/Global_Experienced_Careers",
   "first_seen": "2026-11-02T20:27:57+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -28238,7 +28234,7 @@
   "company_site": "https://jobs.citi.com/location/dublin-jobs/287/2963597-7521314-7778677-2964574/4",
   "first_seen": "2026-10-29T16:39:06+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -28906,7 +28902,7 @@
   "company_site": "https://careers.northerntrust.com/jobs",
   "first_seen": "2026-10-03T20:23:36+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -29224,7 +29220,7 @@
   "company_site": "https://www.sigmarrecruitment.com/job-search",
   "first_seen": "2026-11-04T18:10:36+00:00",
   "is_new": true,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "flagged",
   "eligibility_reasons": [],
@@ -29434,7 +29430,7 @@
   "company_site": "https://fa-euxc-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/jobs",
   "first_seen": "2026-09-23T10:14:23+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -30413,7 +30409,7 @@
   "company_site": "https://www.vistra.com/careers",
   "first_seen": "2026-09-01T22:41:03+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -30883,7 +30879,7 @@
   "company_site": "https://www.daa.ie/careers/",
   "first_seen": "2026-09-24T09:38:16+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -31364,7 +31360,7 @@
   "company_site": "https://life-careers.com/search-jobs",
   "first_seen": "2026-10-19T13:56:55+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -32737,7 +32733,7 @@
   "company_site": "https://cantorfitzgerald.ie/careers/",
   "first_seen": "2026-09-01T22:41:03+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -32885,7 +32881,7 @@
   "company_site": "https://careers.marsh.com/global/en/mercer-search",
   "first_seen": "2026-09-28T19:45:08+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -33183,7 +33179,7 @@
   "company_site": "https://careers.northerntrust.com/jobs",
   "first_seen": "2026-10-03T20:23:36+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -33614,7 +33610,7 @@
   "company_site": "https://kpmg.com/ie/en/careers/graduate.html",
   "first_seen": "2026-09-01T22:41:03+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -34360,7 +34356,7 @@
   "company_site": "https://life-careers.com/search-jobs",
   "first_seen": "2026-10-14T23:41:58+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -34863,7 +34859,7 @@
   "company_site": "https://jobs.aib.ie/go/Search-All-Jobs/3834700/",
   "first_seen": "2026-11-04T10:13:56+00:00",
   "is_new": true,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": {
    "soc4": "2424",
    "matched_title": "Risk Analyst",
@@ -34945,7 +34941,7 @@
   "company_site": "https://careers.eurofins.com/",
   "first_seen": "2026-11-04T23:53:33+00:00",
   "is_new": true,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -35424,7 +35420,7 @@
   "company_site": "https://careers.glanbia.com/",
   "first_seen": "2026-09-05T16:07:39+00:00",
   "is_new": false,
-  "last_seen": "2026-11-01T23:19:07+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -35436,9 +35432,7 @@
   ],
   "eligibility_flags": [],
   "eligibility_bonuses": [],
-  "crack_it": null,
-  "closed": true,
-  "closed_at": "2026-11-02T23:58:36+00:00"
+  "crack_it": null
  },
  {
   "id": "40a5df3eee66c66a",
@@ -37135,7 +37129,7 @@
   "company_site": "https://expleo.com/global/en/careers/",
   "first_seen": "2026-09-01T22:41:03+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -38846,7 +38840,7 @@
   "company_site": "https://careers.usbank.com/global/en/",
   "first_seen": "2026-10-27T18:31:09+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -40217,7 +40211,7 @@
   "company_site": "",
   "first_seen": "2026-10-03T20:23:36+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": {
    "soc4": "2424",
    "matched_title": "Credit Analyst",
@@ -40379,7 +40373,7 @@
   "company_site": "https://careers.northerntrust.com/jobs",
   "first_seen": "2026-10-03T20:23:36+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -41282,7 +41276,7 @@
   "company_site": "https://www.vistra.com/careers",
   "first_seen": "2026-11-04T18:10:36+00:00",
   "is_new": true,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -43358,7 +43352,7 @@
   "company_site": "https://www.eir.ie/jobs",
   "first_seen": "2026-10-23T19:43:19+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -43588,7 +43582,7 @@
   "company_site": "https://careers.northerntrust.com/jobs",
   "first_seen": "2026-10-29T16:39:06+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -43655,7 +43649,7 @@
   "company_site": "https://www.zurich.ie/careers/career-opportunities/",
   "first_seen": "2026-09-01T22:41:03+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -43794,7 +43788,7 @@
   "company_site": "https://expleo.com/global/en/careers/",
   "first_seen": "2026-09-02T01:29:46+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -43861,7 +43855,7 @@
   "company_site": "https://www.crawco.com/careers",
   "first_seen": "2026-09-02T03:59:37+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -44240,7 +44234,7 @@
   "company_site": "",
   "first_seen": "2026-09-15T15:07:04+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -45639,7 +45633,7 @@
   "company_site": "https://www.eir.ie/jobs",
   "first_seen": "2026-10-28T18:26:53+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -45708,7 +45702,7 @@
   "company_site": "https://careers.axa.com/careers-home/jobs?location=Ireland",
   "first_seen": "2026-10-29T17:36:48+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -45864,7 +45858,7 @@
   "company_site": "https://fa-euxc-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/jobs",
   "first_seen": "2026-11-04T18:10:36+00:00",
   "is_new": true,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -47034,7 +47028,7 @@
   "company_site": "https://careers.northerntrust.com/jobs",
   "first_seen": "2026-10-03T20:23:36+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -48048,7 +48042,7 @@
   "company_site": "https://fa-euxc-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/jobs",
   "first_seen": "2026-09-01T19:24:15+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -48704,7 +48698,7 @@
   "company_site": "https://careers.marsh.com/global/en/mercer-search",
   "first_seen": "2026-09-25T14:42:05+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -49027,7 +49021,7 @@
   "company_site": "",
   "first_seen": "2026-10-02T18:07:47+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": {
    "soc4": "2424",
    "matched_title": "Investment Analyst",
@@ -49921,7 +49915,7 @@
   "company_site": "https://careers.bankofamerica.com/en-us/job-search/ireland",
   "first_seen": "2026-10-07T17:43:20+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -50743,7 +50737,7 @@
   "company_site": "https://fa-euxc-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/jobs",
   "first_seen": "2026-11-03T16:16:49+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -54304,7 +54298,7 @@
   "company_site": "https://www.apexgroup.com/careers/",
   "first_seen": "2026-11-04T10:13:56+00:00",
   "is_new": true,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -54542,7 +54536,7 @@
   "company_site": "https://www.aig.com/careers",
   "first_seen": "2026-09-01T22:22:46+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": {
    "soc4": "2135",
    "matched_title": "Systems Analyst",
@@ -54624,7 +54618,7 @@
   "company_site": "",
   "first_seen": "2026-09-01T22:41:03+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -54701,7 +54695,7 @@
   "company_site": "https://expleo.com/global/en/careers/",
   "first_seen": "2026-09-01T22:41:03+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -54773,7 +54767,7 @@
   "company_site": "https://expleo.com/global/en/careers/",
   "first_seen": "2026-09-01T22:41:03+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -54920,7 +54914,7 @@
   "company_site": "https://expleo.com/global/en/careers/",
   "first_seen": "2026-09-02T01:29:46+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -55066,7 +55060,7 @@
   "company_site": "https://kpmg.com/ie/en/careers/graduate.html",
   "first_seen": "2026-09-02T03:59:37+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -55212,7 +55206,7 @@
   "company_site": "https://www.cscglobal.com/service/careers/",
   "first_seen": "2026-09-17T15:04:34+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -55731,7 +55725,7 @@
   "company_site": "https://medtronic.wd1.myworkdayjobs.com/MedtronicCareers",
   "first_seen": "2026-10-03T20:23:36+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -55899,7 +55893,7 @@
   "company_site": "",
   "first_seen": "2026-10-13T18:24:53+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -56550,7 +56544,7 @@
   "company_site": "https://www.ergogroup.ie/careers/",
   "first_seen": "2026-10-30T14:48:29+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -56696,7 +56690,7 @@
   "company_site": "https://www.cscglobal.com/service/careers/",
   "first_seen": "2026-09-01T19:24:15+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -56913,7 +56907,7 @@
   "company_site": "https://expleo.com/global/en/careers/",
   "first_seen": "2026-09-02T01:29:46+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -56985,7 +56979,7 @@
   "company_site": "https://sedgwick.wd1.myworkdayjobs.com/Sedgwick",
   "first_seen": "2026-09-02T03:53:37+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -57134,7 +57128,7 @@
   "company_site": "https://www.daa.ie/careers/",
   "first_seen": "2026-09-02T03:53:37+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -57280,7 +57274,7 @@
   "company_site": "https://www.daa.ie/careers/",
   "first_seen": "2026-09-02T03:53:37+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -57352,7 +57346,7 @@
   "company_site": "https://www.daa.ie/careers/",
   "first_seen": "2026-09-02T03:53:37+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -57493,7 +57487,7 @@
   "company_site": "https://careers.marsh.com/global/en/mercer-search",
   "first_seen": "2026-09-02T04:08:24+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -58193,7 +58187,7 @@
   "company_site": "",
   "first_seen": "2026-09-11T01:24:55+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -58813,7 +58807,7 @@
   "company_site": "https://jobs.ajg.com/ajg-uk/jobs?location=Ireland",
   "first_seen": "2026-10-03T11:58:35+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -60528,7 +60522,7 @@
   "company_site": "https://search.jobs.barclays/",
   "first_seen": "2026-10-29T16:39:06+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -60764,7 +60758,7 @@
   "company_site": "https://expleo.com/global/en/careers/",
   "first_seen": "2026-09-01T22:41:03+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -60831,7 +60825,7 @@
   "company_site": "https://expleo.com/global/en/careers/",
   "first_seen": "2026-09-01T22:41:03+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -60898,7 +60892,7 @@
   "company_site": "https://expleo.com/global/en/careers/",
   "first_seen": "2026-09-01T22:41:03+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -60965,7 +60959,7 @@
   "company_site": "https://expleo.com/global/en/careers/",
   "first_seen": "2026-09-01T22:41:03+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -61393,7 +61387,7 @@
   "company_site": "https://www.daa.ie/careers/",
   "first_seen": "2026-09-24T09:38:16+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -61682,7 +61676,7 @@
   "company_site": "https://careers.primark.com/en/location/ireland-jobs/30423/2963597/2",
   "first_seen": "2026-10-01T16:30:27+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -61830,7 +61824,7 @@
   "company_site": "https://pwc.wd3.myworkdayjobs.com/Global_Experienced_Careers",
   "first_seen": "2026-10-03T11:58:35+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -62823,7 +62817,7 @@
   "company_site": "",
   "first_seen": "2026-10-06T15:45:30+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -63925,7 +63919,7 @@
   "company_site": "",
   "first_seen": "2026-10-18T13:45:52+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": {
    "soc4": "2421",
    "matched_title": "Accountant",
@@ -64411,7 +64405,7 @@
   "company_site": "",
   "first_seen": "2026-10-20T16:11:32+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -64568,7 +64562,7 @@
   "company_site": "https://jobs.citi.com/location/dublin-jobs/287/2963597-7521314-7778677-2964574/4",
   "first_seen": "2026-10-21T12:06:15+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -65016,7 +65010,7 @@
   "company_site": "https://careers.primark.com/en/location/ireland-jobs/30423/2963597/2",
   "first_seen": "2026-10-30T14:48:29+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -65162,7 +65156,7 @@
   "company_site": "https://careers.statestreet.com/global/en/search-results",
   "first_seen": "2026-11-03T16:16:49+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -65370,7 +65364,7 @@
   "company_site": "https://www.musgravegroup.com/careers/",
   "first_seen": "2026-09-01T22:41:03+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -65971,7 +65965,7 @@
   "company_site": "",
   "first_seen": "2026-09-23T15:06:53+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -66054,7 +66048,7 @@
   "company_site": "https://careers.marsh.com/global/en/mercer-search",
   "first_seen": "2026-09-23T18:52:47+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -66131,7 +66125,7 @@
   "company_site": "https://life-careers.com/search-jobs",
   "first_seen": "2026-10-01T16:30:27+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": {
    "soc4": "2421",
    "matched_title": "Accountant",
@@ -66591,7 +66585,7 @@
   "company_site": "https://centrica.wd3.myworkdayjobs.com/Centrica",
   "first_seen": "2026-10-05T21:44:39+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -66913,7 +66907,7 @@
   "company_site": "",
   "first_seen": "2026-10-09T14:01:37+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -67001,7 +66995,7 @@
   "company_site": "https://www.version1.com/careers",
   "first_seen": "2026-10-13T18:24:53+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -67456,7 +67450,7 @@
   "company_site": "https://stripe.com/jobs",
   "first_seen": "2026-10-22T14:58:20+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -67528,7 +67522,7 @@
   "company_site": "https://www.cscglobal.com/service/careers/",
   "first_seen": "2026-10-22T14:58:20+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -67827,7 +67821,7 @@
   "company_site": "https://jobs.aib.ie/go/Search-All-Jobs/3834700/",
   "first_seen": "2026-11-02T20:27:57+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -67986,7 +67980,7 @@
   "company_site": "https://careers.primark.com/en/location/ireland-jobs/30423/2963597/2",
   "first_seen": "2026-11-04T18:10:36+00:00",
   "is_new": true,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "flagged",
   "eligibility_reasons": [],
@@ -68056,7 +68050,7 @@
   "company_site": "https://fa-euxc-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/jobs",
   "first_seen": "2026-09-01T19:24:15+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -68123,7 +68117,7 @@
   "company_site": "https://fa-euxc-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/jobs",
   "first_seen": "2026-09-01T19:24:15+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -68196,7 +68190,7 @@
   "company_site": "https://fa-euxc-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/jobs",
   "first_seen": "2026-09-01T19:24:15+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -68340,7 +68334,7 @@
   "company_site": "https://expleo.com/global/en/careers/",
   "first_seen": "2026-09-01T22:41:03+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -68412,7 +68406,7 @@
   "company_site": "https://opportunities.vodafone.com/search/?q=&locationsearch=ireland",
   "first_seen": "2026-09-01T22:41:03+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -69280,7 +69274,7 @@
   "company_site": "https://www.daa.ie/careers/",
   "first_seen": "2026-09-02T03:53:37+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -69865,7 +69859,7 @@
   "company_site": "https://fa-euxc-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/jobs",
   "first_seen": "2026-09-03T11:16:40+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -70318,7 +70312,7 @@
   "company_site": "",
   "first_seen": "2026-09-11T01:24:55+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -71122,7 +71116,7 @@
   "company_site": "https://www.daa.ie/careers/",
   "first_seen": "2026-09-30T11:18:31+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -72194,7 +72188,7 @@
   "company_site": "https://workday.wd5.myworkdayjobs.com/Workday",
   "first_seen": "2026-10-14T17:18:24+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -72967,7 +72961,7 @@
   "company_site": "https://jobs.concentrix.com/job-search/?country=Ireland",
   "first_seen": "2026-10-27T18:31:09+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -73039,7 +73033,7 @@
   "company_site": "https://pwc.wd3.myworkdayjobs.com/Global_Experienced_Careers",
   "first_seen": "2026-10-28T18:26:53+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -73805,7 +73799,7 @@
   "company_site": "https://www.daa.ie/careers/",
   "first_seen": "2026-11-04T23:53:33+00:00",
   "is_new": true,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -75315,7 +75309,7 @@
   "company_site": "https://jobs.ajg.com/ajg-uk/jobs?location=Ireland",
   "first_seen": "2026-10-03T11:58:35+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -75387,7 +75381,7 @@
   "company_site": "https://jobs.ajg.com/ajg-uk/jobs?location=Ireland",
   "first_seen": "2026-10-03T11:58:35+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -76555,7 +76549,7 @@
   "company_site": "https://sedgwick.wd1.myworkdayjobs.com/Sedgwick",
   "first_seen": "2026-10-13T18:24:53+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -77335,7 +77329,7 @@
   "company_site": "https://careers.marsh.com/global/en/mercer-search",
   "first_seen": "2026-10-20T16:11:32+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -77942,7 +77936,7 @@
   "company_site": "https://www.cscglobal.com/service/careers/",
   "first_seen": "2026-09-01T19:24:15+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -79058,7 +79052,7 @@
   "company_site": "https://www.fenergo.com/careers",
   "first_seen": "2026-09-18T11:38:45+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -79759,7 +79753,7 @@
   "company_site": "https://jobs.ajg.com/ajg-uk/jobs?location=Ireland",
   "first_seen": "2026-10-03T11:58:35+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -80300,7 +80294,7 @@
   "company_site": "https://careers.northerntrust.com/jobs",
   "first_seen": "2026-10-03T20:23:36+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -80624,7 +80618,7 @@
   "company_site": "https://jobs.ajg.com/ajg-uk/jobs?location=Ireland",
   "first_seen": "2026-10-07T17:43:20+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -81570,7 +81564,7 @@
   "company_site": "https://careers.marsh.com/global/en/mercer-search",
   "first_seen": "2026-10-22T19:11:56+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -81793,7 +81787,7 @@
   "company_site": "https://www.version1.com/careers",
   "first_seen": "2026-10-25T22:10:52+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -81965,7 +81959,7 @@
   "company_site": "https://careers.northerntrust.com/jobs",
   "first_seen": "2026-10-28T14:45:12+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -82662,7 +82656,7 @@
   "company_site": "https://careers.primark.com/en/location/ireland-jobs/30423/2963597/2",
   "first_seen": "2026-11-02T20:27:57+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -83108,7 +83102,7 @@
   "company_site": "https://www.apexgroup.com/careers/",
   "first_seen": "2026-09-01T19:24:15+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -83489,7 +83483,7 @@
   "company_site": "https://careers.fbdgroup.com/search/",
   "first_seen": "2026-09-01T22:41:03+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -83724,7 +83718,7 @@
   "company_site": "https://www.waystone.com/careers/",
   "first_seen": "2026-09-01T22:41:03+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -84774,7 +84768,7 @@
   "company_site": "",
   "first_seen": "2026-09-11T01:24:55+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -85345,7 +85339,7 @@
   "company_site": "https://careers.fbdgroup.com/search/",
   "first_seen": "2026-09-28T12:14:26+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -85972,7 +85966,7 @@
   "company_site": "https://jobs.ajg.com/ajg-uk/jobs?location=Ireland",
   "first_seen": "2026-10-03T11:58:35+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -86119,7 +86113,7 @@
   "company_site": "https://careers.northerntrust.com/jobs",
   "first_seen": "2026-10-03T20:23:36+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -86720,7 +86714,7 @@
   "company_site": "https://medtronic.wd1.myworkdayjobs.com/MedtronicCareers",
   "first_seen": "2026-10-09T00:58:20+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -88434,7 +88428,7 @@
   "company_site": "https://www.version1.com/careers",
   "first_seen": "2026-10-26T00:20:39+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -88522,7 +88516,7 @@
   "company_site": "https://www.version1.com/careers",
   "first_seen": "2026-10-26T00:20:39+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -88775,7 +88769,7 @@
   "company_site": "https://jobs.aib.ie/go/Search-All-Jobs/3834700/",
   "first_seen": "2026-11-02T20:27:57+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -88852,7 +88846,7 @@
   "company_site": "https://jobs.aib.ie/go/Search-All-Jobs/3834700/",
   "first_seen": "2026-11-02T20:27:57+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -88929,7 +88923,7 @@
   "company_site": "https://jobs.aib.ie/go/Search-All-Jobs/3834700/",
   "first_seen": "2026-11-02T20:27:57+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -89006,7 +89000,7 @@
   "company_site": "https://jobs.aib.ie/go/Search-All-Jobs/3834700/",
   "first_seen": "2026-11-02T20:27:57+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -89083,7 +89077,7 @@
   "company_site": "https://jobs.aib.ie/go/Search-All-Jobs/3834700/",
   "first_seen": "2026-11-02T20:27:57+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -89239,7 +89233,7 @@
   "company_site": "https://jobs.aib.ie/go/Search-All-Jobs/3834700/",
   "first_seen": "2026-11-03T10:11:42+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -89394,7 +89388,7 @@
   "company_site": "https://jobs.aib.ie/go/Search-All-Jobs/3834700/",
   "first_seen": "2026-11-04T10:13:56+00:00",
   "is_new": true,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -89941,80 +89935,6 @@
   "crack_it": null
  },
  {
-  "id": "fab0943e84a5ce95",
-  "title": "Client Associate",
-  "company": "Wells Fargo",
-  "location": "DUBLIN",
-  "url": "https://www.wellsfargojobs.com/fr/jobs/r-575323/client-associate/",
-  "description": "About this role: \n Wells Fargo is seeking a Client Associate in Wealth and Investment Management as part of Wells Fargo Advisors. Learn more about the career areas and business divisions at wellsfargojobs.com .\n \n In this role, you will: \n Assist Profit Formula Financial Advisor(s) colleagues with service and operational related activities such as providing service to clients via telephone, direct interaction and/or written correspondence\n Facilitate Profit Formula Financial Advisor and client requests for account related information and/or quotes\n Schedule and prepare for appointments with new or prospective clients\n Establish and service client accounts, prepare forms, research account inquiries and/or issues, and enter security order tickets after being approved by the Profit Formula Financial Advisor(s)\n Execute various administrative functions for the Profit Formula Financial Advisor(s) and Branch Management including, but not limited to, tracking referrals, assisting with marketing related activities, establishing and maintaining files to meet the firm's regulatory requirements\n Establish and maintain filing and record keeping necessary to support efforts to service and grow client relationships\n Act as the liaison for all referral sources by reviewing paperwork for completeness and forwarding to management for review when applicable\n \n Required Qualifications: \n 1+ year of Brokerage and Client Services support experience, or equivalent demonstrated through one or a combination of the following: work experience, training, military experience, education\n \n Desired Qualifications: \n Brokerage client support experience or financial services industry experience\n Administrative support experience in financial services\n Experience interacting directly with customers\n Intermediate Microsoft Office (Word, Excel, Outlook, and PowerPoint) skills\n Client service focus with the ability to listen to customer needs and recommend solutions\n Ability to prioritize work, meet deadlines, achieve goals, and work in a dynamic and complex environment\n \n Job Expectations: \n Specific compliance policies may apply regarding outside activities and/or personal investing; affected employees will be expected to provide information to the Wells Fargo Personal Account Dealing Team and abide by applicable policy requirements if hired. Information will be shared about expectations during the recruitment process. \n This position is subject to FINRA background screening requirements. Candidates must successfully complete and pass a background check prior to hire. In accordance with FINRA rules, individuals who are subject to statutory disqualification are not eligible to be associated with a FINRA-registered broker-dealer. Successful candidates must also meet and comply with ongoing regulatory obligations, which include periodic screening and mandatory reporting of certain incidents.\n This position is not eligible for Visa sponsorship. \n Position location\n 6515 Longshore Loop \nDUBLIN, OH 43017\n\n Pay Range \n \n\nReflected is the base pay range offered for this position. Pay may vary depending on factors including but not limited to demonstrated examples of prior performance, skills, experience, or work location. Employees may also be eligible for incentive opportunities.&#xa;$23.08 - $33.17 Benefits \n Wells Fargo provides eligible employees with a comprehensive set of benefits, many of which are listed below. Visit  Benefits - Wells Fargo Jobs for an overview of the following benefit plans and programs offered to employees.\n Health benefits\n 401(k) Plan\n Paid time off\n Disability benefits\n Life insurance, critical illness insurance, and accident insurance\n Parental leave\n Critical caregiving leave\n Discounts and savings\n Commuter benefits\n Tuition reimbursement\n Scholarships for dependent children\n Adoption reimbursement\n Posting End Date: \n24 Sep 2026 * Job posting may come down early due to volume of applicants. \n We Value Equal Opportunity \n Wells Fargo is an equal opportunity employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, disability, status as a protected veteran, or any other legally protected characteristic.\n Employees support our focus on building strong customer relationships balanced with a strong risk mitigating and compliance-driven culture which firmly establishes those disciplines as critical to the success of our customers and company. They are accountable for execution of all applicable risk programs (Credit, Market, Financial Crimes, Operational, Regulatory Compliance), which includes effectively following and adhering to applicable Wells Fargo policies and procedures, appropriately fulfilling risk and compliance obligations, timely and effective escalation and remediation of issues, and making sound risk decisions. There is emphasis on proactive monitoring, governance, risk identification and escalation, as well as making sound risk decisions commensurate with the business unit’s risk appetite and all risk and compliance program requirements.\n Applicants with Disabilities \n To request a medical accommodation during the application or interview process, visit  Disability Inclusion at Wells Fargo .\n Drug and Alcohol Policy \n   \n Wells Fargo maintains a drug free workplace.  Please see our Drug and Alcohol Policy to learn more.\n Wells Fargo Recruitment and Hiring Requirements: \n a. Third-Party recordings are prohibited unless authorized by Wells Fargo.\n b. Wells Fargo requires you to directly represent your own experiences during the recruiting and hiring process.",
-  "posted_at": "2026-09-18T00:00:00+00:00",
-  "closes_at": "",
-  "salary": "",
-  "source": "sitemap",
-  "department": "",
-  "employment_type": "FULL_TIME",
-  "sponsorship": null,
-  "salary_eur": null,
-  "permit_route": null,
-  "score": 22,
-  "band": "weak",
-  "breakdown": [
-   {
-    "label": "Role fit",
-    "points": 0,
-    "note": "This job title is not one your CV qualifies you for — capped accordingly"
-   },
-   {
-    "label": "Early careers",
-    "points": 0,
-    "note": "No graduate/junior/internship signal"
-   },
-   {
-    "label": "Tools you have",
-    "points": 8,
-    "note": "Wants excel — all on your CV"
-   },
-   {
-    "label": "Industry fit",
-    "points": 4,
-    "note": "Advert is built around insurance"
-   },
-   {
-    "label": "Location",
-    "points": 10,
-    "note": "Dublin"
-   },
-   {
-    "label": "Sponsorship",
-    "points": 0,
-    "note": "Not on this year's employment permit register"
-   }
-  ],
-  "sponsor_tier": 0,
-  "permits": 0,
-  "company_site": "",
-  "first_seen": "2026-09-18T21:10:07+00:00",
-  "is_new": false,
-  "last_seen": "2026-09-21T00:41:47+00:00",
-  "eligibility": "blocked",
-  "eligibility_reasons": [
-   {
-    "code": "field",
-    "detail": "not her line of work",
-    "quote": "Client Associate"
-   },
-   {
-    "code": "sponsorship",
-    "detail": "says no visa sponsorship",
-    "quote": "This position is not eligible for Visa sponsorship"
-   }
-  ],
-  "eligibility_flags": [],
-  "eligibility_bonuses": [],
-  "csol": null,
-  "crack_it": null
- },
- {
   "id": "a6f30375cca5aea1",
   "title": "Business Development Representative",
   "company": "Intercom Ireland",
@@ -90544,7 +90464,7 @@
   "company_site": "https://careers.northerntrust.com/jobs",
   "first_seen": "2026-10-03T20:23:36+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -90972,7 +90892,7 @@
   "company_site": "https://jobs.ajg.com/ajg-uk/jobs?location=Ireland",
   "first_seen": "2026-10-09T19:15:41+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -91182,7 +91102,7 @@
   "company_site": "https://careers.northerntrust.com/jobs",
   "first_seen": "2026-10-14T23:41:58+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -91722,7 +91642,7 @@
   "company_site": "https://www.eir.ie/jobs",
   "first_seen": "2026-10-21T17:47:24+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -91799,7 +91719,7 @@
   "company_site": "https://careers.northerntrust.com/jobs",
   "first_seen": "2026-10-28T14:45:12+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": {
    "soc4": "2421",
    "matched_title": "Accountant",
@@ -91886,7 +91806,7 @@
   "company_site": "https://careers.northerntrust.com/jobs",
   "first_seen": "2026-10-28T14:45:12+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -92275,7 +92195,7 @@
   "company_site": "https://jobs.citi.com/location/dublin-jobs/287/2963597-7521314-7778677-2964574/4",
   "first_seen": "2026-09-01T22:22:46+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -93348,7 +93268,7 @@
   "company_site": "",
   "first_seen": "2026-09-24T09:38:16+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "flagged",
   "eligibility_reasons": [],
@@ -94122,7 +94042,7 @@
   "company_site": "https://archgroup.wd1.myworkdayjobs.com/Careers",
   "first_seen": "2026-10-03T20:23:36+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -96308,7 +96228,7 @@
   "company_site": "https://www.vistra.com/careers",
   "first_seen": "2026-10-27T12:37:48+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -96540,7 +96460,7 @@
   "company_site": "https://careers.primark.com/en/location/ireland-jobs/30423/2963597/2",
   "first_seen": "2026-11-02T20:27:57+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -96916,7 +96836,7 @@
   "company_site": "https://careers.northerntrust.com/jobs",
   "first_seen": "2026-11-04T18:10:36+00:00",
   "is_new": true,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -96989,7 +96909,7 @@
   "company_site": "https://careers.jpmorgan.com/global/en/students",
   "first_seen": "2026-11-04T18:10:36+00:00",
   "is_new": true,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -97204,7 +97124,7 @@
   "company_site": "https://expleo.com/global/en/careers/",
   "first_seen": "2026-09-01T22:41:03+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -98714,7 +98634,7 @@
   "company_site": "https://careers.northerntrust.com/jobs",
   "first_seen": "2026-10-03T20:23:36+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -99174,7 +99094,7 @@
   "company_site": "https://www.vistra.com/careers",
   "first_seen": "2026-10-08T15:47:26+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -100277,7 +100197,7 @@
   "company_site": "https://careers.statestreet.com/global/en/search-results",
   "first_seen": "2026-10-15T11:59:47+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -101858,7 +101778,7 @@
   "company_site": "",
   "first_seen": "2026-10-22T19:11:56+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -102024,7 +101944,7 @@
   "company_site": "https://vanguard.wd5.myworkdayjobs.com/vanguard_external",
   "first_seen": "2026-10-28T18:26:53+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -102620,7 +102540,7 @@
   "company_site": "https://www.daa.ie/careers/",
   "first_seen": "2026-11-04T23:53:33+00:00",
   "is_new": true,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -102756,7 +102676,7 @@
   "company_site": "https://careers.fbdgroup.com/search/",
   "first_seen": "2026-09-01T22:41:03+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -102828,7 +102748,7 @@
   "company_site": "https://life-careers.com/irishlife/go/All-Jobs/3805301/",
   "first_seen": "2026-09-02T04:08:24+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -105828,7 +105748,7 @@
   "company_site": "https://www.daa.ie/careers/",
   "first_seen": "2026-10-21T17:47:24+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -105900,7 +105820,7 @@
   "company_site": "https://www.daa.ie/careers/",
   "first_seen": "2026-10-21T17:47:24+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -105972,7 +105892,7 @@
   "company_site": "https://careers.eurofins.com/",
   "first_seen": "2026-10-22T00:13:22+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -106204,7 +106124,7 @@
   "company_site": "https://careers.eurofins.com/",
   "first_seen": "2026-10-22T21:55:03+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -106738,7 +106658,7 @@
   "company_site": "https://www.daa.ie/careers/",
   "first_seen": "2026-11-02T23:58:36+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -106810,7 +106730,7 @@
   "company_site": "",
   "first_seen": "2026-11-02T23:58:36+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -106966,7 +106886,7 @@
   "company_site": "https://www.sigmarrecruitment.com/job-search",
   "first_seen": "2026-11-03T17:58:14+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -107045,7 +106965,7 @@
   "company_site": "https://www.sigmarrecruitment.com/job-search",
   "first_seen": "2026-11-04T18:10:36+00:00",
   "is_new": true,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -107119,7 +107039,7 @@
   "company_site": "https://www.sigmarrecruitment.com/job-search",
   "first_seen": "2026-11-04T18:10:36+00:00",
   "is_new": true,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -107201,7 +107121,7 @@
   "company_site": "https://careers.datadoghq.com",
   "first_seen": "2026-09-01T16:15:25+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -107337,7 +107257,7 @@
   "company_site": "https://www.exlservice.com/careers",
   "first_seen": "2026-09-01T19:24:15+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -107961,7 +107881,7 @@
   "company_site": "https://workday.wd5.myworkdayjobs.com/Workday",
   "first_seen": "2026-09-01T22:22:46+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -108028,7 +107948,7 @@
   "company_site": "https://workday.wd5.myworkdayjobs.com/Workday",
   "first_seen": "2026-09-02T03:53:37+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -109734,7 +109654,7 @@
   "company_site": "https://www.version1.com/careers",
   "first_seen": "2026-09-21T11:02:29+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -110151,7 +110071,7 @@
   "company_site": "https://bdoireland.pinpointhq.com/",
   "first_seen": "2026-09-22T12:17:36+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -113499,7 +113419,7 @@
   "company_site": "https://careers.northerntrust.com/jobs",
   "first_seen": "2026-10-03T20:23:36+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -116884,7 +116804,7 @@
   "company_site": "https://careers.statestreet.com/global/en/search-results",
   "first_seen": "2026-10-15T16:08:20+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": {
    "soc4": "2135",
    "matched_title": "Systems Analyst",
@@ -117132,7 +117052,7 @@
   "company_site": "https://www.version1.com/careers",
   "first_seen": "2026-10-16T18:13:53+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -118244,7 +118164,7 @@
   "company_site": "https://www.ergogroup.ie/careers/",
   "first_seen": "2026-10-21T12:06:15+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -119451,7 +119371,7 @@
   "company_site": "",
   "first_seen": "2026-10-29T10:01:04+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -121094,7 +121014,7 @@
   "company_site": "https://www.hse.ie/eng/careers/",
   "first_seen": "2026-11-04T18:10:36+00:00",
   "is_new": true,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -121171,7 +121091,7 @@
   "company_site": "https://www.hse.ie/eng/careers/",
   "first_seen": "2026-11-04T18:10:36+00:00",
   "is_new": true,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -121238,7 +121158,7 @@
   "company_site": "https://www.hse.ie/eng/careers/",
   "first_seen": "2026-11-04T18:10:36+00:00",
   "is_new": true,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -121315,7 +121235,7 @@
   "company_site": "https://www.hse.ie/eng/careers/",
   "first_seen": "2026-11-04T18:10:36+00:00",
   "is_new": true,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -121394,7 +121314,9 @@
   ],
   "eligibility_flags": [],
   "eligibility_bonuses": [],
-  "crack_it": null
+  "crack_it": null,
+  "closed": true,
+  "closed_at": "2026-11-05T03:55:21+00:00"
  },
  {
   "id": "82ae2cd7e71ac52e",
@@ -121533,7 +121455,7 @@
   "company_site": "https://expleo.com/global/en/careers/",
   "first_seen": "2026-09-01T22:41:03+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -122508,7 +122430,7 @@
   "company_site": "https://www.eir.ie/jobs",
   "first_seen": "2026-09-04T22:48:41+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -122585,7 +122507,7 @@
   "company_site": "",
   "first_seen": "2026-09-11T01:24:55+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -123408,7 +123330,7 @@
   "company_site": "https://opportunities.vodafone.com/search/?q=&locationsearch=ireland",
   "first_seen": "2026-09-18T18:32:20+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -123788,7 +123710,7 @@
   "company_site": "https://www.fenergo.com/careers",
   "first_seen": "2026-09-24T14:32:21+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -124514,7 +124436,7 @@
   "company_site": "https://careers.northerntrust.com/jobs",
   "first_seen": "2026-10-03T20:23:36+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -125824,7 +125746,7 @@
   "company_site": "https://jobs.fidelity.com/",
   "first_seen": "2026-10-15T19:13:32+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -126133,7 +126055,7 @@
   "company_site": "",
   "first_seen": "2026-10-18T13:45:52+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": {
    "soc4": "2421",
    "matched_title": "Accountant",
@@ -126945,7 +126867,7 @@
   "company_site": "https://www.version1.com/careers",
   "first_seen": "2026-10-20T16:11:32+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -128060,7 +127982,7 @@
   "company_site": "https://careers.klaviyo.com",
   "first_seen": "2026-10-27T12:37:48+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -128137,7 +128059,7 @@
   "company_site": "https://www.daa.ie/careers/",
   "first_seen": "2026-10-27T18:31:09+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": {
    "soc4": "2135",
    "matched_title": "Systems Analyst",
@@ -128607,7 +128529,7 @@
   "company_site": "https://www.daa.ie/careers/",
   "first_seen": "2026-11-02T23:58:36+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -128748,7 +128670,7 @@
   "company_site": "https://www.sigmarrecruitment.com/job-search",
   "first_seen": "2026-11-03T17:58:14+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -128822,7 +128744,7 @@
   "company_site": "https://www.sigmarrecruitment.com/job-search",
   "first_seen": "2026-11-03T17:58:14+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -129098,7 +129020,7 @@
   "company_site": "https://www.sigmarrecruitment.com/job-search",
   "first_seen": "2026-11-04T18:10:36+00:00",
   "is_new": true,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -129175,7 +129097,7 @@
   "company_site": "https://www.daa.ie/careers/",
   "first_seen": "2026-11-04T23:53:33+00:00",
   "is_new": true,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -129239,7 +129161,7 @@
   "company_site": "https://careers.datadoghq.com",
   "first_seen": "2026-09-01T16:15:25+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -129311,7 +129233,7 @@
   "company_site": "https://careers.datadoghq.com",
   "first_seen": "2026-09-01T16:15:25+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -129383,7 +129305,7 @@
   "company_site": "https://careers.datadoghq.com",
   "first_seen": "2026-09-01T16:15:25+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -129593,7 +129515,7 @@
   "company_site": "https://careers.primark.com/en/location/ireland-jobs/30423/2963597/2",
   "first_seen": "2026-09-01T19:24:15+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -129798,7 +129720,7 @@
   "company_site": "https://careers.primark.com/en/location/ireland-jobs/30423/2963597/2",
   "first_seen": "2026-09-01T19:24:15+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -130281,7 +130203,7 @@
   "company_site": "https://www.daa.ie/careers/",
   "first_seen": "2026-09-02T03:53:37+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -131920,7 +131842,7 @@
   "company_site": "https://www.wayflyer.com/careers",
   "first_seen": "2026-09-05T00:44:47+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -132512,7 +132434,7 @@
   "company_site": "https://careers.bankofireland.com/",
   "first_seen": "2026-09-11T13:43:29+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -133722,7 +133644,7 @@
   "company_site": "https://careers.datadoghq.com",
   "first_seen": "2026-09-24T18:36:29+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -134315,7 +134237,7 @@
   "company_site": "https://www.daa.ie/careers/",
   "first_seen": "2026-09-30T11:18:31+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -134392,7 +134314,7 @@
   "company_site": "https://careers.statestreet.com/global/en/search-results",
   "first_seen": "2026-09-30T15:34:01+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -134536,7 +134458,7 @@
   "company_site": "https://careers.primark.com/en/location/ireland-jobs/30423/2963597/2",
   "first_seen": "2026-10-02T12:37:52+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -134603,7 +134525,7 @@
   "company_site": "https://careers.primark.com/en/location/ireland-jobs/30423/2963597/2",
   "first_seen": "2026-10-02T12:37:52+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -135274,7 +135196,7 @@
   "company_site": "https://careers.bankofamerica.com/en-us/job-search/ireland",
   "first_seen": "2026-10-03T20:23:36+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -135351,7 +135273,7 @@
   "company_site": "https://pwc.wd3.myworkdayjobs.com/Global_Experienced_Careers",
   "first_seen": "2026-10-03T20:23:36+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -135590,7 +135512,7 @@
   "company_site": "https://careers.northerntrust.com/jobs",
   "first_seen": "2026-10-03T20:23:36+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -137202,7 +137124,7 @@
   "company_site": "https://centrica.wd3.myworkdayjobs.com/Centrica",
   "first_seen": "2026-10-08T15:47:26+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -137494,7 +137416,7 @@
   "company_site": "https://www.sigmarrecruitment.com/job-search",
   "first_seen": "2026-10-08T15:47:26+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -138531,7 +138453,7 @@
   "company_site": "https://careers.northerntrust.com/jobs",
   "first_seen": "2026-10-15T17:00:12+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -138991,7 +138913,7 @@
   "company_site": "https://careers.oracle.com/jobs",
   "first_seen": "2026-10-16T23:42:22+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -139201,7 +139123,7 @@
   "company_site": "https://careers.eurofins.com/",
   "first_seen": "2026-10-18T13:45:52+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -139268,7 +139190,7 @@
   "company_site": "https://careers.eurofins.com/",
   "first_seen": "2026-10-18T13:45:52+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -139335,7 +139257,7 @@
   "company_site": "https://careers.eurofins.com/",
   "first_seen": "2026-10-18T13:45:52+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -139471,7 +139393,7 @@
   "company_site": "https://careers.eurofins.com/",
   "first_seen": "2026-10-18T13:45:52+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -139538,7 +139460,7 @@
   "company_site": "https://careers.eurofins.com/",
   "first_seen": "2026-10-18T13:45:52+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "flagged",
   "eligibility_reasons": [],
@@ -139608,7 +139530,7 @@
   "company_site": "https://careers.eurofins.com/",
   "first_seen": "2026-10-18T13:45:52+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -140207,7 +140129,7 @@
   "company_site": "https://careers.primark.com/en/location/ireland-jobs/30423/2963597/2",
   "first_seen": "2026-10-21T01:55:58+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -140778,7 +140700,7 @@
   "company_site": "https://careers.eurofins.com/",
   "first_seen": "2026-10-22T21:55:03+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -140845,7 +140767,7 @@
   "company_site": "https://careers.primark.com/en/location/ireland-jobs/30423/2963597/2",
   "first_seen": "2026-10-23T10:45:03+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -140912,7 +140834,7 @@
   "company_site": "https://careers.primark.com/en/location/ireland-jobs/30423/2963597/2",
   "first_seen": "2026-10-23T10:45:03+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -140979,7 +140901,7 @@
   "company_site": "https://careers.primark.com/en/location/ireland-jobs/30423/2963597/2",
   "first_seen": "2026-10-23T10:45:03+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -141207,7 +141129,7 @@
   "company_site": "https://careers.primark.com/en/location/ireland-jobs/30423/2963597/2",
   "first_seen": "2026-10-23T15:36:53+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -141518,7 +141440,9 @@
   ],
   "eligibility_flags": [],
   "eligibility_bonuses": [],
-  "crack_it": null
+  "crack_it": null,
+  "closed": true,
+  "closed_at": "2026-11-05T03:55:21+00:00"
  },
  {
   "id": "d4ce65869914a3c0",
@@ -141573,7 +141497,7 @@
   "company_site": "https://careers.primark.com/en/location/ireland-jobs/30423/2963597/2",
   "first_seen": "2026-10-28T18:26:53+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -141646,7 +141570,7 @@
   "company_site": "https://careers.eurofins.com/",
   "first_seen": "2026-10-28T18:26:53+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -141784,7 +141708,7 @@
   "company_site": "https://careers.primark.com/en/location/ireland-jobs/30423/2963597/2",
   "first_seen": "2026-10-29T16:39:06+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "flagged",
   "eligibility_reasons": [],
@@ -141869,7 +141793,7 @@
   "company_site": "https://www.eir.ie/jobs",
   "first_seen": "2026-10-29T17:36:48+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "flagged",
   "eligibility_reasons": [],
@@ -142159,7 +142083,7 @@
   "company_site": "https://careers.primark.com/en/location/ireland-jobs/30423/2963597/2",
   "first_seen": "2026-11-02T20:27:57+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -142226,7 +142150,7 @@
   "company_site": "https://careers.primark.com/en/location/ireland-jobs/30423/2963597/2",
   "first_seen": "2026-11-02T20:27:57+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -142360,7 +142284,7 @@
   "company_site": "https://careers.eurofins.com/",
   "first_seen": "2026-11-03T10:11:42+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -142427,7 +142351,7 @@
   "company_site": "https://careers.eurofins.com/",
   "first_seen": "2026-11-03T16:16:49+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -142494,7 +142418,7 @@
   "company_site": "https://careers.datadoghq.com",
   "first_seen": "2026-11-03T16:16:49+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -142571,7 +142495,7 @@
   "company_site": "",
   "first_seen": "2026-11-03T16:16:49+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -142714,7 +142638,7 @@
   "company_site": "https://www.sigmarrecruitment.com/job-search",
   "first_seen": "2026-11-03T17:58:14+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -142783,7 +142707,7 @@
   "company_site": "https://www.sigmarrecruitment.com/job-search",
   "first_seen": "2026-11-03T17:58:14+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -142863,7 +142787,7 @@
   "company_site": "https://www.sigmarrecruitment.com/job-search",
   "first_seen": "2026-11-04T18:10:36+00:00",
   "is_new": true,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -142932,7 +142856,7 @@
   "company_site": "https://www.sigmarrecruitment.com/job-search",
   "first_seen": "2026-11-04T18:10:36+00:00",
   "is_new": true,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -143237,7 +143161,7 @@
   "company_site": "https://jobs.apple.com/en-ie/search?location=ireland-IRLC",
   "first_seen": "2026-09-01T22:41:03+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -145068,7 +144992,7 @@
   "company_site": "https://fa-euxc-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/jobs",
   "first_seen": "2026-10-01T09:20:03+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -145151,7 +145075,7 @@
   "company_site": "https://pwc.wd3.myworkdayjobs.com/Global_Experienced_Careers",
   "first_seen": "2026-10-03T11:58:35+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -145624,7 +145548,7 @@
   "company_site": "https://jobs.concentrix.com/job-search/?country=Ireland",
   "first_seen": "2026-10-03T20:23:36+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -145982,7 +145906,7 @@
   "company_site": "https://careers.northerntrust.com/jobs",
   "first_seen": "2026-10-03T20:23:36+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -146217,7 +146141,7 @@
   "company_site": "https://careers.northerntrust.com/jobs",
   "first_seen": "2026-10-05T15:11:57+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -146836,7 +146760,7 @@
   "company_site": "https://www.eir.ie/jobs",
   "first_seen": "2026-10-08T15:47:26+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -148106,7 +148030,7 @@
   "company_site": "https://www.eir.ie/jobs",
   "first_seen": "2026-10-20T10:05:01+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -149088,7 +149012,7 @@
   "company_site": "https://www.vistra.com/careers",
   "first_seen": "2026-11-01T01:37:33+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -149165,7 +149089,7 @@
   "company_site": "https://www.version1.com/careers",
   "first_seen": "2026-11-01T15:22:53+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -149574,7 +149498,7 @@
   "company_site": "https://careers.primark.com/en/location/ireland-jobs/30423/2963597/2",
   "first_seen": "2026-11-03T16:16:49+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -149656,7 +149580,7 @@
   "company_site": "https://careers.primark.com/en/location/ireland-jobs/30423/2963597/2",
   "first_seen": "2026-11-03T17:58:14+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -149802,7 +149726,7 @@
   "company_site": "https://www.sigmarrecruitment.com/job-search",
   "first_seen": "2026-11-04T18:10:36+00:00",
   "is_new": true,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -150169,7 +150093,7 @@
   "company_site": "https://www.tp.com/en-ie/locations/ireland/careers/",
   "first_seen": "2026-09-01T22:41:03+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -152015,7 +151939,7 @@
   "company_site": "https://www.vistra.com/careers",
   "first_seen": "2026-09-12T22:48:35+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -155679,7 +155603,7 @@
   "company_site": "https://careers.mastercard.com/us/en/dublin-ireland",
   "first_seen": "2026-10-13T11:18:57+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -156575,7 +156499,7 @@
   "company_site": "https://www.ey.com/en_ie/careers/students",
   "first_seen": "2026-10-19T23:08:30+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -156642,7 +156566,7 @@
   "company_site": "https://www.ey.com/en_ie/careers/students",
   "first_seen": "2026-10-19T23:08:30+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -156709,7 +156633,7 @@
   "company_site": "https://www.ey.com/en_ie/careers/students",
   "first_seen": "2026-10-19T23:08:30+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -156776,7 +156700,7 @@
   "company_site": "https://www.ey.com/en_ie/careers/students",
   "first_seen": "2026-10-19T23:08:30+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -156843,7 +156767,7 @@
   "company_site": "https://www.ey.com/en_ie/careers/students",
   "first_seen": "2026-10-19T23:08:30+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -156910,7 +156834,7 @@
   "company_site": "https://www.ey.com/en_ie/careers/students",
   "first_seen": "2026-10-19T23:08:30+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -156977,7 +156901,7 @@
   "company_site": "https://www.ey.com/en_ie/careers/students",
   "first_seen": "2026-10-19T23:08:30+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -157686,7 +157610,7 @@
   "company_site": "https://www.vistra.com/careers",
   "first_seen": "2026-10-26T11:09:44+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -157930,7 +157854,7 @@
   "company_site": "https://www.eir.ie/jobs",
   "first_seen": "2026-10-28T01:50:57+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -158002,7 +157926,7 @@
   "company_site": "https://www.eir.ie/jobs",
   "first_seen": "2026-10-28T01:50:57+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -158074,7 +157998,7 @@
   "company_site": "https://www.eir.ie/jobs",
   "first_seen": "2026-10-28T01:50:57+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -159146,7 +159070,7 @@
   "company_site": "https://careers.wtwco.com/",
   "first_seen": "2026-11-03T17:58:14+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -159213,7 +159137,7 @@
   "company_site": "https://careers.wtwco.com/",
   "first_seen": "2026-11-04T10:13:56+00:00",
   "is_new": true,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -159287,7 +159211,7 @@
   "company_site": "https://www.sigmarrecruitment.com/job-search",
   "first_seen": "2026-11-04T18:10:36+00:00",
   "is_new": true,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -159356,7 +159280,7 @@
   "company_site": "https://www.sigmarrecruitment.com/job-search",
   "first_seen": "2026-11-04T18:10:36+00:00",
   "is_new": true,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -159436,7 +159360,7 @@
   "company_site": "https://www.sigmarrecruitment.com/job-search",
   "first_seen": "2026-11-04T18:10:36+00:00",
   "is_new": true,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -159508,7 +159432,7 @@
   "company_site": "https://jobs.fidelity.com/",
   "first_seen": "2026-09-01T22:41:03+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -160714,7 +160638,7 @@
   "company_site": "",
   "first_seen": "2026-10-03T20:23:36+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -162993,7 +162917,7 @@
   "company_site": "https://centrica.wd3.myworkdayjobs.com/Centrica",
   "first_seen": "2026-10-22T21:55:03+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -163509,7 +163433,7 @@
   "company_site": "https://workday.wd5.myworkdayjobs.com/Workday",
   "first_seen": "2026-11-02T20:27:57+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -163964,7 +163888,7 @@
   "company_site": "https://www.sigmarrecruitment.com/job-search",
   "first_seen": "2026-11-03T17:58:14+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": {
    "soc4": "2421",
    "matched_title": "Accountant",
@@ -164140,7 +164064,7 @@
   "company_site": "https://www.sigmarrecruitment.com/job-search",
   "first_seen": "2026-11-04T18:10:36+00:00",
   "is_new": true,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -164896,7 +164820,7 @@
   "company_site": "https://expleo.com/global/en/careers/",
   "first_seen": "2026-09-11T13:01:40+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -165512,7 +165436,7 @@
   "company_site": "",
   "first_seen": "2026-10-03T20:23:36+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -166000,7 +165924,7 @@
   "company_site": "",
   "first_seen": "2026-10-06T15:45:30+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -166596,7 +166520,7 @@
   "company_site": "https://archgroup.wd1.myworkdayjobs.com/Careers",
   "first_seen": "2026-10-15T06:36:17+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -166673,7 +166597,7 @@
   "company_site": "https://www.wayflyer.com/careers",
   "first_seen": "2026-10-15T11:59:47+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -167183,7 +167107,7 @@
   "company_site": "",
   "first_seen": "2026-10-21T17:47:24+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -167657,7 +167581,7 @@
   "company_site": "https://careers.primark.com/en/location/ireland-jobs/30423/2963597/2",
   "first_seen": "2026-10-29T16:39:06+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -167953,7 +167877,7 @@
   "company_site": "https://www.three.ie/careers",
   "first_seen": "2026-09-01T22:41:03+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -168828,7 +168752,7 @@
   "company_site": "https://www.letsgetchecked.com/careers",
   "first_seen": "2026-09-05T00:44:47+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -169115,7 +169039,7 @@
   "company_site": "https://www.wayflyer.com/careers",
   "first_seen": "2026-09-11T13:01:40+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -169197,7 +169121,7 @@
   "company_site": "https://www.wayflyer.com/careers",
   "first_seen": "2026-09-11T13:01:40+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -171739,7 +171663,7 @@
   "company_site": "",
   "first_seen": "2026-10-03T20:23:36+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -171813,7 +171737,7 @@
   "company_site": "",
   "first_seen": "2026-10-03T20:23:36+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -171887,7 +171811,7 @@
   "company_site": "",
   "first_seen": "2026-10-03T20:23:36+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -173091,7 +173015,7 @@
   "company_site": "https://www.tines.com/careers",
   "first_seen": "2026-10-09T10:40:38+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -175053,7 +174977,7 @@
   "company_site": "https://www.ergogroup.ie/careers/",
   "first_seen": "2026-10-22T14:58:20+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -176194,7 +176118,7 @@
   "company_site": "https://www.ergogroup.ie/careers/",
   "first_seen": "2026-11-02T20:27:57+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -176629,7 +176553,7 @@
   "company_site": "https://www.version1.com/careers",
   "first_seen": "2026-11-03T16:16:49+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -176721,7 +176645,7 @@
   "company_site": "https://www.aig.com/careers",
   "first_seen": "2026-11-04T18:10:36+00:00",
   "is_new": true,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -178617,7 +178541,7 @@
   "company_site": "https://www.exlservice.com/careers",
   "first_seen": "2026-10-07T17:43:20+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -179611,7 +179535,7 @@
   "company_site": "",
   "first_seen": "2026-10-27T18:31:09+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -179750,7 +179674,7 @@
   "company_site": "https://jobs.citi.com/location/dublin-jobs/287/2963597-7521314-7778677-2964574/4",
   "first_seen": "2026-10-28T18:26:53+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -180314,7 +180238,7 @@
   "company_site": "https://www.genesys.com/company/careers",
   "first_seen": "2026-11-04T18:10:36+00:00",
   "is_new": true,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -180817,7 +180741,7 @@
   "company_site": "https://www.wayflyer.com/careers",
   "first_seen": "2026-10-07T17:43:20+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -181041,7 +180965,7 @@
   "company_site": "https://www.aig.com/careers",
   "first_seen": "2026-09-04T11:19:10+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "blocked",
   "eligibility_reasons": [
@@ -181118,7 +181042,7 @@
   "company_site": "https://www.aig.com/careers",
   "first_seen": "2026-09-04T11:19:10+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -181192,7 +181116,7 @@
   "company_site": "https://www.aig.com/careers",
   "first_seen": "2026-09-04T11:19:10+00:00",
   "is_new": false,
-  "last_seen": "2026-11-04T23:53:33+00:00",
+  "last_seen": "2026-11-05T03:55:21+00:00",
   "csol": null,
   "eligibility": "eligible",
   "eligibility_reasons": [],
@@ -181295,7 +181219,9 @@
    }
   ],
   "eligibility_bonuses": [],
-  "crack_it": null
+  "crack_it": null,
+  "closed": true,
+  "closed_at": "2026-11-05T03:55:21+00:00"
  },
  {
   "id": "2862dfaf88c80f8f",
