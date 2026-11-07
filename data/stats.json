@@ -1,20 +1,26 @@
 {
- "last_run": "2026-11-07T06:45:15+00:00",
+ "last_run": "2026-11-07T13:38:23+00:00",
  "companies_total": 366,
- "companies_scanned": 176,
- "boards_failed": 0,
- "raw_postings": 13955,
- "relevant_jobs": 2428,
+ "companies_scanned": 175,
+ "boards_failed": 1,
+ "raw_postings": 15926,
+ "relevant_jobs": 2427,
  "min_score": 10,
- "new_this_run": 93,
+ "new_this_run": 96,
  "by_band": {
-  "excellent": 106,
+  "excellent": 107,
   "strong": 113,
-  "decent": 153,
+  "decent": 152,
   "stretch": 310,
-  "weak": 1746
+  "weak": 1745
  },
- "top_errors": [],
+ "top_errors": [
+  {
+   "company": "Revolut Ireland",
+   "ats": "sitemap",
+   "error": "no sitemap found"
+  }
+ ],
  "quarantined_feeds": [
   "Aircall",
   "Capgemini Ireland",
