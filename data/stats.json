@@ -1,20 +1,101 @@
 {
- "last_run": "2026-11-07T18:25:25+00:00",
+ "last_run": "2026-11-07T22:09:28+00:00",
  "companies_total": 366,
- "companies_scanned": 176,
- "boards_failed": 0,
- "raw_postings": 16624,
- "relevant_jobs": 2422,
+ "companies_scanned": 191,
+ "boards_failed": 16,
+ "raw_postings": 17617,
+ "relevant_jobs": 2420,
  "min_score": 10,
- "new_this_run": 92,
+ "new_this_run": 94,
  "by_band": {
   "excellent": 107,
   "strong": 113,
   "decent": 152,
   "stretch": 309,
-  "weak": 1741
+  "weak": 1739
  },
- "top_errors": [],
+ "top_errors": [
+  {
+   "company": "PayPal Ireland",
+   "ats": "joblinks",
+   "error": "found 1 job links but none were readable"
+  },
+  {
+   "company": "Capgemini Ireland",
+   "ats": "sitemap",
+   "error": "sitemap had 2126 URLs but none looked like jobs"
+  },
+  {
+   "company": "LTIMindtree Ireland",
+   "ats": "sitemap",
+   "error": "sitemap had 500 URLs but none looked like jobs"
+  },
+  {
+   "company": "SoftCo",
+   "ats": "hirehive",
+   "error": "hirehive: no feed"
+  },
+  {
+   "company": "Wrkit",
+   "ats": "recruitee",
+   "error": "board not found (404)"
+  },
+  {
+   "company": "Nostra",
+   "ats": "workable",
+   "error": "board not found (404)"
+  },
+  {
+   "company": "Glofox",
+   "ats": "lever",
+   "error": "board not found (404)"
+  },
+  {
+   "company": "Soapbox Labs",
+   "ats": "lever",
+   "error": "board not found (404)"
+  },
+  {
+   "company": "Payslip",
+   "ats": "lever",
+   "error": "board not found (404)"
+  },
+  {
+   "company": "Cubic Telecom",
+   "ats": "lever",
+   "error": "board not found (404)"
+  },
+  {
+   "company": "Aircall",
+   "ats": "lever",
+   "error": "board not found (404)"
+  },
+  {
+   "company": "HubSpot",
+   "ats": "greenhouse",
+   "error": "board not found (404)"
+  },
+  {
+   "company": "Revolut",
+   "ats": "greenhouse",
+   "error": "board not found (404)"
+  },
+  {
+   "company": "Ubiquity",
+   "ats": "ashby",
+   "error": "board not found (404)"
+  },
+  {
+   "company": "Tessian",
+   "ats": "ashby",
+   "error": "board not found (404)"
+  },
+  {
+   "company": "Energia Group",
+   "ats": "jsonld",
+   "error": "no JobPosting structured data on the page"
+  }
+ ],
  "quarantined_feeds": [
   "Aircall",
   "Capgemini Ireland",
