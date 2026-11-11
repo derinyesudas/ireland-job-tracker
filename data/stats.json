@@ -1,18 +1,18 @@
 {
- "last_run": "2026-11-11T03:21:40+00:00",
+ "last_run": "2026-11-11T11:21:46+00:00",
  "companies_total": 366,
  "companies_scanned": 191,
  "boards_failed": 17,
- "raw_postings": 16224,
- "relevant_jobs": 2423,
+ "raw_postings": 16261,
+ "relevant_jobs": 2426,
  "min_score": 10,
- "new_this_run": 110,
+ "new_this_run": 112,
  "by_band": {
   "excellent": 106,
   "strong": 112,
   "decent": 153,
-  "stretch": 313,
-  "weak": 1739
+  "stretch": 315,
+  "weak": 1740
  },
  "top_errors": [
   {
@@ -56,12 +56,17 @@
    "error": "board not found (404)"
   },
   {
+   "company": "Cubic Telecom",
+   "ats": "lever",
+   "error": "board not found (404)"
+  },
+  {
    "company": "Payslip",
    "ats": "lever",
    "error": "board not found (404)"
   },
   {
-   "company": "Cubic Telecom",
+   "company": "Glofox",
    "ats": "lever",
    "error": "board not found (404)"
   },
@@ -76,11 +81,6 @@
    "error": "board not found (404)"
   },
   {
-   "company": "Glofox",
-   "ats": "lever",
-   "error": "board not found (404)"
-  },
-  {
    "company": "HubSpot",
    "ats": "greenhouse",
    "error": "board not found (404)"
@@ -91,12 +91,12 @@
    "error": "board not found (404)"
   },
   {
-   "company": "Tessian",
+   "company": "Ubiquity",
    "ats": "ashby",
    "error": "board not found (404)"
   },
   {
-   "company": "Ubiquity",
+   "company": "Tessian",
    "ats": "ashby",
    "error": "board not found (404)"
   }
