@@ -1,18 +1,18 @@
 {
- "last_run": "2026-11-12T08:23:05+00:00",
+ "last_run": "2026-11-12T14:58:01+00:00",
  "companies_total": 372,
- "companies_scanned": 197,
- "boards_failed": 18,
- "raw_postings": 16660,
- "relevant_jobs": 2451,
+ "companies_scanned": 372,
+ "boards_failed": 23,
+ "raw_postings": 29854,
+ "relevant_jobs": 2481,
  "min_score": 10,
- "new_this_run": 139,
+ "new_this_run": 274,
  "by_band": {
   "excellent": 110,
   "strong": 111,
-  "decent": 152,
-  "stretch": 329,
-  "weak": 1749
+  "decent": 156,
+  "stretch": 325,
+  "weak": 1779
  },
  "top_errors": [
   {
@@ -26,14 +26,39 @@
    "error": "found 1 job links but none were readable"
   },
   {
-   "company": "LTIMindtree Ireland",
-   "ats": "sitemap",
-   "error": "sitemap had 500 URLs but none looked like jobs"
+   "company": "SAP Ireland",
+   "ats": "joblinks",
+   "error": "HTTP Error 404: Not Found"
+  },
+  {
+   "company": "Dropbox Ireland",
+   "ats": "joblinks",
+   "error": "HTTP Error 403: Forbidden"
+  },
+  {
+   "company": "TELUS Digital",
+   "ats": "joblinks",
+   "error": "HTTP Error 403: Forbidden"
   },
   {
    "company": "Capgemini Ireland",
    "ats": "sitemap",
    "error": "sitemap had 2126 URLs but none looked like jobs"
+  },
+  {
+   "company": "LTIMindtree Ireland",
+   "ats": "sitemap",
+   "error": "sitemap had 500 URLs but none looked like jobs"
+  },
+  {
+   "company": "Kingspan",
+   "ats": "sitemap",
+   "error": "no sitemap found"
+  },
+  {
+   "company": "Cohesity",
+   "ats": "sitemap",
+   "error": "no sitemap found"
   },
   {
    "company": "Alorica Ireland",
@@ -56,31 +81,6 @@
    "error": "board not found (404)"
   },
   {
-   "company": "Glofox",
-   "ats": "lever",
-   "error": "board not found (404)"
-  },
-  {
-   "company": "Payslip",
-   "ats": "lever",
-   "error": "board not found (404)"
-  },
-  {
-   "company": "Aircall",
-   "ats": "lever",
-   "error": "board not found (404)"
-  },
-  {
-   "company": "Cubic Telecom",
-   "ats": "lever",
-   "error": "board not found (404)"
-  },
-  {
-   "company": "Soapbox Labs",
-   "ats": "lever",
-   "error": "board not found (404)"
-  },
-  {
    "company": "HubSpot",
    "ats": "greenhouse",
    "error": "board not found (404)"
@@ -91,8 +91,33 @@
    "error": "board not found (404)"
   },
   {
-   "company": "Tessian",
-   "ats": "ashby",
+   "company": "Energia Group",
+   "ats": "jsonld",
+   "error": "no JobPosting structured data on the page"
+  },
+  {
+   "company": "Soapbox Labs",
+   "ats": "lever",
+   "error": "board not found (404)"
+  },
+  {
+   "company": "Glofox",
+   "ats": "lever",
+   "error": "board not found (404)"
+  },
+  {
+   "company": "Aircall",
+   "ats": "lever",
+   "error": "board not found (404)"
+  },
+  {
+   "company": "Payslip",
+   "ats": "lever",
+   "error": "board not found (404)"
+  },
+  {
+   "company": "Cubic Telecom",
+   "ats": "lever",
    "error": "board not found (404)"
   },
   {
@@ -101,9 +126,9 @@
    "error": "board not found (404)"
   },
   {
-   "company": "Energia Group",
-   "ats": "jsonld",
-   "error": "no JobPosting structured data on the page"
+   "company": "Tessian",
+   "ats": "ashby",
+   "error": "board not found (404)"
   }
  ],
  "quarantined_feeds": [
