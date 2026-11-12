@@ -50,6 +50,24 @@ def test_languages():
     assert not lang("Analyst", "We are a proudly native Irish company.")
     assert not lang("Analyst", "German language skills are a plus.")
     assert not lang("Analyst", "Fluent English and Hindi.")
+    assert lang("Profil Francophone & Televendeur")
+    assert lang("Ionadaí Seirbhíse", "Oibreoidh tú agus foghlaimeoidh tú agus beidh tú agus " * 2)
+    assert not lang("Therapist", "Careers agus Jobs. Equal opportunities agus inclusion.")
+
+
+def test_places():
+    from scraper import filters as F
+    assert not F.is_in_ireland({"title": "Agent", "location": "Le Kram, Kheireddine, Tunis"})
+    assert not F.is_in_ireland({"title": "Call Centre Agent", "location": "ENNISKILLEN"})
+    assert F.is_in_ireland({"title": "Analyst", "location": "Ennis, Co. Clare"})
+    assert F.is_in_ireland({"title": "Analyst", "location": "Dublin 2, Ireland"})
+
+
+def test_tcs_style_page_keeps_its_text():
+    from scraper.ats_extra import _readable_text
+    words = " ".join(["Contact Centre Associate. Location Letterkenny, County Donegal, Ireland."] * 8)
+    page = f"<html><body><form id='aspnetForm'><div>{words}</div></form></body></html>"
+    assert "Letterkenny" in _readable_text(page)
 
 
 def test_bpo_names():

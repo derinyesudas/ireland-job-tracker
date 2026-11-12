@@ -18,8 +18,6 @@ on:
         type: boolean
         default: false
 
-# A normal run takes 12-20 minutes and a full scan longer, so the limit is 60;
-# at 20 a slow run was cancelled mid-scrape and its work lost.
 # Never let two scrapes run at once - they would fight over the data files.
 concurrency:
   group: scrape
@@ -39,6 +37,8 @@ permissions:
 jobs:
   scrape:
     runs-on: ubuntu-latest
+    # A normal run takes 10-20 minutes and a full scan longer; at 20 a slow
+    # run was cancelled mid-scrape and its work lost.
     timeout-minutes: 60
 
     steps:

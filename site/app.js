@@ -162,7 +162,6 @@ function setHidden(id, hidden, reason) {
     STATE[id].hidden = true;
     STATE[id].hiddenAt = new Date().toISOString();
     STATE[id].reason = reason || '';
-    delete STATE[id].sent;
     if (job) STATE[id].snapshot = snapshotOf(job);
   } else {
     delete STATE[id].hidden;
@@ -184,19 +183,22 @@ function snapshotOf(job) {
 
 /* Sends hidden (with reason) and applied jobs to the repo as an issue that a
    workflow logs, so the scraper skips repeats and the report shows which title
-   words to filter. A static site cannot write to the repo any other way. */
+   words to filter. A static site cannot write to the repo any other way.
+   Nothing is marked as sent: the page cannot tell whether the issue was
+   submitted, and the workflow ignores entries it has already logged. */
 function sendFeedback() {
   const rows = [];
   for (const [id, st] of Object.entries(STATE)) {
     const kind = st.hidden ? 'hidden' : isApplied(st.status) ? 'applied' : '';
-    if (!kind || st.sent) continue;
+    if (!kind) continue;
     const j = JOBS.find(x => x.id === id) || st.snapshot || {};
-    if (j.title) rows.push({ kind, id, title: j.title, company: j.company || '', reason: st.reason || '' });
+    if (j.title) rows.push({ kind, id, title: j.title, company: j.company || '',
+                             reason: st.reason || '', at: st.hiddenAt || st.appliedAt || '' });
   }
-  if (!rows.length) { alert('Nothing new to send.'); return; }
-  const batch = rows.slice(0, 25);
-  batch.forEach(r => { STATE[r.id].sent = true; });
-  save();
+  if (!rows.length) { alert('Nothing to send yet: hide or apply to a job first.'); return; }
+  // Newest first, 25 at most, so the address stays short enough for GitHub.
+  const batch = rows.sort((a, b) => b.at.localeCompare(a.at)).slice(0, 25)
+    .map(({ at, ...r }) => r);
   const body = '```json\n' + JSON.stringify(batch) + '\n```';
   window.open('https://github.com/derinyesudas/ireland-job-tracker/issues/new?title=' +
     encodeURIComponent(`feedback: ${batch.length} jobs`) + '&body=' + encodeURIComponent(body), '_blank', 'noopener');

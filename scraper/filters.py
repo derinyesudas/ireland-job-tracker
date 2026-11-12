@@ -29,6 +29,12 @@ IRISH_PLACES = {
     "little island", "mahon", "model farm road", "ballincollig",
 }
 
+# Whole words only: as substrings, "eire" matched a Tunis address
+# ("Kheireddine") and put a Concentrix job in Tunisia on the board.
+IRISH_RE = re.compile(r"\b(" + "|".join(sorted(map(re.escape, IRISH_PLACES), key=len, reverse=True)) + r")\b", re.I)
+IRISH_TOWN_RE = re.compile(r"\b(" + "|".join(sorted((re.escape(p) for p in IRISH_PLACES
+                           if "ireland" not in p and p != "eire"), key=len, reverse=True)) + r")\b", re.I)
+
 # "Dublin" and "Limerick" also exist in the United States. If any of these
 # appear alongside, it is not our Dublin.
 NOT_IRELAND = {
@@ -129,14 +135,14 @@ _LOCATION_FIELD = re.compile(r"\blocation\b\s*[:\-–]?\s*([^•|]{2,70})", re.I
 
 def _says_abroad(text: str) -> bool:
     low = text.lower()
-    return bool(TITLE_ABROAD.search(low)) and not any(p in low for p in IRISH_PLACES)
+    return bool(TITLE_ABROAD.search(low)) and not IRISH_RE.search(low)
 
 
 def _url_abroad(url: str) -> bool:
     import urllib.parse
     path = urllib.parse.unquote(urllib.parse.urlparse(url or "").path or "")
     path = _LOCALE_SEGMENT.sub("/", path)
-    if any(p in path.lower() for p in IRISH_PLACES) or "-irl/" in path.lower():
+    if IRISH_RE.search(path) or "-irl/" in path.lower():
         return False
     if _ISO3_ABROAD.search(path):
         return True
@@ -167,15 +173,14 @@ def clearly_not_ireland(job: dict) -> bool:
     title = (job.get("title") or "").lower()
     # Only when nowhere in the Republic is named too - a role advertised for
     # "Dublin, Ireland; Belfast, County Antrim" is still a Dublin job.
-    if NORTHERN_IRELAND.search(f"{loc} {title}") and not any(
-            p in loc for p in IRISH_PLACES if "ireland" not in p and p != "eire"):
+    if NORTHERN_IRELAND.search(f"{loc} {title}") and not IRISH_TOWN_RE.search(loc):
         return True
     if not loc:
         return (bool(TITLE_ABROAD.search(title)) or _url_abroad(job.get("url") or "")
                 or _description_abroad(job.get("description") or ""))
     # A stated location abroad with nowhere Irish in it. "Administrative
     # Assistant - Ireland" based in Lisbon supports Ireland from Portugal.
-    return bool(TITLE_ABROAD.search(loc)) and not any(p in loc for p in IRISH_PLACES)
+    return bool(TITLE_ABROAD.search(loc)) and not IRISH_RE.search(loc)
 
 
 def is_in_ireland(job: dict, employer_is_irish: bool = False) -> bool:
@@ -201,7 +206,7 @@ def is_in_ireland(job: dict, employer_is_irish: bool = False) -> bool:
     if any(r in loc for r in REMOTE_OK):
         return True
 
-    hit = any(p in text for p in IRISH_PLACES)
+    hit = bool(IRISH_RE.search(text))
     if not hit:
         return False
 

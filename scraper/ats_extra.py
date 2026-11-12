@@ -557,6 +557,13 @@ _STRIP_BLOCKS_RE = re.compile(
     r"<(script|style|noscript|svg|head|nav|header|footer|form|iframe)\b[^>]*>.*?</\1\s*>",
     re.S | re.I,
 )
+# ASP.NET pages (Candidate Manager, TCS) wrap the whole page in one <form>, so
+# stripping forms left those adverts empty. Used when the first pass finds
+# almost nothing; dropdowns go instead, so their option lists stay out.
+_STRIP_BUT_FORMS_RE = re.compile(
+    r"<(script|style|noscript|svg|head|nav|header|footer|select|iframe)\b[^>]*>.*?</\1\s*>",
+    re.S | re.I,
+)
 _BLOCK_END_RE = re.compile(
     r"</(p|div|li|tr|h[1-6]|section|article|br)\s*>|<br\s*/?>", re.I
 )
@@ -589,7 +596,10 @@ def _readable_text(page: str, limit: int = 12000) -> str:
     if m:
         body = m.group(1)
 
-    body = _STRIP_BLOCKS_RE.sub(" ", body)
+    stripped = _STRIP_BLOCKS_RE.sub(" ", body)
+    if len(_TAG_RE.sub(" ", stripped).split()) < 40:
+        stripped = _STRIP_BUT_FORMS_RE.sub(" ", body)
+    body = stripped
     body = _BLOCK_END_RE.sub("\n", body)
     body = _TAG_RE.sub(" ", body)
     body = html.unescape(body)

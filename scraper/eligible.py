@@ -217,7 +217,8 @@ LANGUAGE_TITLE = re.compile(
     r"latam|brazil|japan|korea|slovak|slovenian|bulgarian|ukrainian|croatian|serbian|"
     r"lithuanian|latvian|estonian|icelandic|flemish|catalan|chinese|thai|vietnamese|indonesian|"
     r"malay|tagalog|farsi|persian|urdu|tamil|telugu|bengali|punjabi|gujarati|kannada|nordics?|"
-    r"scandinavian|multilingual|irish[\s-]+speak\w*|gaeilge)\b", re.I)
+    r"scandinavian|multilingual|francophone|germanophone|hispanophone|lusophone|"
+    r"irish[\s-]+speak\w*|gaeilge)\b", re.I)
 
 # Titles that look out-of-field but are hers. Checked first, wins outright.
 RESCUE = re.compile(
@@ -803,6 +804,11 @@ def assess(job: dict) -> dict:
         lang = m.group("a") or m.group("b") or m.group("c") or m.group("d")
         reasons.append({"code": "language", "detail": f"{lang.title()} required", "quote": w})
         break
+    # An advert written in Irish needs Irish whatever its title says. Bilingual
+    # public-sector footers carry "agus" once or twice; a whole advert, dozens.
+    if len(re.findall(r"\bagus\b", flat, re.I)) >= 5:
+        reasons.append({"code": "language", "detail": "Irish required",
+                        "quote": "the advert is written in Irish"})
 
     # 8. hours: anything under 30 a week ----------------------------------------
     hours_reason = None

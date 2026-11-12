@@ -473,8 +473,10 @@ def main() -> int:
     # company reposting the same title, or a title word she keeps rejecting.
     fb = DATA / "feedback.json"
     log = json.loads(fb.read_text(encoding="utf-8")) if fb.exists() else []
-    rejected = {((e.get("company") or "").lower(), (e.get("title") or "").lower())
-                for e in log if e.get("kind") == "hidden"}
+    pair = lambda e: ((e.get("company") or "").lower(), (e.get("title") or "").lower())
+    # Hidden, unless she applied to it later.
+    rejected = ({pair(e) for e in log if e.get("kind") == "hidden"}
+                - {pair(e) for e in log if e.get("kind") == "applied"})
     learned = learned_words(log)
     if learned:
         print(f"  learned from feedback: skipping titles with {sorted(learned)}")

@@ -33,6 +33,8 @@ jobs:
           git config user.name  "job-tracker-bot"
           git config user.email "actions@github.com"
           git add data/feedback.json data/feedback_report.md
+          # The page resends recent jobs each time, so an issue can be all repeats.
+          git diff --staged --quiet && { echo "Nothing new."; exit 0; }
           git commit -m "feedback: log hidden and applied jobs"
           for i in 1 2 3; do
             git pull --rebase --autostash origin main && git push origin main && break
