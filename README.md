@@ -336,7 +336,8 @@ publish job builds it before uploading the page.
   published for a week only ("Dropped this week"), then leave the site.
 - Hiding a job asks why. "Send hidden & applied jobs to the tracker" files a GitHub
   issue that `feedback.yml` logs to `data/feedback.json`; the scraper then skips the
-  same company and title, and `data/feedback_report.md` suggests filter words.
+  same company and title, blocks title words hidden 3+ times as "wrong field" and
+  never applied to, and `data/feedback_report.md` lists the words it is learning.
 - Hidden jobs are forgotten after 7 days.
 - A job that needs a language other than English, Hindi, Malayalam or Marathi is
   removed outright, not even shown under "Dropped this week".
