@@ -107,7 +107,7 @@ let JOBS = [];
 let STATS = {};
 let STATE = load();          // { [jobId]: { status, appliedAt, notes } }
 let QUICK = new Set();
-let TAB = 'crackit';                    // 'crackit' | 'jobs' | 'applied' | 'hidden'
+let TAB = 'crackit';                    // 'crackit' | 'bpo' | 'jobs' | 'applied' | 'hidden'
 let PAGE = 1;
 
 const APPLIED_STATES = ['applied', 'interview', 'offer', 'rejected'];
@@ -229,7 +229,9 @@ function bucketCounts() {
     !j.closed && !isHidden(j.id) && !isApplied(statusOf(j.id))).length;
   const crackit = JOBS.filter(j => j.crack_it && j.eligibility !== 'blocked' &&
     !j.closed && !isHidden(j.id) && !isApplied(statusOf(j.id))).length;
-  return { jobs, applied, hidden, crackit };
+  const bpo = JOBS.filter(j => j.bpo && j.eligibility !== 'blocked' &&
+    !j.closed && !isHidden(j.id) && !isApplied(statusOf(j.id))).length;
+  return { jobs, applied, hidden, crackit, bpo };
 }
 
 function setStatus(id, status) {
@@ -372,7 +374,8 @@ function visible() {
   // Crack-IT is the main board narrowed to the office jobs she can walk into.
   // Score plays no part in it - that is the point of the list - so the score
   // slider and fit band are ignored here and the newest job comes first.
-  const crack = TAB === 'crackit';
+  // The BPO tab works the same way, for the outsourcers she listed.
+  const crack = TAB === 'crackit' || TAB === 'bpo';
   if (TAB !== 'jobs' && !crack) {
     const base = TAB === 'applied' ? appliedJobs() : hiddenJobs();
     const matches = j => !q || searchKey(j).includes(q);
@@ -394,7 +397,8 @@ function visible() {
     ?.classList.contains('on');
 
   let out = JOBS.filter(job => {
-    if (crack && !job.crack_it) return false;
+    if (TAB === 'crackit' && !job.crack_it) return false;
+    if (TAB === 'bpo' && !job.bpo) return false;
     // Dropped jobs are shown for a week only, newest first by the sort below.
     if (ineligibleOnly && !crack) {
       if (job.eligibility !== 'blocked' || (job.first_seen || '') < WEEK_AGO()) return false;
@@ -741,11 +745,14 @@ function render() {
   document.getElementById('t-jobs').textContent = counts.jobs;
   const tc = document.getElementById('t-crackit');
   if (tc) tc.textContent = counts.crackit;
+  document.getElementById('t-bpo').textContent = counts.bpo;
   document.getElementById('t-applied').textContent = counts.applied;
   document.getElementById('t-hidden').textContent = counts.hidden;
   document.getElementById('send-feedback').hidden = !(TAB === 'hidden' || TAB === 'applied');
 
   const EMPTY = {
+    bpo: `<div class="empty"><h3>No BPO jobs match</h3>
+          <p>Clear the search or a filter. New ones arrive with every scan.</p></div>`,
     crackit: `<div class="empty"><h3>No Crack-IT jobs match</h3>
               <p>Clear the search or a filter. New ones arrive with every scan.</p></div>`,
     jobs: `<div class="empty"><h3>Nothing matches those filters</h3>
@@ -766,6 +773,7 @@ function render() {
   document.getElementById('count').textContent = list.length
     ? (TAB === 'jobs' ? `Showing ${list.length} of ${counts.jobs} jobs`
       : TAB === 'crackit' ? `${list.length} Crack-IT ${list.length === 1 ? 'job' : 'jobs'} · newest first`
+      : TAB === 'bpo' ? `${list.length} BPO ${list.length === 1 ? 'job' : 'jobs'} · newest first`
       : `${list.length} ${noun}`)
     : '';
   todayLine();
@@ -1132,8 +1140,9 @@ async function init() {
     document.querySelectorAll('#tabs .tab').forEach(b => b.classList.toggle('on', b === t));
     // The filter panel belongs to the main board only.
     document.getElementById('filters-extra').classList.toggle('hidden-panel',
-      TAB !== 'jobs' && TAB !== 'crackit');
+      TAB !== 'jobs' && TAB !== 'crackit' && TAB !== 'bpo');
     document.body.classList.toggle('tab-crackit', TAB === 'crackit');
+    document.body.classList.toggle('tab-bpo', TAB === 'bpo');
     render();
   });
 

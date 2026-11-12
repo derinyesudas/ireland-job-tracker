@@ -214,7 +214,10 @@ LANGUAGE_TITLE = re.compile(
     r"\b(french|german|italian|spanish|dutch|hebrew|portuguese|polish|japanese|korean|mandarin|"
     r"cantonese|arabic|turkish|greek|czech|hungarian|romanian|russian|swedish|danish|norwegian|"
     r"finnish|italy|france|germany|spain|israel|netherlands|portugal|poland|dach|benelux|iberia|"
-    r"latam|brazil|japan|korea)\b", re.I)
+    r"latam|brazil|japan|korea|slovak|slovenian|bulgarian|ukrainian|croatian|serbian|"
+    r"lithuanian|latvian|estonian|icelandic|flemish|catalan|chinese|thai|vietnamese|indonesian|"
+    r"malay|tagalog|farsi|persian|urdu|tamil|telugu|bengali|punjabi|gujarati|kannada|nordics?|"
+    r"scandinavian|multilingual|irish[\s-]+speak\w*|gaeilge)\b", re.I)
 
 # Titles that look out-of-field but are hers. Checked first, wins outright.
 RESCUE = re.compile(
@@ -424,11 +427,22 @@ NAV_NOISE = re.compile(r"(cookie\s+preferences|accept\s+all\s+cookies|skip\s+to\
 GRAD_TITLE = re.compile(r"\b(graduate|intern|internship|placement|trainee|apprentice|"
                         r"co[- ]?op|early\s+careers?)\b", re.I)
 
-LANGUAGES = re.compile(r"\b(fluent|fluency|native|business\s+level|proficient)\b[^.;]{0,40}?"
-                       r"\b(french|german|spanish|dutch|italian|portuguese|polish|swedish|"
-                       r"danish|norwegian|finnish|czech|hungarian|romanian|greek|turkish|"
-                       r"arabic|mandarin|japanese|korean|hebrew|russian|nordic\s+languages?|"
-                       r"scandinavian\s+languages?|second\s+european\s+language)\b", re.I)
+# Every language she does not speak - she has English, Hindi, Malayalam, Marathi.
+_OTHER_LANGS = (r"french|german|spanish|dutch|italian|portuguese|polish|swedish|danish|"
+                r"norwegian|finnish|icelandic|czech|slovak|slovenian|hungarian|romanian|"
+                r"bulgarian|croatian|serbian|ukrainian|russian|lithuanian|latvian|estonian|"
+                r"greek|turkish|flemish|catalan|arabic|hebrew|farsi|persian|urdu|tamil|telugu|"
+                r"bengali|punjabi|gujarati|kannada|mandarin|cantonese|chinese|japanese|korean|"
+                r"thai|vietnamese|indonesian|malay|tagalog")
+# "Fluent German", "German speaker", "German language skills", "with German
+# language", "fluency in Irish". Irish only in the narrow shapes: "a native
+# Irish company" and "the Irish language" are not requirements.
+LANGUAGES = re.compile(
+    rf"\b(?:fluent|fluency|native|business\s+level|proficient)\b[^.;]{{0,40}}?\b(?P<a>"
+    rf"{_OTHER_LANGS}|nordic\s+languages?|scandinavian\s+languages?|second\s+european\s+language)\b"
+    rf"|\b(?P<b>{_OTHER_LANGS}|irish|gaeilge)[\s-]+(?:language\s+)?(?:speakers?|speaking|fluency|skills)\b"
+    rf"|\b(?:fluen\w+|proficien\w+)\s+(?:in\s+)?(?P<c>irish|gaeilge)\b"
+    rf"|\b(?P<d>{_OTHER_LANGS})\s+language\b", re.I)
 
 # She graduated in August 2026. A "graduate programme" that requires you to
 # still be enrolled, or to return to college afterwards, is an internship in
@@ -786,7 +800,8 @@ def assess(job: dict) -> dict:
         w = _clause(flat, m.start(), m.end())
         if SOFT_EXPERIENCE.search(w) or SOFT_MENTION.search(w):
             continue
-        reasons.append({"code": "language", "detail": f"{m.group(2).title()} required", "quote": w})
+        lang = m.group("a") or m.group("b") or m.group("c") or m.group("d")
+        reasons.append({"code": "language", "detail": f"{lang.title()} required", "quote": w})
         break
 
     # 8. hours: anything under 30 a week ----------------------------------------

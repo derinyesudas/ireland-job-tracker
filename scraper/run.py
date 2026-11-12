@@ -55,6 +55,15 @@ MAX_AGE_DAYS = 45
 # scores in double figures is ever dropped, so every borderline case survives.
 MIN_SCORE = 10
 SHARD_COUNT = 8
+
+# The outsourcers she listed in November 2026, matched on the employer's name
+# alone. Their jobs get the BPO tab, and their boards are read every run.
+BPO = re.compile(
+    r"\b(teleperformance|accenture|telus|voxpro|covalen|version\s*1|cognizant|tcs|"
+    r"tata\s+consultancy|infosys|hcl\w*|fexco|capgemini|wipro|auxilion|dxc|conduent|"
+    r"foundever|concentrix|genpact|exl|sutherland|firstsource|tech\s+mahindra|cpm|"
+    r"interaction\s+europe|arema|adec|arise|rigney\s+dolphin|complete\s+outsource|"
+    r"waynua|uniquely|rendition\s*digital|kendlebell)\b", re.I)
 WORKERS = {
     "greenhouse": 12,
     "lever": 12,
@@ -98,8 +107,9 @@ def pick_shard(companies: list[dict], full: bool, health: dict | None = None) ->
     slot = int(time.time() // 900)
 
     live = [c for c in companies if not is_quarantined(c.get("name", ""), health, slot)]
-    priority = [c for c in live if c.get("priority")]
-    rest = [c for c in live if not c.get("priority")]
+    first = lambda c: c.get("priority") or BPO.search(c.get("name", ""))
+    priority = [c for c in live if first(c)]
+    rest = [c for c in live if not first(c)]
 
     # Rotate the shard by a 15-minute slot number so consecutive runs move on.
     shard = [c for i, c in enumerate(rest) if i % SHARD_COUNT == slot % SHARD_COUNT]
@@ -178,6 +188,12 @@ def _is_a_real_posting(job: dict) -> bool:
     except ImportError:  # pragma: no cover
         return True
     return _looks_like_a_title(title)
+
+
+def _listed_apart(job: dict) -> bool:
+    """Crack-IT and BPO jobs have lists of their own, so the score floor and the
+    weak-fit gate do not apply to them."""
+    return bool(crackit.assess(job, "eligible") or BPO.search(job.get("company") or ""))
 
 
 def dedupe_key(job: dict) -> tuple:
@@ -262,11 +278,9 @@ def main() -> int:
     # -------------------------------------------------------- drop the no-hopers
     # A Crack-IT title is never "wrong field" - that list exists precisely
     # because its jobs score low - so the floor does not apply to it.
-    below = [j for j in kept if j.get("score", 0) < MIN_SCORE
-             and not crackit.assess(j, "eligible")]
+    below = [j for j in kept if j.get("score", 0) < MIN_SCORE and not _listed_apart(j)]
     if below:
-        kept = [j for j in kept if j.get("score", 0) >= MIN_SCORE
-                or crackit.assess(j, "eligible")]
+        kept = [j for j in kept if j.get("score", 0) >= MIN_SCORE or _listed_apart(j)]
         print(f"  dropped {len(below)} jobs scoring under {MIN_SCORE} - wrong field, not near misses")
 
     # ------------------------------------------------------------- deduplicate
@@ -431,8 +445,7 @@ def main() -> int:
     # otherwise jobs that scored above it under the old model would sit there
     # for the full 45-day retention.
     before_floor = len(fresh)
-    fresh = [j for j in fresh if j.get("score", 0) >= MIN_SCORE
-             or crackit.assess(j, "eligible")]
+    fresh = [j for j in fresh if j.get("score", 0) >= MIN_SCORE or _listed_apart(j)]
     floored = before_floor - len(fresh)
     if floored:
         print(f"  removed {floored} existing jobs now scoring under {MIN_SCORE}")
@@ -482,9 +495,10 @@ def main() -> int:
             job["eligibility_reasons"] = v["reasons"] + [
                 {"code": "feedback", "detail": why, "quote": job.get("title", "")}]
             v = dict(v, status="blocked")
+        job["bpo"] = bool(BPO.search(job.get("company") or ""))
         # A weak fit is a job she would not apply to; keep it, but off the board.
         if job.get("band") == "weak" and v["status"] != "blocked" \
-                and not crackit.assess(job, v["status"]):
+                and not crackit.assess(job, v["status"]) and not job["bpo"]:
             job["eligibility"] = "blocked"
             job["eligibility_reasons"] = v["reasons"] + [
                 {"code": "fit", "detail": "weak profile fit", "quote": job.get("title", "")}]
@@ -493,6 +507,12 @@ def main() -> int:
         # score cannot bury them.
         job["crack_it"] = crackit.assess(job, v["status"])
         verdicts[v["status"]] += 1
+    # A job that needs a language other than English, Hindi, Malayalam or
+    # Marathi is no use to her, so it leaves the board entirely.
+    before_lang = len(fresh)
+    fresh = [j for j in fresh
+             if not any(r["code"] == "language" for r in j["eligibility_reasons"])]
+    print(f"  removed {before_lang - len(fresh)} jobs that need a language she does not speak")
     print(f"  eligibility: {verdicts['eligible']} eligible, "
           f"{verdicts['flagged']} flagged, {verdicts['blocked']} blocked")
     print(f"  on the Critical Skills list: {sum(1 for j in fresh if j.get('csol'))}")

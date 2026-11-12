@@ -338,6 +338,13 @@ publish job builds it before uploading the page.
   issue that `feedback.yml` logs to `data/feedback.json`; the scraper then skips the
   same company and title, and `data/feedback_report.md` suggests filter words.
 - Hidden jobs are forgotten after 7 days.
+- A job that needs a language other than English, Hindi, Malayalam or Marathi is
+  removed outright, not even shown under "Dropped this week".
+- The **BPO** tab lists jobs at the outsourcers in `BPO` in `scraper/run.py`, matched
+  on the employer's name. Like Crack-IT, the fit score does not hide them, and their
+  boards are read on every run.
+- New employers go in `data/candidates.json`; pushing that file runs `adopt.yml`,
+  which verifies each feed and adds the working ones.
 
 ## Notes and limits
 

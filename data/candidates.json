@@ -11,7 +11,9 @@
   "urls": [
    "https://www.fexco.com/careers/",
    "https://careers.fexco.com/"
-  ]
+  ],
+  "ats": "pinpoint",
+  "token": "fexco"
  },
  {
   "name": "Dun & Bradstreet",
@@ -484,5 +486,35 @@
   "urls": [
    "https://www.usit.ie/careers"
   ]
+ },
+ {
+  "name": "TCS Ireland",
+  "urls": [
+   "https://www.tcs.com/careers/ireland"
+  ],
+  "ats": "candidatemanager",
+  "token": "https://www.candidatemanager.net/cm/p/pJobs.aspx?mid=CXAZAZB&sid=YYAZD"
+ },
+ {
+  "name": "Covalen",
+  "urls": [
+   "https://covalensolutions.com/our-company/careers"
+  ],
+  "ats": "sociablekit",
+  "token": "94771"
+ },
+ {
+  "name": "Infosys BPM",
+  "urls": [
+   "https://globalcareers.infosysbpm.com/infosysbpm/ireland"
+  ],
+  "ats": "joblinks",
+  "token": "https://globalcareers.infosysbpm.com/infosysbpm/ireland"
+ },
+ {
+  "name": "TELUS Digital",
+  "fix": true,
+  "ats": "joblinks",
+  "token": "https://jobs.telusdigital.com/search/jobs/in/country/ireland"
  }
 ]

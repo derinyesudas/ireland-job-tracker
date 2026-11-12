@@ -1149,7 +1149,27 @@ def amazonjobs(token: str) -> list[dict]:
     return out
 
 
+# --------------------------------------------------------------- SociableKIT
+# Covalen's careers page is a SociableKIT widget mirroring its LinkedIn job
+# posts, and the widget draws from a public JSON feed. Token: the embed id.
+
+def sociablekit(token: str) -> list[dict]:
+    rows = (_get(f"https://data.accentapi.com/feed/{token}.json") or {}).get("posts") or []
+    if not rows:
+        raise FetchError("sociablekit: no posts")
+    return [{
+        "id": str(r.get("job_id", "")),
+        "title": r.get("job_title", ""),
+        "location": r.get("location", ""),
+        "url": r.get("job_link", ""),
+        "description": r.get("description", ""),
+        "posted": r.get("date", ""),
+        "employment_type": r.get("employment_type", ""),
+    } for r in rows if isinstance(r, dict)]
+
+
 MORE_FETCHERS = {
+    "sociablekit": sociablekit,
     "icims": icims,
     "taleo": taleo,
     "avature": avature,

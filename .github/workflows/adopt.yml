@@ -9,6 +9,11 @@ name: Adopt readable employers
 # was left behind.
 
 on:
+  # Editing the candidate list adopts it, with no one pressing Run. A push run
+  # skips the register sweep, which takes up to half an hour.
+  push:
+    branches: [main]
+    paths: ["data/candidates.json"]
   workflow_dispatch:
     inputs:
       extra:
@@ -64,6 +69,7 @@ jobs:
         run: |
           ARGS=()
           [ "$DRY" = "true" ] && ARGS+=(--dry-run)
+          [ "${{ github.event_name }}" = "push" ] && ARGS+=(--no-sweep)
           python scripts/adopt.py --only "$ONLY" --extra "$EXTRA" \
             --drop "$DROP" "${ARGS[@]}" | tee adopt.log
 

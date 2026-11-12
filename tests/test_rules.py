@@ -40,6 +40,26 @@ def test_learned_words():
     assert learned_words(log + [{"kind": "applied", "title": "Procurement Assistant"}]) == set()
 
 
+def test_languages():
+    lang = lambda t, d="": any(r["code"] == "language" for r in E.assess({"title": t, "description": d})["reasons"])
+    assert lang("Claims Analyst - Slovak")
+    assert lang("Customer Support (Multilingual with Italian)")
+    assert lang("Analyst", "German language skills (written and spoken).")
+    assert lang("Analyst", "Fluency in Irish is essential.")
+    assert not lang("Customer Service Advisor - Irish Life")
+    assert not lang("Analyst", "We are a proudly native Irish company.")
+    assert not lang("Analyst", "German language skills are a plus.")
+    assert not lang("Analyst", "Fluent English and Hindi.")
+
+
+def test_bpo_names():
+    from scraper.run import BPO
+    for n in ("TCS Ireland", "Covalen", "Infosys BPM", "HCLTech Ireland", "Version 1", "TELUS Digital"):
+        assert BPO.search(n), n
+    for n in ("Irish Life Group", "Version 10 Ltd", "Sunrise Ltd", "Excel Recruitment"):
+        assert not BPO.search(n), n
+
+
 if __name__ == "__main__":
     for name, fn in list(globals().items()):
         if name.startswith("test_"):

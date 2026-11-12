@@ -246,8 +246,9 @@ from urllib.parse import urljoin, urlparse, urldefrag  # noqa: E402
 HREF_RE = re.compile(r'<a\b[^>]*\bhref=["\']([^"\'#][^"\']*)["\']', re.I)
 
 # A link to one specific job, rather than to a category or a search page.
+# "company-job" is Infosys BPM's: ".../company-job/description/reqid/155089BR".
 JOB_PATH_RE = re.compile(
-    r"/(job|jobs|career|careers|vacancy|vacancies|position|positions|"
+    r"/(job|jobs|company-job|career|careers|vacancy|vacancies|position|positions|"
     r"opening|openings|opportunity|opportunities|requisition|role|roles)"
     r"[/-][^/?#]{3,}",
     re.I,

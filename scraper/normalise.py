@@ -596,7 +596,7 @@ def _make_common(source: str):
 
 for _src in ("icims", "taleo", "avature", "cornerstone", "teamtailor", "occupop",
              "hirehive", "eightfold", "jobvite", "bamboohr", "rippling",
-    "talentbrew", "jibe", "amazonjobs",
+    "talentbrew", "jibe", "amazonjobs", "sociablekit",
 ):
     NORMALISERS[_src] = _make_common(_src)
 

@@ -179,6 +179,8 @@ def main() -> int:
     ap.add_argument("--drop", default="",
                     help="remove tracked employers by name (comma separated) "
                          "and do nothing else")
+    ap.add_argument("--no-sweep", action="store_true",
+                    help="only the candidate list, not the register sweep")
     args = ap.parse_args()
 
     # Removing a feed has to be as easy as adding one. IDA Ireland was adopted
@@ -347,7 +349,8 @@ def main() -> int:
 
     # 2. the register sweep
     from concurrent.futures import ThreadPoolExecutor, as_completed
-    todo = [(row.get("company") or row.get("name") or "", row["careers_url"])
+    todo = [] if args.no_sweep else [
+            (row.get("company") or row.get("name") or "", row["careers_url"])
             for row in register
             if row.get("careers_url")
             and (row.get("company") or row.get("name") or "").lower() not in tracked_names
