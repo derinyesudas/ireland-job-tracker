@@ -493,7 +493,8 @@
    "https://www.tcs.com/careers/ireland"
   ],
   "ats": "candidatemanager",
-  "token": "https://www.candidatemanager.net/cm/p/pJobs.aspx?mid=CXAZAZB&sid=YYAZD"
+  "token": "https://www.candidatemanager.net/cm/p/pJobs.aspx?mid=CXAZAZB&sid=YYAZD",
+  "fix": true
  },
  {
   "name": "Covalen",
