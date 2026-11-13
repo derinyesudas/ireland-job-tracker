@@ -23,6 +23,7 @@ import os
 import re
 import sys
 import time
+import urllib.parse
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
@@ -194,6 +195,20 @@ def _listed_apart(job: dict) -> bool:
     """Crack-IT and BPO jobs have lists of their own, so the score floor and the
     weak-fit gate do not apply to them."""
     return bool(crackit.assess(job, "eligible") or BPO.search(job.get("company") or ""))
+
+
+_NOISE_PARAM = re.compile(r"^(utm_\w+|lang|hslang|locale|domain|source|src|ref|trk)$", re.I)
+
+
+def job_address(url: str) -> str:
+    """A job's address with tracking and language tags removed. The rest of the
+    query stays: Candidate Manager and embedded Greenhouse boards keep every job
+    at one page and tell them apart only by it ("?jid=...", "?gh_jid=..."), so
+    cutting at "?" merged all of TCS's jobs into one."""
+    p = urllib.parse.urlsplit(url)
+    q = [(k, v) for k, v in urllib.parse.parse_qsl(p.query) if not _NOISE_PARAM.match(k)]
+    return urllib.parse.urlunsplit(("", p.netloc.lower(), p.path.rstrip("/"),
+                                    urllib.parse.urlencode(q), ""))
 
 
 def dedupe_key(job: dict) -> tuple:
@@ -394,7 +409,7 @@ def main() -> int:
     # scoring highest - the copy whose page gave up the most information.
     best: dict[str, dict] = {}
     for job in fresh:
-        u = (job.get("url") or "").split("?")[0].rstrip("/")
+        u = job_address(job.get("url") or "")
         if not u:
             best[job["id"]] = job         # nothing to compare on, so keep it
             continue

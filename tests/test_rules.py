@@ -70,6 +70,15 @@ def test_tcs_style_page_keeps_its_text():
     assert "Letterkenny" in _readable_text(page)
 
 
+def test_job_address():
+    from scraper.run import job_address as A
+    cm = "https://www.candidatemanager.net/cm/p/pJobDetails.aspx?mid=X&jid="
+    assert A(cm + "1") != A(cm + "2")                      # TCS jobs stay apart
+    assert A("https://stripe.com/jobs/search?gh_jid=1") != A("https://stripe.com/jobs/search?gh_jid=2")
+    assert A("https://careers.axa.com/jobs/28794?lang=en-us") == A("https://careers.axa.com/jobs/28794/")
+    assert A("https://x.com/job/1?utm_source=rss") == A("https://x.com/job/1")
+
+
 def test_bpo_names():
     from scraper.run import BPO
     for n in ("TCS Ireland", "Covalen", "Infosys BPM", "HCLTech Ireland", "Version 1", "TELUS Digital"):
