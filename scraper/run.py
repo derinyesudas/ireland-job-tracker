@@ -233,6 +233,9 @@ def main() -> int:
     # closed if its own board was read and did not mention it; most runs scan a
     # shard, so absence on its own proves nothing.
     scanned_companies: set[str] = set()
+    # Per BPO employer: how many jobs its board gave, and why any were dropped.
+    # Published in stats.json, so a feed that silently yields nothing shows why.
+    bpo_feeds: dict[str, dict] = {}
 
     for ats, group in by_ats.items():
         workers = WORKERS.get(ats, DEFAULT_WORKERS)
@@ -249,6 +252,8 @@ def main() -> int:
                     entry["last_error"] = err[:120]
                 else:
                     all_jobs.extend(jobs)
+                    if BPO.search(name):
+                        bpo_feeds[name] = {"fetched": len(jobs), "dropped": {}}
                     entry["fails"] = 0
                     scanned_companies.add(name)
                     entry["last_ok"] = now_iso()
@@ -267,6 +272,9 @@ def main() -> int:
                                   company_meta=meta)
         if not ok:
             drop_reasons[reason] = drop_reasons.get(reason, 0) + 1
+            if job["company"] in bpo_feeds:
+                d = bpo_feeds[job["company"]]["dropped"]
+                d[reason] = d.get(reason, 0) + 1
             continue
         result = score.score_job(job, profile, meta)
         job.update(result)
@@ -538,6 +546,7 @@ def main() -> int:
         "new_this_run": new_count,
         "by_band": {},
         "top_errors": errors[:25],
+        "bpo_feeds": bpo_feeds,
     }
     for job in fresh:
         b = job.get("band", "weak")
