@@ -79,6 +79,14 @@ def test_job_address():
     assert A("https://x.com/job/1?utm_source=rss") == A("https://x.com/job/1")
 
 
+def test_same_title_no_location_kept_apart():
+    from scraper.run import dedupe_key as K
+    a = {"company": "TCS Ireland", "title": "Customer Service Representative", "location": "", "description": "Ref 120826 pensions team"}
+    b = dict(a, description="Ref 221026 energy team")
+    assert K(a) != K(b) and K(a) == K(dict(a))
+    assert K(dict(a, location="Dublin")) == K(dict(b, location="Dublin"))
+
+
 def test_bpo_names():
     from scraper.run import BPO
     for n in ("TCS Ireland", "Covalen", "Infosys BPM", "HCLTech Ireland", "Version 1", "TELUS Digital"):

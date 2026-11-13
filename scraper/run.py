@@ -215,6 +215,10 @@ def dedupe_key(job: dict) -> tuple:
     """One employer advertising one title in one place is one job."""
     title = re.sub(r"[^a-z0-9]+", " ", (job.get("title") or "").lower()).strip()
     place = re.sub(r"[^a-z0-9]+", " ", (job.get("location") or "").lower()).strip()
+    if not place:
+        # No location to tell two adverts apart - TCS has two different
+        # "Customer Service Representative" roles - so the advert's opening must.
+        place = re.sub(r"[^a-z0-9]+", " ", (job.get("description") or "").lower())[:300]
     return (job.get("company", ""), title, place)
 
 
