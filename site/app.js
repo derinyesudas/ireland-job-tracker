@@ -105,6 +105,11 @@ const THEME_KEY = 'ijt-theme';
 
 let JOBS = [];
 let STATS = {};
+// Declared before load() runs: as a const further down it was not yet set
+// when load() read it, so every page load started from an empty list and
+// the next click saved over all her applied and hidden marks.
+const HIDDEN_DAYS = 7;
+const WEEK_AGO = () => new Date(Date.now() - 7 * 864e5).toISOString();
 let STATE = load();          // { [jobId]: { status, appliedAt, notes } }
 let QUICK = new Set();
 let TAB = 'crackit';                    // 'crackit' | 'bpo' | 'jobs' | 'applied' | 'hidden'
@@ -133,8 +138,6 @@ const isApplied = st => APPLIED_STATES.includes(st);
 
 /* ------------------------------------------------------------ local state */
 
-const HIDDEN_DAYS = 7;
-const WEEK_AGO = () => new Date(Date.now() - 7 * 864e5).toISOString();
 function load() {
   try {
     const s = JSON.parse(localStorage.getItem(STORE_KEY)) || {};
@@ -169,6 +172,34 @@ function setHidden(id, hidden, reason) {
   }
   save();
   render();
+}
+
+/* A job's id comes from its title and address, so when an employer's feed
+   changes ("Customer Support Specialist - Cork" became "Customer Support
+   Specialist" at TELUS) the same vacancy arrives under a new id, and a job
+   marked applied came back as new. Marks follow the vacancy: a mark whose job
+   is gone or closed moves to the same employer's open job at the same path.
+   The host is left out - TELUS moved from careers. to jobs.telusdigital.com. */
+const vacancyOf = j => (j.company || '').toLowerCase() + '|' + (j.url || '').toLowerCase()
+  .split('#')[0].replace(/^https?:\/\/[^/]+/, '')
+  .replace(/[?&](utm_[a-z]+|lang|hslang|locale|source|src|ref)=[^&]*/g, '')
+  .replace(/[?&]$/, '').replace(/\/+$/, '');
+function followMovedJobs() {
+  const byId = new Map(JOBS.map(j => [j.id, j]));
+  const open = new Map();
+  JOBS.forEach(j => { if (!j.closed && j.url) open.set(vacancyOf(j), j); });
+  let moved = 0;
+  for (const [id, st] of Object.entries(STATE)) {
+    const now = byId.get(id);
+    if (now && !now.closed) continue;
+    const was = now || st.snapshot;
+    const twin = was && was.url && open.get(vacancyOf(was));
+    if (!twin || twin.id === id || STATE[twin.id]) continue;
+    STATE[twin.id] = st;
+    delete STATE[id];
+    moved++;
+  }
+  if (moved) save();
 }
 
 function snapshotOf(job) {
@@ -381,8 +412,10 @@ function visible() {
   if (TAB !== 'jobs' && !crack) {
     const base = TAB === 'applied' ? appliedJobs() : hiddenJobs();
     const matches = j => !q || searchKey(j).includes(q);
+    // Most recently applied (or hidden) first.
+    const when = j => (STATE[j.id] || {}).appliedAt || (STATE[j.id] || {}).hiddenAt || '';
     return base.filter(matches).sort((a, b) =>
-      searchRank(a, q) - searchRank(b, q) || (b.score || 0) - (a.score || 0));
+      searchRank(a, q) - searchRank(b, q) || when(b).localeCompare(when(a)));
   }
 
   const minScore = +document.getElementById('minscore').value;
@@ -1055,6 +1088,7 @@ async function init() {
                : Promise.resolve(fresh)
     ]);
     JOBS = jobs; STATS = stats;
+    followMovedJobs();
   } catch (err) {
     document.getElementById('jobs').innerHTML =
       `<div class="empty"><h3>No job data yet</h3>
