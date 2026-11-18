@@ -1,32 +1,123 @@
 {
- "last_run": "2026-11-17T18:06:48+00:00",
+ "last_run": "2026-11-18T00:31:59+00:00",
  "companies_total": 373,
- "companies_scanned": 179,
- "boards_failed": 2,
- "raw_postings": 16824,
- "relevant_jobs": 2589,
+ "companies_scanned": 198,
+ "boards_failed": 19,
+ "raw_postings": 16434,
+ "relevant_jobs": 2580,
  "min_score": 10,
- "new_this_run": 92,
+ "new_this_run": 105,
  "by_band": {
-  "excellent": 109,
-  "strong": 120,
+  "excellent": 108,
+  "strong": 119,
   "decent": 166,
   "stretch": 338,
-  "weak": 1856
+  "weak": 1849
  },
  "top_errors": [
   {
-   "company": "Teleperformance Ireland (TP)",
+   "company": "Guidewire Ireland",
    "ats": "joblinks",
-   "error": "<urlopen error [Errno -2] Name or service not known>"
+   "error": "HTTP Error 429: Too Many Requests"
   },
   {
-   "company": "Arvato / Majorel Ireland",
+   "company": "PayPal Ireland",
    "ats": "joblinks",
-   "error": "<urlopen error [Errno -2] Name or service not known>"
+   "error": "found 1 job links but none were readable"
+  },
+  {
+   "company": "Ergo",
+   "ats": "joblinks",
+   "error": "HTTP Error 522: <none>"
+  },
+  {
+   "company": "Capgemini Ireland",
+   "ats": "sitemap",
+   "error": "sitemap had 2129 URLs but none looked like jobs"
+  },
+  {
+   "company": "LTIMindtree Ireland",
+   "ats": "sitemap",
+   "error": "sitemap had 500 URLs but none looked like jobs"
+  },
+  {
+   "company": "Alorica Ireland",
+   "ats": "oraclecloud",
+   "error": "HTTP Error 503: Service Unavailable"
+  },
+  {
+   "company": "SoftCo",
+   "ats": "hirehive",
+   "error": "hirehive: no feed"
+  },
+  {
+   "company": "Wrkit",
+   "ats": "recruitee",
+   "error": "board not found (404)"
+  },
+  {
+   "company": "Nostra",
+   "ats": "workable",
+   "error": "board not found (404)"
+  },
+  {
+   "company": "Glofox",
+   "ats": "lever",
+   "error": "board not found (404)"
+  },
+  {
+   "company": "Aircall",
+   "ats": "lever",
+   "error": "board not found (404)"
+  },
+  {
+   "company": "Payslip",
+   "ats": "lever",
+   "error": "board not found (404)"
+  },
+  {
+   "company": "Cubic Telecom",
+   "ats": "lever",
+   "error": "board not found (404)"
+  },
+  {
+   "company": "Soapbox Labs",
+   "ats": "lever",
+   "error": "board not found (404)"
+  },
+  {
+   "company": "Revolut",
+   "ats": "greenhouse",
+   "error": "board not found (404)"
+  },
+  {
+   "company": "HubSpot",
+   "ats": "greenhouse",
+   "error": "board not found (404)"
+  },
+  {
+   "company": "Tessian",
+   "ats": "ashby",
+   "error": "board not found (404)"
+  },
+  {
+   "company": "Ubiquity",
+   "ats": "ashby",
+   "error": "board not found (404)"
+  },
+  {
+   "company": "Energia Group",
+   "ats": "jsonld",
+   "error": "no JobPosting structured data on the page"
   }
  ],
  "bpo_feeds": {
+  "Teleperformance Ireland (TP)": {
+   "fetched": 2,
+   "dropped": {
+    "not in Ireland": 1
+   }
+  },
   "Foundever Ireland": {
    "fetched": 1,
    "dropped": {
@@ -45,7 +136,7 @@
    "dropped": {}
   },
   "TELUS Digital": {
-   "fetched": 11,
+   "fetched": 10,
    "dropped": {}
   },
   "Concentrix Ireland": {
@@ -55,16 +146,16 @@
     "not in Ireland": 496
    }
   },
+  "Genpact Ireland": {
+   "fetched": 1707,
+   "dropped": {
+    "not in Ireland": 1707
+   }
+  },
   "DXC Technology Ireland": {
    "fetched": 210,
    "dropped": {
     "not in Ireland": 210
-   }
-  },
-  "Genpact Ireland": {
-   "fetched": 1741,
-   "dropped": {
-    "not in Ireland": 1741
    }
   },
   "Accenture": {
@@ -72,27 +163,28 @@
    "dropped": {}
   },
   "Cognizant Ireland": {
-   "fetched": 37,
+   "fetched": 45,
    "dropped": {
-    "not in Ireland": 30
+    "not in Ireland": 45
    }
   },
   "Wipro Ireland": {
-   "fetched": 42,
+   "fetched": 45,
    "dropped": {
-    "not in Ireland": 42
+    "not in Ireland": 45
    }
   },
   "HCLTech Ireland": {
-   "fetched": 43,
+   "fetched": 42,
    "dropped": {
-    "not in Ireland": 43
+    "not in Ireland": 41,
+    "senior role": 1
    }
   },
   "Sutherland Ireland": {
-   "fetched": 41,
+   "fetched": 43,
    "dropped": {
-    "not in Ireland": 46
+    "not in Ireland": 60
    }
   },
   "EXL Service Ireland": {
@@ -115,7 +207,7 @@
    }
   },
   "TCS Ireland": {
-   "fetched": 25,
+   "fetched": 23,
    "dropped": {
     "senior role": 7
    }
